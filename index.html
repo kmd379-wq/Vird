@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Micro Shop — Autonomous Mini Stores for Direct Trade Retail</title>
+  <meta name="description" content="Micro Shop is a modular autonomous retail platform that connects suppliers and buyers through smart cabinets, automated checkout, and location-based direct trade infrastructure.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="container">
+      <a href="#product" class="logo">Micro<span>Shop</span></a>
+      <ul class="nav-links">
+        <li><a href="#product">Product</a></li>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#platform">Platform</a></li>
+        <li><a href="#suppliers">Suppliers</a></li>
+        <li><a href="#locations">Locations</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#partnerships">Partnerships</a></li>
+      </ul>
+      <a href="#partnerships" class="nav-cta">Request partnership</a>
+    </div>
+  </nav>
+
+  <!-- 1. HERO -->
+  <section id="product" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <p class="eyebrow">Autonomous retail infrastructure</p>
+        <h1>Autonomous mini stores for direct trade between suppliers and buyers</h1>
+        <p class="hero-lead">Micro Shop is a modular smart retail system that combines connected product cabinets, automated checkout, and a platform layer that allows suppliers to sell directly in high-traffic locations without a traditional retail intermediary.</p>
+        <div class="hero-actions">
+          <a href="#partnerships" class="btn btn-primary">Request partnership</a>
+          <a href="#platform" class="btn btn-secondary">Explore the platform</a>
+        </div>
+        <p class="hero-support">Built for residential towers, office buildings, malls, gas stations, and other space-constrained locations.</p>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <p class="hero-visual-label">Platform flow — buyer · platform · supplier</p>
+        <svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram: buyer connects through Micro Shop platform to supplier network">
+          <!-- Cabinets row -->
+          <rect class="diagram-box" x="20" y="20" width="60" height="80" rx="1"/>
+          <rect class="diagram-box" x="90" y="20" width="60" height="80" rx="1"/>
+          <rect class="diagram-box" x="160" y="20" width="60" height="80" rx="1"/>
+          <rect class="diagram-box" x="230" y="20" width="60" height="80" rx="1"/>
+          <rect class="diagram-teal" x="300" y="20" width="60" height="80" rx="1" opacity="0.15"/>
+          <rect class="diagram-teal-stroke" x="300" y="20" width="60" height="80" rx="1"/>
+          <text class="diagram-label" x="50" y="115" text-anchor="middle">Cabinet</text>
+          <text class="diagram-label" x="120" y="115" text-anchor="middle">Cabinet</text>
+          <text class="diagram-label" x="190" y="115" text-anchor="middle">Cabinet</text>
+          <text class="diagram-label" x="260" y="115" text-anchor="middle">Cabinet</text>
+          <text class="diagram-label" x="330" y="115" text-anchor="middle">Entry</text>
+          <text class="diagram-title" x="240" y="12" text-anchor="middle">Modular mini store</text>
+
+          <!-- Platform layer -->
+          <rect class="diagram-teal" x="40" y="150" width="400" height="48" rx="1" opacity="0.9"/>
+          <text fill="#fff" font-family="Syne, sans-serif" font-size="13" font-weight="700" x="240" y="180" text-anchor="middle">Micro Shop Platform</text>
+          <text fill="rgba(255,255,255,0.7)" font-family="IBM Plex Sans, sans-serif" font-size="9" x="240" y="192" text-anchor="middle">checkout · inventory · supplier orchestration</text>
+
+          <!-- Flow arrows -->
+          <line stroke="#0f4d4d" stroke-width="1.5" x1="80" y1="210" x2="80" y2="240"/>
+          <polygon fill="#0f4d4d" points="80,240 76,232 84,232"/>
+          <line stroke="#0f4d4d" stroke-width="1.5" x1="240" y1="210" x2="240" y2="240"/>
+          <polygon fill="#0f4d4d" points="240,240 236,232 244,232"/>
+          <line stroke="#0f4d4d" stroke-width="1.5" x1="400" y1="210" x2="400" y2="240"/>
+          <polygon fill="#0f4d4d" points="400,240 396,232 404,232"/>
+
+          <!-- Three nodes -->
+          <rect class="diagram-box" x="40" y="250" width="80" height="56" rx="1"/>
+          <text class="diagram-title" x="80" y="275" text-anchor="middle">Buyer</text>
+          <text class="diagram-label" x="80" y="292" text-anchor="middle">app · session</text>
+
+          <rect class="diagram-teal-stroke" x="200" y="250" width="80" height="56" rx="1"/>
+          <text class="diagram-title" x="240" y="275" text-anchor="middle">Platform</text>
+          <text class="diagram-label" x="240" y="292" text-anchor="middle">edge + cloud</text>
+
+          <rect class="diagram-box" x="360" y="250" width="80" height="56" rx="1"/>
+          <text class="diagram-title" x="400" y="275" text-anchor="middle">Supplier</text>
+          <text class="diagram-label" x="400" y="292" text-anchor="middle">direct trade</text>
+
+          <!-- Horizontal connectors -->
+          <line stroke="#0f4d4d" stroke-width="1" stroke-dasharray="4 3" x1="120" y1="278" x2="200" y2="278"/>
+          <line stroke="#0f4d4d" stroke-width="1" stroke-dasharray="4 3" x1="280" y1="278" x2="360" y2="278"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. VALUE PROPOSITION -->
+  <section id="value">
+    <div class="container">
+      <div class="section-header row">
+        <div>
+          <p class="eyebrow">Value proposition</p>
+          <h2 class="section-title">A new retail layer without the traditional retailer</h2>
+        </div>
+        <p class="section-body">Traditional retail adds cost, slows supplier access to new locations, and creates friction for buyers looking for everyday convenience. Micro Shop replaces that model with a direct trade platform where intelligent hardware, software, and automation connect supply and demand in a compact autonomous format.</p>
+      </div>
+      <div class="value-grid">
+        <div class="value-card featured">
+          <span class="card-num">01</span>
+          <h3>Direct access for suppliers to premium micro-locations</h3>
+          <p>Place products where foot traffic is highest — without the margin loss and delay of conventional retail channels.</p>
+        </div>
+        <div class="value-card">
+          <span class="card-num">02</span>
+          <h3>Frictionless shopping for customers with no cashier and no queue</h3>
+          <p>Verified entry, automatic session tracking, and checkout on exit — everyday convenience without operational overhead.</p>
+        </div>
+        <div class="value-card">
+          <span class="card-num">03</span>
+          <h3>Passive monetization for property owners without operating a store</h3>
+          <p>Turn underused lobby, corridor, or forecourt space into revenue — without staff, inventory, or retail complexity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. HOW IT WORKS -->
+  <section id="how-it-works" class="dark">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Shopping flow</p>
+        <h2 class="section-title wide">How the shopping flow works</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <p class="step-num">Step 01</p>
+          <h3>Register</h3>
+          <p>The customer downloads the app, creates an account, adds a payment method, and completes identity setup using facial recognition or QR-based access.</p>
+        </div>
+        <div class="step">
+          <p class="step-num">Step 02</p>
+          <h3>Enter</h3>
+          <p>The customer unlocks the store or cabinet zone through a verified entry flow. The session opens automatically in the platform.</p>
+        </div>
+        <div class="step">
+          <p class="step-num">Step 03</p>
+          <h3>Pick products</h3>
+          <p>Smart shelves and cabinets track product interactions using weight sensing, cabinet logic, camera verification, and inventory controls.</p>
+        </div>
+        <div class="step">
+          <p class="step-num">Step 04</p>
+          <h3>Exit</h3>
+          <p>When the customer leaves, the system closes the session, reconciles the basket, and processes payment automatically.</p>
+        </div>
+        <div class="step">
+          <p class="step-num">Step 05</p>
+          <h3>Receive receipt</h3>
+          <p>A digital receipt is sent instantly in the app, while the platform updates stock, supplier analytics, and replenishment triggers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. PLATFORM MODEL -->
+  <section id="platform">
+    <div class="container">
+      <div class="split">
+        <div>
+          <p class="eyebrow">Platform model</p>
+          <h2 class="section-title wide">More than smart vending — a full operating platform</h2>
+          <p class="section-body">Micro Shop is not a single machine. It is a platform-driven retail system that combines modular cabinets, local edge intelligence, cloud services, mobile access, supplier controls, and autonomous transaction logic into one operating environment.</p>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-item">
+            <h4>Supplier onboarding and shelf allocation</h4>
+            <p>Structured placement logic with performance-based shelf management.</p>
+          </div>
+          <div class="feature-item">
+            <h4>Dynamic pricing within supplier-defined ranges</h4>
+            <p>Turnover-aware pricing support without losing supplier control.</p>
+          </div>
+          <div class="feature-item">
+            <h4>Real-time inventory and replenishment logic</h4>
+            <p>Continuous stock visibility with automated replenishment triggers.</p>
+          </div>
+          <div class="feature-item">
+            <h4>Customer identification and session management</h4>
+            <p>Verified access, open sessions, and automatic reconciliation on exit.</p>
+          </div>
+          <div class="feature-item">
+            <h4>Remote monitoring, audit trails, and anomaly detection</h4>
+            <p>Full operational visibility with event logging at every cabinet level.</p>
+          </div>
+          <div class="feature-item">
+            <h4>Operator dashboards for sales, device health, and network oversight</h4>
+            <p>Centralized control across locations, suppliers, and device performance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. MODULAR CABINET SYSTEM -->
+  <section id="cabinets" class="dark">
+    <div class="container">
+      <div class="split">
+        <div>
+          <p class="eyebrow">Hardware</p>
+          <h2 class="section-title wide">A modular cabinet system built for real-world retail</h2>
+          <p class="section-body">Each Micro Shop location is assembled from a network of specialized cabinets that can be configured for different product categories and operating conditions. The format supports refrigerated goods, packaged items, ready-to-eat meals, and category-specific storage and access logic.</p>
+          <p class="support-line">A typical location can be configured from 6 to 8 cabinets depending on the site, category mix, and traffic profile.</p>
+        </div>
+        <ul class="cabinet-list">
+          <li>
+            <span class="cabinet-tag">Refrigerated</span>
+            <p>Cabinets for dairy and chilled packaged goods</p>
+          </li>
+          <li>
+            <span class="cabinet-tag">Controlled</span>
+            <p>Cabinets for meat trays and sensitive perishables</p>
+          </li>
+          <li>
+            <span class="cabinet-tag">Ambient</span>
+            <p>Smart ambient cabinets for everyday packaged products</p>
+          </li>
+          <li>
+            <span class="cabinet-tag">Ready-meal</span>
+            <p>Modules with heating or preparation workflows</p>
+          </li>
+          <li>
+            <span class="cabinet-tag">Access control</span>
+            <p>Entry and exit control points for secure autonomous operation</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. WHY SUPPLIERS CARE -->
+  <section id="suppliers">
+    <div class="container">
+      <div class="section-header row">
+        <div>
+          <p class="eyebrow">For suppliers</p>
+          <h2 class="section-title">Why suppliers join the network</h2>
+        </div>
+        <p class="section-body">Suppliers gain direct access to demand without going through the traditional retail layer. They can place products into premium locations, monitor performance, receive replenishment signals, and participate in a controlled environment where assortment, pricing, and quality logic are visible and measurable.</p>
+      </div>
+      <div class="feature-grid three">
+        <div class="feature-item">
+          <h4>Direct sales channel without classic retail margin loss</h4>
+          <p>Keep margin structure intact while reaching high-footfall micro-locations.</p>
+        </div>
+        <div class="feature-item">
+          <h4>Access to high-footfall locations through a compact format</h4>
+          <p>Residential towers, offices, forecourts — where full stores cannot fit.</p>
+        </div>
+        <div class="feature-item">
+          <h4>Better data on turnover, demand, and customer response</h4>
+          <p>Real-time performance data at shelf and location level.</p>
+        </div>
+        <div class="feature-item">
+          <h4>Shelf allocation based on real performance</h4>
+          <p>Assortment decisions driven by measured turnover, not guesswork.</p>
+        </div>
+        <div class="feature-item">
+          <h4>Integration with replenishment and operational alerts</h4>
+          <p>Automated signals when stock runs low or anomalies are detected.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. WHY PROPERTY OWNERS CARE -->
+  <section id="locations" class="dark">
+    <div class="container">
+      <div class="split">
+        <div>
+          <p class="eyebrow">For locations</p>
+          <h2 class="section-title wide">Why locations adopt Micro Shop</h2>
+          <p class="section-body">Micro Shop allows residential, office, and transit locations to monetize foot traffic without building or operating a conventional retail unit. The format is compact, automated, and designed for environments where a full store is too expensive, too complex, or simply not practical.</p>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-item">
+            <h4>New revenue stream from underused space</h4>
+            <p>Lobbies, corridors, and forecourts become active commerce points.</p>
+          </div>
+          <div class="feature-item">
+            <h4>No need to manage retail staff or inventory operations</h4>
+            <p>Fully autonomous — no hiring, no training, no daily operations.</p>
+          </div>
+          <div class="feature-item">
+            <h4>Fast deployment in lobbies, corridors, forecourts, and mixed-use spaces</h4>
+            <p>Modular cabinets install in days, not months.</p>
+          </div>
+          <div class="feature-item">
+            <h4>Increased convenience for tenants, workers, and visitors</h4>
+            <p>Everyday products where people already are — without leaving the building.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8–11. TECHNOLOGY -->
+  <section id="technology">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Technology</p>
+        <h2 class="section-title wide">Operational intelligence across the network</h2>
+        <p class="section-body" style="margin-top:1rem">Artificial intelligence, safety controls, and inventory intelligence work as operational layers — not marketing labels. Together they make Micro Shop a controlled retail system, not a standalone smart cabinet.</p>
+      </div>
+
+      <div class="tech-band">
+        <div class="tech-band-item">
+          <h4>AI &amp; automation</h4>
+          <ul>
+            <li>Assortment optimization by location</li>
+            <li>Supplier ranking and performance evaluation</li>
+            <li>Dynamic pricing for product turnover</li>
+            <li>Shrinkage and anomaly detection</li>
+            <li>Replenishment forecasting</li>
+          </ul>
+        </div>
+        <div class="tech-band-item">
+          <h4>Safety &amp; control logic</h4>
+          <ul>
+            <li>Cabinet-level monitoring and event logging</li>
+            <li>Batch or SKU lockout under safety exceptions</li>
+            <li>Controlled replenishment workflows</li>
+            <li>Handling logic for expired items</li>
+            <li>Fail-secure on temperature excursions</li>
+          </ul>
+        </div>
+        <div class="tech-band-item">
+          <h4>Dynamic inventory</h4>
+          <ul>
+            <li>Weight-based shelf monitoring</li>
+            <li>Removal vs. degradation detection</li>
+            <li>Freshness-sensitive dynamic pricing</li>
+            <li>Anti-mixing and refill control</li>
+            <li>Better sell-through, lower waste</li>
+          </ul>
+        </div>
+        <div class="tech-band-item">
+          <h4>Network architecture</h4>
+          <ul>
+            <li>Centralized visibility across locations</li>
+            <li>Local edge intelligence + remote orchestration</li>
+            <li>Multi-site supplier participation</li>
+            <li>Store-level and network-level analytics</li>
+            <li>Modular deployment by site size</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. USE CASES -->
+  <section id="use-cases">
+    <div class="container">
+      <div class="section-header row">
+        <div>
+          <p class="eyebrow">Use cases</p>
+          <h2 class="section-title">Where Micro Shop works best</h2>
+        </div>
+        <p class="section-body">The system is designed for high-traffic, space-constrained environments where convenience matters and traditional store formats are inefficient.</p>
+      </div>
+      <div class="use-grid">
+        <div class="use-item">
+          <span class="use-icon">Residential</span>
+          <h4>Residential towers and apartment lobbies</h4>
+        </div>
+        <div class="use-item">
+          <span class="use-icon">Corporate</span>
+          <h4>Office buildings and corporate campuses</h4>
+        </div>
+        <div class="use-item">
+          <span class="use-icon">Transit</span>
+          <h4>Gas stations and forecourt retail</h4>
+        </div>
+        <div class="use-item">
+          <span class="use-icon">Retail</span>
+          <h4>Shopping malls and transit corridors</h4>
+        </div>
+        <div class="use-item">
+          <span class="use-icon">Mixed-use</span>
+          <h4>Mixed-use developments and premium access properties</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13. BUSINESS MODEL -->
+  <section id="business-model" class="dark">
+    <div class="container">
+      <div class="split">
+        <div>
+          <p class="eyebrow">Business model</p>
+          <h2 class="section-title">A multi-sided business model</h2>
+          <p class="section-body">Micro Shop combines hardware deployment, software operations, and location-based commerce into one monetization structure. Revenue can come from equipment and platform subscriptions, shelf rental, transaction participation, and operating services across the network.</p>
+        </div>
+        <div class="revenue-list">
+          <div class="revenue-item">
+            <span class="revenue-num">01</span>
+            <div><h4>SaaS and platform subscription</h4></div>
+          </div>
+          <div class="revenue-item">
+            <span class="revenue-num">02</span>
+            <div><h4>Hardware deployment and module financing</h4></div>
+          </div>
+          <div class="revenue-item">
+            <span class="revenue-num">03</span>
+            <div><h4>Shelf rental and supplier placement fees</h4></div>
+          </div>
+          <div class="revenue-item">
+            <span class="revenue-num">04</span>
+            <div><h4>Revenue share or site monetization agreements</h4></div>
+          </div>
+          <div class="revenue-item">
+            <span class="revenue-num">05</span>
+            <div><h4>Optional operational services and analytics</h4></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 14. DIFFERENTIATORS -->
+  <section id="differentiators">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Positioning</p>
+        <h2 class="section-title">What makes Micro Shop different</h2>
+      </div>
+      <ul class="diff-list">
+        <li>
+          <span class="diff-label">Not just vending</span>
+          <p>Multi-cabinet, platform-controlled retail infrastructure — not a single machine in a corridor.</p>
+        </li>
+        <li>
+          <span class="diff-label">Not just a store</span>
+          <p>Supplier access and direct trade logic are built into the model from day one.</p>
+        </li>
+        <li>
+          <span class="diff-label">Not just automation</span>
+          <p>The system includes safety, quality, and operating control loops at cabinet level.</p>
+        </li>
+        <li>
+          <span class="diff-label">Not just checkout technology</span>
+          <p>Hardware, software, pricing, inventory, and supplier orchestration in one operating environment.</p>
+        </li>
+        <li>
+          <span class="diff-label">Not just one location</span>
+          <p>Designed as a repeatable network format — scalable across cities, portfolios, and product partners.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 15. PARTNERSHIP CTA -->
+  <section id="partnerships" class="cta-section">
+    <div class="container">
+      <p class="eyebrow" style="color:rgba(255,255,255,0.6)">Partnerships</p>
+      <h2 class="section-title">Build the next retail layer with us</h2>
+      <p class="section-body">Micro Shop is designed for suppliers, property owners, manufacturing partners, and strategic operators who want to participate in a new autonomous retail model. The platform brings together compact physical infrastructure and intelligent operating logic to create a new channel for everyday commerce.</p>
+      <div class="cta-actions">
+        <a href="mailto:partnerships@microshop.io" class="btn btn-light">Talk to the team</a>
+      </div>
+      <p class="cta-secondary">Partnerships available for deployment, manufacturing, pilot locations, and platform collaboration.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="logo">Micro<span>Shop</span></span>
+      <span>&copy; 2026 Micro Shop. Autonomous retail infrastructure.</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
