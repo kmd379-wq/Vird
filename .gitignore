@@ -21,6 +21,7 @@ Thumbs.db
 
 # Cursor local state (keep hooks and rules in repo)
 .cursor/*
+!.cursor/hooks.json
 !.cursor/hooks/
 !.cursor/hooks/**
 !.cursor/rules/
