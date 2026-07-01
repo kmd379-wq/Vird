@@ -1,0 +1,14 @@
+---
+description: Auto-sync project changes to GitHub after each task
+alwaysApply: true
+---
+
+After completing any task that changes project files:
+
+1. Stage all relevant changes (`git add`).
+2. Commit with a clear message describing what was done.
+3. Push to `origin` on the current branch (`git push`).
+
+Remote: https://github.com/kmd379-wq/Vird
+
+If push fails due to auth, tell the user to sign in to GitHub in Cursor (Source Control panel) and retry.
