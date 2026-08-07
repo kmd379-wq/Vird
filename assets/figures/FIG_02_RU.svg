@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="48" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Розничный слой без традиционного посредника</text>
+<rect x="48" y="106" width="390" height="280" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="243" y="130" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Традиционная розница</text>
+<line x1="64" y1="140" x2="422" y2="140" stroke="#555555" stroke-width="0.8"/>
+<text x="64" y="164" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#0f4d4d">—</text>
+<text x="78" y="164" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Дополнительный слой издержек</text>
+<text x="64" y="206" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#0f4d4d">—</text>
+<text x="78" y="206" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Медленный выход поставщиков</text>
+<text x="64" y="248" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#0f4d4d">—</text>
+<text x="78" y="248" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Трение для покупателей</text>
+<rect x="462" y="106" width="390" height="280" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="657" y="130" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Micro Shop</text>
+<line x1="478" y1="140" x2="836" y2="140" stroke="#555555" stroke-width="0.8"/>
+<text x="478" y="164" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#0f4d4d">—</text>
+<text x="492" y="164" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Платформа прямой торговли</text>
+<text x="478" y="206" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#0f4d4d">—</text>
+<text x="492" y="206" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Компактный автономный формат</text>
+<text x="478" y="248" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#0f4d4d">—</text>
+<text x="492" y="248" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Оборудование + ПО +</text>
+<text x="492" y="260.15" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">автоматизация</text>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#111111">FIG. 2</text>
+<text x="100" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Розничный слой без традиционного посредника</text>
+</svg>

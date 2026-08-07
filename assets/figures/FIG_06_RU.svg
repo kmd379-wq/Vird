@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="48" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Преимущества для поставщиков сети</text>
+<rect x="48" y="100" width="396" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="58" y="122" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Прямые продажи без потери маржи</text>
+<rect x="456" y="100" width="396" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="466" y="122" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Микролокации с высоким трафиком</text>
+<rect x="48" y="184" width="396" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="58" y="206" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Аналитика оборачиваемости и спроса</text>
+<rect x="456" y="184" width="396" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="466" y="206" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Распределение полок по эффективности</text>
+<rect x="48" y="268" width="396" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="58" y="290" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Интеграция пополнения и оповещений</text>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#111111">FIG. 6</text>
+<text x="100" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Преимущества для поставщиков сети</text>
+</svg>

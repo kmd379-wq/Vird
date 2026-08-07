@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="48" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Компоненты операционной платформы</text>
+<rect x="48" y="100" width="396" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="58" y="122" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Подключение поставщиков и распределение полок</text>
+<rect x="456" y="100" width="396" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="466" y="122" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Динамическое ценообразование в рамках поставщика</text>
+<rect x="48" y="184" width="396" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="58" y="206" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Запасы и пополнение в реальном времени</text>
+<rect x="456" y="184" width="396" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="466" y="206" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Идентификация покупателей и сессии</text>
+<rect x="48" y="268" width="396" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="58" y="290" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Удалённый мониторинг и обнаружение аномалий</text>
+<rect x="456" y="268" width="396" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="466" y="290" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Дашборды оператора и контроль сети</text>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#111111">FIG. 4</text>
+<text x="100" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Компоненты операционной платформы</text>
+</svg>

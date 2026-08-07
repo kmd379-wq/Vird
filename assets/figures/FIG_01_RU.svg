@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="48" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Обзор платформы автономного мини-магазина</text>
+<rect x="282" y="96" width="56" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="310" y="184" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">Шкаф</text>
+<rect x="352" y="96" width="56" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="380" y="184" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">Шкаф</text>
+<rect x="422" y="96" width="56" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="184" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">Шкаф</text>
+<rect x="492" y="96" width="56" height="72" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.8"/>
+<text x="520" y="184" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">Вход</text>
+<rect x="88" y="206" width="724" height="44" fill="#0f4d4d" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="450" y="224" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">Платформа Micro Shop</text>
+<text x="450" y="240" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#dceeee">оплата · запасы · оркестрация поставщиков</text>
+<rect x="159" y="306" width="120" height="58" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="219" y="328" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Покупатель</text>
+<text x="219" y="346" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">приложение · сессия</text>
+<line x1="219" y1="250" x2="219" y2="306" stroke="#0f4d4d" stroke-width="1"/>
+<line x1="279" y1="335" x2="390" y2="335" stroke="#222222" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="390" y="306" width="120" height="58" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.8"/>
+<text x="450" y="328" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Платформа</text>
+<text x="450" y="346" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">edge + облако</text>
+<line x1="450" y1="250" x2="450" y2="306" stroke="#0f4d4d" stroke-width="1"/>
+<line x1="510" y1="335" x2="621" y2="335" stroke="#222222" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="621" y="306" width="120" height="58" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="681" y="328" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Поставщик</text>
+<text x="681" y="346" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">прямая торговля</text>
+<line x1="681" y1="250" x2="681" y2="306" stroke="#0f4d4d" stroke-width="1"/>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#111111">FIG. 1</text>
+<text x="100" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Обзор платформы автономного мини-магазина</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="48" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Операционный слой ИИ и автоматизации</text>
+<rect x="48" y="116" width="804" height="48" fill="#fafafa" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="62" y="144" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Оптимизация ассортимента по локациям</text>
+<line x1="450" y1="164" x2="450" y2="178" stroke="#0f4d4d" stroke-width="1.8"/>
+<polygon points="450,178 446,170 454,170" fill="#0f4d4d"/>
+<rect x="60" y="178" width="780" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="74" y="206" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Рейтинг поставщиков и эффективность</text>
+<line x1="450" y1="226" x2="450" y2="240" stroke="#0f4d4d" stroke-width="1.8"/>
+<polygon points="450,240 446,232 454,232" fill="#0f4d4d"/>
+<rect x="72" y="240" width="756" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="86" y="268" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Динамическое ценообразование для оборачиваемости</text>
+<line x1="450" y1="288" x2="450" y2="302" stroke="#0f4d4d" stroke-width="1.8"/>
+<polygon points="450,302 446,294 454,294" fill="#0f4d4d"/>
+<rect x="84" y="302" width="732" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="98" y="330" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Обнаружение потерь и аномалий</text>
+<line x1="450" y1="350" x2="450" y2="364" stroke="#0f4d4d" stroke-width="1.8"/>
+<polygon points="450,364 446,356 454,356" fill="#0f4d4d"/>
+<rect x="96" y="364" width="708" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="110" y="392" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="start" fill="#111111">Прогнозирование пополнения</text>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#111111">FIG. 8</text>
+<text x="100" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Операционный слой ИИ и автоматизации</text>
+</svg>

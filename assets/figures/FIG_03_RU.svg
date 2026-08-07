@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="48" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Процесс покупки</text>
+<rect x="52" y="136" width="140" height="88" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="122" y="158" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Регистрация</text>
+<text x="122" y="176" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">Приложение,</text>
+<text x="122" y="188.15" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">оплата,</text>
+<text x="122" y="200.3" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">идентификация</text>
+<line x1="196" y1="180" x2="208" y2="180" stroke="#222222" stroke-width="1.8"/>
+<polygon points="214,180 206,176 206,184" fill="#222222"/>
+<rect x="216" y="136" width="140" height="88" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="286" y="158" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Вход</text>
+<text x="286" y="176" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">Верифицированный</text>
+<text x="286" y="188.15" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">вход, сессия</text>
+<line x1="360" y1="180" x2="372" y2="180" stroke="#222222" stroke-width="1.8"/>
+<polygon points="378,180 370,176 370,184" fill="#222222"/>
+<rect x="380" y="136" width="140" height="88" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="158" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Выбор товаров</text>
+<text x="450" y="176" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">Вес, камера,</text>
+<text x="450" y="188.15" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">запасы</text>
+<line x1="524" y1="180" x2="536" y2="180" stroke="#222222" stroke-width="1.8"/>
+<polygon points="542,180 534,176 534,184" fill="#222222"/>
+<rect x="544" y="136" width="140" height="88" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="614" y="158" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Выход</text>
+<text x="614" y="176" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">Сверка корзины,</text>
+<text x="614" y="188.15" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">оплата</text>
+<line x1="688" y1="180" x2="700" y2="180" stroke="#222222" stroke-width="1.8"/>
+<polygon points="706,180 698,176 698,184" fill="#222222"/>
+<rect x="708" y="136" width="140" height="88" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="778" y="158" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Чек</text>
+<text x="778" y="176" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">Цифровой чек,</text>
+<text x="778" y="188.15" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">пополнение</text>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#111111">FIG. 3</text>
+<text x="100" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Процесс покупки</text>
+</svg>

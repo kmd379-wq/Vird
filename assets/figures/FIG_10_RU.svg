@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="48" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Масштабируемая сетевая архитектура</text>
+<rect x="360" y="264" width="180" height="64" fill="#0f4d4d" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="450" y="292" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#fff">Облачная оркестрация</text>
+<text x="450" y="310" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#dceeee">аналитика · видимость</text>
+<rect x="385" y="104" width="130" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="130" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#111111">Площадка A —</text>
+<text x="450" y="142.15" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#111111">edge-шкафы</text>
+<line x1="450" y1="296" x2="450" y2="126" stroke="#222222" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="546.6796077701761" y="221.46711095625895" width="130" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="611.6796077701761" y="247.46711095625895" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#111111">Площадка B —</text>
+<text x="611.6796077701761" y="259.61711095625895" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#111111">edge-шкафы</text>
+<line x1="450" y1="296" x2="611.6796077701761" y2="243.46711095625895" stroke="#222222" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="484.9234928897205" y="411.5328890437411" width="130" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="549.9234928897205" y="437.5328890437411" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#111111">Площадка C —</text>
+<text x="549.9234928897205" y="449.68288904374106" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#111111">edge-шкафы</text>
+<line x1="450" y1="296" x2="549.9234928897205" y2="433.5328890437411" stroke="#222222" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="285.0765071102796" y="411.5328890437411" width="130" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="350.0765071102796" y="437.5328890437411" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#111111">Интерфейсы</text>
+<text x="350.0765071102796" y="449.68288904374106" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#111111">поставщиков</text>
+<line x1="450" y1="296" x2="350.0765071102796" y2="433.5328890437411" stroke="#222222" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="223.32039222982388" y="221.46711095625898" width="130" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="288.3203922298239" y="247.46711095625898" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#111111">Дашборды оператора</text>
+<line x1="450" y1="296" x2="288.3203922298239" y2="243.46711095625898" stroke="#222222" stroke-width="1.2" stroke-dasharray="5,4"/>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#111111">FIG. 10</text>
+<text x="100" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Масштабируемая сетевая архитектура</text>
+</svg>

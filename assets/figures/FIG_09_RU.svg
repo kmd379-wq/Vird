@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="48" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Логика безопасности и контроля</text>
+<rect x="134" y="136" width="140" height="88" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="204" y="158" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Мониторинг</text>
+<text x="204" y="176" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">События на уровне</text>
+<text x="204" y="188.15" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">шкафа</text>
+<line x1="278" y1="180" x2="290" y2="180" stroke="#222222" stroke-width="1.8"/>
+<polygon points="296,180 288,176 288,184" fill="#222222"/>
+<rect x="298" y="136" width="140" height="88" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="368" y="158" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Обнаружение</text>
+<text x="368" y="176" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">Исключения</text>
+<text x="368" y="188.15" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">безопасности</text>
+<line x1="442" y1="180" x2="454" y2="180" stroke="#222222" stroke-width="1.8"/>
+<polygon points="460,180 452,176 452,184" fill="#222222"/>
+<rect x="462" y="136" width="140" height="88" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="532" y="158" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Блокировка</text>
+<text x="532" y="176" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">Блокировка партии</text>
+<text x="532" y="188.15" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">или SKU</text>
+<line x1="606" y1="180" x2="618" y2="180" stroke="#222222" stroke-width="1.8"/>
+<polygon points="624,180 616,176 616,184" fill="#222222"/>
+<rect x="626" y="136" width="140" height="88" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="696" y="158" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">Реакция</text>
+<text x="696" y="176" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">Обработка</text>
+<text x="696" y="188.15" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="normal" text-anchor="middle" fill="#555555">fail-secure</text>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#111111">FIG. 9</text>
+<text x="100" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#111111">Логика безопасности и контроля</text>
+</svg>
