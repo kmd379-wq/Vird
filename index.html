@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Micro Shop — автономные мини-магазины для прямой торговли</title>
-  <meta name="description" content="Micro Shop — модульная автономная розничная платформа, которая соединяет поставщиков и покупателей через умные шкафы, автоматическую оплату и инфраструктуру прямой торговли в локациях с высоким трафиком.">
+  <title>Micro Shop — модульная автономная retail-платформа</title>
+  <meta name="description" content="Autonomous Retail System / Micro Shop: модульная платформа smart cabinets, прямая торговля покупатель — платформа — поставщик, патентуемая архитектура, hardware + service + software.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Onest:wght@600;700;800&display=swap" rel="stylesheet">
@@ -14,460 +14,349 @@
 
   <nav class="site-nav" aria-label="Основная навигация">
     <div class="container">
-      <a href="#product" class="logo">Micro<span>Shop</span></a>
+      <a href="#cover" class="logo">Micro<span>Shop</span></a>
       <ul class="nav-links">
+        <li><a href="#cover">О проекте</a></li>
+        <li><a href="#problem">Проблема</a></li>
+        <li><a href="#solution">Решение</a></li>
         <li><a href="#product">Продукт</a></li>
-        <li><a href="#how-it-works">Как работает</a></li>
-        <li><a href="#platform">Платформа</a></li>
-        <li><a href="#suppliers">Поставщики</a></li>
-        <li><a href="#locations">Локации</a></li>
-        <li><a href="#technology">Технологии</a></li>
-        <li><a href="#partnerships">Партнёрство</a></li>
+        <li><a href="#market">Рынок</a></li>
+        <li><a href="#business">Модель</a></li>
+        <li><a href="#ip">IP</a></li>
+        <li><a href="#investors">Инвесторам</a></li>
       </ul>
-      <a href="#partnerships" class="nav-cta">Стать партнёром</a>
+      <a href="#investors" class="nav-cta">Связаться</a>
     </div>
   </nav>
 
-  <!-- 1. HERO -->
-  <section id="product" class="hero">
+  <!-- Слайд 1: Обложка -->
+  <section id="cover" class="hero deck-section">
     <div class="container hero-grid">
       <div class="hero-content">
-        <p class="eyebrow">Автономная розничная инфраструктура</p>
-        <h1>Автономные мини-магазины для прямой торговли между поставщиками и покупателями</h1>
-        <p class="hero-lead">Micro Shop — модульная умная розничная система, которая объединяет сетевые товарные шкафы, автоматическую оплату и платформенный слой, позволяющий поставщикам продавать напрямую в локациях с высоким трафиком без традиционного розничного посредника.</p>
+        <p class="deck-num">Слайд 01 · Обложка</p>
+        <p class="eyebrow">Modular Autonomous Retail System</p>
+        <h1>Автономная модульная retail-платформа без кассира и без классического ритейлера</h1>
+        <p class="hero-lead">Micro Shop / Smart Cabinet Platform — не «ещё один vending», а инфраструктура proximity retail, где hardware, software и операционная модель объединены в единую платформу прямой торговли.</p>
         <div class="hero-actions">
-          <a href="#partnerships" class="btn btn-primary">Стать партнёром</a>
-          <a href="#platform" class="btn btn-secondary">Изучить платформу</a>
+          <a href="#investors" class="btn btn-primary">Инвестиционный оффер</a>
+          <a href="#product" class="btn btn-secondary">Архитектура продукта</a>
         </div>
-        <p class="hero-support">Создан для жилых башен, офисных зданий, торговых центров, АЗС и других локаций с ограниченным пространством.</p>
+        <p class="hero-support">Охлаждённые, повседневные и готовые к разогреву товары в точках реального трафика — за 60–120 секунд.</p>
       </div>
       <div class="hero-visual" aria-hidden="true">
-        <p class="hero-visual-label">Поток платформы — покупатель · платформа · поставщик</p>
-        <svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Схема: покупатель через платформу Micro Shop соединяется с сетью поставщиков">
-          <rect class="diagram-box" x="20" y="20" width="60" height="80" rx="1"/>
-          <rect class="diagram-box" x="90" y="20" width="60" height="80" rx="1"/>
-          <rect class="diagram-box" x="160" y="20" width="60" height="80" rx="1"/>
-          <rect class="diagram-box" x="230" y="20" width="60" height="80" rx="1"/>
-          <rect class="diagram-teal" x="300" y="20" width="60" height="80" rx="1" opacity="0.15"/>
-          <rect class="diagram-teal-stroke" x="300" y="20" width="60" height="80" rx="1"/>
-          <text class="diagram-label" x="50" y="115" text-anchor="middle">Шкаф</text>
-          <text class="diagram-label" x="120" y="115" text-anchor="middle">Шкаф</text>
-          <text class="diagram-label" x="190" y="115" text-anchor="middle">Шкаф</text>
-          <text class="diagram-label" x="260" y="115" text-anchor="middle">Шкаф</text>
-          <text class="diagram-label" x="330" y="115" text-anchor="middle">Вход</text>
-          <text class="diagram-title" x="240" y="12" text-anchor="middle">Модульный мини-магазин</text>
-
-          <rect class="diagram-teal" x="40" y="150" width="400" height="48" rx="1" opacity="0.9"/>
-          <text fill="#fff" font-family="Onest, sans-serif" font-size="13" font-weight="700" x="240" y="180" text-anchor="middle">Платформа Micro Shop</text>
-          <text fill="rgba(255,255,255,0.7)" font-family="IBM Plex Sans, sans-serif" font-size="9" x="240" y="192" text-anchor="middle">оплата · запасы · оркестрация поставщиков</text>
-
-          <line stroke="#0f4d4d" stroke-width="1.5" x1="80" y1="210" x2="80" y2="240"/>
-          <polygon fill="#0f4d4d" points="80,240 76,232 84,232"/>
-          <line stroke="#0f4d4d" stroke-width="1.5" x1="240" y1="210" x2="240" y2="240"/>
-          <polygon fill="#0f4d4d" points="240,240 236,232 244,232"/>
-          <line stroke="#0f4d4d" stroke-width="1.5" x1="400" y1="210" x2="400" y2="240"/>
-          <polygon fill="#0f4d4d" points="400,240 396,232 404,232"/>
-
+        <p class="hero-visual-label">Покупатель · платформа / ИИ · поставщик</p>
+        <svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Схема прямой торговли">
           <rect class="diagram-box" x="40" y="250" width="80" height="56" rx="1"/>
           <text class="diagram-title" x="80" y="275" text-anchor="middle">Покупатель</text>
-          <text class="diagram-label" x="80" y="292" text-anchor="middle">приложение · сессия</text>
-
-          <rect class="diagram-teal-stroke" x="200" y="250" width="80" height="56" rx="1"/>
-          <text class="diagram-title" x="240" y="275" text-anchor="middle">Платформа</text>
-          <text class="diagram-label" x="240" y="292" text-anchor="middle">edge + облако</text>
-
+          <rect class="diagram-teal" x="200" y="150" width="80" height="156" rx="1" opacity="0.15"/>
+          <rect class="diagram-teal-stroke" x="200" y="150" width="80" height="156" rx="1"/>
+          <text class="diagram-title" x="240" y="200" text-anchor="middle">Платформа</text>
+          <text class="diagram-label" x="240" y="218" text-anchor="middle">SaaS · AI · сессии</text>
           <rect class="diagram-box" x="360" y="250" width="80" height="56" rx="1"/>
           <text class="diagram-title" x="400" y="275" text-anchor="middle">Поставщик</text>
-          <text class="diagram-label" x="400" y="292" text-anchor="middle">прямая торговля</text>
-
-          <line stroke="#0f4d4d" stroke-width="1" stroke-dasharray="4 3" x1="120" y1="278" x2="200" y2="278"/>
-          <line stroke="#0f4d4d" stroke-width="1" stroke-dasharray="4 3" x1="280" y1="278" x2="360" y2="278"/>
+          <line stroke="#0f4d4d" stroke-width="1" stroke-dasharray="4 3" x1="120" y1="278" x2="200" y2="228"/>
+          <line stroke="#0f4d4d" stroke-width="1" stroke-dasharray="4 3" x1="280" y1="228" x2="360" y2="278"/>
+          <text class="diagram-title" x="240" y="40" text-anchor="middle">Сеть smart modules</text>
+          <rect class="diagram-box" x="60" y="56" width="50" height="64" rx="1"/>
+          <rect class="diagram-box" x="130" y="56" width="50" height="64" rx="1"/>
+          <rect class="diagram-box" x="200" y="56" width="50" height="64" rx="1"/>
+          <rect class="diagram-box" x="270" y="56" width="50" height="64" rx="1"/>
+          <rect class="diagram-teal-stroke" x="340" y="56" width="50" height="64" rx="1"/>
         </svg>
       </div>
     </div>
   </section>
 
-  <!-- 2. VALUE PROPOSITION -->
-  <section id="value">
+  <!-- Слайд 2: Executive summary -->
+  <section id="summary" class="deck-section">
     <div class="container">
+      <p class="deck-num">Слайд 02 · Executive summary</p>
       <div class="section-header row">
         <div>
-          <p class="eyebrow">Ценностное предложение</p>
-          <h2 class="section-title">Новый розничный слой без традиционного ритейлера</h2>
+          <p class="eyebrow">Кратко о проекте</p>
+          <h2 class="section-title wide">Сверхбыстрая покупка там, где классический магазин неэффективен</h2>
         </div>
-        <p class="section-body">Традиционная розница увеличивает издержки, замедляет выход поставщиков на новые локации и создаёт трение для покупателей, которым нужна повседневная доступность. Micro Shop заменяет эту модель платформой прямой торговли, где интеллектуальное оборудование, программное обеспечение и автоматизация соединяют спрос и предложение в компактном автономном формате.</p>
+        <div class="prose">
+          <p>Проект решает задачу доступа к базовым продуктам и готовой еде в точках регулярного трафика. Он совмещает автономную выдачу, контроль товара, интеллектуальное управление ассортиментом и масштабирование как сети модулей, а не отдельных vending-точек.</p>
+          <p>На текущем этапе сформированы концепция, архитектура MVP, инвест-логика и активная патентная работа: <strong>9 provisional patent applications (PPA)</strong>, проработка с patent counsel, разработка ТЗ и подбор производства под разные географии.</p>
+        </div>
       </div>
-      <div class="value-grid">
-        <div class="value-card featured">
-          <span class="card-num">01</span>
-          <h3>Прямой доступ поставщиков к премиальным микролокациям</h3>
-          <p>Размещайте товары там, где максимальный поток людей — без потери маржи и задержек классических розничных каналов.</p>
-        </div>
-        <div class="value-card">
-          <span class="card-num">02</span>
-          <h3>Бесшовные покупки без кассы и очередей</h3>
-          <p>Верифицированный вход, автоматическое отслеживание сессии и оплата при выходе — повседневное удобство без операционных затрат.</p>
-        </div>
-        <div class="value-card">
-          <span class="card-num">03</span>
-          <h3>Пассивная монетизация для владельцев недвижимости без управления магазином</h3>
-          <p>Превратите неиспользуемое пространство в лобби, коридоре или на прилегающей территории в источник дохода — без персонала, складских операций и розничной сложности.</p>
-        </div>
+      <div class="metric-row">
+        <div class="metric"><strong>9</strong><span>активных PPA в патентном контуре</span></div>
+        <div class="metric"><strong>3</strong><span>контура монетизации: hardware, service, software</span></div>
+        <div class="metric"><strong>60–120 с</strong><span>целевой сценарий покупки для пользователя</span></div>
+      </div>
+      <p class="lead-quote">Ставка на новую инфраструктуру автономной повседневной торговли, где IP, hardware и platform model собираются в единый масштабируемый бизнес.</p>
+    </div>
+  </section>
+
+  <!-- Слайд 3: Проблема -->
+  <section id="problem" class="dark deck-section">
+    <div class="container">
+      <p class="deck-num">Слайд 03 · Проблема</p>
+      <p class="eyebrow">Problem</p>
+      <h2 class="section-title wide">Классический retail не работает на микролокациях</h2>
+      <div class="prose" style="margin-top:1.5rem">
+        <p>Магазин на дорогой, маленькой или транзитной площади требует персонал, постоянные OPEX и не даёт экономики на микролокациях. Пользователю нужен не «поход в магазин», а базовые продукты и готовая еда рядом с домом, офисом, апартаментами, кампусом или транспортным узлом.</p>
+        <p>Vending и smart fridge обычно ограничены узким ассортиментом, слабой конфигурацией и не образуют полноценную retail-операционную систему. Остаётся разрыв между instant access и торговой экономикой.</p>
       </div>
     </div>
   </section>
 
-  <!-- 3. HOW IT WORKS -->
-  <section id="how-it-works" class="dark">
+  <!-- Слайд 4: Решение -->
+  <section id="solution" class="deck-section">
     <div class="container">
-      <div class="section-header">
-        <p class="eyebrow">Покупательский путь</p>
-        <h2 class="section-title wide">Как работает процесс покупки</h2>
-      </div>
-      <div class="steps">
-        <div class="step">
-          <p class="step-num">Шаг 01</p>
-          <h3>Регистрация</h3>
-          <p>Покупатель скачивает приложение, создаёт аккаунт, добавляет способ оплаты и проходит идентификацию с помощью распознавания лица или QR-доступа.</p>
-        </div>
-        <div class="step">
-          <p class="step-num">Шаг 02</p>
-          <h3>Вход</h3>
-          <p>Покупатель открывает магазин или зону шкафов через верифицированный сценарий входа. Сессия автоматически создаётся на платформе.</p>
-        </div>
-        <div class="step">
-          <p class="step-num">Шаг 03</p>
-          <h3>Выбор товаров</h3>
-          <p>Умные полки и шкафы отслеживают взаимодействие с товарами с помощью весового датчика, логики шкафа, камерной верификации и контроля запасов.</p>
-        </div>
-        <div class="step">
-          <p class="step-num">Шаг 04</p>
-          <h3>Выход</h3>
-          <p>При выходе покупателя система закрывает сессию, сверяет корзину и автоматически проводит оплату.</p>
-        </div>
-        <div class="step">
-          <p class="step-num">Шаг 05</p>
-          <h3>Чек</h3>
-          <p>Цифровой чек мгновенно отправляется в приложение, а платформа обновляет остатки, аналитику поставщиков и триггеры пополнения.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 4. PLATFORM MODEL -->
-  <section id="platform">
-    <div class="container">
-      <div class="split">
+      <p class="deck-num">Слайд 04 · Решение</p>
+      <div class="section-header row">
         <div>
-          <p class="eyebrow">Модель платформы</p>
-          <h2 class="section-title wide">Больше, чем умный вендинг — полноценная операционная платформа</h2>
-          <p class="section-body">Micro Shop — не одна машина. Это платформенная розничная система, объединяющая модульные шкафы, локальный edge-интеллект, облачные сервисы, мобильный доступ, инструменты для поставщиков и автономную логику транзакций в единой операционной среде.</p>
+          <p class="eyebrow">Solution</p>
+          <h2 class="section-title wide">Модульный автономный магазин как operating system розницы</h2>
         </div>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h4>Подключение поставщиков и распределение полок</h4>
-            <p>Структурированная логика размещения с управлением полками на основе реальной эффективности.</p>
-          </div>
-          <div class="feature-item">
-            <h4>Динамическое ценообразование в рамках, заданных поставщиком</h4>
-            <p>Поддержка цен с учётом оборачиваемости без потери контроля со стороны поставщика.</p>
-          </div>
-          <div class="feature-item">
-            <h4>Запасы и логика пополнения в реальном времени</h4>
-            <p>Непрерывная видимость остатков с автоматическими триггерами пополнения.</p>
-          </div>
-          <div class="feature-item">
-            <h4>Идентификация покупателей и управление сессиями</h4>
-            <p>Верифицированный доступ, открытые сессии и автоматическая сверка при выходе.</p>
-          </div>
-          <div class="feature-item">
-            <h4>Удалённый мониторинг, аудит и обнаружение аномалий</h4>
-            <p>Полная операционная прозрачность с журналированием событий на уровне каждого шкафа.</p>
-          </div>
-          <div class="feature-item">
-            <h4>Дашборды оператора: продажи, состояние устройств, контроль сети</h4>
-            <p>Централизованное управление локациями, поставщиками и производительностью оборудования.</p>
-          </div>
+        <div class="prose">
+          <p>Набор smart cabinets / retail modules конфигурируется под fresh, chilled и hot-meal сценарии. Физический модуль — не шкаф с выдачей, а <strong>autonomous retail operating system</strong>.</p>
+          <p>В цепочке нет обязательного классического ритейлера: покупатель взаимодействует с системой, поставщик управляет ассортиментом и ценой через платформу. Формат — инфраструктура прямой торговли, а не «автомат по продаже».</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 5. MODULAR CABINET SYSTEM -->
-  <section id="cabinets" class="dark">
+  <!-- Слайд 5–6: Продукт и технология -->
+  <section id="product" class="dark deck-section">
     <div class="container">
-      <div class="split">
-        <div>
-          <p class="eyebrow">Оборудование</p>
-          <h2 class="section-title wide">Модульная система шкафов для реальной розницы</h2>
-          <p class="section-body">Каждая точка Micro Shop собирается из сети специализированных шкафов, настраиваемых под разные категории товаров и условия эксплуатации. Формат поддерживает охлаждённые товары, фасованную продукцию, готовую еду и логику хранения и доступа, специфичную для каждой категории.</p>
-          <p class="support-line">Типичная локация конфигурируется из 6–8 шкафов в зависимости от площадки, категорийного микса и профиля трафика.</p>
-        </div>
-        <ul class="cabinet-list">
-          <li>
-            <span class="cabinet-tag">Холодильные</span>
-            <p>Шкафы для молочной продукции и охлаждённых фасованных товаров</p>
-          </li>
-          <li>
-            <span class="cabinet-tag">Контролируемые</span>
-            <p>Шкафы для мясных лотков и чувствительных скоропортящихся товаров</p>
-          </li>
-          <li>
-            <span class="cabinet-tag">Без охлаждения</span>
-            <p>Умные шкафы для повседневных фасованных товаров</p>
-          </li>
-          <li>
-            <span class="cabinet-tag">Готовая еда</span>
-            <p>Модули с подогревом или сценариями приготовления</p>
-          </li>
-          <li>
-            <span class="cabinet-tag">Контроль доступа</span>
-            <p>Точки входа и выхода для безопасной автономной работы</p>
-          </li>
+      <p class="deck-num">Слайды 05–06 · Продукт и технология</p>
+      <p class="eyebrow">Product &amp; technology</p>
+      <h2 class="section-title wide">Модульная архитектура, сценарии MVP и технические differentiators</h2>
+
+      <div class="sub-block">
+        <h3>5.1 Архитектура продукта</h3>
+        <p class="prose">Модульный шкаф с master/slave-логикой, универсальными интерфейсами и гибкой сборкой конфигураций под локацию. Переконфигурируемый master-шкаф, модульные полки, распределённая сенсорная сеть, vertical bus, edge controller, thermal/produce/dispensing узлы.</p>
+      </div>
+
+      <div class="sub-block">
+        <h3>5.2 Товарные сценарии MVP</h3>
+        <ul class="bullet-list">
+          <li><strong>«Овощ»</strong> — fresh / produce station logic</li>
+          <li><strong>«Молоко»</strong> — chilled dairy и охлаждённая категория</li>
+          <li><strong>«Рис с разогревом»</strong> — hot-meal, индукционный модуль on-demand</li>
         </ul>
+        <p class="prose" style="margin-top:1rem">Один модульный подход закрывает несколько повседневных потребностей — платформенность, а не одна SKU-ниша.</p>
+      </div>
+
+      <div class="sub-block">
+        <h3>5.3 Технические differentiators (IP-контур)</h3>
+        <div class="bullet-grid">
+          <ul class="bullet-list">
+            <li>Automatic self-leveling</li>
+            <li>Cone-shaped hoppers, угол 45°</li>
+            <li>Single load cell configurations</li>
+            <li>Through-tracking tare control (PPA #10)</li>
+          </ul>
+          <ul class="bullet-list">
+            <li>AI-driven dynamic pricing</li>
+            <li>Integrated consumables management</li>
+            <li>Split-payments и settlement</li>
+            <li>Двухзонное хранение, induction heating</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="sub-block">
+        <h3>5.4 Пользовательский опыт и роли</h3>
+        <p class="prose">Покупатель — быстрый автономный сценарий без кассира. Локация — retail-сервис без персонала. Поставщик — прямое управление товаром и ценой. Оператор — сеть модулей и платформенный контроль. Модель связывает buyer, supplier, location owner и operator в direct-trade системе.</p>
+      </div>
+
+      <div class="layer-stack">
+        <div class="layer">
+          <h4>Physical module</h4>
+          <p>Корпус, vertical bus, двери и замки, вес/RFID/NFC, камеры, environmental sensors, pickup compartments, thermal и produce узлы.</p>
+        </div>
+        <div class="layer">
+          <h4>Software platform (SaaS)</h4>
+          <p>Identity, session management, inventory twin, supplier ranking, reservation, remote pickup, split settlement, verified feedback control, network enforcement.</p>
+        </div>
+        <div class="layer">
+          <h4>Mobile app</h4>
+          <p>Доступ, оплата, сессия, чек, резервирование, обратная связь, удалённый pickup.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- 6. WHY SUPPLIERS CARE -->
-  <section id="suppliers">
+  <!-- Слайд 7: Почему сейчас -->
+  <section id="why-now" class="deck-section">
     <div class="container">
+      <p class="deck-num">Слайд 07 · Почему сейчас</p>
+      <p class="eyebrow">Why now</p>
+      <h2 class="section-title">Окно для autonomous convenience и low-staff retail</h2>
+      <div class="prose" style="margin-top:1.5rem">
+        <p>Рост ожиданий к instant convenience, давление на офлайн-экономику, зрелость IoT/AI и спрос на безлюдные форматы торговли создают благоприятный момент входа.</p>
+        <p>Проект уже на стадии патентования, инженерной проработки и промышленной подготовки — окно определяется тем, кто первым соберёт защитимый IP-контур и поставит production chain.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Слайд 8: Рынок -->
+  <section id="market" class="dark deck-section">
+    <div class="container">
+      <p class="deck-num">Слайд 08 · Рынок</p>
       <div class="section-header row">
         <div>
-          <p class="eyebrow">Для поставщиков</p>
-          <h2 class="section-title">Почему поставщики присоединяются к сети</h2>
+          <p class="eyebrow">Market</p>
+          <h2 class="section-title wide">Не «рынок вендинга», а пересечение категорий</h2>
         </div>
-        <p class="section-body">Поставщики получают прямой доступ к спросу без традиционного розничного слоя. Они размещают товары в премиальных локациях, отслеживают эффективность, получают сигналы о пополнении и работают в контролируемой среде, где ассортимент, ценообразование и логика качества прозрачны и измеримы.</p>
-      </div>
-      <div class="feature-grid three">
-        <div class="feature-item">
-          <h4>Прямой канал продаж без потери маржи классической розницы</h4>
-          <p>Сохраняйте маржинальную структуру, выходя на микролокации с высоким трафиком.</p>
-        </div>
-        <div class="feature-item">
-          <h4>Доступ к локациям с высоким трафиком в компактном формате</h4>
-          <p>Жилые башни, офисы, АЗС — там, где полноценный магазин не помещается.</p>
-        </div>
-        <div class="feature-item">
-          <h4>Данные об оборачиваемости, спросе и реакции покупателей</h4>
-          <p>Оперативная аналитика на уровне полки и локации.</p>
-        </div>
-        <div class="feature-item">
-          <h4>Распределение полок на основе реальной эффективности</h4>
-          <p>Решения по ассортименту на основе измеренной оборачиваемости, а не догадок.</p>
-        </div>
-        <div class="feature-item">
-          <h4>Интеграция с пополнением и операционными оповещениями</h4>
-          <p>Автоматические сигналы при низких остатках или обнаружении аномалий.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 7. WHY PROPERTY OWNERS CARE -->
-  <section id="locations" class="dark">
-    <div class="container">
-      <div class="split">
-        <div>
-          <p class="eyebrow">Для локаций</p>
-          <h2 class="section-title wide">Почему локации выбирают Micro Shop</h2>
-          <p class="section-body">Micro Shop позволяет жилым, офисным и транзитным объектам монетизировать поток людей без строительства и эксплуатации классической розничной точки. Формат компактный, автоматизированный и рассчитан на среды, где полноценный магазин слишком дорог, сложен или просто нецелесообразен.</p>
-        </div>
-        <div class="feature-grid">
-          <div class="feature-item">
-            <h4>Новый источник дохода из неиспользуемого пространства</h4>
-            <p>Лобби, коридоры и прилегающие территории становятся активными точками торговли.</p>
-          </div>
-          <div class="feature-item">
-            <h4>Не нужно управлять персоналом и складскими операциями</h4>
-            <p>Полностью автономно — без найма, обучения и ежедневной операционной рутины.</p>
-          </div>
-          <div class="feature-item">
-            <h4>Быстрое развёртывание в лобби, коридорах, на АЗС и в многофункциональных объектах</h4>
-            <p>Модульные шкафы устанавливаются за дни, а не месяцы.</p>
-          </div>
-          <div class="feature-item">
-            <h4>Больше удобства для жильцов, сотрудников и посетителей</h4>
-            <p>Повседневные товары там, где люди уже находятся — без выхода из здания.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 8–11. TECHNOLOGY -->
-  <section id="technology">
-    <div class="container">
-      <div class="section-header">
-        <p class="eyebrow">Технологии</p>
-        <h2 class="section-title wide">Операционный интеллект по всей сети</h2>
-        <p class="section-body" style="margin-top:1rem">Искусственный интеллект, контроль безопасности и интеллект запасов работают как операционные слои — а не маркетинговые ярлыки. Вместе они превращают Micro Shop в контролируемую розничную систему, а не в отдельный умный шкаф.</p>
-      </div>
-
-      <div class="tech-band">
-        <div class="tech-band-item">
-          <h4>ИИ и автоматизация</h4>
-          <ul>
-            <li>Оптимизация ассортимента по локациям</li>
-            <li>Рейтинг поставщиков и оценка эффективности</li>
-            <li>Динамическое ценообразование для оборачиваемости</li>
-            <li>Обнаружение потерь и аномалий</li>
-            <li>Прогнозирование пополнения</li>
-          </ul>
-        </div>
-        <div class="tech-band-item">
-          <h4>Безопасность и контроль</h4>
-          <ul>
-            <li>Мониторинг и журналирование событий на уровне шкафа</li>
-            <li>Блокировка партии или SKU при исключениях безопасности</li>
-            <li>Контролируемые сценарии пополнения</li>
-            <li>Логика обработки просроченных товаров</li>
-            <li>Fail-secure при температурных отклонениях</li>
-          </ul>
-        </div>
-        <div class="tech-band-item">
-          <h4>Динамические запасы</h4>
-          <ul>
-            <li>Весовой мониторинг полок</li>
-            <li>Различение снятия товара и деградации</li>
-            <li>Динамическое ценообразование для скоропортящихся товаров</li>
-            <li>Контроль смешивания партий и пополнения</li>
-            <li>Лучшая оборачиваемость, меньше списаний</li>
-          </ul>
-        </div>
-        <div class="tech-band-item">
-          <h4>Сетевая архитектура</h4>
-          <ul>
-            <li>Централизованная видимость по всем локациям</li>
-            <li>Локальный edge-интеллект + удалённая оркестрация</li>
-            <li>Участие поставщиков на нескольких площадках</li>
-            <li>Аналитика на уровне точки и всей сети</li>
-            <li>Модульное развёртывание под размер площадки</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 12. USE CASES -->
-  <section id="use-cases">
-    <div class="container">
-      <div class="section-header row">
-        <div>
-          <p class="eyebrow">Сценарии</p>
-          <h2 class="section-title">Где Micro Shop работает лучше всего</h2>
-        </div>
-        <p class="section-body">Система создана для сред с высоким трафиком и ограниченным пространством, где важно удобство, а традиционные форматы магазинов неэффективны.</p>
+        <p class="prose">Autonomous retail · convenience retail · food-service automation · last-meter distribution. Целевые локации — жилые комплексы, бизнес-центры, апарт-форматы, кампусы, транспортные узлы, АЗС, ТЦ — где нужен повседневный спрос без полноформатного магазина.</p>
       </div>
       <div class="use-grid">
-        <div class="use-item">
-          <span class="use-icon">Жилые</span>
-          <h4>Жилые башни и лобби многоквартирных домов</h4>
-        </div>
-        <div class="use-item">
-          <span class="use-icon">Офисы</span>
-          <h4>Офисные здания и корпоративные кампусы</h4>
-        </div>
-        <div class="use-item">
-          <span class="use-icon">Транзит</span>
-          <h4>АЗС и торговля на прилегающей территории</h4>
-        </div>
-        <div class="use-item">
-          <span class="use-icon">Ритейл</span>
-          <h4>Торговые центры и транзитные коридоры</h4>
-        </div>
-        <div class="use-item">
-          <span class="use-icon">Многофункциональные</span>
-          <h4>Многофункциональные комплексы и премиальные объекты</h4>
-        </div>
+        <div class="use-item"><span class="use-icon">Жилые</span><h4>Башни и лобби ЖК</h4></div>
+        <div class="use-item"><span class="use-icon">Офисы</span><h4>Бизнес-центры и кампусы</h4></div>
+        <div class="use-item"><span class="use-icon">Транзит</span><h4>АЗС и узлы</h4></div>
+        <div class="use-item"><span class="use-icon">Retail</span><h4>ТЦ и коридоры</h4></div>
+        <div class="use-item"><span class="use-icon">Unattended</span><h4>Безлюдный retail и direct-trade</h4></div>
       </div>
     </div>
   </section>
 
-  <!-- 13. BUSINESS MODEL -->
-  <section id="business-model" class="dark">
+  <!-- Слайд 9: Бизнес-модель -->
+  <section id="business" class="deck-section">
     <div class="container">
-      <div class="split">
-        <div>
-          <p class="eyebrow">Бизнес-модель</p>
-          <h2 class="section-title">Многосторонняя модель монетизации</h2>
-          <p class="section-body">Micro Shop объединяет развёртывание оборудования, программные операции и локационную коммерцию в единую структуру монетизации. Доход формируется из подписок на оборудование и платформу, аренды полок, участия в транзакциях и операционных сервисов по всей сети.</p>
-        </div>
-        <div class="revenue-list">
-          <div class="revenue-item">
-            <span class="revenue-num">01</span>
-            <div><h4>SaaS и подписка на платформу</h4></div>
-          </div>
-          <div class="revenue-item">
-            <span class="revenue-num">02</span>
-            <div><h4>Развёртывание оборудования и финансирование модулей</h4></div>
-          </div>
-          <div class="revenue-item">
-            <span class="revenue-num">03</span>
-            <div><h4>Аренда полок и плата за размещение поставщиков</h4></div>
-          </div>
-          <div class="revenue-item">
-            <span class="revenue-num">04</span>
-            <div><h4>Revenue share или соглашения о монетизации площадки</h4></div>
-          </div>
-          <div class="revenue-item">
-            <span class="revenue-num">05</span>
-            <div><h4>Опциональные операционные сервисы и аналитика</h4></div>
-          </div>
-        </div>
+      <p class="deck-num">Слайд 09 · Бизнес-модель</p>
+      <p class="eyebrow">Business model</p>
+      <h2 class="section-title wide">Hardware + service + software + platform economics</h2>
+      <div class="revenue-list" style="margin-top:2rem">
+        <div class="revenue-item"><span class="revenue-num">01</span><div><h4>Продажа и поставка оборудования (hardware)</h4><p style="font-size:0.8125rem;color:var(--ink-muted);margin-top:0.25rem">Модули, финансирование серий, deployment</p></div></div>
+        <div class="revenue-item"><span class="revenue-num">02</span><div><h4>Сервисная выручка (service)</h4><p style="font-size:0.8125rem;color:var(--ink-muted);margin-top:0.25rem">Поддержка сети, операции, мониторинг</p></div></div>
+        <div class="revenue-item"><span class="revenue-num">03</span><div><h4>Recurring software / SaaS</h4><p style="font-size:0.8125rem;color:var(--ink-muted);margin-top:0.25rem">Платформенное управление, аналитика, AI-слой</p></div></div>
+        <div class="revenue-item"><span class="revenue-num">04</span><div><h4>Platform economics</h4><p style="font-size:0.8125rem;color:var(--ink-muted);margin-top:0.25rem">Multi-tenant логика, split-payments, аренда слотов, revenue share с локациями</p></div></div>
+      </div>
+      <div class="sub-block">
+        <h3>Модель поставщика и оператора</h3>
+        <p class="prose"><strong>Подключение поставщиков</strong> (не «онбординг»), распределение полок, AI-рейтинг, удалённое управление ценой слотов, split settlement. Поставщики независимо управляют ценами через приложение; платформа автоматически делит выручку.</p>
       </div>
     </div>
   </section>
 
-  <!-- 14. DIFFERENTIATORS -->
-  <section id="differentiators">
+  <!-- Слайд 10: Конкуренты -->
+  <section id="competition" class="dark deck-section">
     <div class="container">
-      <div class="section-header">
-        <p class="eyebrow">Позиционирование</p>
-        <h2 class="section-title">Чем Micro Shop отличается</h2>
-      </div>
-      <ul class="diff-list">
-        <li>
-          <span class="diff-label">Не просто вендинг</span>
-          <p>Многошкафная розничная инфраструктура под управлением платформы — не одна машина в коридоре.</p>
-        </li>
-        <li>
-          <span class="diff-label">Не просто магазин</span>
-          <p>Доступ поставщиков и логика прямой торговли заложены в модель с первого дня.</p>
-        </li>
-        <li>
-          <span class="diff-label">Не просто автоматизация</span>
-          <p>Система включает контуры безопасности, качества и операционного контроля на уровне шкафа.</p>
-        </li>
-        <li>
-          <span class="diff-label">Не просто технология оплаты</span>
-          <p>Оборудование, ПО, ценообразование, запасы и оркестрация поставщиков — в одной операционной среде.</p>
-        </li>
-        <li>
-          <span class="diff-label">Не одна точка</span>
-          <p>Спроектирован как повторяемый сетевой формат — масштабируется на города, портфели объектов и продуктовых партнёров.</p>
-        </li>
+      <p class="deck-num">Слайд 10 · Конкурентное отличие</p>
+      <p class="eyebrow">Competition</p>
+      <h2 class="section-title">Не vending, не smart fridge — autonomous retail OS</h2>
+      <ul class="diff-list" style="margin-top:2rem">
+        <li><span class="diff-label">Platform</span><p>Масштабируемая modular platform, а не single-use device.</p></li>
+        <li><span class="diff-label">Stack</span><p>Hardware + software + operating model в одном контуре.</p></li>
+        <li><span class="diff-label">Direct trade</span><p>Цифровой канал покупатель ↔ поставщик без классического ритейлера.</p></li>
+        <li><span class="diff-label">IP</span><p>Защищаемый набор технических и бизнес-механик, а не только shelf automation.</p></li>
       </ul>
     </div>
   </section>
 
-  <!-- 15. PARTNERSHIP CTA -->
-  <section id="partnerships" class="cta-section">
+  <!-- Слайд 11: Патенты -->
+  <section id="ip" class="deck-section">
     <div class="container">
-      <p class="eyebrow" style="color:rgba(255,255,255,0.6)">Партнёрство</p>
-      <h2 class="section-title">Создайте следующий розничный слой вместе с нами</h2>
-      <p class="section-body">Micro Shop создан для поставщиков, владельцев недвижимости, производственных партнёров и стратегических операторов, которые хотят участвовать в новой модели автономной розницы. Платформа объединяет компактную физическую инфраструктуру и интеллектуальную операционную логику, создавая новый канал для повседневной торговли.</p>
-      <div class="cta-actions">
-        <a href="mailto:partnerships@microshop.io" class="btn btn-light">Связаться с командой</a>
+      <p class="deck-num">Слайд 11 · Патенты и IP</p>
+      <p class="eyebrow">Patents / IP</p>
+      <h2 class="section-title wide">9 PPA и патентное поле как база defensibility</h2>
+      <p class="prose" style="margin-top:1rem">Патентная стратегия — центральная ось проекта. Работа с claims и переводами ведётся с patent counsel. Для инвестора: defensibility, licensing value и барьеры входа, а не только speed-to-market.</p>
+
+      <div class="patent-table-wrap">
+        <table class="patent-table">
+          <thead>
+            <tr><th>PPA</th><th>Тема</th><th>Архитектурное ядро</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1–4</td><td>Ранние концепции Micro Shop: direct-trade, AI-ассортимент, модель supplier/location/operator</td><td>Physical module + SaaS + mobile app</td></tr>
+            <tr><td>5–6</td><td>Bio-metric / inventory management</td><td>Entry biometrics + session engine + inventory tracking</td></tr>
+            <tr><td>7</td><td>Modular retail system</td><td>Reconfigurable cabinet, vertical bus, thermal/produce, induction, UPS</td></tr>
+            <tr><td>8</td><td>Intelligent bulk produce quality control</td><td>Hopper 45°, load cell, disposal weighing, AI pricing</td></tr>
+            <tr><td>9</td><td>Autonomous retail platform with verified feedback control</td><td>Feedback engine, reservation, remote pickup, settlement, enforcement</td></tr>
+            <tr><td>10</td><td>Through-tracking tare control</td><td>Entry/exit tare verification, substitution prevention, multi-session allocation</td></tr>
+          </tbody>
+        </table>
       </div>
-      <p class="cta-secondary">Партнёрство доступно для развёртывания, производства, пилотных локаций и платформенного сотрудничества.</p>
+
+      <div class="sub-block">
+        <h3>PPA #9 — verified feedback control</h3>
+        <p class="prose">Платформа управляет множеством модулей и поставщиков; verified ratings, complaints, returns и quality events — технические управляющие входы. Узлы: platform controller, edge controllers, consumer app, supplier interface, settlement engine, slot assignment, feedback processing, reservation и network enforcement.</p>
+      </div>
+
+      <div class="sub-block">
+        <h3>PPA #10 — контроль переносимой тары</h3>
+        <p class="prose">Регистрация тары на входе, отслеживание массы в сессии, верификация на выходе, обнаружение подмены и неоднозначных событий при нескольких пользователях. Dual-zone platform, system-provided tare, return zone, multi-session allocation. Архитектура входного/выходного контроля веса — самостоятельный FIG-блок, не абстрактная anti-theft идея.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Слайды 12–13: Этап и roadmap -->
+  <section id="stage" class="dark deck-section">
+    <div class="container">
+      <p class="deck-num">Слайды 12–13 · Этап и roadmap</p>
+      <div class="split">
+        <div>
+          <p class="eyebrow">Stage</p>
+          <h2 class="section-title">Productization и industrial preparation</h2>
+          <div class="prose" style="margin-top:1rem">
+            <p><strong>Сейчас:</strong> патентование умного магазина, разработка ТЗ, подбор и размещение производства — Китай для России, Европа для Дубая и Латинской Америки.</p>
+            <p>Это стадия после «голой идеи»: IP → engineering → pilot manufacturing → масштабирование сети и платформы прямой торговли.</p>
+          </div>
+        </div>
+        <div class="roadmap">
+          <div class="roadmap-item"><span class="roadmap-step">01</span><div><h4>IP-контур</h4><p>Завершение патентной упаковки и патентное семейство</p></div></div>
+          <div class="roadmap-item"><span class="roadmap-step">02</span><div><h4>MVP</h4><p>Модули и софт под ключевые сценарии покупки</p></div></div>
+          <div class="roadmap-item"><span class="roadmap-step">03</span><div><h4>Production</h4><p>Кооперация под географии запуска</p></div></div>
+          <div class="roadmap-item"><span class="roadmap-step">04</span><div><h4>Pilot</h4><p>Инсталляции и валидация unit economics</p></div></div>
+          <div class="roadmap-item"><span class="roadmap-step">05</span><div><h4>Scale</h4><p>Сеть smart cabinets и платформа для поставщиков</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Слайды 14–15: Инвесторам -->
+  <section id="investors" class="deck-section">
+    <div class="container">
+      <p class="deck-num">Слайды 14–15 · Инвестиционный тезис и ask</p>
+      <p class="eyebrow">For investors</p>
+      <h2 class="section-title wide">Вход в категорию autonomous retail infrastructure</h2>
+      <p class="prose" style="margin-top:1rem">Инвестор покупает не устройство и не только пилот, а право войти в формирование стандартов архитектуры, IP и бизнес-модели autonomous retail. Экспозиция к стоимости IP-портфеля, hardware-поставкам, recurring service/software и platform economics direct supplier model.</p>
+
+      <div class="thesis-grid">
+        <div class="thesis-card"><h4>Стоимость IP</h4><p>9 PPA и расширяемое патентное семейство</p></div>
+        <div class="thesis-card"><h4>Hardware revenue</h4><p>Поставки модулей и серийное развёртывание</p></div>
+        <div class="thesis-card"><h4>Recurring</h4><p>Service и SaaS по сети</p></div>
+        <div class="thesis-card"><h4>Platform</h4><p>Split-payments, слоты, multi-tenant логика</p></div>
+      </div>
+
+      <div class="risk-note">
+        <strong>Риски (структурно):</strong> производственная реализация, unit economics пилота, UX сценария, регуляторика, скорость коммерческого внедрения. Параллельная работа по IP, ТЗ и production снижает часть рисков через архитектурное и юридическое закрепление.
+      </div>
+
+      <div class="sub-block">
+        <h3>Ask — на что направляются инвестиции</h3>
+        <ul class="bullet-list">
+          <li>Завершение IP-контура и инженерной упаковки</li>
+          <li>Финансирование MVP и пилотной серии модулей</li>
+          <li>Подготовка серийного производства под целевые регионы</li>
+          <li>Запуск первых пилотных локаций и подтверждение коммерческой модели</li>
+        </ul>
+      </div>
+
+      <div class="cta-actions" style="margin-top:2.5rem;justify-content:flex-start">
+        <a href="mailto:partnerships@microshop.io" class="btn btn-primary">Запросить материалы для инвесторов</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2 class="section-title" style="max-width:none">Modular Autonomous Retail System</h2>
+      <p class="section-body">Smart modules · AI-driven control · supplier platform · biometric sessions · produce QC · tare-aware exit verification — в единой масштабируемой architecture.</p>
+      <p class="cta-secondary" style="margin-top:1rem">Micro Shop — платформенный слой управления поставщиками, сетью модулей, ценообразованием, резервированием, pickup и патентуемыми control workflows.</p>
     </div>
   </section>
 
   <footer class="site-footer">
     <div class="container">
       <span class="logo">Micro<span>Shop</span></span>
-      <span>&copy; 2026 Micro Shop. Автономная розничная инфраструктура.</span>
+      <span>&copy; 2026 · Autonomous Retail System / Smart Cabinet Platform</span>
     </div>
   </footer>
 
