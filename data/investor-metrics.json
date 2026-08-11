@@ -1,0 +1,53 @@
+{
+  "currency": "USD",
+  "round": {
+    "name": "Seed",
+    "target": null,
+    "preMoney": null,
+    "runwayMonths": null
+  },
+  "known": {
+    "ppaCount": 9,
+    "revenueStreams": 4,
+    "purchaseSecondsMin": 60,
+    "purchaseSecondsMax": 120,
+    "cabinetsMin": 6,
+    "cabinetsMax": 8,
+    "mvpScenarios": 3
+  },
+  "market": {
+    "tam": { "value": null, "unit": "млн", "note": "Глобальная автономная / proximity retail" },
+    "sam": { "value": null, "unit": "млн", "note": "Целевые регионы: РФ, ОАЭ, LATAM" },
+    "som": { "value": null, "unit": "млн", "note": "3–5 лет, сеть пилотных локаций" }
+  },
+  "unitEconomics": {
+    "capexPerLocation": null,
+    "monthlyRevenueLocation": null,
+    "monthlyOpexLocation": null,
+    "platformFeeMonthly": null,
+    "supplierSlotsAvg": null,
+    "transactionsPerDay": null,
+    "avgCheck": null,
+    "paybackMonths": null,
+    "grossMarginPct": null
+  },
+  "useOfFunds": [
+    { "id": "ip", "label": "Патенты и инженерная упаковка", "pct": 15, "amount": null },
+    { "id": "mvp", "label": "MVP: модули и ПО", "pct": 35, "amount": null },
+    { "id": "pilot", "label": "Пилотные установки (3–5 точек)", "pct": 25, "amount": null },
+    { "id": "production", "label": "Подготовка серийного производства", "pct": 15, "amount": null },
+    { "id": "ops", "label": "Операции и команда", "pct": 10, "amount": null }
+  ],
+  "forecast": [
+    { "year": 1, "locations": null, "revenue": null, "ebitda": null },
+    { "year": 2, "locations": null, "revenue": null, "ebitda": null },
+    { "year": 3, "locations": null, "revenue": null, "ebitda": null }
+  ],
+  "milestones": [
+    { "quarter": "2026 Q3", "event": "Завершение патентного семейства PPA 1–10", "kpi": null },
+    { "quarter": "2026 Q4", "event": "MVP-модули: овощ / молоко / горячее блюдо", "kpi": null },
+    { "quarter": "2027 Q1", "event": "Первая пилотная локация", "kpi": null },
+    { "quarter": "2027 Q2", "event": "3–5 пилотов, валидация unit-экономики", "kpi": null },
+    { "quarter": "2027 H2", "event": "Серийное производство, масштаб сети", "kpi": null }
+  ]
+}

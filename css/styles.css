@@ -1048,3 +1048,142 @@ section.dark .figure-block figcaption {
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--line);
 }
+
+/* ── Investor deck numbers ── */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  margin-top: 2rem;
+}
+
+.metric-cell {
+  background: var(--surface);
+  padding: 1.5rem 1.25rem;
+}
+
+.metric-cell strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--teal);
+  letter-spacing: -0.03em;
+  margin-bottom: 0.35rem;
+}
+
+.metric-cell span {
+  font-size: 0.8125rem;
+  color: var(--ink-muted);
+  line-height: 1.45;
+}
+
+.metric-cell.placeholder strong {
+  color: var(--ink-soft);
+}
+
+section.dark .metric-cell {
+  background: var(--dark-surface);
+}
+
+section.dark .metric-cell span {
+  color: #8a877f;
+}
+
+.fund-row {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.fund-row:first-child {
+  border-top: 1px solid var(--line);
+}
+
+.fund-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.fund-label { font-weight: 600; }
+
+.fund-amount {
+  color: var(--ink-muted);
+  white-space: nowrap;
+}
+
+.fund-bar {
+  height: 6px;
+  background: var(--bg-alt);
+  overflow: hidden;
+}
+
+.fund-bar-fill {
+  height: 100%;
+  background: var(--teal);
+}
+
+.forecast-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.forecast-table th,
+.forecast-table td {
+  text-align: left;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.forecast-table th {
+  background: var(--bg-alt);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-muted);
+}
+
+section.dark .forecast-table th {
+  background: var(--dark-surface);
+  color: #8a877f;
+}
+
+section.dark .forecast-table td {
+  border-color: var(--line-dark);
+  color: #a8a59d;
+}
+
+.deck-note {
+  margin-top: 1rem;
+  font-size: 0.8125rem;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.highlight-box {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: var(--teal-glow);
+  border-left: 3px solid var(--teal);
+}
+
+.highlight-box strong {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  color: var(--teal);
+}
+
+@media (max-width: 1024px) {
+  .metrics-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .metrics-grid { grid-template-columns: 1fr; }
+  .fund-meta { flex-direction: column; gap: 0.25rem; }
+}

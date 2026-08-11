@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Инвесторская презентация — Micro Shop</title>
+  <meta name="description" content="Micro Shop: инвесторский deck с ключевыми метриками, рынком, unit-экономикой, запросом финансирования и прогнозом.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Onest:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Основная навигация">
+    <div class="container">
+      <a href="index.html#cover" class="logo">Micro<span>Shop</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html#cover">О проекте</a></li>
+        <li><a href="investors.html" aria-current="page">Презентация</a></li>
+        <li><a href="patents.html">Фигуры</a></li>
+        <li><a href="index.html#ip">Патенты</a></li>
+      </ul>
+      <a href="mailto:partnerships@microshop.io" class="nav-cta">Связаться</a>
+    </div>
+  </nav>
+
+  <header class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Investor deck · черновик с цифрами</p>
+      <h1 class="section-title wide">Инвесторская презентация Micro Shop</h1>
+      <p class="prose patents-intro">Количественный deck для переговоров с инвесторами. Подтверждённые метрики проекта заполнены; финансовые показатели помечены «—» и обновляются в файле <code>data/investor-metrics.json</code>.</p>
+      <a href="index.html#investors" class="patents-nav-link">← Краткий тезис на главной</a>
+    </div>
+  </header>
+
+  <!-- Слайд 1: Обложка + раунд -->
+  <section class="deck-section">
+    <div class="container">
+      <p class="deck-num">Слайд 01 · Обложка и раунд</p>
+      <div class="section-header row">
+        <div>
+          <h2 class="section-title">Автономная модульная розничная платформа</h2>
+          <p class="prose" style="margin-top:1rem">Прямая торговля «покупатель — платформа — поставщик». Патентуемая архитектура, hardware + service + SaaS.</p>
+        </div>
+        <div class="highlight-box">
+          <p style="font-size:0.8125rem;color:var(--ink-muted);margin-bottom:0.5rem">Раунд: <span id="m-round-name">—</span></p>
+          <p style="font-size:0.8125rem;color:var(--ink-muted)">Запрос:</p>
+          <strong id="m-round-target">—</strong>
+          <p style="font-size:0.8125rem;color:var(--ink-muted);margin-top:0.75rem">Pre-money: <span id="m-round-premoney">—</span> · Runway: <span id="m-runway">—</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Слайд 2: Ключевые цифры проекта -->
+  <section class="dark deck-section">
+    <div class="container">
+      <p class="deck-num">Слайд 02 · Ключевые метрики (подтверждено)</p>
+      <p class="eyebrow">Snapshot</p>
+      <h2 class="section-title wide">Цифры, которые уже заложены в продукт</h2>
+      <div class="metrics-grid">
+        <div class="metric-cell"><strong id="m-ppa">—</strong><span>предварительных патентных заявок (PPA)</span></div>
+        <div class="metric-cell"><strong id="m-streams">—</strong><span>контура выручки (оборудование, сервис, SaaS, платформа)</span></div>
+        <div class="metric-cell"><strong id="m-purchase-time">—</strong><span>целевое время покупки</span></div>
+        <div class="metric-cell"><strong id="m-cabinets">—</strong><span>шкафов на типичной локации</span></div>
+        <div class="metric-cell"><strong id="m-mvp">—</strong><span>MVP-сценария (овощ / молоко / горячее блюдо)</span></div>
+        <div class="metric-cell placeholder"><strong>3</strong><span>географии производства (РФ / ОАЭ / LATAM)</span></div>
+        <div class="metric-cell placeholder"><strong>5</strong><span>шагов покупки с мгновенной оплатой при взятии товара</span></div>
+        <div class="metric-cell placeholder"><strong>10</strong><span>патентных иллюстраций (рис. 1–10)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Слайд 3: Рынок TAM/SAM/SOM -->
+  <section class="deck-section">
+    <div class="container">
+      <p class="deck-num">Слайд 03 · Рынок</p>
+      <p class="eyebrow">Market size</p>
+      <h2 class="section-title wide">TAM · SAM · SOM</h2>
+      <div class="metrics-grid" style="grid-template-columns:repeat(3,1fr)">
+        <div class="metric-cell placeholder">
+          <strong id="m-tam">—</strong>
+          <span>TAM · <span id="m-tam-note"></span></span>
+        </div>
+        <div class="metric-cell placeholder">
+          <strong id="m-sam">—</strong>
+          <span>SAM · <span id="m-sam-note"></span></span>
+        </div>
+        <div class="metric-cell placeholder">
+          <strong id="m-som">—</strong>
+          <span>SOM · <span id="m-som-note"></span></span>
+        </div>
+      </div>
+      <p class="deck-note">Цифры TAM/SAM/SOM — для заполнения на основе ваших исследований рынка. Укажите в USD или локальной валюте в JSON.</p>
+    </div>
+  </section>
+
+  <!-- Слайд 4: Unit-экономика точки -->
+  <section class="dark deck-section">
+    <div class="container">
+      <p class="deck-num">Слайд 04 · Unit-экономика одной локации</p>
+      <p class="eyebrow">Unit economics</p>
+      <h2 class="section-title wide">Экономика одной точки (пилот → серия)</h2>
+      <div class="metrics-grid">
+        <div class="metric-cell placeholder"><strong id="m-capex">—</strong><span>CAPEX на локацию (модули + монтаж)</span></div>
+        <div class="metric-cell placeholder"><strong id="m-rev-loc">—</strong><span>выручка / мес. на локацию</span></div>
+        <div class="metric-cell placeholder"><strong id="m-opex-loc">—</strong><span>OPEX / мес. на локацию</span></div>
+        <div class="metric-cell placeholder"><strong id="m-margin">—</strong><span>валовая маржа</span></div>
+        <div class="metric-cell placeholder"><strong id="m-tx-day">—</strong><span>транзакций / день</span></div>
+        <div class="metric-cell placeholder"><strong id="m-avg-check">—</strong><span>средний чек</span></div>
+        <div class="metric-cell placeholder"><strong id="m-slots">—</strong><span>слотов поставщиков в среднем</span></div>
+        <div class="metric-cell placeholder"><strong id="m-platform-fee">—</strong><span>подписка SaaS / мес.</span></div>
+        <div class="metric-cell placeholder"><strong id="m-payback">—</strong><span>окупаемость CAPEX</span></div>
+      </div>
+      <p class="deck-note">Заполните после пилотных замеров или на основе финансовой модели. Оплата происходит в момент взятия товара — это снижает риск неоплаты.</p>
+    </div>
+  </section>
+
+  <!-- Слайд 5: Модель выручки -->
+  <section class="deck-section">
+    <div class="container">
+      <p class="deck-num">Слайд 05 · Модель выручки</p>
+      <p class="eyebrow">Revenue model</p>
+      <h2 class="section-title">Четыре потока монетизации</h2>
+      <ul class="bullet-list" style="margin-top:1.5rem">
+        <li><strong>Оборудование</strong> — продажа / лизинг модулей, развёртывание</li>
+        <li><strong>Сервис</strong> — поддержка сети, мониторинг, операции</li>
+        <li><strong>SaaS</strong> — подписка на платформу, аналитика, слой ИИ</li>
+        <li><strong>Платформа</strong> — аренда слотов, раздельные платежи, доля с локаций</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Слайд 6: Use of funds -->
+  <section class="dark deck-section">
+    <div class="container">
+      <p class="deck-num">Слайд 06 · Использование средств</p>
+      <p class="eyebrow">Use of funds</p>
+      <h2 class="section-title wide">Куда пойдут инвестиции</h2>
+      <p class="prose" style="margin-top:1rem">Структура ниже — рабочий черновик (проценты). Суммы рассчитываются автоматически после указания <strong>round.target</strong> в JSON.</p>
+      <div id="use-of-funds" style="margin-top:2rem"></div>
+    </div>
+  </section>
+
+  <!-- Слайд 7: Прогноз 3 года -->
+  <section class="deck-section">
+    <div class="container">
+      <p class="deck-num">Слайд 07 · Финансовый прогноз</p>
+      <p class="eyebrow">Forecast</p>
+      <h2 class="section-title wide">Сценарий на 3 года</h2>
+      <table class="forecast-table">
+        <thead>
+          <tr>
+            <th>Период</th>
+            <th>Локаций в сети</th>
+            <th>Выручка</th>
+            <th>EBITDA</th>
+          </tr>
+        </thead>
+        <tbody id="forecast-table-body"></tbody>
+      </table>
+      <p class="deck-note">Прогноз — для заполнения. Рекомендуем base / upside / downside сценарии.</p>
+    </div>
+  </section>
+
+  <!-- Слайд 8: Milestones -->
+  <section class="dark deck-section">
+    <div class="container">
+      <p class="deck-num">Слайд 08 · Вехи</p>
+      <p class="eyebrow">Milestones</p>
+      <h2 class="section-title">Дорожная карта с KPI</h2>
+      <div class="roadmap" id="milestones-list"></div>
+    </div>
+  </section>
+
+  <!-- Слайд 9: Ask -->
+  <section class="cta-section deck-section">
+    <div class="container">
+      <p class="deck-num" style="color:rgba(255,255,255,0.5)">Слайд 09 · Запрос</p>
+      <h2 class="section-title" style="max-width:none">Инвестируйте в категорию автономной розничной инфраструктуры</h2>
+      <p class="section-body">9 PPA · модульная платформа · пилоты · масштабируемая сеть · прямая торговля без классического ритейлера.</p>
+      <div class="cta-actions">
+        <a href="mailto:partnerships@microshop.io" class="btn btn-light">Запросить финмодель и dataroom</a>
+        <a href="index.html" class="btn btn-secondary" style="border-color:rgba(255,255,255,0.3);color:#fff">Продуктовый обзор</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="logo">Micro<span>Shop</span></span>
+      <span>&copy; 2026 · Investor deck (draft)</span>
+    </div>
+  </footer>
+
+  <script src="js/investor-deck.js"></script>
+</body>
+</html>
