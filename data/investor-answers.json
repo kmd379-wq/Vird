@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "project": "Micro Shop",
+    "updated": "2026-08-11",
+    "currencyDefault": "USD",
+    "note": "Ответы собираются по блокам. status: confirmed — из материалов проекта; draft — рабочая гипотеза; unknown — нужен ответ основателя."
+  },
+  "blocks": [
+    {
+      "id": 1,
+      "title": "Раунд и запрос",
+      "status": "in_progress",
+      "questions": [
+        {
+          "id": "1.1",
+          "question": "Как называем раунд: Seed / Pre-Seed / Angel?",
+          "answer": "Seed",
+          "status": "draft",
+          "source": "data/investor-metrics.json — рабочее название, не подтверждено основателем"
+        },
+        {
+          "id": "1.2",
+          "question": "Сколько привлекаем (target)? Валюта?",
+          "answer": null,
+          "status": "unknown",
+          "source": null,
+          "hint": "USD / EUR / AED / RUB — указать сумму и валюту"
+        },
+        {
+          "id": "1.3",
+          "question": "Pre-money valuation?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "1.4",
+          "question": "Runway — на сколько месяцев хватит раунда?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "1.5",
+          "question": "Форма сделки: equity, SAFE, convertible note?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "1.6",
+          "question": "Размер доли / диапазон, который готовы отдать?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "1.7",
+          "question": "Lead investor / soft commit / term sheet?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "1.8",
+          "question": "Closing timeline — когда планируете закрыть раунд?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "1.9",
+          "question": "Минимальный чек и профиль инвестора?",
+          "answer": null,
+          "status": "unknown",
+          "source": null,
+          "hint": "фонд / angel / strategic / family office; мин. чек $"
+        }
+      ],
+      "confirmedFromMaterials": {
+        "stage": "После «голой идеи»: патентование, инженерная проработка, промышленная подготовка. Pre-revenue.",
+        "qualitativeAsk": [
+          "Завершение IP-контура и инженерной упаковки (9 PPA → патентное семейство 1–10)",
+          "Финансирование MVP и пилотной серии модулей (овощ / молоко / горячее блюдо)",
+          "Подготовка серийного производства под целевые регионы",
+          "Запуск первых пилотных локаций и подтверждение коммерческой модели"
+        ],
+        "geographyProduction": {
+          "china": "производство для России",
+          "europe": "производство для Дубая и LATAM"
+        },
+        "milestonesUnlocked": [
+          "2026 Q3 — завершение патентного семейства PPA 1–10",
+          "2026 Q4 — MVP-модули по трём сценариям",
+          "2027 Q1 — первая пилотная локация",
+          "2027 Q2 — 3–5 пилотов, валидация unit-экономики",
+          "2027 H2 — серийное производство, масштаб сети"
+        ],
+        "useOfFundsDraftPct": {
+          "ip": 15,
+          "mvp": 35,
+          "pilot": 25,
+          "production": 15,
+          "ops": 10
+        },
+        "investorThesis": "Инвестор входит в формирование стандартов архитектуры, патентов и бизнес-модели автономной розницы — не покупает «один аппарат», а экспозицию к IP, hardware, recurring service/SaaS и platform economics.",
+        "contact": "partnerships@microshop.io",
+        "sources": [
+          "index.html — секция #investors, roadmap",
+          "data/investor-metrics.json — useOfFunds, milestones",
+          "Исходные investor materials (transcript, авг 2026) — слайд 15 Ask"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Компания и команда",
+      "status": "pending",
+      "questions": []
+    },
+    {
+      "id": 3,
+      "title": "Текущий статус и traction",
+      "status": "pending",
+      "questions": []
+    },
+    {
+      "id": 4,
+      "title": "Рынок (TAM / SAM / SOM)",
+      "status": "pending",
+      "questions": []
+    },
+    {
+      "id": 5,
+      "title": "Go-to-market",
+      "status": "pending",
+      "questions": []
+    },
+    {
+      "id": 6,
+      "title": "Unit-экономика точки",
+      "status": "pending",
+      "questions": []
+    },
+    {
+      "id": 7,
+      "title": "Модель выручки компании",
+      "status": "pending",
+      "questions": []
+    },
+    {
+      "id": 8,
+      "title": "Use of funds (детализация)",
+      "status": "pending",
+      "questions": []
+    },
+    {
+      "id": 9,
+      "title": "Финансовый прогноз 3 года",
+      "status": "pending",
+      "questions": []
+    },
+    {
+      "id": 10,
+      "title": "Вехи и KPI",
+      "status": "pending",
+      "questions": []
+    }
+  ]
+}
