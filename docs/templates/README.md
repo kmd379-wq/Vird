@@ -6,13 +6,15 @@
 
 ## Файлы
 
-| Файл | Назначение | Фазы |
-|---|---|---|
-| `temp_chill.csv` | Температура холодильного модуля | H2, H5 |
-| `weight_events.csv` | Весовые события и PICK | H0–H4 |
-| `edge_heartbeat.csv` | Состояние edge и шины | H4, H5 |
-| `transactions.csv` | Платежи и чеки | S4, E2E |
-| `defects.csv` | Журнал дефектов | All |
+
+| Файл                 | Назначение                      | Фазы    |
+| -------------------- | ------------------------------- | ------- |
+| `temp_chill.csv`     | Температура холодильного модуля | H2, H5  |
+| `weight_events.csv`  | Весовые события и PICK          | H0–H4   |
+| `edge_heartbeat.csv` | Состояние edge и шины           | H4, H5  |
+| `transactions.csv`   | Платежи и чеки                  | S4, E2E |
+| `defects.csv`        | Журнал дефектов                 | All     |
+
 
 ## Как использовать
 
@@ -21,6 +23,8 @@
 3. **Пример строки** (вторая строка) — удалите перед реальным логированием или оставьте как reference.
 4. **Время** — ISO 8601 с timezone: `2026-08-13T14:30:00+03:00`.
 5. **Кодировка** — UTF-8 with BOM (открывается в Excel без кракозябр).
+
+
 
 ## Именование прогонов
 
@@ -36,9 +40,12 @@ docs/logs/
   defects.csv          ← один общий на проект или per sprint
 ```
 
+
+
 ## Связь с test plan
 
 - NFR-04 → `temp_chill.csv`
 - NFR-01, NFR-03 → `weight_events.csv`
 - NFR-05 → `edge_heartbeat.csv`
 - NFR-02 → `transactions.csv` (`latency_pick_to_receipt_ms`)
+
