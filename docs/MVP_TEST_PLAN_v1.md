@@ -413,6 +413,8 @@ S0 ──► S1 ──► S2 ──► S3 ──► S4 ──► E2E ──► M
 | `transactions.csv` | ts, session, sku, amount, pay_status, receipt_id | E2E | Backend |
 | `defects.csv` | id, severity, phase, description, status | All | Test lead |
 
+Шаблоны: [docs/templates/](./templates/) (копировать в `docs/logs/` на каждый прогон).
+
 ### 11.2. Шаблон записи дефекта
 
 ```

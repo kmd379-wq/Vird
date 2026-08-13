@@ -1,0 +1,4 @@
+﻿timestamp_iso,module_id,sensor_location,t_air_c,t_evap_c,t_ambient_c,setpoint_c,alarm,compressor_on,notes
+2026-08-13T10:00:00+03:00,MS-CHILL-01,cabinet_air,4.2,,-18.5,4.0,false,true,example row — delete before test
+2026-08-13T10:05:00+03:00,MS-CHILL-01,cabinet_air,4.1,,-18.4,4.0,false,true,
+2026-08-13T10:05:00+03:00,MS-CHILL-01,evaporator,,,-18.6,,,true,

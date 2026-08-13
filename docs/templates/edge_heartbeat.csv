@@ -1,0 +1,4 @@
+﻿timestamp_iso,edge_id,status,bus_ok,network_ok,ups_on_battery,active_sessions,slaves_online,firmware_version,uptime_sec,notes
+2026-08-13T12:00:00+03:00,edge-lab-001,online,true,true,false,0,2,v0.1.0,86400,example row — delete before test
+2026-08-13T12:05:00+03:00,edge-lab-001,online,true,true,false,1,2,v0.1.0,86700,session active
+2026-08-13T12:10:00+03:00,edge-lab-001,degraded,true,false,false,1,2,v0.1.0,87000,network offline test TC-H4-05

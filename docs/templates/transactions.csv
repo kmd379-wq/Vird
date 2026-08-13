@@ -1,0 +1,4 @@
+﻿timestamp_iso,transaction_id,session_id,user_id,module_id,slot_id,sku_id,amount_rub,currency,pay_status,payment_provider_id,receipt_id,fiscal_sign,receipt_delivery,latency_pick_to_receipt_ms,test_phase,notes
+2026-08-13T13:01:02+03:00,txn_example001,sess_example001,user_42,MS-CHILL-01,C-1,SKU-C1,89.00,RUB,paid,yookassa_sandbox,rec_001,test_fiscal_sign,app,3200,S4,example row — delete before test
+2026-08-13T13:05:18+03:00,txn_example002,sess_example002,user_42,MS-PRODUCE-01,P-1,SKU-P1,79.00,RUB,paid,yookassa_sandbox,rec_002,test_fiscal_sign,email,4100,E2E,
+2026-08-13T13:10:44+03:00,txn_example003,sess_example003,user_43,MS-MEAL-01,M-1,SKU-M1,249.00,RUB,declined,yookassa_sandbox,,,,,E2E,TC-E2E-N05 declined card test

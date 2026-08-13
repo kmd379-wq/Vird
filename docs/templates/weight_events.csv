@@ -1,0 +1,5 @@
+﻿timestamp_iso,module_id,slot_id,event_type,weight_before_g,weight_after_g,delta_g,sku_id,stable_ms,pick_confirmed,session_id,test_phase,notes
+2026-08-13T11:15:22+03:00,MS-PRODUCE-01,P-1,PICK_EVENT,2500.0,1500.0,1000.0,SKU-P1,320,true,sess_example001,H1,example row — delete before test
+2026-08-13T11:20:05+03:00,MS-CHILL-01,C-1,PICK_EVENT,4120.0,3090.0,1030.0,SKU-C1,280,true,sess_example001,H4,
+2026-08-13T11:25:40+03:00,MS-MEAL-01,M-1,PICK_EVENT,1140.0,760.0,380.0,SKU-M1,250,true,sess_example001,H4,
+2026-08-13T11:26:01+03:00,MS-PRODUCE-01,P-1,WEIGHT_STABLE,1500.0,1500.0,0.0,SKU-P1,200,false,,H1,false trigger check

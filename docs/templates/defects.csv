@@ -1,0 +1,3 @@
+﻿defect_id,created_date,severity,phase,summary,steps,expected,actual,evidence,status,assignee,fixed_date,notes
+DEF-2026-001,2026-08-13,Medium,H1,PICK delay on P-2 slot,"1. Open session 2. Take SKU-P2",PICK_EVENT within 300ms,PICK after 850ms,weight_events.csv row 12,Open,hardware_lead,,example row — delete before use
+DEF-2026-002,2026-08-13,Critical,H3,E-stop latency,"1. Start heat 2. Press E-stop",Induction off within 100ms,Measured 180ms,video_h3_estop.mp4,Fixed,embedded_dev,2026-08-14,TC-M-04
