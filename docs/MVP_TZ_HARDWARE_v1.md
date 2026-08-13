@@ -585,8 +585,9 @@
 | Документ | Связь |
 |---|---|
 | [MVP_SCOPE_v1_RU.md](./MVP_SCOPE_v1_RU.md) | Границы MVP, cut list |
-| MVP_BOM_v1.xlsx | *(следующий)* детальная спецификация закупки |
-| MVP_TEST_PLAN_v1.md | *(следующий)* полный test plan hardware + software |
+| [MVP_BOM_v1.xlsx](./MVP_BOM_v1.xlsx) | Спецификация закупки |
+| [MVP_TEST_PLAN_v1.md](./MVP_TEST_PLAN_v1.md) | План испытаний |
+| [MVP_TZ_PRODUCE_v1.md](./MVP_TZ_PRODUCE_v1.md) | Детальное ТЗ модуль «Овощ» |
 | MVP_FW_EDGE_v1.md | *(planned)* протокол MSBP-0, API edge |
 | PPA 7, 8, 10 | Патентный контур; в v0 — упрощённые реализации |
 

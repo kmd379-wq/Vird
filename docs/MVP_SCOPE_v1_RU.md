@@ -303,8 +303,9 @@ MVP — это **не** полная платформа из инвесторс�
 **Ключевые документы (deliverables):**
 
 1. `MVP_SCOPE_v1_RU.md` — этот документ  
-2. `MVP_TZ_HARDWARE_v1.md` — ТЗ на 3 модуля *(следующий шаг)*  
-3. `MVP_BOM_v1.xlsx` — спецификация закупки *(источник: `data/mvp_bom_v1.json`)*  
+2. `MVP_TZ_HARDWARE_v1.md` — ТЗ на 3 модуля  
+3. `MVP_TZ_PRODUCE_v1.md` — детальное ТЗ модуль «Овощ» (PPA 7/8, FIG 5/8)  
+4. `MVP_BOM_v1.xlsx` — спецификация закупки *(источник: `data/mvp_bom_v1.json`)*  
 4. `MVP_TEST_PLAN_v1.md` — план испытаний  
 5. `MVP_AS_BUILT_v1` — схемы и фото после сборки
 
