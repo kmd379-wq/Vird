@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
+<rect width="900" height="640" fill="#ffffff"/>
+<text x="48" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#111111">User-session workflow</text>
+
+<!-- Row 1: Entry path -->
+<rect x="40" y="110" width="118" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="99" y="132" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Terms &amp; consent</text>
+<text x="99" y="146" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">110 Entry monitor</text>
+<line x1="158" y1="146" x2="170" y2="146" stroke="#222222" stroke-width="1.8"/>
+<polygon points="176,146 168,142 168,150" fill="#222222"/>
+
+<rect x="178" y="110" width="118" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="237" y="132" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Tare ID assign</text>
+<text x="237" y="146" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">450 · 455</text>
+<line x1="296" y1="146" x2="308" y2="146" stroke="#222222" stroke-width="1.8"/>
+<polygon points="314,146 306,142 306,150" fill="#222222"/>
+
+<rect x="316" y="110" width="118" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="375" y="132" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Initial tare weight</text>
+<text x="375" y="146" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">130 · 600 dual-zone</text>
+<line x1="434" y1="146" x2="446" y2="146" stroke="#222222" stroke-width="1.8"/>
+<polygon points="452,146 444,142 444,150" fill="#222222"/>
+
+<rect x="454" y="110" width="118" height="72" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="513" y="138" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">Unlock entry</text>
+<text x="513" y="152" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">140 barrier</text>
+<line x1="572" y1="146" x2="584" y2="146" stroke="#222222" stroke-width="1.8"/>
+<polygon points="590,146 582,142 582,150" fill="#222222"/>
+
+<rect x="592" y="110" width="130" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="657" y="128" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Retail session</text>
+<text x="657" y="142" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">500 tare-change</text>
+<text x="657" y="156" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">410 event log</text>
+<line x1="722" y1="146" x2="734" y2="146" stroke="#222222" stroke-width="1.8"/>
+<polygon points="740,146 732,142 732,150" fill="#222222"/>
+
+<rect x="742" y="110" width="118" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="801" y="128" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Return zone</text>
+<text x="801" y="142" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">210 optional</text>
+<text x="801" y="156" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">exclude from exit</text>
+
+<!-- Row 2: Multi-session branch -->
+<rect x="200" y="220" width="500" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="244" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Multi-session allocation (500 · 400)</text>
+<text x="450" y="260" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">low confidence ’ ambiguity event ’ verification mode</text>
+<line x1="657" y1="182" x2="657" y2="208" stroke="#222222" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="450" y1="182" x2="450" y2="208" stroke="#222222" stroke-width="1.2" stroke-dasharray="4,3"/>
+
+<!-- Row 3: Exit path -->
+<rect x="120" y="310" width="140" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="190" y="332" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Exit verify</text>
+<text x="190" y="346" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">310 re-ID · weigh</text>
+<line x1="260" y1="346" x2="278" y2="346" stroke="#222222" stroke-width="1.8"/>
+<polygon points="284,346 276,342 276,350" fill="#222222"/>
+
+<rect x="286" y="310" width="160" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="366" y="332" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Compare expected</text>
+<text x="366" y="346" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">420 vs exit weight</text>
+<text x="366" y="360" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">430 ID continuity</text>
+<line x1="446" y1="346" x2="464" y2="346" stroke="#222222" stroke-width="1.8"/>
+<polygon points="470,346 462,342 462,350" fill="#222222"/>
+
+<!-- Decision split -->
+<rect x="472" y="310" width="120" height="72" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="532" y="338" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">Pass?</text>
+<line x1="592" y1="330" x2="620" y2="330" stroke="#222222" stroke-width="1.8"/>
+<polygon points="626,330 618,326 618,334" fill="#222222"/>
+<line x1="592" y1="362" x2="620" y2="400" stroke="#222222" stroke-width="1.8"/>
+<polygon points="624,406 616,398 622,400" fill="#222222"/>
+
+<rect x="628" y="310" width="152" height="72" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="704" y="338" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">Release</text>
+<text x="704" y="352" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">320 unlock exit</text>
+<text x="704" y="366" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">close session</text>
+
+<rect x="628" y="420" width="200" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="728" y="448" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">440 Protective response</text>
+<text x="728" y="462" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">lock · re-weigh · inspect</text>
+<text x="728" y="476" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">330 alert · operator</text>
+
+<line x1="450" y1="276" x2="190" y2="304" stroke="#222222" stroke-width="1.2" stroke-dasharray="5,4"/>
+
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">FIG. 4</text>
+<text x="100" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#111111">User-session workflow</text>
+</svg>

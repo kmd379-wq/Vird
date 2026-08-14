@@ -161,7 +161,7 @@
 
 | PPA FIG | Аналог в проекте | Примечание |
 |---|---|---|
-| FIG. 1–4 (PPA #10) | **Отдельные** — создать по эскизам выше | Не путать с FIG_01…10 сайта |
+| FIG. 1–4 (PPA #10) | `assets/figures/ppa10/PPA10_FIG_01_EN.svg` … `PPA10_FIG_04_EN.svg` | Черновики SVG (900×640, patent style); не путать с FIG_01…10 сайта |
 | FIG_09 (сайт) | Логика безопасности / protective response | Дополняет, не заменяет FIG. 2/4 |
 | FIG_10 (сайт) | Сетевая архитектура edge + cloud | Контроллер 400 ↔ cloud 470 |
 
@@ -405,10 +405,10 @@ expected_exit_weight = Σ (active_tare_units)
 - [ ] Форма provisional cover sheet (micro entity / small entity — по статусу)  
 - [ ] Текст specification (PDF `PPA#10_Tare Tracking.pdf` — 17 стр.)  
 - [ ] Claims 1–23 (в PDF)  
-- [ ] **FIG. 1** — entry/exit architecture (лист рисунка)  
-- [ ] **FIG. 2** — controller block diagram  
-- [ ] **FIG. 3** — dual-zone platform  
-- [ ] **FIG. 4** — workflow diagram  
+- [x] **FIG. 1** — entry/exit architecture → `assets/figures/ppa10/PPA10_FIG_01_EN.svg` (черновик)  
+- [x] **FIG. 2** — controller block diagram → `assets/figures/ppa10/PPA10_FIG_02_EN.svg` (черновик)  
+- [x] **FIG. 3** — dual-zone platform → `assets/figures/ppa10/PPA10_FIG_03_EN.svg` (черновик)  
+- [x] **FIG. 4** — workflow diagram → `assets/figures/ppa10/PPA10_FIG_04_EN.svg` (черновик)  
 - [ ] Abstract / title (из PDF)  
 - [ ] Inventor names, assignee (если через юрлицо)  
 - [ ] Filing fee  
