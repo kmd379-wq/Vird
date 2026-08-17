@@ -66,8 +66,10 @@
 
 | Ref | Компонент | Функция |
 |---|---|---|
-| 100 | Entry group | Контроль доступа, регистрация тары |
-| 110 | Entry monitor | Условия, согласие на обработку данных |
+| 100 | Entry group | Контроль доступа: идентификация, оплата, регистрация тары |
+| 105 | User identification | **До монитора:** идентификация покупателя (приложение, карта, QR) |
+| 115 | Payment capability verification | **До монитора:** проверка платежеспособности (холд, баланс, лимит) |
+| 110 | Entry monitor | Условия, согласие на обработку ПДн; активируется **после 105+115** |
 | 120 | Entry tare-registration zone | Идентификация + начальный вес тары |
 | 130 | Entry weighing structure | Взвешивание тары на входе |
 | 140 | Entry barrier | Пропуск после успешной регистрации |
@@ -177,6 +179,8 @@
 
 ```
 ┌─────────────── ENTRY GROUP ───────────────┐
+│ User ID (105) ──► Payment check (115) ◄──► Cloud 470
+│     ──► then activate Entry Monitor (110)
 │ Monitor ──► Consent OK ──► Tare ID read/assign
 │ Tare Reg Zone ──► Load cell ──► Initial weight
 │ Side-mounted tare reader (optional, claim 2)
@@ -227,13 +231,24 @@
 ### 3.1. Общий алгоритм (FIG. 4)
 
 ```
-START
+START — user approaches entry group (100)
   │
   ▼
-[A] Display terms + tare registration notice on Entry Monitor
+[0a] User identification (105)
+  ▼
+[0b] Payment capability verification (115) ◄──► Cloud/Payment (470)
+  ▼
+ OK? ──NO──► Deny · monitor (110) stays off ──► END
+  │
+ YES
+  ▼
+[0c] Activate entry monitor (110)
   │
   ▼
-[B] User consent? ──NO──► Deny entry ──► END
+[A] Display terms + tare registration notice on Entry Monitor (110)
+  │
+  ▼
+[B] User consent (PDn)? ──NO──► Deny entry ──► END
   │
  YES
   ▼
@@ -319,8 +334,10 @@ expected_exit_weight = Σ (active_tare_units)
 
 | Компонент | Простое описание |
 |---|---|
-| **Entry group (100)** | «Входная группа»: не пускает в торговую зону, пока тара не зарегистрирована и не взвешена. |
-| **Entry monitor (110)** | Экран с правилами и **согласием** на регистрацию/взвешивание тары и обработку данных. |
+| **Entry group (100)** | «Входная группа»: идентификация, оплата, согласие, регистрация тары. |
+| **User identification (105)** | **До монитора:** определяет покупателя (приложение, карта, QR). |
+| **Payment capability verification (115)** | **До монитора:** проверяет возможность оплаты (холд, баланс). |
+| **Entry monitor (110)** | Экран с правилами и **согласием на ПДн**; включается **после 105+115**. |
 | **Entry tare-registration zone (120)** | Место, куда покупатель кладёт сумку/корзину для ID и начального веса. |
 | **Entry weighing structure (130)** | Весы на входе (load cell / platform). |
 | **Entry barrier (140)** | Турникет/дверь/шлагbaum — открывается после успешной регистрации. |
@@ -353,8 +370,11 @@ expected_exit_weight = Σ (active_tare_units)
 
 **Контекст:** автономная зона 3–6 smart-шкафов без кассира.
 
-1. Покупатель подходит к **entry group**: на monitor — согласие на регистрацию своей сумки.  
-2. Кладёт сумку в **dual-zone platform**: система фиксирует `tare_id` (NFC-бирка) и `initial_weight = 420 g`.  
+1. Покупатель подходит к **entry group (100)** — монитор (110) ещё не активен.  
+2. **Идентификация (105)** через приложение → `user_id`.  
+3. **Платежеспособность (115)**: холд на карте → успех → монитор (110) активируется.  
+4. На monitor (110) — согласие на регистрацию своей сумки и обработку ПДн.  
+5. Кладёт сумку в **dual-zone platform (600)**: `tare_id` (NFC) и `initial_weight = 420 g`.  
 3. Дополнительно выдаётся **system tare** (корзина магазина, 680 g) — вторая единица в сессии.  
 4. В retail module покупатель снимает молоко и овощи — модуль шлёт **tare_change_events** (−1030 g, −500 g) в controller.  
 5. Корзину магазина оставляет в **return zone** — controller меняет статус на `LEFT_CONFIRMED`, исключает 680 g из exit calc.  

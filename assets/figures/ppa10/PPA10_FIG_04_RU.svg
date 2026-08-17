@@ -1,85 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640">
 <rect width="900" height="640" fill="#ffffff"/>
-<text x="48" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#111111">@>F5AA ?>;L7>20B5;LA:>9 A5AA88</text>
+<text x="48" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#111111">??????? ???????????????? ??????</text>
 
-<rect x="32" y="110" width="124" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="94" y="132" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">#A;>28O</text>
-<text x="94" y="146" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">8 A>3;0A85</text>
-<text x="94" y="160" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">110 <>=8B>@ 2E>40</text>
-<line x1="156" y1="146" x2="168" y2="146" stroke="#222222" stroke-width="1.8"/>
-<polygon points="174,146 166,142 166,150" fill="#222222"/>
+<text x="450" y="82" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#888888">???? 0 — ?? ????????? ???????? (110)</text>
 
-<rect x="176" y="110" width="124" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="238" y="132" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">07=0G5=85</text>
-<text x="238" y="146" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">ID B0@K</text>
-<text x="238" y="160" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">450 · 455</text>
-<line x1="300" y1="146" x2="312" y2="146" stroke="#222222" stroke-width="1.8"/>
-<polygon points="318,146 310,142 310,150" fill="#222222"/>
+<rect x="120" y="92" width="140" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="190" y="114" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">105 ?????????????</text>
+<text x="190" y="128" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">??????????</text>
+<line x1="260" y1="120" x2="278" y2="120" stroke="#222222" stroke-width="1.8"/>
+<polygon points="284,120 276,116 276,124" fill="#222222"/>
 
-<rect x="320" y="110" width="124" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="382" y="132" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">0G0;L=K9</text>
-<text x="382" y="146" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">25A B0@K</text>
-<text x="382" y="160" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">130 · 600</text>
-<line x1="444" y1="146" x2="456" y2="146" stroke="#222222" stroke-width="1.8"/>
-<polygon points="462,146 454,142 454,150" fill="#222222"/>
+<rect x="286" y="92" width="160" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="366" y="114" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">115 ??????????????????</text>
+<text x="366" y="128" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">????? · ???? · ??????</text>
+<line x1="446" y1="120" x2="464" y2="120" stroke="#222222" stroke-width="1.8"/>
+<polygon points="470,120 462,116 462,124" fill="#222222"/>
 
-<rect x="464" y="110" width="124" height="72" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
-<text x="526" y="138" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">B:@KBL 2E>4</text>
-<text x="526" y="152" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">140 10@L5@</text>
-<line x1="588" y1="146" x2="600" y2="146" stroke="#222222" stroke-width="1.8"/>
-<polygon points="606,146 598,142 598,150" fill="#222222"/>
+<rect x="472" y="92" width="148" height="56" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="546" y="120" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">????????? 110</text>
+<line x1="546" y1="148" x2="546" y2="168" stroke="#222222" stroke-width="1.2"/>
+<polygon points="546,174 542,166 550,166" fill="#222222"/>
 
-<rect x="608" y="110" width="132" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="674" y="128" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">!5AA8O 2</text>
-<text x="674" y="142" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">B>@3>2>9 7>=5</text>
-<text x="674" y="156" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">500 · 410 6C@=0;</text>
-<line x1="740" y1="146" x2="752" y2="146" stroke="#222222" stroke-width="1.8"/>
-<polygon points="758,146 750,142 750,150" fill="#222222"/>
+<text x="48" y="188" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#888888">???? 1 — ??????????? ???? ? ??????</text>
 
-<rect x="760" y="110" width="124" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="822" y="128" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">>=0</text>
-<text x="822" y="142" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">2>72@0B0</text>
-<text x="822" y="156" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">210 >?F8>=0;L=></text>
+<rect x="48" y="198" width="108" height="68" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="102" y="220" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">???????</text>
+<text x="102" y="234" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">? ????????</text>
+<text x="102" y="248" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">110 ???????</text>
+<line x1="156" y1="232" x2="168" y2="232" stroke="#222222" stroke-width="1.8"/>
+<polygon points="174,232 166,228 166,236" fill="#222222"/>
 
-<rect x="180" y="220" width="540" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="450" y="244" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111"> 0A?@545;5=85 A>1KB89 ?@8 =5A:>;L:8E A5AA8OE (500 · 400)</text>
-<text x="450" y="260" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">=87:0O C25@5==>ABL ’ A>1KB85 =5>4=>7=0G=>AB8 ’ @568< 25@8D8:0F88</text>
-<line x1="674" y1="182" x2="674" y2="208" stroke="#222222" stroke-width="1.2" stroke-dasharray="4,3"/>
-<line x1="450" y1="182" x2="450" y2="208" stroke="#222222" stroke-width="1.2" stroke-dasharray="4,3"/>
+<rect x="176" y="198" width="108" height="68" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="230" y="220" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">??????????</text>
+<text x="230" y="234" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">ID ????</text>
+<text x="230" y="248" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">450 · 455</text>
+<line x1="284" y1="232" x2="296" y2="232" stroke="#222222" stroke-width="1.8"/>
+<polygon points="302,232 294,228 294,236" fill="#222222"/>
 
-<rect x="100" y="310" width="148" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="174" y="332" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">5@8D8:0F8O</text>
-<text x="174" y="346" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">=0 2KE>45</text>
-<text x="174" y="360" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">310 ID · 25A</text>
-<line x1="248" y1="346" x2="266" y2="346" stroke="#222222" stroke-width="1.8"/>
-<polygon points="272,346 264,342 264,350" fill="#222222"/>
+<rect x="304" y="198" width="108" height="68" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="358" y="220" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">?????????</text>
+<text x="358" y="234" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">??? ????</text>
+<text x="358" y="248" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">130 · 600</text>
+<line x1="412" y1="232" x2="424" y2="232" stroke="#222222" stroke-width="1.8"/>
+<polygon points="430,232 422,228 422,236" fill="#222222"/>
 
-<rect x="274" y="310" width="168" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="358" y="332" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">!@02=5=85</text>
-<text x="358" y="346" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">A >68405<K<</text>
-<text x="358" y="360" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">420 · 430 =5?@5@K2=>ABL ID</text>
-<line x1="442" y1="346" x2="460" y2="346" stroke="#222222" stroke-width="1.8"/>
-<polygon points="466,346 458,342 458,350" fill="#222222"/>
+<rect x="432" y="198" width="108" height="68" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="486" y="226" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">??????? ????</text>
+<text x="486" y="240" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">140 ??????</text>
+<line x1="540" y1="232" x2="552" y2="232" stroke="#222222" stroke-width="1.8"/>
+<polygon points="558,232 550,228 550,236" fill="#222222"/>
 
-<rect x="468" y="310" width="120" height="72" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
-<text x="528" y="346" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">#A?5E?</text>
-<line x1="588" y1="330" x2="616" y2="330" stroke="#222222" stroke-width="1.8"/>
-<polygon points="622,330 614,326 614,334" fill="#222222"/>
-<line x1="588" y1="362" x2="616" y2="400" stroke="#222222" stroke-width="1.8"/>
-<polygon points="620,406 612,398 618,400" fill="#222222"/>
+<rect x="560" y="198" width="120" height="68" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="620" y="218" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">?????? ?</text>
+<text x="620" y="232" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">???????? ????</text>
+<text x="620" y="248" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">500 · 410</text>
+<line x1="680" y1="232" x2="692" y2="232" stroke="#222222" stroke-width="1.8"/>
+<polygon points="698,232 690,228 690,236" fill="#222222"/>
 
-<rect x="624" y="310" width="156" height="72" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
-<text x="702" y="338" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">@>?CA:</text>
-<text x="702" y="352" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">320 >B:@KBL 2KE>4</text>
-<text x="702" y="366" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">70:@KBL A5AA8N</text>
+<rect x="700" y="198" width="108" height="68" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="754" y="218" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">????</text>
+<text x="754" y="232" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">????????</text>
+<text x="754" y="248" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">210 ???.</text>
 
-<rect x="624" y="420" width="220" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="734" y="444" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">440 0I8B=0O @50:F8O</text>
-<text x="734" y="458" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">1;>:8@>2:0 · ?>2B>@=>5 2725H820=85</text>
-<text x="734" y="472" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">330 >?>25I5=85 · >?5@0B>@</text>
+<rect x="180" y="296" width="540" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="318" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">????????????? ??????? ??? ?????????? ??????? (500 · 400)</text>
+<text x="450" y="332" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">?????? ??????????? ? ??????????????? ? ????? ???????????</text>
+<line x1="620" y1="266" x2="620" y2="288" stroke="#222222" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="450" y1="266" x2="450" y2="288" stroke="#222222" stroke-width="1.2" stroke-dasharray="4,3"/>
 
-<line x1="450" y1="276" x2="174" y2="304" stroke="#222222" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="100" y="378" width="140" height="68" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="170" y="400" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">???????????</text>
+<text x="170" y="414" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">?? ??????</text>
+<text x="170" y="428" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">310</text>
+<line x1="240" y1="412" x2="258" y2="412" stroke="#222222" stroke-width="1.8"/>
+<polygon points="264,412 256,408 256,416" fill="#222222"/>
 
-<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111"> 8A. 4</text>
-<text x="100" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#111111">@>F5AA ?>;L7>20B5;LA:>9 A5AA88</text>
+<rect x="266" y="378" width="156" height="68" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="344" y="406" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">????????? ? ?????????</text>
+<text x="344" y="420" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">420 · 430</text>
+<line x1="422" y1="412" x2="440" y2="412" stroke="#222222" stroke-width="1.8"/>
+<polygon points="446,412 438,408 438,416" fill="#222222"/>
+
+<rect x="448" y="378" width="108" height="68" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="502" y="416" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">??????</text>
+<line x1="556" y1="398" x2="584" y2="398" stroke="#222222" stroke-width="1.8"/>
+<polygon points="590,398 582,394 582,402" fill="#222222"/>
+<line x1="556" y1="426" x2="584" y2="464" stroke="#222222" stroke-width="1.8"/>
+<polygon points="588,470 580,462 586,464" fill="#222222"/>
+
+<rect x="592" y="378" width="148" height="68" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="666" y="406" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">???????</text>
+<text x="666" y="420" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">320 · ??????? ??????</text>
+
+<rect x="592" y="478" width="220" height="68" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="702" y="506" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">440 ???????? ???????</text>
+<text x="702" y="520" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">?????????? · ?????? · 330 ????????</text>
+
+<line x1="450" y1="348" x2="170" y2="370" stroke="#222222" stroke-width="1.2" stroke-dasharray="5,4"/>
+
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">???. 4</text>
+<text x="100" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#111111">??????? ???????????????? ??????</text>
 </svg>
