@@ -1,312 +1,321 @@
-# Modular Cabinet Platform — пакет материалов для патентного поверенного (PPA №3–6)
+# Платформа модульных шкафов — пакет материалов для патентного поверенного (PPA №3–6)
 
 **Кому:** патентный поверенный  
 **От:** команда Micro Shop / заявитель  
-**Контур:** Modular Cabinet Platform  
+**Контур:** Платформа модульных шкафов (Modular Cabinet Platform)  
 **Дата пакета:** 2026-08-25  
-**Язык:** русский (пояснения); тексты claims и specification — EN в исходных PDF
+**Язык:** русский (настоящий документ); тексты формулы изобретения (claims) и описания (specification) — на английском в исходных PDF
 
 > **Индекс и чеклист отправки:** [`MODULAR_CABINET_PATENT_ATTORNEY_INDEX_RU.md`](MODULAR_CABINET_PATENT_ATTORNEY_INDEX_RU.md)
 
 ---
 
-# PPA №3 — Modular Smart Vending Cabinet
+# PPA №3 — Модульный умный торговый шкаф
 
-**EN:** Modular Smart Vending Cabinet with Smart-Glass Inspection Mode, Sensor-Fusion Manual Retrieval, and Quality-Based Dynamic Pricing  
-**RU:** Модульный умный торговый шкаф со smart-glass режимом осмотра, ручной выдачей под sensor-fusion и динамическим ценообразованием по качеству  
+**Название (EN):** Modular Smart Vending Cabinet with Smart-Glass Inspection Mode, Sensor-Fusion Manual Retrieval, and Quality-Based Dynamic Pricing  
+**Название (RU):** Модульный умный торговый шкаф с режимом осмотра через умное стекло, ручной выдачей под контролем слияния датчиков и динамическим ценообразованием по качеству  
 **Источник:** `PPA#3-ModularSmartVendingCabinet_Revised.pdf`  
-**Рисунки:** `PPA#3 FIGURES.pdf` (FIG. 1–4)
+**Рисунки:** `PPA#3 FIGURES.pdf` (Рис. 1–4)
 
 ## Краткое описание
 
-Автономный модульный шкаф на едином шасси с вертикальной шиной питания/данных, сменными модулями выдачи (pusher, hook, scale-box, gated gravity, sliding tray, auto-purge) и **ручным** изъятием товара — без роботизированного gantry. Система sensor-fusion (RFID-матрица + камера + тензодатчики) подтверждает каждое снятие. Для age-gated товаров — smart-glass (PDLC): непрозрачный режим → биометрическая проверка возраста → прозрачный режим осмотра → pre-auth → доступ. Движок ценообразования учитывает **sensory decay** (потеря качества до срока годности) и **space-yield displacement** (скидка для освобождения «застоявшегося» слота).
+Автономный модульный шкаф на едином шасси с вертикальной шиной питания и данных, сменными модулями выдачи (толкатель, крючок, зона на весах, гравитационный канал с затвором, скользящий лоток, модуль авто-утилизации) и **ручным** изъятием товара — без роботизированного портала (gantry). Система слияния данных датчиков (матрица RFID + камера + тензодатчики) подтверждает каждое снятие. Для товаров с возрастным ограничением — умное стекло (PDLC): непрозрачный режим → биометрическая проверка возраста → прозрачный режим осмотра → предварительная авторизация платежа → доступ. Движок ценообразования учитывает **модель сенсорной деградации** (потеря качества до официального срока годности) и **алгоритм освобождения слота по доходности** (скидка для высвобождения «застоявшегося» места на полке).
 
 ---
 
-## §1. Эскизы и чертежи (FIG. 1–4)
+## §1. Эскизы и чертежи (Рис. 1–4)
 
-> **Формат:** 4 отдельных листа, patent line art. Официальные — в `PPA#3 FIGURES.pdf`.
+> **Формат приложения:** 4 отдельных листа, патентная штриховая графика (чёрный на белом). Официальные рисунки — в `PPA#3 FIGURES.pdf`.
 
-### FIG. 1 — Вид спереди: архитектура шкафа
+### Рис. 1 — Вид спереди: архитектура шкафа
 
-**Подпись:** *FIG. 1 — front view of autonomous retail cabinet: door, display, biometric camera, payment interface, smart shelves, linear front-zone antenna region.*
+**Подпись к рисунку:**  
+*Рис. 1 — вид спереди автономного торгового шкафа: дверь, дисплей, биометрическая камера, платёжный интерфейс, умные полки, линейная зона антенн у переднего края.*
 
 ```
 ┌─────────────────────────────────────────┐
-│  [110 Display]  [105 Biometric "Eye"]   │
-│  [Payment]                              │
+│  [110 Дисплей]  [105 Биокамера «Глаз»]  │
+│  [Платёжный интерфейс]                  │
 ├─────────────────────────────────────────┤
 │  ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐       │
-│  │Mod A│ │Mod B│ │Mod C│ │Mod D│       │  ← interchangeable modules
-│  │push │ │hook │ │scale│ │gate │       │
+│  │Мод A│ │Мод B│ │Мод C│ │Мод D│       │  ← сменные модули
+│  │толк.│ │крюч.│ │весы │ │затв.│       │
 │  └──┬──┘ └──┬──┘ └──┬──┘ └──┬──┘       │
-│     │antenna matrix + LED strip (smart edge)
+│     │матрица антенн + LED-лента (умный край)
 ├─────────────────────────────────────────┤
-│         Smart Waste Bin (purge)         │
+│      Умная корзина для отходов (утилизация)│
 └─────────────────────────────────────────┘
-      ▲ user-facing front zone
+      ▲ передняя зона, обращённая к пользователю
 ```
 
 | Ref | Компонент | Функция |
 |-----|-----------|---------|
-| 100 | Корпус / дверь | Защищённый объём, access-control |
-| 105 | Биометрическая камера («The Eye») | Возраст / идентификация до доступа |
-| 110 | Дисплей / UI | Условия, цены, согласие, digital sommelier |
-| 120 | Зона регистрации / front zone | Линейная RFID-матрица вдоль фронта полки |
-| 130 | Весовая структура (вход/модули) | Load cells в scale-box и weighing dish |
-| 200 | Торговая зона (interior) | Модули A–G на шасси |
-| 400 | Edge controller | Локальный «мозг», кэш, pricing engine |
-| 500 | Модули выдачи | Pusher, hook, scale-box, gated gravity, sliding tray, auto-purge |
+| 100 | Корпус / дверь | Защищённый объём, управление доступом |
+| 105 | Биометрическая камера («Глаз») | Проверка возраста и идентификация до доступа |
+| 110 | Дисплей / пользовательский интерфейс | Условия, цены, согласие, цифровой «сомелье» |
+| 120 | Зона регистрации / передняя зона | Линейная RFID-матрица вдоль переднего края полки |
+| 130 | Весовая структура (на входе / в модулях) | Тензодатчики в зоне на весах и в весовой чаше |
+| 200 | Торговая зона (внутренний объём) | Модули A–G на шасси |
+| 400 | Периферийный контроллер | Локальный «мозг», кэш, движок ценообразования |
+| 500 | Модули выдачи | Толкатель, крючок, зона на весах, гравитационный канал с затвором, скользящий лоток, авто-утилизация |
 
-### FIG. 2 — Вид сбоку: edge controller и offline-архитектура
+### Рис. 2 — Вид сбоку: периферийный контроллер и автономная архитектура
 
-**Подпись:** *FIG. 2 — electronics bay: edge controller, local DB/cache, comm modules, UPS.*
+**Подпись к рисунку:**  
+*Рис. 2 — отсек электроники: периферийный контроллер, локальная база данных / кэш, модули связи, источник бесперебойного питания.*
 
 ```
-┌──────────────── Cabinet ────────────────┐
-│  Modules ◄──► Vertical Power Busbar     │
-│              (rear wall)                │
-│  ┌─────────────────────────────┐      │
-│  │ Edge Controller (400)        │      │
-│  │ · pricing engine             │      │
-│  │ · sensor-fusion              │      │
-│  │ · local cache / ledger       │      │
-│  └──────────┬──────────────────┘      │
+┌──────────────── Шкаф ───────────────────┐
+│  Модули ◄──► Вертикальная шина питания  │
+│              (задняя стенка)            │
+│  ┌─────────────────────────────┐        │
+│  │ Периферийный контроллер (400)│        │
+│  │ · движок ценообразования     │        │
+│  │ · слияние данных датчиков    │        │
+│  │ · локальный кэш / журнал     │        │
+│  └──────────┬──────────────────┘        │
 │             │ LTE / Wi-Fi / Ethernet    │
-│  [UPS / Battery]  [Casters + leveling feet]
+│  [ИБП / Аккумулятор]  [Колёса + опорные ножки]
 └─────────────────────────────────────────┘
-         ▲ works offline: lock, count, debit
+         ▲ работает автономно: блокировка, учёт, списание
 ```
 
-### FIG. 3 — Деталь: геометрия sensing и overlap-зона
+### Рис. 3 — Деталь: геометрия датчиков и зона перекрытия
 
-**Подпись:** *FIG. 3 — shelf sensing: front-zone antenna array, camera FOV, overlap region for sensor fusion.*
+**Подпись к рисунку:**  
+*Рис. 3 — датчики полки: массив антенн передней зоны, поле зрения камеры, зона перекрытия для слияния данных датчиков.*
 
 ```
-        Camera FOV
+        Поле зрения камеры
            ╲  │  ╱
             ╲ │ ╱
-   ──────────●──────────  ← overlap region
-   [Ant][Ant][Ant][Ant]   ← linear antenna matrix (front edge)
+   ──────────●──────────  ← зона перекрытия
+   [Ант][Ант][Ант][Ант]   ← линейная матрица антенн (передний край)
    ┌──────────────────┐
-   │  product slot    │
+   │  слот для товара │
    └──────────────────┘
 
-Hand in FOV + NO RFID removal → alarm / deposit hold
+Рука в поле зрения + НЕТ события снятия RFID → тревога / удержание залога
 ```
 
-### FIG. 4 — Процесс индукции и загрузки (FIFO)
+### Рис. 4 — Процесс индукции и загрузки (FIFO)
 
-**Подпись:** *FIG. 4 — induction station: barcode → RFID tag → expiration → rear-load FIFO.*
+**Подпись к рисунку:**  
+*Рис. 4 — станция индукции: штрихкод → RFID-метка → срок годности → задняя загрузка по принципу «первым пришёл — первым ушёл».*
 
 ```
-Staff: [Scan SKU] → [Program RFID] → [Enter expiry]
+Персонал: [Скан SKU] → [Программирование RFID] → [Ввод срока годности]
                           │
                           ▼
-              Rear-load into module (FIFO)
+              Задняя загрузка в модуль (FIFO)
                           │
                           ▼
-         Front edge: tag read + camera + weight at sale
+         Передний край: чтение метки + камера + вес при продаже
 ```
 
 ---
 
-## §2. Схема соединения и взаимодействия (PPA 3)
+## §2. Схема соединения и взаимодействия компонентов (PPA 3)
 
 ```
-┌─── USER ───┐     ┌─── EDGE CONTROLLER (400) ───────────────────────┐
-│ Biometric  │────►│ pricing · sensor-fusion · access · transactions │
-│ Display    │◄───►│ local cache · offline mode                    │
-│ Payment    │     └───┬──────────┬──────────┬──────────┬───────────┘
-└────────────┘         │          │          │          │
-                       ▼          ▼          ▼          ▼
-              Vertical busbar   Camera(s)   RFID matrix  Load cells
-                       │          │          │          │
-                       ▼          └────┬─────┴────┬─────┘
-              Modules A–G (push/hook/   overlap fusion zone
-              scale/gate/tray/purge)
-                       │
-                       ▼
-              Smart Waste Bin (load cell + RFID)
-                       │
-                       ▼ (optional)
-              Cloud / Mobile App (inventory, digital twin, ads)
+┌─── ПОЛЬЗОВАТЕЛЬ ───┐  ┌─── ПЕРИФЕРИЙНЫЙ КОНТРОЛЛЕР (400) ──────────────┐
+│ Биометрия          │─►│ ценообразование · слияние датчиков · доступ ·   │
+│ Дисплей            │◄►│ транзакции · локальный кэш · автономный режим   │
+│ Платёж             │  └───┬──────────┬──────────┬──────────┬────────────┘
+└────────────────────┘      │          │          │          │
+                            ▼          ▼          ▼          ▼
+                   Вертикальная    Камера(ы)   RFID-      Тензо-
+                   шина питания               матрица    датчики
+                            │          │          │          │
+                            ▼          └────┬─────┴────┬─────┘
+                   Модули A–G              зона слияния данных
+                   (толкатель/крючок/     датчиков
+                   весы/затвор/лоток/
+                   утилизация)
+                            │
+                            ▼
+                   Умная корзина для отходов (тензодатчик + RFID)
+                            │
+                            ▼ (опционально)
+                   Облако / мобильное приложение (запасы, цифровой двойник, реклама)
 ```
 
 | Поток | От → К | Данные |
 |-------|--------|--------|
-| D1 | Induction station → Controller | SKU, RFID UID, expiry, batch |
-| D2 | Module sensors → Controller | tag read, weight delta, gate state |
-| D3 | Camera → Controller | hand entry, removal gesture |
-| D4 | Controller → Display/LED | price, discount cue, navigation |
-| D5 | Controller → Door lock | unlock / lock / smart-glass state |
-| D6 | Controller → Payment | incremental hold per item |
-| D7 | Controller ↔ Cloud | pricing policies, sync, mobile handshake |
+| D1 | Станция индукции → Контроллер | SKU, UID метки RFID, срок годности, партия |
+| D2 | Датчики модулей → Контроллер | чтение метки, изменение веса, состояние затвора |
+| D3 | Камера → Контроллер | проникновение руки, жест снятия |
+| D4 | Контроллер → Дисплей / LED | цена, сигнал скидки, навигация |
+| D5 | Контроллер → Замок двери | разблокировка / блокировка / состояние умного стекла |
+| D6 | Контроллер → Платёж | пошаговое удержание средств за каждый товар |
+| D7 | Контроллер ↔ Облако | правила ценообразования, синхронизация, связь с мобильным приложением |
 
 ---
 
 ## §3. Блок-схема процесса (PPA 3)
 
-### 3.1. Стандартный режим (ambient/chilled)
+### 3.1. Стандартный режим (товары без охлаждения / с охлаждением)
 
 ```
-СТАРТ → Tap-to-pay / auth → Unlock door
+СТАРТ → Оплата касанием / авторизация → Разблокировка двери
   │
   ▼
-Pay-as-you-pick loop:
-  User removes item manually
-  → Sensor fusion (RFID + camera [+ weight])
-  → Incremental hold / charge at dynamic price
-  → Update inventory
+Цикл «оплата при выборе»:
+  Пользователь вручную снимает товар
+  → Слияние датчиков (RFID + камера [+ вес])
+  → Пошаговое удержание / списание по динамической цене
+  → Обновление запасов
   │
   ▼
-User closes door → Release remaining pre-auth → КОНЕЦ
+Пользователь закрывает дверь → Возврат остатка предварительной авторизации → КОНЕЦ
 ```
 
-### 3.2. Restricted-goods mode (Unit A, smart-glass)
+### 3.2. Режим товаров с ограничением (блок A, умное стекло)
 
 ```
-СТАРТ → User approaches (smart glass OPAQUE)
+СТАРТ → Пользователь подходит (умное стекло НЕПРОЗРАЧНО)
   │
   ▼
-Biometric age verification (105)
+Биометрическая проверка возраста (105)
   │
-  ├─ FAIL → deny
+  ├─ ОТКАЗ → доступ запрещён
   ▼
-Smart glass → TRANSPARENT (inspection mode)
-  → Display product info (digital sommelier)
-  │
-  ▼
-Pre-authorization / deposit (risk-based amount)
+Умное стекло → ПРОЗРАЧНО (режим осмотра)
+  → На дисплее — информация о товаре (цифровой «сомелье»)
   │
   ▼
-Unlock → Manual retrieval
-  → Triple fusion: antenna + overhead camera + load cell
-  → Capture charge → КОНЕЦ
+Предварительная авторизация платежа / залог (сумма по профилю риска)
+  │
+  ▼
+Разблокировка → Ручное изъятие
+  → Тройное слияние: антенна + камера сверху + тензодатчик
+  → Списание оплаты → КОНЕЦ
 ```
 
-### 3.3. Gated gravity-feed (Module D)
+### 3.3. Гравитационный канал с затвором (модуль D)
 
 ```
-Item 1 in weighing dish → Gate LOCKED
-  → User removes item 1 (weight → 0, camera confirms)
-  → Gate opens → Item 2 drops to dish → Gate LOCKED again
+Товар 1 в весовой чаше → Затвор ЗАБЛОКИРОВАН
+  → Пользователь забирает товар 1 (вес → 0, камера подтверждает)
+  → Затвор открывается → Товар 2 падает в чашу → Затвор снова ЗАБЛОКИРОВАН
 ```
 
-### 3.4. Dynamic pricing
+### 3.4. Динамическое ценообразование
 
 ```
-Inputs: expiry, stocking time, env sensors, camera quality hints, turnover
+Входные данные: срок годности, время с момента загрузки, датчики среды,
+                подсказки качества с камеры, оборачиваемость
   │
-  ├─ Sensory decay model → accelerated discount before expiry
-  ├─ Space-yield metric → discount stagnant slot
-  └─ Time-based decay curve
+  ├─ Модель сенсорной деградации → ускоренная скидка до истечения срока
+  ├─ Метрика доходности слота → скидка для «застоявшегося» места
+  └─ Кривая снижения цены по времени
   │
   ▼
-Update price → LED strip / display highlight
+Обновление цены → подсветка LED-лентой / на дисплее
 ```
 
 ---
 
-## §4. Описание компонентов (PPA 3)
+## §4. Описание компонентов и их функций (PPA 3)
 
-| Ref / Module | Компонент | Простое описание |
+| Ref / Модуль | Компонент | Простое описание |
 |--------------|-----------|------------------|
-| Chassis | Transformer base | Единое шасси; vertical power busbar; casters + leveling feet; rear-load FIFO |
-| Module A | Pusher | Пружинный трек + регулируемый разделитель; one-way ratchet |
-| Module B | Hook / rod | Подвесные товары; задняя загрузка |
-| Module C | Scale-box | Зона на load cell; мягкая/аморфная упаковка; multi-pick |
-| Module D | Gated gravity | Наклонный chute → weighing dish → sequential gate |
-| Module E/F | Sliding tray | Low-friction полка без пружин; deli, meat, cheese |
-| Module G | Auto-purge | Retractable stop → item drops to smart waste |
-| Smart edge | Antenna matrix + LED | Virtual zoning, navigation, discount cues |
-| Smart glass | PDLC panel | Opaque sleep → transparent inspection |
-| Edge controller | Processor + cache | Pricing, fusion, offline transactions, UPS-backed |
-| Smart waste | Bin + load cell + RFID | Quarantine tracking; anti-scavenger charge |
+| Шасси | База-трансформер | Единое шасси; вертикальная шина питания; колёса + выравнивающие ножки; задняя загрузка FIFO |
+| Модуль A | Толкатель (pusher) | Пружинный трек + регулируемый разделитель; односторонняя храповая муфта |
+| Модуль B | Крючок / стержень | Подвесные товары; загрузка сзади |
+| Модуль C | Зона на весах (scale-box) | Зона на тензодатчике; мягкая / аморфная упаковка; множественный выбор за сессию |
+| Модуль D | Гравитационный канал с затвором | Наклонный желоб → весовая чаша → последовательный затвор |
+| Модуль E/F | Скользящий лоток | Полка с низким трением без пружин; deli, мясо, сыр |
+| Модуль G | Авто-утилизация | Отодвижной упор → товар падает в умную корзину для отходов |
+| Умный край | Матрица антенн + LED | Виртуальное зонирование, навигация, указатели скидок |
+| Умное стекло | Панель PDLC | Непрозрачный режим сна → прозрачный режим осмотра |
+| Периферийный контроллер | Процессор + кэш | Ценообразование, слияние датчиков, автономные транзакции, питание от ИБП |
+| Умные отходы | Корзина + тензодатчик + RFID | Учёт карантина; штраф за «сбор» из отходов |
 
 ---
 
 ## §5. Примеры применения (PPA 3)
 
-### Пример 1 — Micro-shop в лобби ЖК (ambient + chilled)
+### Пример 1 — Микро-магазин в лобби жилого комплекса (без охлаждения + с охлаждением)
 
-1. Покупатель авторизуется tap-to-pay на дисплее.  
-2. Дверь открывается; он вручную снимает йогурт с pusher-модуля — RFID + камера фиксируют снятие, списание по текущей динамической цене.  
-3. Шоколадный батончик на sliding tray: sensory decay model снизил цену на 30% — LED подсвечивает слот.  
-4. При закрытии двери остаток pre-auth возвращается.
+1. Покупатель авторизуется оплатой касанием на дисплее.  
+2. Дверь открывается; он вручную снимает йогурт с модуля-толкателя — RFID и камера фиксируют снятие, списание по текущей динамической цене.  
+3. Шоколадный батончик на скользящем лотке: модель сенсорной деградации снизила цену на 30% — LED подсвечивает слот.  
+4. При закрытии двери остаток предварительной авторизации возвращается на карту.
 
-### Пример 2 — Secure unit с алкоголем (smart-glass)
+### Пример 2 — Защищённый блок с алкоголем (умное стекло)
 
-1. Smart-glass непрозрачен. Камера оценивает возраст ≥21.  
-2. Стекло становится прозрачным; на экране — vintage, region, pairing notes.  
-3. Pre-auth $50; дверь открывается.  
-4. Снятие бутылки подтверждается triple fusion; частичное потребление/возврат детектируется load cell → блокировка/штраф.
-
----
-
-## §6. Отличия от аналогов (PPA 3)
-
-| Аналог | Что делает | Чего нет (наше отличие) |
-|--------|------------|-------------------------|
-| Роботизированный vending (gantry) | Робот достаёт товар | **Прямое ручное** изъятие + unified sensor-fusion |
-| ID-scan age gate | Скан документа → выдача | **Privacy-first smart-glass inspection** до доступа |
-| Простой dynamic pricing | Скидка по expiry date | **Sensory decay** + **space-yield displacement** |
-| Классический vending | Один тип механики | **6+ типов модулей** на одном шасси с busbar |
-| Amazon Go | CV-only, без модульной механики | Аппаратно-якоренная модульность + offline edge |
-
-**Ключевые патентуемые акценты:** unified chassis + busbar; sensor-fusion overlap geometry; smart-glass restricted workflow; sensory/space-yield pricing; gated gravity sequencing; auto-purge + smart waste; sales-final anti-reverse (mechanical + software penalty).
+1. Умное стекло непрозрачно. Камера оценивает возраст ≥ 21 года.  
+2. Стекло становится прозрачным; на экране — год урожая, регион, рекомендации по сочетанию с блюдами.  
+3. Предварительная авторизация $50; дверь открывается.  
+4. Снятие бутылки подтверждается тройным слиянием датчиков; частичное потребление или возврат детектируется тензодатчиком → блокировка / штраф.
 
 ---
 
+## §6. Отличия от существующих и аналогичных решений (PPA 3)
+
+| Аналог | Что делает | Чего **нет** (наше отличие) |
+|--------|------------|----------------------------|
+| Роботизированный автомат (gantry) | Робот достаёт товар | **Прямое ручное** изъятие + единое слияние датчиков |
+| Возрастной контроль по скану документа | Скан ID → выдача | **Конфиденциальный осмотр через умное стекло** до доступа |
+| Простое динамическое ценообразование | Скидка только по дате на упаковке | **Сенсорная деградация** + **освобождение слота по доходности** |
+| Классический вендинг | Один тип механики | **6+ типов модулей** на одном шасси с шиной питания |
+| Amazon Go | Только компьютерное зрение, без модульной механики | Аппаратно-якоренная модульность + автономный периферийный контроллер |
+
+**Ключевые патентуемые акценты:** единое шасси + шина питания; геометрия зоны перекрытия для слияния датчиков; сценарий ограниченных товаров через умное стекло; ценообразование по сенсорной деградации и доходности слота; последовательная логика гравитационного канала с затвором; авто-утилизация + умные отходы; политика «продажа окончательна» (механическая блокировка возврата + программный штраф).
+
 ---
 
-# PPA №4 — Smart Retail Cabinet with Tokenized Access and Split Payments
+---
 
-**EN:** Smart Retail Cabinet with Tokenized Access and Split Payments  
-**RU:** Умный торговый шкаф с токенизированным доступом и split-платежами  
+# PPA №4 — Умный торговый шкаф с токенизированным доступом и раздельными платежами
+
+**Название (EN):** Smart Retail Cabinet with Tokenized Access and Split Payments  
+**Название (RU):** Умный торговый шкаф с токенизированным доступом и раздельным распределением платежей  
 **Источник:** `PPA#4_SMART_RETAIL CABINET_WITH_TOKENIZED_ACCESS_AND_SPLIT_PAYMENTS.pdf`  
 **Рисунки:** `PPA#4 FIGURES.pdf`
 
 ## Краткое описание
 
-Модульный шкаф с **position-adjustable power/data interface** (busbar / drag-chain / flexible harness), токенизированным доступом через QR из мобильного приложения и/или биометрию, **обязательным согласием** с условиями (immediate charge, no returns) до unlock. Split settlement: один checkout → несколько merchant accounts по tenant/slot. Multi-tenant shelf rental: поставщики управляют своими полками. Master–slave кластер: одна сессия, virtual basket, consolidated capture. Offline financial ledger + UPS.
+Модульный шкаф с **интерфейсом питания и данных с регулируемым положением** (шина питания / кабель-канал / гибкий жгут), токенизированным доступом через QR-код из мобильного приложения и/или биометрию, **обязательным согласием** с условиями (немедленное списание при снятии, возврат невозможен) до разблокировки. Раздельное распределение платежей: один checkout → несколько счетов продавцов по арендатору / слоту. Мультиарендная модель полок: поставщики управляют своими зонами. Кластер master–slave: одна сессия, виртуальная корзина, консолидированное списание. Автономный финансовый журнал + источник бесперебойного питания.
 
 ---
 
-## §1. Эскизы (FIG. 1–4) — PPA 4
+## §1. Эскизы и чертежи (Рис. 1–4) — PPA 4
 
-Структура рисунков **аналогична PPA 3** (FIG. 1 front chassis, FIG. 2 controller architecture, FIG. 3 sensing geometry + secure compartment, FIG. 4 induction workflow). Дополнительные акценты PPA 4:
+Структура рисунков **аналогична PPA 3** (Рис. 1 — шасси спереди, Рис. 2 — архитектура контроллера, Рис. 3 — геометрия датчиков + защищённый отсек, Рис. 4 — процесс индукции). Дополнительные акценты PPA 4:
 
-- **FIG. 1:** position-adjustable interface (busbar / drag-chain / harness); LED information strip  
-- **FIG. 2:** transaction module — token decode, pre-auth, offline ledger, split routing, fiscal receipt  
-- **FIG. 3:** external biometric zone + internal inventory imaging; smart glass secure compartment  
-- **FIG. 4:** **upstream induction** — supplier warehouse tags goods → allow-list manifest sync → cabinet recognizes without local scan
+- **Рис. 1:** интерфейс с регулируемым положением (шина / кабель-канал / жгут); LED-информационная лента  
+- **Рис. 2:** модуль транзакций — декодирование токена, предварительная авторизация, автономный журнал, раздельная маршрутизация, фискальный чек  
+- **Рис. 3:** внешняя биометрическая зона + внутренние камеры учёта запасов; защищённый отсек с умным стеклом  
+- **Рис. 4:** **восходящая индукция** — склад поставщика маркирует товар → синхронизация манифеста-разрешённого списка → шкаф распознаёт без локального сканирования
 
 ---
 
-## §2. Схема соединения (PPA 4)
+## §2. Схема соединения и взаимодействия (PPA 4)
 
 ```
-Mobile App ──QR/token──► Optical Scanner ──► Controller
-                              │
-Biometric (external) ─────────┤
-                              │
-                    ┌─────────▼──────────┐
-                    │ Transaction Module  │
-                    │ · pre-auth token    │
-                    │ · consent record    │
-                    │ · virtual basket    │
-                    │ · split settlement  │
-                    │ · offline ledger    │
-                    └─────────┬──────────┘
-                              │
-         ┌────────────────────┼────────────────────┐
-         ▼                    ▼                    ▼
-   Master unit           Slave unit(s)        Remote server
-   (payment, AI,         (sensors, locks,    (manifests,
-    biometric)            extra volume)       supplier UI)
-         │                    │
-         └──── single session / virtual basket ────┘
+Мобильное приложение ──QR/токен──► Оптический сканер ──► Контроллер
+                                      │
+Биометрия (внешняя) ──────────────────┤
+                                      │
+                          ┌───────────▼───────────┐
+                          │   Модуль транзакций   │
+                          │ · токен предварит.    │
+                          │   авторизации         │
+                          │ · запись согласия     │
+                          │ · виртуальная корзина │
+                          │ · раздельные платежи  │
+                          │ · автономный журнал   │
+                          └───────────┬───────────┘
+                                      │
+         ┌────────────────────────────┼────────────────────────────┐
+         ▼                            ▼                            ▼
+   Главный блок (master)      Ведомые блоки (slave)         Удалённый сервер
+   (платёж, ИИ,               (датчики, замки,              (манифесты,
+    биометрия)                 доп. объём)                   интерфейс поставщика)
+         │                            │
+         └──── единая сессия / виртуальная корзина ────────────┘
 ```
 
 ---
@@ -317,75 +326,75 @@ Biometric (external) ─────────┤
 СТАРТ
   │
   ▼
-[1] Scan QR / Biometric → Decode session token
+[1] Скан QR / биометрия → Декодирование токена сессии
   │
   ▼
-[2] Pre-authorization (reserve funds)
+[2] Предварительная авторизация (резервирование средств)
   │
   ▼
-[3] Display transaction terms:
-    · immediate charge upon removal
-    · no returns
-    · penalty logic
-  → Require "I AGREE" (affirmative consent)
+[3] Показ условий транзакции:
+    · немедленное списание при снятии товара
+    · возврат невозможен
+    · логика штрафов
+  → Требуется «СОГЛАСЕН» (явное согласие)
   │
   ▼
-[4] Restricted mode? → KYC age from token OR biometric
+[4] Режим ограниченных товаров? → Возраст из KYC-токена ИЛИ биометрия
   │
   ▼
-[5] Unlock access barrier
+[5] Разблокировка барьера доступа
   │
   ▼
-[6] Loop: manual retrieval
-    → Internal sensors detect removal
-    → Increment reserved amount + legal purchase commitment
-    → Mode A: instant capture OR Mode B: defer to session end
-    → Split route $ to operator + supplier merchant accounts
+[6] Цикл: ручное изъятие
+    → Внутренние датчики фиксируют снятие
+    → Увеличение зарезервированной суммы + юридическое обязательство покупки
+    → Режим A: мгновенное списание ИЛИ Режим B: отложенное до конца сессии
+    → Раздельная маршрутизация средств на счета оператора и поставщиков
   │
   ▼
-[7] Session end → Aggregated capture (if Mode B)
-  → Digital + fiscal receipt → mobile app / email
+[7] Конец сессии → Консолидированное списание (если Режим B)
+  → Цифровой + фискальный чек → приложение / email
   │
   ▼
-Network down? → Offline ledger debits → async reconcile later
-Power down? → UPS maintains locks + recording
+Нет сети? → Списание по автономному журналу → асинхронная сверка позже
+Нет питания? → ИБП поддерживает замки + запись событий
 ```
 
 ---
 
 ## §4. Описание компонентов (PPA 4)
 
-| Компонент | Описание |
-|-----------|----------|
-| Position-adjustable interface | Busbar / drag-chain / harness — power+data без перепайки при смене высоты полки |
-| Token / QR scanner | Session token из KYC-verified mobile app |
-| External biometric sensor | На корпусе / bezel — идентификация вне storage volume |
-| Internal inventory sensors | RFID matrix, load cells, internal camera — fusion внутри объёма |
-| Consent UI | Display + "I Agree"; time-stamped consent record |
-| Transaction module | Pre-auth, incremental hold, instant vs aggregated capture |
-| Split settlement engine | Basket splitting по item/slot → multiple merchant accounts |
-| Multi-tenant controller | Per-supplier inventory, pricing, alerts |
-| Offline ledger | Local balance/token debits during network outage |
-| UPS / battery | Locks + sensors + ledger during power loss |
-| Master–slave cluster | Shared payment/AI at master; slaves report sensors/locks |
+| Компонент | Простое описание |
+|-----------|------------------|
+| Интерфейс с регулируемым положением | Шина / кабель-канал / жгут — питание и данные без перепайки при смене высоты полки |
+| Сканер токена / QR | Токен сессии из мобильного приложения с пройденной KYC-проверкой |
+| Внешний биометрический датчик | На корпусе / обрамлении двери — идентификация вне объёма хранения |
+| Внутренние датчики запасов | RFID-матрица, тензодатчики, внутренняя камера — слияние внутри объёма |
+| Интерфейс согласия | Дисплей + «Согласен»; запись согласия с меткой времени |
+| Модуль транзакций | Предварительная авторизация, пошаговое удержание, мгновенное vs консолидированное списание |
+| Движок раздельных платежей | Разделение корзины по товару / слоту → несколько счетов продавцов |
+| Мультиарендный контроллер | Запасы, цены, оповещения отдельно по каждому поставщику |
+| Автономный журнал | Локальное списание по балансу / токену при отсутствии сети |
+| ИБП / аккумулятор | Замки + датчики + журнал при отключении питания |
+| Кластер master–slave | Платёж и ИИ на master; slave передают данные датчиков и замков |
 
 ---
 
 ## §5. Примеры применения (PPA 4)
 
-### Пример 1 — Multi-tenant micro-shop в аэропорту
+### Пример 1 — Мультиарендный микро-магазин в аэропорту
 
 1. Покупатель сканирует QR в приложении Micro Shop.  
-2. Pre-auth €30; экран показывает условия → «Согласен».  
-2. Снимает воду (tenant: Operator A) и снек (tenant: Supplier B).  
-3. Split settlement: €2 → Operator A, €4.50 → Supplier B; один чек в приложении.
+2. Предварительная авторизация €30; экран показывает условия → «Согласен».  
+3. Снимает воду (арендатор: Оператор A) и снек (арендатор: Поставщик B).  
+4. Раздельное распределение: €2 → Оператор A, €4,50 → Поставщик B; один чек в приложении.
 
-### Пример 2 — Master–slave кластер (6 шкафов, 1 терминал)
+### Пример 2 — Кластер master–slave (6 шкафов, 1 терминал)
 
-1. Auth один раз at master unit.  
-2. Покупатель ходит между slave 1–5, снимает товары.  
-3. Virtual basket на master controller; aggregated capture при exit/timeout.  
-4. Один consolidated fiscal receipt.
+1. Авторизация один раз на главном блоке.  
+2. Покупатель ходит между ведомыми блоками 1–5, снимает товары.  
+3. Виртуальная корзина на главном контроллере; консолидированное списание при выходе / по таймауту.  
+4. Один консолидированный фискальный чек.
 
 ---
 
@@ -393,209 +402,210 @@ Power down? → UPS maintains locks + recording
 
 | Аналог | Наше отличие |
 |--------|--------------|
-| Обычный vending | Нет tokenized session + mandatory consent audit trail |
-| Single-merchant cabinet | **Multi-tenant** shelves + **hardware-triggered split** settlement |
-| Standalone-only cabinets | **Master–slave** с shared BOM cost reduction |
-| Cloud-dependent grab-and-go | **Offline ledger + UPS** — продажи при outage |
-| Local-only induction | **Upstream manifest** — pre-tagged goods без локального scan |
+| Обычный вендинг | Нет токенизированной сессии + обязательного аудируемого согласия |
+| Шкаф одного продавца | **Мультиарендные** полки + **аппаратно-инициируемое разделение** платежей |
+| Только автономные шкафы | **Master–slave** со снижением стоимости комплектующих (BOM) |
+| Grab-and-go, зависящий от облака | **Автономный журнал + ИБП** — продажи при сбое сети |
+| Только локальная индукция | **Восходящий манифест** — предмаркированный товар без локального сканирования |
 
-**Ключевые акценты:** token + consent before unlock; split payments per item; multi-tenant platform; master–slave virtual basket; three interface types for repositionable shelves; dual-mode standard/restricted without hardware change.
-
----
+**Ключевые акценты:** токен + согласие до разблокировки; раздельные платежи за каждый товар; мультиарендная платформа; виртуальная корзина master–slave; три типа интерфейса для переставляемых полок; двойной режим стандартный / ограниченный без смены аппаратуры.
 
 ---
 
-# PPA №5 — Smart Retail Cabinet (Tokenized Access, rev.)
+---
 
-**EN:** Smart Retail Cabinet with Tokenized Access and Split Payments (revised)  
-**RU:** Умный торговый шкаф — ревизия: auto-leveling, Visual Tracking Layer, ESL/FIFO  
+# PPA №5 — Умный торговый шкаф (ревизия: токенизированный доступ)
+
+**Название (EN):** Smart Retail Cabinet with Tokenized Access and Split Payments (revised)  
+**Название (RU):** Умный торговый шкаф — ревизия: активное выравнивание, слой визуального отслеживания, электронные ценники / FIFO  
 **Источник:** `PPA#5_SmartRetailCabinet_TokenizedAccess_SplitPayments.pdf`  
 **Рисунки:** `PPA#5 FIGURES.pdf`
 
 ## Краткое описание
 
-Развитие PPA 4 с **активным motorized leveling** (inclinometer + screw-drive feet, порог ~0.5°), **Visual Tracking Layer** (always-on internal cameras) + selectable physical layer (load cell+RFID vs break-beam+anti-reverse), **ESL/LCD shelf-edge** с FIFO metadata queue, **progressive biometric enrollment** с cloud roaming, **punitive penalty** = multiple of highest-value SKU.
+Развитие PPA 4 с **активным моторизованным выравниванием** (инклинометр + винтовые опоры, порог ~0,5°), **слоем визуального отслеживания** (постоянно работающие внутренние камеры) + выбираемым физическим слоем (тензодатчик + RFID vs прерыватель луча + анти-возврат), **электронными ценниками ESL / LCD на краю полки** с очередью метаданных FIFO, **прогрессивной биометрической регистрацией** с облачным «роумингом», **штрафной санкцией** = кратность от максимальной цены SKU в шкафу.
 
 ---
 
-## §1. Эскизы (FIG. 1–4) — PPA 5
+## §1. Эскизы и чертежи (Рис. 1–4) — PPA 5
 
-Базовая топология как PPA 4, плюс:
+Базовая топология как у PPA 4, плюс:
 
-- **FIG. 1:** motorized leveling feet; ESL/LCD strip с expiration + dynamic price; rear service door  
-- **FIG. 2:** Visual Tracking Layer + dual detection configs; progressive biometric enrollment flow  
-- **FIG. 3:** high-value zone (load cell + RFID) vs standard zone (break-beam + ratchet)  
-- **FIG. 4:** FIFO queue → ESL auto-update on removal
+- **Рис. 1:** моторизованные выравнивающие опоры; ESL/LCD-лента со сроком годности + динамической ценой; задняя сервисная дверь  
+- **Рис. 2:** слой визуального отслеживания + две конфигурации детекции; поток прогрессивной биометрической регистрации  
+- **Рис. 3:** зона высокой ценности (тензодатчик + RFID) vs стандартная зона (прерыватель луча + храповик)  
+- **Рис. 4:** очередь FIFO → автоматическое обновление ESL при снятии товара
 
 ---
 
 ## §2. Схема соединения (PPA 5)
 
 ```
-Inclinometer ──► Controller ──► Motorized leveling feet
+Инклинометр ──► Контроллер ──► Моторизованные выравнивающие опоры
                       │
-Internal cameras (Visual Tracking Layer, continuous)
+Внутренние камеры (слой визуального отслеживания, непрерывно)
                       │
          ┌────────────┴────────────┐
          ▼                         ▼
-  High-value zone              Standard zone
-  Load cell + RFID             Break-beam + anti-reverse ratchet
+  Зона высокой ценности        Стандартная зона
+  Тензодатчик + RFID           Прерыватель луча + анти-возвратный храповик
          │                         │
-         └──────── fusion ─────────┘
+         └──────── слияние ────────┘
                       │
-              ESL / LCD shelf-edge
+              ESL / LCD на краю полки
                       │
-         Token / Biometric → Session → Split settlement
+         Токен / биометрия → Сессия → Раздельные платежи
                       │
-              Cloud biometric repository (roaming)
+              Облачное хранилище биометрии (роуминг)
 ```
 
 ---
 
 ## §3. Блок-схема процесса (PPA 5)
 
-### 3.1. Startup / leveling
+### 3.1. Запуск / выравнивание
 
 ```
-Power ON → Read inclinometer
+Включение питания → Считывание инклинометра
   │
-  ├─ tilt > 0.5° → Drive actuators → re-level
+  ├─ наклон > 0,5° → Привод актuators → повторное выравнивание
   │
-  ├─ still over threshold → INHIBIT session start
+  ├─ всё ещё выше порога → ЗАПРЕТ начала сессии
   ▼
-Ready for transactions
+Готов к транзакциям
 ```
 
-### 3.2. FIFO metadata on ESL
+### 3.2. Метаданные FIFO на электронном ценнике
 
 ```
-Maintain virtual FIFO queue (expiry timestamps per slot)
+Ведение виртуальной очереди FIFO (метки времени срока годности по слотам)
   │
-  Display: price + expiry for FRONT item on ESL
+  Отображение: цена + срок годности ПЕРВОГО товара в очереди на ESL
   │
-  Removal detected → Update ESL to NEXT item in queue
+  Обнаружено снятие → Обновление ESL для СЛЕДУЮЩЕГО товара в очереди
 ```
 
-### 3.3. Progressive biometric enrollment
+### 3.3. Прогрессивная биометрическая регистрация
 
 ```
-Session 1: QR token auth → optional face capture + opt-in consent
-  │
-  ▼
-Upload biometric vector to cloud repository
+Сессия 1: авторизация по QR-токену → опциональный захват лица + согласие на регистрацию
   │
   ▼
-Session N at different cabinet/region:
-  Recognize user → Validate payment instrument for region
-  ├─ invalid → block + "refresh payment method"
-  └─ valid → seamless biometric entry
-```
-
-### 3.4. Punitive penalty
-
-```
-Unauthorized weight increase / forced return
-  AND NOT corroborated by Visual Tracking Layer
+Загрузка биометрического вектора в облачное хранилище
   │
   ▼
-Charge = MULTIPLE × highest-value item in enclosure
-(record consent was obtained pre-unlock)
+Сессия N в другом шкафу / регионе:
+  Распознавание пользователя → Проверка платёжного инструмента для региона
+  ├─ недействителен → блокировка + «обновите способ оплаты»
+  └─ действителен → бесшовный вход по биометрии
+```
+
+### 3.4. Штрафная санкция
+
+```
+Несанкционированное увеличение веса / принудительный возврат
+  И НЕ подтверждено слоем визуального отслеживания
+  │
+  ▼
+Списание = КРАТНОСТЬ × самый дорогой товар в шкафу
+(зафиксировано: согласие получено до разблокировки)
 ```
 
 ---
 
 ## §4. Описание компонентов (PPA 5)
 
-| Компонент | Описание |
-|-----------|----------|
-| Motorized leveling system | Electric actuators + inclinometer; auto-level; inhibit sales if tilted |
-| Visual Tracking Layer | Always-on internal cameras; hand/item tracking |
-| Selectable physical layer | High-value: load cell+RFID; Standard: break-beam+ratchet |
-| ESL / LCD shelf-edge | Real-time price + batch/expiry; FIFO auto-update |
-| Smart bin | Dedicated load cell; amorphous goods; weight-loss debit |
-| Gravity tray (fragile) | Low-friction incline + temp sensor + sale interlock |
-| UI variants | Door-integrated OR boom-mounted articulating display |
-| Cloud biometric repo | Cross-cabinet / cross-region recognition |
-| Punitive penalty engine | Fraud deterrence beyond unit price |
+| Компонент | Простое описание |
+|-----------|------------------|
+| Система моторизованного выравнивания | Электроприводы + инклинометр; авто-выравнивание; запрет продаж при наклоне |
+| Слой визуального отслеживания | Постоянно работающие внутренние камеры; отслеживание рук и товаров |
+| Выбираемый физический слой | Высокая ценность: тензодатчик + RFID; Стандарт: прерыватель луча + храповик |
+| ESL / LCD на краю полки | Цена и партия / срок в реальном времени; авто-обновление по FIFO |
+| Умный бункер (smart bin) | Выделенный тензодатчик; аморфные товары; списание по потере веса |
+| Гравитационный лоток (хрупкое) | Наклон с низким трением + датчик температуры + блокировка продажи |
+| Варианты UI | Встроенный в дверь ИЛИ на шарнирной стойке (boom) |
+| Облачное хранилище биометрии | Распознавание между шкафами / регионами |
+| Движок штрафных санкций | Сдерживание мошенничества сверх цены единицы товара |
 
 ---
 
 ## §5. Примеры применения (PPA 5)
 
-### Пример 1 — Шкаф с молоком в пакетах (smart bin)
+### Пример 1 — Шкаф с молоком в пакетах (умный бункер)
 
-1. Leveling: inclinometer 0.3° — OK.  
-2. QR auth + consent.  
-3. Покупатель берёт 2 milk pouches из smart bin — weight loss 1020 g → debit.  
-4. Попытка вернуть один пакет: weight +510 g, camera не подтверждает → punitive charge = 3× max SKU price.
+1. Выравнивание: инклинометр 0,3° — в норме.  
+2. Авторизация по QR + согласие.  
+3. Покупатель берёт 2 пакета молока из умного бункера — потеря веса 1020 г → списание.  
+4. Попытка вернуть один пакет: вес +510 г, камера не подтверждает → штраф = 3× максимальная цена SKU.
 
-### Пример 2 — Deli tray с temperature interlock
+### Пример 2 — Deli-лоток с температурной блокировкой
 
-1. ESL показывает «Salad · exp 2026-08-26 · €4.20».  
-2. Temp sensor: 8°C > limit 6°C → controller **inhibits sale** для слота.  
-3. Staff re-levels cabinet after move; session blocked until tilt < 0.5°.
+1. ESL показывает «Салат · годен до 2026-08-26 · €4,20».  
+2. Датчик температуры: 8°C > лимита 6°C → контроллер **запрещает продажу** слота.  
+3. Персонал выравнивает шкаф после перемещения; сессия заблокирована, пока наклон ≥ 0,5°.
 
 ---
 
 ## §6. Отличия от аналогов (PPA 5)
 
-| vs PPA 4 / market | Отличие PPA 5 |
-|-------------------|---------------|
-| Static leveling feet | **Active motorized** leveling with transaction inhibit |
-| RFID-only or camera-only | **Dual-layer fusion**: always-on CV + zone-specific physics |
-| Static shelf labels | **ESL FIFO queue** — auto metadata for next item |
-| Per-device biometrics | **Progressive enrollment + cloud roaming** + regional payment validation |
-| Flat return penalty | **Punitive multiple of max SKU** |
+| По сравнению с PPA 4 / рынком | Отличие PPA 5 |
+|-------------------------------|---------------|
+| Статические выравнивающие ножки | **Активное моторизованное** выравнивание с запретом транзакций |
+| Только RFID или только камера | **Двухслойное слияние**: постоянное CV + зональная физика |
+| Статичные бумажные / простые ценники | **Очередь ESL FIFO** — авто-метаданные для следующего товара |
+| Биометрия только на устройстве | **Прогрессивная регистрация + облачный роуминг** + региональная проверка оплаты |
+| Плоский штраф за возврат | **Штраф-кратность от максимального SKU** |
 
 ---
 
 ---
 
-# PPA №6 — Modular Retail System with Adaptive Architecture
+# PPA №6 — Модульная розничная система с адаптивной архитектурой
 
-**EN:** Modular Retail System with Adaptive Architecture, AI-Driven Pricing, and Integrated Consumables Management  
-**RU:** Модульная розничная система с адаптивной архитектурой, AI-ценообразованием и управлением расходниками  
+**Название (EN):** Modular Retail System with Adaptive Architecture, AI-Driven Pricing, and Integrated Consumables Management  
+**Название (RU):** Модульная розничная система с адаптивной архитектурой, ценообразованием на базе ИИ и управлением расходными материалами  
 **Источник:** `PPA#6_Modular_Retail_System.pdf`  
 **Рисунки:** `PPA#6 FIGURES.pdf`
 
 ## Краткое описание
 
-Роботизированная/автономная экосистема: standalone **или** master–slave; **dual-zone climate** (+2…+4°C vault + isolated heating positions); **induction** до target consumption temp без кипения; **secure pre-payment before heating**; abandonment penalty (200% если не забрали за 5 min); **profiled dispensing channel** с ratchet anti-reverse; **hybrid fluid station** (dry additive + hot water); **floating smart bin**; **composite vessel** с selective heating zones; **AI bidirectional pricing**; conditional remote reservation (walk-in priority when n>1).
+Роботизированная / автономная экосистема: автономный режим **или** master–slave; **двухзонный климат** (холодильник +2…+4°C + изолированные позиции нагрева); **индукционный нагрев** до целевой температуры потребления без кипения; **обязательная предоплата до начала нагрева**; штраф за невостребованность (200%, если не забрали за 5 мин); **профилированный канал выдачи** с анти-возвратным храповиком; **гибридная жидкостная станция** (сухая добавка + горячая вода); **плавающий умный бункер**; **композитный сосуд** с зонами выборочного нагрева; **двунаправленное ценообразование ИИ**; условное удалённое бронирование (приоритет «с полки» при запасе n>1).
 
 ---
 
-## §1. Эскизы (FIG. 1–4) — PPA 6
+## §1. Эскизы и чертежи (Рис. 1–4) — PPA 6
 
-- **FIG. 1:** Modular cabinet front — reconfigurable chassis, sensing zone, LED/LCD strips (shared figure style with 4/5)  
-- **FIG. 2:** Controller — heating queue, payment gating, AI pricing, master–slave orchestration  
-- **FIG. 3:** Dual-zone climate section — cold vault / heating bay / thermal shutter; profiled channel cross-section  
-- **FIG. 4:** Transaction + heating workflow — pre-pay → heat → retrieval timer → penalty
+- **Рис. 1:** Вид спереди модульного шкафа — переконfigурируемое шасси, зона датчиков, LED/LCD-ленты (стиль как у PPA 4/5)  
+- **Рис. 2:** Контроллер — очередь нагрева, блокировка оплаты, ценообразование ИИ, оркестрация master–slave  
+- **Рис. 3:** Сечение двухзонного климата — холодильник / зона нагрева / тепловая шторка; поперечное сечение профилированного канала  
+- **Рис. 4:** Процесс транзакции + нагрева — предоплата → нагрев → таймер выдачи → штраф
 
-**Дополнительный концептуальный эскиз — dual-zone + heating:**
+**Дополнительный концептуальный эскиз — двухзонный климат + нагрев:**
 
 ```
 ┌──────────────────────────────────────┐
-│  COLD VAULT (+2…+4°C)                │
-│  [Profiled channel][Gravity][Bin]    │
-│  ─── thermal shutter ───             │
-│  HEATING POSITIONS (induction)       │
-│  [Slot 1][Slot 2][Slot 3]            │
-│  LCD strip: "READY" flash            │
+│  ХОЛОДИЛЬНИК (+2…+4°C)               │
+│  [Профильный канал][Гравитация][Бункер]│
+│  ─── тепловая шторка ───             │
+│  ПОЗИЦИИ НАГРЕВА (индукция)         │
+│  [Слот 1][Слот 2][Слот 3]            │
+│  LCD-лента: мигание «ГОТОВО»         │
 ├──────────────────────────────────────┤
-│  Hybrid Fluid Station (interlocked)  │
-│  Utensil Dispenser · Waste Chute     │
+│  Гибридная жидкостная станция        │
+│  (с блокировкой)                     │
+│  Диспенсер столовых приборов · Желоб отходов │
 └──────────────────────────────────────┘
 ```
 
-**Profiled guide tray (cross-section):**
+**Профилированный направляющий лоток (поперечное сечение):**
 
 ```
-      ┌── container ──┐
-      │               │
-   ┌──┴───────────────┴──┐  ← U-shaped profile cradles body
-   │ ═══ ratchet floor ══ │  ← one-way forward lock
-   └─────────────────────┘
-        ▲ spring pusher
+      ┌── ёмкость ──┐
+      │             │
+   ┌──┴─────────────┴──┐  ← U-образный профиль удерживает корпус
+   │ ═══ храповик ═══ │  ← односторонняя фиксация вперёд
+   └───────────────────┘
+        ▲ пружинный толкатель
 ```
 
 ---
@@ -603,135 +613,137 @@ Charge = MULTIPLE × highest-value item in enclosure
 ## §2. Схема соединения (PPA 6)
 
 ```
-                    ┌── Master Unit (optional) ──┐
-                    │ Payment · AI · Session      │
-                    └──────────┬──────────────────┘
+                    ┌── Главный блок (опционально) ──┐
+                    │ Платёж · ИИ · Сессия           │
+                    └──────────┬─────────────────────┘
                                │
     ┌──────────────────────────▼──────────────────────────┐
-    │              Cabinet Controller                      │
-    │  Auto-leveling · Heating queue · AI pricing · Locks  │
+    │              Контроллер шкафа                        │
+    │  Авто-выравнивание · Очередь нагрева · Цены ИИ · Замки │
     └──┬────────┬─────────┬──────────┬──────────┬──────────┘
        │        │         │          │          │
        ▼        ▼         ▼          ▼          ▼
-   Inclinometer Induction  Load cells  RFID/LCD  Fluid station
-   + level feet  coils     (floating   strips    (interlock)
-                            bin)
+   Инклинометр Индукц.  Тензо-    RFID/LCD   Жидкостная
+   + опоры     катушки  датчики   ленты      станция
+                        (плавающ.
+                         бункер)              (блокировка)
        │        │         │          │          │
        ▼        ▼         ▼          ▼          ▼
-   Cold vault   Heating   Product    Expired    Utensil
-   modules      positions  channels   tag lock   dispenser
+   Холодильные Позиции   Каналы    Блокировка  Диспенсер
+   модули      нагрева   выдачи    просрочен.  приборов
+                                   меток
        │
        ▼
-   Cloud: fleet telemetry, remote pricing, conditional reservation
-   Mobile: vendor app + consumer app
+   Облако: телеметрия парка, удалённое ценообразование, условное бронирование
+   Мобильные приложения: для поставщика и покупателя
 ```
 
 ---
 
 ## §3. Блок-схема процесса (PPA 6)
 
-### 3.1. Heated product flow
+### 3.1. Поток нагреваемого товара
 
 ```
-User selects heated item (QR/biometric)
+Пользователь выбирает нагреваемый товар (QR / биометрия)
   │
   ▼
-Read Digital Passport from tag (target temp, heating profile)
+Считывание «цифрового паспорта приготовления» с метки (целевая t°, профиль нагрева)
   │
   ▼
-Display price + confirm on slot map UI
+Показ цены + подтверждение на карте слотов
   │
   ▼
-** PRE-PAYMENT CAPTURE ** (before heating energy)
+** СПИСАНИЕ ПРЕДОПЛАТЫ ** (до расхода энергии на нагрев)
   │
   ▼
-Verify tilt ≤ threshold (auto-level if needed)
+Проверка наклона ≤ порога (авто-выравнивание при необходимости)
   │
   ▼
-Activate induction per profile; impedance check (authentic packaging)
+Запуск индукции по профилю; проверка импеданса (подлинность упаковки)
   │
   ▼
-Heating complete → Flash LCD "READY" → Start retrieval timer (e.g. 5 min)
+Нагрев завершён → LCD мигает «ГОТОВО» → Старт таймера выдачи (напр. 5 мин)
   │
-  ├─ Retrieved in time → OK
-  └─ NOT retrieved → Lock slot · Flag waste · Route to waste module
-                     · Punitive fee (e.g. 200% value)
+  ├─ Забрал в срок → OK
+  └─ НЕ забрал → Блокировка слота · Пометка «отход» · Направление в модуль отходов
+                 · Штраф (напр. 200% стоимости)
 ```
 
-### 3.2. Hybrid fluid (noodles / coffee)
+### 3.2. Гибридная жидкостная станция (лапша / кофе)
 
 ```
-Verified SKU in position at fluid station
+Подтверждённый SKU в позиции у жидкостной станции
   │
   ▼
-Electronic interlock releases:
-  · Boiling water (noodles/tea) OR
-  · Hot steamed water (coffee/porridge)
+Электронная блокировка открывается:
+  · Кипяток (лапша / чай) ИЛИ
+  · Горячий пар / вода (кофе / каша)
   │
   ▼
-Dry additive in container reconstitutes
+Сухая добавка в ёмкости восстанавливается при заливке
 ```
 
-### 3.3. AI bidirectional pricing
+### 3.3. Двунаправленное ценообразование ИИ
 
 ```
-Inputs: internal shelf-life, demand/surge, external competitor prices (API/scrape)
+Входные данные: внутренний срок годности, спрос / surge, внешние цены конкурентов (API / парсинг)
   │
   ▼
-Increase OR decrease price in real time
+Повышение ИЛИ снижение цены в реальном времени
   │
   ▼
-Publish to shelf-edge LCD + block expired RFID tags (disable pusher)
+Публикация на LCD у полки + блокировка просроченных RFID-меток (отключение толкателя)
 ```
 
-### 3.4. Conditional remote reservation
+### 3.4. Условное удалённое бронирование
 
 ```
-Mobile reservation request for SKU X
+Запрос бронирования SKU X через мобильное приложение
   │
-  ├─ inventory count ≤ 1 → DENY (walk-in priority)
-  └─ count > N → GRANT reservation + timer
+  ├─ остаток ≤ 1 → ОТКАЗ (приоритет покупателя «с полки»)
+  └─ остаток > N → БРОНЬ + таймер
         │
-        ├─ User scans at unit within timer → fulfill
-        └─ Timeout → auto-release reservation
+        ├─ Пользователь сканировал на шкафу в срок → выдача
+        └─ Таймаут → автоматическое снятие брони
 ```
 
 ---
 
 ## §4. Описание компонентов (PPA 6)
 
-| Компонент | Описание |
-|-----------|----------|
-| Master–slave architecture | Standalone mode OR slave deferring payment/AI to master |
-| Dual-zone climate | Cold vault + thermally isolated heating positions + shutters |
-| Active auto-leveling | Tilt sensor + motorized feet; inhibit heat/fluid if tilted |
-| Profiled dispensing channel | U-profile tray; variable height containers; ratchet floor |
-| Composite vessel | Inner liner + patterned susceptor + insulating shell |
-| Smart combo tray | Active susceptor zones + passive RF-transparent zones |
-| Induction subsystem | Target temp under sealed film; impedance authentication |
-| Hybrid fluid station | Temperature/volume controlled; SKU-gated interlock |
-| Floating smart bin | Single-point mount; conical funnel; door-slam filter |
-| Intelligent utensil dispenser | SKU → spoon vs stirrer vs fork, one at a time |
-| Waste chute / module | Sealed collection; expired/heated abandonment |
-| AI pricing module | Decay + surge + external market; mechanical lockout on expiry |
-| Reservation server | n>1 rule; timer; walk-in priority |
+| Компонент | Простое описание |
+|-----------|------------------|
+| Архитектура master–slave | Автономный режим ИЛИ slave передаёт платёж / ИИ на master |
+| Двухзонный климат | Холодильник + термически изолированные позиции нагрева + шторки |
+| Активное авто-выравнивание | Датчик наклона + моторизованные опоры; запрет нагрева / жидкости при наклоне |
+| Профилированный канал выдачи | U-образный лоток; ёмкости разной высоты; храповик на полу |
+| Композитный сосуд | Внутренняя вкладка + рифлёный подогреватель + теплоизоляционная оболочка |
+| Умный комбо-лоток | Активные зоны индукции + пассивные RF-прозрачные зоны |
+| Подсистема индукции | Целевая t° под плёнкой; аутентификация по импедансу |
+| Гибридная жидкостная станция | Контроль t° и объёма; блокировка по SKU |
+| Плавающий умный бункер | Одноточечное крепление; конический профиль; фильтр удара от хлопка двери |
+| Интеллектуальный диспенсер приборов | SKU → ложка / мешалка / вилка, по одной за раз |
+| Желоб / модуль отходов | Герметичный сбор; просрочка / невостребованный нагрев |
+| Модуль ценообразования ИИ | Деградация + surge + внешний рынок; механическая блокировка при просрочке |
+| Сервер бронирования | Правило n>1; таймер; приоритет «с полки» |
 
 ---
 
 ## §5. Примеры применения (PPA 6)
 
-### Пример 1 — Офисный hot-food cabinet
+### Пример 1 — Офисный шкаф с горячей едой
 
-1. Пользователь сканирует QR; на карте слотов видит «Soup #3 — €5.90».  
+1. Пользователь сканирует QR; на карте слотов видит «Суп №3 — €5,90».  
 2. Подтверждает → **оплата до нагрева**.  
-3. Induction по Digital Passport: 72°C, 90 sec; LCD мигает «READY».  
-4. Забирает за 2 min. Parallel: второй слот греет лапшу для другого пользователя.
+3. Индукция по цифровому паспорту: 72°C, 90 сек; LCD мигает «ГОТОВО».  
+4. Забирает за 2 мин. Параллельно: второй слот греет лапшу для другого пользователя.
 
-### Пример 2 — Abandonment + fluid combo
+### Пример 2 — Невостребованность + жидкостная станция
 
-1. User orders noodle cup → pays → heating starts.  
-2. LCD «READY»; user не приходит 5 min → slot locked, €5.90 × 200% penalty, cup → waste chute.  
-3. Другой user: dry coffee cup → pays → fluid station injects hot water → utensil dispenser выдаёт stirrer.
+1. Пользователь заказывает стакан лапши → оплачивает → начинается нагрев.  
+2. LCD «ГОТОВО»; пользователь не приходит 5 мин → слот заблокирован, штраф €5,90 × 200%, стакан → желоб отходов.  
+3. Другой пользователь: сухой стакан кофе → оплата → жидкостная станция заливает горячую воду → диспенсер выдаёт мешалку.
 
 ---
 
@@ -739,14 +751,14 @@ Mobile reservation request for SKU X
 
 | Аналог | Наше отличие |
 |--------|--------------|
-| Microwave vending | **Induction + Digital Passport + impedance auth**; pre-pay before energy |
-| Standard hot-food locker | Нет **abandonment penalty + waste routing** |
-| Hanging-cup dispensers | **Profiled channel** — guides body, not rim hang |
-| Static pricing vending | **AI bidirectional** + external market + mechanical expiry lockout |
-| Simple reservation apps | **Conditional n>1** walk-in priority rule |
-| Fixed load-cell bins | **Vibration-isolated floating bin** with conical centering |
+| Вендинг с микроволновкой | **Индукция + цифровой паспорт + аутентификация по импедансу**; предоплата до расхода энергии |
+| Стандартный локер горячей еды | Нет **штрафа за невостребованность + маршрутизации в отходы** |
+| Диспенсеры с подвесом за ободок | **Профилированный канал** — направляет корпус, а не ободок |
+| Вендинг со статичными ценами | **Двунаправленное ИИ** + внешний рынок + механическая блокировка при просрочке |
+| Простые приложения бронирования | **Условное правило n>1** — приоритет покупателя «с полки» |
+| Стационарные бункеры на тензодатчиках | **Виброизолированный плавающий бункер** с коническим центрированием |
 
-**Ключевые акценты:** pre-payment gating before heating; dual-zone + level-sensitive operations; profiled channel + ratchet; composite vessel selective heating; hybrid fluid interlock; floating bin metrology; AI pricing with safety lockout; master–slave cost sharing.
+**Ключевые акценты:** предоплата до нагрева; двухзонный климат + операции, чувствительные к уровню; профилированный канал + храповик; выборочный нагрев композитного сосуда; блокировка гибридной жидкостной станции; метрология плавающего бункера; ценообразование ИИ с блокировкой безопасности; экономия master–slave.
 
 ---
 
@@ -754,20 +766,20 @@ Mobile reservation request for SKU X
 
 # Общие приложения (PPA 3–6)
 
-## A. Соответствие рисунков и claims (сводка)
+## A. Соответствие рисунков и пунктов формулы (сводка)
 
 | Тема | PPA 3 | PPA 4 | PPA 5 | PPA 6 |
 |------|-------|-------|-------|-------|
-| Chassis / busbar | ✓ cl.1,19–21 | ✓ cl.1–4 | ✓ cl.1 | ✓ cl.1–2 |
-| Sensor fusion | ✓ cl.1,11–12 | ✓ cl.1,3–4 | ✓ cl.1,5–8 | ✓ cl.5 |
-| Token / consent | — | ✓ cl.1,5–9 | ✓ cl.1,10 | — |
-| Split / multi-tenant | — | ✓ cl.11–12 | ✓ cl.11 | — |
-| Master–slave | — | ✓ cl.16 | ✓ cl.13 | ✓ cl.1 |
-| Auto-leveling | feet (manual) | feet | ✓ motorized cl.1–2 | ✓ cl.1 |
-| Smart glass / restricted | ✓ cl.1,4,9 | ✓ cl.1,9,15 | inherited | — |
-| Pricing AI | sensory+space | time+sensory+space | bidirectional cl.12 | AI cl.6 |
-| Heating / fluid | — | — | temp interlock | ✓ cl.1–3,7 |
-| FIFO / ESL | LED strip | LED strip | ✓ cl.3–4,14 | LCD strips |
+| Шасси / шина питания | ✓ п. 1, 19–21 | ✓ п. 1–4 | ✓ п. 1 | ✓ п. 1–2 |
+| Слияние датчиков | ✓ п. 1, 11–12 | ✓ п. 1, 3–4 | ✓ п. 1, 5–8 | ✓ п. 5 |
+| Токен / согласие | — | ✓ п. 1, 5–9 | ✓ п. 1, 10 | — |
+| Раздельные платежи / мультиаренда | — | ✓ п. 11–12 | ✓ п. 11 | — |
+| Master–slave | — | ✓ п. 16 | ✓ п. 13 | ✓ п. 1 |
+| Авто-выравнивание | ножки (ручные) | ножки | ✓ моторизованное п. 1–2 | ✓ п. 1 |
+| Умное стекло / ограниченные товары | ✓ п. 1, 4, 9 | ✓ п. 1, 9, 15 | унаследовано от PPA 4 | — |
+| Ценообразование ИИ | сенсорная + слот | время + сенсорная + слот | двунаправленное п. 12 | ИИ п. 6 |
+| Нагрев / жидкости | — | — | темп. блокировка | ✓ п. 1–3, 7 |
+| FIFO / электронные ценники | LED-лента | LED-лента | ✓ п. 3–4, 14 | LCD-ленты |
 
 ## B. Дополнительные SVG в репозитории (черновики, RU)
 
@@ -779,8 +791,8 @@ Mobile reservation request for SKU X
 
 ## C. PPA №7 — статус
 
-**Не включён в настоящий пакет** (PDF заявки не приложены). По проектной документации (`MVP_TZ_PRODUCE_v1.md`): slave-модуль, vertical bus interface, перекonfigурируемые слоты, продуктовый узел выдачи. Требуется отдельная подготовка §1–6 после получения PDF.
+**Не включён в настоящий пакет** (PDF заявки не приложены). По проектной документации (`MVP_TZ_PRODUCE_v1.md`): ведомый модуль (slave), интерфейс вертикальной шины, перекonfigурируемые слоты, продуктовый узел выдачи. Требуется отдельная подготовка §1–6 после получения PDF.
 
 ---
 
-*Документ не заменяет юридическую консультацию. Английские тексты заявок и claims — в исходных PDF заявителя.*
+*Документ не заменяет юридическую консультацию. Английские тексты заявок и пункты формулы изобретения — в исходных PDF заявителя.*
