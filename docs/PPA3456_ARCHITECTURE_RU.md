@@ -338,12 +338,14 @@
 
 ## Файлы иллюстраций
 
-| PPA | SVG |
-|-----|-----|
-| 3 | `assets/figures/ppa3456/PPA3_ARCH_RU.svg` |
-| 4 | `assets/figures/ppa3456/PPA4_ARCH_RU.svg` |
-| 5 | `assets/figures/ppa3456/PPA5_ARCH_RU.svg` |
-| 6 | `assets/figures/ppa3456/PPA6_ARCH_RU.svg` |
+**Галерея на сайте:** [patents.html#ppa-arch](../patents.html#ppa-arch)
+
+| PPA | SVG (локально) | GitHub Pages |
+|-----|----------------|--------------|
+| 3 | `assets/figures/ppa3456/PPA3_ARCH_RU.svg` | https://kmd379-wq.github.io/Vird/assets/figures/ppa3456/PPA3_ARCH_RU.svg |
+| 4 | `assets/figures/ppa3456/PPA4_ARCH_RU.svg` | https://kmd379-wq.github.io/Vird/assets/figures/ppa3456/PPA4_ARCH_RU.svg |
+| 5 | `assets/figures/ppa3456/PPA5_ARCH_RU.svg` | https://kmd379-wq.github.io/Vird/assets/figures/ppa3456/PPA5_ARCH_RU.svg |
+| 6 | `assets/figures/ppa3456/PPA6_ARCH_RU.svg` | https://kmd379-wq.github.io/Vird/assets/figures/ppa3456/PPA6_ARCH_RU.svg |
 
 ---
 
