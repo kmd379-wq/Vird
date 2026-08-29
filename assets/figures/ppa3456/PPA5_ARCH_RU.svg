@@ -1,90 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
 <rect width="900" height="720" fill="#ffffff"/>
-<text x="48" y="40" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111111">PPA 5  @E8B5:BC@0: 2K@02=820=85 � VTL � ESL/FIFO</text>
-<text x="48" y="58" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555555">>B>@87>20==K5 >?>@K � A;>9 287C0;L=>3> >BA;56820=8O � >1;0G=0O 18><5B@8O</text>
-
-<!-- Inclinometer -->
+<text x="48" y="40" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111111">PPA &#8470;5 — Выравнивание · VTL · ESL/FIFO</text>
+<text x="48" y="58" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555555">Моторизованные опоры · визуальное отслеживание · облачная биометрия</text>
 <rect x="350" y="72" width="200" height="40" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="450" y="90" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">601 " </text>
-<text x="450" y="104" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">40BG8: =0:;>=0 :>@?CA0</text>
-<line x1="450" y1="112" x2="450" y2="128" stroke="#222222" stroke-width="1.2"/>
-<polygon points="450,134 446,126 454,126" fill="#222222"/>
-
-<!-- Controller -->
-<rect x="120" y="140" width="660" height="72" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
-<text x="450" y="160" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f4d4d">"   ($</text>
-<text x="450" y="178" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">A;8 =0:;>= &gt; 0,5� � <>B>@87>20==K5 >?>@K �  " B@0=70:F88</text>
-<text x="450" y="196" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">QR / 18><5B@8O � split � HB@0D = :@0B=>ABL � max SKU</text>
-
-<line x1="280" y1="212" x2="280" y2="232" stroke="#222222" stroke-width="1.2"/>
-<line x1="620" y1="212" x2="620" y2="232" stroke="#222222" stroke-width="1.2"/>
-<polygon points="280,238 276,230 284,230" fill="#222222"/>
-<polygon points="620,238 616,230 624,230" fill="#222222"/>
-
-<!-- Leveling and VTL -->
-<rect x="180" y="244" width="200" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="280" y="266" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">602 >B>@87>20==K5</text>
-<text x="280" y="280" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">2K@02=820NI85 >?>@K</text>
-<text x="280" y="292" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">28=B>2K5 actuators</text>
-
-<rect x="520" y="244" width="200" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="620" y="266" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">VTL  2=CB@5==85</text>
-<text x="620" y="280" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">:0<5@K ?>AB>O==></text>
-<text x="620" y="292" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">287C0;L=>5 >BA;56820=85</text>
-
-<line x1="450" y1="212" x2="450" y2="320" stroke="#222222" stroke-width="1"/>
-<line x1="450" y1="320" x2="450" y2="336" stroke="#222222" stroke-width="1.2"/>
-<polygon points="450,342 446,334 454,334" fill="#222222"/>
-
-<!-- Zones -->
-<rect x="80" y="348" width="280" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="220" y="370" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111"> +! &!"</text>
-<text x="220" y="388" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">B5=7>40BG8: + RFID</text>
-<text x="220" y="402" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">4>@>385 / restricted B>20@K</text>
-
-<rect x="540" y="348" width="280" height="72" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="680" y="370" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">!" "/ </text>
-<text x="680" y="388" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">?@5@K20B5;L ;CG0</text>
-<text x="680" y="402" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">+ 0=B8-2>72@0B=K9 E@0?>28:</text>
-
-<line x1="360" y1="384" x2="532" y2="384" stroke="#222222" stroke-width="1.2"/>
-<text x="446" y="376" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#0f4d4d">A;8O=85</text>
-
-<line x1="450" y1="420" x2="450" y2="440" stroke="#222222" stroke-width="1.2"/>
-<polygon points="450,446 446,438 454,438" fill="#222222"/>
-
-<!-- Fusion box -->
-<rect x="300" y="452" width="300" height="40" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
-<text x="450" y="476" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">!/ VTL + D878G5A:89 A;>9 7>=K</text>
-
-<line x1="450" y1="492" x2="450" y2="512" stroke="#222222" stroke-width="1.2"/>
-<polygon points="450,518 446,510 454,510" fill="#222222"/>
-
-<!-- ESL and modules -->
-<rect x="80" y="524" width="200" height="64" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="180" y="546" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">603 ESL / LCD</text>
-<text x="180" y="562" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">FIFO: F5=0 + A@>:</text>
-<text x="180" y="576" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">A;54. B>20@0 2 >G5@548</text>
-
-<rect x="350" y="524" width="200" height="64" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="450" y="546" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Smart bin</text>
-<text x="450" y="562" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555"><>;>:> 2 ?0:5B0E</text>
-<text x="450" y="576" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">A?8A0=85 ?> ?>B5@5 25A0</text>
-
-<rect x="620" y="524" width="200" height="64" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="720" y="546" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Gravity tray</text>
-<text x="720" y="562" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">deli � temp interlock</text>
-<text x="720" y="576" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">1;>:8@>2:0 ?@8 ?5@53@525</text>
-
-<!-- Cloud biometric -->
-<rect x="280" y="608" width="340" height="48" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
-<text x="450" y="630" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">1;0G=>5 E@0=8;8I5 18><5B@88 (@>C<8=3 <564C H:0D0<8 / @538>=0<8)</text>
-<text x="450" y="646" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">1-O A5AA8O QR � opt-in � @0A?>7=020=85 + ?@>25@:0 :0@BK 4;O @538>=0</text>
-
-<line x1="450" y1="588" x2="450" y2="604" stroke="#222222" stroke-width="1.2"/>
-<polygon points="450,610 446,602 454,602" fill="#222222"/>
-
-<text x="48" y="692" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">#=8:0;L=> PPA 5: 0:B82=>5 2K@02=820=85, 42CEA;>9=>5 A;8O=85, ESL A FIFO, >1;0G=0O 18><5B@8O.</text>
-<text x="48" y="708" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">PPA 5</text>
+<text x="450" y="96" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">601 ИНКЛИНОМЕТР</text>
+<line x1="450" y1="112" x2="450" y2="132" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,138 446,130 454,130" fill="#222222"/>
+<rect x="120" y="144" width="660" height="64" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
+<text x="450" y="164" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f4d4d">КОНТРОЛЛЕР ШКАФА</text>
+<text x="450" y="184" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">Наклон &gt; 0,5° → опоры → ЗАПРЕТ транзакции</text>
+<rect x="180" y="224" width="200" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="280" y="252" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">602 Опоры</text>
+<rect x="520" y="224" width="200" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="620" y="252" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">VTL камеры</text>
+<line x1="450" y1="208" x2="450" y2="288" stroke="#222222" stroke-width="1.2"/>
+<rect x="80" y="296" width="280" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="220" y="320" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Зона высокой ценности</text>
+<text x="220" y="336" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">тензо + RFID</text>
+<rect x="540" y="296" width="280" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="680" y="320" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Стандартная зона</text>
+<text x="680" y="336" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">луч + храповик</text>
+<line x1="360" y1="324" x2="532" y2="324" stroke="#222222" stroke-width="1.2"/>
+<text x="446" y="316" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#0f4d4d">слияние</text>
+<rect x="300" y="368" width="300" height="40" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="450" y="392" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">СЛИЯНИЕ VTL + физический слой</text>
+<rect x="80" y="424" width="200" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="180" y="452" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">603 ESL / LCD FIFO</text>
+<rect x="320" y="424" width="260" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="452" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Smart bin · Gravity tray</text>
+<rect x="280" y="496" width="340" height="48" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="450" y="524" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">Облачное хранилище биометрии</text>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">Уникально: авто-выравнивание, двухслойное слияние, ESL с очередью FIFO.</text>
+<text x="48" y="708" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">PPA &#8470;5</text>
 </svg>

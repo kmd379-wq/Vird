@@ -1,104 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
 <rect width="900" height="720" fill="#ffffff"/>
-<text x="48" y="40" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111111">PPA 4  @E8B5:BC@0: B>:5= � split-?;0B568 � multi-tenant</text>
-<text x="48" y="58" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555555">QR-A5AA8O � A>3;0A85 4> unlock � masterslave � offline 6C@=0;</text>
-
-<!-- Input -->
-<rect x="48" y="80" width="160" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="128" y="102" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">>18;L=>5 app</text>
-<text x="128" y="116" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">QR / B>:5= KYC</text>
-
-<rect x="48" y="148" width="160" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="128" y="170" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">105 =5H=OO</text>
-<text x="128" y="184" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">18>:0<5@0</text>
-
-<line x1="208" y1="106" x2="280" y2="106" stroke="#222222" stroke-width="1.2"/>
-<polygon points="286,106 278,102 278,110" fill="#222222"/>
-<line x1="208" y1="174" x2="260" y2="174" stroke="#222222" stroke-width="1.2"/>
-<line x1="260" y1="174" x2="260" y2="200" stroke="#222222" stroke-width="1.2"/>
-<line x1="260" y1="200" x2="300" y2="200" stroke="#222222" stroke-width="1.2"/>
-<polygon points="306,200 298,196 298,204" fill="#222222"/>
-
-<rect x="292" y="80" width="120" height="40" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="352" y="104" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">QR-A:0=5@</text>
-
-<!-- Controller -->
-<rect x="300" y="148" width="520" height="120" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
-<text x="560" y="168" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f4d4d">"   + #, " &</text>
-<text x="380" y="188" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Pre-auth</text>
-<text x="480" y="188" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">0?8AL A>3;0A8O</text>
-<text x="580" y="188" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Virtual basket</text>
-<text x="700" y="188" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Split settlement</text>
-<text x="430" y="206" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Offline ledger</text>
-<text x="560" y="206" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Instant / aggregated capture</text>
-<text x="700" y="206" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Fiscal receipt</text>
-<text x="560" y="252" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">#A;>28O: immediate charge � no returns  4> unlock</text>
-
-<line x1="560" y1="268" x2="560" y2="288" stroke="#222222" stroke-width="1.2"/>
-<polygon points="560,294 556,286 564,286" fill="#222222"/>
-
-<!-- UI and lock -->
-<rect x="200" y="300" width="140" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="270" y="320" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">110 UI �!>3;0A5=�</text>
-<text x="270" y="334" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">CA;>28O B@0=70:F88</text>
-
-<rect x="780" y="300" width="100" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="830" y="320" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">140 0<>:</text>
-<text x="830" y="334" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">10@L5@</text>
-
-<rect x="660" y="300" width="100" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="710" y="326" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111"></text>
-
-<line x1="560" y1="288" x2="270" y2="300" stroke="#222222" stroke-width="1"/>
-<line x1="560" y1="288" x2="830" y2="300" stroke="#222222" stroke-width="1"/>
-
-<!-- Interface -->
-<rect x="120" y="368" width="660" height="36" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="450" y="390" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">=B5@D59A A @53C;8@C5<K< ?>;>65=85<  H8=0 / :015;L-:0=0; / 63CB</text>
-
-<line x1="450" y1="404" x2="450" y2="420" stroke="#222222" stroke-width="1.2"/>
-<polygon points="450,426 446,418 454,418" fill="#222222"/>
-
-<!-- Modules -->
-<rect x="48" y="432" width="804" height="72" fill="none" stroke="#222222" stroke-width="1.2" stroke-dasharray="6,4"/>
-<text x="58" y="450" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#111111">500 # + 2=CB@5==85 40BG8:8 (RFID � B5=7> � :0<5@0 2=CB@8 >1JQ<0)</text>
-<text x="450" y="478" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">A push � B hook � C scale � D gate � F tray  A>1KB8O A=OB8O � split ?> tenant</text>
-
-<line x1="450" y1="504" x2="450" y2="524" stroke="#222222" stroke-width="1.2"/>
-<polygon points="450,530 446,522 454,522" fill="#222222"/>
-
-<!-- Cluster -->
-<rect x="80" y="540" width="200" height="64" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
-<text x="180" y="562" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">MASTER</text>
-<text x="180" y="576" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">;0BQ6 �  � 18><5B@8O</text>
-<text x="180" y="590" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">virtual basket</text>
-
-<rect x="350" y="540" width="160" height="64" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="430" y="568" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">SLAVE 1</text>
-<text x="430" y="586" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">40BG8:8 � 70<:8</text>
-
-<rect x="540" y="540" width="160" height="64" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="620" y="568" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">SLAVE N</text>
-<text x="620" y="586" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">4>?. >1JQ<</text>
-
-<line x1="280" y1="572" x2="342" y2="572" stroke="#222222" stroke-width="1.2"/>
-<polygon points="348,572 340,568 340,576" fill="#222222"/>
-<line x1="510" y1="572" x2="532" y2="572" stroke="#222222" stroke-width="1.2"/>
-<polygon points="538,572 530,568 530,576" fill="#222222"/>
-
-<!-- Cloud -->
-<rect x="720" y="540" width="160" height="64" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="800" y="562" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">!5@25@</text>
-<text x="800" y="576" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">manifest � multi-tenant</text>
-<text x="800" y="590" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">upstream induction</text>
-
-<line x1="700" y1="572" x2="714" y2="572" stroke="#222222" stroke-width="1.2"/>
-<polygon points="720,572 712,568 712,576" fill="#222222"/>
-
-<rect x="200" y="624" width="500" height="36" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="450" y="646" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="#111111">Split: � � >?5@0B>@ � � � ?>AB02I8: A � � � ?>AB02I8: B (>48= G5: ?>;L7>20B5;N)</text>
-
-<text x="48" y="692" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">4=0 QR-A5AA8O � A>3;0A85 � A=OB8O 2 master/slave � @0745;L=0O <0@H@CB870F8O ?;0B5659.</text>
-<text x="48" y="708" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">PPA 4</text>
+<text x="48" y="40" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111111">PPA &#8470;4 — Токен · split-платежи · multi-tenant</text>
+<text x="48" y="58" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555555">QR-сессия · согласие до unlock · master–slave · offline журнал</text>
+<rect x="48" y="80" width="160" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="128" y="108" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Мобильное app</text>
+<line x1="208" y1="104" x2="280" y2="104" stroke="#222222" stroke-width="1.2"/>
+<polygon points="286,104 278,100 278,108" fill="#222222"/>
+<rect x="292" y="80" width="120" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="352" y="108" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">QR-сканер</text>
+<rect x="280" y="160" width="540" height="100" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
+<text x="550" y="182" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f4d4d">КОНТРОЛЛЕР + МОДУЛЬ ТРАНЗАКЦИЙ</text>
+<text x="550" y="204" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Pre-auth · согласие · virtual basket · split settlement</text>
+<text x="550" y="220" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">Offline ledger · instant / aggregated capture</text>
+<line x1="550" y1="260" x2="550" y2="280" stroke="#222222" stroke-width="1.2"/>
+<polygon points="550,286 546,278 554,278" fill="#222222"/>
+<rect x="120" y="296" width="660" height="36" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="318" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Интерфейс положения — шина · кабель-канал · жгут</text>
+<line x1="450" y1="332" x2="450" y2="352" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,358 446,350 454,350" fill="#222222"/>
+<rect x="48" y="364" width="804" height="64" fill="none" stroke="#222222" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="58" y="384" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#111111">500 МОДУЛИ + внутренние датчики (RFID · тензо · камера)</text>
+<line x1="450" y1="428" x2="450" y2="448" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,454 446,446 454,446" fill="#222222"/>
+<rect x="80" y="464" width="200" height="56" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="180" y="496" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">MASTER</text>
+<rect x="350" y="464" width="160" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="430" y="496" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">SLAVE 1</text>
+<rect x="540" y="464" width="160" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="620" y="496" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">SLAVE N</text>
+<line x1="280" y1="492" x2="342" y2="492" stroke="#222222" stroke-width="1.2"/>
+<polygon points="348,492 340,488 340,496" fill="#222222"/>
+<line x1="510" y1="492" x2="532" y2="492" stroke="#222222" stroke-width="1.2"/>
+<polygon points="538,492 530,488 530,496" fill="#222222"/>
+<rect x="720" y="464" width="160" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="800" y="488" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Сервер</text>
+<text x="800" y="504" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">manifest · multi-tenant</text>
+<line x1="700" y1="492" x2="714" y2="492" stroke="#222222" stroke-width="1.2"/>
+<polygon points="720,492 712,488 712,496" fill="#222222"/>
+<rect x="200" y="544" width="500" height="36" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="566" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="#111111">Split: оператор + поставщик A + поставщик B (один чек)</text>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">Одна QR-сессия → согласие → снятия → раздельные платежи по tenant.</text>
+<text x="48" y="708" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">PPA &#8470;4</text>
 </svg>
