@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
+<rect width="900" height="720" fill="#ffffff"/>
+<text x="48" y="40" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111111">PPA 3  @E8B5:BC@0 <>4C;L=>3> C<=>3> H:0D0</text>
+<text x="48" y="58" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555555">!;8O=85 40BG8:>2 · C<=>5 AB5:;> · 48=0<8G5A:>5 F5=>>1@07>20=85 · @CG=0O 2K40G0</text>
+
+<!-- User -->
+<rect x="350" y="72" width="200" height="36" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="450" y="94" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#0f4d4d">,",</text>
+<line x1="450" y1="108" x2="450" y2="122" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,128 446,120 454,120" fill="#222222"/>
+
+<!-- UI row -->
+<rect x="80" y="132" width="140" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="150" y="152" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">105 8>:0<5@0</text>
+<text x="150" y="166" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">>7@0AB · ID</text>
+
+<rect x="380" y="132" width="140" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="152" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">110 8A?;59</text>
+<text x="450" y="166" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">&5=K · A>3;0A85</text>
+
+<rect x="680" y="132" width="140" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="750" y="152" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">;0BQ6</text>
+<text x="750" y="166" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">Tap-to-pay</text>
+
+<line x1="150" y1="180" x2="150" y2="200" stroke="#222222" stroke-width="1"/>
+<line x1="450" y1="180" x2="450" y2="200" stroke="#222222" stroke-width="1"/>
+<line x1="750" y1="180" x2="750" y2="200" stroke="#222222" stroke-width="1"/>
+<line x1="150" y1="200" x2="750" y2="200" stroke="#222222" stroke-width="1.2"/>
+<line x1="450" y1="200" x2="450" y2="214" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,220 446,212 454,212" fill="#222222"/>
+
+<!-- Controller 400 -->
+<rect x="120" y="224" width="660" height="100" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
+<text x="450" y="244" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f4d4d">400  $ + "  </text>
+<text x="200" y="264" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">!;8O=85 40BG8:>2</text>
+<text x="200" y="276" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">RFID + :0<5@0 + 25A</text>
+<text x="450" y="264" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">286>: F5=>>1@07>20=8O</text>
+<text x="450" y="276" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">sensory · space-yield</text>
+<text x="700" y="264" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">>ABC? · B@0=70:F88</text>
+<text x="700" y="276" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">offline · :MH</text>
+<text x="450" y="308" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">>:0;L=K9 :MH  @01>B0 157 >1;0:0</text>
+
+<line x1="450" y1="324" x2="450" y2="344" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,350 446,342 454,342" fill="#222222"/>
+
+<!-- Infrastructure -->
+<rect x="48" y="356" width="130" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="113" y="376" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">(8=0 ?8B0=8O</text>
+<text x="113" y="390" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">25@B8:0;L=0O</text>
+
+<rect x="200" y="356" width="130" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="265" y="376" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">0<5@0</text>
+<text x="265" y="390" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">7>=0 ?5@5:@KB8O</text>
+
+<rect x="352" y="356" width="130" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="417" y="376" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">RFID-<0B@8F0</text>
+<text x="417" y="390" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">+ LED C<=K9 :@09</text>
+
+<rect x="504" y="356" width="130" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="569" y="376" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">140 0<>:</text>
+<text x="569" y="390" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">425@8</text>
+
+<rect x="656" y="356" width="130" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="721" y="376" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111"></text>
+<text x="721" y="390" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">0::C<C;OB>@</text>
+
+<line x1="450" y1="400" x2="450" y2="420" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,426 446,418 454,418" fill="#222222"/>
+
+<!-- Retail zone -->
+<rect x="48" y="432" width="804" height="120" fill="none" stroke="#222222" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="58" y="450" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#111111">200 " /   A<5==K5 <>4C;8 (@CG=0O 2K40G0)</text>
+
+<rect x="68" y="462" width="100" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="118" y="484" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">A ">;:0B5;L</text>
+<text x="118" y="498" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">push</text>
+
+<rect x="188" y="462" width="100" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="238" y="484" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">B @NG>:</text>
+<text x="238" y="498" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">hook</text>
+
+<rect x="308" y="462" width="100" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="358" y="484" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">C 5A>20O</text>
+<text x="358" y="498" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">scale-box</text>
+
+<rect x="428" y="462" width="100" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="478" y="484" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">D 0B2>@</text>
+<text x="478" y="498" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">gravity gate</text>
+
+<rect x="548" y="462" width="100" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="598" y="484" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">E/F >B>:</text>
+<text x="598" y="498" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">sliding tray</text>
+
+<rect x="668" y="462" width="100" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="718" y="484" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">G 2B>-</text>
+<text x="718" y="498" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">CB8;870F8O</text>
+
+<line x1="450" y1="552" x2="450" y2="572" stroke="#222222" stroke-width="1.2"/>
+<line x1="200" y1="572" x2="700" y2="572" stroke="#222222" stroke-width="1.2"/>
+<line x1="200" y1="572" x2="200" y2="586" stroke="#222222" stroke-width="1.2"/>
+<line x1="700" y1="572" x2="700" y2="586" stroke="#222222" stroke-width="1.2"/>
+<polygon points="200,592 196,584 204,584" fill="#222222"/>
+<polygon points="700,592 696,584 704,584" fill="#222222"/>
+
+<!-- Bottom blocks -->
+<rect x="80" y="596" width="180" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="170" y="618" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">#<=>5 AB5:;> PDLC</text>
+<text x="170" y="632" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">opaque ’ >A<>B@ ’ 4>ABC?</text>
+
+<rect x="360" y="596" width="180" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="618" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">#<=0O :>@78=0 >BE>4>2</text>
+<text x="450" y="632" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">B5=7> + RFID · quarantine</text>
+
+<rect x="640" y="596" width="180" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="730" y="618" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">!B0=F8O 8=4C:F88</text>
+<text x="730" y="632" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">SKU ’ RFID ’ FIFO</text>
+
+<text x="48" y="692" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">!B@5;:8: ?>B>: 40==KE 8 C?@02;5=8O. &5=B@  :>=B@>;;5@ 400 A2O7K205B UI, 40BG8:8, <>4C;8 8 ?;0BQ6.</text>
+<text x="48" y="708" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">PPA 3</text>
+</svg>

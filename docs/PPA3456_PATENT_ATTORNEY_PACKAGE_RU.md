@@ -6,7 +6,8 @@
 **Дата пакета:** 2026-08-25  
 **Язык:** русский (настоящий документ); тексты формулы изобретения (claims) и описания (specification) — на английском в исходных PDF
 
-> **Индекс и чеклист отправки:** [`MODULAR_CABINET_PATENT_ATTORNEY_INDEX_RU.md`](MODULAR_CABINET_PATENT_ATTORNEY_INDEX_RU.md)
+> **Индекс и чеклист отправки:** [`MODULAR_CABINET_PATENT_ATTORNEY_INDEX_RU.md`](MODULAR_CABINET_PATENT_ATTORNEY_INDEX_RU.md)  
+> **Архитектура шкафов (блок-схемы + SVG):** [`PPA3456_ARCHITECTURE_RU.md`](PPA3456_ARCHITECTURE_RU.md)
 
 ---
 

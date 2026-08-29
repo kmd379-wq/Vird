@@ -13,6 +13,7 @@
 | № | Файл | Назначение |
 |---|------|------------|
 | 1 | **`docs/PPA3456_PATENT_ATTORNEY_PACKAGE_RU.md`** | Ответы на 6 пунктов задания для PPA №3–6 (§1–6 по каждой заявке) |
+| 1b | **`docs/PPA3456_ARCHITECTURE_RU.md`** | Архитектура шкафов: блок-схемы (квадраты + стрелки) + SVG |
 | 2 | `PPA#3-ModularSmartVendingCabinet_Revised.pdf` | Текст specification + claims 1–30 (EN) — у заявителя |
 | 3 | `PPA#3 FIGURES.pdf` | Официальные Рис. 1–4 (USPTO) |
 | 4 | `PPA#4_SMART_RETAIL CABINET_WITH_TOKENIZED_ACCESS_AND_SPLIT_PAYMENTS.pdf` | Текст + claims 1–20 (EN) |
