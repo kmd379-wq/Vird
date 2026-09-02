@@ -1,54 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
 <rect width="900" height="720" fill="#ffffff"/>
-<text x="48" y="40" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111111">PPA &#8470;7  5@5:>=D83C@8@C5<>5 H0AA8 · 25@B8:0;L=0O H8=0 · slave-<>4C;8</text>
-<text x="48" y="58" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555555">Modular Retail System (hardware) · ?@>4C:B>2K5 C7;K 2K40G8 · MSBP-0</text>
-<rect x="48" y="80" width="804" height="44" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
-<text x="450" y="106" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f4d4d">FIG 5  "/ &/: 68 ($ (548=0O ?;0BD>@<0)</text>
-<rect x="48" y="140" width="250" height="120" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
-<text x="173" y="164" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#0f4d4d">MASTER MS-CHILL-01</text>
-<text x="173" y="184" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Edge · bus master · ?;0BQ6</text>
-<text x="173" y="200" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">%>;>48;L=K5 A;>BK C-1&C-10</text>
-<text x="173" y="216" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">+2&+6 &#176;C</text>
-<text x="173" y="244" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#0f4d4d">BUS OUT &#8594;</text>
-<line x1="298" y1="200" x2="330" y2="200" stroke="#222222" stroke-width="1.4"/>
-<polygon points="336,200 328,196 328,204" fill="#222222"/>
-<rect x="342" y="140" width="210" height="120" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="447" y="164" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">SLAVE MS-PRODUCE-01</text>
-<text x="447" y="184" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Ambient · 1C=:5@K P-1/P-2</text>
-<text x="447" y="200" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">>B:8 P-3&P-5 · delta mass</text>
-<text x="447" y="216" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">BUS IN &#8592; OUT &#8594;</text>
-<line x1="552" y1="200" x2="584" y2="200" stroke="#222222" stroke-width="1.4"/>
-<polygon points="590,200 582,196 582,204" fill="#222222"/>
-<rect x="596" y="140" width="210" height="120" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="701" y="164" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">SLAVE MS-MEAL-01</text>
-<text x="701" y="184" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">03@52 · 3>B>20O 540</text>
-<text x="701" y="200" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">BUS IN &#8592; (terminator)</text>
-<rect x="48" y="280" width="804" height="52" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="450" y="302" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#111111">801  ",/ ( (RS-485 / CAN)  ?8B0=85 24 V + 40==K5</text>
-<text x="450" y="320" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">Linear topology · MSBP-0 · HEARTBEAT · safe lock ?@8 ?>B5@5 A2O78 &gt; 30 s</text>
-<rect x="48" y="352" width="804" height="140" fill="none" stroke="#222222" stroke-width="1.2" stroke-dasharray="6,4"/>
-<text x="58" y="372" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#111111">802  $#  # (!!  548=K9 8=B5@D59A :@5?;5=8O (&#177;2 mm)</text>
-<rect x="68" y="388" width="130" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="133" y="408" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">803 C=:5@ 45&#176;</text>
-<text x="133" y="424" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">3@028B0F8O</text>
-<rect x="218" y="388" width="130" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="283" y="408" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">804 >B>: =0 25A0E</text>
-<text x="283" y="424" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">1 SKU / A;>B</text>
-<rect x="368" y="388" width="130" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="433" y="408" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">805 @NG>: / B>;:0B5;L</text>
-<text x="433" y="424" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">A<5==K9 <>4C;L</text>
-<rect x="518" y="388" width="130" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="583" y="408" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">806 %>;>48;L=K9</text>
-<text x="583" y="424" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">:;8<0B-7>=0</text>
-<rect x="668" y="388" width="130" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
-<text x="733" y="408" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">807 03@52</text>
-<text x="733" y="424" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">3>B>20O 540</text>
-<text x="450" y="468" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">KA>B0 18002000 mm · H8@8=0 600800 mm · A;>BK P/C/M ?@><0@:8@>20=K</text>
-<rect x="120" y="512" width="660" height="72" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
-<text x="450" y="536" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#0f4d4d">808  #"+ # +'</text>
-<text x="450" y="556" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">SESSION_OPEN &#8594; unlock &#8594; delta mass &#8594; PICK_EVENT(slot_id, delta_g) &#8594; master &#8594; charge</text>
-<text x="450" y="572" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">Stable weight &#8805; 200 ms · 1 B5=7>OG59:0 =0 A;>B · SKU ?> 4>?CA:C 25A0</text>
-<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">Slave-<>4C;L: 40BG8:8 + 70<:8 ;>:0;L=>; ?;0BQ6 8 A5AA8O  =0 master (8;8 02B>=><=>).</text>
+<text x="48" y="40" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111111">PPA &#8470;7 — ??????????: ???????? &#183; &#8722;&#916;P &#183; ?????? &#183; 45&#176; ?????? &#183; &#931;-????</text>
+<text x="48" y="58" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555555">Modular Retail System (???????????) &#183; Space-Yield &#183; split &#183; ?????/???????</text>
+<rect x="280" y="72" width="340" height="88" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
+<text x="450" y="96" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f4d4d">EDGE + ?????? ??????????</text>
+<text x="450" y="116" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Auth &#183; offline &#183; split &#183; Space-Yield ??</text>
+<text x="450" y="132" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">Master&#8211;slave &#183; multi-tenant</text>
+<line x1="450" y1="160" x2="450" y2="178" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,184 446,176 454,176" fill="#222222"/>
+<rect x="48" y="188" width="200" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="148" y="212" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">110 ??????. ??????</text>
+<text x="148" y="228" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">germetic + susceptor</text>
+<rect x="268" y="188" width="200" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="368" y="212" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">120 ??????. &#8722;&#916;P</text>
+<text x="368" y="228" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">???/????? ?? ??????</text>
+<rect x="488" y="188" width="200" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="588" y="212" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">140 ?????? 45&#176;</text>
+<text x="588" y="228" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">1 ?????. ???????????</text>
+<rect x="708" y="188" width="144" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="780" y="212" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">PDLC ??????</text>
+<text x="780" y="228" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">?????????</text>
+<rect x="120" y="264" width="660" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="284" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">RFID/NFC &#183; ???????? ??????? &#183; ?????? &#183; ????????????</text>
+<text x="450" y="300" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">????? &#171;???????????-????&#187; &#183; ???????????? ????</text>
+<line x1="450" y1="312" x2="450" y2="332" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,338 446,330 454,330" fill="#222222"/>
+<rect x="200" y="344" width="500" height="44" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="450" y="364" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#0f4d4d">150 ???? &#931;-???? ?? ??????</text>
+<text x="450" y="380" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">&#931; ????????? + ??????????? = ???????? ?????????</text>
+<line x1="450" y1="388" x2="450" y2="408" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,414 446,406 454,406" fill="#222222"/>
+<rect x="48" y="420" width="250" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="173" y="444" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">130 ???????. ??????</text>
+<text x="173" y="460" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">&lt; &#8722;2 &#176;C &#183; timeout &#183; ?????</text>
+<rect x="325" y="420" width="250" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="444" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">170 ????? ????? ????</text>
+<text x="450" y="460" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">350 ml ?? SKU</text>
+<rect x="602" y="420" width="250" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="727" y="444" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">????????? ????????</text>
+<text x="727" y="460" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">?????/?????/???????</text>
+<rect x="120" y="496" width="660" height="40" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="520" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="#111111">160 Space-Yield Engine &#183; ??????????? ?????? &#183; ?????-???????? split</text>
+<text x="48" y="560" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">&#9888; ???????? ????????? ? PPA &#8470;6; ?????????? ? ?????? ??????? 1&#8211;5 &#8212; ????.</text>
 <text x="48" y="708" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">PPA &#8470;7</text>
 </svg>

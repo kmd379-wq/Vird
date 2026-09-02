@@ -170,9 +170,16 @@ PPA №4, №5, №6 — **отдельными письмами позже**, �
 
 ---
 
-## VII. PPA №7 — отдельно
+## VII. PPA №7 — включена в перечень
 
-**Не входит в настоящий пакет.** Требуются PDF заявки и рисунки от заявителя; инженерный контекст — `docs/MVP_TZ_PRODUCE_v1.md`.
+| Файл | Статус |
+|------|--------|
+| `docs/source/ppa7/02.09.2026_PPA7_RU.docx` | ✅ перевод от 02.09.2026 |
+| `docs/source/ppa7/PPA7_Modular_Retail_System.pdf` | ✅ EN spec + claims 1–5 |
+| §1–6 в пакете + `PPA7_ARCH_RU.svg` | ✅ |
+| `PPA#7 FIGURES.pdf`, APP.FILE.REC | ⬜ уточнить |
+
+**⚠️ Название совпадает с PPA №6** — см. [`PEREECHEN_DOKUMENTOV_PPA34567_RU.md`](PEREECHEN_DOKUMENTOV_PPA34567_RU.md).
 
 ---
 
