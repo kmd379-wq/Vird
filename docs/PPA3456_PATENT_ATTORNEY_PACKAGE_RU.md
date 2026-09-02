@@ -3,9 +3,10 @@
 **Кому:** патентный поверенный  
 **От:** команда Micro Shop / заявитель  
 **Контур:** Платформа модульных шкафов (Modular Cabinet Platform)  
-**Дата пакета:** 2026-08-25  
-**Язык:** русский (настоящий документ); тексты формулы изобретения (claims) и описания (specification) — на английском в исходных PDF
+**Дата пакета:** 2026-09-02  
+**Язык пояснений:** русский
 
+> **Перечень документов для подачи:** [`PATENT_ATTORNEY_FILING_CHECKLIST_PPA3456_RU.md`](PATENT_ATTORNEY_FILING_CHECKLIST_PPA3456_RU.md)  
 > **Индекс и чеклист отправки:** [`MODULAR_CABINET_PATENT_ATTORNEY_INDEX_RU.md`](MODULAR_CABINET_PATENT_ATTORNEY_INDEX_RU.md)  
 > **Архитектура шкафов (блок-схемы + SVG):** [`PPA3456_ARCHITECTURE_RU.md`](PPA3456_ARCHITECTURE_RU.md)
 
