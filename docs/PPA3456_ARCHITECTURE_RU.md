@@ -346,7 +346,52 @@
 | 4 | `assets/figures/ppa3456/PPA4_ARCH_RU.svg` | https://kmd379-wq.github.io/Vird/assets/figures/ppa3456/PPA4_ARCH_RU.svg |
 | 5 | `assets/figures/ppa3456/PPA5_ARCH_RU.svg` | https://kmd379-wq.github.io/Vird/assets/figures/ppa3456/PPA5_ARCH_RU.svg |
 | 6 | `assets/figures/ppa3456/PPA6_ARCH_RU.svg` | https://kmd379-wq.github.io/Vird/assets/figures/ppa3456/PPA6_ARCH_RU.svg |
+| 7 | `assets/figures/ppa3456/PPA7_ARCH_RU.svg` | https://kmd379-wq.github.io/Vird/assets/figures/ppa3456/PPA7_ARCH_RU.svg |
 
 ---
 
-*Схемы отражают патентный контур PPA №3–6. Нумерация 6xx / 7xx — пояснительная, для материалов поверенного.*
+# PPA №7 — Аппаратная платформа: шасси, vertical bus, slave-модули
+
+**Ядро:** перекonfigурируемое шасси + linear vertical bus + продуктовые узлы выдачи + weight-based PICK
+
+## Блок-схема архитектуры
+
+```
+     ┌──────────────── FIG 5: 6–8 шкафов на локации ────────────────┐
+     │  MS-CHILL (MASTER)  ──bus──►  MS-PRODUCE (SLAVE)  ──► MEAL │
+     └─────────────────────────────────────────────────────────────┘
+                              │
+                    801 Vertical Bus (RS-485/CAN, MSBP-0)
+                              │
+     ┌────────────────────────▼────────────────────────────────────┐
+     │  802 ПЕРЕКОНФИГУРИРУЕМОЕ ШАССИ (1800–2000 × 600–800 mm)    │
+     │  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌────────┐ │
+     │  │803 45°  │ │804 лоток│ │805 крюч.│ │806 chill│ │807 heat│ │
+     │  │ бункер  │ │+ load   │ │/толкатель│ │  zone   │ │  slot  │ │
+     │  └────┬────┘ └────┬────┘ └────┬────┘ └────┬────┘ └───┬────┘ │
+     │       └───────────┴───────────┴───────────┴──────────┘       │
+     │                    808 ПРОДУКТОВЫЙ УЗЕЛ ВЫДАЧИ               │
+     └──────────────────────────┬──────────────────────────────────┘
+                                │ PICK_EVENT(slot, delta_g)
+                                ▼
+     ┌──────────────────────────────────────────────────────────────┐
+     │ 809 Slave MCU · 810 EM lock · HEARTBEAT · safe lock >30 s   │
+     └──────────────────────────┬───────────────────────────────────┘
+                                ▼
+                         MASTER → edge → charge
+```
+
+## Описание связей
+
+| Блок | Назначение | Связи |
+|------|------------|-------|
+| **801 Vertical bus** | Питание 24 V + данные; linear master→slave→terminator | Master ↔ Slaves |
+| **802 Шасси** | Единый интерфейс крепления ±2 mm для chill/produce/meal | ↔ Все модули |
+| **803–807 Узлы** | Сменные типы выдачи: бункер, лоток, крючок, климат, нагрев | ↔ Load cells |
+| **808 PICK node** | Delta mass ≥200 ms → SKU match → PICK_EVENT | → Master |
+| **809 Slave MCU** | Локальный опрос; SESSION_OPEN/close | ↔ Bus |
+| **810 Lock** | Unlock только в сессии; FAULT_BUS → safe lock | ← 809 |
+
+---
+
+*Схемы отражают патентный контур PPA №3–7. Нумерация 6xx / 7xx / 8xx — пояснительная.*
