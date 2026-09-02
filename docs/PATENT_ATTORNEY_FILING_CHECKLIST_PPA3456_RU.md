@@ -1,59 +1,33 @@
 # Перечень документов для патентного поверенного — PPA №3, №4, №5, №6
 
-**Кому:** патентный поверенный  
+**Кому:** патентный поверенный (Ali)  
 **От:** команда Micro Shop / заявитель  
 **Контур:** Modular Cabinet Platform (модульные торговые шкафы)  
 **Цель:** подготовка и подача патентной заявки (provisional / non-provisional — по стратегии поверенного)  
 **Дата пакета:** 2026-09-02  
-**Язык пояснений:** русский · **тексты claims и specification:** английский (исходные PDF)
+**Язык:** русский · **тексты claims и specification:** английский (исходные PDF)
 
-> **English checklist for attorney:** [`PATENT_ATTORNEY_SUBMISSION_PPA3456_EN.md`](PATENT_ATTORNEY_SUBMISSION_PPA3456_EN.md)  
+> **Полный перечень (основной документ):** [`POLNYJ_PERECHEN_DOKUMENTOV_PPA3456_RU.md`](POLNYJ_PERECHEN_DOKUMENTOV_PPA3456_RU.md)  
 > **Пояснения §1–6:** [`PPA3456_PATENT_ATTORNEY_PACKAGE_RU.md`](PPA3456_PATENT_ATTORNEY_PACKAGE_RU.md)  
 > **Архитектура:** [`PPA3456_ARCHITECTURE_RU.md`](PPA3456_ARCHITECTURE_RU.md) · SVG: `assets/figures/ppa3456/`  
-> **Галерея:** https://kmd379-wq.github.io/Vird/patents.html#ppa-arch
+> **Галерея:** https://kmd379-wq.github.io/Vird/patents.html#ppa-arch  
+
+> **PPA №7 в этот перечень не входит.**
 
 ---
 
-## Требования поверенного (оригинал, EN)
+## Требования поверенного (шесть пунктов)
 
-> **What I'll need from you for each application:**
->
-> 1. Rough sketches or drawings of the device/system (hand-drawn or digital is fine)
-> 2. A diagram showing how the main components connect and interact
-> 3. A flowchart or step-by-step walkthrough of how the process/method works
-> 4. A plain-language description of each component and what it does
-> 5. One or two concrete examples of the invention in use
-> 6. Anything that makes your version different from existing/similar products
->
-> Materials must be **sent all together at one time** — **wait until everything is ready**.  
-> **One application at a time.** Additional fees if information is added/changed during preparation.  
-> **≥2 weeks** to prepare each application after receiving complete materials.
+| № | Вопрос | PPA 3 | PPA 4 | PPA 5 | PPA 6 | Где ответ |
+|---|--------|:-----:|:-----:|:-----:|:-----:|-----------|
+| **1** | Эскизы или чертежи устройства/системы | ✅ | ✅ | ✅ | ✅ | §1 + `PPA#N FIGURES.pdf` + `PPA{N}_ARCH_RU.svg` |
+| **2** | Схема соединения и взаимодействия компонентов | ✅ | ✅ | ✅ | ✅ | §2 + `PPA3456_ARCHITECTURE_RU.md` |
+| **3** | Блок-схема или пошаговое описание процесса | ✅ | ✅ | ✅ | ✅ | §3 |
+| **4** | Простое описание каждого компонента | ✅ | ✅ | ✅ | ✅ | §4 |
+| **5** | 1–2 конкретных примера применения | ✅ | ✅ | ✅ | ✅ | §5 |
+| **6** | Отличия от существующих / аналогичных продуктов | ✅ | ✅ | ✅ | ✅ | §6 |
 
----
-
-## Важно: порядок отправки
-
-| Правило поверенного | Что это значит для нас |
-|---------------------|------------------------|
-| Всё **сразу** по одной заявке | 6 пунктов + PDF + SVG — **одним письмом**, не по частям |
-| **Не отправлять** #4–6 пока не решили порядок | Сначала **одна** PPA (рекомендуем **№3**), остальные — после |
-| Не менять материалы в процессе | Зафиксировать текст до отправки — иначе доп. fees |
-| ≥2 недели на заявку | Планировать очередь: #3 → #4 → #5 → #6 ≈ 8+ недель |
-
-**Технические материалы (п. 1–6) готовы по всем четырём PPA.** Отправлять — **по одной**, когда выбрана очередь и заполнены данные заявителя (изобретатели, assignee).
-
----
-
-## Задание поверенного — 6 пунктов (сверка по PPA)
-
-| № | Требование поверенного | PPA 3 | PPA 4 | PPA 5 | PPA 6 | Где ответ |
-|---|------------------------|:-----:|:-----:|:-----:|:-----:|-----------|
-| **1** | **Эскизы или чертежи** устройства/системы (от руки или цифровые) | ✅ | ✅ | ✅ | ✅ | Пакет **§1** + `PPA#N FIGURES.pdf` + `PPA{N}_ARCH_RU.svg` |
-| **2** | **Схема**, как основные компоненты **соединяются и взаимодействуют** | ✅ | ✅ | ✅ | ✅ | Пакет **§2** + `PPA3456_ARCHITECTURE_RU.md` |
-| **3** | **Блок-схема** или **пошаговое описание** процесса/метода | ✅ | ✅ | ✅ | ✅ | Пакет **§3** |
-| **4** | **Простое описание** каждого компонента и его функций | ✅ | ✅ | ✅ | ✅ | Пакет **§4** |
-| **5** | **1–2 конкретных примера** применения изобретения | ✅ | ✅ | ✅ | ✅ | Пакет **§5** |
-| **6** | **Отличия** от существующих / аналогичных продуктов | ✅ | ✅ | ✅ | ✅ | Пакет **§6** |
+Материалы передаются **все сразу, одним письмом**, по **одной заявке**. Подробности — в [`POLNYJ_PERECHEN_DOKUMENTOV_PPA3456_RU.md`](POLNYJ_PERECHEN_DOKUMENTOV_PPA3456_RU.md).
 
 ---
 

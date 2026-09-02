@@ -1,14 +1,16 @@
-# Платформа модульных шкафов — пакет материалов для патентного поверенного (PPA №3–7)
+# Платформа модульных шкафов — пакет материалов для патентного поверенного (PPA №3–6)
 
-**Кому:** патентный поверенный  
+**Кому:** патентный поверенный (Ali)  
 **От:** команда Micro Shop / заявитель  
 **Контур:** Платформа модульных шкафов (Modular Cabinet Platform)  
 **Дата пакета:** 2026-09-02  
 **Язык пояснений:** русский
 
-> **Перечень документов для подачи:** [`PATENT_ATTORNEY_FILING_CHECKLIST_PPA3456_RU.md`](PATENT_ATTORNEY_FILING_CHECKLIST_PPA3456_RU.md)  
-> **Индекс и чеклист отправки:** [`MODULAR_CABINET_PATENT_ATTORNEY_INDEX_RU.md`](MODULAR_CABINET_PATENT_ATTORNEY_INDEX_RU.md)  
+> **Полный перечень документов для подачи:** [`POLNYJ_PERECHEN_DOKUMENTOV_PPA3456_RU.md`](POLNYJ_PERECHEN_DOKUMENTOV_PPA3456_RU.md)  
+> **Краткий чеклист:** [`PATENT_ATTORNEY_FILING_CHECKLIST_PPA3456_RU.md`](PATENT_ATTORNEY_FILING_CHECKLIST_PPA3456_RU.md)  
 > **Архитектура шкафов (блок-схемы + SVG):** [`PPA3456_ARCHITECTURE_RU.md`](PPA3456_ARCHITECTURE_RU.md)
+
+> Раздел **PPA №7** в конце файла — **не входит** в текущий перечень подачи (PPA №3–6).
 
 ---
 
