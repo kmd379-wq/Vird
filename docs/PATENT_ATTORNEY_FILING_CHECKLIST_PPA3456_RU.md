@@ -12,7 +12,7 @@
 > **Архитектура:** [`PPA3456_ARCHITECTURE_RU.md`](PPA3456_ARCHITECTURE_RU.md) · SVG: `assets/figures/ppa3456/`  
 > **Галерея:** https://kmd379-wq.github.io/Vird/patents.html#ppa-arch  
 
-> **PPA №7 в этот перечень не входит.**
+> **PPA №3–6:** настоящий файл · **PPA №3–7 (полный):** [`PEREECHEN_DOKUMENTOV_PPA34567_RU.md`](PEREECHEN_DOKUMENTOV_PPA34567_RU.md)
 
 ---
 
@@ -177,7 +177,8 @@ PPA №4, №5, №6 — **отдельными письмами позже**, �
 | `docs/source/ppa7/02.09.2026_PPA7_RU.docx` | ✅ перевод от 02.09.2026 |
 | `docs/source/ppa7/PPA7_Modular_Retail_System.pdf` | ✅ EN spec + claims 1–5 |
 | §1–6 в пакете + `PPA7_ARCH_RU.svg` | ✅ |
-| `PPA#7 FIGURES.pdf`, APP.FILE.REC | ⬜ уточнить |
+| `PPA#6 FIGURES.pdf` (для PPA №7 — тот же файл) | ✅ |
+| APP.FILE.REC | ⬜ если подан |
 
 **⚠️ Название совпадает с PPA №6** — см. [`PEREECHEN_DOKUMENTOV_PPA34567_RU.md`](PEREECHEN_DOKUMENTOV_PPA34567_RU.md).
 

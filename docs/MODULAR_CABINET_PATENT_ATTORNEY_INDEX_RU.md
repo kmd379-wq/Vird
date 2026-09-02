@@ -30,7 +30,7 @@
 | 10  | `assets/figures/FIG_03_RU.svg`, `FIG_04_RU.svg`, `FIG_05_RU.svg`          | Дополнительные иллюстрации платформы (RU, черновик)              |
 
 
-**PPA №7** — §1–6 и `PPA7_ARCH_RU.svg` готовы; EN PDF + FIGURES + APP.FILE.REC — предоставить заявителю.
+**PPA №7** — §1–6, docx, EN PDF, рисунки **`PPA#6 FIGURES.pdf`** (общие с PPA №6); APP.FILE.REC — при наличии.
 
 ---
 

@@ -131,11 +131,11 @@
 # V. PPA №7 — Расширенная экосистема (новый файл заявителя)
 
 **EN:** Modular Retail System with Adaptive Architecture *(то же название, иное содержание)*  
-**Claims:** 1–5 · **Рисунки:** FIG. 1–4 (описание в §1; отдельный `PPA#7 FIGURES.pdf` — уточнить)
+**Claims:** 1–5 · **Рисунки:** FIG. 1–4 — **`PPA#6 FIGURES.pdf`** (тот же файл, что для PPA №6)
 
 | Пункт Ali | Документ / раздел | Статус |
 |-----------|-------------------|--------|
-| **1** | `PPA7_ARCH_RU.svg` · пакет **§1** (PPA №7) · *(опц.)* `PPA#6 FIGURES.pdf` или отдельные FIG | ✅ / ⬜ FIG |
+| **1** | `PPA#6 FIGURES.pdf` · `PPA7_ARCH_RU.svg` · пакет **§1** (PPA №7) | ✅ |
 | **2** | **§2** · `PPA3456_ARCHITECTURE_RU.md` (PPA 7) | ✅ |
 | **3** | **§3** | ✅ |
 | **4** | **§4** | ✅ |
@@ -180,6 +180,20 @@
 6. (опционально) PEREECHEN_DOKUMENTOV_PPA34567_RU.md
 ```
 
+Пример для **PPA №7**:
+
+```
+Тема письма: Micro Shop — PPA №7 — полный комплект материалов
+
+Вложения:
+1. docs/source/ppa7/PPA7_Modular_Retail_System.pdf   (EN)
+2. docs/source/ppa7/02.09.2026_PPA7_RU.docx          (RU перевод)
+3. PPA#6 FIGURES.pdf                                 (те же FIG. 1–4, что для PPA №6)
+4. PPA7_ARCH_RU.svg
+5. PDF-выгрузка раздела PPA №7 из PPA3456_PATENT_ATTORNEY_PACKAGE_RU.md (§1–6)
+6. (опц.) APP.FILE.REC — если PPA уже подан
+```
+
 **PPA №4, №5, №6, №7** — отдельными письмами по тому же шаблону, когда предыдущая заявка принята в работу.
 
 **Рекомендуемый порядок:** №3 → №4 → №5 → №6 → №7 (или №7 сразу после №6 — обе про Modular Retail System, но разное содержание).
@@ -195,7 +209,7 @@
 | 3 | Micro / small / large entity | ⬜ |
 | 4 | Power of attorney (доверенность Ali) | ⬜ |
 | 5 | Пошлина USPTO | ⬜ |
-| 6 | PPA №7: FIGURES.pdf и APP.FILE.REC (если подан) | ⬜ |
+| 6 | PPA №7: APP.FILE.REC (если подан) | ⬜ |
 
 ---
 
@@ -216,7 +230,8 @@
 - [ ] Assignee передан  
 - [ ] Entity status определён  
 - [ ] Доверенность подписана  
-- [ ] PPA №7 FIGURES / квитанция (если есть)  
+- [x] PPA №7 — рисунки (`PPA#6 FIGURES.pdf`)
+- [ ] PPA №7 — квитанция APP.FILE.REC (если есть)  
 
 ---
 
