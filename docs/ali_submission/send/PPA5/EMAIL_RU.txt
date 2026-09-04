@@ -1,0 +1,13 @@
+Тема: Micro Shop — PPA №5 — полный комплект — выравнивание, VTL, ESL/FIFO
+
+Уважаемый Ali,
+
+Полный комплект по **PPA №5** (ревизия умного торгового шкафа).
+
+Вложения: PPA#5 FIGURES.pdf, PPA5_ARCH_RU.svg, specification (EN), APP.FILE.REC, записка §1–6.
+
+PPA №6 — после вашего подтверждения.
+
+С уважением,
+[Имя]
+Micro Shop

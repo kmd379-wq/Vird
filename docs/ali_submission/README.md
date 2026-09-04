@@ -1,8 +1,25 @@
 # Ali Submission — File Index
 
-**Purpose:** Two language bundles for patent attorney Ali, answering his six requirements per PPA (#3–#7).
+## Отправка по очереди (рекомендуется)
 
-## Main documents (send to Ali)
+**Инструкция:** [`send/00_INSTRUKCIYA_OTPRAVKI_RU.md`](send/00_INSTRUKCIYA_OTPRAVKI_RU.md)
+
+| Очередь | Папка | Когда отправлять |
+|---------|--------|------------------|
+| 1 | [`send/PPA3/`](send/PPA3/) | Сейчас (первое письмо) |
+| 2 | [`send/PPA4/`](send/PPA4/) | После подтверждения Ali по №3 |
+| 3 | [`send/PPA5/`](send/PPA5/) | После №4 |
+| 4 | [`send/PPA6/`](send/PPA6/) | После №5 |
+| 5 | [`send/PPA7/`](send/PPA7/) | После №6 |
+
+В каждой папке:
+- `EMAIL_EN.txt` / `EMAIL_RU.txt` — текст письма
+- `SUBMISSION_EN.md` / `SUBMISSION_RU.md` — ответы §1–§6
+- `CHECKLIST_RU.md` — что приложить
+
+---
+
+## Полные объединённые файлы (справочно)
 
 | Language | File | Contents |
 |----------|------|----------|
