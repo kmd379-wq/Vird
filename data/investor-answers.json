@@ -1,22 +1,30 @@
 {
   "meta": {
     "project": "Micro Shop",
-    "updated": "2026-08-11",
+    "updated": "2026-09-04",
     "currencyDefault": "USD",
-    "note": "Ответы собираются по блокам. status: confirmed — из материалов проекта; draft — рабочая гипотеза; unknown — нужен ответ основателя."
+    "note": "status: confirmed — из материалов проекта; draft — рабочая гипотеза; unknown — нужен ответ основателя.",
+    "progress": {
+      "blocksTotal": 10,
+      "blocksStarted": 10,
+      "blocksComplete": 0,
+      "confirmedAnswers": 47,
+      "unknownAnswers": 38
+    }
   },
   "blocks": [
     {
       "id": 1,
       "title": "Раунд и запрос",
       "status": "in_progress",
+      "summary": "Качественный ask и use of funds подтверждены. Числовые параметры раунда — не найдены в материалах.",
       "questions": [
         {
           "id": "1.1",
           "question": "Как называем раунд: Seed / Pre-Seed / Angel?",
           "answer": "Seed",
           "status": "draft",
-          "source": "data/investor-metrics.json — рабочее название, не подтверждено основателем"
+          "source": "data/investor-metrics.json"
         },
         {
           "id": "1.2",
@@ -24,7 +32,7 @@
           "answer": null,
           "status": "unknown",
           "source": null,
-          "hint": "USD / EUR / AED / RUB — указать сумму и валюту"
+          "hint": "USD / EUR / AED / RUB"
         },
         {
           "id": "1.3",
@@ -74,97 +82,532 @@
           "answer": null,
           "status": "unknown",
           "source": null,
-          "hint": "фонд / angel / strategic / family office; мин. чек $"
+          "hint": "фонд / angel / strategic / family office"
         }
       ],
       "confirmedFromMaterials": {
-        "stage": "После «голой идеи»: патентование, инженерная проработка, промышленная подготовка. Pre-revenue.",
+        "stage": "Pre-revenue. Патентование + инженерная проработка + промышленная подготовка.",
         "qualitativeAsk": [
-          "Завершение IP-контура и инженерной упаковки (9 PPA → патентное семейство 1–10)",
-          "Финансирование MVP и пилотной серии модулей (овощ / молоко / горячее блюдо)",
+          "Завершение IP-контура и инженерной упаковки (9 PPA → семейство 1–10)",
+          "Финансирование MVP и пилотной серии модулей",
           "Подготовка серийного производства под целевые регионы",
           "Запуск первых пилотных локаций и подтверждение коммерческой модели"
         ],
-        "geographyProduction": {
-          "china": "производство для России",
-          "europe": "производство для Дубая и LATAM"
-        },
-        "milestonesUnlocked": [
-          "2026 Q3 — завершение патентного семейства PPA 1–10",
-          "2026 Q4 — MVP-модули по трём сценариям",
-          "2027 Q1 — первая пилотная локация",
-          "2027 Q2 — 3–5 пилотов, валидация unit-экономики",
-          "2027 H2 — серийное производство, масштаб сети"
-        ],
-        "useOfFundsDraftPct": {
-          "ip": 15,
-          "mvp": 35,
-          "pilot": 25,
-          "production": 15,
-          "ops": 10
-        },
-        "investorThesis": "Инвестор входит в формирование стандартов архитектуры, патентов и бизнес-модели автономной розницы — не покупает «один аппарат», а экспозицию к IP, hardware, recurring service/SaaS и platform economics.",
+        "useOfFundsDraftPct": { "ip": 15, "mvp": 35, "pilot": 25, "production": 15, "ops": 10 },
         "contact": "partnerships@microshop.io",
-        "sources": [
-          "index.html — секция #investors, roadmap",
-          "data/investor-metrics.json — useOfFunds, milestones",
-          "Исходные investor materials (transcript, авг 2026) — слайд 15 Ask"
-        ]
+        "sources": ["index.html#investors", "data/investor-metrics.json", "investor materials авг 2026"]
       }
     },
     {
       "id": 2,
       "title": "Компания и команда",
-      "status": "pending",
-      "questions": []
+      "status": "in_progress",
+      "summary": "Роли для MVP описаны в scope-документе. Юрлицо, cap table и имена — не найдены.",
+      "questions": [
+        {
+          "id": "2.1",
+          "question": "Юридическое лицо: страна, форма (ООО/LLC)?",
+          "answer": null,
+          "status": "unknown",
+          "source": "docs/MVP_SCOPE_v1_RU.md §10 — «Юрлицо для MVP» в checklist, не зафиксировано"
+        },
+        {
+          "id": "2.2",
+          "question": "Cap table: кто уже в cap table и с какими долями?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "2.3",
+          "question": "Founder / ключевая команда: имена, роли, опыт?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "2.4",
+          "question": "Advisors: патентный поверенный, инженеры, retail/ops?",
+          "answer": "Работа с патентным поверенным ведётся; пакеты для поверенного подготовлены (PPA 3–10). Имена и формальный advisory — не указаны.",
+          "status": "partial",
+          "source": "index.html#ip, docs/PPA*_PATENT_ATTORNEY_PACKAGE_RU.md"
+        },
+        {
+          "id": "2.5",
+          "question": "FTE сегодня / после раунда?",
+          "answer": "MVP рассчитан на part-time / подрядчиков; ориентир 6–9 месяцев до MVP Ready. Точное число FTE не зафиксировано.",
+          "status": "draft",
+          "source": "docs/MVP_SCOPE_v1_RU.md §9"
+        },
+        {
+          "id": "2.6",
+          "question": "Ключевые вакансии на 12 месяцев?",
+          "answer": "Product owner, hardware engineer, embedded, backend, mobile, QA, part-time юрист/бухгалтерия (касса 54-ФЗ, 152-ФЗ).",
+          "status": "confirmed",
+          "source": "docs/MVP_SCOPE_v1_RU.md §8"
+        }
+      ]
     },
     {
       "id": 3,
       "title": "Текущий статус и traction",
-      "status": "pending",
-      "questions": []
+      "status": "in_progress",
+      "summary": "Сильный IP и инженерная документация. Рабочего прототипа и коммерческих LOI в материалах нет.",
+      "questions": [
+        {
+          "id": "3.1",
+          "question": "Статус PPA: сколько подано / в работе?",
+          "answer": "9 активных PPA в патентном контуре; работа над семейством 1–10.",
+          "status": "confirmed",
+          "source": "index.html, data/investor-metrics.json"
+        },
+        {
+          "id": "3.2",
+          "question": "Прототип / lab prototype?",
+          "answer": "На этапе ТЗ и BOM. MVP = 1 master + 2 slave (3 шкафа), lab/demo площадка в РФ — целевой deliverable, не собран.",
+          "status": "confirmed",
+          "source": "docs/MVP_SCOPE_v1_RU.md, docs/MVP_TZ_HARDWARE_v1.md"
+        },
+        {
+          "id": "3.3",
+          "question": "Производство: контрагенты, LOI, MOQ?",
+          "answer": "География: Китай → РФ, Европа → Дубай/LATAM. MVP собирается локально, не ждать Китай. LOI/MOQ — не найдены.",
+          "status": "partial",
+          "source": "index.html#stage, docs/MVP_SCOPE_v1_RU.md §5.1 C-10"
+        },
+        {
+          "id": "3.4",
+          "question": "LOI от локаций (девелоперы, ТЦ, БЦ)?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "3.5",
+          "question": "Заинтересованные поставщики?",
+          "answer": "MVP-модель: 1 оператор + 1 поставщик (может быть то же юрлицо). Внешние поставщики — после MVP.",
+          "status": "confirmed",
+          "source": "docs/MVP_SCOPE_v1_RU.md §4.6"
+        },
+        {
+          "id": "3.6",
+          "question": "Платформа: что из SaaS/app существует?",
+          "answer": "ТЗ и scope готовы; working demo — целевой результат MVP (backend + app + edge firmware). Сейчас — документация и BOM.",
+          "status": "confirmed",
+          "source": "docs/MVP_SCOPE_v1_RU.md §4.3–4.5"
+        },
+        {
+          "id": "3.7",
+          "question": "Выручка / контракты сегодня?",
+          "answer": "Pre-revenue, $0.",
+          "status": "confirmed",
+          "source": "этап проекта в материалах"
+        },
+        {
+          "id": "3.8",
+          "question": "Ключевые deliverables уже готовы?",
+          "answer": "MVP_SCOPE_v1, MVP_TZ_HARDWARE_v1, MVP_TZ_PRODUCE_v1, MVP_TEST_PLAN_v1, MVP_BOM_v1 (JSON), patent attorney packages PPA 3–10, сайт + investor deck.",
+          "status": "confirmed",
+          "source": "docs/, data/mvp_bom_v1.json"
+        }
+      ]
     },
     {
       "id": 4,
       "title": "Рынок (TAM / SAM / SOM)",
-      "status": "pending",
-      "questions": []
+      "status": "in_progress",
+      "summary": "Качественное определение рынка есть. Числовые TAM/SAM/SOM — не найдены.",
+      "questions": [
+        {
+          "id": "4.1",
+          "question": "Определение TAM: какой рынок берём?",
+          "answer": "Не «рынок вендинга», а пересечение: autonomous retail · convenience retail · food-service automation · last-meter distribution.",
+          "status": "confirmed",
+          "source": "index.html#market, investor materials"
+        },
+        {
+          "id": "4.2",
+          "question": "TAM в цифрах?",
+          "answer": null,
+          "status": "unknown",
+          "source": "data/investor-metrics.json — market.tam.value null"
+        },
+        {
+          "id": "4.3",
+          "question": "SAM: целевые географии?",
+          "answer": "РФ (MVP), ОАЭ (Дубай), LATAM — серийное производство из Европы; Китай → поставки в РФ.",
+          "status": "confirmed",
+          "source": "index.html#stage, data/investor-metrics.json market.sam.note"
+        },
+        {
+          "id": "4.4",
+          "question": "SAM в цифрах?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "4.5",
+          "question": "SOM: реалистичная доля 3–5 лет?",
+          "answer": "Качественно: сеть пилотных локаций. Число — не зафиксировано.",
+          "status": "partial",
+          "source": "data/investor-metrics.json market.som.note"
+        },
+        {
+          "id": "4.6",
+          "question": "SOM в цифрах?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "4.7",
+          "question": "Целевые сегменты локаций?",
+          "answer": "ЖК и лобби, бизнес-центры и кампусы, апарт-отели, транспортные узлы, АЗС, ТЦ — микролокации с регулярным трафиком.",
+          "status": "confirmed",
+          "source": "index.html#market, FIG_07"
+        },
+        {
+          "id": "4.8",
+          "question": "«Почему сейчас» с цифрами?",
+          "answer": "Качественно: instant convenience, давление на офлайн-экономику, IoT/AI, безлюдные форматы. Количественные % роста — не найдены.",
+          "status": "partial",
+          "source": "index.html#why-now"
+        }
+      ]
     },
     {
       "id": 5,
       "title": "Go-to-market",
-      "status": "pending",
-      "questions": []
+      "status": "in_progress",
+      "summary": "MVP GTM для РФ описан. Коммерческая модель масштаба — после пилота.",
+      "questions": [
+        {
+          "id": "5.1",
+          "question": "Кто покупатель оборудования / точки?",
+          "answer": null,
+          "status": "unknown",
+          "source": "не зафиксировано: Micro Shop owned vs partner vs franchise"
+        },
+        {
+          "id": "5.2",
+          "question": "Модель владения точкой?",
+          "answer": "MVP: 1 юрлицо-оператор, lab-площадка (своё или договор). Пилот — следующий этап после MVP Ready.",
+          "status": "confirmed",
+          "source": "docs/MVP_SCOPE_v1_RU.md §4.6, §12"
+        },
+        {
+          "id": "5.3",
+          "question": "География запуска #1?",
+          "answer": "Российская Федерация — MVP lab/demo.",
+          "status": "confirmed",
+          "source": "docs/MVP_SCOPE_v1_RU.md header"
+        },
+        {
+          "id": "5.4",
+          "question": "География #2 и #3?",
+          "answer": "ОАЭ (Дубай) и LATAM — в roadmap производства; порядок коммерческого rollout не детализирован.",
+          "status": "draft",
+          "source": "index.html#stage"
+        },
+        {
+          "id": "5.5",
+          "question": "Канал продаж?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "5.6",
+          "question": "Pipeline локаций на 12 мес.?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        }
+      ]
     },
     {
       "id": 6,
       "title": "Unit-экономика точки",
-      "status": "pending",
-      "questions": []
+      "status": "in_progress",
+      "summary": "Есть ориентир CAPEX MVP (3 модуля). Экономика полной точки 6–8 шкафов — после пилота.",
+      "questions": [
+        {
+          "id": "6.1",
+          "question": "CAPEX на локацию?",
+          "answer": "MVP hardware v0 (3 модуля, не полная точка): $6 700 – $15 000 (без НДС, доставки, труда). Полная локация 6–8 шкафов — не посчитана.",
+          "status": "partial",
+          "source": "docs/MVP_TZ_HARDWARE_v1.md §7.2, data/mvp_bom_v1.json"
+        },
+        {
+          "id": "6.2",
+          "question": "Количество шкафов на типовой точке?",
+          "answer": "Пилот/серия: 6–8 шкафов. MVP: 3 шкафа (1 master + 2 slave).",
+          "status": "confirmed",
+          "source": "data/investor-metrics.json known, docs/MVP_SCOPE_v1_RU.md §4.1"
+        },
+        {
+          "id": "6.3",
+          "question": "Транзакций в день?",
+          "answer": null,
+          "status": "unknown",
+          "source": "docs/MVP_SCOPE_v1_RU.md C-23 — unit-экономика после пилота"
+        },
+        {
+          "id": "6.4",
+          "question": "Средний чек?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "6.5",
+          "question": "Выручка / OPEX / мес. на точку?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "6.6",
+          "question": "Валовая маржа %?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "6.7",
+          "question": "Take rate платформы / SaaS fee?",
+          "answer": "MVP: без marketplace и split payments. Целевая модель: слоты, % GMV, подписка — после пилота.",
+          "status": "partial",
+          "source": "docs/MVP_SCOPE_v1_RU.md §4.4, index.html#business"
+        },
+        {
+          "id": "6.8",
+          "question": "Окупаемость CAPEX?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "6.9",
+          "question": "Целевое время покупки?",
+          "answer": "60–120 секунд; MVP DoD: ≤120 сек на ≥20 пользователях.",
+          "status": "confirmed",
+          "source": "data/investor-metrics.json, docs/MVP_SCOPE_v1_RU.md §3.1"
+        },
+        {
+          "id": "6.10",
+          "question": "Модель оплаты?",
+          "answer": "Списание в момент взятия товара, до закрытия двери; чек ≤5 сек.",
+          "status": "confirmed",
+          "source": "index.html#product, docs/MVP_SCOPE_v1_RU.md"
+        }
+      ]
     },
     {
       "id": 7,
       "title": "Модель выручки компании",
-      "status": "pending",
-      "questions": []
+      "status": "in_progress",
+      "summary": "4 потока выручки подтверждены. Доли и pricing — не зафиксированы.",
+      "questions": [
+        {
+          "id": "7.1",
+          "question": "Потоки выручки?",
+          "answer": "1) Оборудование · 2) Сервис · 3) SaaS · 4) Платформенная экономика (слоты, split payments, доля с локаций).",
+          "status": "confirmed",
+          "source": "index.html#business, data/investor-metrics.json"
+        },
+        {
+          "id": "7.2",
+          "question": "Доля каждого потока в total revenue?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "7.3",
+          "question": "Цена модуля / комплекта?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "7.4",
+          "question": "Recurring vs one-off через 24 мес.?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "7.5",
+          "question": "MVP vs целевая модель?",
+          "answer": "MVP: hardware demo + 1 оператор + 1 поставщик, без marketplace. Platform economics — после MVP.",
+          "status": "confirmed",
+          "source": "docs/MVP_SCOPE_v1_RU.md §4.6, §5.2"
+        }
+      ]
     },
     {
       "id": 8,
       "title": "Use of funds (детализация)",
-      "status": "pending",
-      "questions": []
+      "status": "in_progress",
+      "summary": "Структура % подтверждена как draft. Суммы ждут target раунда.",
+      "questions": [
+        {
+          "id": "8.1",
+          "question": "Структура % по статьям?",
+          "answer": "IP 15% · MVP 35% · Пилоты 25% · Серийное производство 15% · Ops 10%.",
+          "status": "draft",
+          "source": "data/investor-metrics.json useOfFunds"
+        },
+        {
+          "id": "8.2",
+          "question": "Патенты (15%) — что входит?",
+          "answer": "Завершение патентного семейства PPA 1–10, инженерная упаковка, работа с patent counsel.",
+          "status": "confirmed",
+          "source": "index.html#investors, docs/"
+        },
+        {
+          "id": "8.3",
+          "question": "MVP (35%) — разбивка?",
+          "answer": "3 hardware-модуля (овощ/молоко/горячее), edge firmware, backend, mobile app, fiscal integration (54-ФЗ). Ориентир hardware: $6.7–15k + разработка ПО и труд.",
+          "status": "partial",
+          "source": "docs/MVP_SCOPE_v1_RU.md, docs/MVP_TZ_HARDWARE_v1.md §7.2"
+        },
+        {
+          "id": "8.4",
+          "question": "Пилоты (25%) — сколько точек?",
+          "answer": "3–5 пилотных локаций (из investor deck / milestones 2027 Q2).",
+          "status": "draft",
+          "source": "data/investor-metrics.json milestones"
+        },
+        {
+          "id": "8.5",
+          "question": "Contingency / резерв?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        }
+      ]
     },
     {
       "id": 9,
       "title": "Финансовый прогноз 3 года",
-      "status": "pending",
-      "questions": []
+      "status": "in_progress",
+      "summary": "Roadmap по годам есть качественно; выручка/EBITDA — не заполнены.",
+      "questions": [
+        {
+          "id": "9.1",
+          "question": "Сценарий: base / upside / downside?",
+          "answer": "Пока один base-сценарий в JSON (пустой). Multi-scenario — не подготовлен.",
+          "status": "draft",
+          "source": "data/investor-metrics.json forecast"
+        },
+        {
+          "id": "9.2",
+          "question": "Год 1: локации, выручка, EBITDA?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "9.3",
+          "question": "Год 2?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "9.4",
+          "question": "Год 3?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "9.5",
+          "question": "Следующий раунд — когда и под какие KPI?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "9.6",
+          "question": "Качественный timeline?",
+          "answer": "2026 Q3–Q4: патенты + MVP · 2027 Q1: 1-я пилотная локация · 2027 Q2: 3–5 пилотов · 2027 H2: серия и масштаб.",
+          "status": "confirmed",
+          "source": "data/investor-metrics.json milestones"
+        }
+      ]
     },
     {
       "id": 10,
       "title": "Вехи и KPI",
-      "status": "pending",
-      "questions": []
+      "status": "in_progress",
+      "summary": "Вехи по кварталам есть; KPI в deck — null. MVP DoD даёт измеримые метрики для 2026 Q4.",
+      "questions": [
+        {
+          "id": "10.1",
+          "question": "2026 Q3 — патенты: KPI?",
+          "answer": null,
+          "status": "unknown",
+          "source": "data/investor-metrics.json milestones[0].kpi null"
+        },
+        {
+          "id": "10.2",
+          "question": "2026 Q4 — MVP: KPI?",
+          "answer": "Draft KPI из MVP DoD: 3 модуля · ≥100 транзакций · ≥99% точность · ≤120 сек покупка · demo video · 54-ФЗ чеки.",
+          "status": "draft",
+          "source": "docs/MVP_SCOPE_v1_RU.md §3"
+        },
+        {
+          "id": "10.3",
+          "question": "2027 Q1 — первая точка: KPI?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "10.4",
+          "question": "2027 Q2 — 3–5 пилотов: KPI?",
+          "answer": "Качественно: валидация unit-экономики. Числа — после пилота.",
+          "status": "partial",
+          "source": "docs/MVP_SCOPE_v1_RU.md C-23, milestones"
+        },
+        {
+          "id": "10.5",
+          "question": "2027 H2 — серия: KPI?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "10.6",
+          "question": "North Star Metric на 12 мес.?",
+          "answer": null,
+          "status": "unknown",
+          "source": null
+        },
+        {
+          "id": "10.7",
+          "question": "MVP timeline (фазы F0–F5)?",
+          "answer": "F0 2 нед · F1 4–6 нед · F2 8–12 нед · F3 8–16 нед · F4 4–8 нед · F5 2–4 нед. Итого ~6–9 мес.",
+          "status": "confirmed",
+          "source": "docs/MVP_SCOPE_v1_RU.md §9"
+        }
+      ]
     }
-  ]
+  ],
+  "nextActions": {
+    "priority": "block_1_numeric",
+    "items": [
+      "Заполнить 1.2–1.9: сумма раунда, valuation, runway, форма сделки",
+      "Заполнить 2.1–2.3: юрлицо, cap table, команда",
+      "Заполнить 4.2, 4.4, 4.6: TAM/SAM/SOM в USD",
+      "Заполнить 6.3–6.8: unit-экономика полной точки",
+      "Заполнить 9.2–9.4: прогноз 3 года",
+      "Подтвердить KPI 10.1, 10.3, 10.5, 10.6"
+    ],
+    "suggestedBlockOrder": [1, 4, 6, 8, 9, 2, 3, 5, 10, 7]
+  }
 }
