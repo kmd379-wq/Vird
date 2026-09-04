@@ -1,0 +1,61 @@
+================================================================================
+ОТПРАВКА PPA №3 — Ali (Shalchi Law)
+================================================================================
+
+Кому (To):     as@shalchilaw.com
+Тема (Subject): Micro Shop — PPA #3 — Complete Material Package — Modular Smart Vending Cabinet
+
+--------------------------------------------------------------------------------
+ТЕКСТ ПИСЬМА (скопируйте ниже в тело email)
+--------------------------------------------------------------------------------
+
+Dear Ali,
+
+Please find attached the complete material package for PPA #3 — Modular Smart Vending Cabinet. This is the first application in our Modular Cabinet Platform series (PPA #3–#7). We will send PPA #4, #5, #6, and #7 separately after you confirm receipt and begin work on this application.
+
+Included per your six requirements:
+1. Sketches/drawings — PPA#3 FIGURES.pdf + PPA3_ARCH_RU.svg + Section 1 in attached memo
+2. Component connection diagram — Section 2 + architecture SVG
+3. Process flowchart — Section 3
+4. Component descriptions — Section 4
+5. Two use examples — Section 5
+6. Prior-art distinctions — Section 6
+
+Also attached:
+- English specification and claims (PPA#3-ModularSmartVendingCabinet_Revised.pdf)
+- USPTO filing receipt (APP.FILE.REC)
+- Explanatory memo (SUBMISSION_EN.md and SUBMISSION_RU.md)
+
+We understand: one application at a time; at least 2 weeks preparation after complete materials; additional fees if we change content during preparation.
+
+Please confirm receipt. We will wait for your confirmation before sending PPA #4.
+
+Best regards,
+[Your name]
+Micro Shop
+[Your email / phone]
+
+--------------------------------------------------------------------------------
+ВЛОЖЕНИЯ (прикрепить к письму)
+--------------------------------------------------------------------------------
+
+ВАРИАНТ А — один файл (проще):
+  C:\Users\kmd37\Projects\vird\docs\ali_submission\send\MicroShop_PPA3_Ali_CompletePackage.zip
+
+ВАРИАНТ Б — все файлы по отдельности из ZIP или папки:
+  C:\Users\kmd37\Projects\vird\docs\ali_submission\send\PPA3_ZIP\
+
+--------------------------------------------------------------------------------
+КАК ОТПРАВИТЬ (Outlook / Gmail / другое)
+--------------------------------------------------------------------------------
+
+1. Откройте почту (Outlook, Gmail в браузере, mail.ru и т.д.)
+2. Новое письмо
+3. Кому: as@shalchilaw.com
+4. Тема: скопируйте из строки Subject выше
+5. Тело: скопируйте текст письма выше (замените [Your name] и контакты)
+6. Прикрепить файл → выберите MicroShop_PPA3_Ali_CompletePackage.zip
+7. Проверьте вложение (~2.9 MB) → Отправить
+8. Дождитесь ответа Ali — не отправляйте PPA №4 до подтверждения
+
+--------------------------------------------------------------------------------
