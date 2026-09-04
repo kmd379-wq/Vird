@@ -1,0 +1,27 @@
+Subject: Micro Shop — PPA #3 — Complete Material Package — Modular Smart Vending Cabinet
+
+Dear Ali,
+
+Please find attached the complete material package for PPA #3 — Modular Smart Vending Cabinet. This is the first application in our Modular Cabinet Platform series (PPA #3–#7). We will send PPA #4, #5, #6, and #7 separately after you confirm receipt and begin work on this application.
+
+Included per your six requirements:
+1. Sketches/drawings — PPA#3 FIGURES.pdf + PPA3_ARCH_RU.svg + Section 1 in attached memo
+2. Component connection diagram — Section 2 + architecture SVG
+3. Process flowchart — Section 3
+4. Component descriptions — Section 4
+5. Two use examples — Section 5
+6. Prior-art distinctions — Section 6
+
+Also attached:
+- English specification and claims (PPA#3-ModularSmartVendingCabinet_Revised.pdf)
+- USPTO filing receipt (APP.FILE.REC)
+- Explanatory memo (SUBMISSION_EN.pdf and/or SUBMISSION_RU.pdf)
+
+We understand: one application at a time; at least 2 weeks preparation after complete materials; additional fees if we change content during preparation.
+
+Please confirm receipt. We will wait for your confirmation before sending PPA #4.
+
+Best regards,
+[Your name]
+Micro Shop
+[Email / phone]
