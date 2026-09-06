@@ -11,24 +11,95 @@ Autonomous modular cabinet on a unified chassis with vertical power/data bus and
 
 ## §1. Sketches and Drawings (FIG. 1–4)
 
-**Attachments:** `PPA#3 FIGURES.pdf` (official patent line art) · `PPA3_ARCH_RU.svg` (architecture block diagram)
+**Attachments:** `PPA#3 FIGURES.pdf` (filed USPTO line art, FIG. 1–4) · `PPA3_ARCH_EN.svg` (supplemental platform architecture)
 
-**FIG. 1 — Front view:** Display (110), biometric camera “Eye” (105), payment interface, interchangeable modules A–D (pusher, hook, scale, gate), front-edge antenna matrix + LED smart edge, smart waste basket.
+> **Scope note:** Filed FIG. 1–4 emphasize front-zone hardware, offline edge architecture, dual-loop pricing/transaction control, and the induction workflow. Interchangeable dispensing modules A–G, smart glass (PDLC), smart waste basket, vertical power bus, and sensor-overlap geometry are disclosed in the specification and illustrated in **`PPA3_ARCH_EN.svg`** (new supplemental figure for NPPA #1).
 
-**FIG. 2 — Side view:** Peripheral controller (400), pricing engine, sensor fusion, local cache, UPS, vertical power bus, LTE/Wi-Fi.
+### FIG. 1 — Autonomous Retail Cabinet Front View and Front-Zone Antenna
 
-**FIG. 3 — Sensor geometry:** Front antenna array, camera field of view, overlap zone for fusion. Hand in view without RFID pick event → alarm / deposit hold.
+**Caption (filed):** *Camera and front-zone antenna support sensor-fusion anti-theft monitoring.*
 
-**FIG. 4 — Stock induction (FIFO):** Scan SKU → program RFID → enter expiry → rear-load FIFO → front-edge read at sale.
+| Element shown | Description |
+|---------------|-------------|
+| 105 Biometric / age-verification camera | Top center; downward field of view into cabinet interior |
+| 110 User-facing display | Terms, prices, cart / session UI on right panel |
+| Payment interface | Contactless (NFC), card slot, payment network logos |
+| Smart shelves | Multi-level shelving stocked with retail products |
+| 120 Front-zone antenna region | Linear **RFID antenna array along shelf front edge** |
+| Sensor-fusion (caption) | Camera + front-zone RFID jointly support anti-theft monitoring |
 
-| Ref | Component | Function |
-|-----|-----------|----------|
-| 100 | Enclosure / door | Protected volume, access control |
-| 105 | Biometric camera | Age verification before restricted access |
-| 110 | Display / UI | Terms, prices, consent, digital sommelier |
-| 120 | Front registration zone | Linear RFID matrix along shelf front edge |
-| 400 | Edge controller | Pricing, fusion, offline cache, transactions |
-| 500 | Dispensing modules A–G | Pusher, hook, scale, gate, tray, disposal |
+**Not shown in filed FIG. 1** (specification + `PPA3_ARCH_EN.svg`): interchangeable modules A–G (pusher, hook, scale zone, gravity gate, sliding tray, auto-disposal), PDLC smart-glass compartment, smart waste basket, LED smart edge.
+
+### FIG. 2 — Side Section Showing Electronics Bay and Offline Architecture
+
+**Caption (filed):** *Side section — electronics bay and offline-capable edge architecture.*
+
+| Element shown | Description |
+|---------------|-------------|
+| Main storage volume | Upper cabinet interior (dashed shelf lines) |
+| Electronics bay | Lower compartment housing edge processing |
+| 400 Edge controller | Main processing unit; hub for all local subsystems |
+| Local database / cache | Product catalog, session state, pricing rules cache |
+| Local transaction buffer | Offline storage when network / cloud unavailable |
+| Communication modules | LTE / Wi-Fi / Ethernet uplink |
+| Door control | Door lock and actuators |
+| Item counting | Shelf sensors / item counters |
+| Cabinet sensors | Environment, temperature, tamper, etc. |
+| External network / cloud AI | Dashed path; **“Operation continues when unavailable”** |
+
+**Not shown in filed FIG. 2** (specification + architecture SVG): vertical power bus, UPS, explicit pricing-engine block, physical module-to-bus wiring.
+
+### FIG. 3 — Dual-Loop Control: Background Shrinkage Monitoring and Transaction Processing
+
+**Caption (filed):** *Dual-loop control — continuous background monitoring and item-removal transaction processing.*
+
+**Left column — continuous background monitoring (loop):**
+
+1. Read bin weight **W(t)**
+2. Compute shrinkage **ΔW%** vs. initial weight **W₀**
+3. Classify gradual evaporation-driven shrinkage (e.g., produce moisture loss)
+4. Update freshness index **FI**
+5. Update current dynamic unit price **P(t)** → loop back to step 1
+
+**Right column — transaction loop (item removal events):**
+
+1. Detect sudden weight drop
+2. Correlate with vision audit (camera evidence)
+3. Confirm item removal event
+4. Compute charge = exact removed weight × current unit price **P(t)**
+5. Log transaction (per-user session)
+6. Provide data for exit security verification (compare exit weight vs. charged weight)
+
+**Cross-loop data (dashed):** updated **FI** and **P(t)** feed the transaction loop (vision correlation and charge computation).
+
+**Relationship to other figures:** FIG. 3 covers **quality-based dynamic pricing** and **weight + vision fusion at transaction time**. Front-zone RFID anti-theft geometry is shown in FIG. 1 and FIG. 4; full modular dispensing layout is in `PPA3_ARCH_EN.svg`.
+
+### FIG. 4 — Induction and Stocking Workflow Linked to Front-Zone Hardware
+
+**Caption (filed):** *Induction and stocking workflow linked to front-zone hardware.*
+
+| Step | Action |
+|------|--------|
+| 1 | **Induction station / handheld scanner** — staff-facing mobile terminal |
+| 2 | Parallel capture: scan product **barcode** · scan/program **RFID tag** · input **expiration date** |
+| 3 | **Associate SKU + expiration data with unique RFID identifier** (database record) |
+| 4 | **Stock items on smart shelves** |
+| 5 | **Front-zone antenna array + camera** — hardware that monitors the stocked shelf edge |
+| 6 | **Monitoring during user sessions:** detect removals via RFID · verify hand movements via camera · **sensor-fusion for anti-theft** |
+
+**Specification detail not drawn on FIG. 4:** rear **FIFO** loading into specific dispensing modules (A–G); front-edge read at sale (FIG. 1 / FIG. 4 together imply this sequence).
+
+### Reference numerals (specification ↔ figures)
+
+| Ref | Component | In filed FIG. 1–4? |
+|-----|-----------|-------------------|
+| 100 | Enclosure / door | FIG. 1 (implied) |
+| 105 | Biometric camera | FIG. 1 |
+| 110 | Display / UI | FIG. 1 |
+| 120 | Front registration zone (RFID matrix) | FIG. 1, FIG. 4 |
+| 130 | Load cells / scale structures | FIG. 3 (weight loops); architecture SVG |
+| 400 | Edge controller | FIG. 2 |
+| 500 | Dispensing modules A–G | Architecture SVG + specification only |
 
 ---
 

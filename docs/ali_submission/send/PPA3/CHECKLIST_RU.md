@@ -21,7 +21,7 @@
 | [ ] | `PPA#3-ModularSmartVendingCabinet_Revised.pdf` | Папка Start-up … PPA#3,#4,#5,#6 |
 | [ ] | `PPA#3 FIGURES.pdf` | Там же |
 | [ ] | `PPA#3 … APP.FILE.REC.PDF` | Там же |
-| [ ] | `PPA3_ARCH_RU.svg` | `vird/assets/figures/ppa3456/` |
+| [ ] | `PPA3_ARCH_EN.svg` | `vird/assets/figures/ppa3456/` |
 | [ ] | `SUBMISSION_EN.pdf` | Экспорт из `SUBMISSION_EN.md` (эта папка) |
 | [ ] | `SUBMISSION_RU.pdf` | Экспорт из `SUBMISSION_RU.md` (опционально) |
 

@@ -134,7 +134,12 @@ Ali
 
 ---
 
-## Черновик ответа Ali (EN) — можно отправить
+## Черновик ответа Ali (EN) — готов к отправке
+
+**Файл:** [`ALI_REPLY_DRAFT_EN.md`](ALI_REPLY_DRAFT_EN.md) — обновлённый черновик (2026-09-06), с учётом исправленного §1 и `PPA3_ARCH_EN.svg`.
+
+<details>
+<summary>Предыдущий черновик (архив)</summary>
 
 ```
 Subject: Re: NPPA #1 — simplified materials (PPAs #3–7 combined)
@@ -167,6 +172,8 @@ Best regards,
 Mikhail
 Micro Shop
 ```
+
+</details>
 
 ---
 
