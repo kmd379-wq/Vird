@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
+<rect width="900" height="720" fill="#ffffff"/>
+<text x="48" y="40" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111111">PPA #7 - Ecosystem: Hermetic Heat / -dP / Freezer / 45 deg Bunker / Sum Gate</text>
+<text x="48" y="58" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555555">Same title as PPA #6 / different claims 1-5 / Space-Yield / instant split / open retail</text>
+<rect x="280" y="72" width="340" height="88" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
+<text x="450" y="96" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f4d4d">EDGE + TRANSACTION MODULE</text>
+<text x="450" y="116" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Auth / offline / split / Space-Yield AI</text>
+<text x="450" y="132" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">Master-slave / multi-tenant</text>
+<line x1="450" y1="160" x2="450" y2="178" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,184 446,176 454,176" fill="#222222"/>
+<rect x="48" y="188" width="200" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="148" y="212" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">110 Induction chamber</text>
+<text x="148" y="228" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">hermetic + susceptor</text>
+<rect x="268" y="188" width="200" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="368" y="212" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">120 Ventilation -dP</text>
+<text x="368" y="228" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">steam/odor away from cold</text>
+<rect x="488" y="188" width="200" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="588" y="212" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">140 Bunker 45 deg</text>
+<text x="588" y="228" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">1 central load cell</text>
+<rect x="708" y="188" width="144" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="780" y="212" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">PDLC smart glass</text>
+<text x="780" y="228" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">age-gated</text>
+<rect x="120" y="264" width="660" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="284" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">RFID/NFC / antenna grid / cameras / leveling</text>
+<text x="450" y="300" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">transformer-base chassis / vertical power bus</text>
+<line x1="450" y1="312" x2="450" y2="332" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,338 446,330 454,330" fill="#222222"/>
+<rect x="200" y="344" width="500" height="44" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="450" y="364" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#0f4d4d">150 AGGREGATE WEIGHT GATE (exit)</text>
+<text x="450" y="380" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">sum session picks = barrier opens within tolerance</text>
+<line x1="450" y1="388" x2="450" y2="408" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,414 446,406 454,406" fill="#222222"/>
+<rect x="48" y="420" width="250" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="173" y="444" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">130 Freezer waste</text>
+<text x="173" y="460" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">below -2 C / timeout / penalty</text>
+<rect x="325" y="420" width="250" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="444" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">170 Smart water cooler</text>
+<text x="450" y="460" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">350 ml per SKU sync</text>
+<rect x="602" y="420" width="250" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="727" y="444" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Utensil dispenser</text>
+<text x="727" y="460" font-family="Arial, Helvetica, sans-serif" font-size="7" text-anchor="middle" fill="#555555">fork/spoon/chopsticks</text>
+<rect x="120" y="496" width="660" height="40" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="520" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="#111111">160 Space-Yield Engine / shrinkage compensation / instant split smart contract</text>
+<text x="48" y="560" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">Filed FIG. 1-4 same as PPA #6; supplemental content in claims 1-5 and this diagram.</text>
+<text x="48" y="708" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">PPA #7</text>
+</svg>

@@ -1,0 +1,38 @@
+Subject: NPPA #1 — Modular Cabinet Platform (PPAs #3–#7) — new supplemental materials
+
+Hi Ali,
+
+Please find attached our **new supplemental package** for **NPPA #1 — Modular Cabinet Platform**, combining filed provisional applications **PPA #3, #4, #5, #6, and #7**.
+
+We confirm we are **not** resubmitting filed specifications, USPTO FIGURES, or filing receipts. This delivery contains **English-only new information** as you requested:
+
+| # | File | Content |
+|---|------|---------|
+| 1 | `NPPA1_Modular_Cabinet_Platform_EN.md` (or PDF export) | Consolidated written descriptions for all five PPAs: filed-figure notes, connection diagrams, process flows, component descriptions, use examples, prior-art distinctions, and **PPA #6 vs #7 delta table** |
+| 2 | `NPPA1_Architecture_Figures/` (5 SVG files) | New supplemental architecture diagrams — `PPA3_ARCH_EN.svg` … `PPA7_ARCH_EN.svg` |
+
+**Scope reminder:** PPA #7 shares the **same filed FIG. 1–4 as PPA #6** but has **different claims (1–5)** and specification emphasis. The delta is documented in Section 0.2 of the memo and in `PPA7_ARCH_EN.svg`.
+
+**Platform summary (one sentence):** A reconfigurable autonomous retail cabinet ecosystem — modular dispensing hardware, sensor-fusion retrieval, tokenized/biometric access, offline edge processing, multi-tenant split payments, motorized leveling, dual-zone climate with induction/fluid processing, and ecosystem extensions (exit weight gate, smart cooler sync, open-retail ESL).
+
+Before we finalize the $6,400 retainer payment, could you please confirm:
+1. This package is sufficient for your draftsman to scope NPPA #1, or whether you need additional figure sheets;
+2. Preferred claim-election strategy if the examiner issues a restriction requirement across hardware sub-families (chassis/sensors vs. thermal/fluid vs. transaction layer);
+3. Whether you prefer these five SVGs as separate figures or embedded in one PDF.
+
+We remain available for a short call if helpful.
+
+Best regards,
+Mikhail
+Micro Shop
+
+---
+Attachments checklist:
+  [ ] NPPA1_Modular_Cabinet_Platform_EN.pdf  (export from .md)
+  [ ] PPA3_ARCH_EN.svg
+  [ ] PPA4_ARCH_EN.svg
+  [ ] PPA5_ARCH_EN.svg
+  [ ] PPA6_ARCH_EN.svg
+  [ ] PPA7_ARCH_EN.svg
+
+Do NOT attach: filed specification PDFs, PPA#N FIGURES.pdf, APP.FILE.REC, Russian memos.

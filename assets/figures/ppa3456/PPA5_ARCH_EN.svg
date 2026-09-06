@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
+<rect width="900" height="720" fill="#ffffff"/>
+<text x="48" y="40" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111111">PPA #5 - Leveling / VTL / ESL-FIFO</text>
+<text x="48" y="58" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555555">Motorized feet / visual tracking layer / cloud biometrics</text>
+<rect x="350" y="72" width="200" height="40" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="96" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">601 INCLINOMETER</text>
+<line x1="450" y1="112" x2="450" y2="132" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,138 446,130 454,130" fill="#222222"/>
+<rect x="120" y="144" width="660" height="64" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
+<text x="450" y="164" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f4d4d">CABINET CONTROLLER</text>
+<text x="450" y="184" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">Tilt &gt; 0.5 deg - actuators - BLOCK transaction</text>
+<rect x="180" y="224" width="200" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="280" y="252" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">602 Leveling feet</text>
+<rect x="520" y="224" width="200" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="620" y="252" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">VTL cameras</text>
+<line x1="450" y1="208" x2="450" y2="288" stroke="#222222" stroke-width="1.2"/>
+<rect x="80" y="296" width="280" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="220" y="320" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">High-value zone</text>
+<text x="220" y="336" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">load cell + RFID</text>
+<rect x="540" y="296" width="280" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="680" y="320" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Standard zone</text>
+<text x="680" y="336" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">beam break + ratchet</text>
+<line x1="360" y1="324" x2="532" y2="324" stroke="#222222" stroke-width="1.2"/>
+<text x="446" y="316" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#0f4d4d">fusion</text>
+<rect x="300" y="368" width="300" height="40" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="450" y="392" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">VTL + PHYSICAL LAYER FUSION</text>
+<rect x="80" y="424" width="200" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="180" y="452" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">603 ESL / LCD FIFO</text>
+<rect x="320" y="424" width="260" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="452" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Smart bin / Gravity tray</text>
+<rect x="280" y="496" width="340" height="48" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="450" y="524" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">Cloud biometric vault</text>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">Supplemental figure - auto-leveling, dual-layer fusion, ESL with FIFO queue.</text>
+<text x="48" y="708" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">PPA #5</text>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
+<rect width="900" height="720" fill="#ffffff"/>
+<text x="48" y="40" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111111">PPA #4 - Token / Split Payments / Multi-Tenant</text>
+<text x="48" y="58" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555555">QR session / consent before unlock / master-slave / offline ledger</text>
+<rect x="48" y="80" width="160" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="128" y="108" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Mobile app</text>
+<line x1="208" y1="104" x2="280" y2="104" stroke="#222222" stroke-width="1.2"/>
+<polygon points="286,104 278,100 278,108" fill="#222222"/>
+<rect x="292" y="80" width="120" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="352" y="108" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">QR scanner</text>
+<rect x="280" y="160" width="540" height="100" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
+<text x="550" y="182" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f4d4d">CONTROLLER + TRANSACTION MODULE</text>
+<text x="550" y="204" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Pre-auth / consent / virtual basket / split settlement</text>
+<text x="550" y="220" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">Offline ledger / instant or aggregated capture</text>
+<line x1="550" y1="260" x2="550" y2="280" stroke="#222222" stroke-width="1.2"/>
+<polygon points="550,286 546,278 554,278" fill="#222222"/>
+<rect x="120" y="296" width="660" height="36" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="318" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Position-adjustable interface - bus / cable tray / harness</text>
+<line x1="450" y1="332" x2="450" y2="352" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,358 446,350 454,350" fill="#222222"/>
+<rect x="48" y="364" width="804" height="64" fill="none" stroke="#222222" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="58" y="384" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#111111">500 MODULES + internal sensors (RFID / load cell / camera)</text>
+<line x1="450" y1="428" x2="450" y2="448" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,454 446,446 454,446" fill="#222222"/>
+<rect x="80" y="464" width="200" height="56" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="180" y="496" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">MASTER</text>
+<rect x="350" y="464" width="160" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="430" y="496" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">SLAVE 1</text>
+<rect x="540" y="464" width="160" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="620" y="496" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">SLAVE N</text>
+<line x1="280" y1="492" x2="342" y2="492" stroke="#222222" stroke-width="1.2"/>
+<polygon points="348,492 340,488 340,496" fill="#222222"/>
+<line x1="510" y1="492" x2="532" y2="492" stroke="#222222" stroke-width="1.2"/>
+<polygon points="538,492 530,488 530,496" fill="#222222"/>
+<rect x="720" y="464" width="160" height="56" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="800" y="488" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Server</text>
+<text x="800" y="504" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">manifest / multi-tenant</text>
+<line x1="700" y1="492" x2="714" y2="492" stroke="#222222" stroke-width="1.2"/>
+<polygon points="720,492 712,488 712,496" fill="#222222"/>
+<rect x="200" y="544" width="500" height="36" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="566" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="#111111">Split: operator + supplier A + supplier B (one receipt)</text>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">Supplemental figure - PPA #4 tokenized access and split settlement architecture.</text>
+<text x="48" y="708" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">PPA #4</text>
+</svg>
