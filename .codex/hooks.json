@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File 'c:\\Users\\kmd37\\Projects\\vird\\.codex\\hooks\\auto-sync-github.ps1'"
+          }
+        ]
+      }
+    ]
+  }
+}
