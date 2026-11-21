@@ -1,0 +1,738 @@
+
+--Please reply above this line--
+
+
+
+
+
+
+
+
+Dear Mr. Kozin,
+
+
+I confirm receipt of all five parts of the review package and of the two files you sent today (Mr. Shalchi's NPPA #1 draft specification, last saved October 15, 2026, and its 22 sheets of
+ draft figures). I have reviewed the package against the USPTO filing receipts and Patent Center indexes. This is my no-charge assessment; it is not an engagement, and no billable work has started. The full proposal, with the verification table, schedule and
+ missing-document list, is attached; my answers below follow your numbering.
+
+
+1. Scope. Yes: I can prepare and file NPPA #1 (PPAs #3–7) and NPPA #2 (PPAs #1, 2, 8, 9), and handle the assignment and USPTO recordation. For the PCT applications I can prepare and
+ coordinate the complete filings and act as your address for correspondence, but not as the appointed agent (see 3). Russian services are excluded.
+
+
+2. Team. I will personally perform all drafting, the priority-support review and the final review of the specifications, claims and filing papers. Michael L. Bartholomew, Bartholomew
+ Law PC, Highland, Utah; registered U.S. patent attorney, USPTO Reg. No. 60,225.
+
+
+3. PCT representation. I cannot lawfully be the agent of record in the international phase, whether or not the PBK-to-Kozin transfer is completed. The USPTO is a competent receiving
+ Office only if an applicant is a U.S. national or resident, and before RO/IB an agent must be entitled to practice before the national Office of a state of which the applicant is a national or resident — Russia or the UAE (PCT Rule 83.1bis). What I propose
+ instead:
+
+
+
+Applicant: you personally, as inventor and applicant, for both PCTs and both NPPAs.
+
+Receiving Office: RO/IB. The UAE Office does not act as a receiving Office. RO/RU and the Eurasian Office are open to you as a Russian national but add Russian-language formalities and payment complications for a U.S. office.
+
+Searching Authority: ISA/EP (recommended) or ISA/AU (about 70% of the cost). ISA/US is not available to you.
+
+Filing: I prepare everything in ePCT; you sign and submit as applicant (no agent is required by RO/IB), with my office as address for correspondence under Rule 4.4(d). If you prefer, a Rospatent- or UAE-registered agent can be appointed for the formalities;
+ I expect USD 1,000–2,000 per application and will not share any material with a candidate until you approve the person and fee in writing.
+
+
+4. Priority, ownership and deadlines. Verified against the filing receipts. All ten provisionals name you as sole inventor and PBK as applicant, micro entity. The controlling dates
+ are Friday, December 11, 2026 (group #2) and Wednesday, December 23, 2026 (group #1), for both the NPPAs and the PCTs; your working dates are correct. Three findings matter for scope:
+
+
+
+PPA #9 was filed with no drawings; its text describes FIG. 1–8, all of which must be drawn new for NPPA #2.
+
+PPAs #1 and #3–7 all carry the same four hand-drawn sketch pages, so the features specific to PPAs #3–7 are supported by text only. Mr. Shalchi's 22 formal sheets now cover them, but figure content gets no earlier date than the provisional text supports.
+
+The records contain no inventor-to-PBK document. That does not block the NPPAs (benefit claims rest on the common inventor), but for the PCTs the PBK-to-Kozin assignment, which includes the right of priority, must be fully signed before the PCT filing date
+ and, in any case, before PBK's trade license expires on December 10, 2026. The 51-page Zoho-signed Memorandum is the operative version; the draft resolution and assignment are sound, with a few edits described in the attachment. Priority-support review is
+ included in each application's fee; the ownership/assignment work is item A below.
+
+
+5. Schedule. Engagement and first deposit by October 30. Group #2: first draft November 13, your comments November 20, revised draft November 27, approval December 2,
+file NPPA #2 and PCT #2 on December 3 (8 days before the deadline). Group #1: reviewed draft November 17, comments November 25, revised draft December 2, approval December 7,
+file NPPA #1 and PCT #1 on December 10 (13 days before the deadline). Late comments move the filing date day for day; the statutory dates do not move.
+
+
+6. Existing work. Yes. Mr. Shalchi's NPPA #1 draft is substantially complete and professionally prepared (about 12,700 words, 20 claims, FIG. 1–22), and I will finish it rather than
+ replace it. Because it is dated after the provisionals, every passage and figure will be checked against the as-filed provisional text, and anything beyond that text will carry the nonprovisional filing date only. Please confirm in writing that Mr. Shalchi
+ delivered the draft to you for your use. NPPA #2 will be drafted from PPAs #1, 2, 8 and 9; no draft exists and the PPA #9 figures must be created. Two revision rounds per application are included; a third is USD 750 per round.
+
+
+7. Confidentiality. Yes. A revised NDA is attached, naming you individually and PBK as the two Disclosers with separate signature blocks, limiting disclosure to outside associates
+ to those you approve in writing, and changing governing law from California to Utah. I have treated the package as confidential since receipt and will sign on receipt of your countersignature or comments.
+
+
+8. Insurance and references. Professional liability coverage is in place; details and one or two references can be provided separately, subject to client consent.
+
+
+9. Fees (USD). Fixed per item; together a cap. Official fees at current published rates, passed through at cost (CHF converted at an assumed 1.25).
+
+
+
+
+
+ | 
+
+Item
+
+
+ | 
+
+Attorney fee
+
+
+ | 
+
+Official fees
+
+
+ | 
+
+Drawings / associates
+
+
+
+
+
+
+ | 
+
+A. Assignment finalization and USPTO recordation (ten applications)
+
+
+ | 
+
+750
+
+
+ | 
+
+0 (electronic)
+
+
+ | 
+
+—
+
+
+
+
+
+
+ | 
+
+B. NPPA #1 — review and completion of the Shalchi draft, filing
+
+
+ | 
+
+4,500
+
+
+ | 
+
+400 micro / 800 small
+
+
+ | 
+
+corrections contingency 300
+
+
+
+
+
+
+ | 
+
+C. NPPA #2 — full drafting, PPA #9 figures, filing
+
+
+ | 
+
+7,000
+
+
+ | 
+
+400 micro / 800 small
+
+
+ | 
+
+approx. 20 figures: 1,800
+
+
+
+
+
+
+ | 
+
+D. PCT #1 (option) — preparation and coordination
+
+
+ | 
+
+1,500
+
+
+ | 
+
+approx. CHF 3,314 ≈ USD 4,150 with ISA/EP (CHF 2,819 ≈ USD 3,525 with ISA/AU)
+
+
+ | 
+
+agent only if appointed: 1,000–2,000
+
+
+
+
+
+
+ | 
+
+E. PCT #2 (option) — same
+
+
+ | 
+
+1,500
+
+
+ | 
+
+same
+
+
+ | 
+
+same
+
+
+
+
+
+
+ | 
+
+Cap
+
+
+ | 
+
+12,250 (A–C); 15,250 with both PCTs
+
+
+ | 
+ | 
+
+
+
+
+
+Deposit at engagement: item A in full, 50% of items B–E, both USPTO filing fees and the drawing deposit, to my trust account. Balances are due before each filing. Excluded: Russian translation
+ of drafts (available through a vendor at cost), prior-art searching, office-action responses, additional ISA search fees for lack of unity, Chapter II, national-phase entries (due about June 2028), Russian filings, any inventor-to-PBK conveyance, micro-entity
+ corrections on the provisionals, courier and bank charges, and PPA #10. UpCounsel platform charges, if the engagement runs through the platform, are additional; no sales tax applies.
+
+
+10. Next steps. This proposal becomes final at these fees within three business days of receiving the starred items in the attached missing-document list (power of attorney for Patent
+ Center access, confirmation that no inventor-to-PBK document exists, PBK's license status, and the Shalchi delivery confirmation) — by October 29 if they arrive by October 27. To proceed: reply with your decisions on the ISA, on self-filing versus an outside
+ agent, and on whether to include the PCT options; sign and return the NDA; I will then send the engagement letter, trust-deposit instructions and the USPTO power of attorney for PBK's signature. Nothing will be filed or recorded until the engagement letter
+ is signed and the first deposit is received. All correspondence will be in writing and in English.
+
+
+Kind regards,
+
+
+Michael L. Bartholomew
+
+Bartholomew Law PC
+
+Registered U.S. Patent Attorney, USPTO Reg. No. 60,225
+
+Highland, UT 84003 · Office 385.230.5310
+
+
+
+
+
+
+From: Mikhail Kozin <6ada443fc4e2f1872a0818e9-6ad759897344950001c8d952@msgs.upcounsel.com>
+
+Sent: Thursday, 22 October 2026 11:13:39
+
+To: Michael Bartholomew <michael@thebartlaw.com>
+
+Subject: Re: US NPPA #1 and #2; separate PCT option
+
+
+ 
+
+
+
+
+--Please reply above this line--
+
+
+
+
+
+
+Good evening. We apologize. We are sending two files. This is the pending patent application for NPPA#1, which includes five provisional applications PPA#3, 4, 5, 6, and 7. Sincerely, M. Kozin.
+
+
+
+
+
+
+
+
+
+
+чт, 22 окт. 2026 г., 03:03 UpCounsel <6ad944c6e7a3b3b9baaff3bc-6ad759897344950001c8d952@msgs.upcounsel.com>:
+
+
+
+--Please reply above this line--
+
+
+
+
+
+
+
+Dear Mr. Kozin,
+
+
+
+Thank you for the detailed clarification. I would be pleased to assist with the U.S. patent applications and assignment matters. My preliminary responses follow your numbering.
+
+
+
+1. Scope
+
+
+
+Yes. I can prepare and file both U.S. nonprovisional patent applications, review the proposed grouping of the provisional applications, and handle the assignment and USPTO recordation.
+
+
+
+I can also assist with preparation and coordination of corresponding PCT applications, subject to confirming the appropriate receiving Office, representation requirements, and applicant eligibility. Russian patent prosecution and related fees would be excluded.
+
+
+
+2. Team
+
+
+
+I would personally serve as the primary attorney and perform the final substantive review of the specifications, claims, priority claims, and filing documents.
+
+
+
+I am a U.S. patent attorney registered with the USPTO, Registration No. 60,225, and have nearly 20 years of patent prosecution experience.
+
+
+
+3. PCT Representation
+
+
+
+Because you are a Russian citizen residing in the UAE, the appropriate receiving Office and authorized representative must be confirmed before proceeding.
+
+
+
+Filing through the International Bureau of WIPO (RO/IB) may be available. However, my U.S. patent registration alone does not necessarily authorize me to act as the formal representative before RO/IB for an applicant whose relevant nationality and residence
+ are outside the United States.
+
+
+
+I can prepare and coordinate the technical and application materials and, if necessary, work with an appropriately authorized PCT representative. Any associate's role and fee would be identified and approved before engagement. No PCT filing would be undertaken
+ without separate authorization.
+
+
+
+4. Priority
+
+
+
+Yes. I can review the official filing receipts, provisional disclosures, inventorship, ownership documents, and proposed priority claims.
+
+
+
+Based on the dates provided, December 11, 2026 appears to be the relevant 12-month anniversary for the earliest provisional in NPPA #2, and December 23, 2026 for NPPA #1. These dates remain subject to verification, including applicable deadline rules.
+
+
+
+The priority analysis must also determine which subject matter is actually supported by each provisional. Merely identifying several provisional applications in a priority claim does not establish entitlement to each filing date.
+
+
+
+The initial review would require the official filing receipts, complete provisional applications and drawings, existing NPPA #1 draft materials, inventor information, and relevant assignment and ownership records.
+
+
+
+5. Schedule
+
+
+
+I can begin promptly following agreement on the engagement terms and receipt of the necessary materials.
+
+
+
+My proposed schedule would prioritize NPPA #2 because of its earlier December 11 priority anniversary.
+
+
+
+Subject to the completeness of the materials, I would target an initial NPPA #2 draft within approximately two to three weeks of receiving the technical package, followed by client review and revisions. NPPA #1 could proceed concurrently, with an initial draft
+ or revised version targeted within approximately one to two weeks, depending on the completeness of Ali's existing work.
+
+
+
+I would plan to complete both filings ahead of their respective deadlines, allowing time for final approval and filing contingencies. These are preliminary targets, not unconditional commitments before reviewing the materials.
+
+
+
+6. Existing Work
+
+
+
+Yes. I can take over Ali's unfinished NPPA #1 work and reuse suitable specifications, claims, and drawings after reviewing their completeness, technical accuracy, and suitability for the intended claims.
+
+
+
+For NPPA #2, I would evaluate the four identified provisional applications and determine the drafting work needed for a complete nonprovisional application.
+
+
+
+My estimate would account for the amount of usable existing material, the number of distinct inventive concepts, claim complexity, and necessary drawings. The agreed fee would include a defined number of ordinary review and revision rounds. Substantial new
+ technical subject matter, major changes in filing strategy, or additional applications would require separate approval.
+
+
+
+7. Confidentiality
+
+
+
+I am willing to review and sign an appropriate mutual or one-way NDA identifying both Mikhail Kozin and PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO as disclosing parties.
+
+
+
+I would review the proposed terms before signing and identify any necessary revisions.
+
+
+
+8. Insurance and References
+
+
+
+I can provide information regarding professional liability coverage and references separately, subject to applicable confidentiality obligations and client consent.
+
+
+
+9. Fees
+
+
+
+My preliminary professional fee estimates, in U.S. dollars, are:
+
+
+
+
+
+
+US NPPA #1: $3,500–$5,000, assuming substantial usable existing draft materials.
+
+
+
+
+
+US NPPA #2: $5,000–$7,000, depending on the complexity and completeness of the four provisional disclosures.
+
+
+
+
+
+Assignment review, preparation or revision as necessary, and USPTO recordation: $500–$750.
+
+
+
+
+
+Each corresponding PCT application: $1,000–$1,500 for preparation and coordination using a substantially completed application, subject to confirming representation arrangements.
+
+
+
+
+
+The indicative combined professional budget for the two U.S. applications and assignment is approximately $9,000–$12,750.
+
+
+
+USPTO filing fees, PCT official fees, any additional professional drawings, translations, outside associates, applicable taxes, and platform charges would be separately identified. Entity status and applicable official fees would be verified before filing.
+
+
+
+I generally structure larger matters using an initial deposit and milestone payments, with the final balance due before filing. Specific amounts and milestones can be agreed after the scope review.
+
+
+
+The estimates exclude office action responses, appeals, additional patent applications, substantive foreign-law advice, Russian patent services, and any separately agreed PCT associate fees.
+
+
+
+10. Next Steps
+
+
+
+I am willing to conduct an initial, no-charge review of the technical package after execution of an acceptable NDA for the limited purpose of confirming scope, identifying missing materials, and providing a more definite fee proposal.
+
+
+
+That preliminary review would not include a comprehensive patentability opinion, formal priority opinion, or detailed ownership analysis. If a substantive preliminary review is necessary, I would first propose its scope and fee for your approval.
+
+
+
+No engagement, paid work, or filing would commence without mutually agreed engagement terms and authorization.
+
+
+
+I understand your October 22 selection schedule and would welcome the opportunity to assist with these matters.
+
+
+
+Best regards,
+
+
+
+Michael 
+
+
+
+
+
+Michael Bartholomew
+
+
+
+Bartholomew Law PC
+
+
+
+Patent Attorney
+
+
+
+Highland, UT 84003
+
+
+
+Office: 385.230.5310
+
+
+
+ 
+
+
+
+ 
+
+
+
+This e-mail message is intended only for the recipient(s) named above, and may contain privileged and/or confidential information.  Please notify us immediately if you are not an intended
+ recipient or its agent.  Be aware that any unauthorized review, dissemination, or copying of this document is prohibited.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From: Mikhail Kozin <6ad9311dc4e2f1872a080caf-6ad759897344950001c8d952@msgs.upcounsel.com>
+
+Sent: Wednesday, October 21, 2026 3:39 PM
+
+To: Michael Bartholomew <michael@thebartlaw.com>
+
+Subject: US NPPA #1 and #2; separate PCT option
+
+
+ 
+
+
+
+
+--Please reply above this line--
+
+
+
+
+
+
+
+Dear Michael Bartholomew,
+
+
+
+Thank you for considering our inquiry. We are sharing a consistent scope update to make the proposals comparable.
+
+
+
+Please assess preparation and filing in the United States of NPPA #1 (Modular Cabinet Platform, PPAs #3–7) and NPPA #2 (AI Pricing & Retail Intelligence Platform, PPAs #1, #2, #8 and #9), together with review and
+ USPTO recordation of the PBK-to-Mikhail Kozin assignment. The application grouping is subject to your professional review. Russian patent prosecution will be handled by Russian patent professionals; please exclude Russian services and fees from your proposal.
+ Separately, please indicate whether you can lawfully represent the applicant in preparing and filing the corresponding PCT applications. We will select the PCT provider separately from the Russian or US candidates after confirming eligibility and authority.
+ This is not an instruction to file. Completion of the assignment must not be assumed.
+
+
+
+Our register, subject to verification against official receipts, lists PPA #1: 63/938,244, December 11, 2025; #2: 63/945,513, December 19, 2025; #8: 64/090,283, June 14, 2026; and #9: 64/106,825, July 7, 2026. The
+ earliest filing in the NPPA #1 group is PPA #3: 63/947,909, December 23, 2025. Our working control dates are December 11, 2026 for group #2 and December 23, 2026 for group #1; please confirm the applicable deadlines and priority support. I am a Russian citizen
+ residing in Sharjah, UAE and do not speak English; written correspondence that I can translate is preferred.
+
+
+
+To avoid repeating earlier discussions, a short confirmation of your previous answer is sufficient where applicable. For the remaining points, please reply briefly using the same numbering.
+
+
+
+1. Scope: can you prepare and file US NPPA #1 and NPPA #2 and handle the assignment and USPTO recordation? Which PCT services could you provide, subject to eligibility? Russian patent work is excluded.
+
+
+
+2. Team: who will be the primary professional and who will personally perform the final review of the specification, claims, priority and filing papers? Please give their professional status and registration number.
+
+
+
+3. PCT representation: can you arrange representation taking account of my Russian citizenship and residence in Sharjah, UAE? Who would be entitled to represent the applicant before the proposed receiving Office,
+ including RO/IB, and on what basis? If an associate is needed, please identify the role and cost or how that cost will be agreed.
+
+
+
+4. Priority: can you check the official filing receipts, provisional disclosures and chain of title, and confirm the deadlines and basis for priority claims separately for NPPA #1, NPPA #2 and the corresponding
+ PCT applications? Please identify the documents needed for that review.
+
+
+
+5. Schedule: when could you start, deliver first drafts, complete review and file each group? Please account for the earliest date in the NPPA #2 group, including a reasonable time buffer and dependencies on us.
+
+
+
+6. Existing work: can you take over Ali’s unfinished NPPA #1 work and reuse suitable text and drawings? For NPPA #2, please assess preparation from PPAs #1, #2, #8 and #9; we are not assuming that a completed NPPA
+ #2 draft exists. What is needed for an estimate and which revisions would be charged separately?
+
+
+
+7. Confidentiality: can you sign an NDA with two disclosing parties — Mikhail Kozin personally and PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO? Please propose any necessary changes. We intend
+ to release the full technical package after the NDA is agreed and signed; if you cannot sign, please let us know.
+
+
+
+8. Insurance and references: do you carry professional liability insurance? If available and with the clients’ consent, one or two references would be appreciated. If these details cannot be provided, a brief indication
+ is sufficient.
+
+
+
+9. Fees: please itemize US NPPA #1, US NPPA #2, the assignment and USPTO recordation, and each possible PCT filing as a separate option. Separate professional and official fees, drawings, translations, associates
+ and taxes/platform charges; state currency, deposit, milestones, exclusions and the indicative US budget. Do not include Russian services. If materials are needed, please provide a range and conditions for refinement.
+
+
+
+10. Next steps: what engagement terms, documents and actions would be needed to begin? Could the initial scope assessment after the NDA be free of charge? If a paid review is needed, please agree its scope and fee
+ with us first. This inquiry and any provision of materials do not accept an engagement or authorize paid work or filing.
+
+
+
+We hope to complete our preliminary selection on October 22, 2026. A brief response by then would be greatly appreciated. If that is not possible, please let us know when you could reply and take on the work. After
+ your responses and signature of the agreed NDA, we are ready to provide the full package promptly for a fee assessment. A short response at this stage is entirely sufficient.
+
+
+
+Kind regards,
+
+Mikhail Kozin
+
+
+
+
+
+
+
+
+On Tue, 20 Oct 2026 12:07:37 +0000, UpCounsel <6ad75989e4238bc5b0ec1795-6ad759897344950001c8d952@msgs.upcounsel.com>
+ wrote:
+
+
+
+\--Please reply above this line-- | ![](https://sitecdn.upcounsel.com/images/emails_2016_01/uc_email_logo.png)
+ --- | | | New Proposal for “Patent Attorney for Assignment and Filing” --- Michael Bartholomew ![review_ratings](https://rcdn.upcounsel.com/assets/star_rating_5.png)
+ _29 reviews on UpCounsel_ | ![](https://sitecdn.upcounsel.com/images/emails/email_repeat_icon@2x.png)
+ | 32 similar projects completed ---|--- ![](https://sitecdn.upcounsel.com/images/emails/email_gavel_icon@2x.png)
+ | Licensed in TX, UT, and Patent Bar ![](https://sitecdn.upcounsel.com/images/emails/email_knowledge_icon@2x.png)
+ | Experience in Patents and Trademarks & Copyrights ![](https://usercdn.upcounsel.com/6a3fccffecc595e8f334c692/images/1782566473452Michael_Bartholomew.png)
+ --- [View Proposal and Contact Lawyer](http://email.upcounsel.com/ls/click?upn=u001.ZFt1K56Ccck4g68DnjSOfFwc1z9NHd7Zo3YbXEpNtTNd8VIjNrcbj4uRPxrl1g492-2FoE1WuMU-2Bs5tDxr7vDh71T-2BVZTvZ9e0qUeluDtJzFBQG-2FEnbFB-2B-2BpFEVS8rsb4mLJkqBn7TVM-2Foh0T3RS3R8A-3D-3D-TuH_JRvBFAbJzcDEqZ0pu6P9I9hzm0i9pURBPuGLTGjxOJSvQkDClMRL3L9IzpQoULFJreo9jQv2eXBdqiXKXSMAui7MduOhqDZnXiDyNw6vj6IhjCb95xSoT0bSDaqL-2FtG-2B8Phjr6ygmq8sm146yghsYgBhIwd55OjTPzw-2FxjPt-2FIN7E01IQ5d5bK4ujBTws8goX0-2Fva2AHcVQL7N5QEmWNelJjab1kWO4tzJiMzhJ0-2BrvrBK6lqrRNpeFd96DTFAYiLInfLvOTCaw2R4V5vemEup11Rn68wxj9ejT0BNviNcH-2BsBvcUj8u3zWmoU-2B3x-2F0t)
+ --- | [ ![Facebook](https://sitecdn.upcounsel.com/images/emails_2016_01/facebook.png)
+ ](http://email.upcounsel.com/ls/click?upn=u001.ZFt1K56Ccck4g68DnjSOfEc94fDrPIyDGy4xy09HmguEym6j97pDI1bvJs9D6D40NN6x_JRvBFAbJzcDEqZ0pu6P9I9hzm0i9pURBPuGLTGjxOJSvQkDClMRL3L9IzpQoULFJreo9jQv2eXBdqiXKXSMAui7MduOhqDZnXiDyNw6vj6IhjCb95xSoT0bSDaqL-2FtG-2B8Phjr6ygmq8sm146yghsYlVv8FQp-2FFOy4DpHMt3DmX3xsLCXI7v2wN6756PG0KkOSOxvd25xqcfgthwoei5yrNqIzBc37rcmI9oMuurr6Ef2f7lNnsRSM0aAVFKzIRCvY-2BZTySMoFmUdzMv1XsiK5BIAQi-2Bj4junr7-2FyJX-2F-2Fm9KfN0nnjrfvIt0CNQWgv80D)
+ | [ ![Twitter](https://sitecdn.upcounsel.com/images/emails_2016_01/x.png)
+ ](http://email.upcounsel.com/ls/click?upn=u001.ZFt1K56Ccck4g68DnjSOfEqkgxSHvByQqjvYpd9qklroUuiAUEsBb3YDe1IukbA0yGLE_JRvBFAbJzcDEqZ0pu6P9I9hzm0i9pURBPuGLTGjxOJSvQkDClMRL3L9IzpQoULFJreo9jQv2eXBdqiXKXSMAui7MduOhqDZnXiDyNw6vj6IhjCb95xSoT0bSDaqL-2FtG-2B8Phjr6ygmq8sm146yghsYuKC92RGiCeuwATiwLSGrHSBU0npFUGejzyCmb-2FWgeqSj30xyZZVCJit9We58aisY4aT0BtQTEi6J8XiEsbMW-2FH1Y4lHDGJuWucdZO-2BJBsfpJ7U6PKbpja13a5QXffckxyGI76mZT-2F6I9TNwtzmGv6DvD48N6fSnrsuKuMgI9rFA)
+ | [ ![Linkedin](https://sitecdn.upcounsel.com/images/emails_2016_01/linkedin.png)
+ ](http://email.upcounsel.com/ls/click?upn=u001.eahzK0CLIX1Lh8OpQW9foxauTntpSyLnywcFSFQx82vivP5qttI5EQVw8JWSFf17W18Mk3k7g4D2LSMSrew0oA-3D-3DTGxy_JRvBFAbJzcDEqZ0pu6P9I9hzm0i9pURBPuGLTGjxOJSvQkDClMRL3L9IzpQoULFJreo9jQv2eXBdqiXKXSMAui7MduOhqDZnXiDyNw6vj6IhjCb95xSoT0bSDaqL-2FtG-2B8Phjr6ygmq8sm146yghsYvNibDReECyDfO8yOof8wmfmc-2F6np89BKS3DRh1muZMEpuSKlYU3-2BV1md2-2BXktgE5vXhfUZl3eMCceq3OoXcJ-2BPZPW3XNsYja-2F14dt2O6aIVY0GkH45kUCF11MfnlrpJqHmsFRUB7ykVMetw16iaXEyQzecjkYsQ1x7xDr4hoi4R)
+ ---|---|--- You are receiving this email as a registered user of UpCounsel due to recent activity on your account. If you have questions email [support@upcounsel.com](mailto:support@upcounsel.com)
+ Copyright © 2026 UpCounsel Technologies, Inc. 
+3909 S Maryland Pkwy, Ste 314 #72, Las Vegas, NV 89119 Legal You Can Love 💙 ![](http://email.upcounsel.com/wf/open?upn=u001.djUtzrd8KfhllGsnR2nWBGAROnvA8aLIZycJwQuiH-2B-2BSolfTUe65Xy-2Fy58Bv7n5HiLo08kTclJXqp6a2MBPDjc88pMr6eOftTCqdAbTAD8cs1TGjkoJ28oI9LpMZfShJJo5g7yCUMkJ8xGaLCZ3-2FsbhuiLFc1XpDLvDlexVHqBpL6gliLE6N4Xbe4Et6Hob-2F0NuNHmNK4e6eT13KzKVsI95NKzQNOICM-2FA0F6IaycQgu9it2-2FqGTHyVpIK74NI-2B-2BusYMd5Wh4F1Sep9G4613GOdpBiA2tVqDZGsTb0hKv6WjgJqA1hJAfbTB2VTTJMZlsJfkCE50ehpBQ-2FePIqHdwA-3D-3D)
+
+
+
+
+
+
+
+
+
+The information contained in this communication is confidential, is intended only for the use of the recipient named above, and may
+ be legally privileged. If the reader of this message is not the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited.
+
+
+If you have received this communication in error, please resend this communication to the sender and delete the original message or
+ any copy of it from your computer system. Thank you.
+
+
+IRS CIRCULAR 230 DISCLOSURE:Pursuant to Treasury Regulations, any tax advice contained in this communication (including any attachments)
+ is not intended or written to be used, and cannot be used or relied upon by you or any other person, for the purpose of (i) avoiding penalties under the Internal Revenue Code, or (ii) promoting, marketing or recommending to another party any tax advice addressed
+ herein. Please contact a member of the firm if you require a formal, written tax opinion that satisfies applicable IRS requirements.
+
+
+
+
+
+
+
+
+
+
+  
+The information contained in this communication is confidential, is intended only for the use of the recipient named above, and may be legally privileged. If the reader of this message is not the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited.
+
+  
+If you have received this communication in error, please resend this communication to the sender and delete the original message or any copy of it from your computer system. Thank you.
+
+  
+IRS CIRCULAR 230 DISCLOSURE:Pursuant to Treasury Regulations, any tax advice contained in this communication (including any attachments) is not intended or written to be used, and cannot be used or relied upon by you or any other person, for the purpose of (i) avoiding penalties under the Internal Revenue Code, or (ii) promoting, marketing or recommending to another party any tax advice addressed herein. Please contact a member of the firm if you require a formal, written tax opinion that satisfies applicable IRS requirements.
+
+
+

@@ -1,0 +1,79 @@
+[PAGE 1]
+P.O. Box 1450
+Alexandria, VA 22313 - 1450
+www.uspto.gov
+ELECTRONIC ACKNOWLEDGEMENT RECEIPT
+APPLICATION # RECEIPT DATE / TIME ATTORNEY DOCKET #
+63/975,643 02/04/2026 02:44:29 PM Z ET -
+Title of Invention
+MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, AI-DRIVEN PRICING, AND
+INTEGRATED CONSUMABLES MANAGEMENT
+Application Information
+APPLICATION TYPE Utility - Provisional Application under
+35 USC 111(b)
+PATENT # -
+CONFIRMATION # 5430 FILED BY ALI SHALCHI
+PATENT CENTER # 74329726 FILING DATE -
+CUSTOMER # 164916 FIRST NAMED
+INVENTOR
+Mikhail Kozin
+CORRESPONDENCE
+ADDRESS
+- AUTHORIZED BY -
+Documents TOTAL DOCUMENTS: 5
+DOCUMENT   PAGES DESCRIPTION SIZE
+(KB)
+generatedADS74329726.pdf   5 Application Data Sheet 110 KB
+FIGURES.pdf   4 Drawings-only black and white
+line drawings 2659 KB
+PPA7_Modular_Retail_Syste
+m.pdf   9 Specification 101 KB
+sb0015a.pdf   2 Certification of Micro Entity
+(Gross Income Basis) 224 KB
+sb0016.pdf   3 Provisional Cover Sheet
+(SB16) 514 KB
+Warning: This is not a USPTO supplied Provisional Cover Sheet fillable form. Data in
+the form cannot be automatically loaded to other USPTO systems.
+Page 1 of 2
+
+[PAGE 2]
+Digest
+DOCUMENT MESSAGE DIGEST(SHA-512)
+generatedADS74329726.pdf
+59DD6C0F9F9A6366F88A2542159D5C41FA5E1E89DB67C57F3
+053B30D5C80A53EDD97B0FD56B1B055F915E554B3D79F0924
+F7F5C40A89CDCA32252EA64E220077
+FIGURES.pdf
+7A3B156A6E418D56CA404432A711C0FF4D53EDB885C5CE90
+FEAD7289353CE29CAF5A343CAF808D9B1361683261D651AC8
+0719B52489E038F0EF7B958D5B9E243
+PPA7_Modular_Retail_System.
+pdf
+CEC58112DECD2670B20AE30A6884D48D5C7E4F4C4D0B19A2
+4FAD6EA587AEE04A463366F05CD92C84F7394EFF599696B96
+CF81BC53C55E46E6DCECFC19D8E825F
+sb0015a.pdf
+43F6E429E1EE5074CA45D23C9B0FB790183CB65DB7576ECD
+08A1CFDAA92BA6F81147600E6E545CCBD9346621C492E57A7
+821D15D087D1164A60284571436B31D
+sb0016.pdf
+06BA6BB509733C446E11752F75174838FBCD32E8E583F84591
+0419FE83A2009C0F490B3D0223E3E5FF8ED3ED1AB5C272680
+86327E356002D027B1BC341D48062
+This Acknowledgement Receipt evidences receipt on the noted date by the USPTO of the indicated documents, characterized
+by the applicant, and including page counts, where applicable. It serves as evidence of receipt similar to a Post Card, as
+described in MPEP 503.
+New Applications Under 35 U.S.C. 111
+If a new application is being filed and the application includes the necessary components for filing date (see 37 CFR 1.53(b)-(d)
+and MPEP 506), a Filing Receipt (37 CFR 1.54) will be issued in due course and the date shown on this Acknowledgement
+Receipt will establish the filing date of the application
+National Stage of an International Application under 35 U.S.C. 371
+If a timely submission to enter the national stage of an international application is compliant with the conditions of 35 U.S.C.
+371 and other applicable requirements a Form PCT/DO/EO/903 indicating acceptance of the application as a national stage
+submission under 35 U.S.C. 371 will be issued in addition to the Filing Receipt, in due course.
+New International Application Filed with the USPTO as a Receiving Office
+If a new international application is being filed and the international application includes the necessary components for an
+international filing date (see PCT Article 11 and MPEP 1810), a Notification of the International Application Number and of the
+International Filing Date (Form PCT/RO/105) will be issued in due course, subject to prescriptions concerning national security,
+and the date shown on this Acknowledgement Receipt will establish the international filing date of the application.
+Page 2 of 2

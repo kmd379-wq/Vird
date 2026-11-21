@@ -1,0 +1,1680 @@
+[PAGE 1]
+ 
+ 
+   
+ 
+Dubai Integrated Economic Zones Authority  
+Implementing Regulations 2023 
+  
+  
+  
+  
+  
+__________________________________ 
+  
+Memorandum and Articles of Association 
+of 
+PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO 
+__________________________________ 
+  
+  
+  
+ 
+  
+ 
+ 1 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 2]
+ 
+MEMORANDUM OF ASSOCIATION 
+OF 
+PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS 
+MANAGEMENT - FZCO 
+  
+ 
+1.   The name of the Company is PBK ENGINEERING INTELLECTUAL PROPERTY 
+RIGHTS MANAGEMENT - FZCO (the “Company”). 
+2.   The registered office of the Company shall be IFZA Business Park, DDP, PO 
+Box 342001, Dubai, United Arab Emirates. 
+3.  The  objects  for  which  the  Company  is  established  are  Marketing 
+Management,Patent &Intellectual Property Rights Management. 
+4.  The liability of each shareholder of the Company is limited to the amount from 
+time to time unpaid on such shareholder’s shares. 
+5.  The authorised share capital of the Company is AED 100000 divided into 1000 
+ordinary shares of a nominal or par value of AED 100 each. 
+ 
+ 2 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 3]
+ 
+ 
+6.  The issued share capital of the Company is: 
+ 
+Shareholder Name and Address  Class of Shares  Paid Shares 
+amount 
+Unpaid Shares 
+amount 
+Value of Shares 
+and % of Shares 
+Owned 
+Mikhail Kozin,
+17310, Spain, Lloret de Mar St. 
+Montecarlo 13. 
+Ordinary  AED 100000  AED 0  AED 100000
+100.00% 
+Total        AED 100000 
+ 
+ 3 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 4]
+ 
+ 
+7.  The Company’s officers are: 
+ 
+ 
+Name  Address  Nationality  Passport Number  Oﬃce 
+Mikhail Kozin  17310, Spain, Lloret de Mar 
+St. Montecarlo 13.  Russia  763062180 
+General Manager
+Secretary
+Director 
+ 
+   
+8.  The Company may exercise the powers contained in the DIEZA Implementing 
+Regulations 2023. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 4 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 5]
+ 
+ 
+ 
+ 5 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 6]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ARTICLES OF ASSOCIATION 
+OF 
+PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS 
+MANAGEMENT - FZCO 
+ 
+ 6 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 7]
+ 
+ 
+TABLE OF CONTENTS 
+ 
+INTERPRETATION AND LIMITATION OF LIABILITY 
+1.  Definitions 
+2.  Liability of Shareholders 
+3.  Company Name 
+4.  Company Registered Office 
+5.  Company Objectives 
+   
+SHARES 
+6.  Nominal Value 
+7.  Minimum Share Capital 
+8.  Authorised Share Capital 
+9.  Initial Share Capital 
+10.  Power to Issue Shares and Different Classes of Shares 
+11.  Redemption, Purchase, Surrender of Shares 
+12.  Rights Attaching to Shares 
+13.  Calls on Shares 
+14.  No Joint Holders of Shares 
+15.  Forfeiture of Shares 
+16.  Share Certificates 
+17.  No Fractional Shares 
+   
+REGISTRATION OF SHARES 
+18.  Register of Shareholders 
+19.  Registered Holder Absolute Owner 
+20.  Transfer of Registered Shares 
+21.  Transmission of Registered Shares 
+22.  Listed Shares 
+   
+ALTERATION OF SHARE CAPITAL 
+23.  Power to Alter Capital 
+24.  Variation of Rights Attaching to Shares 
+   
+DIVIDENDS AND CAPITALISATION 
+25.  Dividends 
+26.  Power to Set Aside Profits 
+27.  Method of Payment 
+28.  Capitalisation 
+   
+MEETING OF SHAREHOLDERS 
+29.  Annual General Meetings 
+ 7 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 8]
+ 
+30.  Extraordinary General Meetings 
+31.  Notice 
+32.  Giving Notice and Access 
+33.  Postponement of General Meeting 
+34.  Electronic Participation in Meetings 
+35.  Quorum at General Meetings 
+36.  Chairperson to Preside 
+37.  Attendance and speaking by directors and non-shareholders 
+38.  Voting on Resolutions 
+39.  Power to Demand a Vote on a Poll 
+40.  Instrument of Proxy 
+41.  Representation of Corporate Shareholder 
+42.  Adjournment of General Meeting 
+43.  Written Resolutions 
+44.  Directors Attendance at General Meetings 
+   
+DIRECTORS AND OFFICERS 
+45.  Election of Directors 
+46.  Number of Directors 
+47.  Term of Directors 
+48.  Alternate Directors 
+49.  Removal of Directors 
+50.  Vacancy in the Office of Director 
+51.  Remuneration and expenses of Directors 
+52.  Defect in Appointment 
+53.  Directors to Manage Business 
+54  Powers of the Board of Directors 
+55.  Register of Directors and Officers 
+56.  Officers 
+57.  Appointment and Removal of Officers 
+58.  Duties of Officers 
+59.  Remuneration of Officers 
+60.  Conflicts of Interest 
+61.  Indemnification and Exculpation of Directors and Officers 
+   
+MEETINGS OF THE BOARD OF DIRECTORS 
+62.  Board Meetings 
+63.  Notice of Board Meetings 
+64.  Electronic Participation in Meetings 
+65.  Representation of Director 
+66.  Quorum at Board Meetings 
+67.  Board to Continue in the Event of Vacancy 
+68.  Chairperson to Preside 
+69.  Written Resolutions 
+ 8 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 9]
+ 
+70.  Validity of Prior Acts of the Board 
+   
+CORPORATE RECORDS 
+71.  Minutes 
+72.  Register of Charges 
+73.  Form and Use of Stamp 
+   
+ACCOUNTS 
+74.  Books of Account 
+75.  Financial Year End 
+   
+  AUDITS 
+76.  Appointment of Auditors 
+77.  Remuneration of Auditors 
+78.  Duties of Auditor 
+79.  Access to Records 
+   
+VOLUNTARY WINDING-UP AND DISSOLUTION 
+80.  Winding-Up 
+   
+CHANGES TO CONSTITUTION 
+81.  Changes to Articles 
+82.  Changes to the Memorandum of Association 
+83.  Redomiciliation 
+ 
+ 
+ 
+ 9 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 10]
+ 
+ 
+INTERPRETATION AND LIMITATION OF LIABILITY 
+1   Definitions 
+1.1  In these Articles, the following words and expressions shall, where not inconsistent 
+with the context, have the following meanings, respectively: 
+AED  UAE Dirhams, the lawful currency of the UAE; 
+Alternate Director  an alternate Director appointed in accordance with these 
+Articles; 
+Articles  these articles of association as altered from time to time; 
+Auditor  the person or firm for the time being appointed as 
+Auditor of the Company and shall include an individual 
+or partnership; 
+Board  the board of directors of the Company (including, for the 
+avoidance of doubt, a sole director) appointed or elected 
+pursuant to these Articles and acting at a meeting of 
+directors at which there is a quorum or by written 
+resolution in accordance with these Articles; 
+Company  the company for which these Articles are approved and 
+confirmed, being PBK ENGINEERING INTELLECTUAL 
+PROPERTY RIGHTS MANAGEMENT - FZCO ; 
+Director  a director, including a sole director, for the time being of 
+the Company and shall include an Alternate Director; 
+Law  the DIEZA Implementing Regulations 2023, as amended 
+from time to time; 
+Month  calendar month; 
+Notice  written notice as further provided in these Articles unless 
+otherwise specifically stated; 
+Officer  any person appointed by the Board to hold an office in 
+the Company; 
+Ordinary Resolution  a resolution passed at a general meeting (or, if so 
+specified, a meeting of Shareholders holding a class of 
+ 10 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 11]
+ 
+shares) of the Company by at least fifty percent (50%) of 
+the votes of the Company’s shareholders with voting 
+rights, in person, or where proxies are allowed, by proxy; 
+Paid-up  paid-up or credited as paid-up; 
+Register of Directors 
+and Officers 
+the register of directors and officers referred to in these 
+Articles; 
+Register of 
+Shareholders 
+the register of shareholders maintained by the Company; 
+Secretary  the person appointed to perform any or all of the duties 
+of secretary of the Company and includes any deputy or 
+assistant secretary and any person appointed by the 
+Board to perform any of the duties of the Secretary; 
+Share  a share in the share capital of the Company; 
+Shareholder  the person registered in the Register of Shareholders as 
+the holder of shares in the Company; 
+Special Resolution  a resolution passed at a general meeting (or, if so 
+specified, a meeting of Shareholders holding a class of 
+shares) of the Company by at least seventy five percent 
+(75%) of the votes of the Company’s shareholders with 
+voting rights, in person, or where proxies are allowed, by 
+proxy 
+Stamp  the stamp or any official or duplicate stamp of the 
+Company; 
+UAE  the United Arab Emirates; 
+Written Resolution  a resolution passed in accordance with these Articles; 
+and 
+Year  calendar year. 
+ 
+ 11 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 12]
+ 
+ 
+1.2  In these Articles, where not inconsistent with the context: 
+(a)  words denoting the plural number include the singular number and vice 
+versa; 
+(b)  words denoting the masculine gender include the feminine and neuter 
+genders; 
+(c)  words importing persons include companies, associations or bodies of 
+persons whether corporate or not; 
+(d)  the words: 
+i.  "may" shall be construed as permissive; and 
+ii.  "shall" shall be construed as imperative;  
+(e)  a reference to statutory provision shall be deemed to include any amendment 
+or re-enactment thereof; and 
+(f)  all references to dates and periods of time are to be construed in accordance 
+with the Gregorian calendar. 
+1.3  References in these Articles to “writing” or its cognates in relation to any document, 
+instrument, certificate, notice, register, or communication means a legible form of 
+the information that is capable of being reproduced in tangible form, in any medium 
+(including electronic means). 
+1.4  Headings used in these Articles are for convenience only and are not to be used or 
+relied upon in the construction hereof. 
+1.5  Unless the context requires otherwise, other words or expressions contained in 
+these Articles bear the same meaning as in the Law as in force on the date that 
+these Articles become binding on the Company. 
+1.6  Where an Ordinary Resolution is expressed to be required for any purpose, a 
+Special Resolution is also effective for that purpose. 
+2.  Liability of Shareholders 
+The liability of the Shareholders is limited to the amount, if any, unpaid on the shares held 
+by them in the Company 
+3.  Company Name 
+The Company's name is PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS 
+MANAGEMENT - FZCO. 
+ 
+ 12 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 13]
+ 
+ 
+4.  Company Registered Office 
+The registered office of the Company shall be in Dubai Integrated Economic Zone. 
+5.  Company Objectives 
+The principal business activities of the Company are: 
+ 
+  Activity Name  Code 
+Marketing Management  7320002 
+Patent &Intellectual Property Rights Management  7740001 
+ 
+ 
+ 13 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 14]
+ 
+ 
+SHARES 
+6.  Nominal Value 
+Each share in the Company shall have a fixed nominal value. Shares in the Company 
+may be partly paid, provided it is paid-up to at least one quarter of its value. 
+7.  Minimum Share Capital 
+The Company must have a minimum share capital of AED 1 (or any currency equivalent 
+to AED 1). 
+8.  Authorised Share Capital 
+The authorised share capital of the Company is AED 100000 divided into 1000 ordinary 
+shares of a nominal or par value of AED 100 each. 
+9.  Initial Share Capital 
+The authorised share capital of the Company is AED 100000 divided into 1000 ordinary 
+shares of a nominal or par value of AED 100 each. 
+10.  Power to Issue Shares and Different Classes of Shares 
+10.1  Subject to the provisions of the Law and these Articles and to any resolution of the 
+Shareholders to the contrary, and without prejudice to any special rights previously 
+conferred on the holders of any existing shares or class of shares, the Board shall 
+have the power to issue any un-issued shares on such terms and conditions as it 
+may determine and any shares or class of shares (including the issue or grant of 
+options, warrants and other rights, renounceable or otherwise in respect of shares) 
+may be issued with such preferred, deferred or other special rights or such 
+restrictions, whether in regard to dividend, voting, return of capital, or otherwise as 
+determined by Ordinary Resolution, provided that no share shall be issued at a 
+discount except in accordance with the Law. 
+ 
+10.2  The provisions of these Articles relating to general meetings of the Company or to 
+the proceedings at general meetings shall apply, mutatis mutandis, to every such 
+separate general meeting, except that: 
+(a)  the quorum at any such meeting (other than an adjourned meeting) shall be 
+two shareholders present in person or by proxy holding at least one-third in 
+nominal amount of the issued shares of the class; 
+(b)  at an adjourned meeting the quorum shall be one shareholder present in 
+ 14 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 15]
+ 
+person or by proxy holding shares of the class; 
+(c)  every holder of shares of the class shall, on a poll, have one vote in respect 
+of every share of the class held by him; and 
+(d)  a poll may be demanded by any one holder of shares of the class whether 
+present in person or by proxy. 
+11.  Redemption, Purchase, Surrender of Shares 
+11.1  Subject to the Law, the Company is authorised to issue shares which are to be 
+redeemed or are liable to be redeemed at the option of the Company or a 
+Shareholder and may make payments in respect of such redemption in accordance 
+with the Law and may issue, or convert existing non-redeemable shares, whether 
+allotted or not, into redeemable shares, on such terms and in such manner as the 
+Board may determine. 
+11.2  The Company is authorised to purchase any share in the Company (including a 
+redeemable share) by agreement with the holder and may make payments in 
+respect of such purchase in accordance with the Law. 
+11.3  The Company authorises the Board to determine the manner or any of the terms of 
+any redemption or purchase. 
+11.4  A delay in payment of the redemption price shall not affect the redemption but, in 
+the case of a delay of more than thirty days, interest shall be paid for the period 
+from the due date until actual payment at a rate which the Board, after due enquiry, 
+estimates to be representative of the rates being offered by the UAE Central Bank 
+for thirty day deposits in the same currency 
+11.5  The Company authorises the Board pursuant to the Law to make a payment in 
+respect of the redemption or purchase of its own shares otherwise than out of its 
+profits, share premium account, or the proceeds of a fresh issue of shares. 
+11.6  No share may be redeemed or purchased unless it is fully paid-up. 
+ 
+ 15 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 16]
+ 
+ 
+11.7  The Company may accept the surrender for no consideration of any fully paid 
+share (including a redeemable share) unless, as a result of the surrender, there 
+would no longer be any issued shares of the company. 
+ 
+11.8  The Company is not authorised to issue or hold treasury shares. 
+11.9  The Company may, at its sole option and upon 7 days’ written notice, by resolution 
+of the Directors redeem or repurchase any share from any holder for the 
+subscription price paid by such holder if, in the Board’s absolute discretion, the 
+holding of such shares by such person: 
+(a)  might be in breach of the laws, regulations or requirements of any country or 
+governmental or regulatory authority; 
+(b)  is in circumstances (whether directly or indirectly affecting such person or 
+persons and whether taken alone or in conjunction with any other persons, 
+connected or not, or any other circumstances appearing to the Board to be 
+relevant) which in the opinion of the Board might result in the Company (or 
+the associates or agents of the Company) or the Shareholders incurring any 
+liability to taxation or suffering any other pecuniary disadvantage which the 
+Company (or the associates or agents of the Company) or the Shareholders 
+might not otherwise have incurred or suffered or otherwise expose the 
+Company or the Shareholders to adverse pecuniary, legal, fiscal, tax, 
+regulatory or material administrative consequences that the Company (or the 
+associates or agents of the Company) or the Shareholders might not 
+otherwise have been exposed to; 
+(c)  might result in the Company being required to comply with any registration or 
+filing requirement in any jurisdiction with which it would not otherwise be 
+required to comply or the Company being in breach of the laws, regulations 
+or requirements of any country or governmental authority; or 
+(d)  might be harmful or injurious to the business or reputation of the Company. 
+ 
+ 16 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 17]
+ 
+ 
+12.  Rights Attaching to Shares 
+Subject to article 2, the Memorandum of Association and any resolution of the 
+Shareholders to the contrary and without prejudice to any special rights conferred thereby 
+on the holders of any other shares or class of shares, the share capital of the Company 
+shall be divided into shares of a single class the holders of which shall, subject to these 
+Articles: 
+12.1  be entitled to one vote per share; 
+12.2  be entitled to such dividends as the Board may from time to time declare; 
+12.3  in the event of a winding-up or dissolution of the Company, whether voluntary or 
+involuntary or for the purpose of a reorganisation or otherwise or upon any 
+distribution of capital, be entitled to the surplus assets of the Company; and 
+12.4  generally be entitled to enjoy all of the rights attaching to shares. 
+ 
+13.  Calls on Shares 
+13.1  The Board may make such calls as it thinks fit upon the Shareholders in respect of 
+any monies (whether in respect of nominal value or premium) unpaid on the shares 
+allotted to or held by such Shareholders and, if a call is not paid on or before the 
+day appointed for payment thereof, the Shareholder may at the discretion of the 
+Board be liable to pay the Company interest on the amount of such call at such 
+rate as the Board may determine, from the date when such call was payable up to 
+the actual date of payment.  The Board may differentiate between the holders as to 
+the amount of calls to be paid and the times of payment of such calls. 
+13.2  The Company may accept from any Shareholder the whole or a part of the amount 
+remaining unpaid on any shares held by him, although no part of that amount has 
+been called up. 
+13.3  The terms of any issue of shares may include different provisions with respect to 
+different Shareholders in the amounts and times of payments of calls on their 
+shares. 
+ 
+ 17 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 18]
+ 
+ 
+14.  No Joint Holders of Shares 
+The joint holders of a share shall not be permitted. 
+ 
+15.  Forfeiture of Shares 
+15.1  If any Shareholder fails to pay, on the day appointed for payment thereof, any call 
+in respect of any share allotted to or held by such Shareholder, the Board may, at 
+any time thereafter during such time as the call remains unpaid, direct the 
+Secretary to forward such Shareholder a notice in writing in the form, or as near 
+thereto as circumstances admit, of the following: 
+ 
+Notice of Liability to Forfeiture for Non-Payment of Call 
+PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - 
+FZCO (the "Company") 
+ 
+You have failed to pay the call of [amount of call] made on [date], in respect of the 
+[number] share(s) [number in figures] standing in your name in the Register of 
+Shareholders of the Company, on [date], the day appointed for payment of such 
+call.  You are hereby notified that unless you pay such call together with interest 
+thereon at the rate of [    ] per annum computed from the said [date] at the 
+registered office of the Company the share(s) will be liable to be forfeited. 
+ 
+Dated this [date] 
+______________________________________ 
+[Signature of Secretary] By Order of the Board 
+ 
+ 18 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 19]
+ 
+ 
+15.2  If the requirements of such notice are not complied with, any such share may at 
+any time thereafter before the payment of such call and the interest due in respect 
+thereof be forfeited by a resolution of the Board to that effect, and such share shall 
+thereupon become the property of the Company and may be disposed of as the 
+Board shall determine. Without limiting the generality of the foregoing, the disposal 
+may take place by sale, repurchase, redemption or any other method of disposal 
+permitted by and consistent with these Articles and the Law. 
+15.3  A Shareholder whose share or shares have been so forfeited shall, notwithstanding 
+such forfeiture, be liable to pay to the Company all calls owing on such share or 
+shares at the time of the forfeiture, together with all interest due thereon and any 
+costs and expenses incurred by the Company in connection therewith. 
+15.4  The Board may accept the surrender of any shares which it is in a position to forfeit 
+on such terms and conditions as may be agreed.  Subject to those terms and 
+conditions, a surrendered share shall be treated as if it had been forfeited.  
+16.  Share Certificates 
+16.1  A share certificate is not required to be issued in respect of shares. The entry of the
+Shareholder’s name in the Register of Shareholders is evidence that that 
+Shareholder is the holder of the shares so registered in his name. 
+ 
+16.2  If requested by a Shareholder, that Shareholder shall be entitled to a share 
+certificate specifying the number and, if appropriate, the class of shares held by 
+such Shareholder and, if applicable, whether the same are fully paid up and, if not, 
+specifying the amount paid on such shares.  
+16.3  Share certificates, if any, may not be issued in bearer form. 
+17.  No Fractional Shares 
+The Company may not issue its shares in fractional denominations. 
+ 
+ 19 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 20]
+ 
+ 
+REGISTRATION OF SHARES 
+18.  Register of Shareholders 
+18.1  The Board shall cause to be kept in one or more books a Register of Shareholders 
+which may be kept in or outside Dubai at such place as the Board shall appoint 
+and shall enter therein the following particulars: 
+(a)  the name and address of each Shareholder, the number, and (where 
+appropriate) the class of shares held by such Shareholder and the amount 
+paid or agreed to be considered as paid on such shares; 
+(b)  the date on which each person was entered in the Register of Shareholders; 
+and 
+(c)  the date on which any person ceased to be a Shareholder. 
+18.2  The Board may cause to be kept in any country or territory one or more branch 
+registers of such category or categories of shareholders as the Board may 
+determine from time to time and any branch register shall be deemed to be part of 
+the Company’s Register of Shareholders. 
+18.3  Any register maintained by the Company in respect of listed shares may be kept by 
+recording the particulars set out in article 10.1 in a form otherwise than legible if 
+such recording otherwise complies with the laws applicable to and the rules and 
+regulations of the relevant approved stock exchange 
+ 
+ 20 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 21]
+ 
+ 
+19.  Registered Holder Absolute Owner 
+19.1  The Company shall be entitled to treat the registered holder of any share as the 
+absolute owner thereof and accordingly shall not be bound to recognise any 
+equitable claim or other claim to, or interest in, such share on the part of any other 
+person. 
+ 
+19.2  No person shall be entitled to recognition by the Company as holding any share 
+upon any trust and the Company shall not be bound by, or be compelled in any 
+way to recognise, (even when having notice thereof) any equitable, contingent, 
+future or partial interest in any share or any other right in respect of any share 
+except an absolute right to the entirety of the share in the holder.  If, 
+notwithstanding this article, notice of any trust is at the holder’s request entered in 
+the Register of Shareholders or on a share certificate in respect of a share, then, 
+except as aforesaid: 
+(a)  such notice shall be deemed to be solely for the holder’s convenience; 
+(b)  the Company shall not be required in any way to recognise any beneficiary, 
+or the beneficiary, of the trust as having an interest in the share or shares 
+concerned; 
+(c)  the Company shall not be concerned with the trust in any way, as to the 
+identity or powers of the trustees, the validity, purposes or terms of the trust, 
+the question of whether anything done in relation to the shares may amount 
+to a breach of trust or otherwise; and 
+(d)  the holder shall keep the Company fully indemnified against any liability or 
+expense which may be incurred or suffered as a direct or indirect 
+consequence of the Company entering notice of the trust in the Register of 
+Shareholders or on a share certificate and continuing to recognise the holder 
+as having an absolute right to the entirety of the share or shares concerned. 
+ 
+ 21 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 22]
+ 
+ 
+20,  Transfer of Registered Shares 
+20.1  An instrument of transfer shall be in writing in the form of the following, or as near 
+thereto as circumstances admit, or in such other form as the Board may accept: 
+ 
+Transfer of a Share or Shares 
+PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - 
+FZCO (the "Company") 
+ 
+FOR VALUE RECEIVED……………….. [amount] , I, [name of transferor] hereby 
+sell, assign and transfer unto [transferee] of [address] , [number] shares of the 
+Company. 
+DATED this [date] 
+Signed by:                                           In the presence of: 
+___________                                      ___________ 
+Transferor                                           Witness 
+___________                                      ___________   
+Transferee                                           Witness 
+20.2  Such instrument of transfer shall be signed by (or in the case of a party that is a 
+corporation, on behalf of) the transferor and transferee, provided that, in the case 
+of a fully paid share, the Board may accept the instrument signed by or on behalf of 
+the transferor alone.  The transferor shall be deemed to remain the holder of such 
+share until the same has been transferred to the transferee in the Register of 
+Shareholders. 
+20.3  The Board may refuse to recognise any instrument of transfer unless it is 
+accompanied by the certificate in respect of the shares to which it relates and by 
+such other evidence as the Board may reasonably require showing the right of the 
+transferor to make the transfer. 
+20.4  The Board may in its reasonable discretion and assigning a reason therefor refuse 
+to register the transfer of a share.  If the Board refuses to register a transfer of any 
+share the Secretary shall, within fourteen (14) days after the date on which the 
+transfer was lodged with the Company, send to the transferor and transferee notice 
+of the refusal. 
+ 
+ 22 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 23]
+ 
+ 
+21.  Transmission of Registered Shares 
+21.1  In the case of the death of a Shareholder, the legal personal representatives of the 
+deceased Shareholder shall be the only persons recognised by the Company as 
+having any title to the deceased Shareholder’s interest in the shares.  Nothing 
+herein contained shall release the estate of a deceased holder from any liability in 
+respect of any share which had been held by such deceased Shareholder.  For the 
+purpose of this article, legal personal representative means the executor or 
+administrator of a deceased Shareholder or such other person as the Board may, 
+in its absolute discretion, decide as being properly authorised to deal with the 
+shares of a deceased Shareholder. 
+21.2  Any person becoming entitled to a share in consequence of the death or 
+bankruptcy of any Shareholder may be registered as a Shareholder upon such 
+evidence as the Board may deem sufficient or may elect to nominate some person 
+to be registered as a transferee of such share, and in such case the person 
+becoming entitled shall execute in favour of such nominee an instrument of transfer 
+in writing in the form, or as near thereto as circumstances admit, of the following: 
+ 
+ 23 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 24]
+ 
+ 
+Transfer by a Person Becoming Entitled on Death/Bankruptcy of a Shareholder 
+PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - 
+FZCO (the "Company") 
+I/We, having become entitled in consequence of the [death/bankruptcy] of [name 
+and address of deceased Shareholder] to [number] share(s)  standing in the 
+Register of Shareholders of the Company in the name of the said [name of 
+deceased/bankrupt Shareholder] instead of being registered myself/ourselves, 
+elect to have [name of transferee] (the "Transferee") registered as a transferee of 
+such share(s) and I/we do hereby accordingly transfer the said share(s) to the 
+Transferee to hold the same unto the Transferee, his or her executors, 
+administrators and assigns, subject to the conditions on which the same were held 
+at the time of the execution hereof; and the Transferee does hereby agree to take 
+the said share(s) subject to the same conditions. 
+ 
+DATED this [date] 
+Signed by:                                           In the presence of: 
+___________                                      ___________ 
+Transferor                                           Witness 
+___________                                      ___________ 
+Transferee                                           Witness 
+ 
+ 24 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 25]
+ 
+ 
+21.3  On the presentation of the foregoing materials to the Board, accompanied by such 
+evidence as the Board may require to prove the title of the transferor, the 
+transferee shall be registered as a Shareholder.  Notwithstanding the foregoing, the 
+Board shall, in any case, have the same right to decline or suspend registration as 
+it would have had in the case of a transfer of the share by that Shareholder before 
+such Shareholder’s death or bankruptcy, as the case may be. 
+22.  Listed Shares 
+Notwithstanding anything to the contrary in these Articles, shares that are listed or 
+admitted to trading on an approved stock exchange may be evidenced and transferred in 
+accordance with the rules and regulations of such exchange. 
+ALTERATION OF SHARE CAPITAL 
+23.  Power to Alter Capital 
+23.1  Subject to the Law, the Company may from time to time by Special Resolution alter 
+the conditions of its Memorandum of Association to: 
+(a)  increase its capital by such sum divided into shares of such amounts as the 
+resolution shall prescribe; 
+(b)  consolidate and divide all or any of its share capital into shares of larger 
+amount than its existing shares; 
+(c)  convert all or any of its paid-up shares into stock, and reconvert that stock 
+into paid-up shares of any denomination; 
+(d)  subdivide its shares or any of them into shares of an amount smaller than 
+that fixed by the Memorandum of Association; or  
+(e)  cancel shares which at the date of the passing of the resolution have not 
+been taken or agreed to be taken by any person, and diminish the amount of 
+its share capital by the amount of the shares so cancelled. 
+23.2  Any fractions of shares resulting from a consolidation of shares may be sold by the 
+Directors on behalf of the shareholders and the net proceeds distributed 
+proportionately amongst those shareholders. 
+23.3  Subject to the Law, the Company may from time to time by Special Resolution 
+reduce its share capital. 
+ 
+ 25 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 26]
+ 
+ 
+24.  Variation of Rights Attaching to Shares 
+If, at any time, the share capital is divided into different classes of shares, the rights 
+attached to any class (unless otherwise provided by the terms of issue of the shares of 
+that class) may, whether or not the Company is being wound-up, be varied by a Special 
+Resolution at a general meeting of the Shareholders and a resolution passed by all of the 
+Shareholders holding shares of the class whose rights are being varied or abrogated.  
+The rights conferred upon the holders of the shares of any class or series issued with 
+preferred or other rights shall not, unless otherwise expressly provided by the terms of 
+issue of the shares of that class or series, be deemed to be varied by the creation or issue 
+of further shares ranking pari passu therewith or by the purchase or redemption by the 
+Company of any of its own shares. 
+DIVIDENDS AND CAPITALISATION 
+25.  Dividends 
+25.1  The Board may, subject to these Articles and in accordance with the Law, declare a 
+dividend to be paid to the Shareholders, in proportion to the number of shares held 
+by them, and such dividend may be paid in cash or wholly or partly by the 
+distribution of specific assets (which may consist of the shares or securities of any 
+other company). 
+25.2  Where the Board determines that a dividend shall be paid wholly or partly by the 
+distribution of specific assets, the Board may settle all questions concerning such 
+distribution. 
+25.3  Dividends may be declared and paid out of profits of the Company, realised or 
+unrealised, or from any reserve set aside from profits which the Board determines 
+is no longer needed, or not in the same amount.  Dividends may also be declared 
+and paid out of share premium account or any other fund or account which can be 
+authorised for this purpose in accordance with the Law. 
+25.4  No unpaid dividend shall bear interest as against the Company. 
+25.5  The Company may pay dividends in proportion to the amount paid up on each 
+share where a larger amount is paid up on some shares than on others. 
+25.6  The Board may declare and make such other distributions (in cash or in specie) to 
+the Shareholders as may be lawfully made out of the assets of the Company.  No 
+unpaid distribution shall bear interest as against the Company. 
+ 
+ 26 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 27]
+ 
+ 
+25.7  The Board may fix any date as the record date for determining the Shareholders 
+entitled to receive any dividend or other distribution, but, unless so fixed, the record 
+date shall be the date of the Directors’ resolution declaring same. 
+ 
+26.  Power to Set Aside Profits 
+26.1  The Board may, before declaring a dividend, set aside out of the surplus or profits 
+of the Company, such amount as it thinks proper as a reserve to be used to meet 
+contingencies or for equalising dividends or for any other purpose.  Pending 
+application, such sums may be employed in the business of the Company or 
+invested, and need not be kept separate from other assets of the Company.  The 
+Board may also, without placing the same to reserve, carry forward any profit which
+it decides not to distribute. 
+26.2  Subject to any direction from the Company in general meeting, the Board may on 
+behalf of the Company exercise all the powers and options conferred on the 
+Company by the Law in regard to the Company’s share premium account. 
+27.  Method of Payment 
+27.1  Any dividend, interest, or other monies payable in cash in respect of the shares 
+may be paid by cheque sent through the post directed to the Shareholder at such 
+Shareholder’s address in the Register of Shareholders, or to such person and to 
+such address as the holder may in writing direct. 
+27.2  The Board may deduct from the dividends or distributions payable to any 
+Shareholder all monies due from such Shareholder to the Company on account of 
+calls or otherwise. 
+28.  Capitalisation 
+28.1  The Board may capitalise any amount for the time being standing to the credit of 
+any of the Company’s share premium or other reserve accounts or to the credit of 
+the profit and loss account or otherwise available for distribution by applying such 
+amount in paying up unissued shares to be allotted as fully paid bonus shares pro 
+rata to the Shareholders. 
+28.2  The Board may capitalise any amount for the time being standing to the credit of a 
+reserve account or amounts otherwise available for dividend or distribution by 
+applying such amounts in paying up in full, partly or nil paid shares of those 
+Shareholders who would have been entitled to such amounts if they were 
+distributed by way of dividend or distribution. 
+ 
+ 27 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 28]
+ 
+ 
+MEETINGS OF SHAREHOLDERS 
+29.  Annual General Meetings 
+The Company may, but is not required, in each year hold a general meeting as its annual 
+general meeting.  The annual general meeting of the Company may be held at such time 
+as the Board shall appoint. 
+30.  Extraordinary General Meetings 
+30.1  General meetings other than annual general meetings shall be called extraordinary 
+general meetings. 
+30.2  Any Director may convene an extraordinary general meeting whenever in their 
+judgment such a meeting is necessary. 
+31.  Notice 
+31.1  A general meeting (other than an annual general meeting of the Company or an 
+adjourned such meeting) shall be called by at least fourteen (14) clear days' notice. 
+An annual general meeting shall be called by at least twenty-one (21) clear days’ 
+notice.  
+31.2  Subject to the Law, and although called by shorter notice than that specified in 
+article 31.1, a general meeting is deemed to have been duly called if it is so agreed 
+by a majority in number of the shareholders having a right to attend and vote at the 
+meeting, being a majority together holding not less than 90% in nominal value of 
+the shares giving that right. 
+31.3  Such notice of a general meeting shall be in writing and given to each Shareholder 
+entitled to attend and vote thereat and each Director, specifying the date, time and 
+place of the meeting and the general nature of the business to be considered at the 
+meeting. 
+31.4  A notice of meeting in respect of an annual general meeting shall include a copy of 
+the accounts that are to be laid before the meeting and shall specify that the 
+meeting is in respect of an annual general meeting. 
+31.5  The Board may determine that persons entitled to receive notices of meetings are 
+those persons entered on the register at the close of business on a day determined 
+by the Board. 
+ 
+ 28 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 29]
+ 
+ 
+31.6  The notice of meeting may also specify a time by which a person must be entered 
+on the register in order to have the right to attend or vote at the meeting. Changes 
+to entries on the register after the time so specified in the notice shall be 
+disregarded in determining the rights of any person to so attend or vote 
+31.7  The accidental omission to give notice of a general meeting to, or the non-receipt 
+of a notice of a general meeting by, any person entitled to receive notice shall not 
+invalidate the proceedings at that meeting. 
+31.8  The Board may convene an extraordinary general meeting whenever it thinks fit. 
+The Board must convene an extraordinary general meeting immediately on receipt 
+of a requisition from shareholders in accordance with the Laws or, in default, a 
+meeting may be convened by requisitionists as provided in the Laws. At a meeting 
+convened on a requisition or by requisitionists no business may be transacted 
+except that stated by the requisition or proposed by the board. 
+32.  Giving Notice and Access 
+32.1  A notice may be given by the Company to a Shareholder: 
+(a)  by delivering it to such Shareholder in person, in which case the notice shall 
+be deemed to have been served upon such delivery; or  
+(b)  by sending it by registered post to such Shareholder’s address in the 
+Register of Shareholders, in which case the notice shall be deemed to have 
+been served seven days after the date on which it is deposited, with postage 
+prepaid, in the mail; or 
+(c)  by sending it by courier to such Shareholder’s address in the Register of 
+Shareholders, in which case the notice shall be deemed to have been served 
+two days after the date on which it is deposited, with courier fees paid, with 
+the courier service; or 
+(d)  by transmitting it by electronic means (including facsimile and electronic mail, 
+but not telephone) in accordance with such directions as may be given by 
+such Shareholder to the Company for such purpose, in which case the notice 
+shall be deemed to have been served at the time that it would in the ordinary 
+course be transmitted; or 
+ 
+ 29 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 30]
+ 
+ 
+(e)  by publication of an electronic record of it on a website and notification of 
+such publication (which shall include the address of the website, the place on 
+the website where the document may be found, and how the document may 
+be accessed on the website), such notification being given by any of the 
+methods set out in articles 32.1(a) through 32.1(d), in which case the notice 
+shall be deemed to have been served at the time when the instructions for 
+access and the posting on the website are complete.  
+32.2  In proving service under articles 32.1(b), (c) and (d), it shall be sufficient to prove 
+that the notice was properly addressed and prepaid, if posted or sent by courier, 
+and the time when it was posted, deposited with the courier, or transmitted by 
+electronic means. 
+33.  Postponement of General Meeting 
+The Board may postpone any general meeting called in accordance with these Articles 
+provided that notice of postponement is given to the Shareholders before the time for 
+such meeting.  Fresh notice of the date, time and place for the postponed meeting shall 
+be given to each Shareholder in accordance with these Articles. 
+34.  Electronic Participation in Meetings 
+Shareholders may participate in any general meeting by such telephonic, electronic or 
+other communication facilities or means as permit all persons participating in the meeting 
+to communicate with each other simultaneously and instantaneously, and participation in 
+such a meeting shall constitute presence in person at such meeting. 
+35.  Quorum at General Meetings 
+35.1  Except in the case of the Company having a single Shareholder, in which case 
+resolutions will be adopted in writing by the single Shareholder, no meeting shall 
+take place unless a quorum is present.  Two (2) persons entitled to vote shall 
+constitute a quorum whether personally present or represented by proxy. 
+35.2  If within half an hour from the time appointed for the meeting a quorum is not 
+present, then the meeting shall stand adjourned to a  time or place as the Board 
+may determine.  Unless the meeting is adjourned to a specific date, time and place 
+announced at the meeting being adjourned, fresh notice of the resumption of the 
+meeting shall be given to the Shareholders.  
+ 
+ 30 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 31]
+ 
+ 
+36.  Chairperson to Preside 
+36.1  If the Directors have appointed a chairman, the chairman shall chair general 
+meetings if present and willing to do so. 
+36.2  If the Directors have not appointed a chairman, or if the chairman is unwilling to 
+chair the meeting or is not present within ten minutes of the time at which a 
+meeting was due to start, 
+(a)  the Directors present, or 
+(b)  (if no Directors are present), the meeting,  
+must appoint a Director or shareholder to chair the meeting, and the 
+appointment of the chairman of the meeting must be the first business of the 
+meeting. 
+36.3  The person chairing a meeting in accordance with this article is referred to as “the 
+chairman of the meeting”. 
+37.  Attendance and speaking by directors and non-shareholders 
+37.1  Directors may attend and speak at general meetings, whether or not they are  
+shareholders. 
+37.2  The chairman of the meeting may permit other persons who are not: 
+(a)  shareholders of the company, or 
+(b)  otherwise entitled to exercise the rights of shareholders in relation to general 
+meetings, to attend and speak at a general meeting. 
+38.  Voting on Resolutions 
+38.1  Subject to the Law and these Articles, any question proposed for the consideration 
+of the Shareholders at any general meeting shall be decided by the affirmative 
+votes of a majority of the votes cast in accordance with these Articles and in the 
+case of an equality of votes the resolution shall fail. 
+38.2  No Shareholder shall be entitled to vote at a general meeting unless such 
+Shareholder has paid all the calls on all shares held by such Shareholder. 
+38.3  At any general meeting a resolution put to the vote of the meeting shall, in the first 
+instance, be voted upon by a show of hands and, subject to any rights or 
+restrictions for the time being lawfully attached to any class of shares and subject 
+to these Articles, every Shareholder present in person and every person holding a 
+valid proxy at such meeting shall be entitled to one vote and shall cast such vote 
+by raising his hand. 
+ 
+ 31 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 32]
+ 
+ 
+38.4  At any general meeting if an amendment is proposed to any resolution under 
+consideration and the chairperson of the meeting rules on whether or not the 
+proposed amendment is out of order, the proceedings on the substantive resolution 
+shall not be invalidated by any error in such ruling. 
+38.5  At any general meeting a declaration by the chairperson of the meeting that a 
+question proposed for consideration has, on a show of hands, been carried, or 
+carried unanimously, or by a particular majority, or lost, and an entry to that effect in 
+a book containing the minutes of the proceedings of the Company shall, subject to 
+these Articles, be conclusive evidence of that fact. 
+39.  Power to Demand a Vote on a Poll 
+39.1  A poll on a resolution may be demanded: 
+(a)  in advance of the general meeting where it is to be put to the vote, or 
+(b)  at a general meeting, either before a show of hands on that resolution or 
+immediately after the result of a show of hands on that resolution is declared. 
+39.2  A poll may be demanded by: 
+(a)  the chairman of the meeting; 
+(b)  the directors; 
+(c)  two or more persons having the right to vote on the resolution; or 
+(d)  a person or persons representing not less than one tenth of the total voting 
+rights of all the shareholders having the right to vote on the resolution. 
+39.3  A demand for a poll may be withdrawn if: 
+(a)  the poll has not yet been taken, and 
+(b)  the chairman of the meeting consents to the withdrawal. 
+39.4  Polls must be taken immediately and in such manner as the chairman of the 
+meeting directs. 
+ 
+ 32 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 33]
+ 
+ 
+39.5  Where a poll is demanded, subject to any rights or restrictions for the time being 
+lawfully attached to any class of shares, every person present at such meeting 
+shall have one vote for each share of which such person is the holder or for which 
+such person holds a proxy and such vote shall be counted by ballot as described 
+herein, or in the case of a general meeting at which one or more Shareholders are 
+present by telephone, electronic or other communication facilities or means, in 
+such manner as the chairperson of the meeting may direct and the result of such 
+poll shall be deemed to be the resolution of the meeting at which the poll was 
+demanded and shall replace any previous resolution upon the same matter which 
+has been the subject of a show of hands.  A person entitled to more than one vote 
+need not use all his votes or cast all the votes he uses in the same way. 
+39.6  Where a vote is taken by poll, each person physically present and entitled to vote 
+shall be furnished with a ballot paper on which such person shall record his vote in 
+such manner as shall be determined at the meeting having regard to the nature of 
+the question on which the vote is taken, and each ballot paper shall be signed or 
+initialled or otherwise marked so as to identify the voter and the registered holder in 
+the case of a proxy.  Each person present by telephone, electronic or other 
+communication facilities or means shall cast his vote in such manner as the 
+chairperson of the meeting shall direct.  At the conclusion of the poll, the ballot 
+papers and votes cast in accordance with such directions shall be examined and 
+counted by a committee appointed by the chairperson of the meeting for the 
+purpose and the result of the poll shall be declared by the chairperson of the 
+meeting. 
+ 
+ 33 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 34]
+ 
+ 
+40.  Instrument of Proxy 
+40.1  An instrument appointing a proxy shall be in writing or transmitted by electronic 
+mail in substantially the following form or such other form as the chairperson of the 
+meeting shall accept:  
+Proxy 
+PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - 
+FZCO (the "Company") 
+ 
+I/We, [insert names here], being a Shareholder of the Company with [number]  
+shares, HEREBY APPOINT [name] of [address] or failing him, [name] of [address] 
+to be my/our proxy to vote for me/us at the meeting of the Shareholders to be held 
+on [date] and at any adjournment thereof.  [Any restrictions on voting to be inserted 
+here]. 
+ 
+Signed this [date] 
+ 
+ 
+____________________________ 
+Shareholder(s) 
+40.2  The instrument of proxy shall be signed or, in the case of a transmission by 
+electronic mail, electronically signed in a manner acceptable to the chairperson of 
+the meeting, by the appointor or by the appointor’s attorney duly authorised in 
+writing, or if the appointor is a corporation, either under its seal or signed or, in the 
+case of a transmission by electronic mail, electronically signed in a manner 
+acceptable to the chairperson of the meeting, by a duly authorised officer or 
+attorney. 
+40.3  A Shareholder who is the holder of two or more shares may appoint more than one 
+proxy to represent him and vote on his behalf in respect of different shares. 
+40.4  The decision of the chairperson of any general meeting as to the validity of any 
+appointment of a proxy shall be final. 
+ 
+ 34 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 35]
+ 
+ 
+41.  Representation of Corporate Shareholder 
+41.1  A corporation which is a Shareholder may, by written instrument, authorise such 
+person or persons as it thinks fit to act as its representative at any meeting and any 
+person so authorised shall be entitled to exercise the same powers on behalf of the 
+corporation which such person represents as that corporation could exercise if it 
+were an individual Shareholder, and that Shareholder shall be deemed to be 
+present in person at any such meeting attended by its authorised representative or 
+representatives. 
+41.2  Notwithstanding the foregoing, the chairperson of the meeting may accept such 
+assurances as he thinks fit as to the right of any person to attend and vote at 
+general meetings on behalf of a corporation which is a Shareholder. 
+42  Adjournment of General Meeting 
+The chairperson of a general meeting may, with the consent of the Shareholders at any 
+general meeting at which a quorum is present, and shall if so directed by the meeting, 
+adjourn the meeting. Unless the meeting is adjourned to a specific date, place and time 
+announced at the meeting being adjourned, fresh notice of the date, place and time for 
+the resumption of the adjourned meeting shall be given to each Shareholder entitled to 
+attend and vote thereat, in accordance with these Articles. 
+43.  Written Resolutions 
+43.1  Subject to these Articles, anything which may be done by resolution of the 
+Company in general meeting or by resolution of a meeting of any class of the 
+Shareholders may be done without a meeting by written resolution in accordance 
+with this article. 
+43.2  A written resolution is passed when it is signed by (or in the case of a Shareholder 
+that is a corporation, on behalf of) all the Shareholders, or all the Shareholders of 
+the relevant class thereof, entitled to vote thereon and may be signed in as many 
+counterparts as may be necessary. 
+43.3  A resolution in writing made in accordance with this article is as valid as if it had 
+been passed by the Company in general meeting or by a meeting of the relevant 
+class of Shareholders, as the case may be, and any reference in any article to a 
+meeting at which a resolution is passed or to Shareholders voting in favour of a 
+resolution shall be construed accordingly. 
+43.4  A resolution in writing made in accordance with this article shall constitute minutes. 
+ 
+ 35 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 36]
+ 
+ 
+43.5  For the purposes of this article, the date of the resolution is the date when the 
+resolution is signed by (or in the case of a Shareholder that is a corporation, on 
+behalf of) the last Shareholder to sign and any reference in any article to the date 
+of passing of a resolution is, in relation to a resolution made in accordance with this 
+article, a reference to such date. 
+44.  Directors Attendance at General Meetings 
+The Directors shall be entitled to receive notice of, attend and be heard at any general 
+meeting. 
+DIRECTORS AND OFFICERS 
+45.  Election of Directors 
+45.1  Subject to these Articles, the Company may by Ordinary Resolution appoint any 
+person who is willing to act to be a Director, either to fill a vacancy or as an 
+additional Director, but so that the total number of Directors may not exceed any 
+maximum number fixed by or in accordance with these Articles. 
+45.2  Without prejudice to the power of the Company to appoint a person to be a Director 
+pursuant to these Articles, the Board may appoint a person who is willing to act as 
+a Director to fill a vacancy created by the death, resignation or removal of a 
+Director. A Director appointed in this way may hold office only until the dissolution 
+of the next annual general meeting after his appointment unless he is reappointed 
+during that meeting.  
+46.  Number of Directors 
+The Board shall consist of not less than one Director or such number in excess thereof as 
+the Company may from time to time by Ordinary Resolution determine. There shall be no 
+maximum number of Directors. 
+47.  Term of Office of Directors 
+An appointment of a Director may be on terms that the Director shall automatically retire 
+from office (unless he has sooner vacated office) at the next or a subsequent annual 
+general meeting or upon any specified event or after any specified period; but no such 
+term shall be implied in the absence of express provision. 
+ 
+ 36 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 37]
+ 
+ 
+48.  Alternate Directors 
+48.1  At any general meeting, the Shareholders may elect a person or persons to act as 
+a Director in the alternative to any one or more Directors or may authorise the 
+Board to appoint such Alternate Directors. 
+48.2  Unless the Shareholders otherwise resolve, any Director may appoint a person or 
+persons to act as a Director in the alternative to himself by written instrument and 
+notice of the name of the Alternate Director must be deposited with the Secretary.   
+48.3  Any person elected or appointed pursuant to this article shall have all the rights 
+and powers of the Director or Directors for whom such person is elected or 
+appointed in the alternative, provided that such person shall not be counted more 
+than once in determining whether or not a quorum is present. 
+48.4  An Alternate Director shall be entitled to receive notice of all Board meetings and to 
+attend and vote at any such meeting at which a Director for whom such Alternate 
+Director was appointed in the alternative is not personally present and generally to 
+perform at such meeting all the functions of such Director for whom such Alternate 
+Director was appointed. 
+48.5  An Alternate Director’s office shall terminate:  
+(a)  in the case of an alternate elected by the Shareholders: 
+i.  on the occurrence in relation to the Alternate Director of any event 
+which, if it occurred in relation to the Director for whom he was 
+elected to act, would result in the termination of that Director; or 
+ii.  if the Director for whom he was elected in the alternative ceases for 
+any reason to be a Director, provided that the alternate removed in 
+these circumstances may be re-appointed by the Board as an 
+alternate to the person appointed to fill the vacancy; and 
+ 
+ 37 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 38]
+ 
+ 
+(b)  in the case of an alternate appointed by a Director: 
+i.  on the occurrence in relation to the Alternate Director of any event 
+which, if it occurred in relation to his appointor, would result in the 
+termination of the appointor’s directorship; or  
+ii.  when the Alternate Director’s appointor revokes the appointment 
+by notice to the Company in writing specifying when the 
+appointment is to terminate; or 
+iii.  if the Alternate Director’s appointor ceases for any reason to be a 
+Director. 
+48.6  If an Alternate Director is himself a Director or attends a Board meeting as the 
+Alternate Director of more than one Director, his voting rights shall be cumulative. 
+48.7  Unless the Board determines otherwise, an Alternate Director may also represent 
+his appointor at meetings of any committee of the Board on which his appointor 
+serves; and the provisions of this article shall apply equally to such committee 
+meetings as to Board meetings. 
+48.8  Save as provided in these Articles an Alternate Director shall not, as such, have 
+any power to act as a Director or to represent his appointor and shall not be 
+deemed to be a Director for the purposes of these Articles. 
+49.  Removal of Directors 
+In addition to any power of removal conferred by the Law, the Company may by Ordinary 
+Resolution remove a Director before the expiry of his period of office (without prejudice to 
+a claim for damages for breach of contract or otherwise) and may (subject to these 
+Articles) by Ordinary Resolution appoint another person who is willing to act to be a 
+Director in his place.  
+50.  Vacancy in the Office of Director 
+The office of Director shall be vacated if the Director: 
+50.1  is removed from office by Ordinary Resolution pursuant to these Articles; 
+50.2  is prohibited by the Law from being a Director; 
+50.3  dies or becomes bankrupt, or makes any arrangement or composition with his 
+creditors generally; 
+50.4  is by virtue of any mental or physical disability, incapable of acting; or 
+50.5  resigns his office by giving notice to the Company. 
+ 
+ 38 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 39]
+ 
+ 
+51.  Remuneration and expenses of Directors 
+Unless otherwise decided by the Company by Ordinary Resolution, the Company shall 
+pay to the Directors (but not alternate Directors) for their services as Directors such 
+amount of aggregate fees as the Board decides. The aggregate fees shall be divided 
+among the Directors in such proportions as the Board decides or, if no decision is made, 
+equally. A fee payable to a Director pursuant to this article is distinct from any salary, 
+remuneration or other amount payable to him pursuant to other provisions of these 
+Articles or otherwise and accrues from day to day. The Directors shall receive payment of 
+all expenses properly incurred with the carrying out of their duties as Directors. 
+52.  Defect in Appointment 
+All acts done in good faith by the Board, any Director, a member of a committee appointed
+by the Board, any person to whom the Board may have delegated any of its powers, or 
+any person acting as a Director shall, notwithstanding that it be afterwards discovered that 
+there was some defect in the appointment of any Director or person acting as aforesaid, 
+or that he was, or any of them were, disqualified, be as valid as if every such person had 
+been duly appointed and was qualified to be a Director or act in the relevant capacity. 
+53.  Directors to Manage Business 
+The business of the Company shall be managed and conducted by the Board.  In 
+managing the business of the Company, the Board may exercise all such powers of the 
+Company as are not, by the Law or by these Articles, required to be exercised by the 
+Company in general meeting subject, nevertheless, to these Articles and the provisions of 
+the Law. 
+54.  Powers of the Board of Directors 
+54.1  Without limiting the generality of article 53, the Board may: 
+(a)  appoint, suspend, or remove any manager, secretary, clerk, agent or 
+employee of the Company and may fix their remuneration and determine 
+their duties; 
+(b)  exercise all the powers of the Company to borrow money and to mortgage or 
+charge or otherwise grant a security interest in its undertaking, property and 
+uncalled capital, or any part thereof, and may issue debentures, debenture 
+stock and other securities whether outright or as security for any debt, liability 
+or obligation of the Company or any third party; 
+ 
+ 39 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 40]
+ 
+ 
+(c)  appoint one or more Directors to the office of managing director or chief 
+executive officer of the Company, who shall, subject to the control of the 
+Board, supervise and administer all of the general business and affairs of the 
+Company; 
+(d)  appoint a person to act as manager of the Company’s day-to-day business 
+and may entrust to and confer upon such manager such powers and duties 
+as it deems appropriate for the transaction or conduct of such business; 
+(e)  by power of attorney, appoint any company, firm, person or body of persons, 
+whether nominated directly or indirectly by the Board, to be an attorney of the 
+Company for such purposes and with such powers, authorities and 
+discretions (not exceeding those vested in or exercisable by the Board) and 
+for such period and subject to such conditions as it may think fit and any 
+such power of attorney may contain such provisions for the protection and 
+convenience of persons dealing with any such attorney as the Board may 
+think fit and may also authorise any such attorney to sub-delegate all or any 
+of the powers, authorities and discretions so vested in the attorney; 
+(f)  procure that the Company pays all expenses incurred in promoting and 
+incorporating the Company; 
+(g)  delegate any of its powers (including the power to sub-delegate) to a 
+committee of one or more persons appointed by the Board and every such 
+committee shall conform to such directions as the Board shall impose on 
+them.  Subject to any directions or regulations made by the Board for this 
+purpose, the meetings and proceedings of any such committee shall be 
+governed by the provisions of these Articles regulating the meetings and 
+proceedings of the Board, including provisions for written resolutions; 
+(h)  delegate any of its powers (including the power to sub-delegate) to any 
+person on such terms and in such manner as the Board may see fit; 
+(i)  present any petition and make any application in connection with the 
+liquidation or reorganisation of the Company; 
+(j)  in connection with the issue of any share, pay such commission and 
+brokerage as may be permitted by law; and 
+(k)  authorise any company, firm, person or body of persons to act on behalf of 
+the Company for any specific purpose and in connection therewith to execute 
+any deed, agreement, document or instrument on behalf of the Company. 
+ 
+ 40 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 41]
+ 
+ 
+(l)  open, operate and close bank accounts in the name of the Company, and 
+whether in the UAE or elsewhere, accept and apply for any and all loans and 
+credit facilities offered by any bank, negotiate, conclude and sign any 
+agreements, documents, applications, instructions, covenants and 
+undertakings for any such loans and credit facilities and any other 
+subsequent arrangements or amendments with any bank, and execute and 
+sign such documents, agreements and undertakings as may be required by 
+any bank. 
+55.  Register of Directors and Officers 
+55.1  The Board shall cause to be kept in one or more books at the registered office of 
+the Company a Register of Directors and Officers in accordance with the Law and 
+shall enter therein the following particulars with respect to each Director and 
+Officer: 
+(a)  first name and surname; and 
+(b)  address. 
+55.2  The Board shall, within the period of thirty days from the occurrence of: 
+(a)  any change among its Directors and Officers; or 
+(b)  any change in the particulars contained in the Register of Directors and 
+Officers, 
+cause to be entered on the Register of Directors and Officers the particulars 
+of such change and the date on which such change occurred, and shall notify
+the Registrar of Companies of any such change that takes place. 
+56.  Officers 
+The Officers shall consist of a Secretary and such additional Officers as the Board may 
+determine all of whom shall be deemed to be Officers for the purposes of these Articles. 
+57.  Appointment and Removal of Officers 
+The Secretary (and additional Officers, if any) shall be appointed and removed by the 
+Board from time to time. 
+ 
+ 41 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 42]
+ 
+ 
+58.  Duties of Officers 
+The Officers shall have such powers and perform such duties in the management, 
+business and affairs of the Company as may be delegated to them by the Board from time 
+to time. 
+59.  Remuneration of Officers 
+Unless otherwise decided by the Company by Ordinary Resolution, the Company shall 
+pay to the Officers for their services such amount of fees as the Board decides. 
+60.  Conflicts of Interest 
+60.1  If a proposed decision of the directors is concerned with an actual or proposed 
+transaction or arrangement with the company in which a director is interested, that 
+director is not to be counted as participating in the decision-making process for 
+quorum or voting purposes. 
+60.2  But if article 60.3 applies, a director who is interested in an actual or proposed 
+transaction or arrangement with the company is to be counted as participating in 
+the decision-making process for quorum and voting purposes. 
+60.3  This article applies when: 
+(a)  the company by ordinary resolution disapplies the provision of the Articles 
+which would otherwise prevent a director from being counted as participating 
+in the decision-making process; 
+(b)  the director’s interest cannot reasonably be regarded as likely to give rise to 
+a conflict of interest; or 
+(c)  the director’s conflict of interest arises from a permitted cause. 
+ 
+ 42 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 43]
+ 
+ 
+60.4  For the purposes of this article, the following are permitted causes: 
+(a)  a guarantee given, or to be given, by or to a director in respect of an 
+obligation incurred by or on behalf of the company or any of its subsidiaries; 
+(b)  subscription, or an agreement to subscribe, for shares or other securities of 
+the company or any of its subsidiaries, or to underwrite, sub-underwrite, or 
+guarantee subscription for any such shares or securities; and 
+(c)  arrangements pursuant to which benefits are made available to employees 
+and directors or former employees and directors of the company or any of its 
+subsidiaries which do not provide special benefits for directors or former 
+directors. 
+ 
+60.5  For the purposes of this article, references to proposed decisions and decision-
+making processes include any directors’ meeting or part of a directors’ meeting. 
+60.6  Subject to article 60.7, if a question arises at a meeting of directors or of a 
+committee of directors as to the right of a director to participate in the meeting (or 
+part of the meeting) for voting or quorum purposes, the question may, before the 
+conclusion of the meeting, be referred to the chairman whose ruling in relation to 
+any director other than the chairman is to be final and conclusive. 
+60.7  If any question as to the right to participate in the meeting (or part of the meeting) 
+should arise in respect of the chairman, the question is to be decided by a decision 
+of the directors at that meeting, for which purpose the chairman is not to be 
+counted as participating in the meeting (or that part of the meeting) for voting or 
+quorum purposes. 
+ 
+ 43 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 44]
+ 
+ 
+61.  Indemnification and Exculpation of Directors and Officers 
+61.1  The Directors, Secretary and other Officers (such term to include any person 
+appointed to any committee by the Board) acting in relation to any of the affairs of 
+the Company or any subsidiary thereof, and the liquidator or trustees (if any) acting 
+in relation to any of the affairs of the Company or any subsidiary thereof and every 
+one of them (whether for the time being or formerly) and their heirs, executors, 
+administrators and personal representatives (each an “indemnified party”) shall be 
+indemnified and secured harmless out of the assets of the Company from and 
+against all direct actions, costs, charges, losses, damages and expenses which 
+they or any of them shall or may incur or sustain by or by reason of any act done, 
+concurred in or omitted in or about the execution of their duty, or supposed duty, or 
+in their respective offices or trusts, and no indemnified party shall be answerable 
+for the acts, receipts, neglects or defaults of the others of them or for joining in any 
+receipts for the sake of conformity, or for any bankers or other persons with whom 
+any monies or effects belonging to the Company shall or may be lodged or 
+deposited for safe custody, or for insufficiency or deficiency of any security upon 
+which any monies of or belonging to the Company shall be placed out on or 
+invested, or for any other loss, misfortune or damage which may happen in the 
+execution of their respective offices or trusts, or in relation thereto, PROVIDED 
+THAT this indemnity shall not extend to any matter in respect of any fraud or 
+dishonesty in relation to the Company which may attach to any of the indemnified 
+parties.  Each Shareholder agrees to waive any claim or right of action such 
+Shareholder might have, whether individually or by or in the right of the Company, 
+against any Director or Officer on account of any action taken by such Director or 
+Officer, or the failure of such Director or Officer to take any action in the 
+performance of his duties with or for the Company or any subsidiary thereof, 
+PROVIDED THAT such waiver shall not extend to any matter in respect of any 
+fraud or dishonesty in relation to the Company which may attach to such Director 
+or Officer. 
+61.2  The Company may purchase and maintain insurance for the benefit of any Director 
+or Officer against any liability incurred by him in his capacity as a Director or Officer 
+or indemnifying such Director or Officer in respect of any loss arising or liability 
+attaching to him by virtue of any rule of law in respect of any negligence, default, 
+breach of duty or breach of trust of which the Director or Officer may be guilty in 
+relation to the Company or any subsidiary thereof. 
+ 
+ 44 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 45]
+ 
+ 
+62.  Board Meetings 
+The Board may meet for the transaction of business, adjourn and otherwise regulate its 
+meetings as it sees fit.  A resolution put to the vote at a Board meeting shall be carried by 
+the affirmative votes of a majority of the votes cast and in the case of an equality of votes 
+the resolution shall fail. 
+63.  Notice of Board Meetings 
+A Director may, and the Secretary on the requisition of a Director shall, at any time 
+summon a Board meeting.  Notice of a Board meeting shall be deemed to be duly given to
+a Director if it is given to such Director verbally (including in person or by telephone) or 
+otherwise communicated or sent to such Director by post, electronic means or other mode 
+of representing words in a visible form at such Director's last known address or in 
+accordance with any other instructions given by such Director to the Company for this 
+purpose. 
+64.  Electronic Participation in Meetings 
+Directors may participate in any meeting by such telephonic, virtual, electronic or other 
+communication facilities or means as permit all persons participating in the meeting to 
+communicate with each other simultaneously and instantaneously, and participation in 
+such a meeting shall constitute presence in person at such meeting. 
+65.  Representation of Director 
+65.1  A Director which is a corporation may, by written instrument, authorise such person 
+or persons as it thinks fit to act as its representative at any meeting and any person 
+so authorised shall be entitled to exercise the same powers on behalf of the 
+corporation which such person represents as that corporation could exercise if it 
+were an individual Director, and that Director shall be deemed to be present in 
+person at any such meeting attended by its authorised representative or 
+representatives. 
+65.2  Notwithstanding the foregoing, the chairperson of the meeting may accept such 
+assurances as he thinks fit as to the right of any person to attend and vote at Board 
+meetings on behalf of a corporation which is a Director. 
+ 
+ 45 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 46]
+ 
+ 
+65.3  A Director who is not present at a Board meeting, and whose Alternate Director (if 
+any) is not present at the meeting, may be represented at the meeting by a proxy 
+duly appointed, in which event the presence and vote of the proxy shall be deemed 
+to be that of the Director. All the provisions of these Articles regulating the 
+appointment of proxies by Shareholders shall apply equally to the appointment of 
+proxies by Directors. 
+ 
+66.  Quorum at Board Meetings 
+The quorum necessary for the transaction of business at a Board meeting shall be two 
+Directors, provided that if there is only one Director for the time being in office the quorum 
+shall be one. 
+67.  Board to Continue in the Event of Vacancy 
+The Board may act notwithstanding any vacancy in its number. 
+68.  Chairperson to Preside 
+A chairperson of the meeting shall be appointed or elected by the Directors present at the 
+meeting. The chairperson shall chair the meeting. 
+69.  Written Resolutions 
+69.1  Anything which may be done by resolution of the Directors may, without a meeting 
+and without any previous notice being required, be done by written resolution in 
+accordance with this article.  For the purposes of this article only, "the Directors" 
+shall not include an Alternate Director. 
+69.2  A written resolution may be signed by (or in the case of a Director that is a 
+corporation, on behalf of) all the Directors in as many counterparts as may be 
+necessary. 
+69.3  A written resolution made in accordance with this article is as valid as if it had been 
+passed by the Directors in a Directors’ meeting, and any reference in any article to 
+a meeting at which a resolution is passed or to Directors voting in favour of a 
+resolution shall be construed accordingly. 
+69.4  A resolution in writing made in accordance with this article shall constitute minutes. 
+69.5  For the purposes of this article, the date of the resolution is the date when the 
+resolution is signed by (or in the case of a Director that is a corporation, on behalf 
+of) the last Director to sign and any reference in any article to the date of passing 
+of a resolution is, in relation to a resolution made in accordance with this article, a 
+reference to such date.  
+ 
+ 46 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 47]
+ 
+70.  Validity of Prior Acts of the Board 
+No regulation or alteration to these Articles made by the Company in general meeting 
+shall invalidate any prior act of the Board which would have been valid if that regulation or 
+alteration had not been made. 
+CORPORATE RECORDS 
+71.  Minutes 
+The Board shall cause minutes to be duly entered in books provided for the purpose: 
+71.1  of all elections and appointments of Officers; 
+71.2  of the names of the Directors present at each Board meeting and of any committee 
+appointed by the Board; and 
+71.3  of all resolutions and proceedings of general meetings of the Shareholders, Board 
+meetings, meetings of managers and meetings of committees appointed by the 
+Board, including the names of the Directors present at each meeting. 
+72.  Register of Charges 
+The Board shall cause to be kept the Register of Charges if required by the Law. 
+73.  Form and Use of Stamp 
+73.1  The Company shall adopt a Stamp, which shall bear the name of the Company in 
+legible characters in English and in Arabic.  The Board may adopt one or more 
+duplicate Stamps for use in or outside the United Arab Emirates and, if the Board 
+thinks fit, a duplicate Stamp may bear on its face the name of the country, territory, 
+district or place where it is to be issued. 
+73.2  The Stamp shall only be used by the authority of the Board or of a committee of the 
+Board authorised by the Board in that behalf and, until otherwise determined by the 
+Board, the Stampshall be affixed in the presence of a Director or the Secretary or 
+an assistant secretary or some other person authorised for this purpose by the 
+Board or the committee of the Board. 
+ 
+ 47 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 48]
+ 
+ 
+ACCOUNTS 
+74.  Books of Account 
+74.1  The Board shall cause to be kept proper books of account including, where 
+applicable, material underlying documentation including contracts and invoices, 
+and with respect to: 
+(a)  all sums of money received and expended by the Company and the matters 
+in respect of which the receipt and expenditure takes place; 
+(b)  all sales and purchases of goods by the Company; and 
+(c)  all assets and liabilities of the Company. 
+74.2  Such books of account shall be kept and proper books of account shall not be 
+deemed to be kept with respect to the matters aforesaid if there are not kept, at 
+such place as the Board thinks fit, such books as are necessary to give a true and 
+fair view of the state of the Company’s affairs and to explain its transactions. 
+74.3  Such books of account shall be retained for a minimum period of six years from the 
+date on which they are prepared. 
+74.4  Shareholders shall have the right of inspecting any account or book or document of 
+the Company. 
+75.  Financial Year End 
+The financial year end of the Company shall be 31 December in each year but, subject to 
+any direction of the Company in general meeting, the Board may from time to time 
+prescribe some other period to be the financial year, provided that the Board may not 
+without the sanction of an Ordinary Resolution prescribe or allow any financial year longer 
+than eighteen months. 
+ 
+ 48 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 49]
+ 
+ 
+AUDITS 
+76.  Appointment of Auditors 
+76.1  The Board may appoint or remove an Auditor by a resolution of the Directors and, 
+upon appointment, to hold office for such period as the Directors may determine 
+unless the Shareholders, in general meeting, have appointed or removed an 
+Auditor and, upon appointment, to hold office for such period as the Shareholders 
+may determine.   
+76.2  The Auditor may be a Shareholder but not a Director, Officer or employee of the 
+Company and shall, during his continuance in office, be eligible to act as an Auditor 
+of the Company. 
+ 
+ 
+77.  Remuneration of Auditors 
+77.1  The remuneration of an Auditor appointed by the Shareholders shall be fixed by 
+the Company by Ordinary Resolution in general meeting. 
+77.2  The remuneration of an Auditor appointed by the Board in accordance with these 
+Articles shall be fixed by the Board. 
+78.  Duties of Auditor 
+The Auditor shall make a report to the Shareholders on the accounts examined by him 
+and on every set of financial statements laid before the Company in general meeting, or 
+circulated to Shareholders, pursuant to this article during the Auditor’s tenure of office. 
+79.  Access to Records 
+79.1  The Auditor shall at all reasonable times have access to the Company’s books, 
+accounts and vouchers and shall be entitled to require from the Company’s 
+Directors and Officers such information and explanations as the Auditor thinks 
+necessary for the performance of the Auditor’s duties and, if the Auditor fails to 
+obtain all the information and explanations which, to the best of his knowledge and 
+belief, are necessary for the purposes of their audit, he shall state that fact in his 
+report to the Shareholders. 
+79.2  The Auditor shall be entitled to attend any general meeting at which any financial 
+statements which have been examined or reported on by him are to be laid before 
+the Company and to make any statement or explanation he may desire with 
+respect to the financial statements. 
+ 
+ 49 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 50]
+ 
+ 
+VOLUNTARY WINDING-UP AND DISSOLUTION 
+80.  Winding-Up 
+80.1  The Company may be voluntarily wound-up by a Special Resolution. 
+80.2  If the Company shall be wound up the liquidator may, with the sanction of a Special 
+Resolution, divide amongst the Shareholders in specie or in kind the whole or any 
+part of the assets of the Company (whether they shall consist of property of the 
+same kind or not) and may, for such purpose, set such value as he deems fair 
+upon any property to be divided as aforesaid and may determine how such division 
+shall be carried out as between the Shareholders or different classes of 
+Shareholders.  The liquidator may, with the like sanction, vest the whole or any part 
+of such assets in the trustees upon such trusts for the benefit of the Shareholders 
+as the liquidator shall think fit, but so that no Shareholder shall be compelled to 
+accept any shares or other securities or assets whereon there is any liability. 
+CHANGES TO CONSTITUTION 
+81.  Changes to Articles 
+Subject to the Law and to the conditions contained in its memorandum, the Company 
+may, by Special Resolution, alter or add to its Articles. 
+82.  Changes to the Memorandum of Association 
+Subject to the Law and these Articles, the Company may from time to time by Special 
+Resolution alter its Memorandum of Association with respect to any objects, powers or 
+other matters specified therein. 
+83.  Redomiciliation 
+The Board may exercise all the powers of the Company to transfer by way of continuation 
+or redomiciliation the Company to a named country or jurisdiction outside Dubai 
+Integrated Economic Zone pursuant to the Law.  
+ 
+[The remainder of this page is intentionally blank] 
+ 
+ 50 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM
+[PAGE 51]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 51 
+Zoho Sign Document ID: 29855A77-FGCRXQHSXOWNO1RDIIHGWXMNB3HERGGDL_ZTEPEYADM

@@ -1,0 +1,186 @@
+<PARSED TEXT FOR PAGE: 1 / 4>
+
+                            CONFIDENTIALITY AGREEMENT
+This Confidentiality Agreement ("Agreement") is entered into as of the date of the last signature below (the
+"Effective Date") by and among (1) Mikhail Kozin, an individual and citizen of the Russian Federation
+residing at Flat 503, Plot 70, Sharjah Main City, United Arab Emirates ("Kozin"); (2) PBK
+ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO, a free-zone
+company licensed by the Dubai Integrated Economic Zones Authority under License No. 38769, with its
+registered office at IFZA Business Park, DDP, P.O. Box 342001, Dubai, United Arab Emirates ("PBK";
+Kozin and PBK each a "Discloser" and together the "Disclosers"); and (3) Michael Bartholomew,
+Attorney at Law, Bartholomew Law PC, 5842 W Timber Ridge Lane, Highland, Utah 84003, United
+States of America ("Recipient").
+
+A. Purpose.
+Recipient desires to receive certain Confidential Information from the Disclosers solely for the purpose of
+(i) evaluating the Disclosers' patent portfolio and related ownership documents in order to provide a scope
+and fee assessment, and (ii) if the parties subsequently enter into a written engagement agreement,
+performing the legal services described in that engagement, including the preparation, filing, recordation
+and prosecution of patent applications and related instruments before the United States Patent and
+Trademark Office ("USPTO"), the World Intellectual Property Organization ("WIPO") and other patent
+Offices (together, the "Purpose"). Recipient will not use the Confidential Information for any other purpose.
+This Agreement does not itself create an attorney-client engagement; any engagement will be set out in a
+separate written agreement.
+
+B. Definition of Confidential Information.
+"Confidential Information" means any non-public information disclosed by or on behalf of either Discloser
+to Recipient (whether disclosed before or after the Effective Date, including the review package transmitted
+in five parts in October 2026), in any form (oral, written, visual, electronic, tangible or otherwise), including
+without limitation: unpublished patent applications and their specifications, claims, drawings, filing records
+and correspondence; inventions (patentable or not); business, financial, product, technical, operational,
+customer/vendor, pricing, marketing, plans/roadmaps, designs, source code/object code, know-how, data,
+processes and trade secrets; corporate, ownership and settlement documents; and any notes, summaries,
+analyses, compilations or other materials prepared by Recipient that contain or reflect such information.
+Confidential Information includes information that (i) is marked or designated confidential, (ii) is disclosed
+under circumstances reasonably indicating it is confidential, or (iii) by its nature should reasonably be
+understood to be confidential. Information disclosed by either Discloser is Confidential Information of both
+Disclosers, and either Discloser may enforce this Agreement.
+
+1. Use Restrictions.
+Recipient shall use Confidential Information only for the Purpose and for no other purpose, including
+without limitation for Recipient's own benefit or any competitive or commercial use. Recipient shall not
+reverse engineer, decompile, disassemble or otherwise attempt to derive the composition, underlying ideas,
+algorithms, structure or operation of any prototypes, samples, software, models or other materials provided
+as Confidential Information, except to the extent necessary for the Purpose or expressly authorized in
+writing by a Discloser.
+
+
+<PARSED TEXT FOR PAGE: 2 / 4>
+
+2. Non-Disclosure; Standard of Care.
+Recipient shall protect and keep confidential all Confidential Information and shall not disclose it to any
+third party except as permitted under Paragraphs 3, 4 and 6. Recipient shall use at least the same degree of
+care it uses to protect its own confidential information of similar importance, and in any event no less than
+the care required of a lawyer with respect to client confidences under the rules of professional conduct
+applicable to Recipient.
+
+3. Permitted Disclosures to Representatives.
+(a) Recipient may disclose Confidential Information to its employees, contract staff and professional
+advisors (together, "Representatives") who (i) have a bona fide need to know for the Purpose, and (ii) are
+bound by written confidentiality obligations at least as protective as this Agreement. Recipient is
+responsible for any breach of this Agreement by its Representatives.
+
+(b) Recipient shall not disclose Confidential Information to any outside associate, including any foreign
+patent agent or attorney, patent drawing service, translator or search provider ("Outside Associate"), unless
+Kozin has first approved in writing (email is sufficient) the identity of the Outside Associate and the scope
+of the disclosure. Each approved Outside Associate shall be bound by written confidentiality obligations at
+least as protective as this Agreement before any disclosure is made.
+
+4. Professional Obligations; Authorized Filings.
+(a) This Agreement supplements, and does not limit, Recipient's duties of confidentiality to the Disclosers
+as a prospective or actual client under the rules of professional conduct applicable to Recipient, which
+continue to apply regardless of the term of this Agreement.
+
+(b) Disclosures made by Recipient to the USPTO, WIPO, any receiving Office, International Searching
+Authority or other patent Office, or to a court or governmental authority, in the course of preparing, filing,
+recording or prosecuting applications or instruments that a Discloser has authorized in writing, including
+disclosures required by Recipient's duty of candor and good faith to those Offices, are not breaches of this
+Agreement.
+
+5. Exclusions.
+Recipient's obligations under this Agreement do not apply to information that Recipient can prove by
+competent written records: (a) is or becomes generally available to the public through no breach of this
+Agreement by Recipient or its Representatives (including by publication of a patent application by a patent
+Office); (b) was lawfully known to Recipient without restriction before disclosure by a Discloser; (c) is
+rightfully received by Recipient from a third party without breach of any duty of confidentiality owed to a
+Discloser; or (d) was independently developed by Recipient without use of or reference to the Disclosers'
+Confidential Information.
+
+6. Compelled Disclosure.
+If Recipient (or a Representative) is required by law, regulation, subpoena, court order or governmental
+demand to disclose any Confidential Information, Recipient shall (to the extent legally permitted) provide
+the Disclosers prompt written notice and reasonably cooperate (at the Disclosers' expense) in seeking a
+protective order or other remedy. If disclosure is nonetheless required, Recipient will disclose only the
+portion legally required and will use reasonable efforts to ensure confidential treatment.
+
+
+<PARSED TEXT FOR PAGE: 3 / 4>
+
+7. No License; Ownership.
+All Confidential Information remains the exclusive property of the Discloser that owns it. Nothing in this
+Agreement grants Recipient any rights, by license or otherwise, in or to the Disclosers' Confidential
+Information or intellectual property, except the limited right to use the Confidential Information solely for
+the Purpose. Nothing in this Agreement determines or affects ownership of any patent application or
+invention as between Kozin and PBK.
+
+8. No Obligation; No Warranty.
+Nothing in this Agreement obligates any party to proceed with any engagement, transaction or relationship,
+and receipt of Confidential Information does not authorize Recipient to undertake billable work, filings or
+recordations absent a separate written engagement. All Confidential Information is provided "AS IS"
+without any representation or warranty, express or implied, including as to accuracy or completeness.
+
+9. Return or Destruction.
+Upon a Discloser's written request, or upon termination of discussions without an engagement, Recipient
+shall promptly return or destroy all Confidential Information (including all copies and derivative materials)
+and certify in writing upon request that it has done so; provided that Recipient may retain (i) one archival
+copy and (ii) such copies as are required to be kept under the record-retention, trust-accounting and
+professional-conduct rules applicable to Recipient, in each case subject to the continuing confidentiality
+obligations of this Agreement.
+
+10. Term; Survival.
+This Agreement begins on the Effective Date. Recipient's confidentiality and restricted-use obligations
+continue for five (5) years from the last disclosure of Confidential Information; however, as to information
+qualifying as a trade secret under applicable law, such obligations continue for so long as the information
+remains a trade secret, and Recipient's professional duties under Paragraph 4(a) continue for as long as
+those rules require.
+
+11. Remedies.
+Recipient acknowledges that unauthorized use or disclosure of Confidential Information may cause
+irreparable harm for which monetary damages may be inadequate. Each Discloser is entitled to seek
+injunctive or equitable relief (without posting bond or proving actual damages where permitted), in addition
+to any other remedies available at law or in equity.
+
+12. Governing Law; Venue.
+This Agreement is governed by the laws of the State of Utah, United States of America, without regard to
+its conflict-of-laws rules. The parties consent to the exclusive jurisdiction and venue of the state and federal
+courts located in Utah County, Utah, for any dispute arising out of or relating to this Agreement, provided
+that a Discloser may seek injunctive relief in any court of competent jurisdiction.
+
+13. Assignment.
+Recipient may not assign or transfer this Agreement (by operation of law or otherwise) without the
+Disclosers' prior written consent, and any attempted assignment in violation of this Paragraph is void. Either
+Discloser may assign this Agreement to a successor in interest to the Confidential Information, including
+to the other Discloser.
+
+
+<PARSED TEXT FOR PAGE: 4 / 4>
+
+14. Severability.
+If any provision of this Agreement is held invalid or unenforceable, the remaining provisions remain in full
+force and effect, and the invalid provision will be enforced to the maximum extent permitted.
+
+15. Entire Agreement; Amendment; Counterparts; Language.
+This Agreement is the entire agreement among the parties regarding its subject matter and supersedes all
+prior or contemporaneous understandings on that subject; it does not supersede any engagement agreement
+subsequently signed, which will govern the legal services. Any amendment must be in writing and signed
+by all parties. This Agreement may be executed in counterparts and by electronic signature, each of which
+is deemed an original. This Agreement is made in English; any translation is for convenience only and the
+English text controls.
+
+AGREED AND ACCEPTED:
+
+DISCLOSER 1 — MIKHAIL KOZIN (individually)
+Signature: ________________________________
+Name: Mikhail Kozin
+Address: Flat 503, Plot 70, Sharjah Main City, United Arab Emirates
+Email: kmd379@gmail.com
+Date: ____________________
+
+
+DISCLOSER 2 — PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS
+MANAGEMENT - FZCO
+By: ________________________________
+Name: Mikhail Kozin
+Title: Manager / Director (signing for the company, under License No. 38769)
+Address: IFZA Business Park, DDP, P.O. Box 342001, Dubai, United Arab Emirates
+Date: ____________________
+
+
+RECIPIENT — MICHAEL BARTHOLOMEW, ATTORNEY AT LAW
+Signature: /Michael Bartholomew/
+Name: Michael Bartholomew
+Title: Attorney at Law, USPTO Reg. No. 60,225
+Firm: Bartholomew Law PC
+Address: 5842 W Timber Ridge Lane, Highland, Utah 84003 — Office 385.230.5310
+Date: 10/23/2026
+

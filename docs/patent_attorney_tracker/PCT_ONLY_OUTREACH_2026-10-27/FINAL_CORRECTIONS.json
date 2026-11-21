@@ -1,0 +1,131 @@
+{
+  "corrections": [
+    {
+      "key": "01_John_Moetteli",
+      "result": {
+        "id": "1a17d5c0d5f2c0f4",
+        "thread_id": "1a16838038a54c20",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "02_Scott_Polk",
+      "result": {
+        "id": "1a17d5c6e222cec5",
+        "thread_id": "1a16761e9a1e0385",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "03_Ken_Emanuelson",
+      "result": {
+        "id": "1a17d5c7b570edaa",
+        "thread_id": "1a15f6dfe860e30f",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "04_Niq_Howard",
+      "result": {
+        "id": "1a17d5c8f2749d9b",
+        "thread_id": "1a1733085364a375",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "09_Latscha",
+      "result": {
+        "id": "1a17d5ca066763a7",
+        "thread_id": "1a1554f8feedda55",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    }
+  ],
+  "checks": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "01_John_Moetteli",
+        "id": "1a17d5c0d5f2c0f4",
+        "sent": true,
+        "clean": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "02_Scott_Polk",
+        "id": "1a17d5c6e222cec5",
+        "sent": true,
+        "clean": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "03_Ken_Emanuelson",
+        "id": "1a17d5c7b570edaa",
+        "sent": true,
+        "clean": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "04_Niq_Howard",
+        "id": "1a17d5c8f2749d9b",
+        "sent": true,
+        "clean": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "09_Latscha",
+        "id": "1a17d5ca066763a7",
+        "sent": true,
+        "clean": false
+      }
+    }
+  ]
+}

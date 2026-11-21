@@ -1,0 +1,21 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import crypto from 'node:crypto';
+const root='C:/Users/kmd37/Projects/vird';
+const data=JSON.parse(await fs.readFile(root+'/docs/patent_attorney_tracker/data.json','utf8'));
+const canvas='C:/Users/kmd37/.cursor/projects/c-Users-kmd37-Projects-vird/canvases/patent-attorney-tracker.canvas.tsx';
+let c=await fs.readFile(canvas,'utf8');
+c=c.replace(/const DATA=.*;\r?\nexport default/,()=> 'const DATA='+JSON.stringify(data)+';\nexport default');
+c=c.replace('["Реестр","Журнал писем","Финансы"]','["Реестр","Единые вопросы","Журнал писем","Финансы"]');
+if(!c.includes('tab==="Единые вопросы"'))c=c.replace('{events.length>0&&tab===',`{tab==="Единые вопросы"&&<><Text>NPPA №2 добавлена в проекты писем. Не отправлено. Цель ответа и отбора — 22 октября 2026. Сведения ниже получены до расширения задания; они не означают согласия на NPPA №2.</Text><Table striped stickyHeader headers={["Компания",...DATA.questionnaire.questions.map((q,i)=>String(i+1)+". "+q),"Стоимость NPPA2"]} rows={rows.filter(r=>r.questionnaire).map(r=>[cell(r.name),...r.questionnaire.map(cell),cell(r.nppa2Quote)])}/></>}
+{events.length>0&&tab===`);
+c=c.replace('NPPA №2 добавлена в проекты писем. Не отправлено.','Отправлены 10 региональных запросов: РФ — российским, США — американским; PCT отдельной опцией.');
+await fs.writeFile(canvas,c);
+const dest='C:/Start-up/NPPA2_Outreach_2026-10-21';await fs.mkdir(dest,{recursive:true});
+for(const f of await fs.readdir(root+'/docs/patent_attorney_tracker/NPPA2_Outreach_2026-10-21'))await fs.cp(root+'/docs/patent_attorney_tracker/NPPA2_Outreach_2026-10-21/'+f,dest+'/'+f,{recursive:true});
+const src=root+'/outputs/patent_tracker/PATENT_ATTORNEYS_REGISTER_RU.xlsx',target='C:/Start-up/PATENT_ATTORNEYS_REGISTER_RU.xlsx';
+await fs.copyFile(target,dest+'/REGISTER_before_NPPA2.xlsx').catch(e=>{if(e.code!=='ENOENT')throw e;});
+await fs.copyFile(src,target);await fs.copyFile(canvas,dest+'/patent-attorney-tracker.canvas.tsx');await fs.writeFile(dest+'/data.json',JSON.stringify(data,null,2));
+const hash=async p=>crypto.createHash('sha256').update(await fs.readFile(p)).digest('hex');
+if(await hash(src)!==await hash(target))throw Error('Copy mismatch');
+console.log('Verified copy: '+target+'; letters: '+dest);

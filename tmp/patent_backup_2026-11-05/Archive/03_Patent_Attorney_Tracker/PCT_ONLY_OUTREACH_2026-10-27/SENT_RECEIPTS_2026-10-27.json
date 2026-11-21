@@ -1,0 +1,430 @@
+{
+  "date": "2026-10-27",
+  "receipts": [
+    {
+      "key": "01_John_Moetteli",
+      "to": "moetteli@davincipartners.com",
+      "language": "EN",
+      "result": {
+        "id": "1a17d597a889c4c6",
+        "thread_id": "1a16838038a54c20",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "02_Scott_Polk",
+      "to": "6adafa577e44923f53980189-6adafa577344950001c8ee3c@msgs.upcounsel.com",
+      "language": "EN",
+      "result": {
+        "id": "1a17d598d8099177",
+        "thread_id": "1a16761e9a1e0385",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "03_Ken_Emanuelson",
+      "to": "6ad8f1244c02967b16232afb-6ad8f1247344950001c8e25b@msgs.upcounsel.com",
+      "language": "EN",
+      "result": {
+        "id": "1a17d599863e7ccd",
+        "thread_id": "1a15f6dfe860e30f",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "04_Niq_Howard",
+      "to": "6ade002093195a03ac38c347-6ade00207344950001c8f74d@msgs.upcounsel.com",
+      "language": "EN",
+      "result": {
+        "id": "1a17d59a8046e186",
+        "thread_id": "1a1733085364a375",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "05_Zuykov",
+      "to": "krasnyanskaya@zuykov.com",
+      "language": "RU",
+      "result": {
+        "id": "1a17d5a6efdba933",
+        "thread_id": "1a177cf33d0f6eab",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "06_PATENTUS",
+      "to": "n.genzer@patentus.ru",
+      "language": "RU",
+      "result": {
+        "id": "1a17d5a7e476c051",
+        "thread_id": "1a15e1404e984422",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "07_Sojuzpatent",
+      "to": "info@sojuzpatent.com",
+      "language": "RU",
+      "result": {
+        "id": "1a17d5a8b8b2291c",
+        "thread_id": "1a15dc17d823ce59",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "08_ARS_Patent",
+      "to": "office@ars-patent.com",
+      "language": "RU",
+      "result": {
+        "id": "1a17d5a9b90b4ea3",
+        "thread_id": "1a1530a49d719c3b",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "09_Latscha",
+      "to": "latscha@lspartner.ch",
+      "language": "EN",
+      "result": {
+        "id": "1a17d5aae4f8d65c",
+        "thread_id": "1a1554f8feedda55",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "10_Keller",
+      "to": "j.hoppler@kellerschneider.com",
+      "language": "EN",
+      "result": {
+        "id": "1a17d5aeefbb75de",
+        "thread_id": "1a152ff6a852a123",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "11_Gorodissky",
+      "to": "pat@gorodissky.com",
+      "language": "RU",
+      "result": {
+        "id": "1a17d5afc6c6451d",
+        "thread_id": "1a1530a0702b330a",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "12_Patent_Boutique",
+      "to": "chris.rodger@patent.boutique",
+      "language": "EN",
+      "result": {
+        "id": "1a17d5b11ada544b",
+        "thread_id": "1a1554fc54872649",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "13_Katzarov",
+      "to": "gilles.pfend@katzarov.com",
+      "language": "EN",
+      "result": {
+        "id": "1a17d5b1fecad783",
+        "thread_id": "1a150e192c29b343",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "14_Anthony",
+      "to": "awhittington@ideaparlorlaw.com",
+      "language": "EN",
+      "result": {
+        "id": "1a17d5b30c8704f4",
+        "thread_id": "1a164a9767d138f5",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "key": "15_Saam",
+      "to": "saam@patentattorneys.ch",
+      "language": "EN",
+      "result": {
+        "id": "1a17d5b3e12a073c",
+        "thread_id": "1a150e15238a55de",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    }
+  ],
+  "checks": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "01_John_Moetteli",
+        "id": "1a17d597a889c4c6",
+        "sent": true,
+        "replacementChars": 24,
+        "to": "moetteli@davincipartners.com"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "02_Scott_Polk",
+        "id": "1a17d598d8099177",
+        "sent": true,
+        "replacementChars": 24,
+        "to": "6adafa577e44923f53980189-6adafa577344950001c8ee3c@msgs.upcounsel.com"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "03_Ken_Emanuelson",
+        "id": "1a17d599863e7ccd",
+        "sent": true,
+        "replacementChars": 24,
+        "to": "6ad8f1244c02967b16232afb-6ad8f1247344950001c8e25b@msgs.upcounsel.com"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "04_Niq_Howard",
+        "id": "1a17d59a8046e186",
+        "sent": true,
+        "replacementChars": 24,
+        "to": "6ade002093195a03ac38c347-6ade00207344950001c8f74d@msgs.upcounsel.com"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "05_Zuykov",
+        "id": "1a17d5a6efdba933",
+        "sent": true,
+        "replacementChars": 0,
+        "to": "krasnyanskaya@zuykov.com"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "06_PATENTUS",
+        "id": "1a17d5a7e476c051",
+        "sent": true,
+        "replacementChars": 0,
+        "to": "n.genzer@patentus.ru"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "07_Sojuzpatent",
+        "id": "1a17d5a8b8b2291c",
+        "sent": true,
+        "replacementChars": 0,
+        "to": "info@sojuzpatent.com"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "08_ARS_Patent",
+        "id": "1a17d5a9b90b4ea3",
+        "sent": true,
+        "replacementChars": 0,
+        "to": "office@ars-patent.com"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "09_Latscha",
+        "id": "1a17d5aae4f8d65c",
+        "sent": true,
+        "replacementChars": 1,
+        "to": "latscha@lspartner.ch"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "10_Keller",
+        "id": "1a17d5aeefbb75de",
+        "sent": true,
+        "replacementChars": 0,
+        "to": "j.hoppler@kellerschneider.com"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "11_Gorodissky",
+        "id": "1a17d5afc6c6451d",
+        "sent": true,
+        "replacementChars": 0,
+        "to": "pat@gorodissky.com"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "12_Patent_Boutique",
+        "id": "1a17d5b11ada544b",
+        "sent": true,
+        "replacementChars": 0,
+        "to": "chris.rodger@patent.boutique"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "13_Katzarov",
+        "id": "1a17d5b1fecad783",
+        "sent": true,
+        "replacementChars": 0,
+        "to": "gilles.pfend@katzarov.com"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "14_Anthony",
+        "id": "1a17d5b30c8704f4",
+        "sent": true,
+        "replacementChars": 0,
+        "to": "awhittington@ideaparlorlaw.com"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "key": "15_Saam",
+        "id": "1a17d5b3e12a073c",
+        "sent": true,
+        "replacementChars": 0,
+        "to": "saam@patentattorneys.ch"
+      }
+    }
+  ],
+  "ccOmitted": true,
+  "attachments": [],
+  "note": "Sent following user approval. Russian firms received Russian text; others English. Optional CC addresses omitted after approval review. Earlier rejected attempts did not send."
+}

@@ -1,0 +1,297 @@
+{
+  "checked_at_utc": "2026-10-23 13:39:23 UTC",
+  "timezone": "Europe/Madrid",
+  "queries": [
+    {
+      "query_index": 0,
+      "pagination_exhausted": true
+    },
+    {
+      "query_index": 1,
+      "pagination_exhausted": true
+    },
+    {
+      "query_index": 2,
+      "pagination_exhausted": true
+    }
+  ],
+  "newly_analyzed_ids": [
+    "1a168bc2a98604f0",
+    "1a1689ac89678880",
+    "1a16886783db5aa8",
+    "1a1688022509bd60",
+    "1a16841aa8be7d20",
+    "1a16838038a54c20",
+    "1a16761e9a1e0385",
+    "1a1650509ffc7b44",
+    "1a164a9767d138f5"
+  ],
+  "messages": [
+    {
+      "id": "1a168bc2a98604f0",
+      "date": "2026-10-23T15:28:42+03:00",
+      "from": "patent@zuykov.com",
+      "subject": "RE: Российские заявки по PPA №1–10; отдельная возможность PCT (PC34749RU00)",
+      "status": "analyzed_now"
+    },
+    {
+      "id": "1a1689ac89678880",
+      "date": "2026-10-23T14:52:15+03:00",
+      "from": "\"n.genzer\" n.genzer@patentus.ru",
+      "subject": "RE: Российские заявки по PPA №1–10; отдельная возможность PCT",
+      "status": "analyzed_now"
+    },
+    {
+      "id": "1a16886783db5aa8",
+      "date": "2026-10-23T14:30:02+03:00",
+      "from": "patent@zuykov.com",
+      "subject": "RE: Российские заявки по PPA №1–10; отдельная возможность PCT",
+      "status": "analyzed_now"
+    },
+    {
+      "id": "1a1688022509bd60",
+      "date": "2026-10-23T14:23:05+03:00",
+      "from": "patent@zuykov.com",
+      "subject": "RE: Российские заявки по PPA №1–10; отдельная возможность PCT",
+      "status": "analyzed_now"
+    },
+    {
+      "id": "1a16841aa8be7d20",
+      "date": "2026-10-23T13:14:54+03:00",
+      "from": "Krasnyanskaya Nadezhda krasnyanskaya@zuykov.com",
+      "subject": "RE: Российские заявки по PPA №1–10; отдельная возможность PCT",
+      "status": "analyzed_now"
+    },
+    {
+      "id": "1a16838038a54c20",
+      "date": "2026-10-23T10:04:06+00:00",
+      "from": "John Moetteli moetteli@davincipartners.com",
+      "subject": "RE: Proposed PCT Applications – Information Required for Our Proposal",
+      "status": "analyzed_now"
+    },
+    {
+      "id": "1a167ba56ad6c081",
+      "date": "2026-10-23T09:47:04+02:00",
+      "from": "ogk@kvz39.ru",
+      "subject": "Презентации PBK, КВЗ и ссылки на сайты.",
+      "status": "excluded_other_project_or_digest_or_newsletter"
+    },
+    {
+      "id": "1a16761e9a1e0385",
+      "date": "2026-10-23T06:10:31+00:00",
+      "from": "Darryl Scott via UpCounsel 6adafa577e44923f53980189-6adafa577344950001c8ee3c@msgs.upcounsel.com",
+      "subject": "Mikhail, Darryl Scott sent you a new message via UpCounsel",
+      "status": "analyzed_now"
+    },
+    {
+      "id": "1a1650509ffc7b44",
+      "date": "2026-10-22T19:09:50+00:00",
+      "from": "UpCounsel 6ada5f75e7a3b3b9baaffcb9-6ad759897344950001c8d952@msgs.upcounsel.com",
+      "subject": "RE: US NPPA #1 and #2; separate PCT option",
+      "status": "analyzed_now"
+    },
+    {
+      "id": "1a164a9767d138f5",
+      "date": "2026-10-22T17:29:49+00:00",
+      "from": "UpCounsel 6ada4805c4e2f1872a08191d-6ad785437344950001c8da96@msgs.upcounsel.com",
+      "subject": "Re: Confidentiality agreement and practical next steps — patent project",
+      "status": "analyzed_now"
+    },
+    {
+      "id": "1a1626b9ca6ba9d7",
+      "date": "2026-10-22T10:02:58+03:00",
+      "from": "Krasnyanskaya Nadezhda krasnyanskaya@zuykov.com",
+      "subject": "RE: Российские заявки по PPA №1–10; отдельная возможность PCT",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a160b695010d56f",
+      "date": "2026-10-21T23:05:40+00:00",
+      "from": "The UpCounsel Team marketplace@upcounsel.com",
+      "subject": "Summary of your job, Patent Attorney for Assignment and Filing",
+      "status": "excluded_other_project_or_digest_or_newsletter"
+    },
+    {
+      "id": "1a160b4c1c6e2518",
+      "date": "2026-10-21T23:03:40+00:00",
+      "from": "UpCounsel 6ad944c6e7a3b3b9baaff3bc-6ad759897344950001c8d952@msgs.upcounsel.com",
+      "subject": "Re: US NPPA #1 and #2; separate PCT option",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a1608c9bbea2d21",
+      "date": "2026-10-21T22:19:49+00:00",
+      "from": "UpCounsel 6ad93a7dc4e2f1872a080d7b-6ad785437344950001c8da96@msgs.upcounsel.com",
+      "subject": "Re: US NPPA #1 and #2; separate PCT option",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15f75b1d4016b7",
+      "date": "2026-10-21T17:06:47+00:00",
+      "from": "UpCounsel newsletter@upcounsel.com",
+      "subject": "Should you let family and friends invest?",
+      "status": "excluded_other_project_or_digest_or_newsletter"
+    },
+    {
+      "id": "1a15f6dfe860e30f",
+      "date": "2026-10-21T17:06:44+00:00",
+      "from": "Ken Emanuelson via UpCounsel 6ad8f1244c02967b16232afb-6ad8f1247344950001c8e25b@msgs.upcounsel.com",
+      "subject": "Mikhail, Ken Emanuelson sent you a new message via UpCounsel",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15f67302eed5ed",
+      "date": "2026-10-21T16:59:17+00:00",
+      "from": "Silvan Latscha latscha@lspartner.ch",
+      "subject": "AW: PCT representation inquiry — NDA and next steps",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15f0c01788bb4a",
+      "date": "2026-10-21T15:19:43+00:00",
+      "from": "UpCounsel 6ad8d80dc4e2f1872a080598-6ad785437344950001c8da96@msgs.upcounsel.com",
+      "subject": "Re: Confidentiality agreement and practical next steps — patent project",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15eedee7e8552d",
+      "date": "2026-10-21T14:46:53+00:00",
+      "from": "Darryl Scott via UpCounsel 6ad8d05d4c02967b16231346-6ad8d05d7344950001c8e0ff@msgs.upcounsel.com",
+      "subject": "Mikhail, Darryl Scott sent you a new message via UpCounsel",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15e97cefa430e7",
+      "date": "2026-10-21T16:12:48+03:00",
+      "from": "\"n.genzer\" n.genzer@patentus.ru",
+      "subject": "RE: Дополнение: патентная охрана в России по материалам PPA №1–10",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15e7e4add06970",
+      "date": "2026-10-21T15:44:56+03:00",
+      "from": "\"Надежда Тимофеева\" timofeeva_nv@kvz39.ru",
+      "subject": "договор № 3 PBK - КВЗ - / к пакету документов PBK",
+      "status": "excluded_other_project_or_digest_or_newsletter"
+    },
+    {
+      "id": "1a15e4eb356ade85",
+      "date": "2026-10-21T11:52:57+00:00",
+      "from": "info info@sojuzpatent.com",
+      "subject": "Re: Патентный проект — уточнение объёма и NDA",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15e4e40178c1be",
+      "date": "2026-10-21T14:52:26+03:00",
+      "from": "Krasnyanskaya Nadezhda krasnyanskaya@zuykov.com",
+      "subject": "RE: Возможность сопровождения патентного проекта — PCT и заявка США (PC34749RU00)",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15e49729d3f13a",
+      "date": "2026-10-21T14:47:13+03:00",
+      "from": "\"Надежда Тимофеева\" timofeeva_nv@kvz39.ru",
+      "subject": "Re: договор № 4 КВЗ - ОЗТМ / к пакету документов PBK",
+      "status": "excluded_other_project_or_digest_or_newsletter"
+    },
+    {
+      "id": "1a15e1404e984422",
+      "date": "2026-10-21T13:48:51+03:00",
+      "from": "\"n.genzer\" n.genzer@patentus.ru",
+      "subject": "Компания PATENTUS. Патентный поиск и сопровождение заявок. RE: Возможность сопровождения патентного проекта — PCT и заявка США",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15df90592c57b2",
+      "date": "2026-10-21T13:19:22+03:00",
+      "from": "\"Надежда Тимофеева\" timofeeva_nv@kvz39.ru",
+      "subject": "договор МД Козин Owner - PBK / к пакету документов PBK",
+      "status": "excluded_other_project_or_digest_or_newsletter"
+    },
+    {
+      "id": "1a15dedccfbb3449",
+      "date": "2026-10-21T13:07:05+03:00",
+      "from": "info@zuykov.com",
+      "subject": "RE: Возможность сопровождения патентного проекта — PCT и заявка США",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15dd4ac509169c",
+      "date": "2026-10-21T09:39:40+00:00",
+      "from": "info info@sojuzpatent.com",
+      "subject": "Возможность сопровождения патентного проекта — PCT и заявка США",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15d4563aed25d8",
+      "date": "2026-10-21T07:03:08+00:00",
+      "from": "Silvan Latscha latscha@lspartner.ch",
+      "subject": "AW: PCT representation inquiry — Mikhail Kozin — earliest priority deadline December 11, 2026",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15c5c67341230e",
+      "date": "2026-10-21T02:48:41+00:00",
+      "from": "Ken Emanuelson via UpCounsel 6ad8280908919e5deb170405-6ad828097344950001c8df62@msgs.upcounsel.com",
+      "subject": "Mikhail, Ken Emanuelson sent you a new message via UpCounsel",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15c59cf52b6202",
+      "date": "2026-10-21T02:45:51+00:00",
+      "from": "UpCounsel 6ad8275f4d66a1f28c90660b-6ad8275f7344950001c8df5e@msgs.upcounsel.com",
+      "subject": "Ken Emanuelson has submitted a proposal",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15a24e3d6eac64",
+      "date": "2026-10-20T09:28:36-07:00",
+      "from": "Ali Shalchi as@shalchilaw.com",
+      "subject": "Re: Request to Complete U.S. NPPA #1 and Record a Revised Assignment",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a159e0923430445",
+      "date": "2026-10-20T15:14:11+00:00",
+      "from": "UpCounsel 6ad785435d0cd795df98a968-6ad785437344950001c8da96@msgs.upcounsel.com",
+      "subject": "Anthony Whittington, Jd/Mba has submitted a proposal",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a1595e0e8f2e86c",
+      "date": "2026-10-20T12:51:38+00:00",
+      "from": "Darryl Scott via UpCounsel 6ad763dae4238bc5b0ec1c48-6ad763da7344950001c8d981@msgs.upcounsel.com",
+      "subject": "Mikhail, Darryl Scott sent you a new message via UpCounsel",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a1595d9b497eefb",
+      "date": "2026-10-20T12:51:08+00:00",
+      "from": "Darryl Scott via UpCounsel 6ad763bce4238bc5b0ec1c3d-6ad763bc7344950001c8d97f@msgs.upcounsel.com",
+      "subject": "Mikhail, Darryl Scott sent you a new message via UpCounsel",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a1593971b3d1573",
+      "date": "2026-10-20T12:11:37+00:00",
+      "from": "UpCounsel 6ad75a79e4238bc5b0ec1841-6ad75a797344950001c8d95e@msgs.upcounsel.com",
+      "subject": "Niq Howard has submitted a proposal",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a15935c864446e3",
+      "date": "2026-10-20T12:07:37+00:00",
+      "from": "UpCounsel 6ad75989e4238bc5b0ec1795-6ad759897344950001c8d952@msgs.upcounsel.com",
+      "subject": "Michael Bartholomew has submitted a proposal",
+      "status": "already_in_project"
+    },
+    {
+      "id": "1a156a1cd65b57e6",
+      "date": "2026-10-20T00:06:45+00:00",
+      "from": "UpCounsel 6ad6b095c8a2c24665a6d91b-6ad6b0957344950001c8d824@msgs.upcounsel.com",
+      "subject": "Darryl Scott has submitted a proposal",
+      "status": "already_in_project"
+    }
+  ]
+}

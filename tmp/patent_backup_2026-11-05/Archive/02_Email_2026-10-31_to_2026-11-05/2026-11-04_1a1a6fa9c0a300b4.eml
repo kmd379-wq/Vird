@@ -1,0 +1,170 @@
+Delivered-To: kmd379@gmail.com
+Received: by 2002:a05:7508:42a7:b0:108:bd20:e628 with SMTP id g39csp438306gbg;
+        Wed, 4 Nov 2026 06:33:24 -0800 (PST)
+X-Received: by 2002:a05:6214:c48:b0:91b:87cc:6d4b with SMTP id 6a1803df08f44-91ca4a06eb8mr262845866d6.8.1793802804383;
+        Wed, 04 Nov 2026 06:33:24 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1793802804; cv=none;
+        d=google.com; s=arc-20260327;
+        b=aDr9WhrALL23SNVzaebWNm64DQUpTle2yfrJe+RhkxhsBOi/Hepu0LY8ibFACeygJL
+         mdm4oRwyxAWOvZCG3JVyOPJUA2XmsRQ2RLTpmA5OSXeKhg+Gx2x+1Iko1g+ObAcZCfHr
+         NjVMkIaBbJw85x19utXGjjW/5eppj+RuKKLjiGZaQwuZGTVdL+VSHF1RtE/3x/40lWA4
+         D5dZzCXwCZxYKHPoAxFO/RgoCSyfF2aIB2+tteoncU2Z2fLiUsqrrJ8YDVS1eEy3Sh2t
+         P4qhkcx5RcLRTpt+XpyLKyb+Y7bIgWrw3MVcpdpu5WbmDGSZg4V6ig+lvfKZ3OL8jVmn
+         dPmg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:reply-to:subject:message-id:mime-version:from:date
+         :content-transfer-encoding:dkim-signature:dkim-signature;
+        bh=3+lWAsumqLR6GFvUZ919iS1JAq2rc7jpd0osajRhlCg=;
+        fh=mB0721P2BVb2S/Rsb83ynXMQWhwfnjg5ExRCQSvqr0o=;
+        b=QU/EYJrr9JNo2J7fx0qwP5MPE0jUClE6vN4LLIeYGX/CnwoIxcMFhqP1PqT+xLi6dQ
+         8nGFnqZjhZO9Hyc40WAR+7CdMTlUkpa+vsEdD1nTqthly9P0hvF9AtA6rtWEdCsxqHWO
+         1n9OCSwpc/COkrWSJLSX88SC57O7Rb59t8Q0fsBofP0OnaVXjSer9VXJR+RPwq9gHblv
+         r+uJd7ZmF9uhxerr6FX/MNbxMA+ee4Jj6dPtWT/bCbpeQNczS0+J7e5+w9aEg3oyDP1Z
+         18xYuVd/yTVKdGjV6+Y6S6nhqZHQe6g75k2myk2Qe0+X2IIXqA9efh78bUdlW36M67IC
+         5Lmw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@email.upcounsel.com header.s=s1 header.b=jQgDOA56;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=dE4nML4D;
+       spf=pass (google.com: domain of bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com designates 192.254.115.191 as permitted sender) smtp.mailfrom="bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=upcounsel.com
+Return-Path: <bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com>
+Received: from o1.email.upcounsel.com (o1.email.upcounsel.com. [192.254.115.191])
+        by mx.google.com with ESMTPS id 6a1803df08f44-91e7e800831si23219626d6.425.2026.11.04.06.33.23
+        for <kmd379@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 04 Nov 2026 06:33:24 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com designates 192.254.115.191 as permitted sender) client-ip=192.254.115.191;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@email.upcounsel.com header.s=s1 header.b=jQgDOA56;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=dE4nML4D;
+       spf=pass (google.com: domain of bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com designates 192.254.115.191 as permitted sender) smtp.mailfrom="bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=upcounsel.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=email.upcounsel.com;
+	h=content-transfer-encoding:content-type:date:from:mime-version:subject:
+	reply-to:to:cc:content-type:date:feedback-id:from:subject:to;
+	s=s1; t=1793802802;
+	bh=3+lWAsumqLR6GFvUZ919iS1JAq2rc7jpd0osajRhlCg=;
+	b=jQgDOA56zo5s2XShJWEoIbdclUzZBKjS7XEpGFeSHZ9m5+mrT/vInaa1BcHe8lJ15F+N
+	U7r57u++bksmr2oaSu+q1MuIgOXuZKP98mCNT9yq3F4tT/+s8Hkb28yBakjILRsh2m/er3
+	sLwM2f2NLrMxMbZBbhMdS2aunZ5Rzqb45dQBxBxtV/Vhr6a1KMotrucXwWOPhuX7cbNpG2
+	yQ76b81UbheQRG3BWfoZWqZCCr84NwbKLJ412TmOdxh7OZstpcV8ZWUYKViwoNVg5n73QT
+	was8LzvDY3Bnzm/blRKhXCN4lu3QGbo8PNm2OyVb4pV+W8VbS0eNs6S5peSu8ppw==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-transfer-encoding:content-type:date:from:mime-version:subject:
+	reply-to:to:cc:content-type:date:feedback-id:from:subject:to;
+	s=smtpapi; t=1793802802;
+	bh=3+lWAsumqLR6GFvUZ919iS1JAq2rc7jpd0osajRhlCg=;
+	b=dE4nML4DN8JqYU8YA4Wioj77kG/oNrtIOPZ5jfohPJGPnNLcT6wpf5DoT6+lldkJQE+z
+	ryVT+L/hC5D4VUUzVJPia8haxeEkMVWTApT53y+9kbNlfr09PUxYpA1P1YQ5DSmEdI97I5
+	RHvliqy+nJmpSKAeKSlmSWsR1ASLAPnK4=
+Received: by recvd-966bc8c9c-xjvz4 with SMTP id recvd-966bc8c9c-xjvz4-1-6AEB4232-64
+	2026-11-04 14:33:22.70542845 +0000 UTC m=+3101554.243247666
+Received: from NTg2NTY3 (unknown)
+	by geopod-ismtpd-22 (SG) with HTTP
+	id O-A9M9qyQ_CbzVelYcHT1Q
+	Wed, 04 Nov 2026 14:33:22.602 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Date: Wed, 04 Nov 2026 14:33:22 +0000 (UTC)
+From: UpCounsel
+	<6aeb422afba3b0297f39b495-6ad759897344950001c8d952@msgs.upcounsel.com>
+Mime-Version: 1.0
+Message-ID: <O-A9M9qyQ_CbzVelYcHT1Q@geopod-ismtpd-22>
+Subject: RE: Revised scope: two PCT applications only =?UTF-8?B?4oCU?= fixed
+ fees, filing dates and payment schedule
+Reply-To: UpCounsel
+	<6aeb422afba3b0297f39b495-6ad759897344950001c8d952@msgs.upcounsel.com>
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EsQz5ualQE4Ciu3rpNB0eIvYKwfct8O1tRM9Lh+WSJV+WtrPqdpP8VYEhk?=
+ =?us-ascii?Q?2PonT2Df3aZcrZ0CXwGAzpUO5CTAHLDFsBz441q?=
+ =?us-ascii?Q?OU80viwXCPCNGLUCHx04F93ZKvO1AEshSfWoqnY?=
+ =?us-ascii?Q?qunDOBGYykNyY=2FJeMl=2FmDJRJVNDA4u2YjRXpSQb?=
+ =?us-ascii?Q?C8DdxfpMeyYlZj3+y9h0KkCS=2FZxTEPXfV7WpYnh?=
+ =?us-ascii?Q?ByqQi0GgGRN9PN5TeqfAcRz2VEU0XPIK8e9pEBJ?=
+ =?us-ascii?Q?zl1mHhiJ=2FoF7S0el=2F0XIlVU3EjVWiATXRSOcHYu?=
+ =?us-ascii?Q?Fvjh+g3c=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprBdHDHnAu2PbPLTh?=
+ =?us-ascii?Q?nXK5CtHmJp3DmKwTpXszHEF+W2cDrXMix6iVDou?=
+ =?us-ascii?Q?26dZpcihqK5lnax65XZVpmHb9PmkFnNh?=
+To: kmd379@gmail.com
+X-Entity-ID: u001.phIdTc9Q8v/RYzxB9/aWkg==
+
+<div style=3D"color: #ccc">--Please reply above this line--</div><br /><htm=
+l>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body>
+<p>Dear Mr. Kozin,</p>
+<p>Further to my email of November 2, I now have a second quotation for the=
+ UAE filing agent, and a recommendation on the searching authority.</p>
+<p><b>Second agent option.</b> Saba IP, a long-established regional intelle=
+ctual property firm with an office in Dubai, has confirmed that it is regis=
+tered with the UAE Ministry of Economy and can file the applications for PB=
+K. Its fee is USD 1,500 per application.
+ That fee includes the filing and handling of all communications through th=
+e international phase. Saba would also give me full ownership access to the=
+ applications in WIPO's online system, so I could receive all notices direc=
+tly and make formal corrections
+ myself without additional agent fees. As with AGIP, no power of attorney i=
+s needed, and Saba would invoice PBK directly with payment in advance.</p>
+<p>By comparison, AGIP's fee is USD 787.50 per application including VAT, w=
+ith USD 750 plus VAT for each correction or reply it files. AGIP is the low=
+er-cost choice; Saba includes more of the post-filing handling. Either is s=
+uitable. I am waiting for both firms
+ to confirm the name and registration number of the individual agent who wi=
+ll sign the filings, and I will send these to you as soon as I receive them=
+.</p>
+<p><b>Searching authority.</b> For a UAE applicant, the Korean Intellectual=
+ Property Office is also available as the international searching authority=
+. Its search fee for an English-language application is currently CHF 688, =
+compared with CHF 1,239 for the
+ Australian Office, a saving of about CHF 550 per application. Its searches=
+ are well regarded, and it is typically faster. I now recommend the Korean =
+Office, unless you prefer the Australian Office for a particular reason.</p=
+>
+<p><b>Your decision.</b> To proceed, I need your written choice of agent (A=
+GIP or Saba), your approval to give that firm PBK's name for its conflict c=
+heck, and your choice of searching authority. Please also let me know wheth=
+er you accept my proposal of October
+ 27, so that I can begin work. The December 11 statutory deadline for Group=
+ 2 leaves limited time, so I would be grateful for your reply this week.</p=
+>
+<p>Kind regards,</p>
+<p>Michael L. Bartholomew<br>
+Bartholomew Law PC<br>
+Registered U.S. Patent Attorney, USPTO Reg. No. 60,225<br>
+Highland, UT 84003 =EF=BF=BD Office 385.230.5310</p>
+<img src=3D"http://email.upcounsel.com/wf/open?upn=3Du001.djUtzrd8KfhllGsnR=
+2nWBGAROnvA8aLIZycJwQuiH-2B-2BSolfTUe65Xy-2Fy58Bv7n5HboCBXU1i-2FMznDIJthTcT=
+X9CUo22W3HLBpMqIHiiodCY4ls08wqK8V12DB0JfeK0ucGjSOiRGTstuDj0WQDPAsibFJ07FB1l=
+CQJPuAJTAzwHGjJO9qOgOxqYu23ZSaZsozofre1WPsr-2BeFU6dqy2PBR5J9WR92M5V-2F6dM0p=
+P9OyFeoJLwJ4FUaO6sADvzcYOFFeCSQEtcTpTselLZoanIxSYAv-2BS5HKdQ78rkUWyWxTk-3D"=
+ alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !import=
+ant;width:1px !important;border-width:0 !important;margin-top:0 !important;=
+margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !importa=
+nt;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !im=
+portant;padding-left:0 !important;"/></body>
+</html>
+<div style=3D"color:#777;font-size: 11px;padding-top: 25px;line-height: 13p=
+x;">
+  <p>The information contained in this communication is confidential, is in=
+tended only for the use of the recipient named above, and may be legally pr=
+ivileged. If the reader of this message is not the intended recipient, you =
+are hereby notified that any dissemination, distribution or copying of this=
+ communication is strictly prohibited.</p>
+  <p>If you have received this communication in error, please resend this c=
+ommunication to the sender and delete the original message or any copy of i=
+t from your computer system. Thank you.</p>
+  <p>IRS CIRCULAR 230 DISCLOSURE:Pursuant to Treasury Regulations, any tax =
+advice contained in this communication (including any attachments) is not i=
+ntended or written to be used, and cannot be used or relied upon by you or =
+any other person, for the purpose of (i) avoiding penalties under the Inter=
+nal Revenue Code, or (ii) promoting, marketing or recommending to another p=
+arty any tax advice addressed herein. Please contact a member of the firm i=
+f you require a formal, written tax opinion that satisfies applicable IRS r=
+equirements.</p>
+</div>

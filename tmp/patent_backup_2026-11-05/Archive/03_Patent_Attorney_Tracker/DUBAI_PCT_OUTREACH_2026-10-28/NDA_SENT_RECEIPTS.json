@@ -1,0 +1,58 @@
+[
+  {
+    "firm": "CWB",
+    "to": "dubai@cwblegal.com",
+    "id": "1a180d846fe95ffd",
+    "labels": [
+      "SENT"
+    ],
+    "attachments": [
+      {
+        "filename": "Confidentiality_NDA_Proposed_Template.doc",
+        "bytes": 39424
+      }
+    ]
+  },
+  {
+    "firm": "Rouse",
+    "to": "dubai@rouse.com",
+    "id": "1a180d8541340f58",
+    "labels": [
+      "SENT"
+    ],
+    "attachments": [
+      {
+        "filename": "Confidentiality_NDA_Proposed_Template.doc",
+        "bytes": 39424
+      }
+    ]
+  },
+  {
+    "firm": "Saba IP",
+    "to": "uae@sabaip.com",
+    "id": "1a180d85ea58c82b",
+    "labels": [
+      "SENT"
+    ],
+    "attachments": [
+      {
+        "filename": "Confidentiality_NDA_Proposed_Template.doc",
+        "bytes": 39424
+      }
+    ]
+  },
+  {
+    "firm": "UTMPS",
+    "to": "contact@unitedtm.com",
+    "id": "1a180d86d3c2c493",
+    "labels": [
+      "SENT"
+    ],
+    "attachments": [
+      {
+        "filename": "Confidentiality_NDA_Proposed_Template.doc",
+        "bytes": 39424
+      }
+    ]
+  }
+]

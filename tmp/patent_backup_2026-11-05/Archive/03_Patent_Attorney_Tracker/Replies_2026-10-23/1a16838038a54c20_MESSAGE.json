@@ -1,0 +1,528 @@
+{
+  "id": "1a16838038a54c20",
+  "thread_id": "1a16838038a54c20",
+  "label_ids": [
+    "IMPORTANT",
+    "CATEGORY_PERSONAL",
+    "INBOX"
+  ],
+  "snippet": "CONFIDENTIAL COMMUNICATION-- if this message is addressed to you directly by the sender, or in the cc fields, you may read and act on this message. Otherwise, you have no right to read or copy this",
+  "history_id": "17900494",
+  "internal_date": "1792749846000",
+  "payload": {
+    "part_id": "",
+    "mime_type": "multipart/mixed",
+    "filename": "",
+    "headers": [
+      {
+        "name": "Delivered-To",
+        "value": "kmd379@gmail.com"
+      },
+      {
+        "name": "Received",
+        "value": "by 2002:a05:7508:28a9:b0:108:bd20:e628 with SMTP id e41csp5095839gbc;        Fri, 23 Oct 2026 03:04:24 -0700 (PDT)"
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:a05:6000:2c01:b0:48b:116d:56fb with SMTP id ffacd0b85a97d-48e3854a0edmr3098437f8f.1.1792749863553;        Fri, 23 Oct 2026 03:04:23 -0700 (PDT)"
+      },
+      {
+        "name": "ARC-Seal",
+        "value": "i=2; a=rsa-sha256; t=1792749863; cv=pass;        d=google.com; s=arc-20260327;        b=KXNbGNO/M41OaDrbWTQhNZ9j0JCjtFe+ptZt0YCkQzkIHmEUD6UYMVKhmEJyqprU8V         qPCF+ZvaekRDfEKOZR7ZoAt7mkrueWxhrhUO9SmlbLNtG+JfcJoJIIeiDNvsLNg8mUd8         7dzz9zTpnwOEuM4eL3jAQ7Umd/0now+TENAnrJVPty7MlqHhd7ZM7mfMlnP8Fre0Kwb7         ZhTXT58EXvXhC41lsmk+p5rF9QnqKujRBCLxioEy0eFikeN29FgnI9dOE9EfDMRCtAvd         mDW3f/x113ML4+jIz+joIbosM06tw76x6yYP3LW5WYm2XSINtouxUDhuNW+/qV1e1E1K         zvvQ=="
+      },
+      {
+        "name": "ARC-Message-Signature",
+        "value": "i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;        h=mime-version:msip_labels:content-language:accept-language         :in-reply-to:references:message-id:deferred-delivery:date         :sensitivity:return-receipt-to:disposition-notification-to         :importance:thread-index:thread-topic:subject:cc:to:from         :dkim-signature;        bh=m437uLXM9h07wZp9j8WP99uDTjisQRd7clVoLlOFpv8=;        fh=t0VSgTmRXqRf82zhLHAyD5p83CFSo7Wj1GfKHOsfVWY=;        b=gMvkxBORQy60tMq4DGVO7q5NeVKwx6AUO/fTl2vXmoezZ55Oo1x91vXdnshRGpxsl6         Khm9asPv7G+9hR+ccDiEhYNZPSS7wvg62S6x4xZZ3fqIDN9IIbpO7jS0F4zhfa4dmI0J         ZGAXNOZP/w5Rzus/im2upK6wswsyBAoebcEFfDwfd8UDVcnkYvNDRow5LgeREva+i/dT         lVtLEU8GgchKiHIsggV8L7fi1lzZwBYVxLSmCkcRes1lLpFU3gYTeDBWRzNQkX/TfW08         zX/TaETlAoMGJw+x7euZkAxqBRvMxn2OsNfjPKa9B1biuaKoGysXRDFa9VeyYKyX6qho         z53g==;        dara=google.com"
+      },
+      {
+        "name": "ARC-Authentication-Results",
+        "value": "i=2; mx.google.com;       dkim=pass header.i=@davincipartners.com header.s=selector1 header.b=KRY7mVlJ;       arc=pass (i=1 spf=pass spfdomain=davincipartners.com dkim=pass dkdomain=davincipartners.com dmarc=pass fromdomain=davincipartners.com);       spf=pass (google.com: domain of moetteli@davincipartners.com designates 2a01:111:f403:c214::1 as permitted sender) smtp.mailfrom=moetteli@davincipartners.com;       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=davincipartners.com"
+      },
+      {
+        "name": "Return-Path",
+        "value": "<moetteli@davincipartners.com>"
+      },
+      {
+        "name": "Received",
+        "value": "from GVAP278CU002.outbound.protection.outlook.com (mail-switzerlandwestazlp170100001.outbound.protection.outlook.com. [2a01:111:f403:c214::1])        by mx.google.com with ESMTPS id ffacd0b85a97d-48e3809c78bsi4387249f8f.456.2026.10.23.03.04.22        for <kmd379@gmail.com>        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);        Fri, 23 Oct 2026 03:04:23 -0700 (PDT)"
+      },
+      {
+        "name": "Received-SPF",
+        "value": "pass (google.com: domain of moetteli@davincipartners.com designates 2a01:111:f403:c214::1 as permitted sender) client-ip=2a01:111:f403:c214::1;"
+      },
+      {
+        "name": "Authentication-Results",
+        "value": "mx.google.com;       dkim=pass header.i=@davincipartners.com header.s=selector1 header.b=KRY7mVlJ;       arc=pass (i=1 spf=pass spfdomain=davincipartners.com dkim=pass dkdomain=davincipartners.com dmarc=pass fromdomain=davincipartners.com);       spf=pass (google.com: domain of moetteli@davincipartners.com designates 2a01:111:f403:c214::1 as permitted sender) smtp.mailfrom=moetteli@davincipartners.com;       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=davincipartners.com"
+      },
+      {
+        "name": "ARC-Seal",
+        "value": "i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none; b=pndx4YWo3FL/riplXAWJZFz2bedX3+EOwPwk1FxzxW6aHnmMV2eHxj86bjgm+XPYnK1YjVqdgGu9gw18k4vtqlmzENxIJv0Cv9Q3CEC0wDCXEWUKYrldugaVlybRWqAYOnUR7KA9NT88YxrgSPfnX8HrG5Q9NqqjUG8CKPUCPX40EFmFDcMXQbURR/GOe1faYDwEZSg/99Hi+LWZJqldqxM7JtO6xDC+cx4SPn3lDkB1s8t4WFcK1Y56Jk93TI3ad6GSVWuUyod6G7swP2wYV7i4gmleBWiLU2XEdCPfASTgLMS3aIulMkaBkKexK0vGKzLUGre5zFBB9xlkIupQSg=="
+      },
+      {
+        "name": "ARC-Message-Signature",
+        "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com; s=arcselector10001; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1; bh=m437uLXM9h07wZp9j8WP99uDTjisQRd7clVoLlOFpv8=; b=xxjmm1LbTItCe7IrUI6GHGp+PMzt6zkw8ruvHXyGfz7Kghdtp1jJKq8rDxtbREYgg4ncXnQbVdbxt8+6Vhs9N+2eMIuyV4zULEi2yWr+DktCaRxFOuSHLTz/h0hRpMU5w648k5g27SUSyJVziLMwgqIu7SID4q87KTRc1w6JysxQhhAMxmhzwOnmXMSgM8wRfchGugMC86eW3KDZFGvY9K1S/Jve8K+27XeqIDCfJZNlrXhxUkD1J8mE2dayv/cNiu+i6Gp3zLMXLUqpEx0bXdmSb82oRiY+iYw0X9NOrY8sHtTsg5qU4iNNoU4rr9qpwMaqKxektXraHefD6AAbjQ=="
+      },
+      {
+        "name": "ARC-Authentication-Results",
+        "value": "i=1; mx.microsoft.com 1; spf=pass smtp.mailfrom=davincipartners.com; dmarc=pass action=none header.from=davincipartners.com; dkim=pass header.d=davincipartners.com; arc=none"
+      },
+      {
+        "name": "DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=davincipartners.com; s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=m437uLXM9h07wZp9j8WP99uDTjisQRd7clVoLlOFpv8=; b=KRY7mVlJFAEIF8JJH+z7aHAuEeMy+QphPbKnSK1ia3aMRCa3TckFhC09AX3e+lSK+c0uPUnJrYoc+4mjRKsnKvTZrUdQwkQFpaar/SdleR96hyEsdrJY4ruJW/28Mt+Dq8R9LTA6CuFXnkZcv2D7HlOO2LedOa6TpUl4RwvL9q5AyKxhjRdF/qOY1rMaaVXM4wEEkJsnuxJhcivDnexdSwsnqGcAx+aONUAo1bExze6bSQp5mIlF6YppOFzKRZk8/3hyBJO99VJn78lCU15fiTOz0VLx3UVQM6yZ6bmxcBL1adCOpcrNbGz/Vz/2NTHohzXVMnsSEnJq+rVo1M+gOA=="
+      },
+      {
+        "name": "Received",
+        "value": "from ZR3P278MB347188.CHEP278.PROD.OUTLOOK.COM (2603:10a6:910:406::7) by GV0P278MB0098.CHEP278.PROD.OUTLOOK.COM (2603:10a6:710:1d::15) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.546.19; Fri, 23 Oct 2026 10:04:18 +0000"
+      },
+      {
+        "name": "Received",
+        "value": "from ZR3P278MB347188.CHEP278.PROD.OUTLOOK.COM ([fe80::4f44:9e42:6f48:277]) by ZR3P278MB347188.CHEP278.PROD.OUTLOOK.COM ([fe80::4f44:9e42:6f48:277%3]) with mapi id 15.21.0546.017; Fri, 23 Oct 2026 10:04:18 +0000"
+      },
+      {
+        "name": "From",
+        "value": "John Moetteli <moetteli@davincipartners.com>"
+      },
+      {
+        "name": "To",
+        "value": "\"kmd379@gmail.com\" <kmd379@gmail.com>"
+      },
+      {
+        "name": "CC",
+        "value": "Internship <internship@davincipartners.com>, Novella Moetteli <mantelli@davincipartners.com>"
+      },
+      {
+        "name": "Subject",
+        "value": "RE: Proposed PCT Applications – Information Required for Our Proposal"
+      },
+      {
+        "name": "Thread-Topic",
+        "value": "Proposed PCT Applications – Information Required for Our Proposal"
+      },
+      {
+        "name": "Thread-Index",
+        "value": "AQHdYsNEqiMpXC+BnUirtgJ7P5NWGLcKy9lg"
+      },
+      {
+        "name": "Importance",
+        "value": "high"
+      },
+      {
+        "name": "X-Priority",
+        "value": "1"
+      },
+      {
+        "name": "Disposition-Notification-To",
+        "value": "John Moetteli <moetteli@davincipartners.com>"
+      },
+      {
+        "name": "Return-Receipt-To",
+        "value": "<moetteli@davincipartners.com>"
+      },
+      {
+        "name": "Sensitivity",
+        "value": "company-confidential"
+      },
+      {
+        "name": "Date",
+        "value": "Fri, 23 Oct 2026 10:04:06 +0000"
+      },
+      {
+        "name": "Deferred-Delivery",
+        "value": "Fri, 23 Oct 2026 10:03:48 +0000"
+      },
+      {
+        "name": "Message-ID",
+        "value": "<ZR3P278MB347188B7A08894D27C370A2F1FD1642@ZR3P278MB347188.CHEP278.PROD.OUTLOOK.COM>"
+      },
+      {
+        "name": "References",
+        "value": "<ZRAP278MB0015F16B64695080DCE19B8EA2642@ZRAP278MB0015.CHEP278.PROD.OUTLOOK.COM>"
+      },
+      {
+        "name": "In-Reply-To",
+        "value": "<ZRAP278MB0015F16B64695080DCE19B8EA2642@ZRAP278MB0015.CHEP278.PROD.OUTLOOK.COM>"
+      },
+      {
+        "name": "Accept-Language",
+        "value": "en-US"
+      },
+      {
+        "name": "Content-Language",
+        "value": "en-US"
+      },
+      {
+        "name": "X-MS-Has-Attach",
+        "value": "yes"
+      },
+      {
+        "name": "X-MS-TNEF-Correlator",
+        "value": ""
+      },
+      {
+        "name": "msip_labels",
+        "value": ""
+      },
+      {
+        "name": "authentication-results",
+        "value": "mx.microsoft.com 1; dkim=none (message not signed) header.d=none;dmarc=none action=none header.from=davincipartners.com;"
+      },
+      {
+        "name": "x-ms-publictraffictype",
+        "value": "Email"
+      },
+      {
+        "name": "x-ms-traffictypediagnostic",
+        "value": "ZR3P278MB347188:EE_|GV0P278MB0098:EE_"
+      },
+      {
+        "name": "x-ms-office365-filtering-correlation-id",
+        "value": "d22e1dce-2df9-40ff-ea19-08df30ed0082"
+      },
+      {
+        "name": "x-ms-exchange-senderadcheck",
+        "value": "1"
+      },
+      {
+        "name": "x-ms-exchange-antispam-relay",
+        "value": "0"
+      },
+      {
+        "name": "x-microsoft-antispam",
+        "value": "BCL:0;ARA:13230040|23010399003|6049299003|376014|366016|1800799024|6133799003|18002099003|22082099003|8096899003|4053099003|13003099007|3613699012|38070700021|56012099006|5023799004|261009223027099003|261021121427099003|261022105027099003|261022075727099003|261021135927099003|261021123027099003|10067099003;"
+      },
+      {
+        "name": "x-microsoft-antispam-message-info",
+        "value": "lBZS6Ude+oyyaSWnaXvwRpYkAwVu193DwevQa3sETNtEFUhZagj/umiP0APG4XQc2VL5UzL2mZV78SFz2JpXjFTm0B6dZ+JsaCCna75UC2vIctJD3bC4/GFNhwfEA2Yiurr22ZbCS6yYo514a3t4SPFfrMGSSfn5zb0CQIWDDf05k/BrTzKQDU51RQ5GlZl2m97LbtxP6nuXm1S9g5LnWacEVvQ9jq3FtsQUiN3c1RQijEXACfyscNZqIfk24XCv/YSViynnNtuoCsqSYKCqOL2nnpjOXfkAfAORNIHWD2YmMWmx1wd2v+JfBpHINdXyhn+UAJufFi8XxwAQlVwckELZx0dr5IsKPTUCCRiHgqVuHwVg7/vA86eEwcifijeQOI444gH+5TeqYA/dp9EZESWjKmSV1DH2lZzuKyXC5w3+2N0klpMxuSZpG5AEY0x4Z5C8FzTaB0kmW3QPSQu3LKa6g0qeTcNXBHJtyJRs0pubWBNWk4+HbrBZYO9iN/huqo3eMCeFavdzLdSq7ALgCSw3vjfuQmR9HZeOuhMw165Gims2AqTOBRrC+tba448HZG2e37Sm9SyY2rNmmv/yvIq8CRiaacsbQD+aSEiFYqCS6sLaIPDSNB0QAaO5WQ4CrXQbLGR+k2qeG4qF/8RN6g=="
+      },
+      {
+        "name": "x-forefront-antispam-report",
+        "value": "CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:ZR3P278MB347188.CHEP278.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(23010399003)(6049299003)(376014)(366016)(1800799024)(6133799003)(18002099003)(22082099003)(8096899003)(4053099003)(13003099007)(3613699012)(38070700021)(56012099006)(5023799004)(261009223027099003)(261021121427099003)(261022105027099003)(261022075727099003)(261021135927099003)(261021123027099003)(10067099003);DIR:OUT;SFP:1102;"
+      },
+      {
+        "name": "x-ms-exchange-antispam-messagedata-chunkcount",
+        "value": "1"
+      },
+      {
+        "name": "x-ms-exchange-antispam-messagedata-0",
+        "value": "GppUTsOXBMFCyylciWYk7uHiZj8C9cJLgqKv/QdKZQ3xinZomfc2pruiTnn6b1SH/cILqLTNCep4gujgd+dre/VbflNol7YWkrfAGoMjQ+xLGGnRZ2cegOVjnRAEg5Bn8K74pbhit4Jwrs0+Pz22tUxvvuIoVKqhi3sC3dv+5HFiRMnXVoYQ/JI2rAuIfOnkj6WXqN4mcXsaAfZxPqpM2sS/fomvmk/HFYh90Eu5sRt/PInIUGM1mCWgX+Xyv+2uXeXZOhyuvM1f4e0hTQxZSeSXmNT8rruSMEIr1yTYD24SwX0WPV6mVwc6ZFKCDr4dYMXOgRS4YrOrCehcO7wYQQ9DP872CYGPIc3izuxGs2i5stTvvPzgnSYCSfepWizG9LMu5pi7cN+B1lyd+pcgKtffcI/PKe9wUZvzes2Tkv4PCrJ2huMxhKguvwXsoUGcoLz5ItZg1/KSCcJ4UuueWrZF7yQU3k2nJQB28aDHJH1Qujlts1XWXzY/9fuGYRHluLvoq5Io87kLzqDPRU6+Ql3/NLCnU0dFIS5q6aFDk1Scy408faS0n6UCKiapz8vXxtz0Lm/U/BJ432QbGjlbkhzMKC+lLjfoQ0jRq7ymzwGwEF6RZGvcuVY32Qd1v7KHOzdwstgH/uuzy01y+vMNxqg5ftap19gkOrRwY0L+h4Y0NMGZUhb8TPlvp/nTW+6t3XVMom/OZdUckDVPI3XaErGAWVivCtsxcA8cQmbbKtUZTiuTkQ3bqHVVl5ovpHWa7B6CdovX3WiGuTYLq1s+z3VZEorEKLeW8HAkeW+44bIYmenh7P8KRANSW0tsZgRPy/mN2t92G0PrXkyvE68olUnCedlNrMfNSwbjfYpquno5wBdeO2ukaA2CRtSG9nCOzPsneK5qi6X4eRI/USDYEtikMkr/IXpbV3bCnlwLuxT1UM+b2LHYB5L944VrisGnHl0lesf4MFtFWw44T18LBpvreY+xjR0gBQZpfBWsD+bQnlzw2kYrVqKTRzns4xl+jSoTuHWwwMZo3NjQYghebr24pdV73mvoUwrVVybnZECBGZ6UVlRR4uz06mPaV6KFocmOD981j9w9lhzPg0RdXFwUPnwlAI3++5z7XaKxPoW1tP8jL2qFE1qnNC9a4xOwa7luIKOca9YMbzMs02nkB/aj6xXAhyOlfuCP/Dgz/LS/RvYafg5bQuqYroQqR3xczso6yePNz5MJGKeBaCyKDakFwqcyIvbZwax2pX7mKHEXdfKkgr4kMSw1l8sCIa+ZdvM4jMG3tye/DWJUqmGkaVsdOZlm6W8wg7dAcgHqMowouQNXNqi+/zBny3gl4IAKZUYt1TedFxjLXwlImO8CydwHRn/4p5klsfQOzPUAJKAOiZOF6bVYRhoQ31LjlOxQHCcrH7XWZTljdDA+HXpWCtGxYE5i3nzViw9yksGE+ZCb0qbWZaTl0ZbcAzCagXSPOswIlKL41nQEG4b1Q6D2AMhg/B/KtgMBZ5dfgfDK71TAdeTQ4wN93COwq6etX3P/ALMD/aD1MTs2Pw62uHzbUkgXs+xPdfRv/OIfaAej5GP6reRylJtTENduSo+bbFWt0MQvZ34+pyffh0WMQf+V9dIFfqdLc2tqJQBtDmHpXmpfH4xod4sOKnNzh5IBoF8s9P1H3LiHZZ9++HnZdBf4vNKeq9L6ed36a9GiFJA3bH/mxODLzczEMIBZAiE4Cjn8A8GVJoE6zG0mAuNLgqDNdmu5x+3YdNxCfWnQZe5cUAM="
+      },
+      {
+        "name": "Content-Type",
+        "value": "multipart/mixed; boundary=\"_009_ZR3P278MB347188B7A08894D27C370A2F1FD1642ZR3P278MB347188_\""
+      },
+      {
+        "name": "MIME-Version",
+        "value": "1.0"
+      },
+      {
+        "name": "X-OriginatorOrg",
+        "value": "davincipartners.com"
+      },
+      {
+        "name": "X-MS-Exchange-CrossTenant-AuthAs",
+        "value": "Internal"
+      },
+      {
+        "name": "X-MS-Exchange-CrossTenant-AuthSource",
+        "value": "ZR3P278MB347188.CHEP278.PROD.OUTLOOK.COM"
+      },
+      {
+        "name": "X-MS-Exchange-CrossTenant-Network-Message-Id",
+        "value": "d22e1dce-2df9-40ff-ea19-08df30ed0082"
+      },
+      {
+        "name": "X-MS-Exchange-CrossTenant-originalarrivaltime",
+        "value": "23 Oct 2026 10:04:18.3393 (UTC)"
+      },
+      {
+        "name": "X-MS-Exchange-CrossTenant-fromentityheader",
+        "value": "Hosted"
+      },
+      {
+        "name": "X-MS-Exchange-CrossTenant-id",
+        "value": "f572b14a-06f0-4e01-a2bc-2e5233ac3a6a"
+      },
+      {
+        "name": "X-MS-Exchange-CrossTenant-mailboxtype",
+        "value": "HOSTED"
+      },
+      {
+        "name": "X-MS-Exchange-CrossTenant-userprincipalname",
+        "value": "5KDvVXbBouEOSJuxLJfTzjWgj2skUV4AjVfmFjemUFgs5OeVnlnZm0XAKR9UAfZsY4Fwve6wUZxlZpT+i4g6bEwrd77MYWmUwYGD7hkep/Y="
+      },
+      {
+        "name": "X-MS-Exchange-Transport-CrossTenantHeadersStamped",
+        "value": "GV0P278MB0098"
+      }
+    ],
+    "body": {
+      "size": 0,
+      "base64_url_content": null,
+      "content": null,
+      "attachment_id": null
+    },
+    "read_attachment_supported": null,
+    "parts": [
+      {
+        "part_id": "0",
+        "mime_type": "multipart/related",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "multipart/related; boundary=\"_008_ZR3P278MB347188B7A08894D27C370A2F1FD1642ZR3P278MB347188_\"; type=\"multipart/alternative\""
+          }
+        ],
+        "body": {
+          "size": 0,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": null
+        },
+        "read_attachment_supported": null,
+        "parts": [
+          {
+            "part_id": "0.0",
+            "mime_type": "multipart/alternative",
+            "filename": "",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "multipart/alternative; boundary=\"_000_ZR3P278MB347188B7A08894D27C370A2F1FD1642ZR3P278MB347188_\""
+              }
+            ],
+            "body": {
+              "size": 0,
+              "base64_url_content": null,
+              "content": null,
+              "attachment_id": null
+            },
+            "read_attachment_supported": null,
+            "parts": [
+              {
+                "part_id": "0.0.0",
+                "mime_type": "text/plain",
+                "filename": "",
+                "headers": [
+                  {
+                    "name": "Content-Type",
+                    "value": "text/plain; charset=\"Windows-1252\""
+                  },
+                  {
+                    "name": "Content-Transfer-Encoding",
+                    "value": "quoted-printable"
+                  }
+                ],
+                "body": {
+                  "size": 6794,
+                  "base64_url_content": null,
+                  "content": "CONFIDENTIAL COMMUNICATION-- if this message is addressed to you directly by the sender, or in the cc fields, you may read and act on this message.  Otherwise, you have no right to read or copy this message. We therefore ask your cooperation in informing the sender of the error in receipt and in deleting this message from all your email folders.  Thank you in advance for your assistance.\r\n\r\n___________________\r\n\r\n\r\n\r\nNote: To perceive all the details of this email, your email settings should be set to HTML or Rich text.  Plain text may lose underlining, cross outs and other notations\r\n\r\n\r\n\r\n\r\n\r\n>>>>Please confirm receipt<<<<\r\n\r\n\r\nDear Mr. Kozin,\r\nThank you for your detailed inquiry. I attach a paper I wrote on IP strategy that should be of interest to you, particularly if your technology can be commercialized while keeping an important aspect of it secret.  The paper outlines how you can preserve trade secret rights while reserving important patent rights and extend design protection.  I have been invited by governments and governmental organizations as well as the European Patent Office and Institute to teach these strategies.\r\nReferring to your inquiry and reiterating our professional obligation to maintain your secrets, to help us assess the proposed engagement and prepare an appropriately scoped cost estimate, Iâ€™d appreciate it if you could provide the following preliminary information:\r\n\r\n  1.  Applicant and parties involved: Please confirm your nationality or nationalities and residence details in Spain and the UAE. For our conflict check, please also provide the names of all inventors, current and former owners, and any other persons or entities with an interest in the applications.\r\n\r\n  1.  Overview of the ten PPAs: Please provide a list showing each applicationâ€™s number, filing date, title, approximate page count and number of drawing sheets, together with a brief explanation of how their subject matter overlaps or differs. Have any related nonprovisional, PCT or foreign applications already been filed?\r\n\r\n  1.  Existing drafting work: How complete are the specification, claims and drawings for NPPA #1 based on PPAs #3â€“7? Are editable files available, in which languages, and what work remains outstanding? Please also indicate whether any prior-art searches or written assessments have already been prepared.\r\n\r\n  1.  Protection priorities: Which technical features or products are commercially most important, and in which countries or regions do you anticipate seeking protection? Should the immediate work focus on the subject matter approaching the December deadline, or should all ten PPAs be assessed together? Please identify any subsequent technical developments or public disclosures, demonstrations or sales, with their dates.\r\n\r\n  1.  Ownership and assignment: Please outline the current ownership of the applications and any assignments already executed. What remains outstanding for the proposed transfer from PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT â€“ FZCO to you personally? Please also confirm whether U.S. or UAE counsel is available to assist and whether you envisage our role covering review, revision, coordination and/or recordation.\r\n\r\n  1.  Scope, budget and availability: Should the proposal cover preparation and filing only, or also subsequent international-phase monitoring, advice and amendments? Please indicate any budget range, your preferred billing currency and billing address, and your availability for technical discussions and prompt review of drafts.\r\nFollowing conflict clearance, we would need the complete PPAs as filed, official filing receipts, deadline correspondence, latest Non-PPA draft and drawings, and draft assignment together with any existing ownership documents. We can then agree on a secure method for transmitting those materials.\r\nWe have noted the reported December 11, 2026 deadline for PPA #1, No. 63/938,244. This remains subject to verification against the official documents. We also understand that this application is separate from NPPA draft #1 based on PPAs #3â€“7.\r\nIf a substantive initial review is needed before we can estimate the subsequent drafting and filing work, we would first propose its scope and fee for your written agreement. We acknowledge that until you decide to engage us, no billable work is authorized without your prior written agreement to its scope and cost, and that filing or assignment recordation requires your separate written approval.\r\n\r\nAlso understand that we will be requiring advance payment for estimate work, given that we have not established a working relationship with a payment track record.\r\n\r\nBest regards,\r\n\r\n\r\n\r\nJohn\r\n\r\n\r\n\r\nJohn Moetteli, Esq.\r\n\r\n\r\n\r\nDa Vinci Partners LLC\r\n\r\nInternational Patent and Trademark Attorneys-at-law\r\n\r\nRathausgasse 1\r\n\r\nCH-9320 Arbon\r\n\r\nSWITZERLAND\r\n\r\n[cid:image001.jpg@01DD62D9.C3DF00A0]\r\n\r\nPhone: +41 71 230 1000\r\n\r\nFax: +41 71 230 1001\r\n\r\nEmail: moetteli@davincipartners.com<mailto:moetteli@davincipartners.com>\r\n\r\n\r\n\r\nWebsite: www.davincipartners.com<http://www.davincipartners.com/>\r\n\r\nProfile: http://davincipartners.com/en/home/about-us/our-people/john-brent-moetteli/\r\n\r\n\r\n\r\nDa Vinci Partners LLC, offering DA VINCI*â„¢ and PAT24â„¢ services, for global leaders in innovation.\r\n\r\nOffering [cid:image002.png@01DD62D9.C3DF00A0] ** legal, [cid:image003.png@01DD62D9.C3DF00A0]  and [Shape  Description automatically generated with medium confidence] *** intellectual property services for our clients active in China.\r\n\r\n*service mark covering our legal and IP services, including IP valuation services registered in Switzerland, the EU, the USA, Canada, Germany, Russia, Romania, Ukraine, Australia, Korea, Japan, China, Hong Kong and India other countries/regions pending.\r\n** service marks covering legal services and IP services on Chinese IP issues, registered in Switzerland, the EU, Korea, the USA, Australia, Hong Kong and Singapore, other countries/regions pending.\r\n*** service marks covering IP services involving China, registered in China, Switzerland, and the USA\r\n\r\nSpecialists in US, Swiss, European and International Patent, Trademark, and Copyright Law, including licensing, infringement, invalidity, and enforceability patent opinions involving European and US patents; US, Swiss, European and International Patent and Trademark applications in the fields of manufacturing processes, sporting goods, medical devices, software, methods, computer systems, electro-mechanical, electronics, optics, applied physics, micro-technology, and patent and trademark filing strategy. Legal advisors in global IP protection and enforcement, including Canada, Australia, Liechtenstein, Russia, Romania, Ukraine, India, Japan, China, Hong Kong, Singapore, and South Korea.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+                  "attachment_id": null
+                },
+                "read_attachment_supported": null,
+                "parts": null
+              },
+              {
+                "part_id": "0.0.1",
+                "mime_type": "text/html",
+                "filename": "",
+                "headers": [
+                  {
+                    "name": "Content-Type",
+                    "value": "text/html; charset=\"Windows-1252\""
+                  },
+                  {
+                    "name": "Content-Transfer-Encoding",
+                    "value": "quoted-printable"
+                  }
+                ],
+                "body": {
+                  "size": 17469,
+                  "base64_url_content": null,
+                  "content": "<html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=Windows-1252\">\r\n<meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\">\r\n<!--[if !mso]><style>v\\:* {behavior:url(#default#VML);}\r\no\\:* {behavior:url(#default#VML);}\r\nw\\:* {behavior:url(#default#VML);}\r\n.shape {behavior:url(#default#VML);}\r\n</style><![endif]--><style><!--\r\n/* Font Definitions */\r\n@font-face\r\n\t{font-family:\"Cambria Math\";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:Calibri;\r\n\tpanose-1:2 15 5 2 2 2 4 3 2 4;}\r\n@font-face\r\n\t{font-family:Aptos;}\r\n@font-face\r\n\t{font-family:\"Lucida Handwriting\";\r\n\tpanose-1:3 1 1 1 1 1 1 1 1 1;}\r\n@font-face\r\n\t{font-family:\"New Times Roman\";}\r\n/* Style Definitions */\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0cm;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Aptos\",sans-serif;}\r\na:link, span.MsoHyperlink\r\n\t{mso-style-priority:99;\r\n\tcolor:blue;\r\n\ttext-decoration:underline;}\r\nspan.EmailStyle21\r\n\t{mso-style-type:personal-reply;\r\n\tfont-family:\"Aptos\",sans-serif;\r\n\tcolor:windowtext;}\r\n.MsoChpDefault\r\n\t{mso-style-type:export-only;\r\n\tfont-size:10.0pt;\r\n\tmso-ligatures:none;}\r\n@page WordSection1\r\n\t{size:612.0pt 792.0pt;\r\n\tmargin:72.0pt 72.0pt 72.0pt 72.0pt;}\r\ndiv.WordSection1\r\n\t{page:WordSection1;}\r\n/* List Definitions */\r\n@list l0\r\n\t{mso-list-id:1887332579;\r\n\tmso-list-template-ids:1366882016;}\r\nol\r\n\t{margin-bottom:0cm;}\r\nul\r\n\t{margin-bottom:0cm;}\r\n--></style><!--[if gte mso 9]><xml>\r\n<o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" />\r\n</xml><![endif]--><!--[if gte mso 9]><xml>\r\n<o:shapelayout v:ext=\"edit\">\r\n<o:idmap v:ext=\"edit\" data=\"1\" />\r\n</o:shapelayout></xml><![endif]-->\r\n</head>\r\n<body lang=\"EN-US\" link=\"blue\" vlink=\"purple\" style=\"word-wrap:break-word\">\r\n<div class=\"WordSection1\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">CONFIDENTIAL COMMUNICATION-- if this message is addressed to you directly by the sender, or in the cc fields, you may read and act on this message.&nbsp; Otherwise, you\r\n have no right to read or copy this message. We therefore ask your cooperation in informing the sender of the error in receipt and in deleting this message from all your email folders.&nbsp; Thank you in advance for your assistance.<o:p></o:p></span></p>\r\n<div id=\"Signature\">\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">___________________\r\n</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">&nbsp;</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Note: To perceive all the details of this email, your email settings should be set to HTML or Rich text.&nbsp; Plain text may lose underlining, cross outs and other notations</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">&nbsp;</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">&nbsp;</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">&gt;&gt;&gt;&gt;Please confirm receipt&lt;&lt;&lt;&lt;</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">&nbsp;</span><o:p></o:p></p>\r\n<div style=\"margin-top:12.0pt;margin-bottom:12.0pt\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Dear Mr. Kozin,<o:p></o:p></span></p>\r\n</div>\r\n<div style=\"margin-top:12.0pt;margin-bottom:12.0pt\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Thank you for your detailed\r\n</span><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">i<span style=\"color:black\">nquiry.&nbsp;</span>I attach a paper I wrote on IP strategy that should be of interest to you, particularly if your technology can be commercialized while keeping an\r\n important aspect of it secret.&nbsp; The paper outlines how you can preserve trade secret rights while reserving important patent rights and extend design protection.&nbsp; I have been invited by governments and governmental organizations as well as the European Patent\r\n Office and Institute to teach these strategies.<span style=\"color:black\"><o:p></o:p></span></span></p>\r\n</div>\r\n<div style=\"margin-top:12.0pt;margin-bottom:12.0pt\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">Referring to your inquiry and reiterating our professional obligation to maintain your secrets, t<span style=\"color:black\">o help us assess the proposed engagement and prepare\r\n an appropriately scoped cost estimate, </span>Iâ€™d appreciate it if you c<span style=\"color:black\">ould provide the following preliminary information:<o:p></o:p></span></span></p>\r\n</div>\r\n<div style=\"margin-top:12.0pt;margin-bottom:12.0pt\">\r\n<ol start=\"1\" type=\"1\">\r\n<li class=\"MsoNormal\" style=\"color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;mso-list:l0 level1 lfo1\">\r\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">Applicant and parties involved: Please confirm your nationality or nationalities and residence details in Spain and the UAE. For our conflict check, please also provide the names of all inventors,\r\n current and former owners, and any other persons or entities with an interest in the applications.<o:p></o:p></span></li></ol>\r\n</div>\r\n<div style=\"margin-top:12.0pt;margin-bottom:12.0pt\">\r\n<ol start=\"2\" type=\"1\">\r\n<li class=\"MsoNormal\" style=\"color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;mso-list:l0 level1 lfo1\">\r\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">Overview of the ten PPAs: Please provide a list showing each applicationâ€™s number, filing date, title, approximate page count and number of drawing sheets, together with a brief explanation of how\r\n their subject matter overlaps or differs. Have any related nonprovisional, PCT or foreign applications already been filed?<o:p></o:p></span></li></ol>\r\n</div>\r\n<div style=\"margin-top:12.0pt;margin-bottom:12.0pt\">\r\n<ol start=\"3\" type=\"1\">\r\n<li class=\"MsoNormal\" style=\"color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;mso-list:l0 level1 lfo1\">\r\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">Existing drafting work: How complete are the specification, claims and drawings for NPPA #1 based on PPAs #3â€“7? Are editable files available, in which languages, and what work remains outstanding?\r\n Please also indicate whether any prior-art searches or written assessments have already been prepared.<o:p></o:p></span></li></ol>\r\n</div>\r\n<div style=\"margin-top:12.0pt;margin-bottom:12.0pt\">\r\n<ol start=\"4\" type=\"1\">\r\n<li class=\"MsoNormal\" style=\"color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;mso-list:l0 level1 lfo1\">\r\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">Protection priorities: Which technical features or products are commercially most important, and in which countries or regions do you anticipate seeking protection? Should the immediate work focus\r\n on the subject matter approaching the December deadline, or should all ten PPAs be assessed together? Please identify any subsequent technical developments or public disclosures, demonstrations or sales, with their dates.<o:p></o:p></span></li></ol>\r\n</div>\r\n<div style=\"margin-top:12.0pt;margin-bottom:12.0pt\">\r\n<ol start=\"5\" type=\"1\">\r\n<li class=\"MsoNormal\" style=\"color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;mso-list:l0 level1 lfo1\">\r\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">Ownership and assignment: Please outline the current ownership of the applications and any assignments already executed. What remains outstanding for the proposed transfer from PBK ENGINEERING INTELLECTUAL\r\n PROPERTY RIGHTS MANAGEMENT â€“ FZCO to you personally? Please also confirm whether U.S. or UAE counsel is available to assist and whether you envisage our role covering review, revision, coordination and/or recordation.<o:p></o:p></span></li></ol>\r\n</div>\r\n<div style=\"margin-top:12.0pt;margin-bottom:12.0pt\">\r\n<ol start=\"6\" type=\"1\">\r\n<li class=\"MsoNormal\" style=\"color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;mso-list:l0 level1 lfo1\">\r\n<span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">Scope, budget and availability: Should the proposal cover preparation and filing only, or also subsequent international-phase monitoring, advice and amendments? Please indicate any budget range,\r\n your preferred billing currency and billing address, and your availability for technical discussions and prompt review of drafts.<o:p></o:p></span></li></ol>\r\n</div>\r\n<div style=\"margin-top:12.0pt;margin-bottom:12.0pt\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Following conflict clearance, we would need the complete PPAs as filed, official filing receipts, deadline correspondence, latest N</span><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">on-<span style=\"color:black\">PPA\r\n draft and drawings, and draft assignment together with any existing ownership documents. We can then agree on a secure method for transmitting those materials.<o:p></o:p></span></span></p>\r\n</div>\r\n<div style=\"margin-top:12.0pt;margin-bottom:12.0pt\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">We have noted the reported December 11, 2026 deadline for PPA #1, No. 63/938,244. This remains subject to verification against the official documents. We also understand\r\n that this application is separate from NPPA draft #1 based on PPAs #3â€“7.<o:p></o:p></span></p>\r\n</div>\r\n<div style=\"margin-top:12.0pt;margin-bottom:12.0pt\">\r\n<p class=\"MsoNormal\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">If a substantive initial review is needed before we can estimate the subsequent drafting and filing work, we would first propose its scope and fee for your written\r\n agreement. We acknowledge that </span><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">until you decide to engage us,\r\n<span style=\"color:black\">no billable work is authorized without your prior written agreement to its scope and cost, and that filing or assignment recordation requires your separate written approval.<o:p></o:p></span></span></p>\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\"><o:p>&nbsp;</o:p></span></p>\r\n<p class=\"MsoNormal\"><span style=\"font-size:11.0pt\">Also understand that we will be requiring advance payment for estimate work, given that we have not established a working relationship with a payment track record.<o:p></o:p></span></p>\r\n</div>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Best regards,</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">&nbsp;</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">John</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">&nbsp;</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">John Moetteli, Esq.</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">&nbsp;</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Da Vinci Partners LLC</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">International Patent and Trademark Attorneys-at-law</span><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">\r\n</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Rathausgasse 1</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">CH-9320 Arbon\r\n</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">SWITZERLAND</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\"><img width=\"623\" height=\"202\" style=\"width:6.4895in;height:2.1041in\" id=\"Picture_x0020_4\" src=\"cid:image001.jpg@01DD62D9.C3DF00A0\"></span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Phone: +41 71 230 1000</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Fax: +41 71 230 1001</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Email:\r\n</span><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0563C1\"><a href=\"mailto:moetteli@davincipartners.com\"><span style=\"color:#0563C1\">moetteli@davincipartners.com</span></a></span><o:p></o:p></p>\r\n<p><u><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:blue\">&nbsp;</span></u><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Website:\r\n</span><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#0563C1\"><a href=\"http://www.davincipartners.com/\"><span style=\"color:#0563C1\">www.davincipartners.com</span></a></span><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">\r\n</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif\">Profile:<span style=\"color:#1F497D\">\r\n</span><span style=\"color:#0563C1\"><a href=\"http://davincipartners.com/en/home/about-us/our-people/john-brent-moetteli/\"><span style=\"color:#0563C1\">http://davincipartners.com/en/home/about-us/our-people/john-brent-moetteli/</span></a></span><u>\r\n</u></span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:black\">&nbsp;</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.5pt;font-family:&quot;Lucida Handwriting&quot;;color:black\">Da Vinci Partners LLC</span><span style=\"font-size:10.5pt;font-family:&quot;New Times Roman&quot;;color:black\">,\r\n</span><span style=\"font-size:10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">offering DA VINCI*â„¢ and PAT24â„¢ services, for global leaders in innovation.</span><o:p></o:p></p>\r\n<p><span style=\"font-size:10.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Offering&nbsp;<img border=\"0\" width=\"77\" height=\"12\" style=\"width:.802in;height:.125in\" id=\"Picture_x0020_3\" src=\"cid:image002.png@01DD62D9.C3DF00A0\">**&nbsp;legal,&nbsp;<img border=\"0\" width=\"92\" height=\"12\" style=\"width:.9583in;height:.125in\" id=\"Picture_x0020_2\" src=\"cid:image003.png@01DD62D9.C3DF00A0\">&nbsp;and&nbsp;<img border=\"0\" width=\"91\" height=\"12\" style=\"width:.9479in;height:.125in\" id=\"Picture_x0020_1\" src=\"cid:image004.png@01DD62D9.C3DF00A0\" alt=\"Shape\n\nDescription automatically generated with medium confidence\">***\r\n intellectual property services for our clients active in China.</span><o:p></o:p></p>\r\n<p><span style=\"font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">*service mark covering our legal and IP services, including IP valuation services registered in Switzerland,</span><span style=\"font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif\"> the\r\n EU<span style=\"color:black\">, the USA, Canada, </span>Germany, Russia, Romania, Ukraine, Australia, Korea, Japan, China, Hong Kong and India\r\n<span style=\"color:black\">other countries/regions pending.&nbsp;<br>\r\n** service marks covering legal services and IP services on Chinese IP issues, registered in Switzerland,\r\n</span>the EU<span style=\"color:black\">, Korea, the USA</span>, Australia, Hong Kong and Singapore, other countries/regions pending.<span style=\"color:black\"><br>\r\n*** service marks covering IP services involving China, registered in China, Switzerland, and the USA&nbsp;<br>\r\n<br>\r\n</span></span><span style=\"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black\">Specialists in US, Swiss, European and International Patent, Trademark, and Copyright Law, including licensing, infringement, invalidity, and enforceability patent opinions\r\n involving European and US patents; US, Swiss, European and International Patent and Trademark applications in the fields of manufacturing processes, sporting goods, medical devices, software, methods, computer systems, electro-mechanical, electronics, optics,\r\n applied physics, micro-technology, and patent and trademark filing strategy. </span>\r\n<span style=\"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif\">Legal advisors in global IP protection and enforcement, including Canada, Australia, Liechtenstein, Russia, Romania, Ukraine, India, Japan, China, Hong Kong, Singapore, and South Korea.</span><o:p></o:p></p>\r\n<p>&nbsp;<o:p></o:p></p>\r\n<p>&nbsp;<o:p></o:p></p>\r\n<p>&nbsp;<o:p></o:p></p>\r\n</div>\r\n</div>\r\n</body>\r\n</html>\r\n",
+                  "attachment_id": null
+                },
+                "read_attachment_supported": null,
+                "parts": null
+              }
+            ]
+          },
+          {
+            "part_id": "0.1",
+            "mime_type": "image/jpeg",
+            "filename": "image001.jpg",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "image/jpeg; name=\"image001.jpg\""
+              },
+              {
+                "name": "Content-Description",
+                "value": "image001.jpg"
+              },
+              {
+                "name": "Content-Disposition",
+                "value": "inline; filename=\"image001.jpg\"; size=47072; creation-date=\"Fri, 23 Oct 2026 10:04:05 GMT\"; modification-date=\"Fri, 23 Oct 2026 10:04:05 GMT\""
+              },
+              {
+                "name": "Content-ID",
+                "value": "<image001.jpg@01DD62D9.C3DF00A0>"
+              },
+              {
+                "name": "Content-Transfer-Encoding",
+                "value": "base64"
+              }
+            ],
+            "body": {
+              "size": 47072,
+              "base64_url_content": null,
+              "content": null,
+              "attachment_id": "ANGjdJ-JvFSz7n8K0oVuLYRhG2FBd90jwNhGjE9GKLTLDf76jDziWb7PxvUMyyTjgm3F76Jjz1h_7iwStB3yZcoQfTacx9qH7PckULyerOS4mngOAVHCAHVrDQcjVvfn-AyZYqL1LVGioTV-6ZOHm3Robv3bs0ZGfskrygZc3DixuQ8DddD4afBd23wzPUDDItJzm3l9IqmNYiEUDEOOFVLMiqDgr_y2K0T2I3cSoHN3kpJahFIF0y_CdVNUNH9IPTDUO-UcNJT2UgWbDMjRFuELYGK2TDrd_g6tb1qBalGlR_xozNKYp7EmF1NRKwmkgncSFOTz7JrkQsRpNrhj25I2XTSh_BSlSyWrtmQXNI1MCNfo7ZcrgamSBOswpBHkddE-ggOzf6zObXk_NDF7"
+            },
+            "read_attachment_supported": true,
+            "parts": null
+          },
+          {
+            "part_id": "0.2",
+            "mime_type": "image/png",
+            "filename": "image002.png",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "image/png; name=\"image002.png\""
+              },
+              {
+                "name": "Content-Description",
+                "value": "image002.png"
+              },
+              {
+                "name": "Content-Disposition",
+                "value": "inline; filename=\"image002.png\"; size=1300; creation-date=\"Fri, 23 Oct 2026 10:04:05 GMT\"; modification-date=\"Fri, 23 Oct 2026 10:04:05 GMT\""
+              },
+              {
+                "name": "Content-ID",
+                "value": "<image002.png@01DD62D9.C3DF00A0>"
+              },
+              {
+                "name": "Content-Transfer-Encoding",
+                "value": "base64"
+              }
+            ],
+            "body": {
+              "size": 1300,
+              "base64_url_content": null,
+              "content": null,
+              "attachment_id": "ANGjdJ9ZBitQ9fmrMlep5_GKhdRgJnsoI3TuIzvH5Qt4G9E-ErVCjH0_I_LLAlEdTIN5vgo8ufzYzjsA8Qn6Bfz74oyKzO6M8bEz_oQmkcBj9ux4x6pVSmt6jtv6jBnh6eJP4FZqWmLF-ee9dck0WmaWk5mI41sDxKgPxeaKlrE_hsnZ34xn6zjn6LFgtweySgPseGXcws1oKLt0oRnGWWG2OFaP3oxyrsIBlJQDGeGD1yuuO2sKNNcRfHJgKkOp1VUnew0c7HUpVrTQnAy6MDR41tAyplhzzUFqglxBDHUT_PexhzTLOZosrWT-ZGOkySA_RylqndG9NM2uTtsR_LayXjy_HV3HWeSng5g2NIfOEgkMvg80T73GVi0VrhGwbr41mn949uVdnt7McDtV"
+            },
+            "read_attachment_supported": true,
+            "parts": null
+          },
+          {
+            "part_id": "0.3",
+            "mime_type": "image/png",
+            "filename": "image003.png",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "image/png; name=\"image003.png\""
+              },
+              {
+                "name": "Content-Description",
+                "value": "image003.png"
+              },
+              {
+                "name": "Content-Disposition",
+                "value": "inline; filename=\"image003.png\"; size=1431; creation-date=\"Fri, 23 Oct 2026 10:04:05 GMT\"; modification-date=\"Fri, 23 Oct 2026 10:04:06 GMT\""
+              },
+              {
+                "name": "Content-ID",
+                "value": "<image003.png@01DD62D9.C3DF00A0>"
+              },
+              {
+                "name": "Content-Transfer-Encoding",
+                "value": "base64"
+              }
+            ],
+            "body": {
+              "size": 1431,
+              "base64_url_content": null,
+              "content": null,
+              "attachment_id": "ANGjdJ_jc5Y28WoFl0PFa-_u6ezubyx3Xd8kZPw0oQ3rkPbb3tHaVMuKpiJ0wuNIfGsRoKvLe5JQSTnMoIwhu63_P4nH0KQm6WOTdV12IeFfrhdpCyTWtazSsjufyryvK5az_9hA4msBw1qY_nyBxZC5XcTie5mX00eFhXi-TCSLw-FqZBSjjWQm_2CTJ6bTFltRQR6Pr6W4-XCw0DPcHGrz1ZiF1tS819_EFl4GNYOS7dsqmuXuzSLID9_DwIPaYULsGXwe75FSVxgsaqPk6ePGJCW9EU3yYwc8bi81u8YZzPG5SBqV-OFemeagLkQZquHAg10hVwRaVXo1Vkzcpo4jWwP4-ayDbaY8ISsMQkOSry4Y2Sznbpvh2esHJU4XGf3e-pnEGFWH8UVsnusJ"
+            },
+            "read_attachment_supported": true,
+            "parts": null
+          },
+          {
+            "part_id": "0.4",
+            "mime_type": "image/png",
+            "filename": "image004.png",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "image/png; name=\"image004.png\""
+              },
+              {
+                "name": "Content-Description",
+                "value": "image004.png"
+              },
+              {
+                "name": "Content-Disposition",
+                "value": "inline; filename=\"image004.png\"; size=1818; creation-date=\"Fri, 23 Oct 2026 10:04:06 GMT\"; modification-date=\"Fri, 23 Oct 2026 10:04:06 GMT\""
+              },
+              {
+                "name": "Content-ID",
+                "value": "<image004.png@01DD62D9.C3DF00A0>"
+              },
+              {
+                "name": "Content-Transfer-Encoding",
+                "value": "base64"
+              }
+            ],
+            "body": {
+              "size": 1818,
+              "base64_url_content": null,
+              "content": null,
+              "attachment_id": "ANGjdJ8bHU-4tWrplRQiBHCE1lbSkD1qThiInaWLvemuDIJR1DFpjV72xZKdng7oqA-FV0wNNk358C8vjFIgymstAtRvTVQ8U9TbBXDRyy3z_XrWx4dgH08V4voyhGBypx9pcFpOxLoTGK17MD7hZoB6vuekYjWPOu8bYXx1xwkF9x7D1z3aG_KApwFRor0Wm8IBlImcGk8lY9byieba-gDsBIa59jxMtVyfFfHCeZIksKH8Ax6N2PkmJE92FcmL39-tQlPwk7O64-0FONeQ6jJfYev2DbaRrrYyayryvexzts3A1-dtR-sO6G58F0mCQlH9CKmXkD4B7awl2bFWoyDbFmFhKaDaOVY-W8Q6D_YYhceeE66QNxuCwfUtYXrV-raxyEzTfm2PRZ-JOL18"
+            },
+            "read_attachment_supported": true,
+            "parts": null
+          }
+        ]
+      },
+      {
+        "part_id": "1",
+        "mime_type": "application/pdf",
+        "filename": "White Paper - Have It All - Trade Secrets, Patent Rights, Lower Costs, More Flexibility, and Longer Protection.pdf",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/pdf; name=\"White Paper - Have It All - Trade Secrets, Patent Rights, Lower Costs, More Flexibility, and Longer Protection.pdf\""
+          },
+          {
+            "name": "Content-Description",
+            "value": "White Paper - Have It All - Trade Secrets, Patent Rights, Lower Costs, More Flexibility, and Longer Protection.pdf"
+          },
+          {
+            "name": "Content-Disposition",
+            "value": "attachment; filename=\"White Paper - Have It All - Trade Secrets, Patent Rights, Lower Costs, More Flexibility, and Longer Protection.pdf\"; size=2519735; creation-date=\"Fri, 23 Oct 2026 10:04:05 GMT\"; modification-date=\"Fri, 23 Oct 2026 10:04:05 GMT\""
+          },
+          {
+            "name": "Content-Transfer-Encoding",
+            "value": "base64"
+          }
+        ],
+        "body": {
+          "size": 2519735,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": "ANGjdJ_S2RsPrFpfUG-BehSjpHfNZ30j5vx9EG_rKPxsr5PRzdGH8KCUoTYyFR3_yujsC3d_59GLE7w8zGM7okR5sxUFrdYLfNFPWvmrZwQYjAcA5MVLh-r_K4RmrWLfR5LxsqbK5VtCn6w6dNPPyeDMHqF8miB6pG4Ulb2m1egdj6OSCMltHTC8zBmktimov07nX1-sjkuVnfVaOLyM3Y3xJh06781dfOzWpzhp3W87svjgFyb4_bjoRVrDnam1m61Zv7Haw8o-J_PCR1Fum7zDJF60a8ZMvaNYnGW91RzggwGPI8825ABfmtUFQ-WMjE3E3sFHDNI8SkDCzxWE4jc9itUemxy3GrjtE-8H7P2fu2y49mb8hc4NU8JycjVUn42UhCLa9MRWzQ2U3-gGrlbLaFLUAsqSalZfU0w35w"
+        },
+        "read_attachment_supported": true,
+        "parts": null
+      }
+    ]
+  },
+  "size_estimate": 3559566,
+  "classification_label_values": null,
+  "raw": null
+}

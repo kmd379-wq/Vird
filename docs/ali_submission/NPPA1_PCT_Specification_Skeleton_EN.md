@@ -38,19 +38,21 @@
 
 # §2. CROSS-REFERENCE TO RELATED APPLICATIONS
 
-**[ATTORNEY: insert exact application numbers, filing dates, and titles from USPTO receipts]**
+**Working priority particulars verified against saved Patent Center indexes on October 23, 2026. Counsel must verify entitlement, formal requirements, applicant/successor status and filing deadlines before submission.**
 
-This application claims the benefit of priority under 35 U.S.C. § 119(e) and/or as a continuation-in-part (if applicable) of the following U.S. provisional patent applications, each incorporated herein by reference in its entirety:
+This application claims priority to the following U.S. provisional applications. Counsel shall adapt the statement to the filing route, complete the PCT Request or U.S. ADS, and verify disclosure support for each claimed combination.
 
-| Ref | Provisional | Filed title (short) | Claims | Figures |
-|-----|-------------|----------------------|--------|---------|
-| PPA #3 | `[APP. NO. TBD]` / `[DATE TBD]` | Modular Smart Vending Cabinet … Smart-Glass … Sensor-Fusion … Dynamic Pricing | 1–30 | `PPA#3 FIGURES.pdf` |
-| PPA #4 | `[APP. NO. TBD]` / `[DATE TBD]` | Smart Retail Cabinet with Tokenized Access and Split Payments | 1–20 | `PPA#4 FIGURES.pdf` |
-| PPA #5 | `[APP. NO. TBD]` / `[DATE TBD]` | Smart Retail Cabinet … (leveling, VTL, ESL) | 1–16 | `PPA#5 FIGURES.pdf` |
-| PPA #6 | `[APP. NO. TBD]` / `[DATE TBD]` | Modular Retail System … Adaptive Architecture, AI Pricing, Consumables | 1–8 | `PPA#6 FIGURES.pdf` |
-| PPA #7 | `[APP. NO. TBD]` / `[DATE TBD]` | *Same English title as PPA #6* | 1–5 | `PPA#6 FIGURES.pdf` *(same)* |
+- PPA #3: U.S. Provisional Application No. 63/947,909, filed December 23, 2025, entitled "Modular Smart Vending Cabinet with Smart-Glass Inspection Mode, Sensor-Fusion Manual Retrieval, and Quality-Based Dynamic Pricing".
+- PPA #4: U.S. Provisional Application No. 63/955,179, filed January 6, 2026, entitled "SMART RETAIL CABINET WITH TOKENIZED ACCESS AND SPLIT PAYMENTS".
+- PPA #5: U.S. Provisional Application No. 63/959,439, filed January 13, 2026, entitled "SMART RETAIL CABINET WITH TOKENIZED ACCESS AND SPLIT PAYMENTS".
+- PPA #6: U.S. Provisional Application No. 63/961,839, filed January 16, 2026, entitled "MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, AI- DRIVEN PRICING, AND INTEGRATED CONSUMABLES MANAGEMENT".
+- PPA #7: U.S. Provisional Application No. 63/975,643, filed February 4, 2026, entitled "MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, AI- DRIVEN PRICING, AND INTEGRATED CONSUMABLES MANAGEMENT".
 
-**Priority note (per counsel guidance):** NPPA #1 / PCT should list priority to **each** of PPAs #3–#7 where subject matter is adequately supported. For overlapping disclosure in PPA #6 and PPA #7 (identical filed figures, different claims), claim dual priority to both where supported. USPTO does not examine entitlement to priority during prosecution; support may be tested in litigation.
+**Counsel review:** Listing the provisional applications does not itself establish entitlement to their dates. Verify written-description and enablement support in each relied-on application, including the claimed combination. The original blanket statement that priority support is assessed only in litigation has been removed; examination may require that support to be established. No continuation-in-part relationship to a provisional application is asserted here.
+
+**Draft provenance:** This is a client-prepared framework. Ali supplied a separate attorney draft and a 22-page drawing set on October 15, 2026; originals are preserved in `docs/patent_audit_2026-10-23/evidence/Ali_original_drafts_2026-10-15/`. Use those alongside the filed provisionals. Their presence does not establish that a U.S. nonprovisional or PCT has been filed.
+
+Sources: saved Patent Center indexes; USPTO MPEP 211 and 211.05 (https://www.uspto.gov/web/offices/pac/mpep/s211.html).
 
 ---
 

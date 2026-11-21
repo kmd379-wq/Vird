@@ -1,0 +1,112 @@
+# Patent Rights Assignment Agreement 1
+
+Dated 15 October 2026. Effective upon execution by both parties on 15 October 2026, after adoption of Corporate Resolution No. 1 and confirmation of the signatory’s authority. No retrospective transfer is intended.
+
+## 1 Parties and transaction
+
+Assignor: PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO, an IFZA Dubai free-zone company, licence No. 38769, registered office IFZA Business Park, DDP, P.O. Box 342001, Dubai, United Arab Emirates, represented by Mikhail Kozin as Director / General Manager under Corporate Resolution No. 1 (PBK).
+
+Assignee: Mikhail Kozin, a citizen of the Russian Federation, residing at Flat 503, Plot 70, Sharjah Main City, United Arab Emirates, acting personally; notice email kmd379@gmail.com (Kozin). Kozin executes this agreement separately in each capacity.
+
+The parties refer to Act No. 1 and the clarified register of 16 payments dated 15 October 2026, totalling USD 22,593.00. They expressly accept those payments as Company patent-project expenses funded by Kozin and agree to settle the corresponding Company obligation on the terms below. This agreement makes the settlement agreement; it does not treat the earlier factual register as having independently established liability or valuation.
+
+## 2 Present assignment
+
+PBK hereby assigns, transfers and conveys to Kozin all of PBK's right, title and interest, to the extent owned by PBK, worldwide in the ten US provisional applications identified in Schedule A and the inventions disclosed in them, including all assignable rights to apply for patents and to claim priority or benefit from each listed application under the Paris Convention, PCT and applicable national or regional law.
+
+The transfer includes PBK's assignable interests in corresponding nonprovisional, PCT, national and regional applications, continuations, divisionals, reissues, resulting patents and extensions relating to that disclosed subject matter, and assignable causes of action and recoveries for infringement of the transferred rights. PBK shall execute further instruments needed to confirm corresponding rights it later acquires in that same subject matter. Unrelated inventions, unrelated new subject matter and third-party rights are excluded.
+
+Kozin accepts the assignment. The transfer does not alter inventorship, create a past inventor-to-PBK transfer, extend any filing deadline or establish substantive entitlement to a priority claim. Any rights already owned personally by Kozin remain his.
+
+## 3 Consideration and discharge
+
+PBK acknowledges and the parties settle the Company obligation for all 16 accepted payments at USD 22,593.00 (twenty-two thousand five hundred ninety-three US dollars and zero cents). The agreed consideration for the transferred rights is the discharge of that same amount. Upon this agreement becoming effective, Kozin accepts the transfer in full satisfaction of that identified obligation, which is discharged in full; its remaining balance is USD 0.00. No additional cash payment is due from Kozin under this agreement.
+
+The figure is a negotiated settlement amount, not a representation of independent market value or of USPTO fees alone. The parties knowingly include the search payments and unfinished NPPA work described in the register. This settlement provision supersedes only the register's statements that the Company obligation and settlement amount were not yet determined; the underlying payment facts and stated uncertainties are unchanged.
+
+No unrelated Company obligation is discharged. Claims held by Kozin against Ali Shalchi, Shalchi Law, UpCounsel or other service providers, including claims relating to non-completion, duplicate payments or refunds, remain with Kozin and are neither waived nor assigned. This agreement does not accept Ali's assertion that the USD 6,400 advance was fully earned, certify performance or promise a refund. A later service-provider refund does not revive the settled PBK obligation; the same expenditure cannot be recovered twice from PBK. No unsupported representation that no prior refunds occurred is made.
+
+## 4 Authority and title information
+
+Upon execution PBK confirms that the signatory is authorised by duly adopted Corporate Resolution No. 1 and that any mandatory consents needed for this transfer have been obtained. The parties disclose Kozin's personal interest and his signatures in both capacities. Confirmation of the operative Articles and current corporate authority must precede execution.
+
+Ali stated on 9 October 2026 that PBK is listed as applicant for PPA Nos. 1–10, and on 26 September 2026 that he did not prepare or record assignments for them. These statements do not establish whether private employment, invention or other title documents exist. No representation that a complete inventor-to-PBK chain has been verified, or that no third-party rights exist, is made here. PBK transfers its actual interest; this instrument does not cure any missing third-party conveyance. PBK must disclose any known restriction before execution. No warranty of patentability, validity or freedom to operate is given.
+
+## 5 Documents and recordation
+
+PBK will provide copies under its control of the applications, drawings, filing records, correspondence and relevant title documents and reasonably cooperate in executing accurate confirmatory documents. Neither party may sign for the other.
+
+After signature the parties intend that Ali Shalchi record this assignment against each Schedule A application through USPTO Assignment Center with the required cover sheet. His engagement scope and charges must first be agreed in writing. The authority is limited to recordation and separately agreed related ownership/applicant formalities. It does not authorise new PCT or NPPA filings or substantive prosecution. The parties request a copy of the filed cover sheet and the notice of recordation identifying all ten applications. Recordation is not a determination of substantive ownership; additional applicant-change or representation formalities may be required.
+
+## 6 General provisions
+
+Schedule A is part of this agreement. The Act and clarified register are identified financial supporting records; they need not be recorded publicly with this agreement unless legally required. This instrument and the corporate resolution govern this settlement and assignment; amendments require both parties' written signatures. Invalidity of one clause does not enlarge the assigned rights or the discharged amount.
+
+Applicable mandatory corporate, contractual and patent laws remain controlling. No exclusive jurisdiction or arbitration agreement is created; any dispute is for a court having jurisdiction under applicable law. The separately prepared English and Russian versions express the same agreement and do not effect two transfers. English controls an inconsistency subject to mandatory law. Counterparts are permitted; electronic execution is used only where legally effective for its intended purpose.
+
+
+
+## Signatures
+
+For PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO
+
+Director / General Manager
+
+Mikhail Kozin
+
+Signature __________________________
+
+Date: 15 October 2026
+
+Personally as assignee and settling creditor
+
+Mikhail Kozin
+
+Signature __________________________
+
+Date: 15 October 2026
+
+---PAGE---
+
+## Schedule A Assigned applications
+
+PPA #1 — US 63/938,244
+Filing date: 11 December 2025
+Autonomous Retail Ecosystem with AI-Driven Dynamic Pricing and Biometric Access Control for Restricted Goods
+
+PPA #2 — US 63/945,513
+Filing date: 19 December 2025
+System for Bio-Metric Inventory Management and Dynamic Freshness Pricing
+
+PPA #3 — US 63/947,909
+Filing date: 23 December 2025
+Modular Smart Vending Cabinet with Smart-Glass Inspection Mode, Sensor-Fusion Manual Retrieval, and Quality-Based Dynamic Pricing
+
+PPA #4 — US 63/955,179
+Filing date: 06 January 2026
+SMART RETAIL CABINET WITH TOKENIZED ACCESS AND SPLIT PAYMENTS
+
+PPA #5 — US 63/959,439
+Filing date: 13 January 2026
+SMART RETAIL CABINET WITH TOKENIZED ACCESS AND SPLIT PAYMENTS
+
+PPA #6 — US 63/961,839
+Filing date: 16 January 2026
+MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, AI-DRIVEN PRICING, AND INTEGRATED CONSUMABLES MANAGEMENT
+
+PPA #7 — US 63/975,643
+Filing date: 04 February 2026
+MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, AI-DRIVEN PRICING, AND INTEGRATED CONSUMABLES MANAGEMENT
+
+PPA #8 — US 64/090,283
+Filing date: 14 June 2026
+INTELLIGENT BULK PRODUCE QUALITY CONTROL AND DYNAMIC PRICING SYSTEM
+
+PPA #9 — US 64/106,825
+Filing date: 07 July 2026
+AUTONOMOUS RETAIL PLATFORM WITH VERIFIED FEEDBACK CONTROL
+
+PPA #10 — US 64/125,577
+Filing date: 04 August 2026
+THROUGH-TRACKING TARE CONTROL SYSTEM
+

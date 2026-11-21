@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
+<rect width="900" height="720" fill="#ffffff"/>
+<text x="48" y="40" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111111">PPA &#8470;3 — Архитектура модульного умного шкафа</text>
+<text x="48" y="58" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555555">Слияние датчиков · умное стекло · ценообразование · ручная выдача</text>
+<rect x="350" y="72" width="200" height="36" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="450" y="94" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#0f4d4d">ПОЛЬЗОВАТЕЛЬ</text>
+<line x1="450" y1="108" x2="450" y2="128" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,134 446,126 454,126" fill="#222222"/>
+<rect x="80" y="132" width="140" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="150" y="152" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">105 Биокамера</text>
+<rect x="380" y="132" width="140" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="152" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">110 Дисплей</text>
+<rect x="680" y="132" width="140" height="48" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="750" y="152" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Платёж</text>
+<line x1="450" y1="180" x2="450" y2="214" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,220 446,212 454,212" fill="#222222"/>
+<rect x="120" y="224" width="660" height="88" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
+<text x="450" y="244" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f4d4d">400 ПЕРИФЕРИЙНЫЙ КОНТРОЛЛЕР</text>
+<text x="450" y="264" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#111111">Слияние датчиков · ценообразование · доступ · offline кэш</text>
+<line x1="450" y1="312" x2="450" y2="332" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,338 446,330 454,330" fill="#222222"/>
+<rect x="48" y="344" width="130" height="40" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="113" y="368" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">Шина питания</text>
+<rect x="200" y="344" width="130" height="40" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="265" y="368" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">RFID-матрица</text>
+<rect x="352" y="344" width="130" height="40" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="417" y="368" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">Камера</text>
+<rect x="504" y="344" width="130" height="40" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="569" y="368" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">140 Замок</text>
+<rect x="656" y="344" width="130" height="40" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="721" y="368" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">ИБП</text>
+<line x1="450" y1="384" x2="450" y2="404" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,410 446,402 454,402" fill="#222222"/>
+<rect x="48" y="416" width="804" height="100" fill="none" stroke="#222222" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="58" y="434" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#111111">200 ТОРГОВАЯ ЗОНА — модули A–G (ручная выдача)</text>
+<rect x="68" y="452" width="90" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="113" y="478" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">Толкатель</text>
+<rect x="178" y="452" width="90" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="223" y="478" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">Крючок</text>
+<rect x="288" y="452" width="90" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="333" y="478" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">Весовая</text>
+<rect x="398" y="452" width="90" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="443" y="478" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">Затвор</text>
+<rect x="508" y="452" width="90" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="553" y="478" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">Лоток</text>
+<rect x="618" y="452" width="90" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="663" y="478" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#111111">Утилизация</text>
+<rect x="80" y="536" width="180" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="170" y="562" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Умное стекло</text>
+<rect x="360" y="536" width="180" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="562" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Корзина отходов</text>
+<rect x="640" y="536" width="180" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="730" y="562" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">Станция индукции</text>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">Стрелки вниз: поток управления от пользователя к контроллеру, датчикам и модулям.</text>
+<text x="48" y="708" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">PPA &#8470;3</text>
+</svg>

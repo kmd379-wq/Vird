@@ -1,0 +1,786 @@
+[PAGE 1]
+Kozin Portfolio — Scope and Fee Proposal
+Oct 22, 2026  ·  @Michael Bartholomew
+Receipt and summary
+Dear Mr. Kozin,
+I confirm receipt of all five parts of the review package (Parts 1–4: PPA #1–#10 file sets;
+Part 5: READ_FIRST_EN.txt, the NPPA #1 client memo and skeleton, supplemental figures,
+Portfolio_Registry.json, the ten Patent Center indexes, the PPA #1 official filing receipt, the
+ownership documents, and the NDA template), together with the two files you sent on
+October 22: Mr. Shalchi's NPPA #1 draft specification (Word, last saved by him on October
+15, 2026) and its 22 sheets of draft figures. That draft changes the NPPA #1 scope from
+drafting to review and completion, and the quote below reflects it. This letter is my no-
+charge scope and fee assessment. It is not an engagement, and no billable work has been
+started. Review of priority support and ownership is addressed in Section 4; the short
+answer is that priority-support review is included in each application's drafting fee, and
+the ownership/assignment review is a separately itemized fixed-fee item.
+Headline answers:
+1 . PCT representation. I cannot lawfully be the appointed agent of record in the
+international phase. The USPTO is not a competent receiving Office for an applicant
+who is neither a U.S. national nor a U.S. resident, and before the International Bureau as
+receiving Office (RO/IB) an agent must be entitled to practice before the national
+Office of a state of which the applicant is a national or resident — Russia or the UAE —
+which a U.S. registration does not satisfy (PCT Rule 83.1bis). I can prepare the complete
+PCT filings and coordinate them; you would sign and file as applicant through ePCT
+with my office as the address for correspondence, or a UAE- or Russia-qualified agent
+would be appointed for the formalities. Details and a recommendation are in Section 3.
+2. Applicant and receiving Office. The proposed applicant for both PCT applications and
+both U.S. nonprovisionals is you, Mikhail Kozin, personally, as inventor and applicant.
+RO/IB is the appropriate receiving Office. The UAE Office does not act as a receiving
+Office; RO/RU and the Eurasian Office are available to you as a Russian national but
+are not recommended for a U.S.-coordinated filing. ISA/US is not available; the
+European Patent Office (ISA/EP) is my recommended searching authority, with the
+Australian Patent Office (ISA/AU) as the lower-cost alternative.
+Kozin Portfolio — Scope and Fee Proposal
+Page 1 of 18
+
+[PAGE 2]
+3. Two PCT applications (group #1 = PPAs #3–7; group #2 = PPAs #1, 2, 8, 9) are
+appropriate and are quoted separately in Section 4.
+4. Deadlines verified. The controlling dates are Friday, December 11, 2026 for group #2
+and Wednesday, December 23, 2026 for group #1, for both the U.S. nonprovisionals
+and the PCT applications. I propose filing group #2 on December 3 and group #1 on
+December 10, leaving buffers of 8 and 13 days. See Section 6.
+5. Ownership. PBK is the applicant of record on all ten provisionals and the records
+contain no inventor-to-PBK document. The PBK-to-Kozin assignment must be signed
+before the PCT filings, and in any case before PBK's trade license lapses on December
+10, 2026. See Section 2.
+6. Fee cap. Attorney fees are capped at USD 12,250 for the two U.S. applications and the
+assignment, within my October 21 ranges, and USD 15,250 if both PCT options are
+added, plus official fees, formal drawings and any outside agent, itemized in Section 4.
+1. Record verification
+The application numbers, filing dates and titles in your registry match the USPTO filing
+receipts and Patent Center indexes for all ten provisionals. Every receipt names Mikhail
+Kozin (Dubai, UAE) as sole inventor, PBK ENGINEERING INTELLECTUAL PROPERTY
+RIGHTS MANAGEMENT - FZCO as applicant, micro entity status, Ali Shalchi (Reg. No.
+52,210) under power of attorney, a foreign filing license granted, and Priority Document
+Exchange access permitted.
+PPA Application
+No.
+Filed Title (short) Spec
+pages
+Drawings on file 12-month date
+#1 63/938,244 Dec 11,
+2025
+Autonomous Retail
+Ecosystem …
+Biometric Access
+Control
+5 4 sheets (hand
+sketches)
+Dec 11, 2026 (group
+#2 control)
+#2 63/945,513 Dec 19,
+2025
+Bio-Metric Inventory
+Management and
+Dynamic Freshness
+Pricing
+7 3 sheets Dec 21, 2026 (19th
+is a Saturday)
+#3 63/947,909 Dec 23,
+2025
+Modular Smart
+Vending Cabinet …
+Smart-Glass …
+7 4 sheets (same
+sketches as #1)
+Dec 23, 2026
+(group #1 control)
+Kozin Portfolio — Scope and Fee Proposal
+Page 2 of 18
+
+[PAGE 3]
+Three findings affect scope and risk:
+PPA #9 has no drawings. The Patent Center index lists only a 19-page specification, and
+the archived specification contains no figures although its text describes FIG. 1–8. All
+eight figures for the NPPA #2 / PCT #2 must be drawn new; any detail shown only in
+those new figures and not described in the PPA #9 text will carry the nonprovisional
+filing date rather than July 7, 2026.
+PPAs #1, #3, #4, #5, #6 and #7 all reuse the same four hand-drawn sketch pages (the
+archived files are byte-identical, and the Patent Center indexes show four drawing
+sheets for each). The features specific to PPAs #3–7 (smart glass, tokenized access,
+leveling, induction, − Δ P ventilation, the 45° bunker, the exit gate) are therefore
+supported by text only. The 22 formal sheets in Mr. Shalchi's draft now cover these
+features, but the figure content gets no earlier date than the provisional text supports.
+The archived specifications are editable copies. The page counts match the Patent
+Center indexes, but the as-filed PDFs must be downloaded from Patent Center before
+drafting so that every priority-support decision is made against the official text. That
+PPA Application
+No.
+Filed Title (short) Spec
+pages
+Drawings on file 12-month date
+#4 63/955,179 Jan 6,
+2026
+Smart Retail Cabinet
+with Tokenized Access
+and Split Payments
+12 4 sheets (same
+as #1)
+Jan 6, 2027
+#5 63/959,439 Jan 13,
+2026
+Smart Retail Cabinet …
+(revised)
+12 4 sheets, non-
+B/W (same as #1)
+Jan 13, 2027
+#6 63/961,839 Jan 16,
+2026
+Modular Retail System
+with Adaptive
+Architecture …
+8 3 B/W + 1 non-
+B/W (same as #1)
+Jan 19, 2027 (16th is
+a Saturday; 18th is a
+holiday)
+#7 63/975,643 Feb 4,
+2026
+Modular Retail System
+… (same title as #6)
+9 4 sheets (same
+as #1)
+Feb 4, 2027
+#8 64/090,283 Jun 14,
+2026
+Intelligent Bulk
+Produce Quality
+Control and Dynamic
+Pricing
+14 7 sheets Jun 14, 2027
+#9 64/106,825 Jul 7,
+2026
+Autonomous Retail
+Platform with Verified
+Feedback Control
+19 None filed Jul 7, 2027
+#10 64/125,577 Aug 4,
+2026
+Through-Tracking Tare
+Control System
+17 None filed
+(background
+only)
+Aug 4, 2027
+Kozin Portfolio — Scope and Fee Proposal
+Page 3 of 18
+
+[PAGE 4]
+requires either a power of attorney in each provisional or the filing receipts' DAS/PDX
+access; see Section 7.
+Mr. Shalchi's NPPA #1 draft. The October 22 files are a substantially complete
+nonprovisional: a specification of about 12,700 words with a cross-reference to all five
+group #1 provisionals, 20 claims (independent claims 1, 12 and 15 directed to the cabinet,
+an operating method and a thermal processing module), and 22 sheets of formal black-
+and-white line drawings (FIG. 1–22) with consistent reference numerals. On a first read it
+is professionally prepared and suitable to finish rather than replace. Two cautions: the
+draft is dated after the provisionals, so every passage and figure must be checked against
+the as-filed provisional text before filing, and anything in the draft that goes beyond what
+the provisionals describe will carry the nonprovisional filing date only; and because the
+draft was prepared by Mr. Shalchi, I will assume that he delivered it to you for your use —
+please confirm that in writing, since the records mention an unresolved fee dispute with
+him.
+2. Ownership and the PBK-to-Kozin assignment
+The present chain of title, as the USPTO records show it, is: inventor Mikhail Kozin → (no
+recorded document) → applicant PBK. Nothing in the package transfers the inventions
+from you to PBK, and the draft assignment itself states that no such document has been
+verified. The practical consequences:
+For the U.S. nonprovisionals, this does not block filing. A nonprovisional claims the
+benefit of a provisional on the strength of a common inventor, and you can be named
+as inventor-applicant of NPPA #1 and NPPA #2 regardless of what PBK did or did not
+own. I recommend that both NPPAs and both PCTs name you alone as applicant.
+For the PCT applications, the assignment matters. The right to claim priority belongs
+to the applicant of the earlier application (PBK, as the USPTO records stand) or its
+successor in title, and several major Offices (the EPO in particular) require the
+successor to have acquired that right before the PCT filing date. The PBK-to-Kozin
+assignment — which expressly includes the right of priority under the Paris
+Convention and PCT — must therefore be fully signed, in both capacities, before
+December 3, 2026, and I recommend signing it no later than November 13, 2026.
+PBK's trade license (No. 38769, IFZA/DIEZ) expires December 10, 2026. The
+assignment and resolution should be executed while the company is in good standing,
+and the license should be renewed or the company's post-expiry status confirmed
+Kozin Portfolio — Scope and Fee Proposal
+Page 4 of 18
+
+[PAGE 5]
+with the free zone before the filings, so that no one can later argue the assignor lacked
+capacity.
+On the documents supplied:
+Document Assessment
+51-page Memorandum and Articles (Zoho-
+signed, DIEZ Implementing Regulations
+2023)
+This is the operative version. It contains
+Articles 43, 60, 66 and 69 exactly as cited in
+Corporate Resolution No. 1, and it is the
+signed instrument. The shareholder address
+in it (Lloret de Mar, Spain) differs from your
+Sharjah address in the assignment; the
+assignment should recite both or the
+register should be updated.
+"Alternate version" Memorandum (older
+IFZA/DSOA template)
+Superseded. It cites 2006 regulations, has no
+Articles 43/60/66/69, and carries no
+signatures or document ID. It should not be
+relied on.
+Trade License Confirms PBK's legal existence, license No.
+38769, and you as Manager. Expiry
+December 10, 2026 (see above).
+Corporate Resolution No. 1 (Oct 15, 2026
+draft)
+Sound in structure: sole-shareholder written
+resolution disapplying Art. 60.1 for the
+interested-director transaction, plus a
+director implementation decision. Minor
+edits proposed: add the license number and
+expiry, state the operative Articles by their
+Zoho document ID, and remove the
+authorization of Mr. Shalchi to record
+(recordation will be handled by my office).
+Kozin Portfolio — Scope and Fee Proposal
+Page 5 of 18
+
+[PAGE 6]
+The review and finalization of these documents, and electronic recordation of the signed
+assignment against all ten applications through USPTO Assignment Center (official fee:
+USD 0 for electronic recording), is quoted as a separate fixed-fee item in Section 4. I will
+not advise on UAE or Russian corporate law; the resolution's compliance with IFZA
+requirements should be confirmed by your UAE corporate advisor.
+Two further ownership-adjacent points for your attention, outside the quoted scope: (a)
+micro-entity status was certified for PBK on all ten provisionals; if PBK's or your gross
+income exceeds the USPTO's current threshold, the fee deficiencies should be corrected
+before the nonprovisionals are filed, and I will advise on the correct entity status for the
+new filings; (b) if any of the inventions were made in the Russian Federation, Russian first-
+filing rules may be engaged, which is a matter for your Russian counsel.
+3. PCT — your four questions
+Q1. Can I act as the formal PCT representative? No, not as the appointed agent in the
+international phase, and this does not depend on whether the PBK-to-Kozin transfer is
+completed.
+The USPTO as receiving Office (RO/US) accepts an international application only if at
+least one applicant is a U.S. national or resident (35 U.S.C. § 361(a); 37 CFR 1.421).
+Neither you nor PBK qualifies. An application lodged at RO/US by a non-qualifying
+Document Assessment
+Patent Rights Assignment Agreement No. 1
+(Oct 15, 2026 draft)
+Suitable for USPTO recordation once signed;
+Schedule A is accurate. Proposed edits: (i)
+add a short "confirmatory" clause that, to
+the extent any right in the listed applications
+was retained by you personally as inventor, it
+is confirmed as yours, so that the recorded
+chain is complete whichever way title ran; (ii)
+add a USPTO-style assignment of the right to
+claim priority under 35 U.S.C. § 119(e) and §
+365; (iii) replace the Shalchi recordation
+paragraph with a recordation covenant; (iv)
+delete the service-provider claims
+paragraph from the recordable instrument
+and keep it in a separate settlement letter,
+since the recorded copy is public.
+Kozin Portfolio — Scope and Fee Proposal
+Page 6 of 18
+
+[PAGE 7]
+applicant is forwarded to RO/IB with its filing date preserved, but that is a safety net,
+not a plan.
+Before RO/IB, "any person who has the right to practice before the national Office of, or
+acting for, a Contracting State of which the applicant is a resident or national" may act
+as agent (PCT Rule 83.1bis; PCT Newsletter 06/2020). For you that means a person
+entitled to practice before Rospatent or the UAE Ministry of Economy. My registration
+is before the USPTO only. Naming PBK (a UAE company) as co-applicant would not
+change this.
+What I can do: draft and finalize the specification, claims, abstract and drawings in PCT
+format; complete the Request (Form PCT/RO/101) in ePCT with all priority claims;
+arrange the priority documents; calculate and arrange payment of the official fees;
+review the receiving Office's and ISA's notifications; and advise on the written opinion
+and Chapter II. I can be designated as the address for correspondence under PCT Rule
+4.4(d), which is permitted when no agent is appointed, so that all international-phase
+correspondence comes to my office. I would also be your attorney of record for the
+U.S. national phase later.
+Q2. Applicant, receiving Office, representative.
+Item Proposal Basis
+Applicant (all
+designated States)
+Mikhail Kozin, Russian national,
+resident in Sharjah, UAE; also
+named as inventor
+Nationality or residence in a
+PCT Contracting State gives
+the right to file (PCT Art. 9).
+Priority rights come through
+the executed PBK-to-Kozin
+assignment (Section 2).
+Kozin Portfolio — Scope and Fee Proposal
+Page 7 of 18
+
+[PAGE 8]
+Item Proposal Basis
+Receiving Office RO/IB (International Bureau,
+Geneva)
+The UAE Office "does not act
+as receiving Office" (Annex
+C(AE)); RO/IB is competent for
+every applicant who is a
+national or resident of a
+Contracting State (Annex
+C(IB)). RO/RU and RO/EA are
+also competent for you as a
+Russian national, but they add
+Russian-language formalities,
+Russian-resident agent
+requirements, and sanctions-
+related payment complications
+for a U.S. law office.
+International Searching
+Authority
+ISA/EP (recommended) or
+ISA/AU (lower cost)
+RO/IB allows the ISAs that
+would be competent for your
+national Office. As a Russian
+national: EP, RU, EA, SA; as a
+UAE resident: AT, AU, KR.
+ISA/US is not available to you.
+ISA/EP gives the search most
+useful for European and U.S.
+prosecution; ISA/AU is a
+reputable English-language
+alternative at about 70% of the
+cost.
+Language English Accepted by RO/IB and by
+ISA/EP and ISA/AU; no
+translation needed.
+Signature and filing You sign the Request as
+applicant and file through
+ePCT with your own WIPO
+account (I prepare everything
+and you approve)
+No agent is required by RO/IB.
+Address for
+correspondence
+My office (Rule 4.4(d)) Keeps all international-phase
+correspondence with the
+coordinating attorney.
+Kozin Portfolio — Scope and Fee Proposal
+Page 8 of 18
+
+[PAGE 9]
+Q3. One PCT or two? Two, as you proposed, and I do not recommend merging the groups.
+The groups have different earliest priority dates (December 11 and December 23, 2025),
+different subject matter, and merging all nine provisionals would force the entire portfolio
+onto the earlier December 11 deadline and would almost certainly draw a lack-of-unity
+invitation from the ISA (additional search fees of about CHF 1,734 per extra invention at
+ISA/EP). Even as two applications, group #1 spans five provisionals and 79 provisional
+claims; the PCT claims will be drafted around one principal inventive concept per
+application, with the remaining concepts kept in the description for later divisionals. Each
+PCT is quoted separately in Section 4, with drafting/coordination shown apart from the
+filing and official fees.
+Q4. Priority support, ownership and deadlines. Your working control dates are correct
+and I have verified them against the filing receipts: December 11, 2026 (group #2, from
+PPA #1 filed December 11, 2025) and December 23, 2026 (group #1, from PPA #3 filed
+December 23, 2025). Both dates are business days, so no weekend extension applies, and
+the same dates govern the U.S. nonprovisionals under 35 U.S.C. § 119(e). A PCT filed by
+December 11 can validly claim all four group #2 provisionals (PPAs #8 and #9 are well
+within their own 12 months). If a deadline were missed, restoration of priority within two
+further months is possible at RO/IB (no official fee; "unintentional" standard) and at the
+USPTO (petition under 37 CFR 1.78 with a fee), but restored priority is not recognized in
+every national phase and I do not plan around it. Ownership is addressed in Section 2.
+Item Proposal Basis
+Outside representative
+(optional)
+A patent attorney registered
+before Rospatent or before the
+UAE Ministry of Economy,
+appointed as agent under Rule
+83.1bis, with my office
+coordinating
+Useful if you prefer not to hold
+the ePCT account and sign
+filings yourself, or if the
+sanctions review (below)
+makes a UAE-based agent
+preferable. I will not share any
+of your materials with a
+candidate until you approve
+the person and fee in writing; I
+expect formalities-only fees in
+the range of USD 1,000–2,000
+per application, to be
+confirmed by quotation.
+Kozin Portfolio — Scope and Fee Proposal
+Page 9 of 18
+
+[PAGE 10]
+Priority support — confirming, claim by claim, which provisional supports which feature —
+is part of the drafting work and is included in each application's fee; the drawings findings
+in Section 1 are the main support risk identified so far.
+Sanctions note. Before engagement I will run a standard OFAC screening of you and PBK,
+as I do for any new foreign client; I have no reason to expect an issue. Engagement
+payments must come from a bank outside the Russian Federation, and I will not route
+official fees through Rospatent or the Eurasian Office, which is one reason RO/IB with
+ISA/EP or ISA/AU is recommended.
+4. Itemized quote
+These fees are within the ranges in my letter of October 21. NPPA #1 is quoted at USD
+4,500 on the basis of Mr. Shalchi's October 15 draft and drawings, which you supplied on
+October 22 and which are substantially complete; the fee covers verifying that draft
+against the provisionals and finishing it, not redrafting. NPPA #2 is at the top of its range
+because no draft exists and PPA #9 has no drawings. Attorney fees are fixed per item and
+together form a cap of USD 15,250 for the work listed (USD 12,250 for the U.S. program
+and assignment). UpCounsel platform charges, if the engagement runs through the
+platform, are added at the platform's published rate and are not included in the attorney
+fees; no U.S. sales tax applies to legal services. Official fees are shown at the current
+published rates (USPTO fee schedule effective January 19, 2025, as revised August 14,
+2026; WIPO PCT fee tables as of September 1, 2026) and are passed through at cost;
+Swiss-franc amounts are converted at an assumed USD 1.25 per CHF and will be charged
+at the actual rate on the payment date. Drawings and any outside agent are pass-through
+estimates to be confirmed by quotation before they are incurred.
+Kozin Portfolio — Scope and Fee Proposal
+Page 10 of 18
+
+[PAGE 11]
+# Work item Attorney fee
+(USD)
+Official fees Drawings /
+associates
+(estimate)
+A Assignment and
+recordation: chain-of-
+title review against the
+USPTO records,
+reconciliation of the two
+Memoranda, finalization
+of Corporate Resolution
+No. 1 and Assignment
+Agreement No. 1,
+coordination of
+execution, electronic
+recordation against all
+ten applications (one
+cover sheet, ten
+properties), copies of the
+cover sheet and Notice
+of Recordation to you
+750 USD 0 (electronic
+recording)
+—
+Kozin Portfolio — Scope and Fee Proposal
+Page 11 of 18
+
+[PAGE 12]
+# Work item Attorney fee
+(USD)
+Official fees Drawings /
+associates
+(estimate)
+B NPPA #1 (PPAs #3–7):
+review and completion of
+Mr. Shalchi's October 15,
+2026 draft (specification
+of about 12,700 words, 20
+claims, FIG. 1–22) — line-
+by-line check of the draft
+against the five as-filed
+provisionals for priority
+support, revision of the
+claims and any
+unsupported passages,
+reference-numeral and
+figure consistency
+check, abstract, ADS
+with all five benefit
+claims, inventor
+declaration, DOCX filing,
+filing-receipt review.
+Includes obtaining and
+verifying the as-filed
+records (power of
+attorney in the
+provisionals, Patent
+Center download)
+4,500 USD 400 micro /
+800 small (filing,
+search,
+examination)
+Formal drawings
+already prepared
+(22 sheets);
+contingency for
+corrections: USD
+300
+C NPPA #2 (PPAs #1, 2, 8, 9):
+same scope; includes
+drafting the eight PPA #9
+figures from the text
+7,000 USD 400 micro /
+800 small
+Formal drawings,
+approx. 20
+figures: USD
+1,800
+Kozin Portfolio — Scope and Fee Proposal
+Page 12 of 18
+
+[PAGE 13]
+Drafting versus filing. For items B–E, 85% of the attorney fee is drafting and review and
+15% is filing and post-filing formalities. If you decide after the drafts are complete not to
+file a given application, only the drafting portion is charged.
+Included in the main quoted work: priority-support mapping of every claim to its
+supporting provisional(s) (items B and C); review of ownership as it affects applicant and
+priority entitlement (item A); two rounds of revision per application; one video or written
+# Work item Attorney fee
+(USD)
+Official fees Drawings /
+associates
+(estimate)
+D PCT #1 (group #1), as a
+separate option:
+drafting/coordination —
+adapting the NPPA #1
+text, claims and drawings
+to PCT format and unity,
+preparing the Request in
+ePCT with all priority
+claims, priority
+documents via DAS, fee
+calculation and payment
+arrangements, review of
+RO and ISA notifications
+through the international
+search report
+1,500 CHF 100
+transmittal + CHF
+1,330 filing − CHF
+300 e-filing
+reduction + CHF
+15 per sheet over
+30 (approx. 30
+extra sheets =
+CHF 450) +
+ISA/EP CHF 1,734
+= approx. CHF
+3,314 (USD 4,150);
+with ISA/AU
+instead: approx.
+CHF 2,819 (USD
+3,525)
+Outside agent,
+only if appointed:
+USD 1,000–2,000
+E PCT #2 (group #2), as a
+separate option: same
+scope
+1,500 Same basis:
+approx. CHF 3,314
+(USD 4,150) with
+ISA/EP, or CHF
+2,819 (USD 3,525)
+with ISA/AU
+Outside agent,
+only if appointed:
+USD 1,000–2,000
+Totals 12,250 U.S.
+program (A–
+C); 15,250 cap
+with both PCT
+options
+USD 800–1,600
+USPTO + approx.
+USD 7,050–8,300
+PCT
+USD 2,100
+drawings + USD
+0–4,000 agents
+Kozin Portfolio — Scope and Fee Proposal
+Page 13 of 18
+
+[PAGE 14]
+conference per application to settle claim strategy; and English-language written
+correspondence throughout.
+Excluded, and quoted separately if needed: translation of drafts or correspondence into
+Russian (if you wish, I can arrange a vendor at cost, approximately USD 0.12–0.15 per
+word); prior-art searching; information disclosure statements beyond the initial one;
+responses to USPTO office actions, restriction requirements or notices; additional ISA
+search fees for lack of unity; Chapter II demand; national or regional phase entries (due
+about June 11, 2028 for group #2 and June 23, 2028 for group #1); Russian filings; any
+inventor-to-PBK or other third-party conveyance; corrections of micro-entity status on
+the provisionals; U.S. certified copies if DAS cannot be used (approximately USD 25–35
+each); courier, bank and currency charges; and any work on PPA #10.
+Alternatives you may wish to consider. (1) Filing only the two PCTs now and entering the
+U.S. through the national phase in 2028 would save the USPTO fees and about USD 1,000
+of filing work per application now, at the cost of deferring U.S. examination by about 18
+months; the drafting work is the same. (2) Filing only the two NPPAs would forfeit all non-
+U.S. rights after December 11 and 23, 2026, and I do not recommend it.
+5. Payment, revisions and additional charges
+My practice requires payment into trust before work begins on each stage. Proposed
+milestones:
+Milestone When Amount
+1. Engagement On signing the engagement letter
+(target October 30, 2026)
+Item A in full (USD 750) + 50% of
+items B–E (USD 7,250 with both
+PCTs; USD 5,750 without) + USPTO
+filing fees for both NPPAs (USD
+800–1,600) + drawing deposit (USD
+2,100)
+2. Group #2
+filing
+Before December 3, 2026 Remaining 50% of items C and E
+(USD 4,250) + PCT #2 official fees
+(approx. USD 3,525–4,150)
+3. Group #1
+filing
+Before December 10, 2026 Remaining 50% of items B and D
+(USD 3,000) + PCT #1 official fees
+(approx. USD 3,525–4,150)
+Kozin Portfolio — Scope and Fee Proposal
+Page 14 of 18
+
+[PAGE 15]
+Included revisions: two rounds per application after the first complete draft. A third or
+later round is USD 750 per round per application. Work outside the itemized scope is billed
+at USD 300 per hour, only with your prior written approval of an estimate. Official fees are
+charged at the amount actually paid; if USPTO or WIPO fees change before filing, the
+difference is passed through. Any outside agent or translation vendor is engaged only
+after you approve the person and the fee in writing, and is paid through my trust account
+at cost.
+6. Proposed schedule
+Group #2 is sequenced first because its deadline comes first. Group #2 has an 8-day
+buffer and group #1 a 13-day buffer between the planned filing and the statutory last day;
+U.S. Thanksgiving (November 26) falls inside the group #2 review window and is allowed
+for.
+Step Group #2 (PPAs #1, 2, 8, 9)
+— NPPA #2 + PCT #2
+Group #1 (PPAs #3–7) —
+NPPA #1 + PCT #1
+Engagement signed and milestone
+1 funded
+Oct 30, 2026 (Fri) Oct 30, 2026 (Fri)
+Missing documents received
+(Section 7)
+Nov 4 (Wed) Nov 4 (Wed)
+As-filed records verified;
+verification report to you
+Nov 9 (Mon) Nov 9 (Mon)
+Assignment and resolution
+finalized / signed by you
+Nov 6 (Fri) / Nov 13 (Fri) same
+Assignment recorded at USPTO Nov 16–18 same
+First complete draft to you
+(specification, claims, draft
+figures)
+Nov 13 (Fri) Nov 17 (Tue)
+Your comments due (round 1) Nov 20 (Fri) Nov 25 (Wed)
+Revised draft; formal drawings
+ordered
+Nov 27 (Fri) Dec 2 (Wed)
+Your comments due (round 2) /
+final approval
+Dec 2 (Wed) Dec 7 (Mon)
+Kozin Portfolio — Scope and Fee Proposal
+Page 15 of 18
+
+[PAGE 16]
+If your comments on a round arrive late, the planned filing date moves day for day; the
+statutory last day does not. If engagement is delayed past November 6, I will tell you
+immediately whether both groups can still be completed with a buffer, or whether group
+#1 should be re-planned.
+7. Missing documents and open items
+The quote in Section 4 is firm for the scope described. It becomes final, with no change to
+the attorney-fee cap, once the following are received; items marked ★  affect the
+schedule.
+Step Group #2 (PPAs #1, 2, 8, 9)
+— NPPA #2 + PCT #2
+Group #1 (PPAs #3–7) —
+NPPA #1 + PCT #1
+Planned filing — NPPA and PCT
+(same day)
+Dec 3, 2026 (Thu) Dec 10, 2026 (Thu)
+Statutory last day Dec 11, 2026 (Fri) Dec 23, 2026 (Wed)
+Filing receipts / RO-IB Form 105
+reviewed and sent to you
+within 10 days of filing within 10 days of filing
+National/regional phase due (30
+months)
+approx. Jun 11, 2028 approx. Jun 23, 2028
+★  Signed power of attorney (USPTO form, which I will prepare) from PBK for all ten
+provisionals, so that I can download the as-filed documents and the DAS access codes
+from Patent Center; alternatively, the complete as-filed PDF of each provisional as
+downloaded from Patent Center, plus the DAS access code for each
+★  Confirmation from Mr. Shalchi, or from you, that no inventor-to-PBK assignment,
+employment agreement or other title document exists for any of the ten applications
+(the draft assignment leaves this open)
+★  Current status of PBK's trade license (renewal receipt or free-zone confirmation
+covering December 2026) and a current IFZA/DIEZ extract or certificate of
+incumbency naming you as Manager
+The PPA #9 figures, if any were ever prepared, in any form (the USPTO file contains
+none); and any NPPA #2 draft material from Mr. Shalchi, if it exists
+Written confirmation that Mr. Shalchi delivered the October 15 NPPA #1 draft and
+figures to you for your use, and the native drawing files (CAD/SVG) for the 22 sheets if
+he has them
+Kozin Portfolio — Scope and Fee Proposal
+Page 16 of 18
+
+[PAGE 17]
+8. NDA
+A revised Confidentiality Agreement is attached as a separate Word document, ready for
+signature. It names you individually and PBK ENGINEERING INTELLECTUAL PROPERTY
+RIGHTS MANAGEMENT - FZCO as the two Disclosers and my office as Recipient, with
+separate signature blocks for each party. The substantive changes from your template:
+1 . Purpose widened to cover the scope assessment and, if we proceed, the legal services,
+so that the same agreement governs both stages.
+2. Disclosure to outside associates (a PCT agent, a drawing service, a translator) only
+with your prior written approval, as you requested; my own staff and contractors
+remain covered by the agreement.
+3. A clause confirming that the agreement supplements, and does not limit, my
+professional duties of confidentiality, and that disclosures to the USPTO, WIPO or
+other Offices made to perform work you have authorized are not breaches.
+4. Return/destruction made subject to the record-retention rules that apply to lawyers,
+and to one archival copy.
+5. Governing law and venue changed from California to Utah (Utah County), where my
+office is; the California provision came from a template of another firm.
+6. Counterparts and electronic signatures retained; English stated as the controlling
+language.
+I have treated the package as confidential from the moment of receipt, and I will sign the
+revised agreement on receipt of your countersignature or your comments.
+Any as-filed color or photographic drawings for PPAs #5 and #6 (the indexes list non-
+black-and-white drawing pages)
+Your passport data page (name spelling, nationality) and current residential address,
+for the PCT Request and the inventor declarations
+Your preferred ISA (EP or AU) and your decision on self-filing through ePCT versus an
+outside agent (Section 3, Q2)
+Gross-income information sufficient to determine small- or micro-entity status for the
+new filings (a one-line confirmation is enough)
+Where each invention was made (country), for the Russian first-filing question noted in
+Section 2
+The clarified payment register and Act No. 1 referred to in the assignment (not needed
+for recordation; needed to finalize the settlement recitals)
+Kozin Portfolio — Scope and Fee Proposal
+Page 17 of 18
+
+[PAGE 18]
+9. Next steps
+This letter is my proposal. It becomes the final proposal, at the fees stated, within three
+business days of receiving the ★  items in Section 7; the earliest date I can confirm it is
+Thursday, October 29, 2026, if those items arrive by October 27.
+To proceed:
+1 . Reply in writing with your decisions on the ISA, on self-filing versus an outside agent,
+and on whether to include both NPPAs or the PCT-only alternative in Section 4.
+2. Sign and return the NDA.
+3. On your approval I will send the engagement letter, the trust-deposit instructions for
+milestone 1, and the USPTO power of attorney for PBK's signature.
+All correspondence will be in writing and in English. No work beyond this assessment will
+begin, and nothing will be filed or recorded, until the engagement letter is signed and
+milestone 1 is received.
+Kind regards,
+Michael Bartholomew Bartholomew Law PC — Registered U.S. Patent Attorney, USPTO
+Reg. No. 60,225 — Highland, Utah 84003 — Office 385.230.5310. I will personally perform
+all drafting and the final review of the specifications, claims, priority claims and filing
+papers; professional liability coverage is in place, and details and references can be
+provided separately on request.
+Sources: USPTO fee schedule · WIPO PCT fee tables · PCT Rule 83 · PCT Applicant's Guide,
+Annex C (IB) · Annex C (AE) · Annex C (RU)
+Kozin Portfolio — Scope and Fee Proposal
+Page 18 of 18

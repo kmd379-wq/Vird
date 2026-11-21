@@ -1,0 +1,1188 @@
+Delivered-To: kmd379@gmail.com
+Received: by 2002:a05:7508:9024:b0:108:bd20:e628 with SMTP id ky36csp5085902gbb;
+        Sun, 1 Nov 2026 21:46:29 -0800 (PST)
+X-Received: by 2002:a17:907:d406:b0:c29:f5d8:9c6b with SMTP id a640c23a62f3a-c4ca7aa01ebmr664927866b.26.1793598388971;
+        Sun, 01 Nov 2026 21:46:28 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1793598388; cv=pass;
+        d=google.com; s=arc-20260327;
+        b=q13Z2Igm2E01y4hTYuN+TtGgiQsVOnCnxxNcVCSxHXmS62HfaMVojQja775e87rkUI
+         7VJiXrcVyw45wB1KDJjV6T6gN2QYJiAVIif/9aGIRV/hAPhpwRDtbG7yaYX9dII9kcfz
+         2sbAagIDe4vNQamNF2kBW56EmXTwChHWwjDdMmpzI6ZW7qGffJDVIEK/ALWQiLQtWgCj
+         dfDuxXOocjVsyC9SdHRE/6t/MRoL9U6k0e4lkTujnuAkuVYaQRvztKP2sOmOUtQYQuwx
+         Y48K9LqXLQJer3mrO/Fb5nJ3nMsuwFGRlXnX4xqO89ITjdG7m8yClKSsuBwnHckeQco9
+         pIpQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:dkim-signature;
+        bh=J/UMBDvFTyQNJgCw0lkAQed0sbvEtMCp1TJ7fAmhlyc=;
+        fh=kQ0KRtun3zcREzGJaRXznjrKdcrqqrsfQYkF7thU/J0=;
+        b=gxwwOgBGnGM4QumJbCcEl9xWyZneHsb/UDWs+nvPuiMWFL/j4EKe9ATU+AV9X5C2sB
+         0Eo+7lBPHJUCrK4v1jkHCobgF5Bu3yJqQ1frRCQPfdl/TH6XaI6QzLvBOYEm5t/wZkf3
+         rUSZbKVV34cpykKHLDoy/CW31d1rAXfy6nYUzXQ9lgYqByXj30ZZDXhKQYnMuPa5L2HY
+         92lzMj2F2EkJi+B5r+oOJR6SReuKsuP2TWTaj7vCGcdX2Gp6SUpy8LiZmdT83GTphwkj
+         vnY9d42IcL+e3USVFbH2eOwQKKRg05/xd3ZUu2WJzh49GOvDrDZs2GL2l5l6eMuc6EqQ
+         72ZQ==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@hbsdubai-com.20260707.gappssmtp.com header.s=20260707 header.b=lAsYi+Rg;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of myriam@hbsdubai.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=myriam@hbsdubai.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <myriam@hbsdubai.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id a640c23a62f3a-c4cabf0d8dbsor208080366b.5.2026.11.01.21.46.28
+        for <kmd379@gmail.com>
+        (Google Transport Security);
+        Sun, 01 Nov 2026 21:46:28 -0800 (PST)
+Received-SPF: pass (google.com: domain of myriam@hbsdubai.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@hbsdubai-com.20260707.gappssmtp.com header.s=20260707 header.b=lAsYi+Rg;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of myriam@hbsdubai.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=myriam@hbsdubai.com;
+       dara=pass header.i=@gmail.com
+ARC-Seal: i=1; a=rsa-sha256; t=1793598388; cv=none;
+        d=google.com; s=arc-20260327;
+        b=Qp8X72RieFQH4qGLX5ArZQK8rsvxi34bdFIPAIVgPtRb6yN9h3NOz8j7MrPiGCRe0N
+         yGoUxgcv8Bt3NGbKE8zlWEtfe8KxTwMywTv4wLfVSiEUBZhDYNPjgYDsR4p4eJ4Gc2zA
+         vwFOeyg4uHzoFf86BM3lB9WjbBfX5jr52f72c7F3CDZjYNqu4qGvQVdKRWVShswFQWiR
+         Z4XYNjSfXBChTH5XQQnW1GqkGHp/Yz8zWSGBEhRLth2ms2yj8kdJulJWHvG8Wwx4LsRp
+         yVwCEmUIIETzhR2qMw0i70fzeEqOqTSNVKT3bHvAoYXExBZAbwcAYuTFzHP72Ncp21Zz
+         iTYA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=cc:to:subject:message-id:date:from:in-reply-to:references
+         :mime-version:dkim-signature;
+        bh=J/UMBDvFTyQNJgCw0lkAQed0sbvEtMCp1TJ7fAmhlyc=;
+        fh=kQ0KRtun3zcREzGJaRXznjrKdcrqqrsfQYkF7thU/J0=;
+        b=VriCp29gk9l1ZyojfFdrposVGCgaxxARkrSJ/xyxuQouaH9NfApILJkJ9oEf09G/qO
+         mga/vxyZuzxSU5F5Na9SVn/hLIe1BoSxfBbP5T757Ubr806iIuDaCFiq/M+1VXSE8f6B
+         /rebE1tYInOP9YJGH2Rf85KMJIIQQ61r4alHM06xtqsNBGWHfSt7OCQpzbwp5hTGByt6
+         UzgpT5BeRuqoB9Ud0UfBONHgMKcHutdEp2rdBp3GJ6ebz2ksAZGeExobKIUtFalro5yd
+         UYAnUUaV3XvUvFAGrUrdmUsY4n4k75dJQUixfKwGCmWPkBMYghfRCm7U9rrm0JTnFZw6
+         8f4A==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hbsdubai-com.20260707.gappssmtp.com; s=20260707; t=1793598388; x=1794203188; dara=google.com;
+        h=content-type:cc:to:subject:message-id:date:from:in-reply-to
+         :references:mime-version:from:to:cc:subject:date:message-id:reply-to
+         :content-type;
+        bh=J/UMBDvFTyQNJgCw0lkAQed0sbvEtMCp1TJ7fAmhlyc=;
+        b=lAsYi+Rg2V2jLyysuLcZyQO0Z5hPAu71qHeAZaUMplhFjaAng+9YIkNwQLp2GYDBOM
+         WNUGRRUg4aXxj9NdFhT7Z0FifP+NG32G/yG4Ok7Kx+jdByC8A5Xnr/TKJHchQNdsoAtc
+         FA+qgC92+Ci57fGZeuShl1RJw0gg5/pR71NG2Hns1tvLYsbk1LhGQQih+W8VXhmnnv0g
+         mFChKBKk4DS+pMHhEjKwNq66JJ8Wh64LDrW9FAAlIwhHpwTt5QyO6tdfclKuA079KkqC
+         bNtqehSwvVlSFwfh9Arspg42VcjecD05fuKVJbvURDXvXMPsMrHjVenJATMtRJxDCVEM
+         PWmQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20260707; t=1793598388; x=1794203188;
+        h=content-type:cc:to:subject:message-id:date:from:in-reply-to
+         :references:mime-version:x-gm-gg:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to:content-type;
+        bh=J/UMBDvFTyQNJgCw0lkAQed0sbvEtMCp1TJ7fAmhlyc=;
+        b=065SVuMjxIPjYhMevQ2SBKI0lWNUxvHKE9Yoe6xB0WR/T6Ka7H61U0igsLIgsn9txk
+         2D8NA/gAEkthgNRcL9y7zs37n9IOxEwv0lzcyiw9lLzdJJrIItJ5yV4i2KHW1Da3T1oI
+         Dydkmer1yJuA/JX7DUeZC44jiiovxSlbr5Pq1JQY4eakDlos+50SKm/XGXrAPUWzGdfP
+         NITpwKVcMgKZRpFtmCNC9AP86/ptHOfDpROQZA5GmWtDgDusDx2R1gCrBg+f6QuupOyt
+         XQnDqma6rQw/yqUvGrZIi2Spc25spR2Ln5F4cvNSC3TTPXs7Zdx7ZVln6U9ie5y+NKRn
+         VQeA==
+X-Gm-Message-State: APuU4Z9R5pX9Ts4tZwGGADhDU+OtJCfpR5WVEVDzrD27qKrB9c44+1Wo
+	etAYHNJglI+GzzPqTHQf444JdoB3k75X2D6HC6rOJN+2UwiO6BrP78pgAw9es7ijiZyrqs95e6f
+	dJF/GPXUBPW/iFk1j5F73oNvrvdl5TpCeiq9uvLwsV/wHgXhq9IQVBcTHv+gbmtvKseWgMDsDaq
+	q5r6yfR0LBBiIU5wwIter5fhBFjYJ6sZnZVRsFV0M0GhZdjzdGecESpL4lmy7DJIo/Csr3cth1G
+	hVLRv0+sMTTZyIn3Kr6W6arw/vc
+X-Gm-Gg: AYBFou0BoPfE3wJUzZM7zR7rDRNF8uWl6z4TB7n/pbDOo5HrS21dh/63OEzC0flnR5n
+	mH6iH/XcWypOjYTaf7znI116glwdCdIvD1tUGSbY5KL24oa39/WbL6hq8FDtypokmzW2sHqWPxq
+	zHAJQYxor9rvLrR9/xer5snn59aL0GIA2Ys9PAX/GfPkGPUO+Hapm30WqR8kkdinQ4xHV6HOoli
+	RuSh5onPbniX8DKpSzOCz3N9+gxoQcDD0OseIOAQvC56GrxwjbOIgk3RfJ0kRo5LPGhi0bZqnIi
+	lO2/1mmgPemrWa1N4sgbGlSrqiXtQM7y4Nyc2O4OlTzaHnOkZA4bP5kM0QPQ2Ea85GEoW1rCaGh
+	+wpliY6UMee5W9snHIkH1tS/8UO0OKLAXQLmOxoz8ClphAD/avwuMal81P3AY1P7Xn58=
+X-Received: by 2002:a17:907:94c2:b0:c25:4f7c:8ec5 with SMTP id
+ a640c23a62f3a-c4ca7a84587mr725740366b.23.1793598388118; Sun, 01 Nov 2026
+ 21:46:28 -0800 (PST)
+MIME-Version: 1.0
+References: <CAFUR33OvFd18KMUdsKbki+ULq2dKgjDVJ4cvKMPnkqtncQ7FdA@mail.gmail.com>
+ <CACnxRrQLLjYNGVJDV44dQSYeOAp7TU=Ygmh1oNzh4KBjj0QHow@mail.gmail.com>
+ <CAA0U01C2W2AF47-8BENDd7diUxwuTsCjjeAVdhACmqEDO9OD5g@mail.gmail.com>
+ <CAFUR33PbXUetC77mEdhSeriB6cJc9YuQ2vcZZviUpS5nDHUW9g@mail.gmail.com>
+ <CAA0U01A4kb3wSyGZqsDDdLHoTq8BgAUJDbWbdmOdFGL9-GBq7w@mail.gmail.com>
+ <CAFUR33O9ky7Lj6gYLGb22Z7nrw3UD9N0W0LK28wHTh-G+dTTHQ@mail.gmail.com>
+ <CAA0U01DJ28A4xdiZJYDHdom-fxttqSH9vYKUZ2ro-kfeMgGamA@mail.gmail.com>
+ <CAFUR33PReOxBtX1KEzdcW_S6T0x0xyr-axMPDij2nq1Fh7bHyw@mail.gmail.com>
+ <CAA0U01DDp+CzM=zd8Z0ZEQAszEgPejviWRaAa8F1DX6VSXkDcA@mail.gmail.com>
+ <CAFUR33PWVbSdjzbZXybjXDaK8Qvb=j6R008krKgCxtV9MgqoEQ@mail.gmail.com>
+ <CAA0U01D=ocPzuOwXmvF8kC2hyu8arpvXCO_sUCfdXPn+p7urNA@mail.gmail.com>
+ <CAFUR33Pio2q=9OjWNaXQtzqQOuLQuTccVJhNNhP-Nn+k8=iKkA@mail.gmail.com>
+ <CAA0U01AFkX=HOEFScQNOCBaCfS77gO1TXUvO=EezMBnP9zbOTA@mail.gmail.com> <CAFUR33MiO-HvKa32J+vwwb1VwoyrFKG4gg0LpvyJqHRsTVNLyQ@mail.gmail.com>
+In-Reply-To: <CAFUR33MiO-HvKa32J+vwwb1VwoyrFKG4gg0LpvyJqHRsTVNLyQ@mail.gmail.com>
+From: Myriam Razim <myriam@hbsdubai.com>
+Date: Mon, 2 Nov 2026 09:45:49 +0400
+X-Gm-Features: AclHuK-wqjSW4jV8urop_OGMO5h5GLxwL1npkOq6wHfD3CA_qFOtbzrW_wgOomE
+Message-ID: <CAA0U01Cokn0TwiAdksmUix423NH1f7fe3nwHjn72VPX0iDr=Rg@mail.gmail.com>
+Subject: =?UTF-8?Q?Re=3A_PBK_licence_renewal_=E2=80=94_three=2Dyear_term=2C_agreeme?=
+	=?UTF-8?Q?nt_and_invoice?=
+To: =?UTF-8?B?0JzQuNGF0LDQuNC7INCa0L7Qt9C40L0=?= <kmd379@gmail.com>
+Cc: Johanna HBS <johanna@hbs-dubai.com>
+Content-Type: multipart/alternative; boundary="000000000000cb386b065f44aaeb"
+
+--000000000000cb386b065f44aaeb
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Mikhail, good morning,
+
+The KYC link and the document that need to be signed for your licence
+renewal will be sent to you directly by IFZA.
+I remain at your disposal for any further information.
+Best regards,
+
+
+On Sun, Nov 1, 2026 at 11:56=E2=80=AFAM =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=
+=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD <kmd379@gmail.com> wrote:
+
+> Dear Myriam,
+>
+> Please send the KYC verification link and the documents for signature as
+> soon as possible. I am ready to complete the verification and sign the
+> documents immediately.
+>
+> I could not find the KYC link in your previous emails.
+>
+> Kind regards,
+> Mikhail Kozin
+>
+>
+> On Sun, 01 Nov 2026 11:01:12 +0400, Myriam Razim <myriam@hbsdubai.com>
+> wrote:
+>
+> Hello, good morning, AED 20,990 is the amount excluding VAT, while AED
+> 21,333.50 is the amount including VAT. You will receive the KYC
+> verification link and the documents for signature once the renewal
+> application has been submitted to IFZA. Please allow 8 to 10 working days
+> to complete the renewal process. I remain at your disposal for any furthe=
+r
+> information. Best regards, On Sat, Oct 31, 2026 at 10:57=E2=80=AFAM =D0=
+=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD <
+> kmd379@gmail.com> wrote: > Dear Myriam, > > Thank you. Please send the
+> documents for signature and the link to > complete the KYC verification. =
+I
+> am ready to complete the required steps > promptly. Please confirm the
+> expected date of receipt of the renewed > licence. > > Please also clarif=
+y
+> the final amount: your email states AED 20,990 > excluding VAT, whereas t=
+he
+> attached document shows AED 21,333.50. Please > send an updated invoice
+> with an itemized breakdown. > > Kind regards, > Mikhail Kozin > > > On Fr=
+i,
+> 30 Oct 2026 15:29:43 +0400, Myriam Razim <myriam@hbsdubai.com> > wrote: >
+> > Currently, the renewal process with IFZA takes around 8 to 10 working >
+> days, but we will do our best to speed things up. You will receive some >
+> documents to sign and a KYC verification request by email (facial >
+> recognition and passport scan). The sooner you complete these steps, the =
+>
+> faster we will be able to finalize the renewal. On Fri, Oct 30, 2026 at >
+> 3:24=E2=80=AFPM =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=
+=D0=B8=D0=BD <kmd379@gmail.com> wrote: > Dear Myriam, > > How >
+> long will it take to renew PBK=E2=80=99s licence and receive the renewed =
+> licence?
+> > This is urgent. I will make the payment today. > > Please confirm the >
+> expected completion date. > > Kind regards, > Mikhail Kozin > > > On Fri,=
+ >
+> 30 Oct 2026 12:39:45 +0400, Myriam Razim <myriam@hbsdubai.com> > wrote: >
+> > > Please find attached the invoice for the license renewal of 1 year. I=
+ >
+> > remain at your disposal for any further information. Best regards, On
+> Fri, > > Oct 30, 2026 at 12:32=E2=80=AFPM =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=
+=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD <kmd379@gmail.com> wrote:
+> > Okay. > > Please invoice for one year 20,990 AED > > =D0=BF=D1=82, 30 =
+=D0=BE=D0=BA=D1=82. 2026=E2=80=AF=D0=B3.,
+> 12:08 > > Myriam Razim <myriam@hbsdubai.com>: > >> Most welcome! >> >>
+> 20,990 AED > > (excluding VAT) >> >> On Fri, Oct 30, 2026 at 12:00=E2=80=
+=AFPM
+> =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD < > >=
+ kmd379@gmail.com> wrote: >> >>> >>> Thank you . how
+> much will it cost to > > extend for a year? >>> >>> =D0=BF=D1=82, 30 =D0=
+=BE=D0=BA=D1=82. 2026=E2=80=AF=D0=B3.,
+> 11:18 Myriam Razim < > > myriam@hbsdubai.com>: >>> >>>> Good morning
+> Mikhail, >>>> >>>> Apologies > > for the delay. We were trying to secure =
+a
+> discount from IFZA >>>> for the > > 3-year licence renewal. Unfortunately=
+,
+> we were unable to obtain >>>> one, > > so we have applied a 15% discount
+> from our side. >>>> >>>> The total cost > > for the 3-year licence renewa=
+l
+> will be *AED 63,725*, >>>> excluding VAT. > > >>>> >>>> If you agree, I
+> will share the invoice with you shortly. >>>> > > >>>> I remain at your
+> disposal for any further information. >>>> >>>> Best > > regards, >>>> >>=
+>>
+> >>>> >>>> On Fri, Oct 30, 2026 at 9:05=E2=80=AFAM =D0=9C=D0=B8=D1=85=D0=
+=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD > < >
+> kmd379@gmail.com> wrote: >>>> >>>>> Dear Myriam, >>>>> >>>>> Please > >
+> expedite the renewal of PBK=E2=80=99s company licence. As we mentioned >>=
+>>> > >
+> previously, we would prefer to renew it for three years, if possible. >>>=
+>>
+> > > >>>>> I look forward to receiving the agreement and invoice for
+> payment. > > >>>>> Please also let me know the expected timeframe for
+> completing the > > renewal. >>>>> >>>>> Kind regards, >>>>> Mikhail Kozin
+> >>>>> >>>>> >>>>> On > > Thu, 29 Oct 2026 17:42:27 +0400, Myriam Razim <
+> myriam@hbsdubai.com> > >>>>> > wrote: >>>>> >>>>> Dear Mikhail, I hope
+> you are doing well! Please > accept > our apologies, >>>>> your email end=
+ed
+> up in our spam folder. Could > you > please let us know your >>>>>
+> availability for a call so we can > clarify > your request? Thank you! Be=
+st
+> >>>>> regards, > De : =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=
+=D0=B7=D0=B8=D0=BD > < > kmd379@gmail.com> > Date: dim.
+> 25 oct. >>>>> 2026 =C3=A0 21:06 > Subject: > > Urgent: PBK patent rights
+> assignment - two-day >>>>> request and USD > > > 21,828 reconciliation >
+> To: Salah Azaiez < >>>>> > > salah@dubai-investissement.com>, Myriam
+> Razim < > myriam@hbsdubai.com> > > >>>>> > > > Dear Salah and Myriam, > >
+> Please review the UAE legal and > > accounting >>>>> aspects of the
+> proposed > assignment to me of the > > interests of PBK >>>>> ENGINEERING
+> INTELLECTUAL PROPERTY > RIGHTS > > MANAGEMENT - FZCO (licence No. >>>>>
+> 38769) in ten US provisional patent > > > applications, PPA #1=E2=80=9310=
+,
+> including >>>>> associated priority rights. > > > I > am PBK's sole
+> shareholder and director >>>>> and the sole inventor of > these > >
+> applications. PBK is named as applicant. >>>>> The 51-page > Memorandum a=
+nd
+> > > Articles are current; your company is handling >>>>> > renewal of the=
+ >
+> licence > before its expiry on 10 December 2026. US > attorney >>>>>
+> Michael > Bartholomew has > offered to finalize the > assignment document=
+s
+> and >>>>> > record the assignment with > the USPTO. > > > Please address
+> the following: > > >>>>> > 1. Authority and corporate > approval. > Confi=
+rm
+> my authority and > whether I >>>>> may sign separately > for PBK and >
+> personally. Review and > amend the >>>>> resolution approving > the
+> related-party > transaction under > the current >>>>> Articles, and >
+> identify required approvals and > evidence > of authority for >>>>> US >
+> counsel. > > 2. Chain of title. > Review the > basis of PBK's rights, >>>=
+>>
+> > existing agreements and transfer > > restrictions. Identify any
+> additional > >>>>> documents required. > > 3. > Settlement and tax. >
+> Please use the > attached >>>>> Statement of > Reconciliation and Schedul=
+e
+> A, which > record > 15 payments >>>>> personally > funded by me, totallin=
+g
+> USD 21,828, > replacing > the earlier >>>>> total of > USD 22,593. For PP=
+A
+> #10, the first > payment attempt > through the >>>>> > first bank failed;
+> one payment of USD > 765 succeeded after > another invoice > >>>>> was
+> issued. Only one payment > is included. > > The total consists of > USD
+> >>>>> 10,828 for PPA #1-10 and > associated NDA work, > USD 4,600 for >
+> patent >>>>> searches, and USD 6,400 > advanced to Ali Shalchi for > >
+> preparation and >>>>> filing work on NPPA > #1. Ali supplied a work repor=
+t,
+> > but did > not complete >>>>> that work. I > confirm that the reported
+> scope > corresponds to > the advance; >>>>> this > amount is not being
+> treated as > disputed for this review. > Please >>>>> > record it as an
+> advance for > unfinished work, not as payment for a > >>>>> > completed
+> filing. > Please > reconcile the expenses and PBK's liability to > >>>>>
+> me, assess whether > > the verified debt may be discharged through > the
+> >>>>> assignment, and > document > the settlement. Identify valuation >
+> requirements, >>>>> tax > implications > (including corporate tax and VAT=
+),
+> > related-party >>>>> > requirements and > creditor-protection
+> restrictions. > > > 4. Execution and > >>>>> licence. > Identify required
+> signatures, > certification, translations > and >>>>> registration > step=
+s,
+> and whether > electronic signing is > acceptable. Confirm >>>>> the renew=
+al
+> > timeline > and provide the new > licence when issued. > > >>>>> Request=
+ed
+> > deliverables: a short written > response, an amended corporate > >>>>> =
+>
+> resolution, any necessary amendments > to the assignment and settlement >=
+ >
+> >>>>> agreement, an accounting > reconciliation and execution instruction=
+s.
+> > > > As >>>>> we are working to a > tight deadline, please complete the =
+>
+> requested > review >>>>> and prepare > the necessary documents within two=
+ >
+> days of receiving > this >>>>> email. > Please confirm promptly that you =
+>
+> can meet this deadline and > >>>>> > immediately identify any missing >
+> documents needed from me. > > Please >>>>> > confirm whether this work is=
+ >
+> covered by our annual service fee. If > any > >>>>> part falls outside ou=
+r
+> > annual service arrangement, please provide the > > >>>>> scope and cost
+> in > writing in advance and obtain my written approval > before >>>>> >
+> starting > any additional chargeable work. > > Attached: >>>>> > >
+> PBK_Kozin_Reconciliation_21828_EN.pdf (Statement of > Reconciliation and =
+>
+> > >>>>> Schedule A). Please review and confirm or amend the >
+> reconciliation > > >>>>> against PBK's records. > > I will provide the
+> draft assignment > > documents, >>>>> application schedule, > Michael's
+> comments and supporting > > payment records >>>>> as needed. Please >
+> identify any further materials > > required beyond those >>>>> already in
+> your > records. > > Kind regards, > > > Mikhail Kozin > > -- > Vous >>>>>
+> recevez ce message, car vous =C3=AAtes > abonn=C3=A9 > au groupe Google >
+> corporatemngr. >>>>> > Pour vous d=C3=A9sabonner de > ce groupe > et ne p=
+lus
+> recevoir d'e-mails le > >>>>> concernant, envoyez un > e-mail =C3=A0 > l'=
+adresse
+> > >>>>> > corporatemngr+unsubscribe@dubai-investissement.com. > > Pour
+> afficher > >>>>> cette discussion, acc=C3=A9dez =C3=A0 > >>>>> > >
+> https://groups.google.com/a/dubai-investissement.com/d/msgid/corporatemng=
+r/CAFUR33OvFd18KMUdsKbki%2BULq2dKgjDVJ4cvKMPnkqtncQ7FdA%40mail.gmail.com
+> > > >>>>> > < >>>>> > >
+> https://groups.google.com/a/dubai-investissement.com/d/msgid/corporatemng=
+r/CAFUR33OvFd18KMUdsKbki%2BULq2dKgjDVJ4cvKMPnkqtncQ7FdA%40mail.gmail.com?ut=
+m_medium=3Demail&utm_source=3Dfooter>
+> > > >>>>> > . > -- [image: facebook] <https://www.facebook.com/hbsdubai/>
+> > > >>>>> [image: linkedin] < >>>>> > >
+> https://www.linkedin.com/company/dubai-investissement/> [image: >>>>> > >
+> instagram] <https://www.instagram.com/hbs_dubai> Myriam Razim Key >>>>> >
+> > Accounts Manager Corporate Services [image: mobilePhone] +971 442 77 22=
+4
+> > > >>>>> <+971%20442%2077%20224> | +971 503 986 292
+> <+971%20442%2077%20224> > > [image: >>>>> emailAddress] < > >
+> https://mail.google.com/mail/u/0/goog_12934228> >>>>> > >
+> myriam@societe-emirats.com [image: website] >>>>> > >
+> https://www.societe-emirats.com / https://hbsdubai.com / >>>>> > >
+> https://www.dubai-investissement.com [image: address] U-bora Office >>>>>
+> > > Tower, HBS Office 102, 1st Floor, Business Bay, Dubai, United Arab >
+> Emirates > >>>>> This email and any attachments to it may be confidential=
+ >
+> and are > intended >>>>> solely for the use of the individual to whom it =
+is
+> > > addressed. Any views or >>>>> opinions expressed are solely those of
+> the > > author and do not necessarily >>>>> represent those of HBS. If yo=
+u
+> are > not > the intended recipient of this >>>>> email, you must neither
+> take any > > action based upon its contents, nor copy >>>>> or show it to
+> anyone. > Please > contact the sender if you believe you have >>>>>
+> received this > email in > error. >>>>> >>>>> >>>> >>>> -- >>>> >>>>
+> [image: facebook] < > > https://www.facebook.com/hbsdubai/> >>>> [image:
+> linkedin] >>>> < > >
+> https://www.linkedin.com/company/dubai-investissement/> >>>> [image: > >
+> instagram] <https://www.instagram.com/hbs_dubai> >>>> Myriam Razim >>>> >
+> > Key Accounts Manager >>>> Corporate Services >>>> >>>> [image:
+> mobilePhone] > > >>>> +971 442 77 224 <+971%20442%2077%20224> | +971 503
+> 986 292 >>>> > > <+971%20442%2077%20224> >>>> [image: emailAddress] < > >
+> https://mail.google.com/mail/u/0/goog_12934228> >>>> > >
+> myriam@societe-emirats.com >>>> [image: website] > >
+> https://www.societe-emirats.com / https://hbsdubai.com >>>> / > >
+> https://www.dubai-investissement.com >>>> [image: address] U-bora Office
+> > > Tower, HBS Office 102, 1st Floor, >>>> Business Bay, Dubai, United Ar=
+ab
+> > > Emirates >>>> >>>> This email and any attachments to it may be
+> confidential > > and are >>>> intended solely for the use of the individu=
+al
+> to whom it is > > addressed. Any >>>> views or opinions expressed are
+> solely those of the > > author and do not >>>> necessarily represent thos=
+e
+> of HBS. If you are not > > the intended recipient >>>> of this email, you
+> must neither take any action > > based upon its contents, >>>> nor copy o=
+r
+> show it to anyone. >>>> >>>> > >>>> > Please contact the sender if you
+> believe you have received this > email >>>> > in error. >>>> >>>> >> >> -=
+-
+> >> >> [image: facebook] < > > https://www.facebook.com/hbsdubai/> >>
+> [image: linkedin] >> < > >
+> https://www.linkedin.com/company/dubai-investissement/> >> [image: > >
+> instagram] <https://www.instagram.com/hbs_dubai> >> Myriam Razim >> Key >
+> > Accounts Manager >> Corporate Services >> >> [image: mobilePhone] >> +9=
+71
+> > > 442 77 224 <+971%20442%2077%20224> | +971 503 986 292 >> > >
+> <+971%20442%2077%20224> >> [image: emailAddress] < > >
+> https://mail.google.com/mail/u/0/goog_12934228> >> > >
+> myriam@societe-emirats.com >> [image: website] > >
+> https://www.societe-emirats.com / https://hbsdubai.com >> / > >
+> https://www.dubai-investissement.com >> [image: address] U-bora Office >
+> > Tower, HBS Office 102, 1st Floor, >> Business Bay, Dubai, United Arab >=
+ >
+> Emirates >> >> This email and any attachments to it may be confidential a=
+nd
+> > > are intended >> solely for the use of the individual to whom it is > =
+>
+> addressed. Any views or >> opinions expressed are solely those of the > >
+> author and do not necessarily >> represent those of HBS. If you are not t=
+he
+> > > intended recipient of this >> email, you must neither take any action=
+ >
+> based > upon its contents, nor copy >> or show it to anyone. >> >> >> >
+> Please > contact the sender if you believe you have received this email i=
+n
+> > >> error. > >> >> -- [image: facebook] <
+> https://www.facebook.com/hbsdubai/> > [image: > linkedin] < >
+> https://www.linkedin.com/company/dubai-investissement/> > [image: >
+> instagram] <https://www.instagram.com/hbs_dubai> Myriam Razim Key > >
+> Accounts Manager Corporate Services [image: mobilePhone] +971 442 77 224 =
+>
+> > <+971%20442%2077%20224> | +971 503 986 292 <+971%20442%2077%20224>
+> [image: > > emailAddress] <https://mail.google.com/mail/u/0/goog_12934228=
+>
+> > > myriam@societe-emirats.com [image: website] > >
+> https://www.societe-emirats.com / https://hbsdubai.com / > >
+> https://www.dubai-investissement.com [image: address] U-bora Office > >
+> Tower, HBS Office 102, 1st Floor, Business Bay, Dubai, United Arab Emirat=
+es
+> > > This email and any attachments to it may be confidential and are
+> intended > > solely for the use of the individual to whom it is addressed=
+.
+> Any views > or > opinions expressed are solely those of the author and do
+> not > necessarily > represent those of HBS. If you are not the intended
+> recipient > of this > email, you must neither take any action based upon
+> its contents, > nor copy > or show it to anyone. Please contact the sende=
+r
+> if you believe > you have > received this email in error. > > -- [image:
+> facebook] < > https://www.facebook.com/hbsdubai/> [image: linkedin] < >
+> https://www.linkedin.com/company/dubai-investissement/> [image: >
+> instagram] <https://www.instagram.com/hbs_dubai> Myriam Razim Key >
+> Accounts Manager Corporate Services [image: mobilePhone] +971 442 77 224 =
+>
+> <+971%20442%2077%20224> | +971 503 986 292 <+971%20442%2077%20224> [image=
+:
+> > emailAddress] <https://mail.google.com/mail/u/0/goog_12934228> >
+> myriam@societe-emirats.com [image: website] >
+> https://www.societe-emirats.com / https://hbsdubai.com / >
+> https://www.dubai-investissement.com [image: address] U-bora Office >
+> Tower, HBS Office 102, 1st Floor, Business Bay, Dubai, United Arab Emirat=
+es
+> > This email and any attachments to it may be confidential and are intend=
+ed
+> > solely for the use of the individual to whom it is addressed. Any views
+> or > opinions expressed are solely those of the author and do not
+> necessarily > represent those of HBS. If you are not the intended recipie=
+nt
+> of this > email, you must neither take any action based upon its contents=
+,
+> nor copy > or show it to anyone. Please contact the sender if you believe
+> you have > received this email in error. > > -- [image: facebook] <
+> https://www.facebook.com/hbsdubai/> [image: linkedin] <
+> https://www.linkedin.com/company/dubai-investissement/> [image:
+> instagram] <https://www.instagram.com/hbs_dubai> Myriam Razim Key
+> Accounts Manager Corporate Services [image: mobilePhone] +971 442 77 224
+> <+971%20442%2077%20224> | +971 503 986 292 <+971%20442%2077%20224> [image=
+:
+> emailAddress] <https://mail.google.com/mail/u/0/goog_12934228>
+> myriam@societe-emirats.com [image: website]
+> https://www.societe-emirats.com / https://hbsdubai.com /
+> https://www.dubai-investissement.com [image: address] U-bora Office
+> Tower, HBS Office 102, 1st Floor, Business Bay, Dubai, United Arab Emirat=
+es
+> This email and any attachments to it may be confidential and are intended
+> solely for the use of the individual to whom it is addressed. Any views o=
+r
+> opinions expressed are solely those of the author and do not necessarily
+> represent those of HBS. If you are not the intended recipient of this
+> email, you must neither take any action based upon its contents, nor copy
+> or show it to anyone. Please contact the sender if you believe you have
+> received this email in error.
+>
+>
+
+--=20
+
+[image: facebook] <https://www.facebook.com/hbsdubai/>
+[image: linkedin] <https://www.linkedin.com/company/dubai-investissement/>
+[image: instagram] <https://www.instagram.com/hbs_dubai>
+Myriam Razim
+Key Accounts Manager
+Corporate Services
+
+[image: mobilePhone]
++971 442 77 224 <+971%20442%2077%20224> | +971 503 986 292
+<+971%20442%2077%20224>
+[image: emailAddress] <https://mail.google.com/mail/u/0/goog_12934228>
+myriam@societe-emirats.com
+[image: website] https://www.societe-emirats.com / https://hbsdubai.com /
+https://www.dubai-investissement.com
+[image: address] U-bora Office Tower, HBS Office 102, 1st Floor, Business
+Bay, Dubai, United Arab Emirates
+
+This email and any attachments to it may be confidential and are intended
+solely for the use of the individual to whom it is addressed. Any views or
+opinions expressed are solely those of the author and do not necessarily
+represent those of HBS. If you are not the intended recipient of this
+email, you must neither take any action based upon its contents, nor copy
+or show it to anyone.
+
+
+Please contact the sender if you believe you have received this email in
+error.
+
+--000000000000cb386b065f44aaeb
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear Mikhail, good morning,<div><div style=3D"color:rgb(0,=
+0,0)"><div></div><div><div><p>The<span class=3D"gmail-Apple-converted-space=
+">=C2=A0</span>KYC<span class=3D"gmail-Apple-converted-space">=C2=A0</span>=
+link<span class=3D"gmail-Apple-converted-space">=C2=A0</span>and<span class=
+=3D"gmail-Apple-converted-space">=C2=A0</span>the<span class=3D"gmail-Apple=
+-converted-space">=C2=A0</span>document<span class=3D"gmail-Apple-converted=
+-space">=C2=A0</span>that<span class=3D"gmail-Apple-converted-space">=C2=A0=
+</span>need<span class=3D"gmail-Apple-converted-space">=C2=A0</span>to<span=
+ class=3D"gmail-Apple-converted-space">=C2=A0</span>be<span class=3D"gmail-=
+Apple-converted-space">=C2=A0</span>signed<span class=3D"gmail-Apple-conver=
+ted-space">=C2=A0</span>for<span class=3D"gmail-Apple-converted-space">=C2=
+=A0</span>your<span class=3D"gmail-Apple-converted-space">=C2=A0</span>lice=
+nce<span class=3D"gmail-Apple-converted-space">=C2=A0</span>renewal<span cl=
+ass=3D"gmail-Apple-converted-space">=C2=A0</span>will<span class=3D"gmail-A=
+pple-converted-space">=C2=A0</span>be<span class=3D"gmail-Apple-converted-s=
+pace">=C2=A0</span>sent<span class=3D"gmail-Apple-converted-space">=C2=A0</=
+span>to<span class=3D"gmail-Apple-converted-space">=C2=A0</span>you<span cl=
+ass=3D"gmail-Apple-converted-space">=C2=A0</span>directly<span class=3D"gma=
+il-Apple-converted-space">=C2=A0</span>by<span class=3D"gmail-Apple-convert=
+ed-space">=C2=A0</span>IFZA.</p></div></div></div></div><div>I remain at yo=
+ur disposal for any further information.=C2=A0</div><div>Best regards,=C2=
+=A0</div><div><br></div></div><br><div class=3D"gmail_quote gmail_quote_con=
+tainer"><div dir=3D"ltr" class=3D"gmail_attr">On Sun, Nov 1, 2026 at 11:56=
+=E2=80=AFAM =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=
+=D0=BD &lt;<a href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a>&gt; wro=
+te:<br></div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px =
+0.8ex;border-left-width:1px;border-left-style:solid;border-left-color:rgb(2=
+04,204,204);padding-left:1ex"><p>Dear Myriam,</p><p>Please send the KYC ver=
+ification link and the documents for signature as soon as possible. I am re=
+ady to complete the verification and sign the documents immediately.</p><p>=
+I could not find the KYC link in your previous emails.</p><p>Kind regards,<=
+br>Mikhail Kozin</p><br><br><div class=3D"gmail_quote">On Sun, 01 Nov 2026 =
+11:01:12 +0400, Myriam Razim &lt;<a href=3D"mailto:myriam@hbsdubai.com" tar=
+get=3D"_blank">myriam@hbsdubai.com</a>&gt; wrote:<br><blockquote><div style=
+=3D"white-space:pre-wrap">Hello, good morning,
+
+AED 20,990 is the amount excluding VAT, while AED 21,333.50 is the amount
+including VAT.
+
+You will receive the KYC verification link and the documents for signature
+once the renewal application has been submitted to IFZA.
+
+Please allow 8 to 10 working days to complete the renewal process.
+
+I remain at your disposal for any further information.
+
+Best regards,
+
+On Sat, Oct 31, 2026 at 10:57=E2=80=AFAM =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=
+=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD &lt;<a href=3D"mailto:kmd379@gmail.com" =
+target=3D"_blank">kmd379@gmail.com</a>&gt; wrote:
+
+&gt; Dear Myriam,
+&gt;
+&gt; Thank you. Please send the documents for signature and the link to
+&gt; complete the KYC verification. I am ready to complete the required ste=
+ps
+&gt; promptly. Please confirm the expected date of receipt of the renewed
+&gt; licence.
+&gt;
+&gt; Please also clarify the final amount: your email states AED 20,990
+&gt; excluding VAT, whereas the attached document shows AED 21,333.50. Plea=
+se
+&gt; send an updated invoice with an itemized breakdown.
+&gt;
+&gt; Kind regards,
+&gt; Mikhail Kozin
+&gt;
+&gt;
+&gt; On Fri, 30 Oct 2026 15:29:43 +0400, Myriam Razim &lt;<a href=3D"mailto=
+:myriam@hbsdubai.com" target=3D"_blank">myriam@hbsdubai.com</a>&gt;
+&gt; wrote:
+&gt;
+&gt; Currently, the renewal process with IFZA takes around 8 to 10 working
+&gt; days, but we will do our best to speed things up. You will receive som=
+e
+&gt; documents to sign and a KYC verification request by email (facial
+&gt; recognition and passport scan). The sooner you complete these steps, t=
+he
+&gt; faster we will be able to finalize the renewal. On Fri, Oct 30, 2026 a=
+t
+&gt; 3:24=E2=80=AFPM =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=
+=B7=D0=B8=D0=BD &lt;<a href=3D"mailto:kmd379@gmail.com" target=3D"_blank">k=
+md379@gmail.com</a>&gt; wrote: &gt; Dear Myriam, &gt; &gt; How
+&gt; long will it take to renew PBK=E2=80=99s licence and receive the renew=
+ed &gt; licence?
+&gt; This is urgent. I will make the payment today. &gt; &gt; Please confir=
+m the
+&gt; expected completion date. &gt; &gt; Kind regards, &gt; Mikhail Kozin &=
+gt; &gt; &gt; On Fri,
+&gt; 30 Oct 2026 12:39:45 +0400, Myriam Razim &lt;<a href=3D"mailto:myriam@=
+hbsdubai.com" target=3D"_blank">myriam@hbsdubai.com</a>&gt; &gt; wrote: &gt=
+;
+&gt; &gt; Please find attached the invoice for the license renewal of 1 yea=
+r. I &gt;
+&gt; remain at your disposal for any further information. Best regards, On =
+Fri,
+&gt; &gt; Oct 30, 2026 at 12:32=E2=80=AFPM =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=
+=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD &lt;<a href=3D"mailto:kmd379@gmail.co=
+m" target=3D"_blank">kmd379@gmail.com</a>&gt; wrote: &gt; Okay.
+&gt; &gt; Please invoice for one year 20,990 AED &gt; &gt; =D0=BF=D1=82, 30=
+ =D0=BE=D0=BA=D1=82. 2026=E2=80=AF=D0=B3., 12:08 &gt;
+&gt; Myriam Razim &lt;<a href=3D"mailto:myriam@hbsdubai.com" target=3D"_bla=
+nk">myriam@hbsdubai.com</a>&gt;: &gt; &gt;&gt; Most welcome! &gt;&gt; &gt;&=
+gt; 20,990 AED &gt;
+&gt; (excluding VAT) &gt;&gt; &gt;&gt; On Fri, Oct 30, 2026 at 12:00=E2=80=
+=AFPM =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD &=
+lt; &gt;
+&gt; <a href=3D"mailto:kmd379@gmail.com" target=3D"_blank">kmd379@gmail.com=
+</a>&gt; wrote: &gt;&gt; &gt;&gt;&gt; &gt;&gt;&gt; Thank you . how much wil=
+l it cost to
+&gt; &gt; extend for a year? &gt;&gt;&gt; &gt;&gt;&gt; =D0=BF=D1=82, 30 =D0=
+=BE=D0=BA=D1=82. 2026=E2=80=AF=D0=B3., 11:18 Myriam Razim &lt; &gt;
+&gt; <a href=3D"mailto:myriam@hbsdubai.com" target=3D"_blank">myriam@hbsdub=
+ai.com</a>&gt;: &gt;&gt;&gt; &gt;&gt;&gt;&gt; Good morning Mikhail, &gt;&gt=
+;&gt;&gt; &gt;&gt;&gt;&gt; Apologies
+&gt; &gt; for the delay. We were trying to secure a discount from IFZA &gt;=
+&gt;&gt;&gt; for the
+&gt; &gt; 3-year licence renewal. Unfortunately, we were unable to obtain &=
+gt;&gt;&gt;&gt; one,
+&gt; &gt; so we have applied a 15% discount from our side. &gt;&gt;&gt;&gt;=
+ &gt;&gt;&gt;&gt; The total cost
+&gt; &gt; for the 3-year licence renewal will be *AED 63,725*, &gt;&gt;&gt;=
+&gt; excluding VAT.
+&gt; &gt; &gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt; If you agree, I will share the =
+invoice with you shortly. &gt;&gt;&gt;&gt; &gt;
+&gt; &gt;&gt;&gt;&gt; I remain at your disposal for any further information=
+. &gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt; Best
+&gt; &gt; regards, &gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt; &gt;&=
+gt;&gt;&gt; On Fri, Oct 30, 2026 at 9:05=E2=80=AFAM =D0=9C=D0=B8=D1=85=D0=
+=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD
+&gt; &lt; &gt; <a href=3D"mailto:kmd379@gmail.com" target=3D"_blank">kmd379=
+@gmail.com</a>&gt; wrote: &gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt;&gt; Dear Myriam=
+, &gt;&gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt;&gt; Please &gt;
+&gt; expedite the renewal of PBK=E2=80=99s company licence. As we mentioned=
+ &gt;&gt;&gt;&gt;&gt; &gt;
+&gt; previously, we would prefer to renew it for three years, if possible. =
+&gt;&gt;&gt;&gt;&gt;
+&gt; &gt; &gt;&gt;&gt;&gt;&gt; I look forward to receiving the agreement an=
+d invoice for payment.
+&gt; &gt; &gt;&gt;&gt;&gt;&gt; Please also let me know the expected timefra=
+me for completing the &gt;
+&gt; renewal. &gt;&gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt;&gt; Kind regards, &gt;&=
+gt;&gt;&gt;&gt; Mikhail Kozin &gt;&gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt;&gt; &gt=
+;&gt;&gt;&gt;&gt; On
+&gt; &gt; Thu, 29 Oct 2026 17:42:27 +0400, Myriam Razim &lt;<a href=3D"mail=
+to:myriam@hbsdubai.com" target=3D"_blank">myriam@hbsdubai.com</a>&gt;
+&gt; &gt;&gt;&gt;&gt;&gt; &gt; wrote: &gt;&gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt;=
+&gt; Dear Mikhail, I hope you are doing well! Please
+&gt; accept &gt; our apologies, &gt;&gt;&gt;&gt;&gt; your email ended up in=
+ our spam folder. Could
+&gt; you &gt; please let us know your &gt;&gt;&gt;&gt;&gt; availability for=
+ a call so we can
+&gt; clarify &gt; your request? Thank you! Best &gt;&gt;&gt;&gt;&gt; regard=
+s, &gt; De : =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=
+=D0=BD
+&gt; &lt; &gt; <a href=3D"mailto:kmd379@gmail.com" target=3D"_blank">kmd379=
+@gmail.com</a>&gt; &gt; Date: dim. 25 oct. &gt;&gt;&gt;&gt;&gt; 2026 =C3=A0=
+ 21:06 &gt; Subject:
+&gt; &gt; Urgent: PBK patent rights assignment - two-day &gt;&gt;&gt;&gt;&g=
+t; request and USD &gt; &gt;
+&gt; 21,828 reconciliation &gt; To: Salah Azaiez &lt; &gt;&gt;&gt;&gt;&gt; =
+&gt;
+&gt; <a href=3D"mailto:salah@dubai-investissement.com" target=3D"_blank">sa=
+lah@dubai-investissement.com</a>&gt;, Myriam Razim &lt; &gt; <a href=3D"mai=
+lto:myriam@hbsdubai.com" target=3D"_blank">myriam@hbsdubai.com</a>&gt; &gt;
+&gt; &gt;&gt;&gt;&gt;&gt; &gt; &gt; &gt; Dear Salah and Myriam, &gt; &gt; P=
+lease review the UAE legal and &gt;
+&gt; accounting &gt;&gt;&gt;&gt;&gt; aspects of the proposed &gt; assignmen=
+t to me of the &gt;
+&gt; interests of PBK &gt;&gt;&gt;&gt;&gt; ENGINEERING INTELLECTUAL PROPERT=
+Y &gt; RIGHTS &gt;
+&gt; MANAGEMENT - FZCO (licence No. &gt;&gt;&gt;&gt;&gt; 38769) in ten US p=
+rovisional patent &gt;
+&gt; &gt; applications, PPA #1=E2=80=9310, including &gt;&gt;&gt;&gt;&gt; a=
+ssociated priority rights. &gt; &gt;
+&gt; I &gt; am PBK&#39;s sole shareholder and director &gt;&gt;&gt;&gt;&gt;=
+ and the sole inventor of
+&gt; these &gt; &gt; applications. PBK is named as applicant. &gt;&gt;&gt;&=
+gt;&gt; The 51-page
+&gt; Memorandum and &gt; &gt; Articles are current; your company is handlin=
+g &gt;&gt;&gt;&gt;&gt;
+&gt; renewal of the &gt; licence &gt; before its expiry on 10 December 2026=
+. US
+&gt; attorney &gt;&gt;&gt;&gt;&gt; Michael &gt; Bartholomew has &gt; offere=
+d to finalize the
+&gt; assignment documents and &gt;&gt;&gt;&gt;&gt; &gt; record the assignme=
+nt with &gt; the USPTO. &gt;
+&gt; &gt; Please address the following: &gt; &gt; &gt;&gt;&gt;&gt;&gt; &gt;=
+ 1. Authority and corporate
+&gt; approval. &gt; Confirm my authority and &gt; whether I &gt;&gt;&gt;&gt=
+;&gt; may sign separately
+&gt; for PBK and &gt; personally. Review and &gt; amend the &gt;&gt;&gt;&gt=
+;&gt; resolution approving
+&gt; the related-party &gt; transaction under &gt; the current &gt;&gt;&gt;=
+&gt;&gt; Articles, and
+&gt; identify required approvals and &gt; evidence &gt; of authority for &g=
+t;&gt;&gt;&gt;&gt; US
+&gt; counsel. &gt; &gt; 2. Chain of title. &gt; Review the &gt; basis of PB=
+K&#39;s rights, &gt;&gt;&gt;&gt;&gt;
+&gt; existing agreements and transfer &gt; &gt; restrictions. Identify any =
+additional
+&gt; &gt;&gt;&gt;&gt;&gt; documents required. &gt; &gt; 3. &gt; Settlement =
+and tax. &gt; Please use the
+&gt; attached &gt;&gt;&gt;&gt;&gt; Statement of &gt; Reconciliation and Sch=
+edule A, which &gt; record
+&gt; 15 payments &gt;&gt;&gt;&gt;&gt; personally &gt; funded by me, totalli=
+ng USD 21,828,
+&gt; replacing &gt; the earlier &gt;&gt;&gt;&gt;&gt; total of &gt; USD 22,5=
+93. For PPA #10, the first
+&gt; payment attempt &gt; through the &gt;&gt;&gt;&gt;&gt; &gt; first bank =
+failed; one payment of USD
+&gt; 765 succeeded after &gt; another invoice &gt; &gt;&gt;&gt;&gt;&gt; was=
+ issued. Only one payment
+&gt; is included. &gt; &gt; The total consists of &gt; USD &gt;&gt;&gt;&gt;=
+&gt; 10,828 for PPA #1-10 and
+&gt; associated NDA work, &gt; USD 4,600 for &gt; patent &gt;&gt;&gt;&gt;&g=
+t; searches, and USD 6,400
+&gt; advanced to Ali Shalchi for &gt; &gt; preparation and &gt;&gt;&gt;&gt;=
+&gt; filing work on NPPA
+&gt; #1. Ali supplied a work report, &gt; but did &gt; not complete &gt;&gt=
+;&gt;&gt;&gt; that work. I
+&gt; confirm that the reported scope &gt; corresponds to &gt; the advance; =
+&gt;&gt;&gt;&gt;&gt; this
+&gt; amount is not being treated as &gt; disputed for this review. &gt; Ple=
+ase &gt;&gt;&gt;&gt;&gt;
+&gt; record it as an advance for &gt; unfinished work, not as payment for a=
+ &gt; &gt;&gt;&gt;&gt;&gt;
+&gt; completed filing. &gt; Please &gt; reconcile the expenses and PBK&#39;=
+s liability to
+&gt; &gt;&gt;&gt;&gt;&gt; me, assess whether &gt; &gt; the verified debt ma=
+y be discharged through
+&gt; the &gt;&gt;&gt;&gt;&gt; assignment, and &gt; document &gt; the settle=
+ment. Identify valuation
+&gt; requirements, &gt;&gt;&gt;&gt;&gt; tax &gt; implications &gt; (includi=
+ng corporate tax and VAT),
+&gt; related-party &gt;&gt;&gt;&gt;&gt; &gt; requirements and &gt; creditor=
+-protection restrictions.
+&gt; &gt; &gt; 4. Execution and &gt; &gt;&gt;&gt;&gt;&gt; licence. &gt; Ide=
+ntify required signatures,
+&gt; certification, translations &gt; and &gt;&gt;&gt;&gt;&gt; registration=
+ &gt; steps, and whether
+&gt; electronic signing is &gt; acceptable. Confirm &gt;&gt;&gt;&gt;&gt; th=
+e renewal &gt; timeline
+&gt; and provide the new &gt; licence when issued. &gt; &gt; &gt;&gt;&gt;&g=
+t;&gt; Requested
+&gt; deliverables: a short written &gt; response, an amended corporate &gt;=
+ &gt;&gt;&gt;&gt;&gt;
+&gt; resolution, any necessary amendments &gt; to the assignment and settle=
+ment &gt;
+&gt; &gt;&gt;&gt;&gt;&gt; agreement, an accounting &gt; reconciliation and =
+execution instructions.
+&gt; &gt; &gt; As &gt;&gt;&gt;&gt;&gt; we are working to a &gt; tight deadl=
+ine, please complete the
+&gt; requested &gt; review &gt;&gt;&gt;&gt;&gt; and prepare &gt; the necess=
+ary documents within two
+&gt; days of receiving &gt; this &gt;&gt;&gt;&gt;&gt; email. &gt; Please co=
+nfirm promptly that you
+&gt; can meet this deadline and &gt; &gt;&gt;&gt;&gt;&gt; &gt; immediately =
+identify any missing
+&gt; documents needed from me. &gt; &gt; Please &gt;&gt;&gt;&gt;&gt; &gt; c=
+onfirm whether this work is
+&gt; covered by our annual service fee. If &gt; any &gt; &gt;&gt;&gt;&gt;&g=
+t; part falls outside our
+&gt; annual service arrangement, please provide the &gt; &gt; &gt;&gt;&gt;&=
+gt;&gt; scope and cost in
+&gt; writing in advance and obtain my written approval &gt; before &gt;&gt;=
+&gt;&gt;&gt; &gt; starting
+&gt; any additional chargeable work. &gt; &gt; Attached: &gt;&gt;&gt;&gt;&g=
+t; &gt;
+&gt; PBK_Kozin_Reconciliation_21828_EN.pdf (Statement of &gt; Reconciliatio=
+n and &gt;
+&gt; &gt;&gt;&gt;&gt;&gt; Schedule A). Please review and confirm or amend t=
+he &gt; reconciliation
+&gt; &gt; &gt;&gt;&gt;&gt;&gt; against PBK&#39;s records. &gt; &gt; I will =
+provide the draft assignment &gt;
+&gt; documents, &gt;&gt;&gt;&gt;&gt; application schedule, &gt; Michael&#39=
+;s comments and supporting
+&gt; &gt; payment records &gt;&gt;&gt;&gt;&gt; as needed. Please &gt; ident=
+ify any further materials
+&gt; &gt; required beyond those &gt;&gt;&gt;&gt;&gt; already in your &gt; r=
+ecords. &gt; &gt; Kind regards,
+&gt; &gt; &gt; Mikhail Kozin &gt; &gt; -- &gt; Vous &gt;&gt;&gt;&gt;&gt; re=
+cevez ce message, car vous =C3=AAtes
+&gt; abonn=C3=A9 &gt; au groupe Google &gt; corporatemngr. &gt;&gt;&gt;&gt;=
+&gt; &gt; Pour vous d=C3=A9sabonner de
+&gt; ce groupe &gt; et ne plus recevoir d&#39;e-mails le &gt; &gt;&gt;&gt;&=
+gt;&gt; concernant, envoyez un
+&gt; e-mail =C3=A0 &gt; l&#39;adresse &gt; &gt;&gt;&gt;&gt;&gt;
+&gt; <a href=3D"mailto:corporatemngr%2Bunsubscribe@dubai-investissement.com=
+" target=3D"_blank">corporatemngr+unsubscribe@dubai-investissement.com</a>.=
+ &gt; &gt; Pour afficher
+&gt; &gt;&gt;&gt;&gt;&gt; cette discussion, acc=C3=A9dez =C3=A0 &gt; &gt;&g=
+t;&gt;&gt;&gt; &gt;
+&gt; <a href=3D"https://groups.google.com/a/dubai-investissement.com/d/msgi=
+d/corporatemngr/CAFUR33OvFd18KMUdsKbki%2BULq2dKgjDVJ4cvKMPnkqtncQ7FdA%40mai=
+l.gmail.com" target=3D"_blank">https://groups.google.com/a/dubai-investisse=
+ment.com/d/msgid/corporatemngr/CAFUR33OvFd18KMUdsKbki%2BULq2dKgjDVJ4cvKMPnk=
+qtncQ7FdA%40mail.gmail.com</a>
+&gt; &gt; &gt;&gt;&gt;&gt;&gt; &gt; &lt; &gt;&gt;&gt;&gt;&gt; &gt;
+&gt; <a href=3D"https://groups.google.com/a/dubai-investissement.com/d/msgi=
+d/corporatemngr/CAFUR33OvFd18KMUdsKbki%2BULq2dKgjDVJ4cvKMPnkqtncQ7FdA%40mai=
+l.gmail.com?utm_medium=3Demail&amp;utm_source=3Dfooter" target=3D"_blank">h=
+ttps://groups.google.com/a/dubai-investissement.com/d/msgid/corporatemngr/C=
+AFUR33OvFd18KMUdsKbki%2BULq2dKgjDVJ4cvKMPnkqtncQ7FdA%40mail.gmail.com?utm_m=
+edium=3Demail&amp;utm_source=3Dfooter</a>&gt;
+&gt; &gt; &gt;&gt;&gt;&gt;&gt; &gt; . &gt; -- [image: facebook] &lt;<a href=
+=3D"https://www.facebook.com/hbsdubai/" target=3D"_blank">https://www.faceb=
+ook.com/hbsdubai/</a>&gt; &gt;
+&gt; &gt;&gt;&gt;&gt;&gt; [image: linkedin] &lt; &gt;&gt;&gt;&gt;&gt; &gt;
+&gt; <a href=3D"https://www.linkedin.com/company/dubai-investissement/" tar=
+get=3D"_blank">https://www.linkedin.com/company/dubai-investissement/</a>&g=
+t; [image: &gt;&gt;&gt;&gt;&gt; &gt;
+&gt; instagram] &lt;<a href=3D"https://www.instagram.com/hbs_dubai" target=
+=3D"_blank">https://www.instagram.com/hbs_dubai</a>&gt; Myriam Razim Key &g=
+t;&gt;&gt;&gt;&gt; &gt;
+&gt; Accounts Manager Corporate Services [image: mobilePhone] +971 442 77 2=
+24 &gt;
+&gt; &gt;&gt;&gt;&gt;&gt; &lt;+971%20442%2077%20224&gt; | +971 503 986 292 =
+&lt;+971%20442%2077%20224&gt; &gt;
+&gt; [image: &gt;&gt;&gt;&gt;&gt; emailAddress] &lt; &gt;
+&gt; <a href=3D"https://mail.google.com/mail/u/0/goog_12934228" target=3D"_=
+blank">https://mail.google.com/mail/u/0/goog_12934228</a>&gt; &gt;&gt;&gt;&=
+gt;&gt; &gt;
+&gt; <a href=3D"mailto:myriam@societe-emirats.com" target=3D"_blank">myriam=
+@societe-emirats.com</a> [image: website] &gt;&gt;&gt;&gt;&gt; &gt;
+&gt; <a href=3D"https://www.societe-emirats.com" target=3D"_blank">https://=
+www.societe-emirats.com</a> / <a href=3D"https://hbsdubai.com" target=3D"_b=
+lank">https://hbsdubai.com</a> / &gt;&gt;&gt;&gt;&gt; &gt;
+&gt; <a href=3D"https://www.dubai-investissement.com" target=3D"_blank">htt=
+ps://www.dubai-investissement.com</a> [image: address] U-bora Office &gt;&g=
+t;&gt;&gt;&gt;
+&gt; &gt; Tower, HBS Office 102, 1st Floor, Business Bay, Dubai, United Ara=
+b
+&gt; Emirates &gt; &gt;&gt;&gt;&gt;&gt; This email and any attachments to i=
+t may be confidential
+&gt; and are &gt; intended &gt;&gt;&gt;&gt;&gt; solely for the use of the i=
+ndividual to whom it is
+&gt; &gt; addressed. Any views or &gt;&gt;&gt;&gt;&gt; opinions expressed a=
+re solely those of the
+&gt; &gt; author and do not necessarily &gt;&gt;&gt;&gt;&gt; represent thos=
+e of HBS. If you are
+&gt; not &gt; the intended recipient of this &gt;&gt;&gt;&gt;&gt; email, yo=
+u must neither take any
+&gt; &gt; action based upon its contents, nor copy &gt;&gt;&gt;&gt;&gt; or =
+show it to anyone.
+&gt; Please &gt; contact the sender if you believe you have &gt;&gt;&gt;&gt=
+;&gt; received this
+&gt; email in &gt; error. &gt;&gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt;&gt; &gt;&gt=
+;&gt;&gt; &gt;&gt;&gt;&gt; -- &gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt; [image: fac=
+ebook] &lt; &gt;
+&gt; <a href=3D"https://www.facebook.com/hbsdubai/" target=3D"_blank">https=
+://www.facebook.com/hbsdubai/</a>&gt; &gt;&gt;&gt;&gt; [image: linkedin] &g=
+t;&gt;&gt;&gt; &lt; &gt;
+&gt; <a href=3D"https://www.linkedin.com/company/dubai-investissement/" tar=
+get=3D"_blank">https://www.linkedin.com/company/dubai-investissement/</a>&g=
+t; &gt;&gt;&gt;&gt; [image: &gt;
+&gt; instagram] &lt;<a href=3D"https://www.instagram.com/hbs_dubai" target=
+=3D"_blank">https://www.instagram.com/hbs_dubai</a>&gt; &gt;&gt;&gt;&gt; My=
+riam Razim &gt;&gt;&gt;&gt; &gt;
+&gt; Key Accounts Manager &gt;&gt;&gt;&gt; Corporate Services &gt;&gt;&gt;&=
+gt; &gt;&gt;&gt;&gt; [image: mobilePhone]
+&gt; &gt; &gt;&gt;&gt;&gt; +971 442 77 224 &lt;+971%20442%2077%20224&gt; | =
++971 503 986 292 &gt;&gt;&gt;&gt; &gt;
+&gt; &lt;+971%20442%2077%20224&gt; &gt;&gt;&gt;&gt; [image: emailAddress] &=
+lt; &gt;
+&gt; <a href=3D"https://mail.google.com/mail/u/0/goog_12934228" target=3D"_=
+blank">https://mail.google.com/mail/u/0/goog_12934228</a>&gt; &gt;&gt;&gt;&=
+gt; &gt;
+&gt; <a href=3D"mailto:myriam@societe-emirats.com" target=3D"_blank">myriam=
+@societe-emirats.com</a> &gt;&gt;&gt;&gt; [image: website] &gt;
+&gt; <a href=3D"https://www.societe-emirats.com" target=3D"_blank">https://=
+www.societe-emirats.com</a> / <a href=3D"https://hbsdubai.com" target=3D"_b=
+lank">https://hbsdubai.com</a> &gt;&gt;&gt;&gt; / &gt;
+&gt; <a href=3D"https://www.dubai-investissement.com" target=3D"_blank">htt=
+ps://www.dubai-investissement.com</a> &gt;&gt;&gt;&gt; [image: address] U-b=
+ora Office
+&gt; &gt; Tower, HBS Office 102, 1st Floor, &gt;&gt;&gt;&gt; Business Bay, =
+Dubai, United Arab &gt;
+&gt; Emirates &gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt; This email and any attachme=
+nts to it may be confidential
+&gt; &gt; and are &gt;&gt;&gt;&gt; intended solely for the use of the indiv=
+idual to whom it is
+&gt; &gt; addressed. Any &gt;&gt;&gt;&gt; views or opinions expressed are s=
+olely those of the &gt;
+&gt; author and do not &gt;&gt;&gt;&gt; necessarily represent those of HBS.=
+ If you are not &gt;
+&gt; the intended recipient &gt;&gt;&gt;&gt; of this email, you must neithe=
+r take any action
+&gt; &gt; based upon its contents, &gt;&gt;&gt;&gt; nor copy or show it to =
+anyone. &gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt;
+&gt; &gt;&gt;&gt;&gt; &gt; Please contact the sender if you believe you hav=
+e received this
+&gt; email &gt;&gt;&gt;&gt; &gt; in error. &gt;&gt;&gt;&gt; &gt;&gt;&gt;&gt=
+; &gt;&gt; &gt;&gt; -- &gt;&gt; &gt;&gt; [image: facebook] &lt; &gt;
+&gt; <a href=3D"https://www.facebook.com/hbsdubai/" target=3D"_blank">https=
+://www.facebook.com/hbsdubai/</a>&gt; &gt;&gt; [image: linkedin] &gt;&gt; &=
+lt; &gt;
+&gt; <a href=3D"https://www.linkedin.com/company/dubai-investissement/" tar=
+get=3D"_blank">https://www.linkedin.com/company/dubai-investissement/</a>&g=
+t; &gt;&gt; [image: &gt;
+&gt; instagram] &lt;<a href=3D"https://www.instagram.com/hbs_dubai" target=
+=3D"_blank">https://www.instagram.com/hbs_dubai</a>&gt; &gt;&gt; Myriam Raz=
+im &gt;&gt; Key &gt;
+&gt; Accounts Manager &gt;&gt; Corporate Services &gt;&gt; &gt;&gt; [image:=
+ mobilePhone] &gt;&gt; +971 &gt;
+&gt; 442 77 224 &lt;+971%20442%2077%20224&gt; | +971 503 986 292 &gt;&gt; &=
+gt;
+&gt; &lt;+971%20442%2077%20224&gt; &gt;&gt; [image: emailAddress] &lt; &gt;
+&gt; <a href=3D"https://mail.google.com/mail/u/0/goog_12934228" target=3D"_=
+blank">https://mail.google.com/mail/u/0/goog_12934228</a>&gt; &gt;&gt; &gt;
+&gt; <a href=3D"mailto:myriam@societe-emirats.com" target=3D"_blank">myriam=
+@societe-emirats.com</a> &gt;&gt; [image: website] &gt;
+&gt; <a href=3D"https://www.societe-emirats.com" target=3D"_blank">https://=
+www.societe-emirats.com</a> / <a href=3D"https://hbsdubai.com" target=3D"_b=
+lank">https://hbsdubai.com</a> &gt;&gt; / &gt;
+&gt; <a href=3D"https://www.dubai-investissement.com" target=3D"_blank">htt=
+ps://www.dubai-investissement.com</a> &gt;&gt; [image: address] U-bora Offi=
+ce &gt;
+&gt; Tower, HBS Office 102, 1st Floor, &gt;&gt; Business Bay, Dubai, United=
+ Arab &gt;
+&gt; Emirates &gt;&gt; &gt;&gt; This email and any attachments to it may be=
+ confidential and
+&gt; &gt; are intended &gt;&gt; solely for the use of the individual to who=
+m it is &gt;
+&gt; addressed. Any views or &gt;&gt; opinions expressed are solely those o=
+f the &gt;
+&gt; author and do not necessarily &gt;&gt; represent those of HBS. If you =
+are not the
+&gt; &gt; intended recipient of this &gt;&gt; email, you must neither take =
+any action
+&gt; based &gt; upon its contents, nor copy &gt;&gt; or show it to anyone. =
+&gt;&gt; &gt;&gt; &gt;&gt;
+&gt; Please &gt; contact the sender if you believe you have received this e=
+mail in
+&gt; &gt;&gt; error. &gt; &gt;&gt; &gt;&gt; -- [image: facebook] &lt;<a hre=
+f=3D"https://www.facebook.com/hbsdubai/" target=3D"_blank">https://www.face=
+book.com/hbsdubai/</a>&gt;
+&gt; [image: &gt; linkedin] &lt;
+&gt; <a href=3D"https://www.linkedin.com/company/dubai-investissement/" tar=
+get=3D"_blank">https://www.linkedin.com/company/dubai-investissement/</a>&g=
+t; &gt; [image:
+&gt; instagram] &lt;<a href=3D"https://www.instagram.com/hbs_dubai" target=
+=3D"_blank">https://www.instagram.com/hbs_dubai</a>&gt; Myriam Razim Key &g=
+t;
+&gt; Accounts Manager Corporate Services [image: mobilePhone] +971 442 77 2=
+24 &gt;
+&gt; &lt;+971%20442%2077%20224&gt; | +971 503 986 292 &lt;+971%20442%2077%2=
+0224&gt; [image:
+&gt; &gt; emailAddress] &lt;<a href=3D"https://mail.google.com/mail/u/0/goo=
+g_12934228" target=3D"_blank">https://mail.google.com/mail/u/0/goog_1293422=
+8</a>&gt; &gt;
+&gt; <a href=3D"mailto:myriam@societe-emirats.com" target=3D"_blank">myriam=
+@societe-emirats.com</a> [image: website] &gt;
+&gt; <a href=3D"https://www.societe-emirats.com" target=3D"_blank">https://=
+www.societe-emirats.com</a> / <a href=3D"https://hbsdubai.com" target=3D"_b=
+lank">https://hbsdubai.com</a> / &gt;
+&gt; <a href=3D"https://www.dubai-investissement.com" target=3D"_blank">htt=
+ps://www.dubai-investissement.com</a> [image: address] U-bora Office &gt;
+&gt; Tower, HBS Office 102, 1st Floor, Business Bay, Dubai, United Arab Emi=
+rates
+&gt; &gt; This email and any attachments to it may be confidential and are =
+intended
+&gt; &gt; solely for the use of the individual to whom it is addressed. Any=
+ views
+&gt; or &gt; opinions expressed are solely those of the author and do not
+&gt; necessarily &gt; represent those of HBS. If you are not the intended r=
+ecipient
+&gt; of this &gt; email, you must neither take any action based upon its co=
+ntents,
+&gt; nor copy &gt; or show it to anyone. Please contact the sender if you b=
+elieve
+&gt; you have &gt; received this email in error. &gt; &gt; -- [image: faceb=
+ook] &lt;
+&gt; <a href=3D"https://www.facebook.com/hbsdubai/" target=3D"_blank">https=
+://www.facebook.com/hbsdubai/</a>&gt; [image: linkedin] &lt;
+&gt; <a href=3D"https://www.linkedin.com/company/dubai-investissement/" tar=
+get=3D"_blank">https://www.linkedin.com/company/dubai-investissement/</a>&g=
+t; [image:
+&gt; instagram] &lt;<a href=3D"https://www.instagram.com/hbs_dubai" target=
+=3D"_blank">https://www.instagram.com/hbs_dubai</a>&gt; Myriam Razim Key
+&gt; Accounts Manager Corporate Services [image: mobilePhone] +971 442 77 2=
+24
+&gt; &lt;+971%20442%2077%20224&gt; | +971 503 986 292 &lt;+971%20442%2077%2=
+0224&gt; [image:
+&gt; emailAddress] &lt;<a href=3D"https://mail.google.com/mail/u/0/goog_129=
+34228" target=3D"_blank">https://mail.google.com/mail/u/0/goog_12934228</a>=
+&gt;
+&gt; <a href=3D"mailto:myriam@societe-emirats.com" target=3D"_blank">myriam=
+@societe-emirats.com</a> [image: website]
+&gt; <a href=3D"https://www.societe-emirats.com" target=3D"_blank">https://=
+www.societe-emirats.com</a> / <a href=3D"https://hbsdubai.com" target=3D"_b=
+lank">https://hbsdubai.com</a> /
+&gt; <a href=3D"https://www.dubai-investissement.com" target=3D"_blank">htt=
+ps://www.dubai-investissement.com</a> [image: address] U-bora Office
+&gt; Tower, HBS Office 102, 1st Floor, Business Bay, Dubai, United Arab Emi=
+rates
+&gt; This email and any attachments to it may be confidential and are inten=
+ded
+&gt; solely for the use of the individual to whom it is addressed. Any view=
+s or
+&gt; opinions expressed are solely those of the author and do not necessari=
+ly
+&gt; represent those of HBS. If you are not the intended recipient of this
+&gt; email, you must neither take any action based upon its contents, nor c=
+opy
+&gt; or show it to anyone. Please contact the sender if you believe you hav=
+e
+&gt; received this email in error.
+&gt;
+&gt;
+
+--=20
+
+[image: facebook] &lt;<a href=3D"https://www.facebook.com/hbsdubai/" target=
+=3D"_blank">https://www.facebook.com/hbsdubai/</a>&gt;
+[image: linkedin] &lt;<a href=3D"https://www.linkedin.com/company/dubai-inv=
+estissement/" target=3D"_blank">https://www.linkedin.com/company/dubai-inve=
+stissement/</a>&gt;
+[image: instagram] &lt;<a href=3D"https://www.instagram.com/hbs_dubai" targ=
+et=3D"_blank">https://www.instagram.com/hbs_dubai</a>&gt;
+Myriam Razim
+Key Accounts Manager
+Corporate Services
+
+[image: mobilePhone]
++971 442 77 224 &lt;+971%20442%2077%20224&gt; | +971 503 986 292
+&lt;+971%20442%2077%20224&gt;
+[image: emailAddress] &lt;<a href=3D"https://mail.google.com/mail/u/0/goog_=
+12934228" target=3D"_blank">https://mail.google.com/mail/u/0/goog_12934228<=
+/a>&gt;
+<a href=3D"mailto:myriam@societe-emirats.com" target=3D"_blank">myriam@soci=
+ete-emirats.com</a>
+[image: website] <a href=3D"https://www.societe-emirats.com" target=3D"_bla=
+nk">https://www.societe-emirats.com</a> / <a href=3D"https://hbsdubai.com" =
+target=3D"_blank">https://hbsdubai.com</a> /
+<a href=3D"https://www.dubai-investissement.com" target=3D"_blank">https://=
+www.dubai-investissement.com</a>
+[image: address] U-bora Office Tower, HBS Office 102, 1st Floor, Business
+Bay, Dubai, United Arab Emirates
+
+This email and any attachments to it may be confidential and are intended
+solely for the use of the individual to whom it is addressed. Any views or
+opinions expressed are solely those of the author and do not necessarily
+represent those of HBS. If you are not the intended recipient of this
+email, you must neither take any action based upon its contents, nor copy
+or show it to anyone.
+
+
+Please contact the sender if you believe you have received this email in
+error.</div></blockquote></div>
+</blockquote></div><div><br clear=3D"all"></div><div><br></div><span class=
+=3D"gmail_signature_prefix">-- </span><br><div dir=3D"ltr" class=3D"gmail_s=
+ignature"><div dir=3D"ltr"><div><div style=3D"width:1427px"><div><div><div>=
+<div><div><div><div><div style=3D"height:598px"><div style=3D"min-height:40=
+8px"><div><div><div><div><div><div><div><div style=3D"outline-color:current=
+color;outline-style:none"><div style=3D"border-right-style:none;border-bott=
+om-style:none;border-left-style:none;border-right-color:currentcolor;border=
+-bottom-color:currentcolor;border-left-color:currentcolor;width:1055px"><di=
+v style=3D"border-top-width:1px;border-style:solid none none;border-top-col=
+or:rgba(100,121,143,0.12);border-right-color:currentcolor;border-left-color=
+:currentcolor"><div><div style=3D"border-left-width:medium;border-left-colo=
+r:currentcolor"><div><div><div><div style=3D"font-style:normal;font-stretch=
+:normal;font-size-adjust:none"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=
+=3D"ltr"><div dir=3D"ltr"><div><blockquote type=3D"cite"><table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"font-size:inherit;vertical-a=
+lign:-webkit-baseline-middle;font-family:Arial"><tbody><tr><td><table cellp=
+adding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"vertical-align:-webkit=
+-baseline-middle"><tbody><tr><td style=3D"vertical-align:top"><table cellpa=
+dding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"vertical-align:-webkit-=
+baseline-middle"><tbody><tr><td style=3D"text-align:center"></td></tr><tr><=
+td height=3D"30"><img width=3D"178" height=3D"200" src=3D"https://ci3.googl=
+eusercontent.com/mail-sig/AIorK4xIp27-c_02AQvrlTvojIE9bqhDugiO8fcte-QEiFkN1=
+qVdablv4b2rWj3M3zmqnjEdxbP74tBo_rZj"></td></tr><tr><td style=3D"text-align:=
+center"><img src=3D"https://hbsdubai.com/wp-content/uploads/2015/12/hbs-log=
+o-dubai-white-130.png" width=3D"130" style=3D"display: block; max-width: 13=
+0px;"></td></tr><tr><td height=3D"30"></td></tr><tr><td style=3D"text-align=
+:center"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"d=
+isplay:inline-block;vertical-align:-webkit-baseline-middle"><tbody><tr><td>=
+<a href=3D"https://www.facebook.com/hbsdubai/" style=3D"display:inline-bloc=
+k;padding:0px;background-color:rgb(172,9,34)" target=3D"_blank"><img src=3D=
+"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/fa=
+cebook-icon-2x.png" alt=3D"facebook" width=3D"24" style=3D"max-width: 135px=
+; display: block;"></a></td><td width=3D"5"><div></div></td><td><a href=3D"=
+https://www.linkedin.com/company/dubai-investissement/" style=3D"display:in=
+line-block;padding:0px;background-color:rgb(172,9,34)" target=3D"_blank"><i=
+mg src=3D"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator=
+/icons/linkedin-icon-2x.png" alt=3D"linkedin" width=3D"24" style=3D"max-wid=
+th: 135px; display: block;"></a></td><td width=3D"5"><div></div></td><td><a=
+ href=3D"https://www.instagram.com/hbs_dubai" style=3D"display:inline-block=
+;padding:0px;background-color:rgb(172,9,34)" target=3D"_blank"><img src=3D"=
+https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/ins=
+tagram-icon-2x.png" alt=3D"instagram" width=3D"24" style=3D"max-width: 135p=
+x; display: block;"></a></td><td width=3D"5"><div></div></td></tr></tbody><=
+/table></td></tr></tbody></table></td><td width=3D"46"><div></div></td><td =
+style=3D"padding:0px;vertical-align:middle"><span><h2 style=3D"margin:0px;f=
+ont-size:18px"><font color=3D"#000000">Myriam Razim</font></h2><div style=
+=3D"margin:0px;font-size:14px;line-height:22px"><font color=3D"#000000">Key=
+ Accounts Manager</font></div></span><span style=3D"font-size:14px;color:rg=
+b(32,33,36)">Corporate Services<br><br></span><table cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0" style=3D"width:594.672px;vertical-align:-webkit-=
+baseline-middle"><tbody><tr><td width=3D"auto" height=3D"1" style=3D"width:=
+594.672px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-c=
+olor:rgb(198,0,0);border-left-width:medium;border-left-style:none;border-le=
+ft-color:currentcolor;display:block"></td></tr><tr><td height=3D"30"></td><=
+/tr></tbody></table><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ style=3D"vertical-align:-webkit-baseline-middle"><tbody><tr height=3D"25" =
+style=3D"vertical-align:middle"><td width=3D"30" style=3D"vertical-align:mi=
+ddle"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"vert=
+ical-align:-webkit-baseline-middle"><tbody><tr><td style=3D"vertical-align:=
+bottom"><span width=3D"11" style=3D"display:inline-block;background-color:r=
+gb(198,0,0)"><img src=3D"https://cdn2.hubspot.net/hubfs/53/tools/email-sign=
+ature-generator/icons/phone-icon-2x.png" alt=3D"mobilePhone" width=3D"13" s=
+tyle=3D"display: block;"></span></td></tr></tbody></table></td><td style=3D=
+"padding:0px"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"font-size:inherit;color:rgb(32,33,36);vertical-align:-webkit-baseline-m=
+iddle"><tbody><tr height=3D"25" style=3D"vertical-align:middle"><td style=
+=3D"padding:0px"><a href=3D"tel:+971%20442%2077%20224" style=3D"font-size:1=
+4px" target=3D"_blank">+971 442 77 224</a>=C2=A0|=C2=A0<a href=3D"tel:+971%=
+20442%2077%20224" style=3D"font-size:14px" target=3D"_blank">+971 503 986 2=
+92</a></td></tr></tbody></table></td></tr><tr height=3D"25" style=3D"vertic=
+al-align:middle"><td width=3D"30" style=3D"vertical-align:middle"><table ce=
+llpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"vertical-align:-web=
+kit-baseline-middle"><tbody><tr><td style=3D"vertical-align:bottom"><span w=
+idth=3D"11" style=3D"display:inline-block;background-color:rgb(198,0,0)"><a=
+ href=3D"https://mail.google.com/mail/u/0/goog_12934228" target=3D"_blank">=
+<img src=3D"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generat=
+or/icons/email-icon-2x.png" alt=3D"emailAddress" width=3D"13" style=3D"disp=
+lay: block;"></a></span></td></tr></tbody></table></td><td style=3D"padding=
+:0px"><a href=3D"mailto:myriam@societe-emirats.com" target=3D"_blank"><font=
+ color=3D"#0b5394">myriam@societe-emirats.com</font></a></td></tr><tr heigh=
+t=3D"25" style=3D"vertical-align:middle"><td width=3D"30" style=3D"vertical=
+-align:middle"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" styl=
+e=3D"vertical-align:-webkit-baseline-middle"><tbody><tr><td style=3D"vertic=
+al-align:bottom"><span width=3D"11" style=3D"display:inline-block;backgroun=
+d-color:rgb(198,0,0)"><img src=3D"https://cdn2.hubspot.net/hubfs/53/tools/e=
+mail-signature-generator/icons/link-icon-2x.png" alt=3D"website" width=3D"1=
+3" style=3D"display: block;"></span></td></tr></tbody></table></td><td styl=
+e=3D"padding:0px"><a href=3D"https://www.societe-emirats.com/" target=3D"_b=
+lank">https://www.societe-emirats.com</a>=C2=A0/=C2=A0<a href=3D"https://hb=
+sdubai.com/" target=3D"_blank">https://hbsdubai.com</a>=C2=A0/=C2=A0<a href=
+=3D"https://www.dubai-investissement.com/" target=3D"_blank">https://www.du=
+bai-investissement.com</a></td></tr><tr height=3D"25" style=3D"vertical-ali=
+gn:middle"><td width=3D"30" style=3D"vertical-align:middle"><table cellpadd=
+ing=3D"0" cellspacing=3D"0" border=3D"0" style=3D"vertical-align:-webkit-ba=
+seline-middle"><tbody><tr><td style=3D"vertical-align:bottom"><span width=
+=3D"11" style=3D"display:inline-block;background-color:rgb(198,0,0)"><img s=
+rc=3D"https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/ico=
+ns/address-icon-2x.png" alt=3D"address" width=3D"13" style=3D"display: bloc=
+k;"></span></td></tr></tbody></table></td><td style=3D"padding:0px"><span s=
+tyle=3D"font-size:14px">U-bora Office Tower, HBS Office 102, 1st Floor, Bus=
+iness Bay, Dubai, United Arab Emirates</span></td></tr></tbody></table><tab=
+le cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"vertical-align=
+:-webkit-baseline-middle"><tbody><tr></tr></tbody></table><br></td></tr></t=
+body></table></td></tr></tbody></table></blockquote></div><p style=3D"margi=
+n:0px;font-style:normal;font-stretch:normal;line-height:normal;font-family:=
+&quot;Helvetica Neue&quot;;font-size-adjust:none"><font size=3D"1">This ema=
+il and any attachments to it may be confidential and are intended solely fo=
+r the use of the individual to whom it is addressed. Any views or opinions =
+expressed are solely those of the author and do not necessarily represent t=
+hose of HBS. If you are not the intended recipient of this email, you must =
+neither take any action based upon its contents, nor copy or show it to any=
+one.</font></p>
+<p style=3D"margin:0px;font-style:normal;font-stretch:normal;line-height:no=
+rmal;font-family:&quot;Helvetica Neue&quot;;font-size-adjust:none;min-heigh=
+t:15px"><font size=3D"1"><br></font></p>
+<p style=3D"margin:0px;font-style:normal;font-stretch:normal;line-height:no=
+rmal;font-family:&quot;Helvetica Neue&quot;;font-size-adjust:none"><font si=
+ze=3D"1">Please contact the sender if you believe you have received this em=
+ail in error. =C2=A0</font></p><div><br></div></div></div></div></div></div=
+></div></div></div></div></div></div></div></div></div></div></div></div></=
+div></div></div></div></div></div></div></div></div></div></div></div></div=
+></div></div></div>
+
+--000000000000cb386b065f44aaeb--

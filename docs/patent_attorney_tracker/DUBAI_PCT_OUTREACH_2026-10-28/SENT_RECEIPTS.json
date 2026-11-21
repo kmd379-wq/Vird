@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-28",
+  "recipients": [
+    {
+      "name": "Cedar White Bradley",
+      "email": "dubai@cwblegal.com",
+      "source": "https://www.cwblegal.com/patents/",
+      "result": {
+        "id": "1a180d0314d9c0d1",
+        "thread_id": "1a180d0314d9c0d1",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "name": "Rouse Dubai",
+      "email": "dubai@rouse.com",
+      "source": "https://rouse.com/where-we-work/united-arab-emirates",
+      "result": {
+        "id": "1a180d04208fc702",
+        "thread_id": "1a180d04208fc702",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "name": "Saba IP UAE",
+      "email": "uae@sabaip.com",
+      "source": "https://www.sabaip.com/en/our-offices",
+      "result": {
+        "id": "1a180d04a78fa16f",
+        "thread_id": "1a180d04a78fa16f",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    },
+    {
+      "name": "United Trademark & Patent Services",
+      "email": "contact@unitedtm.com",
+      "source": "https://utmps.com/",
+      "result": {
+        "id": "1a180d062648a229",
+        "thread_id": "1a180d062648a229",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      }
+    }
+  ],
+  "attachments": [],
+  "scope": "Request for proposals only; no engagement or filing instruction"
+}

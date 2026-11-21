@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1a1650509ffc7b44",
+    "company": "michael",
+    "analyzed_on": "2026-10-23",
+    "original": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\Replies_2026-10-23\\1a1650509ffc7b44_MESSAGE.json",
+    "analysis": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\REPLIES_2026-10-23_RU.md",
+    "summary": "Полный пакет и 2 проекта Ali получены; бесплатная оценка выполнена. США гонорары 12 250 USD; с двумя PCT 15 250, расходы отдельно. График 03/10 декабря. Обещанные предложение/NDA отсутствуют в доступном Gmail."
+  },
+  {
+    "id": "1a16761e9a1e0385",
+    "company": "scott",
+    "analyzed_on": "2026-10-23",
+    "original": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\Replies_2026-10-23\\1a16761e9a1e0385_MESSAGE.json",
+    "analysis": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\REPLIES_2026-10-23_RU.md",
+    "summary": "Предлагает представителя в ОАЭ для PCT; NPPA1 выглядит готовой. Нет имени специалиста, сметы и графика."
+  },
+  {
+    "id": "1a1689ac89678880",
+    "company": "patentus",
+    "analyzed_on": "2026-10-23",
+    "original": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\Replies_2026-10-23\\1a1689ac89678880_MESSAGE.json",
+    "analysis": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\REPLIES_2026-10-23_RU.md",
+    "summary": "220 000 RUB за одну PCT без переводов/пошлин/иностранных коллег; 150 000 РФ. Перевод 25 USD/100 слов. NDA с Михаилом и PBK согласны. Нет итоговой цены портфеля/графика."
+  },
+  {
+    "id": "1a16838038a54c20",
+    "company": "davinci",
+    "analyzed_on": "2026-10-23",
+    "original": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\Replies_2026-10-23\\1a16838038a54c20_MESSAGE.json",
+    "analysis": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\REPLIES_2026-10-23_RU.md",
+    "summary": "Запросил шесть групп исходных данных; оценка с авансом, объём и цена предварительно согласуются. Общая статья не является оценкой портфеля."
+  },
+  {
+    "id": "1a164a9767d138f5",
+    "company": "anthony",
+    "analyzed_on": "2026-10-23",
+    "original": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\Replies_2026-10-23\\1a164a9767d138f5_MESSAGE.json",
+    "analysis": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\REPLIES_2026-10-23_RU.md",
+    "summary": "Повторный окончательный отказ; не читает NPPA1, не продолжает NDA и не отвечает за сроки."
+  },
+  {
+    "id": "1a16841aa8be7d20",
+    "company": "zuykov",
+    "analyzed_on": "2026-10-23",
+    "original": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\Replies_2026-10-23\\1a16841aa8be7d20_MESSAGE.json",
+    "analysis": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\REPLIES_2026-10-23_RU.md",
+    "summary": "Подтвердили получение писем/вложений; обещают NDA и оценку после материалов."
+  },
+  {
+    "id": "1a1688022509bd60",
+    "company": "zuykov",
+    "analyzed_on": "2026-10-23",
+    "original": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\Replies_2026-10-23\\1a1688022509bd60_MESSAGE.json",
+    "analysis": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\REPLIES_2026-10-23_RU.md",
+    "summary": "Прислали NDA, подписанный фирмой; ждут подписи Михаила. Эта версия заменена последующим письмом."
+  },
+  {
+    "id": "1a16886783db5aa8",
+    "company": "zuykov",
+    "analyzed_on": "2026-10-23",
+    "original": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\Replies_2026-10-23\\1a16886783db5aa8_MESSAGE.json",
+    "analysis": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\REPLIES_2026-10-23_RU.md",
+    "summary": "Исправленный NDA после опечаток реквизитов; фирма подписала. В PDF только Михаил, PBK отсутствует; подписи Михаила в копии нет."
+  },
+  {
+    "id": "1a168bc2a98604f0",
+    "company": "zuykov",
+    "analyzed_on": "2026-10-23",
+    "original": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\Replies_2026-10-23\\1a168bc2a98604f0_MESSAGE.json",
+    "analysis": "C:\\Users\\kmd37\\Projects\\vird\\docs\\patent_attorney_tracker\\REPLIES_2026-10-23_RU.md",
+    "summary": "Подтвердили ответ Михаила о получении и намерении прочитать/подписать. Это не получение двусторонне подписанного NDA."
+  }
+]

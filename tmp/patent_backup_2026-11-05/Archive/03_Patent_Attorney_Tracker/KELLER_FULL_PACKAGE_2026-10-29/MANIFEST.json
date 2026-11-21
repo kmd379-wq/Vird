@@ -1,0 +1,32 @@
+[
+  {
+    "file": "Keller_PBK_Patent_Materials_Part_1_of_5.zip",
+    "bytes": 8682916,
+    "source_files": 18,
+    "sha256": "10ed2f243966e973f17b05b791f53312c6bd2b9c8e4e5b17158bf0ae8bceb475"
+  },
+  {
+    "file": "Keller_PBK_Patent_Materials_Part_2_of_5.zip",
+    "bytes": 11410007,
+    "source_files": 27,
+    "sha256": "fac67599dc4427af6cb5180f1a9e9b6b8f6e729cca68e33b17c8b0d2b8a975d4"
+  },
+  {
+    "file": "Keller_PBK_Patent_Materials_Part_3_of_5.zip",
+    "bytes": 12619268,
+    "source_files": 35,
+    "sha256": "61817c02bcd21364e6416fbcbe96bf348524984dd70461186cf358e867257841"
+  },
+  {
+    "file": "Keller_PBK_Patent_Materials_Part_4_of_5.zip",
+    "bytes": 13186684,
+    "source_files": 9,
+    "sha256": "64c705ee968121957e92e89b7773e433b2d5247fb9ad15a50871954f702882f6"
+  },
+  {
+    "file": "Keller_PBK_Patent_Materials_Part_5_of_5.zip",
+    "bytes": 4495019,
+    "source_files": 40,
+    "sha256": "db9228c253cf3ed882025126526e6e61d1c3c7b79fbe7d590d3a6d0c84657bb6"
+  }
+]

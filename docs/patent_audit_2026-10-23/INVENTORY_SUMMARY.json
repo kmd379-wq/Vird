@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Start-up",
+  "files": 646,
+  "total_bytes": 401760248,
+  "unique_content": 487,
+  "status_counts": {
+    "imported_new": 234,
+    "existing_identical": 364,
+    "duplicate_of_new_copy": 48
+  },
+  "imported_unique_bytes": 275244595,
+  "errors": []
+}

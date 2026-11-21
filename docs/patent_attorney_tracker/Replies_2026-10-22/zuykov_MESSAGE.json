@@ -1,0 +1,271 @@
+{
+  "id": "1a1626b9ca6ba9d7",
+  "thread_id": "1a15e4e40178c1be",
+  "label_ids": [
+    "IMPORTANT",
+    "CATEGORY_PERSONAL",
+    "INBOX"
+  ],
+  "snippet": "Уважаемый Михаил, добрый день! Подтверждаем получение Вашего письма. Как мы сообщали Вам ранее, для того, чтобы мы могли ответить на Ваши вопросы и направить Вам коммерческое предложение нам необходимо",
+  "history_id": "17887510",
+  "internal_date": "1792652578000",
+  "payload": {
+    "part_id": "",
+    "mime_type": "multipart/mixed",
+    "filename": "",
+    "headers": [
+      {
+        "name": "Delivered-To",
+        "value": "kmd379@gmail.com"
+      },
+      {
+        "name": "Received",
+        "value": "by 2002:a05:7508:28a9:b0:108:bd20:e628 with SMTP id e41csp3550203gbc;        Thu, 22 Oct 2026 00:03:02 -0700 (PDT)"
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:a05:6512:ba4:b0:5bf:a678:d516 with SMTP id 2adb3069b0e04-5bfa678d646mr806035e87.9.1792652582204;        Thu, 22 Oct 2026 00:03:02 -0700 (PDT)"
+      },
+      {
+        "name": "ARC-Seal",
+        "value": "i=1; a=rsa-sha256; t=1792652582; cv=none;        d=google.com; s=arc-20260327;        b=Q7a8dR+mtzcSC6VQpx3x2rxdavknpUfxtvmiiN/VFpadmnpfzBRcULNAt4d4t5gWhh         Oc2uHoHY5cWk76PFFS+Musb5nbyJPVxDp94ocUtJQwRyyS3QCWzKbe4Hqc8qeITRxVG7         6sbQZrhkm/CGLhjWqCl3zG5cLHyGbE7UA3+qcyCPMjKXT4qASu9bEp3kGAjAi2nxxM8X         ijeYdX2oTBepK+CJWgwizI8PAJq9WBowRAepw48OhWyO3V6tFfVwuEB/DxPeZUqOqGhv         2zMs871g+NdhmQ8WjqNQ0sy6jT8vHqodbEREFhfNQmhdes31otT7dx0O/xqrthJl0RkV         Jv9g=="
+      },
+      {
+        "name": "ARC-Message-Signature",
+        "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;        h=content-language:thread-index:mime-version:message-id:date:subject         :in-reply-to:references:cc:to:from:dkim-signature;        bh=08wGlRVb7n6/rl/eNa28EdSk0Z7W5LN39Pa3MC/RBNo=;        fh=9MYkYFu+JQfR66EYaOmd+cB2l0tKtE1FEaFO67rEPCo=;        b=iIdcAEw9Pios/a+JX+gHLV1f9vMAGfmMLJLo6qDHxflGgAQmPnsidPd1LVJjPb50Aq         lZKm5a77tt6ro4cfYebwHBKEuYz2lTlVyolNof2Qnxgw87QyYaswGMNO1/XLDrGvbOxN         eBT+grCck9DIPKBqh88m58RPbP6Mw/xQj30choXRRv7udIaVOqWTvHsfZjdwUbVEnPeq         imvmfWXmdZ2xtcV6GuiiWvVlogAjH5Nk4XLycO+R5e4mj4zhdhLNRvKaNg8KJeZiNrIP         Ke4ENQDZe9i+nDH4O2m86RLbUvDwOvj78ccx012MYIx54VvpfPedgxTvzyjzl+pb1zHy         pKmw==;        dara=google.com"
+      },
+      {
+        "name": "ARC-Authentication-Results",
+        "value": "i=1; mx.google.com;       dkim=pass header.i=@zuykov.com header.s=dkim header.b=kxnsaeec;       spf=pass (google.com: domain of krasnyanskaya@zuykov.com designates 31.31.196.114 as permitted sender) smtp.mailfrom=krasnyanskaya@zuykov.com;       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=zuykov.com"
+      },
+      {
+        "name": "Return-Path",
+        "value": "<krasnyanskaya@zuykov.com>"
+      },
+      {
+        "name": "Received",
+        "value": "from sm12.hosting.reg.ru (sm12.hosting.reg.ru. [31.31.196.114])        by mx.google.com with ESMTPS id 2adb3069b0e04-5bfa12500f9si3360778e87.132.2026.10.22.00.03.01        for <kmd379@gmail.com>        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);        Thu, 22 Oct 2026 00:03:02 -0700 (PDT)"
+      },
+      {
+        "name": "Received-SPF",
+        "value": "pass (google.com: domain of krasnyanskaya@zuykov.com designates 31.31.196.114 as permitted sender) client-ip=31.31.196.114;"
+      },
+      {
+        "name": "Authentication-Results",
+        "value": "mx.google.com;       dkim=pass header.i=@zuykov.com header.s=dkim header.b=kxnsaeec;       spf=pass (google.com: domain of krasnyanskaya@zuykov.com designates 31.31.196.114 as permitted sender) smtp.mailfrom=krasnyanskaya@zuykov.com;       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=zuykov.com"
+      },
+      {
+        "name": "DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=zuykov.com; s=dkim; h=Content-Type:MIME-Version:Message-ID:Date:Subject:In-Reply-To: References:Cc:To:From:Sender:Reply-To:Content-Transfer-Encoding:Content-ID: Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc :Resent-Message-ID:List-Id:List-Help:List-Unsubscribe:List-Subscribe: List-Post:List-Owner:List-Archive; bh=08wGlRVb7n6/rl/eNa28EdSk0Z7W5LN39Pa3MC/RBNo=; b=kxnsaeeceu7ULUqfF6FNDPKdyB kyLvrgPrxctcBnpBZUEarIfIbwdADlwtvJNyk1qIir7lwVPQZAEJH9q2cT9vL2tuorjm4fHLmtV7+ s/k4KuUFaK3l0KQNunu8RmOKPrzPjDQDrzGNOIUvkScSS4RcVrekVGcfV3D23GeTQewQ=;"
+      },
+      {
+        "name": "Received",
+        "value": "by sm12.hosting.reg.ru with esmtpa  (envelope-from <krasnyanskaya@zuykov.com>) id 1xJmpH-00000009JIE-09Fo; Thu, 22 Oct 2026 10:03:00 +0300"
+      },
+      {
+        "name": "From",
+        "value": "Krasnyanskaya Nadezhda <krasnyanskaya@zuykov.com>"
+      },
+      {
+        "name": "To",
+        "value": "\"'Михаил Козин'\" <kmd379@gmail.com>"
+      },
+      {
+        "name": "Cc",
+        "value": "\"'patent@zuykov. com'\" <patent@zuykov.com>"
+      },
+      {
+        "name": "References",
+        "value": "<00cd01dd6152$a48b5470$eda1fd50$@zuykov.com> <CAFUR33Pt3bnDT6ysfV9ipD02H0pojANiAS=7_zsJ+-r54PW5rQ@mail.gmail.com>"
+      },
+      {
+        "name": "In-Reply-To",
+        "value": "<CAFUR33Pt3bnDT6ysfV9ipD02H0pojANiAS=7_zsJ+-r54PW5rQ@mail.gmail.com>"
+      },
+      {
+        "name": "Subject",
+        "value": "RE: Российские заявки по PPA №1–10; отдельная возможность PCT"
+      },
+      {
+        "name": "Date",
+        "value": "Thu, 22 Oct 2026 10:02:58 +0300"
+      },
+      {
+        "name": "Message-ID",
+        "value": "<013b01dd61f3$5f1ac500$1d504f00$@zuykov.com>"
+      },
+      {
+        "name": "MIME-Version",
+        "value": "1.0"
+      },
+      {
+        "name": "Content-Type",
+        "value": "multipart/mixed; boundary=\"----=_NextPart_000_013C_01DD620C.846D5430\""
+      },
+      {
+        "name": "X-Mailer",
+        "value": "Microsoft Outlook 15.0"
+      },
+      {
+        "name": "Thread-Index",
+        "value": "AQIaLn/gSpB8sBzvg97MpkHcdT9+bwGnCEHwtoJQfnA="
+      },
+      {
+        "name": "Content-Language",
+        "value": "ru"
+      }
+    ],
+    "body": {
+      "size": 0,
+      "base64_url_content": null,
+      "content": null,
+      "attachment_id": null
+    },
+    "read_attachment_supported": null,
+    "parts": [
+      {
+        "part_id": "0",
+        "mime_type": "multipart/related",
+        "filename": "",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "multipart/related; boundary=\"----=_NextPart_001_013D_01DD620C.846D5430\""
+          }
+        ],
+        "body": {
+          "size": 0,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": null
+        },
+        "read_attachment_supported": null,
+        "parts": [
+          {
+            "part_id": "0.0",
+            "mime_type": "multipart/alternative",
+            "filename": "",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "multipart/alternative; boundary=\"----=_NextPart_002_013E_01DD620C.846D5430\""
+              }
+            ],
+            "body": {
+              "size": 0,
+              "base64_url_content": null,
+              "content": null,
+              "attachment_id": null
+            },
+            "read_attachment_supported": null,
+            "parts": [
+              {
+                "part_id": "0.0.0",
+                "mime_type": "text/plain",
+                "filename": "",
+                "headers": [
+                  {
+                    "name": "Content-Type",
+                    "value": "text/plain; charset=\"utf-8\""
+                  },
+                  {
+                    "name": "Content-Transfer-Encoding",
+                    "value": "base64"
+                  }
+                ],
+                "body": {
+                  "size": 20680,
+                  "base64_url_content": null,
+                  "content": "Уважаемый Михаил, добрый день!\r\n\r\n \r\n\r\nПодтверждаем получение Вашего письма. \r\n\r\n \r\n\r\nКак мы сообщали Вам ранее, для того, чтобы мы могли ответить на Ваши вопросы и направить Вам коммерческое предложение нам необходимо ознакомиться с уже имеющимися у Вас материалами.\r\n\r\n \r\n\r\nПросим Вас направить следующие данные: ФИО, СНИЛС, ИНН, паспортные данные, включая адрес регистрации, после получения которых мы подготовим и направим Вам подписанное с нашей стороны соглашение о конфиденциальности. \r\n\r\n \r\n\r\nДля Вашего удобства во вложении направляем наш шаблон соглашения о конфиденциальности для ознакомления.\r\n\r\n \r\n\r\nОжидаем обратную связь и желаем Вам хорошего дня!\r\n\r\n \r\n\r\n\r\nBest regards,\r\n\r\n <https://zuykov.com/en/about/employees/> Nadezhda Krasnyanskaya\r\n\r\nС уважением,\r\n\r\n <https://zuykov.com/ru/about/employees/> Надежда Краснянская\r\n\r\n\r\nPatent Attorney Reg. № 2910\r\n\r\nПатентный поверенный Рег. №2910\r\n\r\n\r\n <https://zuykov.com/en/> Zuykov and partners LLC\r\n\r\n <https://zuykov.com/ru/> ООО «Зуйков и партнеры»\r\n\r\n\r\nMail address: Russia, 129110\r\n\r\nMoscow, P.O. Box 165\r\n\r\nДля почты: Россия, 129110, \r\n\r\nг. Москва, а/я 165\r\n\r\n\r\nOffice: Russia, 129090 Moscow,\r\n\r\nGrokholskiy per., d. 28, 2nd floor\r\n\r\nОфис: Россия, 129090 г. Москва, \r\nГрохольский пер., д. 28, 2-й этаж\r\n\r\n\r\nTel.+Fax: +7-495-775-16-37 ext. 1153\r\n\r\nMobile:  +7-903-615-37-89\r\n\r\nE-Mail:  <mailto:patent@zuykov.com> patent@zuykov.com\r\n\r\n\r\nWeb:  <https://zuykov.com/ru/> www.zuykov.com\r\n\r\n \r\n\r\n\r\n\r\n\r\n\r\n\r\nThe information in this email and attachments to this e-mail are confidential. The contents may not be disclosed or used by anyone other than the addressee. If you are not the intended recipient, please notify us immediately at the above address.\r\n\r\nДанное письмо и приложения к данному письму содержат конфиденциальную информацию, его содержание должно быть известно только адресату. Если письмо адресовано не вам, просим сообщить нам об этом по вышеуказанному адресу.\r\n\r\n \r\n\r\n \r\n\r\nFrom: Михаил Козин [mailto:kmd379@gmail.com] \r\nSent: Thursday, October 22, 2026 12:35 AM\r\nTo: Krasnyanskaya Nadezhda <krasnyanskaya@zuykov.com>\r\nSubject: Российские заявки по PPA №1–10; отдельная возможность PCT\r\n\r\n \r\n\r\nЗдравствуйте!\r\n\r\nСпасибо, Надежда, за ответ и шаблон NDA. В нём необходимо предусмотреть обе раскрывающие стороны: меня лично и PBK. Просим уточнить, для чего на этапе NDA требуются СНИЛС и ИНН и можно ли согласовать NDA по минимально необходимым идентификационным данным; необходимые документы предоставим согласованным безопасным способом.\r\n\r\nПросим оценить подготовку и подачу российских патентных заявок на основании всего портфеля PPA №1–10. Приоритетные технические группы: №1 — Modular Cabinet Platform (PPA №3–7), №2 — AI Pricing & Retail Intelligence Platform (PPA №1,2,8,9); PPA №10 — отдельная группа учёта тары в торговой зоне. Обозначения NPPA №1 и №2 используются здесь только для сопоставления материалов с американским проектом; российские заявки необходимо подготовить по требованиям России. Количество и группировку российских заявок просим предложить после анализа. Подачу в США будем поручать американскому поверенному. Дополнительно просим сообщить, сможете ли вы законно представлять заявителя при подготовке и подаче соответствующих PCT. Исполнитель PCT будет выбран отдельно из российских или американских кандидатов после проверки полномочий; это не поручение на подачу. Передача прав PBK → Михаил Козин требует проверки; её завершение не предполагается.\r\n\r\nПо нашему реестру, который просим сверить с официальными квитанциями: PPA №1 — 63/938,244 от 11 декабря 2025; №2 — 63/945,513 от 19 декабря 2025; №8 — 64/090,283 от 14 июня 2026; №9 — 64/106,825 от 7 июля 2026. Самая ранняя дата группы NPPA №1: PPA №3 — 63/947,909 от 23 декабря 2025. Рабочие контрольные даты — 11 декабря 2026 для группы №2 и 23 декабря 2026 для группы №1; просим подтвердить применимые сроки и приоритетную поддержку. Я гражданин России, проживаю в Sharjah, ОАЭ, по-английски не говорю; предпочитаю письменную переписку с возможностью перевода.\r\n\r\nЧтобы не повторять уже обсуждённое, по известным пунктам достаточно подтвердить прежний ответ; по остальным просим коротко ответить с сохранением нумерации.\r\n\r\n1. Объём: готовы ли вы подготовить и подать российские заявки по PPA №1–10, начиная с групп №1 и №2? Какие услуги по PCT вы могли бы выполнить при наличии необходимых полномочий? Подача в США в ваш объём не включается.\r\n\r\n2. Команда: кто будет основным исполнителем и кто лично проведёт окончательную проверку описания, формулы, приоритетов и документов на подачу? Укажите профессиональный статус и регистрационный номер.\r\n\r\n3. PCT: сможете ли вы организовать представительство с учётом российского гражданства и проживания заявителя в Sharjah, ОАЭ? Кто именно вправе представлять заявителя перед выбранным получающим ведомством, в том числе RO/IB, и на каком основании? Если нужен партнёр, укажите его роль и стоимость либо порядок её согласования.\r\n\r\n4. Приоритеты: сможете ли вы проверить квитанции, раскрытие PPA №1–10 и цепочку прав, подтвердить применимые сроки и основания приоритета российских заявок и отдельно возможных PCT? Просим прежде всего проверить группы №1 и №2.\r\n\r\n5. График: когда вы сможете начать, представить первые проекты, завершить проверку и подать документы по каждой группе? Просим учесть наиболее раннюю дату группы NPPA №2 и назвать резерв времени и зависимости от нас.\r\n\r\n6. Материалы: сможете ли вы принять незавершённую работу Ali по NPPA №1 и использовать пригодные описания и рисунки? По NPPA №2 просим оценить подготовку на основании PPA №1,2,8,9; наличие готового проекта NPPA №2 не предполагается. Что необходимо для оценки и какие переделки оплачиваются отдельно?\r\n\r\n7. Конфиденциальность: готовы ли вы подписать NDA с двумя раскрывающими сторонами — Михаилом Козиным лично и PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO? Если нужны изменения, предложите их. Полный технический пакет передадим после согласования и подписания NDA; при невозможности подписать просим прямо сообщить.\r\n\r\n8. Страхование и рекомендации: есть ли страхование профессиональной ответственности? По возможности и с согласия клиентов будем благодарны за одну-две рекомендации. Если эти сведения нельзя предоставить, достаточно это указать.\r\n\r\n9. Стоимость: просим отдельно оценить российские заявки по группам №1, №2 и PPA №10, а также каждый возможный PCT как отдельную опцию. Отделите гонорары, пошлины, поиск, переводы, рисунки, налоги и услуги партнёров; укажите валюту, аванс, этапы оплаты, исключения и предварительный общий бюджет по России. Американские услуги не включайте. Если нужна оценка материалов, укажите диапазон и условия уточнения.\r\n\r\n10. Следующий шаг: какие условия договора, документы и действия нужны для начала? Можно ли сначала бесплатно оценить объём после NDA; если нужна платная проверка, просим предварительно согласовать её объём и стоимость. Этот запрос и передача материалов не являются принятием предложения или разрешением на платную работу/подачу.\r\n\r\nМы планируем завершить предварительный отбор 22 октября 2026 года. Будем благодарны за краткий ответ к этой дате; если это невозможно, пожалуйста, сообщите, когда сможете ответить и принять работу. После ответов и подписания NDA готовы оперативно предоставить полный пакет для оценки стоимости. Краткого ответа на этом этапе вполне достаточно.\r\n\r\nС уважением,\r\nМихаил Козин\r\n\r\n \r\n\r\nOn Wed, 21 Oct 2026 14:52:26 +0300, Krasnyanskaya Nadezhda < <mailto:krasnyanskaya@zuykov.com> krasnyanskaya@zuykov.com> wrote:\r\n\r\nУважаемый Михаил, добрый день! Подтверждаем получение трех Ваших писем и благодарим Вас за обращение в компанию «Зуйков и партнеры». По всем интересующим Вас вопросам, Вы напрямую общаетесь со специалистом – патентным поверенным, а не с менеджером по продажам. Для того, чтобы мы могли ответить на Ваши вопросы и направить Вам коммерческое предложение нам необходимо ознакомиться с уже имеющимися у Вас материалами. Просим Вас направить следующие данные: ФИО, СНИЛС, ИНН, паспортные данные, включая адрес регистрации, после получения которых мы подготовим и направим Вам подписанное с нашей стороны соглашение о конфиденциальности. Отдельно обращаем Ваше внимание, что по заявкам, поданным в США, мы работаем через наших контрагентов, патентных поверенных США. Ожидаем обратную связь и желаем Вам хорошего дня! Best regards, <https://zuykov.com/en/about/employees/> Nadezhda Krasnyanskaya С уважением, <https://zuykov.com/ru/about/employees/> Надежда Краснянская Patent Attorney Reg. № 2910 Патентный поверенный Рег. №2910 <https://zuykov.com/en/> Zuykov and partners LLC <https://zuykov.com/ru/> ООО «Зуйков и партнеры» Mail address: Russia, 129110 Moscow, P.O. Box 165 Для почты: Россия, 129110, г. Москва, а/я 165 Office: Russia, 129090 Moscow, Grokholskiy per., d. 28, 2nd floor Офис: Россия, 129090 г. Москва, Грохольский пер., д. 28, 2-й этаж Tel.+Fax: +7-495-775-16-37 ext. 1153 Mobile: +7-903-615-37-89 E-Mail: <mailto:patent@zuykov.com <mailto:patent@zuykov.com> > patent@zuykov.com <mailto:patent@zuykov.com>  Web: <https://zuykov.com/ru/> www.zuykov.com <http://www.zuykov.com>  The information in this email and attachments to this e-mail are confidential. The contents may not be disclosed or used by anyone other than the addressee. If you are not the intended recipient, please notify us immediately at the above address. Данное письмо и приложения к данному письму содержат конфиденциальную информацию, его содержание должно быть известно только адресату. Если письмо адресовано не вам, просим сообщить нам об этом по вышеуказанному адресу. From: info@zuykov.com <mailto:info@zuykov.com>  [mailto:info@zuykov.com <mailto:info@zuykov.com> ] Sent: Wednesday, October 21, 2026 1:07 PM To: 'Михаил Козин' <kmd379@gmail.com <mailto:kmd379@gmail.com> > Cc: 'Krasnyanskaya Nadezhda' <krasnyanskaya@zuykov.com <mailto:krasnyanskaya@zuykov.com> >; 'С. А. Зуйков' <sergey@zuykov.com <mailto:sergey@zuykov.com> > Subject: RE: Возможность сопровождения патентного проекта — PCT и заявка США Здравствуйте. Благодарим Вас за обращение в нашу компанию. Специалист свяжется с Вами в ближайшее время. Best regards, <https://zuykov.com/about/employees/> Natalia Yurkova С уважением, <https://zuykov.com/about/employees/> Наталья Юркова Secretary Секретарь <https://zuykov.com/en/> Zuykov and partners LLC <https://zuykov.com/ru/> ООО «Зуйков и партнеры» Mail address: Russia, 129110 Moscow, P.O. Box 165 Для почты: Россия, 129110, г. Москва, а/я 165 Office: Russia, 129090 Moscow, Grokholskiy per., d. 28, 2nd floor Офис: Россия, 129090 г. Москва, Грохольский пер., д. 28, 2-й этаж Tel.+Fax: +7-495-775-16-37 E-Mail: <mailto:secretary@zuykov.com <mailto:secretary@zuykov.com> > secretary@zuykov.com <mailto:secretary@zuykov.com>  Web: <https://zuykov.com/ru/> www.zuykov.com <http://www.zuykov.com>  The information in this email and attachments to this e-mail are confidential. The contents may not be disclosed or used by anyone other than the addressee. If you are not the intended recipient, please notify us immediately at the above address. Данное письмо и приложения к данному письму содержат конфиденциальную информацию, его содержание должно быть известно только адресату. Если письмо адресовано не вам, просим сообщить нам об этом по вышеуказанному адресу. From: Михаил Козин [ <mailto:kmd379@gmail.com <mailto:kmd379@gmail.com> > mailto:kmd379@gmail.com <mailto:kmd379@gmail.com> ] Sent: Wednesday, October 21, 2026 12:19 PM To: <mailto:info@zuykov.com <mailto:info@zuykov.com> > info@zuykov.com <mailto:info@zuykov.com>  Subject: Возможность сопровождения патентного проекта — PCT и заявка США Добрый день! Меня зовут Михаил Козин. Я гражданин России, проживаю в Шардже, ОАЭ. Предпочитаю переписку на русском языке. Ищу команду для продолжения патентного проекта, по которому уже поданы десять предварительных заявок в США. Проект включает модульное торговое оборудование, электронные системы управления и программные решения. Предыдущим американским поверенным частично подготовлены материалы первой непредварительной заявки. Буду признателен, если вы кратко сообщите, сможете ли: — принять имеющиеся материалы и использовать уже выполненную работу; — организовать подготовку и подачу PCT с учётом моего гражданства и проживания в ОАЭ, а также координацию американской заявки; — предложить ответственного специалиста и предварительный график. Также буду благодарен за информацию о страховании профессиональной ответственности и, по возможности и с согласия клиентов, рекомендации по сходным проектам. После ваших ответов и подписания соглашения о конфиденциальности, защищающего информацию меня лично и компании PBK, готовы предоставить полный комплект материалов для оценки объёма и стоимости работ. Это обращение не является принятием предложения об услугах или согласием на платные работы. Если предварительное изучение требует оплаты, просим сначала согласовать стоимость. Поскольку сроки ограничены, будем признательны за ответ в течение двух календарных дней — до 23 октября 2026 года. Краткого ответа на этом этапе вполне достаточно. С уважением, Михаил Козин\r\n\r\n",
+                  "attachment_id": null
+                },
+                "read_attachment_supported": null,
+                "parts": null
+              },
+              {
+                "part_id": "0.0.1",
+                "mime_type": "text/html",
+                "filename": "",
+                "headers": [
+                  {
+                    "name": "Content-Type",
+                    "value": "text/html; charset=\"utf-8\""
+                  },
+                  {
+                    "name": "Content-Transfer-Encoding",
+                    "value": "quoted-printable"
+                  }
+                ],
+                "body": {
+                  "size": 35513,
+                  "base64_url_content": null,
+                  "content": "<html xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\" xmlns:m=\"http://schemas.microsoft.com/office/2004/12/omml\" xmlns=\"http://www.w3.org/TR/REC-html40\"><head><meta http-equiv=Content-Type content=\"text/html; charset=utf-8\"><meta name=Generator content=\"Microsoft Word 15 (filtered medium)\"><!--[if !mso]><style>v\\:* {behavior:url(#default#VML);}\r\no\\:* {behavior:url(#default#VML);}\r\nw\\:* {behavior:url(#default#VML);}\r\n.shape {behavior:url(#default#VML);}\r\n</style><![endif]--><style><!--\r\n/* Font Definitions */\r\n@font-face\r\n\t{font-family:\"Cambria Math\";\r\n\tpanose-1:2 4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:Calibri;\r\n\tpanose-1:2 15 5 2 2 2 4 3 2 4;}\r\n/* Style Definitions */\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0cm;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\",serif;}\r\na:link, span.MsoHyperlink\r\n\t{mso-style-priority:99;\r\n\tcolor:blue;\r\n\ttext-decoration:underline;}\r\na:visited, span.MsoHyperlinkFollowed\r\n\t{mso-style-priority:99;\r\n\tcolor:purple;\r\n\ttext-decoration:underline;}\r\np\r\n\t{mso-style-priority:99;\r\n\tmso-margin-top-alt:auto;\r\n\tmargin-right:0cm;\r\n\tmso-margin-bottom-alt:auto;\r\n\tmargin-left:0cm;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\",serif;}\r\nspan.EmailStyle18\r\n\t{mso-style-type:personal-reply;\r\n\tfont-family:\"Calibri\",sans-serif;\r\n\tcolor:#1F497D;}\r\n.MsoChpDefault\r\n\t{mso-style-type:export-only;\r\n\tfont-size:10.0pt;\r\n\tfont-family:\"Calibri\",sans-serif;\r\n\tmso-fareast-language:EN-US;}\r\n@page WordSection1\r\n\t{size:612.0pt 792.0pt;\r\n\tmargin:2.0cm 42.5pt 2.0cm 3.0cm;}\r\ndiv.WordSection1\r\n\t{page:WordSection1;}\r\n--></style><!--[if gte mso 9]><xml>\r\n<o:shapedefaults v:ext=\"edit\" spidmax=\"1026\" />\r\n</xml><![endif]--><!--[if gte mso 9]><xml>\r\n<o:shapelayout v:ext=\"edit\">\r\n<o:idmap v:ext=\"edit\" data=\"1\" />\r\n</o:shapelayout></xml><![endif]--></head><body lang=RU link=blue vlink=purple><div class=WordSection1><p class=MsoNormal><span style='mso-fareast-language:EN-US'>Уважаемый Михаил, добрый день!<o:p></o:p></span></p><p class=MsoNormal><span style='mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p><p class=MsoNormal><span style='mso-fareast-language:EN-US'>Подтверждаем получение Вашего письма. <o:p></o:p></span></p><p class=MsoNormal><span style='mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p><p class=MsoNormal><span style='mso-fareast-language:EN-US'>Как мы сообщали Вам ранее, для того, чтобы мы могли ответить на Ваши вопросы и направить Вам коммерческое предложение нам необходимо ознакомиться с уже имеющимися у Вас материалами.<o:p></o:p></span></p><p class=MsoNormal><span style='mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p><p class=MsoNormal><u><span style='mso-fareast-language:EN-US'>Просим Вас направить следующие данные: ФИО, СНИЛС, ИНН, паспортные данные, включая адрес регистрации, после получения которых мы подготовим и направим Вам подписанное с нашей стороны соглашение о конфиденциальности. <o:p></o:p></span></u></p><p class=MsoNormal><u><span style='mso-fareast-language:EN-US'><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></span></u></p><p class=MsoNormal><u><span style='mso-fareast-language:EN-US'>Для Вашего удобства во вложении направляем наш шаблон соглашения о конфиденциальности для ознакомления.<o:p></o:p></span></u></p><p class=MsoNormal><span style='mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p><p class=MsoNormal><span style='mso-fareast-language:EN-US'>Ожидаем обратную связь и желаем Вам хорошего дня!<o:p></o:p></span></p><p class=MsoNormal><span style='font-size:11.0pt;color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p><table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse'><tr style='height:16.15pt'><td width=312 style='width:233.85pt;padding:0cm 0cm 0cm 0cm;height:16.15pt'><p class=MsoNormal style='text-align:justify;line-height:105%'><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Best regards,<o:p></o:p></span></p><p class=MsoNormal style='text-align:justify;line-height:105%'><span style='mso-fareast-language:EN-US'><a href=\"https://zuykov.com/en/about/employees/\"><span lang=EN-US style='font-size:10.0pt;line-height:105%'>Nadezhda Krasnyanskaya</span></a></span><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'><o:p></o:p></span></p></td><td width=312 style='width:233.9pt;padding:0cm 0cm 0cm 0cm;height:16.15pt'><p class=MsoNormal style='text-align:justify;line-height:105%'><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>С уважением,<o:p></o:p></span></p><p class=MsoNormal style='text-align:justify;line-height:105%'><span style='mso-fareast-language:EN-US'><a href=\"https://zuykov.com/ru/about/employees/\"><span style='font-size:10.0pt;line-height:105%'>Надежда Краснянская</span></a></span><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'><o:p></o:p></span></p></td></tr><tr style='height:5.5pt'><td width=312 style='width:233.85pt;padding:0cm 0cm 0cm 0cm;height:5.5pt'><p class=MsoNormal style='text-align:justify;line-height:105%'><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Patent Attorney Reg. № 2910<o:p></o:p></span></p></td><td width=312 style='width:233.9pt;padding:0cm 0cm 0cm 0cm;height:5.5pt'><p class=MsoNormal style='text-align:justify;line-height:105%'><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Патентный поверенный Рег. №2910<o:p></o:p></span></p></td></tr><tr style='height:6.5pt'><td width=312 style='width:233.85pt;padding:0cm 0cm 0cm 0cm;height:6.5pt'><p class=MsoNormal style='text-align:justify;line-height:105%'><span style='mso-fareast-language:EN-US'><a href=\"https://zuykov.com/en/\"><span lang=EN-US style='font-size:10.0pt;line-height:105%'>Zuykov and partners LLC</span></a></span><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'><o:p></o:p></span></p></td><td width=312 style='width:233.9pt;padding:0cm 0cm 0cm 0cm;height:6.5pt'><p class=MsoNormal style='text-align:justify;line-height:105%'><span style='mso-fareast-language:EN-US'><a href=\"https://zuykov.com/ru/\"><span style='font-size:10.0pt;line-height:105%'>ООО «Зуйков и партнеры»</span></a></span><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'><o:p></o:p></span></p></td></tr><tr style='height:18.7pt'><td width=312 style='width:233.85pt;padding:0cm 0cm 0cm 0cm;height:18.7pt'><p class=MsoNormal style='text-align:justify;line-height:105%'><b><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Mail address: </span></b><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Russia, 129110<o:p></o:p></span></p><p class=MsoNormal style='text-align:justify;line-height:105%'><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Moscow, P.O. Box 165<o:p></o:p></span></p></td><td width=312 style='width:233.9pt;padding:0cm 0cm 0cm 0cm;height:18.7pt'><p class=MsoNormal style='text-align:justify;line-height:105%'><b><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Для почты: </span></b><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Россия, 129110, <o:p></o:p></span></p><p class=MsoNormal style='text-align:justify;line-height:105%'><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>г. Москва, а/я 165<o:p></o:p></span></p></td></tr><tr style='height:16.75pt'><td width=312 valign=top style='width:233.85pt;padding:0cm 0cm 0cm 0cm;height:16.75pt'><p class=MsoNormal style='line-height:105%'><b><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Office: </span></b><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Russia, 129090 Moscow,<b><o:p></o:p></b></span></p><p class=MsoNormal style='line-height:105%'><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Grokholskiy per., d. 28, 2nd floor<b><o:p></o:p></b></span></p></td><td width=312 valign=top style='width:233.9pt;padding:0cm 0cm 0cm 0cm;height:16.75pt'><p class=MsoNormal style='line-height:105%'><b><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Офис: </span></b><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Россия, 129090 г. Москва,<b> <br></b>Грохольский пер., д. 28, 2-й этаж<b><o:p></o:p></b></span></p></td></tr><tr style='height:3.45pt'><td width=312 valign=top style='width:233.85pt;padding:0cm 0cm 0cm 0cm;height:3.45pt'><p class=MsoNormal style='line-height:105%'><b><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Tel</span></b><b><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>.+</span></b><b><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Fax</span></b><b><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>:</span></b><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'> +</span><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>7-495-775-16-37 ext. 1153<o:p></o:p></span></p><p class=MsoNormal style='line-height:105%'><b><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Mobile:&nbsp; </span></b><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>+7-903-615-37-89</span><b><span style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'><o:p></o:p></span></b></p></td><td width=312 valign=top style='width:233.9pt;padding:0cm 0cm 0cm 0cm;height:3.45pt'><p class=MsoNormal style='line-height:105%'><b><span lang=DE style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>E-Mail:</span></b><span lang=DE style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'> </span><span style='mso-fareast-language:EN-US'><a href=\"mailto:patent@zuykov.com\"><span lang=DE style='font-size:10.0pt;line-height:105%'>patent@zuykov.com</span></a></span><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:#1F497D;mso-fareast-language:EN-US'><o:p></o:p></span></p></td></tr><tr style='height:4.05pt'><td width=312 valign=top style='width:233.85pt;padding:0cm 0cm 0cm 0cm;height:4.05pt'><p class=MsoNormal style='line-height:105%'><b><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'>Web:</span></b><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:black;mso-fareast-language:EN-US'> </span><span style='mso-fareast-language:EN-US'><a href=\"https://zuykov.com/ru/\" target=\"_blank\"><span lang=DE style='font-size:10.0pt;line-height:105%'>www.zuykov.com</span></a></span><span lang=EN-US style='font-size:10.0pt;line-height:105%;color:#1F497D;mso-fareast-language:EN-US'><o:p></o:p></span></p></td><td width=312 valign=top style='width:233.9pt;padding:0cm 0cm 0cm 0cm;height:4.05pt'><p class=MsoNormal style='line-height:105%'><span style='font-size:11.0pt;line-height:105%;color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p></td></tr><tr style='height:20.05pt'><td width=624 colspan=2 valign=top style='width:467.75pt;padding:0cm 0cm 0cm 0cm;height:20.05pt'><table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse'><tr style='height:20.3pt'><td width=577 valign=top style='width:347.3pt;padding:0cm 0cm 0cm 0cm;height:20.3pt'><p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span style='color:#1F497D'><img border=0 width=577 height=163 id=\"Рисунок_x0020_5\" src=\"cid:image001.png@01DD620C.3FEC6710\" alt=\"Подпись 2026\"></span><span style='color:#1F497D;mso-fareast-language:EN-US'><o:p></o:p></span></p></td></tr><tr style='height:25.95pt'><td width=577 valign=top style='width:347.3pt;padding:0cm 0cm 0cm 0cm;height:25.95pt'><p class=MsoNormal style='text-align:justify;line-height:105%'><span lang=EN-US style='font-size:8.0pt;line-height:105%;font-family:\"Calibri\",sans-serif;color:#4E4D5F;mso-fareast-language:EN-US'>The information in this email and att</span><span lang=EN-US style='font-size:8.0pt;line-height:105%;font-family:\"Calibri\",sans-serif;color:#1F497D;mso-fareast-language:EN-US'>a</span><span lang=EN-US style='font-size:8.0pt;line-height:105%;font-family:\"Calibri\",sans-serif;color:#4E4D5F;mso-fareast-language:EN-US'>chments to this e-mail</span><span lang=EN-US style='font-size:8.0pt;line-height:105%;font-family:\"Calibri\",sans-serif;color:#595959;mso-fareast-language:EN-US'> are </span><span lang=EN-US style='font-size:8.0pt;line-height:105%;font-family:\"Calibri\",sans-serif;color:#4E4D5F;mso-fareast-language:EN-US'>confidential. The contents may not be disclosed or used by anyone other than the addressee. If you are not the intended recipient, please notify us immediately at the above address.<o:p></o:p></span></p><p class=MsoNormal style='text-align:justify;line-height:105%'><span style='font-size:8.0pt;line-height:105%;font-family:\"Calibri\",sans-serif;color:#595959;mso-fareast-language:EN-US'>Данное письмо и приложения к данному письму содержат конфиденциальную информацию, его содержание должно быть известно только адресату. Если письмо адресовано не вам, просим сообщить нам об этом по вышеуказанному адресу.</span><span style='font-size:11.0pt;line-height:105%;font-family:\"Calibri\",sans-serif;color:#1F497D;mso-fareast-language:EN-US'><o:p></o:p></span></p></td></tr></table></td></tr></table><p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",sans-serif;color:#1F497D'><o:p>&nbsp;</o:p></span></p><p class=MsoNormal><span style='font-size:11.0pt;font-family:\"Calibri\",sans-serif;color:#1F497D;mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p><p class=MsoNormal><b><span style='font-size:11.0pt;font-family:\"Calibri\",sans-serif'>From:</span></b><span style='font-size:11.0pt;font-family:\"Calibri\",sans-serif'> Михаил Козин [mailto:kmd379@gmail.com] <br><b>Sent:</b> Thursday, October 22, 2026 12:35 AM<br><b>To:</b> Krasnyanskaya Nadezhda &lt;krasnyanskaya@zuykov.com&gt;<br><b>Subject:</b> Российские заявки по PPA №1–10; отдельная возможность PCT<o:p></o:p></span></p><p class=MsoNormal><o:p>&nbsp;</o:p></p><div><p><span style='font-family:\"Arial\",sans-serif'>Здравствуйте!<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>Спасибо, Надежда, за ответ и шаблон NDA. В нём необходимо предусмотреть обе раскрывающие стороны: меня лично и PBK. Просим уточнить, для чего на этапе NDA требуются СНИЛС и ИНН и можно ли согласовать NDA по минимально необходимым идентификационным данным; необходимые документы предоставим согласованным безопасным способом.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>Просим оценить подготовку и подачу российских патентных заявок на основании всего портфеля PPA №1–10. Приоритетные технические группы: №1 — Modular Cabinet Platform (PPA №3–7), №2 — AI Pricing &amp; Retail Intelligence Platform (PPA №1,2,8,9); PPA №10 — отдельная группа учёта тары в торговой зоне. Обозначения NPPA №1 и №2 используются здесь только для сопоставления материалов с американским проектом; российские заявки необходимо подготовить по требованиям России. Количество и группировку российских заявок просим предложить после анализа. Подачу в США будем поручать американскому поверенному. Дополнительно просим сообщить, сможете ли вы законно представлять заявителя при подготовке и подаче соответствующих PCT. Исполнитель PCT будет выбран отдельно из российских или американских кандидатов после проверки полномочий; это не поручение на подачу. Передача прав PBK → Михаил Козин требует проверки; её завершение не предполагается.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>По нашему реестру, который просим сверить с официальными квитанциями: PPA №1 — 63/938,244 от 11 декабря 2025; №2 — 63/945,513 от 19 декабря 2025; №8 — 64/090,283 от 14 июня 2026; №9 — 64/106,825 от 7 июля 2026. Самая ранняя дата группы NPPA №1: PPA №3 — 63/947,909 от 23 декабря 2025. Рабочие контрольные даты — 11 декабря 2026 для группы №2 и 23 декабря 2026 для группы №1; просим подтвердить применимые сроки и приоритетную поддержку. Я гражданин России, проживаю в Sharjah, ОАЭ, по-английски не говорю; предпочитаю письменную переписку с возможностью перевода.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>Чтобы не повторять уже обсуждённое, по известным пунктам достаточно подтвердить прежний ответ; по остальным просим коротко ответить с сохранением нумерации.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>1. Объём: готовы ли вы подготовить и подать российские заявки по PPA №1–10, начиная с групп №1 и №2? Какие услуги по PCT вы могли бы выполнить при наличии необходимых полномочий? Подача в США в ваш объём не включается.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>2. Команда: кто будет основным исполнителем и кто лично проведёт окончательную проверку описания, формулы, приоритетов и документов на подачу? Укажите профессиональный статус и регистрационный номер.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>3. PCT: сможете ли вы организовать представительство с учётом российского гражданства и проживания заявителя в Sharjah, ОАЭ? Кто именно вправе представлять заявителя перед выбранным получающим ведомством, в том числе RO/IB, и на каком основании? Если нужен партнёр, укажите его роль и стоимость либо порядок её согласования.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>4. Приоритеты: сможете ли вы проверить квитанции, раскрытие PPA №1–10 и цепочку прав, подтвердить применимые сроки и основания приоритета российских заявок и отдельно возможных PCT? Просим прежде всего проверить группы №1 и №2.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>5. График: когда вы сможете начать, представить первые проекты, завершить проверку и подать документы по каждой группе? Просим учесть наиболее раннюю дату группы NPPA №2 и назвать резерв времени и зависимости от нас.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>6. Материалы: сможете ли вы принять незавершённую работу Ali по NPPA №1 и использовать пригодные описания и рисунки? По NPPA №2 просим оценить подготовку на основании PPA №1,2,8,9; наличие готового проекта NPPA №2 не предполагается. Что необходимо для оценки и какие переделки оплачиваются отдельно?<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>7. Конфиденциальность: готовы ли вы подписать NDA с двумя раскрывающими сторонами — Михаилом Козиным лично и PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO? Если нужны изменения, предложите их. Полный технический пакет передадим после согласования и подписания NDA; при невозможности подписать просим прямо сообщить.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>8. Страхование и рекомендации: есть ли страхование профессиональной ответственности? По возможности и с согласия клиентов будем благодарны за одну-две рекомендации. Если эти сведения нельзя предоставить, достаточно это указать.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>9. Стоимость: просим отдельно оценить российские заявки по группам №1, №2 и PPA №10, а также каждый возможный PCT как отдельную опцию. Отделите гонорары, пошлины, поиск, переводы, рисунки, налоги и услуги партнёров; укажите валюту, аванс, этапы оплаты, исключения и предварительный общий бюджет по России. Американские услуги не включайте. Если нужна оценка материалов, укажите диапазон и условия уточнения.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>10. Следующий шаг: какие условия договора, документы и действия нужны для начала? Можно ли сначала бесплатно оценить объём после NDA; если нужна платная проверка, просим предварительно согласовать её объём и стоимость. Этот запрос и передача материалов не являются принятием предложения или разрешением на платную работу/подачу.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>Мы планируем завершить предварительный отбор 22 октября 2026 года. Будем благодарны за краткий ответ к этой дате; если это невозможно, пожалуйста, сообщите, когда сможете ответить и принять работу. После ответов и подписания NDA готовы оперативно предоставить полный пакет для оценки стоимости. Краткого ответа на этом этапе вполне достаточно.<o:p></o:p></span></p><p><span style='font-family:\"Arial\",sans-serif'>С уважением,<br>Михаил Козин<o:p></o:p></span></p></div><p class=MsoNormal style='margin-bottom:12.0pt'><o:p>&nbsp;</o:p></p><div><p class=MsoNormal><span lang=EN-US>On Wed, 21 Oct 2026 14:52:26 +0300, Krasnyanskaya Nadezhda &lt;</span><a href=\"mailto:krasnyanskaya@zuykov.com\"><span lang=EN-US>krasnyanskaya@zuykov.com</span></a><span lang=EN-US>&gt; wrote:<o:p></o:p></span></p><blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'><div><p class=MsoNormal>Уважаемый Михаил, добрый день! Подтверждаем получение трех Ваших писем и благодарим Вас за обращение в компанию «Зуйков и партнеры». По всем интересующим Вас вопросам, Вы напрямую общаетесь со специалистом – патентным поверенным, а не с менеджером по продажам. Для того, чтобы мы могли ответить на Ваши вопросы и направить Вам коммерческое предложение нам необходимо ознакомиться с уже имеющимися у Вас материалами. Просим Вас направить следующие данные: ФИО, СНИЛС, ИНН, паспортные данные, включая адрес регистрации, после получения которых мы подготовим и направим Вам подписанное с нашей стороны соглашение о конфиденциальности. Отдельно обращаем Ваше внимание, что по заявкам, поданным в США, мы работаем через наших контрагентов, патентных поверенных США. Ожидаем обратную связь и желаем Вам хорошего дня! Best regards, &lt;<a href=\"https://zuykov.com/en/about/employees/\">https://zuykov.com/en/about/employees/</a>&gt; Nadezhda Krasnyanskaya С уважением, &lt;<a href=\"https://zuykov.com/ru/about/employees/\">https://zuykov.com/ru/about/employees/</a>&gt; Надежда Краснянская Patent Attorney Reg. № 2910 Патентный поверенный Рег. №2910 &lt;<a href=\"https://zuykov.com/en/\">https://zuykov.com/en/</a>&gt; Zuykov and partners LLC &lt;<a href=\"https://zuykov.com/ru/\">https://zuykov.com/ru/</a>&gt; ООО «Зуйков и партнеры» Mail address: Russia, 129110 Moscow, P.O. Box 165 Для почты: Россия, 129110, г. Москва, а/я 165 Office: Russia, 129090 Moscow, Grokholskiy per., d. 28, 2nd floor Офис: Россия, 129090 г. Москва, Грохольский пер., д. 28, 2-й этаж Tel.+Fax: +7-495-775-16-37 ext. 1153 Mobile: +7-903-615-37-89 E-Mail: &lt;mailto:<a href=\"mailto:patent@zuykov.com\">patent@zuykov.com</a>&gt; <a href=\"mailto:patent@zuykov.com\">patent@zuykov.com</a> Web: &lt;<a href=\"https://zuykov.com/ru/\">https://zuykov.com/ru/</a>&gt; <a href=\"http://www.zuykov.com\">www.zuykov.com</a> The information in this email and attachments to this e-mail are confidential. <span lang=EN-US>The contents may not be disclosed or used by anyone other than the addressee. If you are not the intended recipient, please notify us immediately at the above address. </span>Данное письмо и приложения к данному письму содержат конфиденциальную информацию, его содержание должно быть известно только адресату. Если письмо адресовано не вам, просим сообщить нам об этом по вышеуказанному адресу. From: <a href=\"mailto:info@zuykov.com\">info@zuykov.com</a> [mailto:<a href=\"mailto:info@zuykov.com\">info@zuykov.com</a>] Sent: Wednesday, October 21, 2026 1:07 PM To: 'Михаил Козин' &lt;<a href=\"mailto:kmd379@gmail.com\">kmd379@gmail.com</a>&gt; Cc: 'Krasnyanskaya Nadezhda' &lt;<a href=\"mailto:krasnyanskaya@zuykov.com\">krasnyanskaya@zuykov.com</a>&gt;; 'С. А. Зуйков' &lt;<a href=\"mailto:sergey@zuykov.com\">sergey@zuykov.com</a>&gt; Subject: RE: Возможность сопровождения патентного проекта — PCT и заявка США Здравствуйте. Благодарим Вас за обращение в нашу компанию. Специалист свяжется с Вами в ближайшее время. Best regards, &lt;<a href=\"https://zuykov.com/about/employees/\">https://zuykov.com/about/employees/</a>&gt; Natalia Yurkova С уважением, &lt;<a href=\"https://zuykov.com/about/employees/\">https://zuykov.com/about/employees/</a>&gt; Наталья Юркова Secretary Секретарь &lt;<a href=\"https://zuykov.com/en/\">https://zuykov.com/en/</a>&gt; Zuykov and partners LLC &lt;<a href=\"https://zuykov.com/ru/\">https://zuykov.com/ru/</a>&gt; ООО «Зуйков и партнеры» Mail address: Russia, 129110 Moscow, P.O. Box 165 Для почты: Россия, 129110, г. Москва, а/я 165 Office: Russia, 129090 Moscow, Grokholskiy per., d. 28, 2nd floor Офис: Россия, 129090 г. Москва, Грохольский пер., д. 28, 2-й этаж Tel.+Fax: +7-495-775-16-37 E-Mail: &lt;mailto:<a href=\"mailto:secretary@zuykov.com\">secretary@zuykov.com</a>&gt; <a href=\"mailto:secretary@zuykov.com\">secretary@zuykov.com</a> Web: &lt;<a href=\"https://zuykov.com/ru/\">https://zuykov.com/ru/</a>&gt; <a href=\"http://www.zuykov.com\">www.zuykov.com</a> The information in this email and attachments to this e-mail are confidential. <span lang=EN-US>The contents may not be disclosed or used by anyone other than the addressee. If you are not the intended recipient, please notify us immediately at the above address. </span>Данное письмо и приложения к данному письму содержат конфиденциальную информацию, его содержание должно быть известно только адресату. Если письмо адресовано не вам, просим сообщить нам об этом по вышеуказанному адресу. From: Михаил Козин [ &lt;mailto:<a href=\"mailto:kmd379@gmail.com\">kmd379@gmail.com</a>&gt; mailto:<a href=\"mailto:kmd379@gmail.com\">kmd379@gmail.com</a>] Sent: Wednesday, October 21, 2026 12:19 PM To: &lt;mailto:<a href=\"mailto:info@zuykov.com\">info@zuykov.com</a>&gt; <a href=\"mailto:info@zuykov.com\">info@zuykov.com</a> Subject: Возможность сопровождения патентного проекта — PCT и заявка США Добрый день! Меня зовут Михаил Козин. Я гражданин России, проживаю в Шардже, ОАЭ. Предпочитаю переписку на русском языке. Ищу команду для продолжения патентного проекта, по которому уже поданы десять предварительных заявок в США. Проект включает модульное торговое оборудование, электронные системы управления и программные решения. Предыдущим американским поверенным частично подготовлены материалы первой непредварительной заявки. Буду признателен, если вы кратко сообщите, сможете ли: — принять имеющиеся материалы и использовать уже выполненную работу; — организовать подготовку и подачу PCT с учётом моего гражданства и проживания в ОАЭ, а также координацию американской заявки; — предложить ответственного специалиста и предварительный график. Также буду благодарен за информацию о страховании профессиональной ответственности и, по возможности и с согласия клиентов, рекомендации по сходным проектам. После ваших ответов и подписания соглашения о конфиденциальности, защищающего информацию меня лично и компании PBK, готовы предоставить полный комплект материалов для оценки объёма и стоимости работ. Это обращение не является принятием предложения об услугах или согласием на платные работы. Если предварительное изучение требует оплаты, просим сначала согласовать стоимость. Поскольку сроки ограничены, будем признательны за ответ в течение двух календарных дней — до 23 октября 2026 года. Краткого ответа на этом этапе вполне достаточно. С уважением, Михаил Козин<o:p></o:p></p></div></blockquote></div></div></body></html>",
+                  "attachment_id": null
+                },
+                "read_attachment_supported": null,
+                "parts": null
+              }
+            ]
+          },
+          {
+            "part_id": "0.1",
+            "mime_type": "image/png",
+            "filename": "image001.png",
+            "headers": [
+              {
+                "name": "Content-Type",
+                "value": "image/png; name=\"image001.png\""
+              },
+              {
+                "name": "Content-Transfer-Encoding",
+                "value": "base64"
+              },
+              {
+                "name": "Content-ID",
+                "value": "<image001.png@01DD620C.3FEC6710>"
+              }
+            ],
+            "body": {
+              "size": 74704,
+              "base64_url_content": null,
+              "content": null,
+              "attachment_id": "ANGjdJ9uwmLSHNTZpWrYQkn-LeWLd7ikRWDXECeG7ZLPoz0Azu6ertXAYyVYja_zzfohqzjjTMMLe_TvEHtFekUOVyej-w9ydvc4g-pSJWh10H1aCCaIvVMx4-GYFXoupQuKt9C5cuf-qWHvF1liRsibfrFAHV7HXWnfiXYmluiexmmbNKK1MCp6PK_-pJNrTQrpX7VjYe-mE08lccXDduyXt4XcSPsBE7W5G-uXWU3SHg2-pjaYb4CrwP4xfuMpkMk9ZE2xz3MR-VTwqbSbkBKIpvKOQFgr_MUDNRd-o_VIkxkUvnnEtyPbGOGTrqrUJPiAvmMX4PRx9dOHaQnzfs49z8Jz9t9dnEmLz3brOSZ9-AoaMwanTb6tulIm-zVBMaBGM-te1zn3_BpfrKDVA66YWSJjryvV_SoHXzIikw"
+            },
+            "read_attachment_supported": true,
+            "parts": null
+          }
+        ]
+      },
+      {
+        "part_id": "1",
+        "mime_type": "application/msword",
+        "filename": "СОГЛАШЕНИЕ О КОНФИДЕНЦИАЛЬНОСТИ_ООО Зуйков и партнеры.doc",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/msword; name=\"СОГЛАШЕНИЕ О КОНФИДЕНЦИАЛЬНОСТИ_ООО Зуйков и партнеры.doc\""
+          },
+          {
+            "name": "Content-Transfer-Encoding",
+            "value": "base64"
+          },
+          {
+            "name": "Content-Disposition",
+            "value": "attachment; filename=\"СОГЛАШЕНИЕ О КОНФИДЕНЦИАЛЬНОСТИ_ООО Зуйков и партнеры.doc\""
+          }
+        ],
+        "body": {
+          "size": 71168,
+          "base64_url_content": null,
+          "content": null,
+          "attachment_id": "ANGjdJ9egGFEVzLR0TUn_WmJfxPOA8pvE_1VfJYzAFXI2hsGNZ3iIIjFTs0bwCzDTcgLbnz9U4Qq5ZRRrQWn5RxoywSF8p65YwK29kO-Qr8gg2jZex79TJK-WBtRE76E2cG_sLeOZ1pcCv0P_prH_vpWa3in40IjO5v5Zch2p0dr324lszlMRomKIwiq4sLUdQHXr1qRW3m0r6teyf_n3B49c3ZrQcppccKDx2SYD1Hb_7hnLR1anFXPS5uEVs2UpIaa3XoSXYVRqHRqqvklstqE62GlGU7fXnJCBiYUVYzuoaZYoGnJ92XcQJrmwSKsZGBUE-iQK1Xy8zQx2gi9KJLUvmgB6wrBWv6wkgkOmJlYQhKrxCSLQ_ZGQEbEczDawmIxMyet4XnMLeuXM8koRC9SW0MAFvjFN5zi4Z5W7A"
+        },
+        "read_attachment_supported": true,
+        "parts": null
+      }
+    ]
+  },
+  "size_estimate": 303841,
+  "classification_label_values": null,
+  "raw": null
+}

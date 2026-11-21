@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="slides-format" content="viewport">
+  <title>Модульная розничная система — презентация для инвестора</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:#17181c;
+      --bg2:#1e2026;
+      --text:#f3f4f6;
+      --muted:#d1d5db;
+      --accent:#79a8ff;
+      --line:#ececec;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);font-family:'Inter',system-ui,sans-serif;color:var(--text)}
+    .deck{position:relative;width:100vw;height:100vh}
+    .slide{position:absolute;inset:0;opacity:0;pointer-events:none;transform:scale(.985);transition:opacity .55s ease,transform .55s ease;background:linear-gradient(180deg,var(--bg),#191b21 60%, #20242e 100%)}
+    .slide.active{opacity:1;pointer-events:auto;transform:scale(1)}
+    .slide::after{content:'';position:absolute;left:0;right:0;bottom:0;height:26%;background:radial-gradient(ellipse at 18% 100%, rgba(145,170,255,.26), transparent 36%), radial-gradient(ellipse at 28% 120%, rgba(255,255,255,.08), transparent 24%);opacity:.95}
+    .brandM{position:absolute;right:48px;top:34px;font-size:64px;font-weight:300;letter-spacing:-2px;color:#fff;opacity:.95}
+    .likebz{position:absolute;right:52px;bottom:38px;font-size:28px;color:#fff;opacity:.88}
+    .lineTop,.lineBot{position:absolute;left:54px;width:64px;height:2px;background:var(--line);opacity:.95}
+    .lineTop{top:52px}.lineBot{bottom:52px}
+    .content{position:relative;z-index:2;padding:72px 64px 72px 64px;width:100%;height:100%}
+    h1,h2{margin:0}
+    .title-center{height:100%;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 160px}
+    .title-center h1{font-size:78px;line-height:1.04;font-weight:800;letter-spacing:-2px}
+    .h{font-size:64px;line-height:1.02;font-weight:800;letter-spacing:-1.5px;margin-top:22px;margin-bottom:68px}
+    .single{font-size:44px;line-height:1.28;color:var(--muted);max-width:1120px;margin-top:120px}
+    .single .a,.bullets .a,strong{color:var(--accent);font-weight:800}
+    .bullets{font-size:38px;line-height:1.32;max-width:1180px}
+    .bullets ul{list-style:none;padding:0;margin:34px 0 0 0}
+    .bullets li{position:relative;padding-left:48px;margin:18px 0;color:var(--muted)}
+    .bullets li::before{content:'•';position:absolute;left:0;top:-2px;color:var(--accent);font-size:52px;line-height:1}
+    .two-col{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:start}
+    .card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:22px;padding:26px 28px}
+    table{width:100%;border-collapse:collapse;font-size:23px;color:var(--muted)}
+    th,td{border-bottom:1px solid rgba(255,255,255,.12);padding:10px 10px;text-align:left;vertical-align:top}
+    th{color:#fff;font-weight:700}
+    .small{font-size:22px;line-height:1.35;color:var(--muted)}
+    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .metric{padding:24px;border-radius:22px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08)}
+    .metric .n{font-size:44px;font-weight:800;color:#fff;margin-bottom:8px}
+    .metric .l{font-size:22px;color:var(--muted);line-height:1.28}
+    .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:24px}
+    .step{padding:22px;border-left:4px solid var(--accent);background:rgba(255,255,255,.03);border-radius:16px}
+    .step .y{font-size:24px;color:#fff;font-weight:800;margin-bottom:10px}
+    .step .t{font-size:22px;color:var(--muted);line-height:1.3}
+    .footerNote{position:absolute;left:64px;bottom:78px;font-size:18px;color:rgba(255,255,255,.55)}
+    .reveal{opacity:0;transform:translateY(18px)}
+    .nav-controls{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);display:flex;gap:10px;align-items:center;z-index:10;background:rgba(255,255,255,.06);padding:10px 16px;border-radius:24px;border:1px solid rgba(255,255,255,.12)}
+    .nav-btn{width:36px;height:36px;border:none;border-radius:50%;background:rgba(255,255,255,.08);color:#fff;font-size:20px;cursor:pointer}
+    .slide-dots{display:flex;gap:6px}.dot{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.25);cursor:pointer}.dot.active{background:var(--accent);transform:scale(1.2)}
+    .slide-counter{min-width:48px;text-align:center;color:#fff;font-size:14px}
+  </style>
+</head>
+<body>
+<div class="deck">
+
+<div class="slide active" data-slide="1"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content title-center"><h1 class="reveal">Модульная retail-система<br>с AI-ценообразованием,<br>охлаждением и нагревом</h1></div></div>
+
+<div class="slide" data-slide="2"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Цель и миссия</div><div class="bullets reveal"><ul><li><span class="a">Цель:</span> создать новый стандарт автономной розницы, где холодные, сухие и готовые к разогреву товары продаются из единой интеллектуальной системы.</li><li><span class="a">Миссия:</span> сделать покупку повседневных продуктов быстрее, удобнее и выгоднее для покупателя и оператора магазина.</li><li><span class="a">Почему это делается:</span> классический вендинг слишком узкий, а полноценный магазин дорог в запуске и эксплуатации.</li><li><span class="a">История:</span> проект вырос из практической задачи объединить овощи, молочную продукцию и готовую еду в одном модульном формате без кассира и лишнего персонала.</li></ul></div></div></div>
+
+<div class="slide" data-slide="3"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Проблема</div><div class="single reveal">Современная несетевая розница, мини-магазины и вендинг плохо справляются с <span class="a">тремя задачами одновременно</span>: безопасно хранить охлажденные товары, продавать штучные свежие продукты и выдавать готовую еду с <span class="a">контролируемым разогревом</span>. Оператор теряет деньги из-за списаний, лишнего персонала, статичных цен и дублирования оборудования в каждой точке. [file:247][file:246]</div></div></div>
+
+<div class="slide" data-slide="4"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Решение</div><div class="bullets reveal"><ul><li><span class="a">Один модульный шкаф</span> или кластер шкафов в режиме «ведущий-ведомый» вместо набора разрозненных аппаратов. [file:247]</li><li><span class="a">Двухзонная архитектура:</span> охлаждение для молока и свежих товаров плюс отдельные изолированные зоны нагрева для готовых блюд. [file:247]</li><li><span class="a">AI-ценообразование:</span> снижение цены перед окончанием срока годности и повышение цены в пиковый спрос. [file:247]</li><li><span class="a">Контролируемая выдача:</span> идентификация товара, предоплата перед нагревом, таймер извлечения, штраф за невыбор нагретого товара. [file:247]</li></ul></div></div></div>
+
+<div class="slide" data-slide="5"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Почему сейчас?</div><div class="bullets reveal"><ul><li>Покупатель привык к <span class="a">self-service</span> и хочет купить быстро, без очереди и кассира.</li><li>Рознице нужен формат с <span class="a">низким фондом оплаты труда</span> и возможностью ставить точки в офисах, ЖК, вузах, клиниках и transit-локациях.</li><li>Сенсоры, edge-контроллеры, RFID, computer vision и мобильная идентификация уже позволяют сделать такой формат технологически зрелым. [file:247][file:246]</li><li>Рост давления на маржу делает <span class="a">динамическое управление сроками и ценой</span> особенно актуальным. [file:247]</li></ul></div></div></div>
+
+<div class="slide" data-slide="6"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Рынок</div><div class="grid3 reveal"><div class="metric"><div class="n">B2B2C</div><div class="l">Офисы, бизнес-центры, кампусы, клиники, ЖК, АЗС, транспортные узлы.</div></div><div class="metric"><div class="n">3 категории</div><div class="l">Свежие овощи и фрукты, молочная продукция, ready-to-heat блюда и напитки.</div></div><div class="metric"><div class="n">Масштабируемость</div><div class="l">Один master-узел может обслуживать несколько slave-кабинетов, снижая CAPEX точки. [file:247]</div></div></div><div class="single reveal" style="margin-top:42px;font-size:32px">Целевой рынок — автономная retail-инфраструктура на стыке <span class="a">умного вендинга, convenience retail и foodtech</span>, где ценность создается не только продажей товара, но и сервисом «взял холодное / выбрал свежее / разогрел готовое» в одной системе.</div></div></div>
+
+<div class="slide" data-slide="7"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Конкуренты и аналоги</div><div class="bullets reveal"><ul><li><span class="a">Классический вендинг:</span> хорошо продает стандартные SKU, но слабо работает с fresh produce и сложным controlled heating.</li><li><span class="a">Микромаркеты и smart fridge:</span> удобны для холодных товаров, но обычно не дают полноценный сценарий нагрева блюда внутри того же узла.</li><li><span class="a">Роботизированные food lockers:</span> решают отдельный сценарий выдачи, но не объединяют модульную multi-category retail-логику и динамическое ценообразование.</li><li><span class="a">Традиционный магазин:</span> максимальная гибкость, но высокая стоимость запуска, персонала и операционного контроля.</li></ul></div></div></div>
+
+<div class="slide" data-slide="8"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Сравнение с конкурентами</div><div class="two-col"><div class="card reveal"><div style="font-size:28px;font-weight:800;margin-bottom:16px;color:#fff">Карта восприятия</div><div class="small">По оси X — <span class="a">ширина товарного сценария</span>, по оси Y — <span class="a">глубина автоматизации</span>.<br><br>Наша система находится в зоне «широкий ассортимент + высокая автоматизация»: fresh + dairy + ready-to-heat + AI pricing + modular master/slave architecture. [file:247]</div></div><div class="card reveal"><table><tr><th>Критерий</th><th>Вендинг</th><th>Smart fridge</th><th>Наша система</th></tr><tr><td>Охлаждение</td><td>Частично</td><td>Да</td><td>Да</td></tr><tr><td>Готовая еда с нагревом</td><td>Ограниченно</td><td>Редко</td><td>Да [file:247]</td></tr><tr><td>Свежие овощи/штучный товар</td><td>Слабо</td><td>Частично</td><td>Да</td></tr><tr><td>AI pricing</td><td>Нет/слабо</td><td>Редко</td><td>Да [file:247]</td></tr><tr><td>Модульный кластер</td><td>Нет</td><td>Нет</td><td>Да [file:247]</td></tr></table></div></div></div></div>
+
+<div class="slide" data-slide="9"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Продукт</div><div class="grid2"><div class="card reveal"><div style="font-size:30px;font-weight:800;margin-bottom:14px">Что видит покупатель</div><div class="small">Вход в магазин/точку, идентификация, выбор товара, отображение SKU и цены, добавление в корзину, подтверждение нагрева для готового блюда, получение товара, при необходимости — выдача столовых приборов. [file:247]</div></div><div class="card reveal"><div style="font-size:30px;font-weight:800;margin-bottom:14px">Что управляет системой</div><div class="small">RFID/NFC, антенны на полках, весовые узлы, камеры, edge-controller, heating profile, digital passport товара, AI-модуль цены, cloud/mobile ecosystem. [file:247][file:246]</div></div></div><div class="single reveal" style="margin-top:34px;font-size:30px">Пример customer journey: покупатель берет <span class="a">один овощ</span>, <span class="a">бутылку молока</span> и запускает <span class="a">разогрев риса</span>; система сопровождает весь путь от входа до выдачи без классической кассы.</div></div></div>
+
+<div class="slide" data-slide="10"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Бизнес-модель</div><div class="grid2"><div class="card reveal"><div style="font-size:28px;font-weight:800;margin-bottom:12px">Продажа / лизинг оборудования</div><div class="small">Доход от поставки modular cabinets и конфигураций master/slave для корпоративных и retail-клиентов.</div></div><div class="card reveal"><div style="font-size:28px;font-weight:800;margin-bottom:12px">SaaS и управление сетью</div><div class="small">Подписка за cloud telemetry, удаленное управление ценами, мониторинг и fleet analytics. [file:247]</div></div><div class="card reveal"><div style="font-size:28px;font-weight:800;margin-bottom:12px">Revenue share</div><div class="small">Доля с продаж в managed-service модели, когда оператор получает систему «под ключ».</div></div><div class="card reveal"><div style="font-size:28px;font-weight:800;margin-bottom:12px">Расходники и сервис</div><div class="small">Обслуживание, расходные материалы, аксессуары, обновления модулей и техническая поддержка сети.</div></div></div></div></div>
+
+<div class="slide" data-slide="11"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Команда</div><div class="bullets reveal"><ul><li><span class="a">Основатель / изобретатель:</span> патентная архитектура, продуктовая концепция, IP-стратегия, сценарии коммерциализации.</li><li><span class="a">Технический контур:</span> мехатроника, контроллеры, сенсоры, heating modules, software integration.</li><li><span class="a">Операционный контур:</span> pilot deployment, sourcing оборудования, партнёры по food supply и сервису.</li><li><span class="a">Почему может получиться:</span> продукт строится не как один автомат, а как защищаемая технологическая платформа с модульной архитектурой и патентуемыми узлами. [file:247][file:246]</li></ul></div></div></div>
+
+<div class="slide" data-slide="12"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Стратегия</div><div class="timeline reveal"><div class="step"><div class="y">Этап 1</div><div class="t">Завершение IP-пакета, инженерной архитектуры и customer сценариев.</div></div><div class="step"><div class="y">Этап 2</div><div class="t">Пилотный образец и тестовые точки с 3 категориями товаров: produce, dairy, ready meal.</div></div><div class="step"><div class="y">Этап 3</div><div class="t">B2B-партнерства, стандартизация modular deployment, первые серийные установки.</div></div><div class="step"><div class="y">Этап 4</div><div class="t">Международное масштабирование, расширение AI pricing и удаленного fleet management.</div></div></div></div></div>
+
+<div class="slide" data-slide="13"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Трекшн</div><div class="bullets reveal"><ul><li>Сформирована <span class="a">полная патентная логика</span> по архитектуре системы, нагреву, выравниванию, AI pricing, упаковке и remote reservation. [file:247]</li><li>Подготовлены русскоязычные и англоязычные материалы по <span class="a">abstract, description и claims</span>. [file:247][file:246]</li><li>Собраны сценарии презентации продукта для магазина и инвестора.</li><li>Следующий ключевой milestone — <span class="a">pilot MVP</span> и переговоры с площадками размещения.</li></ul></div></div></div>
+
+<div class="slide" data-slide="14"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Финансовые показатели</div><div class="grid3 reveal"><div class="metric"><div class="n">CAPEX ↓</div><div class="l">Master/slave архитектура позволяет выносить дорогие ресурсы в главный модуль и снижать стоимость точки. [file:247]</div></div><div class="metric"><div class="n">Маржа ↑</div><div class="l">AI-ценообразование и управление сроками сокращают списания и повышают yield по SKU. [file:247]</div></div><div class="metric"><div class="n">OPEX ↓</div><div class="l">Меньше персонала, удаленный мониторинг, централизованное управление сетью. [file:247]</div></div></div><div class="single reveal" style="margin-top:36px;font-size:30px">На текущем этапе логично показывать инвестору <span class="a">юнит-экономику пилотной точки</span>, CAPEX одного шкафа / кластера, валовую маржу по категориям и модель масштабирования сети на 3–5 лет.</div></div></div>
+
+<div class="slide" data-slide="15"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Оффер</div><div class="bullets reveal"><ul><li><span class="a">Что ищем:</span> инвестиции и/или стратегического партнера для prototyping, pilot deployment и industrial design.</li><li><span class="a">На что пойдут средства:</span> инженерный прототип, hardware/software integration, испытания, подготовка к серийному производству, первые пилоты.</li><li><span class="a">Что предлагаем:</span> участие в компании / SPV, права на долю в коммерциализации технологии, опцион на follow-on раунд.</li><li><span class="a">Логика дохода инвестора:</span> рост стоимости IP-платформы, equipment sales, SaaS-выручка и масштабирование сети точек.</li></ul></div></div></div>
+
+<div class="slide" data-slide="16"><div class="lineTop"></div><div class="lineBot"></div><div class="brandM">M</div><div class="likebz">#likebz</div><div class="content"><div class="h reveal">Последний слайд</div><div class="single reveal" style="font-size:42px;max-width:1000px">Новый формат автономной розницы:<br><span class="a">fresh + dairy + ready-to-heat</span><br>в одной интеллектуальной системе.<br><br>Контакты и следующий шаг: обсуждение пилота, инвестиций и структуры сделки.</div></div></div>
+
+</div>
+<div class="nav-controls"><button class="nav-btn" onclick="changeSlide(-1)">‹</button><div class="slide-dots" id="dots"></div><button class="nav-btn" onclick="changeSlide(1)">›</button><span class="slide-counter" id="counter"></span></div>
+<script>
+let current=1;const total=document.querySelectorAll('.slide').length;const dots=document.getElementById('dots');const counter=document.getElementById('counter');for(let i=1;i<=total;i++){const d=document.createElement('div');d.className='dot'+(i===1?' active':'');d.onclick=()=>goToSlide(i);dots.appendChild(d)}function animateSlide(slide){slide.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transition='none';el.style.opacity='0';el.style.transform='translateY(18px)';el.offsetHeight;const delay=i*0.08;el.style.transition=`opacity .36s ease ${delay}s, transform .36s ease ${delay}s`;el.style.opacity='1';el.style.transform='translateY(0)'})}function updateNav(){document.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('active',i+1===current));counter.textContent=current+' / '+total}function goToSlide(n){document.querySelector('.slide.active')?.classList.remove('active');const next=document.querySelector(`.slide[data-slide="${n}"]`);if(next){next.classList.add('active');animateSlide(next);current=n;updateNav()}}function changeSlide(dir){let n=current+dir;if(n<1)n=total;if(n>total)n=1;goToSlide(n)}document.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key===' '){e.preventDefault();changeSlide(1)} if(e.key==='ArrowLeft'){e.preventDefault();changeSlide(-1)}});let touchStartX=0;document.addEventListener('touchstart',e=>touchStartX=e.touches[0].clientX);document.addEventListener('touchend',e=>{const diff=touchStartX-e.changedTouches[0].clientX;if(Math.abs(diff)>50)changeSlide(diff>0?1:-1)});animateSlide(document.querySelector('.slide.active'));updateNav();
+</script>
+</body>
+</html>

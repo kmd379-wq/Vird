@@ -1,0 +1,3052 @@
+Delivered-To: kmd379@gmail.com
+Received: by 2002:a05:7508:1209:b0:108:bd20:e628 with SMTP id cs9csp557230gbb;
+        Tue, 3 Nov 2026 03:15:14 -0800 (PST)
+X-Received: by 2002:a05:622a:1214:b0:537:8412:e659 with SMTP id d75a77b69052e-542b7047750mr210791521cf.34.1793704513707;
+        Tue, 03 Nov 2026 03:15:13 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1793704513; cv=none;
+        d=google.com; s=arc-20260327;
+        b=GnEJIReHxlXNqAViy6U6B7O2D+rjb1vZH0BagWXRSCepdwBCQoMwgYhoBO2MeJSKya
+         NwGkpoJ2Bl7yQtrSuJ0IYCho915WAS8WgkjmpLdhI808xbt5MIdLxw7Q7OTA+WYm/Lh4
+         eO/IptwgpBZX5lKZcY/Xvnk9tTaRzifQUlbLymtS0Zdeoo8thSNGgNhO3lApXNGVIzrz
+         mX0QjOuTRfeU7DOLqvCed8W1oY1giTrau0WqvsgLMPlqXwkkzPOrLE9MfgMyDKQ/0JGX
+         4ftlqpswhCsfkgZBhZyuv74hCCBYVBjiadbueQlna67tZwJ8AeXkKY/VwCYZ6MmYx4al
+         uceA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :in-reply-to:references:to:from:dkim-signature:dkim-signature;
+        bh=oVNaPH+SjKl6exVhkEU/8a8479g+knsoujfF5+KIYWA=;
+        fh=CcEKMIeNX3e27vZYQDAOcjjKHOtsmbgv3NwUHo/54NU=;
+        b=LbTZvDQXy9EfkVWJ5s/5Seq8wPzanxNmIAICiweRREo8iABD0JiE3TAivHjupeTiyF
+         ZnlVS+MRiIza7q1DXdhXe9x02ihNPuuYtorqlxhw3Xhj48Gg6cFPrFnI88t57MXFB7ca
+         qdQAL987XIfJkdNmh7U2IMyIKHDzTX19O6+F5sYGy4rrXpkjbqTox/tFtNWvLrMmw+s/
+         3vRuCdVvENDVBP0SCcSukOnioSQNAmZF5Vrq0Va5suEqT2WGRn/mAhj8o2Tq66oIySUH
+         SWWT7PgdIPgU9aZ0QeMlxObLp6NjTjYSd28UjZRyRNkXVK4NtTPOKyEhgjnqrgCCa1UJ
+         ShkA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@g001.emailsrvr.com header.s=feedback header.b=Tq0FpkHa;
+       dkim=pass header.i=@unitedtm.com header.s=20260204-ze2y3w7s header.b=i0PkWVN+;
+       spf=pass (google.com: domain of patents@unitedtm.com designates 173.203.187.102 as permitted sender) smtp.mailfrom=patents@unitedtm.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=unitedtm.com
+Return-Path: <patents@unitedtm.com>
+Received: from smtp102.iad3a.emailsrvr.com (smtp102.iad3a.emailsrvr.com. [173.203.187.102])
+        by mx.google.com with ESMTPS id d75a77b69052e-5498d13ae1bsi22470461cf.219.2026.11.03.03.15.13
+        for <kmd379@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 03 Nov 2026 03:15:13 -0800 (PST)
+Received-SPF: pass (google.com: domain of patents@unitedtm.com designates 173.203.187.102 as permitted sender) client-ip=173.203.187.102;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@g001.emailsrvr.com header.s=feedback header.b=Tq0FpkHa;
+       dkim=pass header.i=@unitedtm.com header.s=20260204-ze2y3w7s header.b=i0PkWVN+;
+       spf=pass (google.com: domain of patents@unitedtm.com designates 173.203.187.102 as permitted sender) smtp.mailfrom=patents@unitedtm.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=unitedtm.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=g001.emailsrvr.com;
+	s=feedback; t=1793704513;
+	bh=paZmYTpMyClmish8vtCPXPNKIerBnl1LwLh7RmyKe18=;
+	h=From:To:Subject:Date:From;
+	b=Tq0FpkHaHtzS3a18F7hQkIFu1SraEYULmv8e+26ztDT+6Uni9w2gT4vYVwK8FiEhQ
+	 a7Dr5VaIbvZmF+Le6m8TdOG3sgXLrLC6FlxfjyfhQokmipa97cpwoCoKatDJYv3ZKv
+	 fsEgpFu8rJy3hrYJCis4ItCnwSz3wb+ECpzHG3xo=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=unitedtm.com;
+	s=20260204-ze2y3w7s; t=1793704513;
+	bh=paZmYTpMyClmish8vtCPXPNKIerBnl1LwLh7RmyKe18=;
+	h=From:To:Subject:Date:From;
+	b=i0PkWVN+GeTDWPpUtmIH7HMcd3LmuLnf3vkRHK4WrxYsJYaDxp/eG76hw4CgX2CRm
+	 1RDJEnve2juzFDOHQtbJCSpzJdVU/Y8BCNCZkzXBdrycmMl0d97fIxWUw4W7Z/Jnkf
+	 TLkHX7HeOZyhS20Me1hKvLVMMxuVd4VbX8Zku8AU=
+X-Auth-ID: patents@unitedtm.com
+Received: by smtp37.relay.iad3a.emailsrvr.com (Authenticated sender: patents-AT-unitedtm.com) with ESMTPSA id C234E5D68;
+	Tue,  3 Nov 2026 06:15:09 -0500 (EST)
+From: <patents@unitedtm.com>
+To: =?utf-8?B?J9Cc0LjRhdCw0LjQuyDQmtC+0LfQuNC9Jw==?= <kmd379@gmail.com>
+References: <CAFUR33PW=d1CCj_cwG=Y+kTgvgXyE4jugs+-pS9QvuQO6-gxfQ@mail.gmail.com> <015601dd66a3$68ad8e90$3a08abb0$@unitedtm.com> <038b01dd684f$9f99ba20$decd2e60$@unitedtm.com> <CAFUR33PGaHtObgOcF=OA+HBkTKoVUvsLA7KTCWtY+yV378pLEg@mail.gmail.com> <059d01dd687c$bf2a3270$3d7e9750$@unitedtm.com> <26d701dd6a9b$f7d21b80$e7765280$@unitedtm.com> <CAFUR33PLP02KaCNZkTUSz4XRuuYWjNEXHHVVMkHXkfsZdpMcPQ@mail.gmail.com> <070201dd6ad8$5fe92ce0$1fbb86a0$@unitedtm.com>
+In-Reply-To: <070201dd6ad8$5fe92ce0$1fbb86a0$@unitedtm.com>
+Subject: =?utf-8?Q?=5BQUERY=5D_PBK_=E2=80=93_company_documents=2C?=
+	=?utf-8?Q?_two_PCT_applications_and_NDA?=
+Date: Tue, 3 Nov 2026 15:15:07 +0400
+Message-ID: <32b501dd6b84$97379400$c5a6bc00$@unitedtm.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_32B6_01DD6BA6.1E4BA500"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: Ad1rhFuz/yK+93BpSFqjwzv+0tYcYA==
+Content-Language: en-us
+X-Classification-ID: b120a6c4-6fb5-4e61-88e3-80e82b51fb5e-1-1
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_32B6_01DD6BA6.1E4BA500
+Content-Type: multipart/related;
+	boundary="----=_NextPart_001_32B7_01DD6BA6.1E4BA500"
+
+
+------=_NextPart_001_32B7_01DD6BA6.1E4BA500
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_002_32B8_01DD6BA6.1E4BA500"
+
+
+------=_NextPart_002_32B8_01DD6BA6.1E4BA500
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+=20
+
+United Trademark & Patent Services
+
+Registrations and Enforcement of Intellectual Property Rights
+
+In the Middle East, South Asia, and Africa
+
+Established in 1949
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+Dear Mikhail =E2=80=93 Thank you for your email communication.=20
+
+=20
+
+As requested, please find attached the filled in NDA for your review and =
+further execution.=20
+
+=20
+
+The professional rates provided in our earlier email is per application. =
+Official fees can only be determined, once we have further information =
+on the technology and when the draft specification is finalized.=20
+
+=20
+
+As mentioned earlier, we will require at least 10 =E2=80=93 15 working =
+days to complete the first patent draft of the specification. Therefore, =
+you can calculate the disclosure of the relevant information, =
+accordingly.=20
+
+=20
+
+We will not be able to undertake the work unless the invoice is settled =
+for the professional hours, we spent on drafting the specification. =
+Therefore, please make sure you provide us with the details of the =
+invoice recipient so that the invoice can be generated accordingly.=20
+
+=20
+
+Ideally, please provide us with the complete disclosure of the invention =
+by November 5th 2026 and the settlement of the invoices, so that the =
+service can be initiated immediately to meet the November 28th 2026.
+
+=20
+
+Should you need any further information or clarification, please let us =
+know.=20
+
+=20
+
+Best regards,=20
+
+=20
+
+
+NEVIN JACOB KOSHY
+
+PARTNER
+
+Head of Department =E2=80=93 Patent | Design
+
+Member of Chartered Institute of Patent Attorneys, U.K
+
+=20
+
+
+Office: +971 4 343 7544 | Email:  <mailto:patents@unitedtm.com> =
+patents@unitedtm.com
+
+Address: Suite 401-402, Al Hawai Tower, Sheikh Zayed Road, P.O. Box =
+72430, Dubai, UAE
+
+Stay Connected:  <http://www.utmps.com/> Website |  =
+<https://www.linkedin.com/company/utmps/> LinkedIn |  =
+<https://bit.ly/signup-utmps> Newsletter
+
+=20
+
+
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+
+United Trademark & Patent Services (UTMPS) is a specialized law firm in =
+Intellectual Property, founded in 1949 to meet our clients' IP law =
+needs. With over 70 years of experience, our team includes expert =
+attorneys and technical analysts focused on IP rights and related =
+matters. Our commitment to excellence has positioned us as a leader in =
+the field, proudly serving more than 100 Fortune 500 companies.
+
+
+=20
+
+UTMPS Branch and Representative Offices:
+
+South Asia: Afghanistan | Bangladesh | Bhutan | India | Nepal | Pakistan =
+| Sri Lanka
+
+Middle East: Bahrain | Iraq | Jordan | Kuwait | Lebanon | Oman | Qatar | =
+Saudi Arabia | Turkey | United Arab Emirates | Yemen
+
+Africa: Algeria | Djibouti | Egypt | Ethiopia | Kenya | Libya | Morocco =
+| Nigeria | Sudan | Tanzania (Tanganyika/Zanzibar) | Tunisia | Uganda
+
+
+=20
+
+
+We aim to acknowledge all emails within one working day. If you =
+don=E2=80=99t receive a response, please resend your message, as some =
+may not be delivered. Thank you for your understanding.
+
+
+=20
+
+
+Confidentiality and Legal Privilege Notice
+
+This email contains confidential information that may be protected by =
+legal privilege. If you are not the intended recipient, please refrain =
+from copying or disclosing its contents and contact the sender =
+immediately. Additionally, please notify us at  =
+<mailto:patents@unitedtm.com> patents@unitedtm.com or +971-4-3437 544, =
+and delete this message. Unauthorized use of this email is strictly =
+prohibited./NK
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+
+=20
+
+=20
+
+=20
+
+
+
+=20
+
+=20
+
+*	Egypt: Egypt has integrated virtual hearings into the appeal process =
+for industrial designs. | Effective October 14, 2025, EGIPA has issued a =
+sweeping update to its existing official fees and has introduced new =
+payable services covering various administrative procedures applicable =
+to patents & plant varieties. | Dated 18 June 2025, the official =
+examination fee for patent applications in Egypt has been increased to =
+EGP 50,000, in accordance with the provisions of the Egyptian Patent Law =
+No. 82 of 2002. Also, the deadline to pay examination fees has been =
+officially revised to 3 months from the official notification date, =
+instead of the previous 6-month period from the filing date. An =
+extension can be availed by paying an additional fee of EGP 25,000.
+*	UAE: Effective October 6, 2026, the UAE has officially joined the =
+Locarno Agreement for industrial designs, as announced by WIPO. | USPTO =
+and UAE have signed a joint agreement to expedite patent granting =
+process. The UAE will now accept positive patent examination results =
+from the USPTO, which will significantly speed up the patent-granting =
+process in the UAE. | A Cabinet Decision has been issued in March 2025 =
+detailing the establishment and operational framework for the Industrial =
+Property Grievances Committee.=20
+*	Zanzibar: On 18 July 2025, the Zanzibar IP Office announced the =
+implementation of increased official fees, set to take effect from 11 =
+August 2025. These revised fees will apply retrospectively to both new =
+and pending applications, where official fees remain outstanding on or =
+after this date.=20
+*	Bahrain: Bahrain and Japan Sign MoU to Launch PPH Program, set to =
+launch on January 1, 2026. | Bahrain PTO launched PPH Pilot Programs =
+with South Korea (effective January 15, 2025, for three years) and the =
+European Patent Office (commenced March 1, 2025, for an initial two =
+years). | Bahrain Patent Office recently signed a Memorandum of =
+Understanding (MOU) with the USPTO to implement the Patent Prosecution =
+Highway (PPH) system. Bahrain has signed a Patent Prosecution Highway =
+(PPH) Agreement with China. PPH pilot program officially started on May =
+1, 2024, and will run for five years until April 30, 2029.=20
+*	Myanmar: Myanmar=E2=80=99s Patent Law 2019 came into effect on 31 May =
+2024. However, it is important to note that patent applications cannot =
+yet be filed, as the issuance of patent forms and fees remains pending.
+*	Qatar: MOCI announced that it has started accepting applications for =
+industrial designs and models as of 26 October 2025. | Qatar PTO has =
+issued a significant clarification regarding the payment of annuity =
+fees. The Office has resumed accepting annuity payments on all patent =
+applications, irrespective of their acceptance or grant status. This =
+change overrules the previous policy that deferred fees beyond the third =
+year for pending applications.
+*	ARIPO: China National Intellectual Property Administration (CNIPA) has =
+recently introduced the China-Africa Patent Prosecution Highway (PPH) in =
+collaboration with the African Regional Intellectual Property =
+Organization (ARIPO).=20
+*	Algeria: Algeria now accepts the Apostille Convention for foreign =
+public documents, replacing conventional legalization with a single =
+originating apostille. | Algeria has introduced 19% VAT on Official Fees =
+associated with Intellectual Property Services.
+*	GCC: The GCC has introduced the Patent Prosecution Highway (GCC-PPH), =
+enabling inventors to request expedited patent examination across all =
+member states by leveraging a substantive examination report issued =
+either by the GCC Patent Office or participating member states.
+*	Saudi Arabia: Saudi Arabia recently joined the Hague Agreement for =
+International Design Registration | In accordance with the amended =
+Patent and Industrial Design Law, validity of industrial designs has =
+been extended from ten (10) to fifteen (15) years for all designs =
+submitted in 2013 and onwards. | Saudi Authority for Intellectual =
+Property (SAIP) has signed a Patent Prosecution Highway (PPH) Agreement =
+with Intellectual Property Office of Singapore (IPOS). This PPH Pilot =
+Program commenced on 12 September 2023 for a period of 2 years and will =
+end on 11 September 2025.
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+From: UTPS || PATENTS* <patents@unitedtm.com>=20
+Sent: Monday, 2 November, 2026 6:42 PM
+To: '=D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =
+=D0=9A=D0=BE=D0=B7=D0=B8=D0=BD' <kmd379@gmail.com>
+Subject: RE: PBK =E2=80=93 company documents, two PCT applications and =
+NDA
+
+=20
+
+Acknowledged with thanks=20
+
+=20
+
+We confirm that the matter is receiving our diligent attention. We have =
+duly noted your comments/instructions. We will revert to you with our =
+further response in due course.=20
+
+=20
+
+In the meantime, should you require any further information or =
+clarification, kindly let us know.
+
+=20
+
+From: =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =
+=D0=9A=D0=BE=D0=B7=D0=B8=D0=BD <kmd379@gmail.com =
+<mailto:kmd379@gmail.com> >=20
+Sent: 02 November 2026 01:39 PM
+To: patents@unitedtm.com <mailto:patents@unitedtm.com>=20
+Subject: Re: PBK =E2=80=93 company documents, two PCT applications and =
+NDA
+
+=20
+
+Dear Mr. Koshy,
+
+Thank you for your proposal. Please complete the NDA with your =
+organisation=E2=80=99s full legal name and identify PBK ENGINEERING =
+INTELLECTUAL PROPERTY RIGHTS MANAGEMENT =E2=80=93 FZCO and me, Mikhail =
+Kozin, as the disclosing parties, with coverage extending to materials =
+already provided.
+
+Please clarify whether the USD 950 and USD 2,545 fees apply to one =
+application or both applications, what exactly is included in the =
+preparation work, and which official fees and expenses are payable =
+separately.
+
+We require two PCT applications in PBK=E2=80=99s name: the application =
+based on PPAs Nos. 1, 2, 8 and 9 by November 28, 2026, and the =
+application based on PPAs Nos. 3=E2=80=937 by December 3, 2026. Once the =
+NDA is signed, we will provide the complete technical package and the =
+materials prepared by Ali.
+
+Please identify the authorised representative and confirm how soon after =
+receiving the materials you will provide the final total cost, the =
+engagement agreement and the work schedule for the complete turnkey =
+service.
+
+Kind regards,
+Mikhail Kozin
+
+=20
+
+On Mon, 02 Nov 2026 11:29:57 +0400, patents@unitedtm.com =
+<mailto:patents@unitedtm.com>  wrote:
+
+United Trademark & Patent Services Registrations and Enforcement of =
+Intellectual Property Rights In the Middle East, South Asia, and Africa =
+Established in 1949 Dear Mikhail =E2=80=93 Thank you for your email =
+communication and for sharing the information. At the onset, please note =
+that we will be able to execute the attached general NDA as the document =
+provided from your end has clauses which needs review and approval from =
+the management. In the interest of time, the attached general NDA can be =
+executed. As we have not yet received the complete invention details, we =
+can presently confirm only that we can handle the PCT filing, provided =
+we receive your instructions and the complete, filing-ready =
+specification at least four working days before the applicable deadline. =
+Our ability to undertake the drafting within the available time will =
+depend on our review of the scope of the disclosure and the technical =
+materials you provide. The associated costs are as follows: * Initial =
+discussion and providing the strategy to protect your invention: USD =
+950/- [Up to 3 hours] * Towards preparing and filing the patent =
+application before the WIPO: USD 2545 Applicable VAT will be added. =
+Should you need any further information or clarification, please let us =
+know. Best regards, NEVIN JACOB KOSHY PARTNER Head of Department =
+=E2=80=93 Patent | Design Member of Chartered Institute of Patent =
+Attorneys, U.K Office: +971 4 343 7544 | Email: =
+<mailto:patents@unitedtm.com <mailto:patents@unitedtm.com> > =
+patents@unitedtm.com <mailto:patents@unitedtm.com>  Address: Suite =
+401-402, Al Hawai Tower, Sheikh Zayed Road, P.O. Box 72430, Dubai, UAE =
+Stay Connected: <http://www.utmps.com/> Website | =
+<https://www.linkedin.com/company/utmps/> LinkedIn | =
+<https://bit.ly/signup-utmps> Newsletter United Trademark & Patent =
+Services (UTMPS) is a specialized law firm in Intellectual Property, =
+founded in 1949 to meet our clients' IP law needs. With over 70 years of =
+experience, our team includes expert attorneys and technical analysts =
+focused on IP rights and related matters. Our commitment to excellence =
+has positioned us as a leader in the field, proudly serving more than =
+100 Fortune 500 companies. UTMPS Branch and Representative Offices: =
+South Asia: Afghanistan | Bangladesh | Bhutan | India | Nepal | Pakistan =
+| Sri Lanka Middle East: Bahrain | Iraq | Jordan | Kuwait | Lebanon | =
+Oman | Qatar | Saudi Arabia | Turkey | United Arab Emirates | Yemen =
+Africa: Algeria | Djibouti | Egypt | Ethiopia | Kenya | Libya | Morocco =
+| Nigeria | Sudan | Tanzania (Tanganyika/Zanzibar) | Tunisia | Uganda We =
+aim to acknowledge all emails within one working day. If you =
+don=E2=80=99t receive a response, please resend your message, as some =
+may not be delivered. Thank you for your understanding. Confidentiality =
+and Legal Privilege Notice This email contains confidential information =
+that may be protected by legal privilege. If you are not the intended =
+recipient, please refrain from copying or disclosing its contents and =
+contact the sender immediately. Additionally, please notify us at =
+<mailto:patents@unitedtm.com <mailto:patents@unitedtm.com> > =
+patents@unitedtm.com <mailto:patents@unitedtm.com>  or +971-4-3437 544, =
+and delete this message. Unauthorized use of this email is strictly =
+prohibited./NK * Egypt: Egypt has integrated virtual hearings into the =
+appeal process for industrial designs. | Effective October 14, 2025, =
+EGIPA has issued a sweeping update to its existing official fees and has =
+introduced new payable services covering various administrative =
+procedures applicable to patents & plant varieties. | Dated 18 June =
+2025, the official examination fee for patent applications in Egypt has =
+been increased to EGP 50,000, in accordance with the provisions of the =
+Egyptian Patent Law No. 82 of 2002. Also, the deadline to pay =
+examination fees has been officially revised to 3 months from the =
+official notification date, instead of the previous 6-month period from =
+the filing date. An extension can be availed by paying an additional fee =
+of EGP 25,000. * UAE: Effective October 6, 2026, the UAE has officially =
+joined the Locarno Agreement for industrial designs, as announced by =
+WIPO. | USPTO and UAE have signed a joint agreement to expedite patent =
+granting process. The UAE will now accept positive patent examination =
+results from the USPTO, which will significantly speed up the =
+patent-granting process in the UAE. | A Cabinet Decision has been issued =
+in March 2025 detailing the establishment and operational framework for =
+the Industrial Property Grievances Committee. * Zanzibar: On 18 July =
+2025, the Zanzibar IP Office announced the implementation of increased =
+official fees, set to take effect from 11 August 2025. These revised =
+fees will apply retrospectively to both new and pending applications, =
+where official fees remain outstanding on or after this date. * Bahrain: =
+Bahrain and Japan Sign MoU to Launch PPH Program, set to launch on =
+January 1, 2026. | Bahrain PTO launched PPH Pilot Programs with South =
+Korea (effective January 15, 2025, for three years) and the European =
+Patent Office (commenced March 1, 2025, for an initial two years). | =
+Bahrain Patent Office recently signed a Memorandum of Understanding =
+(MOU) with the USPTO to implement the Patent Prosecution Highway (PPH) =
+system. Bahrain has signed a Patent Prosecution Highway (PPH) Agreement =
+with China. PPH pilot program officially started on May 1, 2024, and =
+will run for five years until April 30, 2029. * Myanmar: =
+Myanmar=E2=80=99s Patent Law 2019 came into effect on 31 May 2024. =
+However, it is important to note that patent applications cannot yet be =
+filed, as the issuance of patent forms and fees remains pending. * =
+Qatar: MOCI announced that it has started accepting applications for =
+industrial designs and models as of 26 October 2025. | Qatar PTO has =
+issued a significant clarification regarding the payment of annuity =
+fees. The Office has resumed accepting annuity payments on all patent =
+applications, irrespective of their acceptance or grant status. This =
+change overrules the previous policy that deferred fees beyond the third =
+year for pending applications. * ARIPO: China National Intellectual =
+Property Administration (CNIPA) has recently introduced the China-Africa =
+Patent Prosecution Highway (PPH) in collaboration with the African =
+Regional Intellectual Property Organization (ARIPO). * Algeria: Algeria =
+now accepts the Apostille Convention for foreign public documents, =
+replacing conventional legalization with a single originating apostille. =
+| Algeria has introduced 19% VAT on Official Fees associated with =
+Intellectual Property Services. * GCC: The GCC has introduced the Patent =
+Prosecution Highway (GCC-PPH), enabling inventors to request expedited =
+patent examination across all member states by leveraging a substantive =
+examination report issued either by the GCC Patent Office or =
+participating member states. * Saudi Arabia: Saudi Arabia recently =
+joined the Hague Agreement for International Design Registration | In =
+accordance with the amended Patent and Industrial Design Law, validity =
+of industrial designs has been extended from ten (10) to fifteen (15) =
+years for all designs submitted in 2013 and onwards. | Saudi Authority =
+for Intellectual Property (SAIP) has signed a Patent Prosecution Highway =
+(PPH) Agreement with Intellectual Property Office of Singapore (IPOS). =
+This PPH Pilot Program commenced on 12 September 2023 for a period of 2 =
+years and will end on 11 September 2025. From: UTPS || PATENTS* =
+<patents@unitedtm.com <mailto:patents@unitedtm.com> > Sent: Friday, 30 =
+October, 2026 6:41 PM To: '=D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =
+=D0=9A=D0=BE=D0=B7=D0=B8=D0=BD' <kmd379@gmail.com =
+<mailto:kmd379@gmail.com> > Subject: RE: PBK =E2=80=93 company =
+documents, two PCT applications and NDA Acknowledged with thanks We =
+confirm that the matter is receiving our diligent attention. We have =
+duly noted your comments/instructions. We will revert to you with our =
+further response in due course. In the meantime, should you require any =
+further information or clarification, kindly let us know. Note: Since it =
+is the weekend here, our offices are closed. Please excuse us if our =
+response is delayed. From: =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =
+=D0=9A=D0=BE=D0=B7=D0=B8=D0=BD <kmd379@gmail.com =
+<mailto:kmd379@gmail.com>  <mailto:kmd379@gmail.com =
+<mailto:kmd379@gmail.com> > > Sent: 30 October 2026 03:22 PM To: =
+patents@unitedtm.com <mailto:patents@unitedtm.com>  =
+<mailto:patents@unitedtm.com <mailto:patents@unitedtm.com> > Subject: =
+Re: PBK =E2=80=93 company documents, two PCT applications and NDA Dear =
+UTMPS Patent Team, Thank you for your reply. We will arrange =
+Russian-language assistance ourselves; you may correspond with us and =
+prepare the application documents in English. The intended applicant is =
+PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO, Dubai, =
+UAE, trade licence No. 38769. Its registered office is IFZA Business =
+Park, DDP, PO Box 342001, Dubai, UAE. I am Mikhail Dmitrievich Kozin =
+(Mikhail Kozin in the patent records), PBK's sole shareholder and =
+General Manager, and the sole inventor of the ten US provisional =
+applications listed below. I am a Russian citizen, have held permanent =
+residence in Spain for more than 25 years and have held an Emirates ID =
+for more than three years. My principal residence is in Sharjah, UAE. I =
+confirm that I have been a UAE tax resident for more than three years. =
+Attached are PBK's current 51-page Memorandum and Articles of =
+Association, trade licence and my Emirates ID copy. Our immediate =
+request is the preparation and filing of two international PCT =
+applications from PBK, claiming the relevant US provisional priorities: =
+1. Modular Cabinet Platform (PPAs 3=E2=80=937): modular retail cabinets, =
+reconfigurable chassis and bays, self-leveling, sensor-based retrieval, =
+tokenized/biometric access and thermal/fluid-processing modules. =
+Requested filing date: 3 December 2026. 2. AI Pricing & Retail =
+Intelligence Platform (PPAs 1, 2, 8 and 9): freshness- and quality-based =
+dynamic pricing, biometric access control, produce quality monitoring, =
+verified feedback and supplier governance. Requested filing date: 28 =
+November 2026, or an earlier working day if needed. PPA 10 is not =
+included in the initial two-PCT order. The application list below gives =
+the recorded US filing dates and their twelve-month anniversary control =
+dates. Please verify the applicable deadlines and priority entitlement =
+from the official records before filing. PPA 1 =E2=80=94 US 63/938,244 =
+=E2=80=94 Autonomous Retail Ecosystem with AI-Driven Dynamic Pricing and =
+Biometric Access Control for Restricted Goods Filed: 2025-12-11; =
+12-month control date: 2026-12-11. PPA 2 =E2=80=94 US 63/945,513 =
+=E2=80=94 System for Bio-Metric Inventory Management and Dynamic =
+Freshness Pricing Filed: 2025-12-19; 12-month control date: 2026-12-19. =
+PPA 3 =E2=80=94 US 63/947,909 =E2=80=94 Modular Smart Vending Cabinet =
+with Smart-Glass Inspection Mode, Sensor-Fusion Manual Retrieval, and =
+Quality-Based Dynamic Pricing Filed: 2025-12-23; 12-month control date: =
+2026-12-23. PPA 4 =E2=80=94 US 63/955,179 =E2=80=94 SMART RETAIL CABINET =
+WITH TOKENIZED ACCESS AND SPLIT PAYMENTS Filed: 2026-01-06; 12-month =
+control date: 2027-01-06. PPA 5 =E2=80=94 US 63/959,439 =E2=80=94 SMART =
+RETAIL CABINET WITH TOKENIZED ACCESS AND SPLIT PAYMENTS Filed: =
+2026-01-13; 12-month control date: 2027-01-13. PPA 6 =E2=80=94 US =
+63/961,839 =E2=80=94 MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, =
+AI- DRIVEN PRICING, AND INTEGRATED CONSUMABLES MANAGEMENT Filed: =
+2026-01-16; 12-month control date: 2027-01-16. PPA 7 =E2=80=94 US =
+63/975,643 =E2=80=94 MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, =
+AI- DRIVEN PRICING, AND INTEGRATED CONSUMABLES MANAGEMENT Filed: =
+2026-02-04; 12-month control date: 2027-02-04. PPA 8 =E2=80=94 US =
+64/090,283 =E2=80=94 INTELLIGENT BULK PRODUCE QUALITY CONTROL AND =
+DYNAMIC PRICING SYSTEM Filed: 2026-06-14; 12-month control date: =
+2027-06-14. PPA 9 =E2=80=94 US 64/106,825 =E2=80=94 AUTONOMOUS RETAIL =
+PLATFORM WITH VERIFIED FEEDBACK CONTROL Filed: 2026-07-07; 12-month =
+control date: 2027-07-07. PPA 10 =E2=80=94 US 64/125,577 =E2=80=94 =
+THROUGH-TRACKING TARE CONTROL SYSTEM Filed: 2026-08-04; 12-month control =
+date: 2027-08-04. The most urgent control date is 11 December 2026 for =
+Group 2; Group 1's earliest control date is 23 December 2026. For Group =
+1, Ali prepared an unfinished English nonprovisional draft and a =
+22-sheet drawing set. We also have the filed provisional materials, =
+filing records and supplemental explanations. We will provide the =
+detailed technical package after discussing and signing an NDA covering =
+both PBK and me. We sent our proposed NDA on 28 October; please return =
+your proposed version for signature. Following the PCT filings, we =
+intend to discuss further patent protection and registration in the UAE =
+with your firm, including the appropriate national-stage work. Those =
+later stages will be agreed separately. Please identify the authorized =
+representative, and provide your proposed NDA and an initial =
+fee/schedule proposal. Please identify professional fees, official fees =
+and other expenses separately. If a final fixed quotation requires the =
+detailed technical package, please state when you can provide it after =
+receipt under the NDA. Kind regards, Mikhail Kozin General Manager PBK =
+ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO On Fri, 30 =
+Oct 2026 13:18:27 +0400, patents@unitedtm.com =
+<mailto:patents@unitedtm.com>  <mailto:patents@unitedtm.com =
+<mailto:patents@unitedtm.com> > wrote: Dear Mikhail, thank you for your =
+email and for considering our professional services in the region. As we =
+understand from your requests, you need a professional firm to represent =
+you before the WIPO [PCT application] and before the UAE Patent Office. =
+We have noted the proposed filing dates of November 28, 2026, and =
+December 3, 2026, together with the respective priority deadlines. We =
+would be pleased to review the proposed scope and assess how best to =
+assist, including coordination with appropriate drafting specialists =
+where required. As a first step, we would appreciate company =
+registration details and the names of all relevant parties associated =
+with this project to enable us to complete our conflict checks. =
+Following clearance, we can arrange for the confidential exchange of =
+documents and confirm the appropriate filing route, scope of services, =
+professional fees and timelines. We have also noted your requirements =
+concerning Russian-language communication, filing formalities and =
+post-filing support. We regret that we are currently unable to provide =
+Russian-language communication support. Should you need any further =
+information or clarification, please let us know. Looking forward to =
+hearing from you. Best regards, <mailto:patents@unitedtm.com =
+<mailto:patents@unitedtm.com>  <mailto:patents@unitedtm.com =
+<mailto:patents@unitedtm.com> > > patents@unitedtm.com =
+<mailto:patents@unitedtm.com>  <mailto:patents@unitedtm.com =
+<mailto:patents@unitedtm.com> > <http://www.utmps.com/> www.utmps.com =
+<http://www.utmps.com>  <http://www.utmps.com> +971-4-3437 544 =
+<https://www.linkedin.com/company/united-trademark- =
+<https://www.linkedin.com/company/united-trademark- =
+<https://www.linkedin.com/company/united-trademark-&-patent-services/> =
+&-patent-services/> &-patent-services/> United Trademark & Patent =
+Services Suite 401-402, Al Hawai Tower, Sheikh Zayed Road, P.O. Box =
+72430, Dubai, UAE United Trademark & Patent Services (UTMPS) is a =
+specialized law firm in Intellectual Property, founded in 1949 to meet =
+our clients' IP law needs. With over 70 years of experience, our team =
+includes expert attorneys and technical analysts focused on IP rights =
+and related matters. Our commitment to excellence has positioned us as a =
+leader in the field, proudly serving more than 100 Fortune 500 =
+companies. UTMPS Branch and Representative Offices: South Asia: =
+Afghanistan | Bangladesh | Bhutan | India | Nepal | Pakistan | Sri Lanka =
+Middle East: Bahrain | Iraq | Jordan | Kuwait | Lebanon | Oman | Qatar | =
+Saudi Arabia | Turkey | United Arab Emirates | Yemen Africa: Algeria | =
+Djibouti | Egypt | Ethiopia | Kenya | Libya | Morocco | Nigeria | Sudan =
+| Tanzania (Tanganyika/Zanzibar) | Tunisia | Uganda We aim to =
+acknowledge all emails within one working day. If you don=E2=80=99t =
+receive a response, please resend your message, as some may not be =
+delivered. Thank you for your understanding. Confidentiality and Legal =
+Privilege Notice This email contains confidential information that may =
+be protected by legal privilege. If you are not the intended recipient, =
+please refrain from copying or disclosing its contents and contact the =
+sender immediately. Additionally, please notify us at =
+<mailto:patents@unitedtm.com <mailto:patents@unitedtm.com>  =
+<mailto:patents@unitedtm.com <mailto:patents@unitedtm.com> > > =
+patents@unitedtm.com <mailto:patents@unitedtm.com>  =
+<mailto:patents@unitedtm.com <mailto:patents@unitedtm.com> > or =
++971-4-3437 544, and delete this message. Unauthorized use of this email =
+is strictly prohibited./AM * Egypt: Effective October 14, 2025, EGIPA =
+has issued a sweeping update to its existing official fees and has =
+introduced new payable services covering various administrative =
+procedures applicable to patents & plant varieties. | Dated 18 June =
+2025, the official examination fee for patent applications in Egypt has =
+been increased to EGP 50,000, in accordance with the provisions of the =
+Egyptian Patent Law No. 82 of 2002. Also, the deadline to pay =
+examination fees has been officially revised to 3 months from the =
+official notification date, instead of the previous 6-month period from =
+the filing date. An extension can be availed by paying an additional fee =
+of EGP 25,000. * UAE: USPTO and UAE have signed a joint agreement to =
+expedite patent granting process. The UAE will now accept positive =
+patent examination results from the USPTO, which will significantly =
+speed up the patent-granting process in the UAE. | A Cabinet Decision =
+has been issued in March 2025 detailing the establishment and =
+operational framework for the Industrial Property Grievances Committee. =
+* Zanzibar: On 18 July 2025, the Zanzibar IP Office announced the =
+implementation of increased official fees, set to take effect from 11 =
+August 2025. These revised fees will apply retrospectively to both new =
+and pending applications, where official fees remain outstanding on or =
+after this date. * Bahrain: Bahrain and Japan Sign MoU to Launch PPH =
+Program, set to launch on January 1, 2026. | Bahrain PTO launched PPH =
+Pilot Programs with South Korea (effective January 15, 2025, for three =
+years) and the European Patent Office (commenced March 1, 2025, for an =
+initial two years). | Bahrain Patent Office recently signed a Memorandum =
+of Understanding (MOU) with the USPTO to implement the Patent =
+Prosecution Highway (PPH) system. Bahrain has signed a Patent =
+Prosecution Highway (PPH) Agreement with China. PPH pilot program =
+officially started on May 1, 2024, and will run for five years until =
+April 30, 2029. * Myanmar: Myanmar=E2=80=99s Patent Law 2019 came into =
+effect on 31 May 2024. However, it is important to note that patent =
+applications cannot yet be filed, as the issuance of patent forms and =
+fees remains pending. * Qatar: MOCI announced that it has started =
+accepting applications for industrial designs and models as of 26 =
+October 2025. | Qatar PTO has issued a significant clarification =
+regarding the payment of annuity fees. The Office has resumed accepting =
+annuity payments on all patent applications, irrespective of their =
+acceptance or grant status. This change overrules the previous policy =
+that deferred fees beyond the third year for pending applications. * =
+ARIPO: China National Intellectual Property Administration (CNIPA) has =
+recently introduced the China-Africa Patent Prosecution Highway (PPH) in =
+collaboration with the African Regional Intellectual Property =
+Organization (ARIPO). * Algeria: Algeria has introduced 19% VAT on =
+Official Fees associated with Intellectual Property Services. * Saudi =
+Arabia: Saudi Arabia recently joined the Hague Agreement for =
+International Design Registration | In accordance with the amended =
+Patent and Industrial Design Law, validity of industrial designs has =
+been extended from ten (10) to fifteen (15) years for all designs =
+submitted in 2013 and onwards. | Saudi Authority for Intellectual =
+Property (SAIP) has signed a Patent Prosecution Highway (PPH) Agreement =
+with Intellectual Property Office of Singapore (IPOS). This PPH Pilot =
+Program commenced on 12 September 2023 for a period of 2 years and will =
+end on 11 September 2025. From: =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =
+=D0=9A=D0=BE=D0=B7=D0=B8=D0=BD <kmd379@gmail.com =
+<mailto:kmd379@gmail.com>  <mailto:kmd379@gmail.com =
+<mailto:kmd379@gmail.com> > <mailto:kmd379@gmail.com =
+<mailto:kmd379@gmail.com>  <mailto:kmd379@gmail.com =
+<mailto:kmd379@gmail.com> > > > Sent: Wednesday, 28 October 2026 9:42 am =
+To: contact@unitedtm.com <mailto:contact@unitedtm.com>  =
+<mailto:contact@unitedtm.com <mailto:contact@unitedtm.com> > =
+<mailto:contact@unitedtm.com <mailto:contact@unitedtm.com>  =
+<mailto:contact@unitedtm.com <mailto:contact@unitedtm.com> > > Subject: =
+Urgent: UAE-authorized representative for two PBK PCT filings - proposal =
+by 29 October Dear Patent Team, I urgently seek a UAE-authorized patent =
+representative in Dubai to arrange and carry out two international PCT =
+filings for PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - =
+FZCO, a Dubai UAE company, trade licence No. 38769. Please route this =
+inquiry to the practitioner responsible for international patent =
+filings. I am Mikhail Dmitrievich Kozin (Mikhail Kozin in the patent =
+records), the sole inventor and PBK's sole shareholder and General =
+Manager. I am a Russian citizen principally resident in Sharjah, hold an =
+Emirates ID and have Spanish permanent residence. Please identify any =
+conflict-check or onboarding documents you require. Immediate scope: two =
+PCT international applications, not merely UAE national-phase entries: * =
+Group 2: AI Pricing and Retail Intelligence Platform, based on US =
+provisional applications #1, #2, #8 and #9. Earliest working priority =
+date: December 11, 2025; priority control deadline: December 11, 2026. =
+Requested filing date: November 28, 2026. If weekend scheduling affects =
+this date, please propose an earlier working-day filing. * Group 1: =
+Modular Cabinet Platform, based on US provisional applications #3-7, =
+involving mechanical, electronic and software-controlled retail =
+equipment. Earliest working priority date: December 23, 2025; priority =
+control deadline: December 23, 2026. Requested filing date: December 3, =
+2026. Please independently verify the dates and priority entitlement =
+from the official records. PBK is the intended sole applicant. PPA #10 =
+is outside these two applications. Subsequent project stages remain =
+planned, but will be discussed after these filings; separate =
+simultaneous US or Russian national applications are not part of the =
+immediate request. Available materials include the filed provisional =
+specifications and drawings, USPTO receipts and indexes, supplementary =
+explanations, and an editable English draft for Group 1 with claims and =
+a 22-sheet drawing PDF prepared by former US counsel. Group 2 needs full =
+drafting. These are working materials, not confirmation that =
+nonprovisional applications have already been filed. The documents can =
+be supplied through an agreed secure channel after conflict clearance =
+and confirmation of confidentiality covering both PBK and me. Please =
+quote separately for: 1. UAE representation and actual filing, =
+coordinating with US drafting counsel whom we are considering but have =
+not yet engaged: final filing/formality checks, powers of attorney, =
+priority documents, ePCT submission, fee payment, filing confirmations, =
+forwarding notices and filing corrections. Please state how much advance =
+time you need to receive the final package. 2. Full preparation and =
+filing, if your team can undertake both groups, reusing suitable =
+existing work and coordinating any necessary specialists. I require an =
+end-to-end filing service and will not personally complete ePCT forms or =
+submit applications. I will provide technical explanations, approve the =
+agreed approach and sign documents genuinely requiring my signature. =
+Please provide: * The name, firm, UAE registration number and evidence =
+of authorization of the specific agent who would act for PBK before =
+WIPO/RO/IB, or explain another competent route. Please confirm actual =
+international-filing eligibility for this UAE applicant, not only UAE =
+national-phase experience. * The responsible practitioner's technical =
+experience and approximate number of similar =
+mechanical/electronic/software and PCT projects. * A fixed professional =
+fee for each application and option, with official filing/search fees, =
+drawings, translations, VAT and other expenses itemized separately. =
+Identify the proposed competent search authority and any estimates or =
+exclusions. * A dated preparation, review and filing schedule, a payment =
+schedule linked to deliverables, and a draft engagement agreement before =
+any deposit. * Clear allocation of responsibility between drafting =
+counsel and your filing agent, including deadline monitoring, notices =
+and free correction of errors attributable to the service providers. * =
+The documents required from PBK and me, including any powers of =
+attorney, ownership confirmations and current manager/registration =
+evidence. My discussions and comments are in Russian. Please state =
+whether you can provide Russian-language support and include the =
+required written translations in the fixed fee for the full-service =
+option. The proposed filing language is English. Completion of the =
+filing stage must include the complete filed documents, official =
+international application numbers and filing dates, priority particulars =
+and fee-payment confirmations. Please also identify and price support =
+through the international search report and written opinion. Please =
+acknowledge availability urgently and, if possible, provide the =
+proposal, named authorized representative, draft agreement, full cost =
+breakdown and schedule by October 29, 2026. If further material is =
+needed to quote, please send one consolidated list immediately. Any =
+chargeable preliminary assessment must first be quoted and approved in =
+writing. This is an urgent request for a proposal, not acceptance of an =
+engagement, authorization for paid work or an instruction to file =
+without subsequent agreement. Payments will be made only against =
+official organizational invoices; additional charges require prior =
+written approval. Kind regards, Mikhail Kozin PBK ENGINEERING =
+INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO Sharjah / Dubai, UAE
+
+
+------=_NextPart_002_32B8_01DD6BA6.1E4BA500
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered medium)"><!--[if =
+!mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+@font-face
+	{font-family:"Monotype Corsiva";
+	panose-1:3 1 1 1 1 2 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;
+	mso-ligatures:none;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:231241314;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1 67698695 67698691 67698693 67698689 67698691 =
+67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:image;
+	list-style-image:url("cid:image001.png\@01DD6BA5.EEDADE80");
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1530295096;
+	mso-list-template-ids:509408724;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:=EF=82=B7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple style=3D'word-wrap:break-word'><div =
+class=3DWordSection1><table class=3DMsoNormalTable border=3D0 =
+cellspacing=3D0 cellpadding=3D0 align=3Dleft =
+style=3D'border-collapse:collapse;margin-left:-1.8pt'><tr =
+style=3D'height:49.5pt'><td width=3D125 valign=3Dtop =
+style=3D'width:94.05pt;padding:0in .5pt 0in .5pt;height:49.5pt'><p =
+class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;mso-element:frame;mso-element-frame-hspace:.45=
+pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-elem=
+ent-anchor-horizontal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:EN-GB'><img width=3D89 height=3D100 =
+style=3D'width:.925in;height:1.0416in' id=3D"Picture_x0020_1633171907" =
+src=3D"cid:image002.png@01DD6BA5.3A2286A0"></span><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:EN-GB'><o:p></o:p></span></p></td><td width=3D480 =
+valign=3Dtop style=3D'width:5.0in;padding:0in .5pt 0in =
+.5pt;height:49.5pt'><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;mso-element:frame;mso-element-frame-hspace:.45=
+pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-elem=
+ent-anchor-horizontal:column;mso-height-rule:exactly'><b><span =
+style=3D'font-size:8.0pt;font-family:"Monotype =
+Corsiva";color:black;mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span>=
+</b></p><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;mso-element:frame;mso-element-frame-hspace:.45=
+pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-elem=
+ent-anchor-horizontal:column;mso-height-rule:exactly'><b><span =
+style=3D'font-size:20.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:EN-GB'>United Trademark &amp; Patent =
+Services<o:p></o:p></span></b></p><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;mso-element:frame;mso-element-frame-hspace:.45=
+pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-elem=
+ent-anchor-horizontal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#262626;ms=
+o-fareast-language:EN-GB'>Registrations and Enforcement of Intellectual =
+Property Rights<o:p></o:p></span></p><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;mso-element:frame;mso-element-frame-hspace:.45=
+pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-elem=
+ent-anchor-horizontal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#262626;ms=
+o-fareast-language:EN-GB'>In the Middle East, South Asia, and =
+Africa<o:p></o:p></span></p><p class=3DMsoNormal align=3Dcenter =
+style=3D'text-align:center;mso-element:frame;mso-element-frame-hspace:.45=
+pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-elem=
+ent-anchor-horizontal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#262626;ms=
+o-fareast-language:EN-GB'>Established in 1949<o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:.45pt;mso-element-wra=
+p:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizon=
+tal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;color:black;ms=
+o-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></p></td></tr></table><=
+p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'><o:p>&nbsp;</o:p><=
+/span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'>Dea=
+r </span><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>Mikhail =
+=E2=80=93 Thank you for your email communication. =
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'><o:p>&nbsp;</o:=
+p></span></p><p class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>As requested, =
+please find attached the filled in NDA for your review and further =
+execution. <o:p></o:p></span></p><p class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'><o:p>&nbsp;</o:=
+p></span></p><p class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>The =
+professional rates provided in our earlier email is per application. =
+Official fees can only be determined, once we have further information =
+on the technology and when the draft specification is finalized. =
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'><o:p>&nbsp;</o:=
+p></span></p><p class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>As mentioned =
+earlier, we will require at least 10 =E2=80=93 15 working days to =
+complete the first patent draft of the specification. Therefore, you can =
+calculate the disclosure of the relevant information, accordingly. =
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'><o:p>&nbsp;</o:=
+p></span></p><p class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>We will not be =
+able to undertake the work unless the invoice is settled for the =
+professional hours, we spent on drafting the specification. Therefore, =
+please make sure you provide us with the details of the invoice =
+recipient so that the invoice can be generated accordingly. =
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'><o:p>&nbsp;</o:=
+p></span></p><p class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>Ideally, =
+please provide us with the complete disclosure of the invention by =
+November 5<sup>th</sup> 2026 and the settlement of the invoices, so that =
+the service can be initiated immediately to meet the November =
+28<sup>th</sup> 2026.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'><o:p>&nbsp;</o:=
+p></span></p><p class=3DMsoNormal><span lang=3DEN-IN =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>Should you =
+need any further information or clarification, please let us know. =
+</span><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'><o:p></o:p></sp=
+an></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'text-autospace:ideograph-other'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:ZH-CN'>Best regards, <o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Arial",sans-serif;color:black'><o:p>&nbsp;</o:p></s=
+pan></p><table class=3DMsoNormalTable border=3D0 cellspacing=3D0 =
+cellpadding=3D0 align=3Dleft width=3D"42%" =
+style=3D'width:42.36%;border-collapse:collapse;margin-left:7.5pt;margin-r=
+ight:7.5pt'><tr style=3D'height:62.5pt'><td width=3D"100%" =
+valign=3Dbottom style=3D'width:100.0%;padding:0in 5.4pt 0in =
+5.4pt;height:62.5pt'><p class=3DMsoNormal =
+style=3D'line-height:105%;mso-element:frame;mso-element-frame-hspace:9.75=
+pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-elem=
+ent-anchor-horizontal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:10.0pt;line-height:105%;font-family:"Calibri",sans-ser=
+if;color:#181717'>NEVIN JACOB KOSHY<o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'line-height:105%;mso-element:frame;mso-element-frame-hspace:9.75=
+pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-elem=
+ent-anchor-horizontal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:10.0pt;line-height:105%;font-family:"Calibri",sans-ser=
+if;color:#7F7F7F'>PARTNER<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:105%;mso-element:frame;mso-element-frame-hspace:9.75=
+pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-elem=
+ent-anchor-horizontal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:10.0pt;line-height:105%;font-family:"Calibri",sans-ser=
+if;color:#7F7F7F'>Head of Department =E2=80=93 Patent | =
+Design<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:105%;text-autospace:ideograph-other;mso-element:fram=
+e;mso-element-frame-hspace:9.75pt;mso-element-wrap:around;mso-element-anc=
+hor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-height-ru=
+le:exactly'><span =
+style=3D'font-size:10.0pt;line-height:105%;font-family:"Calibri",sans-ser=
+if;color:#7F7F7F'>Member of Chartered Institute of Patent Attorneys, =
+U.K<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:105%;text-autospace:ideograph-other;mso-element:fram=
+e;mso-element-frame-hspace:9.75pt;mso-element-wrap:around;mso-element-anc=
+hor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-height-ru=
+le:exactly'><span =
+style=3D'color:black'><o:p>&nbsp;</o:p></span></p></td></tr><tr =
+style=3D'height:49.6pt'><td width=3D"100%" valign=3Dbottom =
+style=3D'width:100.0%;padding:0in 5.4pt 0in 5.4pt;height:49.6pt'><p =
+class=3DMsoNormal =
+style=3D'line-height:115%;mso-element:frame;mso-element-frame-hspace:9.75=
+pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-elem=
+ent-anchor-horizontal:column;mso-height-rule:exactly'><b><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:#028752'>Office:</span></b><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:black'> +971 4 343 7544 |</span><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:gray'>&nbsp;</span><b><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:#028752'>Email: </span></b><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><a href=3D"mailto:patents@unitedtm.com"><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+mso-ligatures:none'>patents@unitedtm.com</span></a></span><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:black'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:115%;mso-element:frame;mso-element-frame-hspace:9.75=
+pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-elem=
+ent-anchor-horizontal:column;mso-height-rule:exactly'><b><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:#028752'>Address:</span></b><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:#3F999F'>&nbsp;</span><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:black'>Suite 401-402, Al Hawai Tower, Sheikh Zayed Road, P.O. Box =
+72430, Dubai, UAE</span><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:gray'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-right:2.95in;line-height:115%;mso-element:frame;mso-eleme=
+nt-frame-hspace:9.75pt;mso-element-wrap:around;mso-element-anchor-vertica=
+l:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly'=
+><b><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:#028752'>Stay Connected: </span></b><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><a href=3D"http://www.utmps.com/"><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:#0563C1;mso-ligatures:none'>Website</span></a></span><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:black'> | </span><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><a href=3D"https://www.linkedin.com/company/utmps/"><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:#0563C1;mso-ligatures:none'>LinkedIn</span></a></span><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:black'> | </span><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><a href=3D"https://bit.ly/signup-utmps"><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:#0563C1;mso-ligatures:none'>Newsletter</span></a></span><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:black'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-right:2.95in;line-height:115%;mso-element:frame;mso-eleme=
+nt-frame-hspace:9.75pt;mso-element-wrap:around;mso-element-anchor-vertica=
+l:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly'=
+><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:black'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-right:2.95in;line-height:115%;mso-element:frame;mso-eleme=
+nt-frame-hspace:9.75pt;mso-element-wrap:around;mso-element-anchor-vertica=
+l:paragraph;mso-element-anchor-horizontal:column;mso-height-rule:exactly'=
+><span style=3D'font-family:"Arial",sans-serif;color:black'><img =
+border=3D0 width=3D238 height=3D2 style=3D'width:2.475in;height:.025in' =
+id=3D"Picture_x0020_2" =
+src=3D"cid:image003.png@01DD6BA5.3A2286A0"></span><span =
+style=3D'font-size:9.0pt;line-height:115%;font-family:"Arial",sans-serif;=
+color:black'><o:p></o:p></span></p></td></tr></table><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'text-indent:.5in'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'><o:=
+p>&nbsp;</o:p></span></p><table class=3DMsoNormalTable border=3D0 =
+cellspacing=3D0 cellpadding=3D0 align=3Dleft width=3D"95%" =
+style=3D'width:95.58%;border-collapse:collapse;margin-left:7.5pt;margin-r=
+ight:7.5pt'><tr style=3D'height:6.85pt'><td width=3D"100%" =
+valign=3Dbottom style=3D'width:100.0%;padding:0in 5.4pt 0in =
+5.4pt;height:6.85pt'><p class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:9.75pt;mso-element-wr=
+ap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizo=
+ntal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#26744D'>Un=
+ited Trademark &amp; Patent Services (UTMPS) </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black'>is =
+a specialized law firm in Intellectual Property, founded in 1949 to meet =
+our clients' IP law needs. With over 70 years of experience, our team =
+includes expert attorneys and technical analysts focused on IP rights =
+and related matters. Our commitment to excellence has positioned us as a =
+leader in the field, proudly serving more than 100 Fortune 500 =
+companies.<o:p></o:p></span></p></td></tr><tr =
+style=3D'height:6.85pt'><td width=3D"100%" valign=3Dbottom =
+style=3D'width:100.0%;padding:0in 5.4pt 0in 5.4pt;height:6.85pt'><p =
+class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:9.75pt;mso-element-wr=
+ap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizo=
+ntal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#26744D'><o=
+:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:9.75pt;mso-element-wr=
+ap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizo=
+ntal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#26744D'>UT=
+MPS Branch and Representative Offices:<o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:9.75pt;mso-element-wr=
+ap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizo=
+ntal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#26744D'>So=
+uth Asia: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black'>Afgh=
+anistan | Bangladesh | Bhutan | India | Nepal | Pakistan | Sri =
+Lanka<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:9.75pt;mso-element-wr=
+ap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizo=
+ntal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#26744D'>Mi=
+ddle East: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black'>Bahr=
+ain | Iraq | Jordan | Kuwait | Lebanon | Oman | Qatar | Saudi Arabia | =
+Turkey | United Arab Emirates | Yemen<o:p></o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:9.75pt;mso-element-wr=
+ap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizo=
+ntal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#26744D'>Af=
+rica: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black'>Alge=
+ria | Djibouti | Egypt | Ethiopia | Kenya | Libya | Morocco | Nigeria | =
+Sudan | Tanzania (Tanganyika/Zanzibar) | Tunisia | =
+Uganda<o:p></o:p></span></p></td></tr><tr style=3D'height:6.85pt'><td =
+width=3D"100%" valign=3Dbottom style=3D'width:100.0%;padding:0in 5.4pt =
+0in 5.4pt;height:6.85pt'><p class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:9.75pt;mso-element-wr=
+ap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizo=
+ntal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#984806'><=
+o:p>&nbsp;</o:p></span></p></td></tr><tr style=3D'height:6.85pt'><td =
+width=3D"100%" valign=3Dbottom style=3D'width:100.0%;padding:0in 5.4pt =
+0in 5.4pt;height:6.85pt'><p class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:9.75pt;mso-element-wr=
+ap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizo=
+ntal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#984806'>W=
+e aim to acknowledge all emails within one working day. If you =
+don=E2=80=99t receive a response, please resend your message, as some =
+may not be delivered. Thank you for your =
+understanding.<o:p></o:p></span></p></td></tr><tr =
+style=3D'height:6.85pt'><td width=3D"100%" valign=3Dbottom =
+style=3D'width:100.0%;padding:0in 5.4pt 0in 5.4pt;height:6.85pt'><p =
+class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:9.75pt;mso-element-wr=
+ap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizo=
+ntal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#984806'><=
+o:p>&nbsp;</o:p></span></p></td></tr><tr style=3D'height:40.15pt'><td =
+width=3D"100%" valign=3Dbottom style=3D'width:100.0%;padding:0in 5.4pt =
+0in 5.4pt;height:40.15pt'><p class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:9.75pt;mso-element-wr=
+ap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizo=
+ntal:column;mso-height-rule:exactly'><b><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black'>Conf=
+identiality and Legal Privilege Notice<o:p></o:p></span></b></p><p =
+class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:9.75pt;mso-element-wr=
+ap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizo=
+ntal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black'>This=
+ email contains confidential information that may be protected by legal =
+privilege. If you are not the intended recipient, please refrain from =
+copying or disclosing its contents and contact the sender immediately. =
+Additionally, please notify us at </span><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><a href=3D"mailto:patents@unitedtm.com"><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black;mso-l=
+igatures:none;text-decoration:none'>patents@unitedtm.com</span></a></span=
+><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black'> or =
++971-4-3437 544, and delete this message. Unauthorized use of this email =
+is strictly prohibited./NK<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-element:frame;mso-element-frame-hspace:9.75pt;mso-element-wr=
+ap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizo=
+ntal:column;mso-height-rule:exactly'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:black'><o:p=
+>&nbsp;</o:p></span></p></td></tr></table><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;color:black;display:none'><o:p>=
+&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;color:black'><o:p>&nbsp;</o:p><=
+/span></p><table class=3DMsoNormalTable border=3D0 cellspacing=3D0 =
+cellpadding=3D0 width=3D1497 =
+style=3D'width:1123.05pt;margin-left:-.4pt;border-collapse:collapse'><tr =
+style=3D'height:47.45pt'><td width=3D123 valign=3Dtop =
+style=3D'width:92.25pt;border:dashed #215868 1.0pt;padding:0in 5.4pt 0in =
+5.4pt;height:47.45pt'><p class=3DMsoNormal><b><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'font-family:"Calibri",sans-serif'><img border=3D0 width=3D111 =
+height=3D49 style=3D'width:1.1583in;height:.5083in' =
+id=3D"Picture_x0020_3" =
+src=3D"cid:image004.jpg@01DD6BA5.3A2286A0"></span></b><b><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p></o:p></span></b></p><p class=3DMsoNormal><b><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></b></p></td><td width=3D1374 valign=3Dtop =
+style=3D'width:1030.8pt;border:dashed #215868 =
+1.0pt;border-left:none;padding:0in 5.4pt 0in 5.4pt;height:47.45pt'><p =
+class=3DMsoNormal><b><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></b></p><ul style=3D'margin-top:0in' =
+type=3Ddisc><li class=3DMsoNormal style=3D'mso-list:l0 level1 =
+lfo3'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#843C0C;mso=
+-ligatures:standardcontextual'>Egypt: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;mso-ligatures:sta=
+ndardcontextual'>Egypt has integrated virtual hearings into the appeal =
+process for industrial designs. | Effective October 14, 2025, EGIPA has =
+issued a sweeping update to its existing official fees and has =
+introduced new payable services covering various administrative =
+procedures applicable to patents &amp; plant varieties. | Dated 18 June =
+2025, the official examination fee for patent applications in Egypt has =
+been increased to EGP 50,000, in accordance with the provisions of the =
+Egyptian Patent Law No. 82 of 2002. Also, the deadline to pay =
+examination fees has been officially revised to 3 months from the =
+official notification date, instead of the previous 6-month period from =
+the filing date. An extension can be availed by paying an additional fee =
+of EGP 25,000.<o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'mso-list:l0 level1 lfo3'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#843C0C;mso=
+-ligatures:standardcontextual'>UAE: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;mso-ligatures:sta=
+ndardcontextual'>Effective October 6, 2026, the UAE has officially =
+joined the Locarno Agreement for industrial designs, as announced by =
+WIPO. | USPTO and UAE have signed a joint agreement to expedite patent =
+granting process. The UAE will now accept positive patent examination =
+results from the USPTO, which will significantly speed up the =
+patent-granting process in the UAE.&nbsp;| A Cabinet Decision has been =
+issued in March 2025 detailing the establishment and operational =
+framework for the Industrial Property Grievances Committee. =
+<o:p></o:p></span></li><li class=3DMsoNormal style=3D'mso-list:l0 level1 =
+lfo3'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#843C0C;mso=
+-ligatures:standardcontextual'>Zanzibar: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;mso-ligatures:sta=
+ndardcontextual'>On 18 July 2025, the Zanzibar IP Office announced the =
+implementation of increased official fees, set to take effect =
+from&nbsp;11 August 2025. These revised fees will apply retrospectively =
+to both new and pending applications, where official fees remain =
+outstanding on or after this date.&nbsp;<o:p></o:p></span></li><li =
+class=3DMsoNormal style=3D'mso-list:l0 level1 lfo3'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#843C0C;mso=
+-ligatures:standardcontextual'>Bahrain: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;mso-ligatures:sta=
+ndardcontextual'>Bahrain and Japan Sign MoU to Launch PPH Program, set =
+to launch on January 1, 2026. | Bahrain PTO launched PPH Pilot Programs =
+with South Korea (effective January 15, 2025, for three years) and the =
+European Patent Office (commenced March 1, 2025, for an initial two =
+years). | Bahrain Patent Office recently signed a Memorandum of =
+Understanding (MOU) with the USPTO to implement the Patent Prosecution =
+Highway (PPH) system. Bahrain has signed a Patent Prosecution Highway =
+(PPH) Agreement with China. PPH pilot program officially started on May =
+1, 2024, and will run for five years until April 30, 2029. =
+<o:p></o:p></span></li><li class=3DMsoNormal style=3D'mso-list:l0 level1 =
+lfo3'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#843C0C;mso=
+-ligatures:standardcontextual'>Myanmar: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;mso-ligatures:sta=
+ndardcontextual'>Myanmar=E2=80=99s Patent Law 2019 came into effect on =
+31 May 2024. However, it is important to note that patent applications =
+cannot yet be filed, as the issuance of patent forms and fees remains =
+pending.<o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'mso-list:l0 level1 lfo3'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#843C0C;mso=
+-ligatures:standardcontextual'>Qatar: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;mso-ligatures:sta=
+ndardcontextual'>MOCI announced that it has started accepting =
+applications for industrial designs and models as of 26 October 2025. | =
+Qatar PTO has issued a significant clarification regarding the payment =
+of annuity fees. The Office has resumed accepting annuity payments on =
+all patent applications, irrespective of their acceptance or grant =
+status. This change overrules the previous policy that deferred fees =
+beyond the third year for pending =
+applications.<o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'mso-list:l0 level1 lfo3'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#843C0C;mso=
+-ligatures:standardcontextual'>ARIPO: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;mso-ligatures:sta=
+ndardcontextual'>China National Intellectual Property Administration =
+(CNIPA) has recently introduced the China-Africa Patent Prosecution =
+Highway (PPH) in collaboration with the African Regional Intellectual =
+Property Organization (ARIPO). <o:p></o:p></span></li><li =
+class=3DMsoNormal style=3D'mso-list:l0 level1 lfo3'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#843C0C;mso=
+-ligatures:standardcontextual'>Algeria: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;mso-ligatures:sta=
+ndardcontextual'>Algeria now accepts the Apostille Convention for =
+foreign public documents, replacing conventional legalization with a =
+single originating apostille. | Algeria has introduced 19% VAT on =
+Official Fees associated with Intellectual Property =
+Services.<o:p></o:p></span></li><li class=3DMsoNormal =
+style=3D'mso-list:l0 level1 lfo3'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#843C0C;mso=
+-ligatures:standardcontextual'>GCC: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;mso-ligatures:sta=
+ndardcontextual'>The GCC has introduced the Patent Prosecution Highway =
+(GCC-PPH), enabling inventors to request expedited patent examination =
+across all member states by leveraging a substantive examination report =
+issued either by the GCC Patent Office or participating member =
+states.<o:p></o:p></span></li><li class=3DMsoNormal style=3D'mso-list:l0 =
+level1 lfo3'><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;color:#843C0C;mso=
+-ligatures:standardcontextual'>Saudi Arabia: </span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif;mso-ligatures:sta=
+ndardcontextual'>Saudi Arabia recently joined the Hague Agreement for =
+International Design Registration | In accordance with the amended =
+Patent and Industrial Design Law, validity of industrial designs has =
+been extended from ten (10) to fifteen (15) years for all designs =
+submitted in 2013 and onwards. | Saudi Authority for Intellectual =
+Property (SAIP) has signed a Patent Prosecution Highway (PPH) Agreement =
+with Intellectual Property Office of Singapore (IPOS). This PPH Pilot =
+Program commenced on 12 September 2023 for a period of 2 years and will =
+end on 11 September 2025.<o:p></o:p></span></li></ul><p =
+class=3DMsoNormal><b><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-ligatures:=
+standardcontextual'><o:p>&nbsp;</o:p></span></b></p></td></tr></table><p =
+class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif;mso-ligatures:standardcontextua=
+l'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif'><o:p>&nbsp;</o:p></span></p><p=
+ class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif'><o:p>&nbsp;</o:p></span></p><p=
+ class=3DMsoNormal><span =
+style=3D'font-family:"Calibri",sans-serif'><o:p>&nbsp;</o:p></span></p><d=
+iv style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in =
+0in 0in'><p class=3DMsoNormal><b><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>From:</span><=
+/b><span style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'> =
+UTPS || PATENTS* &lt;patents@unitedtm.com&gt; <br><b>Sent:</b> Monday, 2 =
+November, 2026 6:42 PM<br><b>To:</b> =
+'=D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD' =
+&lt;kmd379@gmail.com&gt;<br><b>Subject:</b> RE: PBK =E2=80=93 company =
+documents, two PCT applications and NDA<o:p></o:p></span></p></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal =
+style=3D'text-autospace:ideograph-other'><b><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:ZH-CN'>A</span></b><b><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;mso-fareast-lang=
+uage:ZH-CN'>cknowledged<span style=3D'color:black'> </span>with<span =
+style=3D'color:black'> </span>thanks<span style=3D'color:black'> =
+<o:p></o:p></span></span></b></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:ZH-CN'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:ZH-CN'>We confirm that the matter is receiving our =
+diligent attention. We have duly noted your comments/instructions. We =
+will revert to you with our further response in due course. =
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:ZH-CN'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:ZH-CN'>In the meantime, should you require any further =
+information or clarification, kindly let us =
+know.<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3Den-AE =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'><o:p>&nbsp;</=
+o:p></span></p><div style=3D'border:none;border-top:solid #E1E1E1 =
+1.0pt;padding:3.0pt 0in 0in 0in'><p class=3DMsoNormal><b><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>From:</span><=
+/b><span style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'> =
+=D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD =
+&lt;<a href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a>&gt; =
+<br><b>Sent:</b> 02 November 2026 01:39 PM<br><b>To:</b> <a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a><br><b>Subje=
+ct:</b> Re: PBK =E2=80=93 company documents, two PCT applications and =
+NDA<o:p></o:p></span></p></div><p class=3DMsoNormal><span =
+lang=3Den-AE><o:p>&nbsp;</o:p></span></p><p><span lang=3Den-AE>Dear Mr. =
+Koshy,<o:p></o:p></span></p><p><span lang=3Den-AE>Thank you for your =
+proposal. Please complete the NDA with your organisation=E2=80=99s full =
+legal name and identify PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS =
+MANAGEMENT =E2=80=93 FZCO and me, Mikhail Kozin, as the disclosing =
+parties, with coverage extending to materials already =
+provided.<o:p></o:p></span></p><p><span lang=3Den-AE>Please clarify =
+whether the USD 950 and USD 2,545 fees apply to one application or both =
+applications, what exactly is included in the preparation work, and =
+which official fees and expenses are payable =
+separately.<o:p></o:p></span></p><p><span lang=3Den-AE>We require two =
+PCT applications in PBK=E2=80=99s name: the application based on PPAs =
+Nos. 1, 2, 8 and 9 by November 28, 2026, and the application based on =
+PPAs Nos. 3=E2=80=937 by December 3, 2026. Once the NDA is signed, we =
+will provide the complete technical package and the materials prepared =
+by Ali.<o:p></o:p></span></p><p><span lang=3Den-AE>Please identify the =
+authorised representative and confirm how soon after receiving the =
+materials you will provide the final total cost, the engagement =
+agreement and the work schedule for the complete turnkey =
+service.<o:p></o:p></span></p><p><span lang=3Den-AE>Kind =
+regards,<br>Mikhail Kozin<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt'><span =
+lang=3Den-AE><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+lang=3Den-AE>On Mon, 02 Nov 2026 11:29:57 +0400, <a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+wrote:<o:p></o:p></span></p><blockquote =
+style=3D'margin-top:5.0pt;margin-bottom:5.0pt'><p =
+class=3DMsoNormal><span lang=3Den-AE>United Trademark &amp; Patent =
+Services Registrations and Enforcement of Intellectual Property Rights =
+In the Middle East, South Asia, and Africa Established in 1949 Dear =
+Mikhail =E2=80=93 Thank you for your email communication and for sharing =
+the information. At the onset, please note that we will be able to =
+execute the attached general NDA as the document provided from your end =
+has clauses which needs review and approval from the management. In the =
+interest of time, the attached general NDA can be executed. As we have =
+not yet received the complete invention details, we can presently =
+confirm only that we can handle the PCT filing, provided we receive your =
+instructions and the complete, filing-ready specification at least four =
+working days before the applicable deadline. Our ability to undertake =
+the drafting within the available time will depend on our review of the =
+scope of the disclosure and the technical materials you provide. The =
+associated costs are as follows: * Initial discussion and providing the =
+strategy to protect your invention: USD 950/- [Up to 3 hours] * Towards =
+preparing and filing the patent application before the WIPO: USD 2545 =
+Applicable VAT will be added. Should you need any further information or =
+clarification, please let us know. Best regards, NEVIN JACOB KOSHY =
+PARTNER Head of Department =E2=80=93 Patent | Design Member of Chartered =
+Institute of Patent Attorneys, U.K Office: +971 4 343 7544 | Email: =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; <a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> Address: =
+Suite 401-402, Al Hawai Tower, Sheikh Zayed Road, P.O. Box 72430, Dubai, =
+UAE Stay Connected: &lt;<a =
+href=3D"http://www.utmps.com/">http://www.utmps.com/</a>&gt; Website | =
+&lt;<a =
+href=3D"https://www.linkedin.com/company/utmps/">https://www.linkedin.com=
+/company/utmps/</a>&gt; LinkedIn | &lt;<a =
+href=3D"https://bit.ly/signup-utmps">https://bit.ly/signup-utmps</a>&gt; =
+Newsletter United Trademark &amp; Patent Services (UTMPS) is a =
+specialized law firm in Intellectual Property, founded in 1949 to meet =
+our clients' IP law needs. With over 70 years of experience, our team =
+includes expert attorneys and technical analysts focused on IP rights =
+and related matters. Our commitment to excellence has positioned us as a =
+leader in the field, proudly serving more than 100 Fortune 500 =
+companies. UTMPS Branch and Representative Offices: South Asia: =
+Afghanistan | Bangladesh | Bhutan | India | Nepal | Pakistan | Sri Lanka =
+Middle East: Bahrain | Iraq | Jordan | Kuwait | Lebanon | Oman | Qatar | =
+Saudi Arabia | Turkey | United Arab Emirates | Yemen Africa: Algeria | =
+Djibouti | Egypt | Ethiopia | Kenya | Libya | Morocco | Nigeria | Sudan =
+| Tanzania (Tanganyika/Zanzibar) | Tunisia | Uganda We aim to =
+acknowledge all emails within one working day. If you don=E2=80=99t =
+receive a response, please resend your message, as some may not be =
+delivered. Thank you for your understanding. Confidentiality and Legal =
+Privilege Notice This email contains confidential information that may =
+be protected by legal privilege. If you are not the intended recipient, =
+please refrain from copying or disclosing its contents and contact the =
+sender immediately. Additionally, please notify us at &lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; <a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> or =
++971-4-3437 544, and delete this message. Unauthorized use of this email =
+is strictly prohibited./NK * Egypt: Egypt has integrated virtual =
+hearings into the appeal process for industrial designs. | Effective =
+October 14, 2025, EGIPA has issued a sweeping update to its existing =
+official fees and has introduced new payable services covering various =
+administrative procedures applicable to patents &amp; plant varieties. | =
+Dated 18 June 2025, the official examination fee for patent applications =
+in Egypt has been increased to EGP 50,000, in accordance with the =
+provisions of the Egyptian Patent Law No. 82 of 2002. Also, the deadline =
+to pay examination fees has been officially revised to 3 months from the =
+official notification date, instead of the previous 6-month period from =
+the filing date. An extension can be availed by paying an additional fee =
+of EGP 25,000. * UAE: Effective October 6, 2026, the UAE has officially =
+joined the Locarno Agreement for industrial designs, as announced by =
+WIPO. | USPTO and UAE have signed a joint agreement to expedite patent =
+granting process. The UAE will now accept positive patent examination =
+results from the USPTO, which will significantly speed up the =
+patent-granting process in the UAE. | A Cabinet Decision has been issued =
+in March 2025 detailing the establishment and operational framework for =
+the Industrial Property Grievances Committee. * Zanzibar: On 18 July =
+2025, the Zanzibar IP Office announced the implementation of increased =
+official fees, set to take effect from 11 August 2025. These revised =
+fees will apply retrospectively to both new and pending applications, =
+where official fees remain outstanding on or after this date. * Bahrain: =
+Bahrain and Japan Sign MoU to Launch PPH Program, set to launch on =
+January 1, 2026. | Bahrain PTO launched PPH Pilot Programs with South =
+Korea (effective January 15, 2025, for three years) and the European =
+Patent Office (commenced March 1, 2025, for an initial two years). | =
+Bahrain Patent Office recently signed a Memorandum of Understanding =
+(MOU) with the USPTO to implement the Patent Prosecution Highway (PPH) =
+system. Bahrain has signed a Patent Prosecution Highway (PPH) Agreement =
+with China. PPH pilot program officially started on May 1, 2024, and =
+will run for five years until April 30, 2029. * Myanmar: =
+Myanmar=E2=80=99s Patent Law 2019 came into effect on 31 May 2024. =
+However, it is important to note that patent applications cannot yet be =
+filed, as the issuance of patent forms and fees remains pending. * =
+Qatar: MOCI announced that it has started accepting applications for =
+industrial designs and models as of 26 October 2025. | Qatar PTO has =
+issued a significant clarification regarding the payment of annuity =
+fees. The Office has resumed accepting annuity payments on all patent =
+applications, irrespective of their acceptance or grant status. This =
+change overrules the previous policy that deferred fees beyond the third =
+year for pending applications. * ARIPO: China National Intellectual =
+Property Administration (CNIPA) has recently introduced the China-Africa =
+Patent Prosecution Highway (PPH) in collaboration with the African =
+Regional Intellectual Property Organization (ARIPO). * Algeria: Algeria =
+now accepts the Apostille Convention for foreign public documents, =
+replacing conventional legalization with a single originating apostille. =
+| Algeria has introduced 19% VAT on Official Fees associated with =
+Intellectual Property Services. * GCC: The GCC has introduced the Patent =
+Prosecution Highway (GCC-PPH), enabling inventors to request expedited =
+patent examination across all member states by leveraging a substantive =
+examination report issued either by the GCC Patent Office or =
+participating member states. * Saudi Arabia: Saudi Arabia recently =
+joined the Hague Agreement for International Design Registration | In =
+accordance with the amended Patent and Industrial Design Law, validity =
+of industrial designs has been extended from ten (10) to fifteen (15) =
+years for all designs submitted in 2013 and onwards. | Saudi Authority =
+for Intellectual Property (SAIP) has signed a Patent Prosecution Highway =
+(PPH) Agreement with Intellectual Property Office of Singapore (IPOS). =
+This PPH Pilot Program commenced on 12 September 2023 for a period of 2 =
+years and will end on 11 September 2025. From: UTPS || PATENTS* &lt;<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; Sent: =
+Friday, 30 October, 2026 6:41 PM To: =
+'=D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD' =
+&lt;<a href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a>&gt; =
+Subject: RE: PBK =E2=80=93 company documents, two PCT applications and =
+NDA Acknowledged with thanks We confirm that the matter is receiving our =
+diligent attention. We have duly noted your comments/instructions. We =
+will revert to you with our further response in due course. In the =
+meantime, should you require any further information or clarification, =
+kindly let us know. Note: Since it is the weekend here, our offices are =
+closed. Please excuse us if our response is delayed. From: =
+=D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD =
+&lt;<a href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a> =
+&lt;mailto:<a href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a>&gt; =
+&gt; Sent: 30 October 2026 03:22 PM To: <a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; =
+Subject: Re: PBK =E2=80=93 company documents, two PCT applications and =
+NDA Dear UTMPS Patent Team, Thank you for your reply. We will arrange =
+Russian-language assistance ourselves; you may correspond with us and =
+prepare the application documents in English. The intended applicant is =
+PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO, Dubai, =
+UAE, trade licence No. 38769. Its registered office is IFZA Business =
+Park, DDP, PO Box 342001, Dubai, UAE. I am Mikhail Dmitrievich Kozin =
+(Mikhail Kozin in the patent records), PBK's sole shareholder and =
+General Manager, and the sole inventor of the ten US provisional =
+applications listed below. I am a Russian citizen, have held permanent =
+residence in Spain for more than 25 years and have held an Emirates ID =
+for more than three years. My principal residence is in Sharjah, UAE. I =
+confirm that I have been a UAE tax resident for more than three years. =
+Attached are PBK's current 51-page Memorandum and Articles of =
+Association, trade licence and my Emirates ID copy. Our immediate =
+request is the preparation and filing of two international PCT =
+applications from PBK, claiming the relevant US provisional priorities: =
+1. Modular Cabinet Platform (PPAs 3=E2=80=937): modular retail cabinets, =
+reconfigurable chassis and bays, self-leveling, sensor-based retrieval, =
+tokenized/biometric access and thermal/fluid-processing modules. =
+Requested filing date: 3 December 2026. 2. AI Pricing &amp; Retail =
+Intelligence Platform (PPAs 1, 2, 8 and 9): freshness- and quality-based =
+dynamic pricing, biometric access control, produce quality monitoring, =
+verified feedback and supplier governance. Requested filing date: 28 =
+November 2026, or an earlier working day if needed. PPA 10 is not =
+included in the initial two-PCT order. The application list below gives =
+the recorded US filing dates and their twelve-month anniversary control =
+dates. Please verify the applicable deadlines and priority entitlement =
+from the official records before filing. PPA 1 =E2=80=94 US 63/938,244 =
+=E2=80=94 Autonomous Retail Ecosystem with AI-Driven Dynamic Pricing and =
+Biometric Access Control for Restricted Goods Filed: 2025-12-11; =
+12-month control date: 2026-12-11. PPA 2 =E2=80=94 US 63/945,513 =
+=E2=80=94 System for Bio-Metric Inventory Management and Dynamic =
+Freshness Pricing Filed: 2025-12-19; 12-month control date: 2026-12-19. =
+PPA 3 =E2=80=94 US 63/947,909 =E2=80=94 Modular Smart Vending Cabinet =
+with Smart-Glass Inspection Mode, Sensor-Fusion Manual Retrieval, and =
+Quality-Based Dynamic Pricing Filed: 2025-12-23; 12-month control date: =
+2026-12-23. PPA 4 =E2=80=94 US 63/955,179 =E2=80=94 SMART RETAIL CABINET =
+WITH TOKENIZED ACCESS AND SPLIT PAYMENTS Filed: 2026-01-06; 12-month =
+control date: 2027-01-06. PPA 5 =E2=80=94 US 63/959,439 =E2=80=94 SMART =
+RETAIL CABINET WITH TOKENIZED ACCESS AND SPLIT PAYMENTS Filed: =
+2026-01-13; 12-month control date: 2027-01-13. PPA 6 =E2=80=94 US =
+63/961,839 =E2=80=94 MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, =
+AI- DRIVEN PRICING, AND INTEGRATED CONSUMABLES MANAGEMENT Filed: =
+2026-01-16; 12-month control date: 2027-01-16. PPA 7 =E2=80=94 US =
+63/975,643 =E2=80=94 MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, =
+AI- DRIVEN PRICING, AND INTEGRATED CONSUMABLES MANAGEMENT Filed: =
+2026-02-04; 12-month control date: 2027-02-04. PPA 8 =E2=80=94 US =
+64/090,283 =E2=80=94 INTELLIGENT BULK PRODUCE QUALITY CONTROL AND =
+DYNAMIC PRICING SYSTEM Filed: 2026-06-14; 12-month control date: =
+2027-06-14. PPA 9 =E2=80=94 US 64/106,825 =E2=80=94 AUTONOMOUS RETAIL =
+PLATFORM WITH VERIFIED FEEDBACK CONTROL Filed: 2026-07-07; 12-month =
+control date: 2027-07-07. PPA 10 =E2=80=94 US 64/125,577 =E2=80=94 =
+THROUGH-TRACKING TARE CONTROL SYSTEM Filed: 2026-08-04; 12-month control =
+date: 2027-08-04. The most urgent control date is 11 December 2026 for =
+Group 2; Group 1's earliest control date is 23 December 2026. For Group =
+1, Ali prepared an unfinished English nonprovisional draft and a =
+22-sheet drawing set. We also have the filed provisional materials, =
+filing records and supplemental explanations. We will provide the =
+detailed technical package after discussing and signing an NDA covering =
+both PBK and me. We sent our proposed NDA on 28 October; please return =
+your proposed version for signature. Following the PCT filings, we =
+intend to discuss further patent protection and registration in the UAE =
+with your firm, including the appropriate national-stage work. Those =
+later stages will be agreed separately. Please identify the authorized =
+representative, and provide your proposed NDA and an initial =
+fee/schedule proposal. Please identify professional fees, official fees =
+and other expenses separately. If a final fixed quotation requires the =
+detailed technical package, please state when you can provide it after =
+receipt under the NDA. Kind regards, Mikhail Kozin General Manager PBK =
+ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO On Fri, 30 =
+Oct 2026 13:18:27 +0400, <a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; wrote: =
+Dear Mikhail, thank you for your email and for considering our =
+professional services in the region. As we understand from your =
+requests, you need a professional firm to represent you before the WIPO =
+[PCT application] and before the UAE Patent Office. We have noted the =
+proposed filing dates of November 28, 2026, and December 3, 2026, =
+together with the respective priority deadlines. We would be pleased to =
+review the proposed scope and assess how best to assist, including =
+coordination with appropriate drafting specialists where required. As a =
+first step, we would appreciate company registration details and the =
+names of all relevant parties associated with this project to enable us =
+to complete our conflict checks. Following clearance, we can arrange for =
+the confidential exchange of documents and confirm the appropriate =
+filing route, scope of services, professional fees and timelines. We =
+have also noted your requirements concerning Russian-language =
+communication, filing formalities and post-filing support. We regret =
+that we are currently unable to provide Russian-language communication =
+support. Should you need any further information or clarification, =
+please let us know. Looking forward to hearing from you. Best regards, =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; &gt; =
+<a href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; &lt;<a =
+href=3D"http://www.utmps.com/">http://www.utmps.com/</a>&gt; <a =
+href=3D"http://www.utmps.com">www.utmps.com</a> &lt;<a =
+href=3D"http://www.utmps.com">http://www.utmps.com</a>&gt; +971-4-3437 =
+544 &lt;<a =
+href=3D"https://www.linkedin.com/company/united-trademark-">https://www.l=
+inkedin.com/company/united-trademark-</a> &lt;<a =
+href=3D"https://www.linkedin.com/company/united-trademark-&amp;-patent-se=
+rvices/">https://www.linkedin.com/company/united-trademark-&amp;-patent-s=
+ervices/</a>&gt; &amp;-patent-services/&gt; United Trademark &amp; =
+Patent Services Suite 401-402, Al Hawai Tower, Sheikh Zayed Road, P.O. =
+Box 72430, Dubai, UAE United Trademark &amp; Patent Services (UTMPS) is =
+a specialized law firm in Intellectual Property, founded in 1949 to meet =
+our clients' IP law needs. With over 70 years of experience, our team =
+includes expert attorneys and technical analysts focused on IP rights =
+and related matters. Our commitment to excellence has positioned us as a =
+leader in the field, proudly serving more than 100 Fortune 500 =
+companies. UTMPS Branch and Representative Offices: South Asia: =
+Afghanistan | Bangladesh | Bhutan | India | Nepal | Pakistan | Sri Lanka =
+Middle East: Bahrain | Iraq | Jordan | Kuwait | Lebanon | Oman | Qatar | =
+Saudi Arabia | Turkey | United Arab Emirates | Yemen Africa: Algeria | =
+Djibouti | Egypt | Ethiopia | Kenya | Libya | Morocco | Nigeria | Sudan =
+| Tanzania (Tanganyika/Zanzibar) | Tunisia | Uganda We aim to =
+acknowledge all emails within one working day. If you don=E2=80=99t =
+receive a response, please resend your message, as some may not be =
+delivered. Thank you for your understanding. Confidentiality and Legal =
+Privilege Notice This email contains confidential information that may =
+be protected by legal privilege. If you are not the intended recipient, =
+please refrain from copying or disclosing its contents and contact the =
+sender immediately. Additionally, please notify us at &lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; &gt; =
+<a href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; or =
++971-4-3437 544, and delete this message. Unauthorized use of this email =
+is strictly prohibited./AM * Egypt: Effective October 14, 2025, EGIPA =
+has issued a sweeping update to its existing official fees and has =
+introduced new payable services covering various administrative =
+procedures applicable to patents &amp; plant varieties. | Dated 18 June =
+2025, the official examination fee for patent applications in Egypt has =
+been increased to EGP 50,000, in accordance with the provisions of the =
+Egyptian Patent Law No. 82 of 2002. Also, the deadline to pay =
+examination fees has been officially revised to 3 months from the =
+official notification date, instead of the previous 6-month period from =
+the filing date. An extension can be availed by paying an additional fee =
+of EGP 25,000. * UAE: USPTO and UAE have signed a joint agreement to =
+expedite patent granting process. The UAE will now accept positive =
+patent examination results from the USPTO, which will significantly =
+speed up the patent-granting process in the UAE. | A Cabinet Decision =
+has been issued in March 2025 detailing the establishment and =
+operational framework for the Industrial Property Grievances Committee. =
+* Zanzibar: On 18 July 2025, the Zanzibar IP Office announced the =
+implementation of increased official fees, set to take effect from 11 =
+August 2025. These revised fees will apply retrospectively to both new =
+and pending applications, where official fees remain outstanding on or =
+after this date. * Bahrain: Bahrain and Japan Sign MoU to Launch PPH =
+Program, set to launch on January 1, 2026. | Bahrain PTO launched PPH =
+Pilot Programs with South Korea (effective January 15, 2025, for three =
+years) and the European Patent Office (commenced March 1, 2025, for an =
+initial two years). | Bahrain Patent Office recently signed a Memorandum =
+of Understanding (MOU) with the USPTO to implement the Patent =
+Prosecution Highway (PPH) system. Bahrain has signed a Patent =
+Prosecution Highway (PPH) Agreement with China. PPH pilot program =
+officially started on May 1, 2024, and will run for five years until =
+April 30, 2029. * Myanmar: Myanmar=E2=80=99s Patent Law 2019 came into =
+effect on 31 May 2024. However, it is important to note that patent =
+applications cannot yet be filed, as the issuance of patent forms and =
+fees remains pending. * Qatar: MOCI announced that it has started =
+accepting applications for industrial designs and models as of 26 =
+October 2025. | Qatar PTO has issued a significant clarification =
+regarding the payment of annuity fees. The Office has resumed accepting =
+annuity payments on all patent applications, irrespective of their =
+acceptance or grant status. This change overrules the previous policy =
+that deferred fees beyond the third year for pending applications. * =
+ARIPO: China National Intellectual Property Administration (CNIPA) has =
+recently introduced the China-Africa Patent Prosecution Highway (PPH) in =
+collaboration with the African Regional Intellectual Property =
+Organization (ARIPO). * Algeria: Algeria has introduced 19% VAT on =
+Official Fees associated with Intellectual Property Services. * Saudi =
+Arabia: Saudi Arabia recently joined the Hague Agreement for =
+International Design Registration | In accordance with the amended =
+Patent and Industrial Design Law, validity of industrial designs has =
+been extended from ten (10) to fifteen (15) years for all designs =
+submitted in 2013 and onwards. | Saudi Authority for Intellectual =
+Property (SAIP) has signed a Patent Prosecution Highway (PPH) Agreement =
+with Intellectual Property Office of Singapore (IPOS). This PPH Pilot =
+Program commenced on 12 September 2023 for a period of 2 years and will =
+end on 11 September 2025. From: =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =
+=D0=9A=D0=BE=D0=B7=D0=B8=D0=BD &lt;<a =
+href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a> &lt;mailto:<a =
+href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a>&gt; &lt;mailto:<a =
+href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a> &lt;mailto:<a =
+href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a>&gt; &gt; &gt; =
+Sent: Wednesday, 28 October 2026 9:42 am To: <a =
+href=3D"mailto:contact@unitedtm.com">contact@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:contact@unitedtm.com">contact@unitedtm.com</a>&gt; =
+&lt;mailto:<a =
+href=3D"mailto:contact@unitedtm.com">contact@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:contact@unitedtm.com">contact@unitedtm.com</a>&gt; &gt; =
+Subject: Urgent: UAE-authorized representative for two PBK PCT filings - =
+proposal by 29 October Dear Patent Team, I urgently seek a =
+UAE-authorized patent representative in Dubai to arrange and carry out =
+two international PCT filings for PBK ENGINEERING INTELLECTUAL PROPERTY =
+RIGHTS MANAGEMENT - FZCO, a Dubai UAE company, trade licence No. 38769. =
+Please route this inquiry to the practitioner responsible for =
+international patent filings. I am Mikhail Dmitrievich Kozin (Mikhail =
+Kozin in the patent records), the sole inventor and PBK's sole =
+shareholder and General Manager. I am a Russian citizen principally =
+resident in Sharjah, hold an Emirates ID and have Spanish permanent =
+residence. Please identify any conflict-check or onboarding documents =
+you require. Immediate scope: two PCT international applications, not =
+merely UAE national-phase entries: * Group 2: AI Pricing and Retail =
+Intelligence Platform, based on US provisional applications #1, #2, #8 =
+and #9. Earliest working priority date: December 11, 2025; priority =
+control deadline: December 11, 2026. Requested filing date: November 28, =
+2026. If weekend scheduling affects this date, please propose an earlier =
+working-day filing. * Group 1: Modular Cabinet Platform, based on US =
+provisional applications #3-7, involving mechanical, electronic and =
+software-controlled retail equipment. Earliest working priority date: =
+December 23, 2025; priority control deadline: December 23, 2026. =
+Requested filing date: December 3, 2026. Please independently verify the =
+dates and priority entitlement from the official records. PBK is the =
+intended sole applicant. PPA #10 is outside these two applications. =
+Subsequent project stages remain planned, but will be discussed after =
+these filings; separate simultaneous US or Russian national applications =
+are not part of the immediate request. Available materials include the =
+filed provisional specifications and drawings, USPTO receipts and =
+indexes, supplementary explanations, and an editable English draft for =
+Group 1 with claims and a 22-sheet drawing PDF prepared by former US =
+counsel. Group 2 needs full drafting. These are working materials, not =
+confirmation that nonprovisional applications have already been filed. =
+The documents can be supplied through an agreed secure channel after =
+conflict clearance and confirmation of confidentiality covering both PBK =
+and me. Please quote separately for: 1. UAE representation and actual =
+filing, coordinating with US drafting counsel whom we are considering =
+but have not yet engaged: final filing/formality checks, powers of =
+attorney, priority documents, ePCT submission, fee payment, filing =
+confirmations, forwarding notices and filing corrections. Please state =
+how much advance time you need to receive the final package. 2. Full =
+preparation and filing, if your team can undertake both groups, reusing =
+suitable existing work and coordinating any necessary specialists. I =
+require an end-to-end filing service and will not personally complete =
+ePCT forms or submit applications. I will provide technical =
+explanations, approve the agreed approach and sign documents genuinely =
+requiring my signature. Please provide: * The name, firm, UAE =
+registration number and evidence of authorization of the specific agent =
+who would act for PBK before WIPO/RO/IB, or explain another competent =
+route. Please confirm actual international-filing eligibility for this =
+UAE applicant, not only UAE national-phase experience. * The responsible =
+practitioner's technical experience and approximate number of similar =
+mechanical/electronic/software and PCT projects. * A fixed professional =
+fee for each application and option, with official filing/search fees, =
+drawings, translations, VAT and other expenses itemized separately. =
+Identify the proposed competent search authority and any estimates or =
+exclusions. * A dated preparation, review and filing schedule, a payment =
+schedule linked to deliverables, and a draft engagement agreement before =
+any deposit. * Clear allocation of responsibility between drafting =
+counsel and your filing agent, including deadline monitoring, notices =
+and free correction of errors attributable to the service providers. * =
+The documents required from PBK and me, including any powers of =
+attorney, ownership confirmations and current manager/registration =
+evidence. My discussions and comments are in Russian. Please state =
+whether you can provide Russian-language support and include the =
+required written translations in the fixed fee for the full-service =
+option. The proposed filing language is English. Completion of the =
+filing stage must include the complete filed documents, official =
+international application numbers and filing dates, priority particulars =
+and fee-payment confirmations. Please also identify and price support =
+through the international search report and written opinion. Please =
+acknowledge availability urgently and, if possible, provide the =
+proposal, named authorized representative, draft agreement, full cost =
+breakdown and schedule by October 29, 2026. If further material is =
+needed to quote, please send one consolidated list immediately. Any =
+chargeable preliminary assessment must first be quoted and approved in =
+writing. This is an urgent request for a proposal, not acceptance of an =
+engagement, authorization for paid work or an instruction to file =
+without subsequent agreement. Payments will be made only against =
+official organizational invoices; additional charges require prior =
+written approval. Kind regards, Mikhail Kozin PBK ENGINEERING =
+INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO Sharjah / Dubai, =
+UAE<o:p></o:p></span></p></blockquote></div></body></html>
+------=_NextPart_002_32B8_01DD6BA6.1E4BA500--
+
+------=_NextPart_001_32B7_01DD6BA6.1E4BA500
+Content-Type: image/png;
+	name="image002.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image002.png@01DD6BA5.3A2286A0>
+
+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
+
+------=_NextPart_001_32B7_01DD6BA6.1E4BA500
+Content-Type: image/png;
+	name="image003.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image003.png@01DD6BA5.3A2286A0>
+
+iVBORw0KGgoAAAANSUhEUgAAAO4AAAACCAMAAAEfsSB/AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAYUExURQAAAAGHUgOHUwCHTwKGUgGGUQB/TwCIURosvkwAAAAIdFJOUwC3QCC/nxA4
+TTINKQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAACJJREFUGFdjYGXBBxigNHbAiF8aP6BELwWAjYGZ
+aeQAdgYAGKcFmd4dJjwAAAAASUVORK5CYII=
+
+------=_NextPart_001_32B7_01DD6BA6.1E4BA500
+Content-Type: image/jpeg;
+	name="image004.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <image004.jpg@01DD6BA5.3A2286A0>
+
+/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIf
+IiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7
+Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAA9AIsDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2MdBx
+SZ56VEXIQjf83auM0/UtW0fxE1rrMplgvX/czj7gbsB6emKqxpCk5ptPb8TRPi5ITrLy2T40pSzB
+WBLj2rRstdW6uLu1kgaK5s41lkj3BgUYEqVI65wR+FYWv6W8cfiWS3ieVrqyTaka5YtyDj8hUljb
+3+lTXFtdW73zXysw1JB85IQ4SVe2Og28fQ0h1FHm93ay/I1tN1251Gytr46a0FrcRGXzZJl+RcZG
+RTF8Q3dxCLix0a5uLVuVk8xEZx/eVWOSPrisXSrO3k8LRaMn2+G9utOMB89JCkbbec54HNPudf1K
+LS4bCPS7611NZIYyFt/MiKhlDlXHy7dueuKRnY6BtftY7nUYZsxLp0aSTSvwuGBIx+VUJ/FT2dsL
+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
+
+------=_NextPart_001_32B7_01DD6BA6.1E4BA500
+Content-Type: image/png;
+	name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.png@01DD6BA5.EEDADE80>
+
+iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAAAXNSR0IArs4c6QAAAMxQTFRF//fY
+wMDA/9AT/9Qn/9g7/99iAAAAUlH/eHj/jIv/n57/xcX///Cw//PEBQT/LCv///TE//jY/++w//PF
+/+iJ//Cx/9ra/7+//7Gx/6Oj/4eH/3l5/9c7/+Bi/8/P/7Oz/6am/5iX/8TE/6in/5qa/4yM/3Fw
+/2Ji/62t/5GS/4SD/3V2/1pa/0xM/6Ki/4aG/3h3/2pq/05O/0FA/5aW/3p6/21t/15f/9AUn5//
+xsX/eXf/i4v//+iK/+eJeXj/eHf/UlL/LCr/Kyv/WLUWNgAAAAxjbVBQSkNtcDA3MTICAQEGiroU
+zgAAAAJ0Uk5T/wDltzBKAAAAgklEQVQYlV3PPQuCAAAEUB/UmGPg0tDUFA1GRj8/ISpwa2pqiHAL
+BJUkaSj7uu3BDXcEP9G533xMlAvVhacXe1GeZDqDJOu5fjlstdd3n7BWCMSwj+SLQ1MITMFRRXy3
+MQGnOLXcUhqDS5yC0gjnr71DUMzXkp3Z5rV/oFrdZMr/Pw/btSokYKUFFgAAAABJRU5ErkJggg==
+
+------=_NextPart_001_32B7_01DD6BA6.1E4BA500--
+
+------=_NextPart_000_32B6_01DD6BA6.1E4BA500
+Content-Type: application/msword;
+	name="NDA General.doc"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="NDA General.doc"
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAASgAAAAAAAAAA
+EAAATAAAAAEAAAD+////AAAAAEkAAAD/////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////s
+pcEAFwAJBAAA8BK/AAAAAAAAEAAAAAAACAAAvS0AAA4AYmpiagq1CrUAAAAAAAAAAAAAAAAAAAAA
+AAAJBBYARUkAAGjfe2to33trliUAAAAAAAAmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//w8AAAAA
+AAAAAAD//w8AAAAAAAAAAAD//w8AAAAAAAAAAAAAAAAAAAAAALcAAAAAAMIIAAAAAAAAwggAAFQW
+AAAEAAAAWBYAAAAAAABcFgAAAAAAAFwWAAAAAAAAXBYAABQAAAAAAAAAAAAAAP////8AAAAAcBYA
+AAAAAABwFgAAAAAAAHAWAAA4AAAAqBYAAEwAAAD0FgAAJAAAAHAWAAAAAAAAqSEAAAoCAAAYFwAA
+AAAAABgXAAAiAAAAOhcAAAAAAAA6FwAAAAAAADoXAAAAAAAAFRgAAAAAAAAVGAAAAAAAABUYAAAA
+AAAATCEAAAIAAABOIQAAAAAAAE4hAAAAAAAATiEAAAAAAABOIQAAAAAAAE4hAAAAAAAATiEAAAAA
+AACzIwAAtgIAAGkmAABiAAAATiEAABUAAAAAAAAAAAAAAAAAAAAAAAAAXBYAAAAAAAAVGAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAVGAAAAAAAABUYAAAAAAAAFRgAAAAAAAAVGAAAAAAAAE4hAAAAAAAA
+AAAAAAAAAABYFgAABAAAAFwWAAAAAAAAOhcAAAAAAAAAAAAAAAAAADoXAADbAAAAYyEAABYAAADR
+GgAAAAAAANEaAAAAAAAA0RoAAAAAAAAVGAAAXgAAAFwWAAAAAAAAOhcAAAAAAABcFgAAAAAAADoX
+AAAAAAAATCEAAAAAAAAAAAAAAAAAANEaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAFRgAAAAAAABMIQAAAAAAAAAAAAAAAAAA0RoAAAAAAADRGgAA
+OgAAAJAdAACQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWCAAAAAAAAA6FwAAAAAAAP////8AAAAAsB28IINr
+3QEAAAAAAAAAAP////8AAAAAcxgAAFIAAAAgIAAACgAAAAAAAAAAAAAAOCEAABQAAAB5IQAAMAAA
+AKkhAAAAAAAAKiAAAC4AAADLJgAAAAAAAMUYAAAMAQAAyyYAABQAAABYIAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAMsmAAAAAAAAAAAAAAAAAABcFgAAAAAAAFggAADgAAAAFRgAAAAAAAAVGAAAAAAAANEa
+AAAAAAAAFRgAAAAAAAAVGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFRgA
+AAAAAAAVGAAAAAAAABUYAAAAAAAATiEAAAAAAABOIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAA0RkAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUYAAAA
+AAAAFRgAAAAAAAAVGAAAAAAAAKkhAAAAAAAAFRgAAAAAAAAVGAAAAAAAABUYAAAAAAAAFRgAAAAA
+AAAAAAAAAAAAAP////8AAAAA/////wAAAAD/////AAAAAAAAAAAAAAAA/////wAAAAD/////AAAA
+AP////8AAAAA/////wAAAAD/////AAAAAP////8AAAAA/////wAAAAD/////AAAAAP////8AAAAA
+/////wAAAAD/////AAAAAP////8AAAAA/////wAAAAD/////AAAAAMsmAAAAAAAAFRgAAAAAAAAV
+GAAAAAAAABUYAAAAAAAAFRgAAAAAAAAVGAAAAAAAABUYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVGAAAAAAAABUYAAAAAAAAFRgA
+AAAAAADCCAAAWAwAABoVAAA6AQAABQASAQAACQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE5PTi1E
+SVNDTE9TVVJFIEFHUkVFTUVOVA1UaGlzIE5vbi0gRGlzY2xvc3VyZSBBZ3JlZW1lbnQgZW50ZXJl
+ZCBpbnRvIG9uIHRoaXMgMDMgZGF5IG9mIE5vdmVtYmVyLCAyMDI2IGdvdmVybnMgdGhlIGRpc2Ns
+b3N1cmUgb2YgaW5mb3JtYXRpb24gYnkgTWlraGFpbCBLb3ppbiBhbmQgUEJLIEVOR0lORUVSSU5H
+IElOVEVMTEVDVFVBTCBQUk9QRVJUWSBSSUdIVFMgTUFOQUdFTUVOVCAtIEZaQ08sIER1YmFpLCBV
+QUUgaGF2aW5nIGl0cy9oaXMvaGVyIGFkZHJlc3MgYXQgRlpBIEJ1c2luZXNzIFBhcmssIEREUCwg
+UE8gQm94IDM0MjAwMSwgRHViYWksIFVBRSByZWZlcnJlZCB0byBhcyCRRGlzY2xvc2luZyBQYXJ0
+eZIgYW5kIFVuaXRlZCBUcmFkZW1hcmsgJiBQYXRlbnQgU2VydmljZXMgd2hvc2UgYWRkcmVzcyBp
+cyBhdCBBbCBIYXdhaSBUb3dlciwgU2guIFpheWVkIFJvYWQgaGVyZWluYWZ0ZXIgcmVmZXJyZWQg
+dG8gYXMgkVJlY2VpdmluZyBQYXJ0eZIgY29uY2VybmluZyBDb25maWRlbnRpYWwgaW5mb3JtYXRp
+b24gcGVydGFpbmluZyB0byB0aGUgZm9sbG93aW5nOg1BdXRvbm9tb3VzIFJldGFpbCBUZWNobm9s
+b2dpZXMsIE1vZHVsYXIgU21hcnQgQ2FiaW5ldCBTeXN0ZW1zLCBBSS1Ecml2ZW4gUHJpY2luZywg
+SW52ZW50b3J5IE1hbmFnZW1lbnQgYW5kIFJlbGF0ZWQgUGF0ZW50IEFwcGxpY2F0aW9ucw0NQXMg
+dXNlZCBoZXJlaW4sIJNDb25maWRlbnRpYWwgSW5mb3JtYXRpb26UIHNoYWxsIG1lYW4gYW55IGFu
+ZCBhbGwgdGVjaG5pY2FsLCBub24tdGVjaG5pY2FsLCBtYW51ZmFjdHVyaW5nIG9yIG1hcmtldGlu
+ZyBpbmZvcm1hdGlvbiBwcm92aWRlZCBieSB0aGUgRGlzY2xvc2luZyBQYXJ0eSB0byB0aGUgUmVj
+ZWl2aW5nIFBhcnR5LCBpbmNsdWRpbmcgYnV0IG5vdCBsaW1pdGVkIHRvIHBhdGVudHMsIHByb3Zp
+c2lvbmFsIHBhdGVudHMgYW5kIHBhdGVudCBhcHBsaWNhdGlvbnMsIHRyYWRlIHNlY3JldHMsIGtu
+b3cgaG93LCBwcm9wcmlldGFyeSBpbmZvcm1hdGlvbiwgdHJhZGUgbWFya3MsIGlkZWFzLCB0ZWNo
+bmlxdWVzLCBkZXNpZ25zLCBza2V0Y2hlcywgZHJhd2luZ3MsIHdvcmtzIG9mIGF1dGhvcnNoaXAs
+IG1hc2sgd29ya3MsIG1vZGVscywgaW52ZW50aW9ucywgcHJvY2Vzc2VzLCBhcHBhcmF0dXNlcywg
+ZXF1aXBtZW50LCBhbGdvcml0aG1zLCBwcm9ncmFtcywgc291cmNlIGRvY3VtZW50cywgYW5kIGZv
+cm11bGFlIHJlbGF0ZWQgdG8gdGhlIGN1cnJlbnQsIGZ1dHVyZSwgYW5kIHByb3Bvc2VkIHByb2R1
+Y3RzIGFuZCBzZXJ2aWNlcyBvZiB0aGUgRGlzY2xvc2luZyBQYXJ0eSwgYW5kIGluY2x1ZGluZywg
+d2l0aG91dCBsaW1pdGF0aW9uLCB0aGUgcmVzcGVjdGl2ZSBpbmZvcm1hdGlvbiBjb25jZXJuaW5n
+IHJlc2VhcmNoLCBleHBlcmltZW50YWwgd29yaywgZGV2ZWxvcG1lbnQsIGRlc2lnbiBkZXRhaWxz
+IGFuZCBzcGVjaWZpY2F0aW9ucywgZmluYW5jaWFsIGluZm9ybWF0aW9uLCBwcm9jdXJlbWVudCBy
+ZXF1aXJlbWVudHMsIHB1cmNoYXNpbmcsIG1hbnVmYWN0dXJpbmcsICBmb3JtdWxhcywgbWFya2V0
+aW5nIGluZm9ybWF0aW9uLCBjdXN0b21lciBsaXN0cywgaW52ZXN0b3JzLCBlbXBsb3llZXMsIGJ1
+c2luZXNzIGFuZCBjb250cmFjdHVhbCByZWxhdGlvbnNoaXBzLCBidXNpbmVzcyBmb3JlY2FzdHMs
+IHNhbGVzIGFuZCBtZXJjaGFuZGlzaW5nLCBtYXJrZXRpbmcgcGxhbnMgYW5kIGluZm9ybWF0aW9u
+IHRoYXQgdGhlIERpc2Nsb3NpbmcgUGFydHkgcHJvdmlkZXMgdG8gdGhlIFJlY2VpdmluZyBQYXJ0
+eS4NQWxsIGluZm9ybWF0aW9uIHJlbGF5ZWQgYnkgdGhlIERpc2Nsb3NpbmcgUGFydHkgaW4gYW55
+IGZvcm0gd2hhdHNvZXZlciBpbmNsdWRpbmcgb3JhbGx5LCB2aXN1YWxseSBhbmQvIG9yIGluIHdy
+aXRpbmcgd2hldGhlciBlbWJvZGllZCBpbiB0YW5naWJsZSBtYXRlcmlhbCAoaW5jbHVkaW5nIHdp
+dGhvdXQgbGltaXRhdGlvbiwgc29mdHdhcmUsIGhhcmR3YXJlLCBkcmF3aW5ncywgZ3JhcGhzLCBj
+aGFydHMsIGRpc2tzLCB0YXBlcywgcHJvdG90eXBlcyBhbmQgc2FtcGxlcyksIGZvcm11bGFzLCBp
+bmdyZWRpZW50cywgc2FtcGxlcywgc2hhbGwgYmUgdHJlYXRlZCBhcyCTQ29uZmlkZW50aWFslCBi
+eSB0aGUgUmVjZWl2aW5nIFBhcnR5LCB3aGV0aGVyIG9yIG5vdCBzcGVjaWZpY2FsbHkgbWFya2Vk
+IGFzIJNDb25maWRlbnRpYWyULiANVGhlIFJlY2VpdmluZyBQYXJ0eSBhZ3JlZXMgdGhhdCBhdCBh
+bGwgdGltZXMgYW5kIG5vdHdpdGhzdGFuZGluZyBhbnkgdGVybWluYXRpb24gb3IgZXhwaXJhdGlv
+biBvZiB0aGlzIEFncmVlbWVudCBpdCB3aWxsIGhvbGQgaW4gc3RyaWN0IGNvbmZpZGVuY2UgYW5k
+IG5vdCBkaXNjbG9zZSBhbnkgY29uZmlkZW50aWFsIGluZm9ybWF0aW9uIHRvIGFueSB0aGlyZCBQ
+YXJ0eSwgZXhjZXB0IGFzIGFwcHJvdmVkIGluIHdyaXRpbmcgYnkgdGhlIERpc2Nsb3NpbmcgUGFy
+dHksIGFuZCB3aWxsIHVzZSB0aGUgQ29uZmlkZW50aWFsIEluZm9ybWF0aW9uIGZvciBubyBwdXJw
+b3NlIG90aGVyIHRoYW4gZXZhbHVhdGluZyBvciBwdXJzdWluZyBhIGJ1c2luZXNzIHJlbGF0aW9u
+c2hpcCB3aXRoIHRoZSBEaXNjbG9zaW5nIFBhcnR5LiAgVGhlIFJlY2VpdmluZyBQYXJ0eSBzaGFs
+bCBvbmx5IHBlcm1pdCBhY2Nlc3MgdG8gdGhlIENvbmZpZGVudGlhbCBJbmZvcm1hdGlvbiB0byB0
+aG9zZSBvZiBpdHMgZW1wbG95ZWVzIG9yIGF1dGhvcml6ZWQgcmVwcmVzZW50YXRpdmVzIGhhdmlu
+ZyBhIG5lZWQgdG8ga25vdyBzdWNoIGluZm9ybWF0aW9uIGluIG9yZGVyIHRvIGNhcnJ5IG91dCB0
+aGUgYWZvcmVtZW50aW9uZWQgYnVzaW5lc3MgcmVsYXRpb25zaGlwIGFuZCB3aG8gaGF2ZSBzaWdu
+ZWQgY29uZmlkZW50aWFsaXR5IGFncmVlbWVudHMgb3IgYXJlIG90aGVyd2lzZSBib3VuZCBieSBj
+b25maWRlbnRpYWxpdHkgb2JsaWdhdGlvbnMgYXQgbGVhc3QgYXMgcmVzdHJpY3RpdmUgYXMgdGhv
+c2UgY29udGFpbmVkIGhlcmVpbi4NVGhlIFJlY2VpdmluZyBQYXJ0eSBzaGFsbCBpbW1lZGlhdGVs
+eSBub3RpZnkgdGhlIERpc2Nsb3NpbmcgUGFydHkgdXBvbiBkaXNjb3Zlcnkgb2YgYW55IGxvc3Mg
+b3IgdW5hdXRob3JpemVkIGRpc2Nsb3N1cmUgb2YgdGhlIENvbmZpZGVudGlhbCBJbmZvcm1hdGlv
+bi4gDVRoZSBSZWNlaXZpbmcgUGFydHmScyBvYmxpZ2F0aW9ucyB1bmRlciB0aGlzIEFncmVlbWVu
+dCB3aXRoIHJlc3BlY3QgdG8gYW55IHBvcnRpb24gb2YgdGhlIENvbmZpZGVudGlhbCBJbmZvcm1h
+dGlvbiBzaGFsbCB0ZXJtaW5hdGUgd2hlbiB0aGUgUmVjZWl2aW5nIFBhcnR5IGNhbiBkb2N1bWVu
+dCB0aGF0IChhKSB0aGUgY29uZmlkZW50aWFsIGluZm9ybWF0aW9uIGVudGVyZWQgdGhlIHB1Ymxp
+YyBkb21haW4gc3Vic2VxdWVudCB0byB0aGUgdGltZSBpdCB3YXMgY29tbXVuaWNhdGVkIHRvIHRo
+ZSBSZWNlaXZpbmcgUGFydHkgdGhyb3VnaCBubyBmYXVsdCBvZiB0aGUgUmVjZWl2aW5nIFBhcnR5
+OyAoYikgaXQgd2FzIGluIHRoZSCRUmVjZWl2aW5nIFBhcnR5knMgIHBvc3Nlc3Npb24gZnJlZSBv
+ZiBhbnkgb2JsaWdhdGlvbiBvZiBjb25maWRlbmNlIGF0IHRoZSB0aW1lIGl0IHdhcyBjb21tdW5p
+Y2F0ZWQgdG8gdGhlIFJlY2VpdmluZyBQYXJ0eTsgKGMpIGl0IHdhcyBkZXZlbG9wZWQgYnkgZW1w
+bG95ZWVzIG9yIGFnZW50cyBvZiB0aGUgUmVjZWl2aW5nIFBhcnR5IGluZGVwZW5kZW50bHkgb2Yg
+YW5kIHdpdGhvdXQgcmVmZXJlbmNlIHRvIGFueSBpbmZvcm1hdGlvbiBjb21tdW5pY2F0ZWQgdG8g
+dGhlIFJlY2VpdmluZyBQYXJ0eTsgKGUpIGl0IHdhcyBjb21tdW5pY2F0ZWQgYnkgdGhlIERpc2Ns
+b3NpbmcgUGFydHkgdG8gYW4gdW5hZmZpbGlhdGVkIHRoaXJkIFBhcnR5IGZyZWUgb2YgYW55IG9i
+bGlnYXRpb24gb2YgY29uZmlkZW5jZS4gSW4gYWRkaXRpb24sIHRoZSBSZWNlaXZpbmcgUGFydHkg
+bWF5IGRpc2Nsb3NlIHRoZSBDb25maWRlbnRpYWwgSW5mb3JtYXRpb24gaW4gcmVzcG9uc2UgdG8g
+YSB2YWxpZCBvcmRlciBieSBhIGNvdXJ0IG9mIGxhdyBvciBvdGhlciBnb3Zlcm5tZW50YWwgYm9k
+eSwgcHJvdmlkZWQgdGhhdCB0aGUgUmVjZWl2aW5nIFBhcnR5IGdpdmVzIHRoZSBEaXNjbG9zaW5n
+IFBhcnR5IHByaW9yIHdyaXR0ZW4gbm90aWNlIG9mIHN1Y2ggZGlzY2xvc3VyZSBpbiBvcmRlciB0
+byBwZXJtaXQgdGhlIERpc2Nsb3NpbmcgUGFydHkgdG8gc2VlayBjb25maWRlbnRpYWwgdHJlYXRt
+ZW50IG9mIHN1Y2ggaW5mb3JtYXRpb24uIA1VcG9uIHRlcm1pbmF0aW9uIG9yIGV4cGlyYXRpb24g
+b2YgdGhlIEFncmVlbWVudCwgYW5kL29yIHVwb24gd3JpdHRlbiByZXF1ZXN0IGJ5IHRoZSBEaXNj
+bG9zaW5nIFBhcnR5LCB0aGUgUmVjZWl2aW5nIFBhcnR5IHNoYWxsIHByb21wdGx5IHJldHVybiBh
+bGwgZG9jdW1lbnRzIGFuZCBvdGhlciB0YW5naWJsZSBtYXRlcmlhbHMgY29udGFpbmluZyB0aGUg
+Q29uZmlkZW50aWFsIEluZm9ybWF0aW9uIGFuZCBhbGwgY29waWVzIHRoZXJlb2YuDVRoZSBSZWNl
+aXZpbmcgUGFydHkgcmVjb2duaXplcyBhbmQgYWdyZWVzIHRoYXQgbm90aGluZyBjb250YWluZWQg
+aW4gdGhpcyBBZ3JlZW1lbnQgc2hhbGwgYmUgY29uc3RydWVkIGFzIGdyYW50aW5nIGFueSBwcm9w
+ZXJ0eSByaWdodHMsIGJ5IGxpY2Vuc2Ugb3Igb3RoZXJ3aXNlLCB0byBhbnkgQ29uZmlkZW50aWFs
+IEluZm9ybWF0aW9uIGRpc2Nsb3NlZCBwdXJzdWFudCB0byB0aGlzIEFncmVlbWVudCwgb3IgdG8g
+YW55IGludmVudGlvbiBvciBhbnkgcHJvdmlzaW9uYWwgcGF0ZW50LCBwYXRlbnQsIGNvcHlyaWdo
+dCwgZGVzaWduLCB0cmFkZW1hcmssIG9yIG90aGVyIGludGVsbGVjdHVhbCBwcm9wZXJ0eSByaWdo
+dHMgaW5jbHVkaW5nIHRyYWRlIHNlY3JldHMsIGZvcm11bGFzLCBpbmdyZWRpZW50cywgbWFya2V0
+aW5nIHRlY2huaXF1ZXMgYW5kIGJ1c2luZXNzIGlkZWFzIHRoYXQgaGF2ZSBiZWVuIHJlZ2lzdGVy
+ZWQgb3IgdGhhdCBtYXkgb3IgbWF5IG5vdCBiZSByZWdpc3RlcmVkLCBiYXNlZCBvbiBzdWNoIENv
+bmZpZGVudGlhbCBJbmZvcm1hdGlvbi4gIFRoZSBSZWNlaXZpbmcgUGFydHkgc2hhbGwgbm90IG1h
+a2UsIHVzZSBvciBzZWxsIGZvciBhbnkgcHVycG9zZSBhbnkgcHJvZHVjdCwgYnVzaW5lc3MgbWV0
+aG9kLCBpZGVhIG9yIG90aGVyIGl0ZW0gdXNpbmcsIGluY29ycG9yYXRpbmcgb3IgZGVyaXZpbmcg
+ZnJvbSBhbnkgb3IgYWxsIG9mIHRoZSBDb25maWRlbnRpYWwgSW5mb3JtYXRpb24uIJNJbnRlbGxl
+Y3R1YWwgUHJvcGVydHmUIHNoYWxsIG1lYW4gaW50ZWxsZWN0dWFsIHByb3BlcnR5IGluY2x1ZGlu
+ZyBidXQgbm90IGxpbWl0ZWQgdG8gcGF0ZW50cywgcmlnaHRzIHRvIGludmVudGlvbnMsIGNvcHly
+aWdodHMgaW5jbHVkaW5nIGJ1dCBub3QgbGltaXRlZCB0byBhbGwgcmVsYXRlZCByaWdodHMgc3Vj
+aCBhcyBtb3JhbCByaWdodHMsIHRyYWRlbWFya3MsIHRyYWRlIG5hbWVzLCBkb21haW4gbmFtZXMs
+IGRlc2lnbnMsIGVuZ2luZWVyaW5nIGRyYXdpbmdzLCB3aGV0aGVyIGluIDItRCBvciAzLUQgZm9y
+bSwgYWxsIGFydHdvcmtzIGFuZC8gb3IgZGVzaWduIHJlbGF0aW5nIHRvIGFueSBwcm9kdWN0cyB3
+aGV0aGVyIHJlZ2lzdGVyZWQgYW5kLyBvciBwZW5kaW5nIGFwcGxpY2F0aW9uLCBhcyB3ZWxsIGFz
+IGFueSBhbmQgYWxsIGNvbW1vbiBsYXcgcmlnaHRzLCBpbmNsdWRpbmcgYWxsIGFtZW5kbWVudHMs
+IG1vZGlmaWNhdGlvbnMsIGFkYXB0YXRpb25zLCBhYnJpZGdlbWVudHMsIHJlcHJvZHVjdGlvbnMg
+YW5kIGFwcGxpY2F0aW9ucyBvZiB0aGUgc2FpZCBkcmF3aW5ncy8gYXJ0d29ya3MgYW5kLyBvciBk
+ZXNpZ25zLCB0cmFkZSBzZWNyZXRzLCBrbm93IGhvdyAgYW5kLyBvciBhbnkgY29uZmlkZW50aWFs
+IG9yIHByb3ByaWV0YXJ5IGluZm9ybWF0aW9uLiANDUNvbmZpZGVudGlhbCBJbmZvcm1hdGlvbiBz
+aGFsbCBub3QgYmUgcmVwcm9kdWNlZCBpbiBhbnkgZm9ybSBleGNlcHQgYXMgcmVxdWlyZWQgdG8g
+YWNjb21wbGlzaCB0aGUgaW50ZW50IG9mIHRoaXMgQWdyZWVtZW50LiAgQW55IHJlcHJvZHVjdGlv
+biBvciB1c2FnZSBvZiBhbnkgQ29uZmlkZW50aWFsIEluZm9ybWF0aW9uIGJ5IHRoZSBSZWNlaXZp
+bmcgUGFydHkgc2hhbGwgcmVtYWluIHRoZSBwcm9wZXJ0eSBvZiB0aGUgRGlzY2xvc2luZyBQYXJ0
+eSBhbmQgc2hhbGwgY29udGFpbiBhbnkgYW5kIGFsbCBjb25maWRlbnRpYWwgb3IgcHJvcHJpZXRh
+cnkgbm90aWNlcyBvciBsZWdlbmRzIHdoaWNoIGFwcGVhciBvbiB0aGUgb3JpZ2luYWwsIHVubGVz
+cyBvdGhlcndpc2UgYXV0aG9yaXplZCBpbiB3cml0aW5nIGJ5IHRoZSBEaXNjbG9zaW5nIFBhcnR5
+LiANVGhpcyBBZ3JlZW1lbnQgc2hhbGwgdGVybWluYXRlIHVwb24gYSBub3RpY2UgaW4gd3JpdGlu
+ZyBieSBlaXRoZXIgUGFydHkuIFRoZSBSZWNlaXZpbmcgUGFydHmScyBvYmxpZ2F0aW9ucyB1bmRl
+ciB0aGlzIEFncmVlbWVudCBzaGFsbCBzdXJ2aXZlIHRlcm1pbmF0aW9uIG9mIHRoZSBBZ3JlZW1l
+bnQgYmV0d2VlbiB0aGUgcGFydGllcyBhbmQgc2hhbGwgYmUgYmluZGluZyB1cG9uIHRoZSBSZWNl
+aXZpbmcgUGFydHmScyBoZWlycywgc3VjY2Vzc29ycyBhbmQgYXNzaWduZWVzLiBUaGUgUmVjZWl2
+aW5nIFBhcnR5knMgb2JsaWdhdGlvbnMgaGVyZXVuZGVyIHNoYWxsIGNvbnRpbnVlIGluIGZ1bGwg
+Zm9yY2UgYW5kIGVmZmVjdCB3aXRoIHJlc3BlY3QgdG8gbm9uLXRlY2huaWNhbCBzYWxlcywgbWFy
+a2V0aW5nLCBhbmQgZmluYW5jaWFsIENvbmZpZGVudGlhbCBJbmZvcm1hdGlvbiBmb3Igc2V2ZW4g
+KDcpIHllYXIocykgZnJvbSB0aGUgZGF0ZSBvZiBkaXNjbG9zdXJlIG9mIHN1Y2ggQ29uZmlkZW50
+aWFsIEluZm9ybWF0aW9uLiAgVGhlIJFSZWNlaXZpbmcgUGFydHmSc5Igb2JsaWdhdGlvbnMgd2l0
+aCByZXNwZWN0IHRvIGFsbCBUZWNobmljYWwgQ29uZmlkZW50aWFsIEluZm9ybWF0aW9uIHNoYWxs
+IGJlIHRlcm1pbmF0ZWQgb25seSBwdXJzdWFudCB0byBQYXJhIDUuIJNUZWNobmljYWwgQ29uZmlk
+ZW50aWFsIEluZm9ybWF0aW9ulCBpbmNsdWRlcyBhbGwgc3VjaCBjb25maWRlbnRpYWwgaW5mb3Jt
+YXRpb24gdGhhdCBpcyBwcm90ZWN0ZWQgYnkgSW50ZWxsZWN0dWFsIFByb3BlcnR5IExhdyBhbmQg
+aXMgbmVjZXNzYXJ5IHRvIGNhcnJ5IG91dCBhbnkgYnVzaW5lc3MgYWN0aXZpdGllcyByZWxhdGVk
+IHRvIHRoZSBDb25maWRlbnRpYWwgSW5mb3JtYXRpb24uIA1UaGlzIEFncmVlbWVudCBzaGFsbCBi
+ZSBnb3Zlcm5lZCBieSBhbmQgY29uc3RydWVkIGluIGFjY29yZGFuY2Ugd2l0aCB0aGUgbGF3cyBv
+ZiB0aGUgVW5pdGVkIEFyYWIgRW1pcmF0ZXMuIEFueSBhY3Rpb24sIHN1aXQgb3Igb3RoZXIgcHJv
+Y2VlZGluZyBwdXJzdWFudCB0bywgYXJpc2luZyB1bmRlciwgb3IgY29uY2VybmluZyB0aGlzIEFn
+cmVlbWVudCBvciB0aGUgdHJhbnNhY3Rpb25zIGNvbnRlbXBsYXRlZCBoZXJlaW4gc2hhbGwgYmUg
+YnJvdWdodCBpbiB0aGUgY29tcGV0ZW50IGF1dGhvcml0eS4gVGhlIFJlY2VpdmluZyBQYXJ0eSBo
+YXMgYWdyZWVkIGZvciB0aGUgZXhjbHVzaXZlIGp1cmlzZGljdGlvbiB0byBiZSBpbiB0aGUgVW5p
+dGVkIEFyYWIgRW1pcmF0ZXMuICBUaGUgUmVjZWl2aW5nIFBhcnR5IGhhcyBhZ3JlZWQgdG8gdGFr
+ZSBhbnkgYW5kIGFsbCBuZWNlc3Nhcnkgb3IgYXBwcm9wcmlhdGUgYWN0aW9uIHRvIHN1Ym1pdCB0
+byB0aGUganVyaXNkaWN0aW9uIGFuZCB2ZW51ZSBhcyBzYWlkIGFib3ZlLiBUaGUgUmVjZWl2aW5n
+IFBhcnR5IGFncmVlcyB0aGF0IGluIHRoZSBldmVudCBvZiBhbnkgdmlvbGF0aW9uIG9yIHRocmVh
+dGVuZWQgdmlvbGF0aW9uIG9mIHRoaXMgQWdyZWVtZW50IHRoZSBEaXNjbG9zaW5nIFBhcnR5IHNo
+YWxsIGJlIGF1dGhvcml6ZWQgYW5kIGVudGl0bGVkIHRvIG9idGFpbiBwcmVsaW1pbmFyeSBhbmQg
+cGVybWFuZW50IGluanVuY3RpdmUgcmVsaWVmIGFzIHdlbGwgYXMgYW4gZXF1aXRhYmxlIGFjY291
+bnRpbmcgb2YgYWxsIHByb2ZpdHMgb3IgYmVuZWZpdHMgYXJpc2luZyBmcm9tIHN1Y2ggdmlvbGF0
+aW9uLCB3aXRoIG90aGVyIHJpZ2h0cyBvciByZW1lZGllcyBhdCBsYXcgb3IgaW4gZXF1aXR5IHRv
+IHdoaWNoIHRoZSBEaXNjbG9zaW5nIFBhcnR5IG1heSBiZSBlbnRpdGxlZC4NVGhlIFJlY2Vpdmlu
+ZyBQYXJ0eSBhY2tub3dsZWRnZXMgdGhhdCBpdHMgYnJlYWNoIG9mIHRoaXMgQWdyZWVtZW50IHdp
+bGwgY2F1c2UgaXJyZXBhcmFibGUgZGFtYWdlIGFuZCBoZXJlYnkgYWdyZWVzIHRoYXQgdGhlIERp
+c2Nsb3NpbmcgUGFydHkgc2hhbGwgYmUgZW50aXRsZWQgdG8gc2VlayBpbmp1bmN0aXZlIHJlbGll
+ZiB1bmRlciB0aGlzIEFncmVlbWVudCwgYXMgd2VsbCBhcyBzdWNoIGZ1cnRoZXIgcmVsaWVmIGFz
+IG1heSBiZSBncmFudGVkIGJ5IGEgY291cnQgb2YgY29tcGV0ZW50IGp1cmlzZGljdGlvbi4NSWYg
+YW55IHByb3Zpc2lvbiBvZiB0aGlzIEFncmVlbWVudCBpcyBmb3VuZCBieSBhIHByb3BlciBhdXRo
+b3JpdHkgdG8gYmUgdW5lbmZvcmNlYWJsZSBvciBpbnZhbGlkIHN1Y2ggdW5lbmZvcmNlYWJpbGl0
+eSBvciBpbnZhbGlkaXR5IHNoYWxsIG5vdCByZW5kZXIgdGhpcyBBZ3JlZW1lbnQgdW5lbmZvcmNl
+YWJsZSBvciBpbnZhbGlkIGFzIGEgd2hvbGUgYW5kIGluIHN1Y2ggZXZlbnQsIHN1Y2ggcHJvdmlz
+aW9uIHNoYWxsIGJlIGNoYW5nZWQgYW5kIGludGVycHJldGVkIHNvIGFzIHRvIGJlc3QgYWNjb21w
+bGlzaCB0aGUgb2JqZWN0aXZlcyBvZiBzdWNoIHVuZW5mb3JjZWFibGUgb3IgaW52YWxpZCBwcm92
+aXNpb24gd2l0aGluIHRoZSBsaW1pdHMgb2YgYXBwbGljYWJsZSBsYXcgb3IgYXBwbGljYWJsZSBj
+b3VydCBkZWNpc2lvbnMuDVRoZSBSZWNlaXZpbmcgUGFydHkgc2hhbGwgbm90IGNvbW11bmljYXRl
+IGFueSBpbmZvcm1hdGlvbiBpbiB2aW9sYXRpb24gb2YgdGhlIHByb3ByaWV0YXJ5IHJpZ2h0cyBv
+ZiBhbnkgdGhpcmQgcGFydHkuDVRoZSBSZWNlaXZpbmcgUGFydHkgc2hhbGwgbm90IGFzc2lnbiBv
+ciB0cmFuc2ZlciBhbnkgcmlnaHRzIG9yIG9ibGlnYXRpb25zIHVuZGVyIHRoaXMgQWdyZWVtZW50
+IHdpdGhvdXQgdGhlIHByaW9yIHdyaXR0ZW4gY29uc2VudCBvZiB0aGUgRGlzY2xvc2luZyBQYXJ0
+eS4NSXQgaXMgZXhwbGljaXRseSBhZ3JlZWQgYW5kIHVuZGVyc3Rvb2QgYnkgdGhlIHBhcnRpZXMg
+aGVyZWluIHRoYXQgdGhpcyBhZ3JlZW1lbnQgc2hhbGwgYmUgZGVlbWVkIHRvIGJlIGVmZmVjdGl2
+ZSBmcm9tIB8fHx9fX19fIG9mIF9fX19fX19fX19fX19fX19fIFtZZWFyXS4NSW4gV2l0bmVzcyBX
+aGVyZW9mLCB0aGUgUmVjZWl2aW5nIFBhcnR5IGhlcmV0byBoYXZlIGNhdXNlZCB0aGlzIE5vbi1E
+aXNjbG9zdXJlIEFncmVlbWVudCB0byBiZSBleGVjdXRlZCBhcyBvZiB0aGUgRWZmZWN0aXZlIERh
+dGUuDQ0NDQ1CeTogIAlfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
+X18gDQlEaXNjbG9zaW5nIFBhcnR5DQ0NDUJ5OiAgCV9fX19fX19fX19fX19fX19fX19fX19fX19f
+X19fX19fX19fX19fX19fX19fXw0JUmVjZWl2aW5nIFBhcnR5DQ0NDQ1EYXRlOiAJX19fX19fX19f
+X19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fICAgDQ0DDQ0EDQ0DDQ0EDQ0TUEFH
+RSAgFQ0NDRNQQUdFICAUMRUNIA0NDQ0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAABgIAAAZCAAAOAgAAEwIAABNCAAA
+TwgAAFYIAABfCAAAYQgAAGUIAACOCAAAjwgAAJwIAAChCAAA6wgAAOwIAAD2CAAA/ggAAP8IAAAG
+CQAACgkAADsJAADs2sa1p5aniKeItYhzYUyItT61PrVMAAAAAAAAAAAAABoWaNgerQBAiP7/Q0oU
+AE9KAgBRSgIAXkoCAAAoFWgvQxQAFmgvQxQAQIj+/0NKFABPSgIAUUoCAF5KAgBtSAlMc0gJTAAi
+Fmg8BnoAQIj+/0NKFABPSgIAUUoCAF5KAgBtSAlMc0gJTAAoFWg8BnoAFmg8BnoAQIj+/0NKFABP
+SgIAUUoCAF5KAgBtSAlMc0gJTAAaFmgvQxQAQIj+/0NKFABPSgIAUUoCAF5KAgAAIRZoL0MUAENK
+FABPSgIAUUoCAFwIgV5KAgBtSAkIc0gJCBoWaF8WpwBAiP7/Q0oUAE9KAgBRSgIAXkoCAAAgFWjf
+Fj0AFmi1LKMAQIj+/0NKFABPSgIAUUoCAF5KAgAAJhVo3xY9ABZotSyjADUIgToIgUCI/v9DShQA
+T0oCAFFKAgBeSgIAACMVaN8WPQAWaLUsowA+KgFAiP7/Q0oUAE9KAgBRSgIAXkoCACYVaN8WPQAW
+aLUsowA1CIE+KgFAiP3/Q0oUAE9KAgBRSgIAXkoCABYACAAAGQgAACYKAACtCgAArgoAAO8OAACQ
+EAAArhMAAEgUAACZGAAAlBkAABIfAAATHwAA8AAAAAAAAAAAAAAAAOIAAAAAAAAAAAAAAADQAAAA
+AAAAAAAAAAAAvgAAAAAAAAAAAAAAALQAAAAAAAAAAAAAAACnAAAAAAAAAAAAAAAAnQAAAAAAAAAA
+AAAAAJMAAAAAAAAAAAAAAACTAAAAAAAAAAAAAAAAiQAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAABw
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKEgANxgUAAWgBABSkPABnZHYeJwAOEgAKJgAL
+RgMADcYFAAFoAQAUpDwAZ2S1LKMAChAACiYAC0YDABSk8ABnZHYeJwAKEAAKJgALRgMAFKTwAGdk
+cUJkAAoQAAomAAtGAQAUpPAAZ2R2HicADQAAAyQDCiYAC0YBABSk8ABhJANnZHYeJwAKEAAKJgAL
+RgEAFKTwAGdk2B6tAAARAAADJAENxgUAATD9AA+EaAEUpPAAXoRoAWEkAWdksBl4AAARAAADJAEN
+xgUAATD9AA+EaAEUpPAAXoRoAWEkAWdkL0MUAAANAAADJAMNxgUAATD9ABSk8ABhJANnZC1S6AAP
+AAADJAENxgUAAbATARSk8ABAJgBhJAFnZLUsowAADDsJAAA8CQAATAkAAFYJAABXCQAAXAkAAF0J
+AABeCQAAYgkAAIQJAACFCQAAiwkAAJIJAACZCQAAuAkAANQJAADdCQAA3gkAAOMJAAASCgAAJgoA
+ACcKAACtCgAArgoAAEwLAADt3M7cwNzt3K+biHiIr9zO3MDc3GpZ3EoAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAcFWjfFj0AFmi1LKMAQ0oUAE9KAgBRSgIAXkoCAAAgFWgvQxQAFmgvQxQAQIj+/0NK
+FABPSgIAUUoCAF5KAgAAGhZoL0MUAECI/v9DShQAT0oCAFFKAgBeSgIAAB4WaNgerQBDShQAT0oC
+AFFKAgBeSgIAbUgJCHNICQgAJBVo3xY9ABZotSyjAENKFABPSgIAUUoCAF5KAgBtSAkIc0gJCAAn
+FWgtUugAFmi1LKMAQ0oUAE9KAgBRSgIAXAiBXkoCAG1ICQhzSAkIIRZoL0MUAENKFABPSgIAUUoC
+AFwIgV5KAgBtSAkIc0gJCBoWaLtmJwBAiP7/Q0oUAE9KAgBRSgIAXkoCAAAaFmgjRE4AQIj+/0NK
+FABPSgIAUUoCAF5KAgAAIBVo3xY9ABZotSyjAECI/v9DShQAT0oCAFFKAgBeSgIAACMVaN8WPQAW
+aLUsowA1CIFAiP7/Q0oUAE9KAgBRSgIAXkoCAAAYTAsAAFELAABjCwAAaAsAAI0LAACjCwAAyQsA
+AMoLAAD6CwAA+wsAABIMAAD/DAAAAw0AAA4NAAATDQAAEg4AALkOAAC9DgAAyA4AAM4OAADoDgAA
+7Q4AAO4OAADvDgAAGQ8AAB4PAAD+DwAAEhAAAB4QAABSEAAAVxAAAJAQAACeEAAApBAAAF4RAABj
+EQAAihEAAIsRAACVEQAAmhEAABISAAAUEgAAGBIAACMSAAAoEgAALhIAAC8SAAA5EgAAPhIAAFsS
+AABfEgAAxRIAABUTAACuEwAAvBMAAMETAADbEwAA9OX05fTl2eXN5eX05fTl5fTl9OX05b2u9K7l
+5a70rq70rvSu9K70rq70rvSu9K70rvSu9K6fkJ8AAAAAHBVoF2tVABZou2YnAENKFABPSgIAUUoC
+AF5KAgAAHBVoF2tVABZodh4nAENKFABPSgIAUUoCAF5KAgAAHBVo3xY9ABZodh4nAENKFABPSgIA
+UUoCAF5KAgAAHxVo3xY9ABZotSyjADUIgUNKFABPSgIAUUoCAF5KAgAWFmjYHq0AQ0oUAE9KAgBR
+SgIAXkoCAAAWFmhiK+gAQ0oUAE9KAgBRSgIAXkoCAAAcFWjfFj0AFmi1LKMAQ0oUAE9KAgBRSgIA
+XkoCAAAWFmi7ZicAQ0oUAE9KAgBRSgIAXkoCADjbEwAA3xMAAOoTAADvEwAAEhQAAEcUAABIFAAA
+VhQAAFsUAACeFAAAoRQAAN4UAADjFAAA6RQAAPgUAAD6FAAAFhUAAG0VAAByFQAAcxUAAIAVAACV
+FQAAmhUAAJ4VAAC5FQAAvhUAAA4WAAASFgAAIxYAACgWAAArFgAALBYAAGcWAABsFgAAxRYAAMoW
+AADLFgAAzBYAAM4WAADmFgAA6hYAAPYWAAD7FgAAFRcAABoXAABOFwAAUhcAAFgXAABcFwAAYRcA
+AGIXAABlFwAAZhcAAG4XAABzFwAAfxcAALQXAAC7FwAA5RcAAOkXAADzFwAA+BcAAPkXAAAOGAAA
+EhgAABMYAABeGAAA8eLx4uLW4vHi1uLx4sfi1uLx1uLH8cfi8eLHx/HH1uLx4vHit8fi1uLx4vHi
+1uLH8dbH4qjWqOLW4tbi8dbi8fHiAAAcFWgXa1UAFmgXa1UAQ0oUAE9KAgBRSgIAXkoCAAAfFWgX
+a1UAFmh2HicANQiBQ0oUAE9KAgBRSgIAXkoCABwVaBdrVQAWaHFCZABDShQAT0oCAFFKAgBeSgIA
+ABYWaBdrVQBDShQAT0oCAFFKAgBeSgIAABwVaBdrVQAWaHYeJwBDShQAT0oCAFFKAgBeSgIAABwV
+aBdrVQAWaLtmJwBDShQAT0oCAFFKAgBeSgIAQl4YAABjGAAAZBgAAJkYAADKGAAAzhgAAOYYAADu
+GAAA+BgAAP0YAAANGQAAEhkAABMZAABUGQAAXhkAAJQZAACiGQAApxkAAKgZAAASGgAAlRoAAKka
+AADzGgAA9BoAAPUaAABNGwAAVBsAAFsbAABcGwAAZhsAAHIbAAB9GwAAgBsAAIEbAACLGwAAxBsA
+AMkbAADKGwAA8eXWx+XH5ce7x7vlx+XHp5aFp6d0p2CnYKdgp3SndGCndKeWdAAAACYVaNgerQAW
+aLUsowBDShQAT0oCAFFKAgBcCIFdCIFeSgIAYUoUAAAgFmgtLUMAQ0oUAE9KAgBRSgIAXAiBXQiB
+XkoCAGFKFAAAIBZoF2tVAENKFABPSgIAUUoCAFwIgV0IgV5KAgBhShQAACAWaLtmJwBDShQAT0oC
+AFFKAgBcCIFdCIFeSgIAYUoUAAAmFWjYHq0AFmh2HicAQ0oUAE9KAgBRSgIAXAiBXQiBXkoCAGFK
+FAAAFhZou2YnAENKFABPSgIAUUoCAF5KAgAAHBVo3xY9ABZodh4nAENKFABPSgIAUUoCAF5KAgAA
+HBVoF2tVABZodh4nAENKFABPSgIAUUoCAF5KAgAAFhZoF2tVAENKFABPSgIAUUoCAF5KAgAAHBVo
+F2tVABZou2YnAENKFABPSgIAUUoCAF5KAgAlyhsAAAEcAAASHAAAGBwAAEQcAABHHAAAUBwAAF4c
+AAB3HAAAeBwAAAQeAAASHgAALx4AABIfAAATHwAAoR8AAKofAADbHwAA4B8AAA0gAAASIAAAqCAA
+AKwgAAC3IAAAvCAAAL8gAAABIQAABiEAABYhAAAbIQAApiEAAKshAADKIQAAzCEAAN0hAADiIQAA
+EiIAAFIiAABTIgAAhSIAAIYiAADeIgAA4yIAAAcjAAAIIwAAVyMAAOzY2OzH7Mfsx+zHx+y1ppqm
+jqaOpoKmjqamjqaOpo6mgqaOpqaCpnOmjqaCpgAcFWjfFj0AFmhyfDQAQ0oUAE9KAgBRSgIAXkoC
+AAAWFmjgMAYAQ0oUAE9KAgBRSgIAXkoCAAAWFmi7ZicAQ0oUAE9KAgBRSgIAXkoCAAAWFmjYHq0A
+Q0oUAE9KAgBRSgIAXkoCAAAcFWjfFj0AFmh2HicAQ0oUAE9KAgBRSgIAXkoCAAAjFWjfFj0AFmh2
+HicANQiBQ0oUAE9KAgBRSgIAXkoCAGFKFAAgFmjgMAYAQ0oUAE9KAgBRSgIAXAiBXQiBXkoCAGFK
+FAAAJhVo2B6tABZo2B6tAENKFABPSgIAUUoCAFwIgV0IgV5KAgBhShQAACYVaNgerQAWaHYeJwBD
+ShQAT0oCAFFKAgBcCIFdCIFeSgIAYUoUAC0THwAAvyAAADYkAADQJwAA9igAAJgqAAANKwAAqCsA
+AEQsAADGLAAAxywAAMgsAADJLAAAyiwAAP8sAAARLQAAEi0AAPUAAAAAAAAAAAAAAADrAAAAAAAA
+AAAAAAAA4QAAAAAAAAAAAAAAANcAAAAAAAAAAAAAAADNAAAAAAAAAAAAAAAAwwAAAAAAAAAAAAAA
+ALkAAAAAAAAAAAAAAACvAAAAAAAAAAAAAAAAnAAAAAAAAAAAAAAAAJQAAAAAAAAAAAAAAACUAAAA
+AAAAAAAAAAAAlAAAAAAAAAAAAAAAAJQAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAAAlAAAAAAAAAAA
+AAAAAJQAAAAAAAAAAAAAAAAAAAAAAAcAAAMkA2EkA2dk2B6tAAAHAAADJANhJANnZHYeJwAAEgAA
+AyQDCiYMC0YAAA3GBQABMP0AFKTwACokAWEkA2dkdh4nAAoQAAomAAtGCgAUpPAAZ2RyfDQAChAA
+CiYAC0YKABSk8ABnZHYeJwAKEAAKJgALRgkAFKTwAGdkdh4nAAoQAAomAAtGCAAUpPAAZ2R2HicA
+ChAACiYAC0YHABSk8ABnZHYeJwAKEAAKJgALRgYAFKTwAGdk2B6tAAoQAAomAAtGBQAUpPAAZ2Ry
+fDQAChAACiYAC0YEABSk8ABnZHYeJwAAEFcjAAASJAAANSQAADYkAAB/JAAAhiQAAJ8kAAAkJQAA
+JiUAAEglAABSJQAAYiUAAGclAABoJQAAkiUAAJslAACzJQAAxCUAAMklAAASJgAATiYAAFMmAABZ
+JgAAWiYAALcmAAC8JgAAvSYAAAwnAAC5JwAAvicAANAnAADeJwAA4ycAAOQnAAASKAAAVygAAFwo
+AAD2KAAAEioAAJUqAACXKgAAmCoAAKYqAACrKgAABisAAAcrAAALKwAADSsAABsrAAAgKwAAISsA
+APT05dbHuNbH1rjWqcfWx7jWqdbWqdbH1qnH1uWd5eWdkeXlneXl5YHl5Z3lkZ3l5Z2RAAAAAB8V
+aN8WPQAWaHYeJwA1CIFDShQAT0oCAFFKAgBeSgIAFhZo6Gh1AENKFABPSgIAUUoCAF5KAgAAFhZo
+u2YnAENKFABPSgIAUUoCAF5KAgAAHBVoeTjoABZou2YnAENKFABPSgIAUUoCAF5KAgAAHBVoeTjo
+ABZoeTjoAENKFABPSgIAUUoCAF5KAgAAHBVoeTjoABZo4DAGAENKFABPSgIAUUoCAF5KAgAAHBVo
+eTjoABZodh4nAENKFABPSgIAUUoCAF5KAgAAHBVo3xY9ABZodh4nAENKFABPSgIAUUoCAF5KAgAA
+FhZo4DAGAENKFABPSgIAUUoCAF5KAgAyISsAAKErAACmKwAApysAAKgrAAASLAAAGSwAADwsAABC
+LAAARCwAAFcsAABmLAAAaywAAGwsAADGLAAAxywAAMgsAADJLAAAyiwAAM8sAAD9LAAA/iwAAP8s
+AAALLQAAEC0AABEtAAASLQAAEy0AAPHl2fHx8cq+8azx5dnx8aCUhfGU8XRmWEpmZgAAAAAAAAAA
+ABoWaHYeJwBDShQAT0oCAFBKAABRSgIAXkoCAAAaFmi7ZicAQ0oUAE9KAgBQSgAAUUoCAF5KAgAA
+GhZo2B6tAENKFABPSgIAUEoAAFFKAgBeSgIAACAVaN8WPQAWaHYeJwBDShQAT0oCAFBKAABRSgIA
+XkoCAAAcFWjfFj0AFmjYHq0AQ0oUAE9KAgBRSgIAXkoCAAAWFmjYHq0AQ0oUAE9KAgBRSgIAXkoC
+AAAWFmh2HicAQ0oUAE9KAgBRSgIAXkoCAAAiFWjfFj0AFmh2HicANQiBOgiBQ0oUAE9KAgBRSgIA
+XkoCAAAWFmgVAw4AQ0oUAE9KAgBRSgIAXkoCAAAcFWjfFj0AFmhyfDQAQ0oUAE9KAgBRSgIAXkoC
+AAAWFmjoaHUAQ0oUAE9KAgBRSgIAXkoCAAAWFmi7ZicAQ0oUAE9KAgBRSgIAXkoCAAAcFWjfFj0A
+Fmh2HicAQ0oUAE9KAgBRSgIAXkoCABsSLQAAEy0AABQtAABILQAAWS0AAFotAABbLQAAXC0AAF0t
+AACVLQAAli0AAJgtAACZLQAAmy0AAJwtAACeLQAAny0AAKEtAACiLQAAqy0AAKwtAACtLQAAuC0A
+ALotAAD3AAAAAAAAAAAAAAAA9wAAAAAAAAAAAAAAAO8AAAAAAAAAAAAAAAD3AAAAAAAAAAAAAAAA
+9wAAAAAAAAAAAAAAAPcAAAAAAAAAAAAAAAD3AAAAAAAAAAAAAAAA9wAAAAAAAAAAAAAAAO8AAAAA
+AAAAAAAAAAD3AAAAAAAAAAAAAAAA7QAAAAAAAAAAAAAAAO0AAAAAAAAAAAAAAADtAAAAAAAAAAAA
+AAAA7QAAAAAAAAAAAAAAAO0AAAAAAAAAAAAAAADtAAAAAAAAAAAAAAAA7QAAAAAAAAAAAAAAAO0A
+AAAAAAAAAAAAAADhAAAAAAAAAAAAAAAA2AAAAAAAAAAAAAAAAO0AAAAAAAAAAAAAAADhAAAAAAAA
+AAAAAAAAzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACw8ADoRoARJkOP8AAF2EaAFnZNgerQAA
+CA8ADoRoAV2EaAFnZNgerQAACw8AGIT4/xmEAQAbJmAjJAJnZN0s4AAAAQAAAAcAAAMkA2EkA2dk
+cnw0AAAHAAADJANhJANnZHYeJwAAFxMtAAAULQAAGS0AABotAABHLQAASC0AAFMtAABYLQAAWS0A
+AFotAABbLQAAXC0AAF0tAABjLQAAai0AAJEtAACVLQAAli0AAJctAACYLQAAmS0AAJotAACbLQAA
+nC0AAJ0tAACeLQAAny0AAKAtAAChLQAAoi0AAKMtAACpLQAAqi0AAKstAACsLQAArS0AAK4tAAC0
+LQAAtS0AALYtAAC3LQAAuC0AALotAAC7LQAAvC0AAL0tAADv4NTF4NS5rdTU1J7g1MXg4JaSAJaS
+AJaSAJaSAIiCiIJ+foiCiHOIgn5+AOAAFRZoLVLoADBKFABtSAAEbkgABHUIAQYWaLAZeAAAChZo
+sBl4ADBKFAAAEwNqAAAAABZosBl4ADBKFABVCAEGFmjbZcUAAA8DagAAAAAWaNtlxQBVCAEcFWjf
+Fj0AFmjYHq0AQ0oUAE9KAgBRSgIAXkoCAAAWFmh2HicAQ0oUAE9KAgBRSgIAXkoCAAAWFmi7ZicA
+Q0oUAE9KAgBRSgIAXkoCAAAcFWjfFj0AFmhyfDQAQ0oUAE9KAgBRSgIAXkoCAAAWFmjYHq0AQ0oU
+AE9KAgBRSgIAXkoCAAAcFWjfFj0AFmh2HicAQ0oUAE9KAgBRSgIAXkoCAAAgFWjfFj0AFmjYHq0A
+Q0oUAE9KAgBQSgAAUUoCAF5KAgAtui0AALstAAC8LQAAvS0AAPoAAAAAAAAAAAAAAAD4AAAAAAAA
+AAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAMkA2EkA2dk
+dh4nAAABAAAABA8AEmQ4/wAAAANDAQLS1AAAAQAAAAGAAAABAAAAAAAEAAEAAAABgAAAAQAAAAAA
+AgABAAAAAYAAAAEAAAAAAAABAQAAAAGAAAABAAAAAAAEAQEAAAABgAAAAQAAAAAAAgEBAAAAAYAA
+AAEAAAAAAAAAAQAAAAGAAAABAAAAAAAEAAEAAAABgAAAAQAAAAAAAgEBCAAAAYAAAAEA0AIAAAAA
+AAAuAC4ALgAoACkAKAApACgAKQApACkAKQAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAETABEjAAFDAKHFABADjSJAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/zpwsX9gAEJQAAAfsNAvILDgPSGwoAUisKAFI5AIBySQoAUlsAAAF7A4BBiw0AIMkNACRHAB
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAABIGFQASAAEAeAEPAAcAAAAAAAAAAAAEAAgAAAAIAAAADgAAAA4A
+AAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIGAAAYAAAAxgMAANYDAADm
+AwAA9gMAAAYEAAAWBAAAJgQAADYEAABGBAAAVgQAAGYEAAB2BAAAhgQAAJYEAADGAwAA1gMAAOYD
+AAD2AwAABgQAABYEAAAyBgAAKAIAANgBAADoAQAAJgQAADYEAABGBAAAVgQAAGYEAAB2BAAAhgQA
+AJYEAADGAwAA1gMAAOYDAAD2AwAABgQAABYEAAAmBAAANgQAAEYEAABWBAAAZgQAAHYEAACGBAAA
+lgQAAMYDAADWAwAA5gMAAPYDAAAGBAAAFgQAACYEAAA2BAAARgQAAFYEAABmBAAAdgQAAIYEAACW
+BAAAxgMAANYDAADmAwAA9gMAAAYEAAAWBAAAJgQAADYEAABGBAAAVgQAAGYEAAB2BAAAhgQAAJYE
+AADGAwAA1gMAAOYDAAD2AwAABgQAABYEAAAmBAAANgQAAEYEAABWBAAAZgQAAHYEAACGBAAAlgQA
+AMYDAADWAwAA5gMAAPYDAAAGBAAAFgQAACYEAAA2BAAARgQAAFYEAABmBAAAdgQAAIYEAACWBAAA
+OAEAAFgBAAD4AQAACAIAABgCAABWAgAAfgIAAJACAACgAgAAsAIAAMACAADQAgAAgAIAAOACAADw
+AgAAAAMAABADAAAgAwAAMAMAAEADAADgAgAA8AIAAAADAAAQAwAAIAMAADADAABAAwAA4AIAAPAC
+AAAAAwAAEAMAACADAAAwAwAAQAMAAOACAADwAgAAAAMAABADAAAgAwAAMAMAAEADAADgAgAA8AIA
+AAADAAAQAwAAIAMAADADAABAAwAA4AIAAPACAAAAAwAAEAMAACADAAAwAwAAQAMAAOACAADwAgAA
+AAMAABADAAAgAwAAMAMAAEADAADgAgAA8AIAAAADAAAQAwAAIAMAADADAABAAwAA4AIAAPACAAAA
+AwAAEAMAACADAAAwAwAAQAMAAOACAADwAgAAAAMAABADAAAgAwAAMAMAAEADAADgAgAA8AIAAAAD
+AAAQAwAAIAMAADADAABAAwAA4AIAAPACAAAAAwAAEAMAACADAAAwAwAAQAMAAOACAADwAgAAAAMA
+ABADAAAgAwAAMAMAAEADAADgAgAA8AIAAAADAAAQAwAAIAMAADADAABAAwAANgYAADYGAAA2BgAA
+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
+AGt5lhaDAAAAigAAABwAAAAAAAAAAAAAAAAAGQIAAHRoZW1lL3RoZW1lL3RoZW1lTWFuYWdlci54
+bWxQSwECLQAUAAYACAAAACEAwjqO9eAGAACzHwAAFgAAAAAAAAAAAAAAAADWAgAAdGhlbWUvdGhl
+bWUvdGhlbWUxLnhtbFBLAQItABQABgAIAAAAIQAN0ZCftgAAABsBAAAnAAAAAAAAAAAAAAAAAOoJ
+AAB0aGVtZS90aGVtZS9fcmVscy90aGVtZU1hbmFnZXIueG1sLnJlbHNQSwUGAAAAAAUABQBdAQAA
+5QoAAAAAPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Inll
+cyI/Pg0KPGE6Y2xyTWFwIHhtbG5zOmE9Imh0dHA6Ly9zY2hlbWFzLm9wZW54bWxmb3JtYXRzLm9y
+Zy9kcmF3aW5nbWwvMjAwNi9tYWluIiBiZzE9Imx0MSIgdHgxPSJkazEiIGJnMj0ibHQyIiB0eDI9
+ImRrMiIgYWNjZW50MT0iYWNjZW50MSIgYWNjZW50Mj0iYWNjZW50MiIgYWNjZW50Mz0iYWNjZW50
+MyIgYWNjZW50ND0iYWNjZW50NCIgYWNjZW50NT0iYWNjZW50NSIgYWNjZW50Nj0iYWNjZW50NiIg
+aGxpbms9ImhsaW5rIiBmb2xIbGluaz0iZm9sSGxpbmsiLz69JQAAvSUAAAAAAAC9JQAAKwAASAAA
+AAD/////AAAAAAMAAAAGAAAABgAAAAkAAAAMAAAADAAAAAwAAAAMAAAAFwAAACUAAAAlAAAAJQAA
+ACgAAAAACAAAOwkAAEwLAADbEwAAXhgAAMobAABXIwAAISsAABMtAAC9LQAAFwAAABkAAAAaAAAA
+GwAAABwAAAAdAAAAHwAAACAAAAAiAAAAAAgAABMfAAASLQAAui0AAL0tAAAYAAAAHgAAACEAAAAj
+AAAADAAAABMAAAAXAAAAHgAAACAAAAAoAAAAEyGVABMhFP+VgA8AAPA4AAAAAAAG8BgAAAACBAAA
+AgAAAAEAAAABAAAAAQAAAAIAAABAAB7xEAAAAP//AAAAAP8AgICAAPcAABAADwAC8JIAAAAQAAjw
+CAAAAAEAAAABBAAADwAD8DAAAAAPAATwKAAAAAEACfAQAAAAAAAAAAAAAAAAAAAAAAAAAAIACvAI
+AAAAAAQAAAUAAAAPAATwQgAAABIACvAIAAAAAQQAAAAOAABTAAvwHgAAAL8BAAAQAMsBAAAAAP8B
+AAAIAAQDCQAAAD8DAQABAAAAEfAEAAAAAQAAAAAAAAChAAAApAAAAJwBAAChAQAAliUAAJglAACZ
+JQAAmyUAAJwlAACeJQAAnyUAAKElAACiJQAAuyUAAL4lAAAHAAQABwAcAAcABwACAAcAAgAHAAIA
+BwACAAcAAgAAAAAAGQAAAK0BAACWJQAAmCUAAJklAACbJQAAnCUAAJ4lAACfJQAAoSUAAKIlAAC7
+JQAAviUAAAcABAAHAAcAAgAHAAIABwACAAcAAgAHAAIAAAAAABkAAABgAAAAYQAAAGUAAACOAAAA
+7AAAAAoBAAA7AQAATAEAAFYBAABiAQAAhAEAAJkBAAC4AQAA1AEAAN0BAAAmAgAArQIAAK4CAACG
+HAAAnxwAAEgdAABSHQAAmx0AALMdAAA8JAAAQiQAAAAlAAAUJQAASSUAAJUlAACWJQAAmCUAAJkl
+AACbJQAAnCUAAJ4lAACfJQAAoSUAAKIlAAC4JQAAuSUAALslAAC+JQAABwAEAAcABAAHAAQABwAE
+AAcABAAHAAQABwAEAAcABAAHAAQABQAHAAQABwAEAAcABAAHAAQABwAFAAcABQACAAcAAgAHAAIA
+BwACAAcAAgAHAAUABwACAAAAAABNAAAATwAAAFYAAABfAAAAYQAAAGUAAACOAAAA7AAAAAoBAAA7
+AQAATAEAAFYBAABiAQAAhAEAAJkBAAC4AQAA1AEAAN0BAAAmAgAArQIAAIYcAACfHAAASB0AAFId
+AACbHQAAsx0AADwkAABCJAAAlSUAAJYlAACWJQAAmCUAAJklAACZJQAAmyUAAJwlAACeJQAAnyUA
+AKElAACiJQAAuyUAAL4lAAADAAQAAwAEAAMABAADAAQAAwAEAAMABAADAAQAAwAEAAMABAADAAQA
+AwAEAAMABAADAAQAAwAEAAMAAgAEAAcAAgAEAAcAAgAHAAIABwACAAcAAgACAJc69idMPRSU/w//
+D/8P/w//D/8P/w//D/8PEADhcW49KkS8Pv8PAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAQAAQAAAAAA
+AAAAAAAAAAAAAAAAAxgAAA+EOAQRhDD9FcYFAAE4BAZehDgEYIQw/W8oAAIAAAAuAAEAAAAEgAEA
+AAAAAAAAAAAAAAAAAAAAAAoYAAAPhKAFEYSY/hXGBQABoAUGXoSgBWCEmP6HaAAAAACISAAAAgAB
+AC4AAQAAAAKCAQAAAAAAAAAAAAAAAAAAAAAAChgAAA+EcAgRhEz/FcYFAAFwCAZehHAIYIRM/4do
+AAAAAIhIAAACAAIALgABAAAAAIABAAAAAAAAAAAAAAAAAAAAAAAKGAAAD4RACxGEmP4VxgUAAUAL
+Bl6EQAtghJj+h2gAAAAAiEgAAAIAAwAuAAEAAAAEgAEAAAAAAAAAAAAAAAAAAAAAAAoYAAAPhBAO
+EYSY/hXGBQABEA4GXoQQDmCEmP6HaAAAAACISAAAAgAEAC4AAQAAAAKCAQAAAAAAAAAAAAAAAAAA
+AAAAChgAAA+E4BARhEz/FcYFAAHgEAZehOAQYIRM/4doAAAAAIhIAAACAAUALgABAAAAAIABAAAA
+AAAAAAAAAAAAAAAAAAAKGAAAD4SwExGEmP4VxgUAAbATBl6EsBNghJj+h2gAAAAAiEgAAAIABgAu
+AAEAAAAEgAEAAAAAAAAAAAAAAAAAAAAAAAoYAAAPhIAWEYSY/hXGBQABgBYGXoSAFmCEmP6HaAAA
+AACISAAAAgAHAC4AAQAAAAKCAQAAAAAAAAAAAAAAAAAAAAAAChgAAA+EUBkRhEz/FcYFAAFQGQZe
+hFAZYIRM/4doAAAAAIhIAAACAAgALgABAAAAAEABAAAAAAAAAAAAAAAAANACAAAGAAAANQgBNggA
+AgAAAC4ACwAAAOFxbj0AAAAAAAAAAAAAAADhcW49AAAAAAAAAAABAAAA4XFuPQAAAAAAAAAAAQAA
+AOFxbj0AAAAAAAAAAAEAAADhcW49AAAAAAAAAAABAAAA4XFuPQAAAAAAAAAAAQAAAOFxbj0AAAAA
+AAAAAAEAAADhcW49AAAAAAAAAAABAAAA4XFuPQAAAAAAAAAAAQAAAOFxbj0AAAAAAAAAAAEAAACX
+OvYnAAAAAAAAAAAAAAAA///////////Ay1pEYHJpZQEAAAAAQAEAAAAAAAAAAAAAAAAA0AIAAAYA
+AAA1CAE2CAACAAAALgD/////QM1aRCAAAAABAAAAAEABAAAAAAAAAAAAAAAAANACAAAGAAAANQgB
+NggAAgAAAC4A/////4DPWkQgAAAAAQAAAABAAQAAAAAAAAAAAAAAAADQAgAABgAAADUIATYIAAIA
+AAAuAP////8A0FpEIAAAEAEAAAAAQAEAAAAAAAAAAAAAAAAA0AIAAAYAAAA1CAE2CAACAAAALgD/
+////gNJaRCAAIAABAAAAAEABAAAAAAAAAAAAAAAAANACAAAGAAAANQgBNggAAgAAAC4A/////8DV
+WkRgYS1zAQAAAABAAQAAAAAAAAAAAAAAAADQAgAABgAAADUIATYIAAIAAAAuAP////9A2VpEIAAA
+AAEAAAAAQAEAAAAAAAAAAAAAAAAA0AIAAAYAAAA1CAE2CAACAAAALgD/////QNVaRGAAcwABAAAA
+AEABAAAAAAAAAAAAAAAAANACAAAGAAAANQgBNggAAgAAAC4A/////wDTWkQgANACAQAAAABAAQAA
+AAAAAAAAAAAAAADQAgAABgAAADUIATYIAAIAAAAuAP///////wIAAAAAAAAA//8CAAAAEgBadVhl
+GQAJBBsACQQPAAkEGQAJBBsACQQPAAkEGQAJBBsACQQAADIAAAAEAAAACAAAAOUAAAAAAAAAMQAA
+AEBQBADgMAYAMGAIAPhLDQAVAw4AL0MUAHYeJwDVIicAu2YnAHJ8NADfFj0Ask49AC0tQwBoO0QA
+xG5KACNETgAXa1UAJV9XALF/YAAIA2IAcUJkANxcZwCpaG4AORd1AOhodQCwGXgAPAZ6AK52lwCA
+M50AtSyjALBFpABfFqcA2B6tADwmsACSWbUAeAi4AF0QvQDbZcUA4hnIABQpzQCGI9MAfTHXAHF8
+2wDdLOAAYivoAHk46AAtUugAiTLpAMNe7wAMdP4AAAAAAJYlAACYJQAAAAAAAAEAAAD/QAIQAAAA
+AAAAAL0lAACwAgAQAEAAAP//AQAAAAcAVQBuAGsAbgBvAHcAbgD//wEACAAAAAAAAAAAAAAA//8B
+AAAAAAD//wAAAgD//wAAAAD//wAAAgD//wAAAAAIAAAARxaQAQAAAgIGAwUEBQIDBP8uAOBbeADA
+CQAAAAAAAAD/AQAAAAAAAFQAaQBtAGUAcwAgAE4AZQB3ACAAUgBvAG0AYQBuAAAANR6QAQIABQUB
+AgEHBgIFBwAAAAAAAAAQAAAAAAAAAAAAAACAAAAAAFMAeQBtAGIAbwBsAAAAMyaQAQAAAgsGBAIC
+AgICBP8uAOBbeADACQAAAAAAAAD/AQAAAAAAAEEAcgBpAGEAbAAAAFkEkAEACQICBgMFBAUCAwQA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDAEcAIABUAGkAbQBlAHMAAABUAGkAbQBlAHMAIABOAGUA
+dwAgAFIAbwBtAGEAbgAAADs9kAGAAAICBgkEAgUIAwT/AgDg+/3HahIAAAgAAAAAnwACAAAAAABN
+AFMAIABNAGkAbgBjAGgAbwAAAEMmLAEAAAIPAwICAgQDAgT/LgDkeyQAwgkAAAAAAAAA/wEAAAAA
+AABDAGEAbABpAGIAcgBpACAATABpAGcAaAB0AAAANyaQAQAAAg8FAgICBAMCBP8uAOR7JADCCQAA
+AAAAAAD/AQAAAAAAAEMAYQBsAGkAYgByAGkAAABBHpABAAACBAUDBQQGAwIE/wYA4P8kAEIAAAAC
+AAAAAJ8BAAAAAAAAQwBhAG0AYgByAGkAYQAgAE0AYQB0AGgAAAAiAAQAAQiAGADw0AIAAGgBAAAA
+AB3MigfEG+tH4yL0JhYAMQAAAJwFAAD6HwAAAwATAAAABAADEEQAAACcBQAA+h8AAAMAEwAAAEQA
+AAAAAAAAIQMA8BAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAUIB7QAtACBgRIwAAAAAAAA
+AAAAAAAAAACDJQAAgyUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIM4NxAPAQAAgA/P0BAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAEBQAAAAAAjw/w8BAAE/AADkBAAA////f////3////9/////f////3////9/////
+f7UEpwAABAAAMgAAAAAAAAAAAAAAAAAAAAAAAAAAACEEAAAAAAAAAAAAAAAAAAAAAAAAEBwAAAcA
+AAAAAAAAAAB4AAAAeAAAAAAAAAAAAAAAoAUAAOp4gAcLAAAAAAAAANwAAAABAAAA//8SAAAAAAAA
+ABgATgBPAE4ALQBEAEkAUwBDAEwATwBTAFUAUgBFACAAQQBHAFIARQBFAE0ARQBOAFQAAAAAAAAA
+AAAEAFUAcwBlAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAABgAAAAIAAAAAAAwAAQAMAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+
+/wAACgACAAAAAAAAAAAAAAAAAAAAAAABAAAA4IWf8vlPaBCrkQgAKyez2TAAAAB8AQAAEQAAAAEA
+AACQAAAAAgAAAJgAAAADAAAAvAAAAAQAAADIAAAABQAAANQAAAAHAAAA4AAAAAgAAADwAAAACQAA
+AAABAAASAAAADAEAAAoAAAAsAQAACwAAADgBAAAMAAAARAEAAA0AAABQAQAADgAAAFwBAAAPAAAA
+ZAEAABAAAABsAQAAEwAAAHQBAAACAAAA5AQAAB4AAAAcAAAATk9OLURJU0NMT1NVUkUgQUdSRUVN
+RU5UAAAAAB4AAAAEAAAAAAAAAB4AAAAEAAAAAAAAAB4AAAAEAAAAAAAAAB4AAAAIAAAATm9ybWFs
+AAAeAAAACAAAAFVzZXIAAAAAHgAAAAQAAAAyMgAAHgAAABgAAABNaWNyb3NvZnQgT2ZmaWNlIFdv
+cmQAAABAAAAAAGZg2AYAAABAAAAAAOqwzZryywFAAAAAAE5yasqq1gFAAAAAABBmB4Nr3QEDAAAA
+AwAAAAMAAACcBQAAAwAAAPofAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/v8AAAoAAgAA
+AAAAAAAAAAAAAAAAAAAAAgAAAALVzdWcLhsQk5cIACss+a5EAAAABdXN1ZwuGxCTlwgAKyz5rmAB
+AAAcAQAADQAAAAEAAABwAAAADwAAAHgAAAAEAAAAkAAAAAUAAACYAAAABgAAAKAAAAARAAAAqAAA
+ABcAAACwAAAACwAAALgAAAAQAAAAwAAAABMAAADIAAAAFgAAANAAAAANAAAA2AAAAAwAAAD9AAAA
+AgAAAOQEAAAeAAAAEAAAAGFuYW5kIGFuZCBhbmFuZAADAAAAAKAAAAMAAABEAAAAAwAAABMAAAAD
+AAAAgyUAAAMAAAAAABAACwAAAAAAAAALAAAAAAAAAAsAAAAAAAAACwAAAAAAAAAeEAAAAQAAABkA
+AABOT04tRElTQ0xPU1VSRSBBR1JFRU1FTlQADBAAAAIAAAAeAAAABgAAAFRpdGxlAAMAAAABAAAA
+AJQAAAADAAAAAAAAACAAAAABAAAAQAAAAAIAAABIAAAAAQAAAAIAAAAUAAAAR3JhbW1hcmx5RG9j
+dW1lbnRJZAACAAAA5AQAAB4AAABEAAAAYzI0ZDgyMzdkMWI0NzdlNDNjYzAzZWI5MDExODdhNzRi
+ZjZmMjRmMDJiYWExN2QxYmRiYTliOTkwZDBiNGJmZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAwAAAAQAAAAF
+AAAABgAAAAcAAAAIAAAACQAAAAoAAAALAAAADAAAAA0AAAAOAAAADwAAABAAAAARAAAAEgAAABMA
+AAAUAAAAFQAAABYAAAAXAAAAGAAAABkAAAAaAAAAGwAAABwAAAAdAAAAHgAAAB8AAAAgAAAAIQAA
+ACIAAAAjAAAAJAAAAP7///8mAAAAJwAAACgAAAApAAAAKgAAACsAAAAsAAAALQAAAC4AAAAvAAAA
+MAAAADEAAAAyAAAAMwAAADQAAAA1AAAANgAAADcAAAA4AAAA/v///zoAAAA7AAAAPAAAAD0AAAA+
+AAAAPwAAAEAAAAD+////QgAAAEMAAABEAAAARQAAAEYAAABHAAAASAAAAP7////9////SwAAAP7/
+///+/////v//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////UgBvAG8AdAAgAEUAbgB0AHIA
+eQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYABQH/////////
+/wMAAAAGCQIAAAAAAMAAAAAAAABGAAAAAAAAAAAAAAAAsB28IINr3QFNAAAAgAAAAAAAAAAxAFQA
+YQBiAGwAZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAADgACAf////8FAAAA/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUA
+AADfJgAAAAAAAFcAbwByAGQARABvAGMAdQBtAGUAbgB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAaAAIBAQAAAP//////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAEVJAAAAAAAABQBTAHUAbQBtAGEAcgB5AEkAbgBmAG8AcgBtAGEAdABp
+AG8AbgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAgECAAAABAAAAP////8AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AAAAABAAAAAAAAAFAEQAbwBjAHUAbQBlAG4AdABT
+AHUAbQBtAGEAcgB5AEkAbgBmAG8AcgBtAGEAdABpAG8AbgAAAAAAAAAAAAAAOAACAf//////////
+/////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAAAAEAAAAAAAAAEAQwBv
+AG0AcABPAGIAagAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAASAAIA////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAD///////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////wAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAD+////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////AQD+/wMKAAD/////BgkCAAAAAADA
+AAAAAAAARiAAAABNaWNyb3NvZnQgV29yZCA5Ny0yMDAzIERvY3VtZW50AAoAAABNU1dvcmREb2MA
+EAAAAFdvcmQuRG9jdW1lbnQuOAD0ObJxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+
+------=_NextPart_000_32B6_01DD6BA6.1E4BA500--
+

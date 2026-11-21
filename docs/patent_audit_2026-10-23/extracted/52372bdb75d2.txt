@@ -1,0 +1,83 @@
+[PAGE 1]
+P.O. Box 1450
+Alexandria, VA 22313 - 1450
+www.uspto.gov
+ELECTRONIC ACKNOWLEDGEMENT RECEIPT
+APPLICATION # RECEIPT DATE / TIME ATTORNEY DOCKET #
+63/955,179 01/06/2026 07:18:45 PM Z ET -
+Title of Invention
+SMART RETAIL CABINET WITH TOKENIZED ACCESS AND SPLIT PAYMENTS
+Application Information
+APPLICATION TYPE Utility - Provisional Application under
+35 USC 111(b)
+PATENT # -
+CONFIRMATION # 5220 FILED BY ALI SHALCHI
+PATENT CENTER # 73867693 FILING DATE -
+CUSTOMER # 164916 FIRST NAMED
+INVENTOR
+Mikhail Kozin
+CORRESPONDENCE
+ADDRESS
+- AUTHORIZED BY -
+Documents TOTAL DOCUMENTS: 5
+DOCUMENT   PAGES DESCRIPTION SIZE
+(KB)
+generatedADS73867693.pdf   5 Application Data Sheet 109 KB
+FIGURES.pdf   4 Drawings-only black and white
+line drawings 2659 KB
+PPA_SMART_RETAIL
+CABINET_WITH_TOKENIZE
+D_ACCESS_AND_SPLIT_P
+AYMENTS.pdf
+  12 Specification 141 KB
+sb0015a.pdf   2 Certification of Micro Entity
+(Gross Income Basis) 208 KB
+sb0016.pdf   3 Provisional Cover Sheet
+(SB16) 481 KB
+Warning: This is not a USPTO supplied Provisional Cover Sheet fillable form. Data in
+the form cannot be automatically loaded to other USPTO systems.
+Page 1 of 2
+
+[PAGE 2]
+Digest
+DOCUMENT MESSAGE DIGEST(SHA-512)
+generatedADS73867693.pdf
+52ECE77A065B228E64EF4DF17272233788F81C708005C7E054
+BFF44501C6AAA6F9304E70F6F0C2F793E93D50EAAFD5A4943
+B959737A0DF7801CA08984C6EF5B8
+FIGURES.pdf
+7A3B156A6E418D56CA404432A711C0FF4D53EDB885C5CE90
+FEAD7289353CE29CAF5A343CAF808D9B1361683261D651AC8
+0719B52489E038F0EF7B958D5B9E243
+PPA_SMART_RETAIL
+CABINET_WITH_TOKENIZED
+_ACCESS_AND_SPLIT_PAYM
+ENTS.pdf
+E7F9C861D63161DA483E3D8CF1781688615AEA9C275173E5E
+48FBDCE45984A15416FCE187075ECB357B1FD31D8000CC9B
+3C0C830E1CD809FC23FF9A3DDC7ECE5
+sb0015a.pdf
+0B26807C616AC10ADB5F32B29C9268FD5828C4C709E582E75
+4CB7C6A36B870E5A718C3DADD497FB3A91B089A07568C313
+832637F0BC59B3903B484A928006AAA
+sb0016.pdf
+AED7C00CCB4C6D0B74173E7E96671158F4F3F4C08F840BB0
+ED970D7F977A7A23498CC2B58F433641EC963DF3189B165F8
+F2975F9358C7657E2D8BEA1B543CC52
+This Acknowledgement Receipt evidences receipt on the noted date by the USPTO of the indicated documents, characterized
+by the applicant, and including page counts, where applicable. It serves as evidence of receipt similar to a Post Card, as
+described in MPEP 503.
+New Applications Under 35 U.S.C. 111
+If a new application is being filed and the application includes the necessary components for filing date (see 37 CFR 1.53(b)-(d)
+and MPEP 506), a Filing Receipt (37 CFR 1.54) will be issued in due course and the date shown on this Acknowledgement
+Receipt will establish the filing date of the application
+National Stage of an International Application under 35 U.S.C. 371
+If a timely submission to enter the national stage of an international application is compliant with the conditions of 35 U.S.C.
+371 and other applicable requirements a Form PCT/DO/EO/903 indicating acceptance of the application as a national stage
+submission under 35 U.S.C. 371 will be issued in addition to the Filing Receipt, in due course.
+New International Application Filed with the USPTO as a Receiving Office
+If a new international application is being filed and the international application includes the necessary components for an
+international filing date (see PCT Article 11 and MPEP 1810), a Notification of the International Application Number and of the
+International Filing Date (Form PCT/RO/105) will be issued in due course, subject to prescriptions concerning national security,
+and the date shown on this Acknowledgement Receipt will establish the international filing date of the application.
+Page 2 of 2

@@ -1,0 +1,457 @@
+Delivered-To: kmd379@gmail.com
+Received: by 2002:a05:7508:42a7:b0:108:bd20:e628 with SMTP id g39csp1451534gbg;
+        Thu, 5 Nov 2026 00:19:30 -0800 (PST)
+X-Received: by 2002:a05:6a21:6191:b0:3cd:9f0b:f7a2 with SMTP id adf61e73a8af0-3e92874f6e3mr14247948637.11.1793866770235;
+        Thu, 05 Nov 2026 00:19:30 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1793866770; cv=pass;
+        d=google.com; s=arc-20260327;
+        b=jec+R9XWA32VkgmGfq1/hGp5UFDVb8EuGX6RXZekAjSS14bF/+OfHG4UCxQ/uRUzcW
+         2tZ17L9Z/w6WOQLjFTiy2k1aTeSxFC3k3VHWl43axdnMnQmM9T2ivTGPZ3UEZIl14b+N
+         tjt+bGhDGsWZJMfeUNfR3byX/KnUln2n633QShRJI3tLm0kGd1yRfQdF9SiDVgIYGoBv
+         RD8IlJdlcUJKxhmS8wcHQi4yc/XNBUnmqGXfIsyFdbad41Xro5hOMTOkarL7wdxSSUBv
+         j97l/uFpa891HjaxY0rp5iEwZ6qiUXc9w7BFpoyLypfRNYnUMioFcnZB5iB8e0va3424
+         VLfA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=tm-mail-jid:original-envelope-id:feedback-id:mime-version:subject
+         :message-id:to:from:date:dkim-signature:dkim-signature;
+        bh=CRznXuleZqDlGmj7U1Y3ljbnjiBgVzR6pamiHPof23w=;
+        fh=4Y/ZOhpmz5lBb/8k7rxgZqRJ0W1V6iFq833V6pvzsv0=;
+        b=KgeTXREc8GrpKkuYHrx4G+fQaozCCQz5Y5/In4gQXfk0tv9UJi48t/v9Ntfw/f2/qp
+         Xyvl15+1mRDyCUi5k2Rm0MrnYax9v/MwL7cgaL0ODAYjngfumlDkWNnHC0IA2lP+ZblZ
+         UNbsYS7bkDN+wsLpQgNeN4XjWey5OvpF5UZ/4FP2vpO4ofVpeRcdNW88ZuyzvRZy5qB6
+         ae15zB84iJEU1r/mUdBLRY5KkmsSEljOqeVmBurK+FwZGkc1Wax859ydOJKh7ioT4MrW
+         2W4IWx9yYc7u8BsOGWMdNuIB+gBpXpcBNCQzhXTqQpsOUPXo1Bkku3S3jy49FVYLanAF
+         wRCg==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@ifza.com header.s=1522905413783 header.b=FYsME0uP;
+       dkim=pass header.i=@sender.zohocrm.com header.s=282322 header.b=eQg+mVLX;
+       arc=pass (i=1 spf=pass spfdomain=sender.zohocrm.com dkim=pass dkdomain=ifza.com dmarc=pass fromdomain=ifza.com>);
+       spf=pass (google.com: domain of bounces+9dbfd9b0-d8f1-11f1-8488-963d1902c9da_vt1@sender.zohocrm.com designates 135.84.80.97 as permitted sender) smtp.mailfrom=bounces+9dbfd9b0-d8f1-11f1-8488-963d1902c9da_vt1@sender.zohocrm.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=ifza.com
+Return-Path: <bounces+9dbfd9b0-d8f1-11f1-8488-963d1902c9da_vt1@sender.zohocrm.com>
+Received: from app-97.transmail.net (app-97.transmail.net. [135.84.80.97])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-cdb46448a21si7119821a12.112.2026.11.05.00.19.30
+        for <kmd379@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 05 Nov 2026 00:19:30 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+9dbfd9b0-d8f1-11f1-8488-963d1902c9da_vt1@sender.zohocrm.com designates 135.84.80.97 as permitted sender) client-ip=135.84.80.97;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@ifza.com header.s=1522905413783 header.b=FYsME0uP;
+       dkim=pass header.i=@sender.zohocrm.com header.s=282322 header.b=eQg+mVLX;
+       arc=pass (i=1 spf=pass spfdomain=sender.zohocrm.com dkim=pass dkdomain=ifza.com dmarc=pass fromdomain=ifza.com>);
+       spf=pass (google.com: domain of bounces+9dbfd9b0-d8f1-11f1-8488-963d1902c9da_vt1@sender.zohocrm.com designates 135.84.80.97 as permitted sender) smtp.mailfrom=bounces+9dbfd9b0-d8f1-11f1-8488-963d1902c9da_vt1@sender.zohocrm.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=ifza.com
+ARC-Seal: i=1; a=rsa-sha256; t=1793866769; cv=none; 
+	d=zohomail360.com; s=zohoarc; 
+	b=F/hEC7oWwABOEH2NQy4NcHUg+0ilv5YBs+imzAKFJCS9ynPwH9A9Bh/FIpgRAZvuHIp3Cm7qiAzyBmr6l4dUFLoCwH5DMr0yUkyLOy0x/QMeTuTKmObbj+laxJg4McilmGHlMIZ6CbDwl38NEv0oZC8GQeas7qqDzdedlT92S5o=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail360.com; s=zohoarc; 
+	t=1793866769; h=Content-Type:Date:Date:From:From:MIME-Version:Message-ID:Subject:Subject:To:To:Message-Id:Reply-To:Cc; 
+	bh=CRznXuleZqDlGmj7U1Y3ljbnjiBgVzR6pamiHPof23w=; 
+	b=jnnI4K8PzqkgKVNfyLjvbC7jqK6jAMNFzvhZBDxEbgru9TTUu1HBOwviM3GttR+esAl3JqCU2/M8Jtg5DkkBg+PCxDkgAlTYJya+CafTBZ9mBtVWssKidMi5hqNEcvKPsnabty2z839b10WWlVqM1pAdsPGCnGuT66q5XwHiMDw=
+ARC-Authentication-Results: i=1; mx.zohomail360.com;
+	dkim=pass  header.i=ifza.com;
+	spf=pass  smtp.mailfrom=bounces+9dbfd9b0-d8f1-11f1-8488-963d1902c9da_vt1@sender.zohocrm.com;
+	dmarc=pass header.from=<noreply@ifza.com>
+Received: by smtp.zohomail.com with SMTPS id 1793866769017248.33905261796792;
+	Thu, 5 Nov 2026 00:19:29 -0800 (PST)
+DKIM-Signature: a=rsa-sha256; b=FYsME0uPz4m9WyjiXVqgnJGd6o+hSm1UySBr8Ruo5tT06gIv07tJTZuV0A7psQzJgwv/r7TbP6lUgNHYM3dwyf/VoPcOtUUjajjlPBL8nWJAT4NEL55WX/ZZhbbWWV41LNjgy6cNGEJWOfblV0JuiqEe3wWNq/ephRwflISibQQ=; c=relaxed/relaxed; s=1522905413783; d=ifza.com; v=1; bh=CRznXuleZqDlGmj7U1Y3ljbnjiBgVzR6pamiHPof23w=; h=date:from:to:message-id:subject:mime-version:content-type:feedback-id:date:from:to:message-id:subject;
+DKIM-Signature: a=rsa-sha256; b=eQg+mVLXOq32bWXBS+t+Vl3/7yWSESavBxNU193SHMJhIwllCSbmuvmT8/+WZ656nD4hCbq99sgkI5u8QVeqvBOWlN/Z8tuIFA/HYZG005Iwvadtbbdeze6l9GUN1CuJYF9wdv4GiCr0W06mgRSKjKJcDdLctH7ZFaMANSPS0jE=; c=relaxed/relaxed; s=282322; d=sender.zohocrm.com; v=1; bh=CRznXuleZqDlGmj7U1Y3ljbnjiBgVzR6pamiHPof23w=; h=date:from:to:message-id:subject:mime-version:content-type:feedback-id:date:from:to:message-id:subject;
+Date: Thu, 5 Nov 2026 00:19:28 -0800 (PST)
+From: noreply <noreply@ifza.com>
+To: Mikhail Kozin <kmd379@gmail.com>
+Message-ID: <2d6f.327230a.m1.9dbfd9b0-d8f1-11f1-8488-963d1902c9da.1a1aaca9acb@sender.zohocrm.com>
+Subject: =?UTF-8?Q?Renewal_Payment_Received_=E2=80=93_Action_Required?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_8535418_1630645282.1793866768952"
+X-ZCORGID: d2321560c36f47280b04c5b46554ee047a2e02a8619cd95730aa30daf5efb589
+Feedback-ID: 11111:61b08d683aec123d986ed845d2f878668676a46a43a1dadd3347f9f1bc43f210:sender.zohocrm.com:zohocrm
+X-ZCRM: 0b3d6b166642c65fd5d71430e33f33d88075a6d39f4c084b35068b74d70f2871cd22faa7197afb4f3c6a958a245122db
+Original-Envelope-Id: 2d6f.327230a.m1.9dbfd9b0-d8f1-11f1-8488-963d1902c9da.1a1aaca9acb
+X-JID: 2d6f.327230a.m1.9dbfd9b0-d8f1-11f1-8488-963d1902c9da.1a1aaca9acb
+TM-MAIL-JID: 2d6f.327230a.m1.9dbfd9b0-d8f1-11f1-8488-963d1902c9da.1a1aaca9acb
+X-App-Message-ID: 2d6f.327230a.m1.9dbfd9b0-d8f1-11f1-8488-963d1902c9da.1a1aaca9acb
+X-Report-Abuse: <abuse+2d6f.327230a.m1.9dbfd9b0-d8f1-11f1-8488-963d1902c9da.1a1aaca9acb@zohocpaas.com>
+X-Zoho-CM-AccountID: 29cb1b6fff44b3f0f8d4cd058b4a8cfa8e181b73e296651e9bcf2e148cf70b44
+X-ZohoMailClient: External
+
+------=_Part_8535418_1630645282.1793866768952
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Valued Licensee,  To proceed with your application, please complete al=
+l required fields using the link below:                         Renewal Ver=
+ification                          Please note that the renewal application=
+ can only be processed once all mandatory information has been submitted. T=
+o avoid delays in the renewal process, we recommend completing the required=
+ information as soon as possible.  Kind regards, IFZA Renewals Team
+
+------=_Part_8535418_1630645282.1793866768952
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">
+<style>
+=09@media only screen and (max-width: 480px){
+=09=09table[class=3DcontentOuter] {background:rgba(0,0,0,0) !important;}
+=09=09table[class=3DcontentInner] {width:100% !important;padding:0px;margin=
+:0px;}
+=09=09img[class=3DzpImage]{width:260px !important;max-width: 360px !importa=
+nt;text-align:center;margin:0px;padding:0px;}=20
+=09=09body, table, td, p, a, li,div,span, blockquote{-webkit-text-size-adju=
+st:none !important;}
+=09=09blockquote{outline:none !important;border: none !important;}
+        body{margin: 0px;}
+        pre{white-space: pre-wrap;}
+=09=09table[class=3DzpImageCaption]{text-align:left;}
+=09=09table[class=3Dcols]{width:100% !important;max-width:100% !important;t=
+ext-align:left;}
+=09=09table[class=3Dzpcolumns] {text-align:left;margin:0px;}=20
+=09=09table[class=3Dzpcolumn] {text-align:left;margin:0px;}=20
+=09=09table[class=3DzpAlignPos]{width:100%;text-align:left;margin:0px;}=20
+=09=09.table table img{width: auto !important;max-width: 100% !important;mi=
+n-width: auto;max-height: none !important;}
+=09=09td[class=3Dtxtsize]{font-size:18px !important;}
+=09=09td[class=3Dpaddingcomp]{padding-left:15px !important;padding-right: 1=
+5px !important;}
+=09=09td[class=3Dbannerimgpad]{padding:0px !important;}
+=09=09span[class=3Dtxtsize]{font-size:18px !important;}
+=09=09img.imgsize_B{width: 100% !important;max-width:100% !important;margin=
+: 0px !important;padding:0px !important;}
+=09=09img.imgsize_F{width: 100% !important;max-width:100% !important;margin=
+: 0px !important;padding:0px !important;}
+=09=09img.imgsize_S{width: 100% !important;max-width:105px !important;heigh=
+t:auto; margin:0px auto !important;padding:0px !important;}
+=09=09img.imgsize_M{width: 100% !important;max-width:227.869px !important;h=
+eight:auto; margin:0px auto !important;padding:0px !important;}
+=09=09img.imgsize_O{max-width: 100% !important;width: auto !important;heigh=
+t: auto !important;}
+=09=09.buttonInnerLink{
+    =09=09width: 100% !important;
+            max-width: 250px !important;
+   =09=09=09display: inline-block !important;
+            word-wrap:break-word !important;
+            text-align: center !important;
+=09=09}
+        .buttonOuterLink{
+    =09=09width: 100% !important;
+            max-width: 290px !important;
+   =09=09=09display: inline-block !important;
+            word-wrap:break-word !important;
+            text-align: center !important;
+=09=09}
+=09=09h1{
+=09=09=09font-size:28px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+=09=09h2{
+=09=09=09font-size:24px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+=09=09h3{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+=09=09h4{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+=09=09=09#contentOuter .contentmaintd{
+    =09=09=09vertical-align: top;
+    =09=09=09padding: 0px !important;
+=09=09=09}
+=09=09}=09=09
+=09=09@media only screen and (max-width: 480px){
+=09=09.zpImage{
+=09=09=09height:auto !important;
+=09=09=09width:100% !important;
+=09=09}}
+=09=09@media only screen and (max-width: 480px){
+=09=09.contentInner,.cols,.zpAlignPos{
+=09=09=09width:100% !important;
+=09=09=09max-width:100% !important;
+=09=09}}
+=09=09@media only screen and (max-width: 480px){
+=09=09.paddingcomp{
+=09=09=09padding-left:15px !important;
+=09=09=09padding-right:15px !important;
+=09=09}
+=09=09.bannerimgpad{
+=09=09=09padding:0px !important;
+=09=09}
+=09}
+=09=09@media screen and (max-width: 480px)
+        {
+                .tmplheader,.tmplfooter{width:100% !important;max-width:400=
+px !important;margin:0px auto;text-align:center;}
+        }
+=09=09a[x-apple-data-detectors] {
+=09=09    color: inherit !important;
+=09=09    text-decoration: none !important;
+=09=09    font-size: inherit !important;
+=09=09    font-family: inherit !important;
+=09=09    font-weight: inherit !important;
+=09=09    line-height: inherit !important;
+=09=09}
+</style>
+</head>
+<body><div class=3D"zppage-container"><style>
+=09@media only screen and (max-width: 480px){
+=09=09table[class=3DcontentOuter] {background:rgba(0,0,0,0) !important;}
+=09=09table[class=3DcontentInner] {width:100% !important;padding:0px;margin=
+:0px;}
+=09=09img[class=3DzpImage]{width:260px !important;max-width: 360px !importa=
+nt;text-align:center;margin:0px;padding:0px;}=20
+=09=09body, table, td, p, a, li,div,span, blockquote{-webkit-text-size-adju=
+st:none !important;}
+=09=09blockquote{outline:none !important;border: none !important;}
+        body{margin: 0px;}
+        pre{white-space: pre-wrap;}
+=09=09table[class=3DzpImageCaption]{text-align:left;}
+=09=09table[class=3Dcols]{width:100% !important;max-width:100% !important;t=
+ext-align:left;}
+=09=09table[class=3Dzpcolumns] {text-align:left;margin:0px;}=20
+=09=09table[class=3Dzpcolumn] {text-align:left;margin:0px;}=20
+=09=09table[class=3DzpAlignPos]{width:100%;text-align:left;margin:0px;}=20
+=09=09.table table img{width: auto !important;max-width: 100% !important;mi=
+n-width: auto;max-height: none !important;}
+=09=09td[class=3Dtxtsize]{font-size:18px !important;}
+=09=09td[class=3Dpaddingcomp]{padding-left:15px !important;padding-right: 1=
+5px !important;}
+=09=09td[class=3Dbannerimgpad]{padding:0px !important;}
+=09=09span[class=3Dtxtsize]{font-size:18px !important;}
+=09=09img.imgsize_B{width: 100% !important;max-width:100% !important;margin=
+: 0px !important;padding:0px !important;}
+=09=09img.imgsize_F{width: 100% !important;max-width:100% !important;margin=
+: 0px !important;padding:0px !important;}
+=09=09img.imgsize_S{width: 100% !important;max-width:105px !important;heigh=
+t:auto; margin:0px auto !important;padding:0px !important;}
+=09=09img.imgsize_M{width: 100% !important;max-width:227.869px !important;h=
+eight:auto; margin:0px auto !important;padding:0px !important;}
+=09=09img.imgsize_O{max-width: 100% !important;width: auto !important;heigh=
+t: auto !important;}
+=09=09.buttonInnerLink{
+    =09=09width: 100% !important;
+            max-width: 250px !important;
+   =09=09=09display: inline-block !important;
+            word-wrap:break-word !important;
+            text-align: center !important;
+=09=09}
+        .buttonOuterLink{
+    =09=09width: 100% !important;
+            max-width: 290px !important;
+   =09=09=09display: inline-block !important;
+            word-wrap:break-word !important;
+            text-align: center !important;
+=09=09}
+=09=09h1{
+=09=09=09font-size:28px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+=09=09h2{
+=09=09=09font-size:24px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+=09=09h3{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+=09=09h4{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:100% !important;
+=09=09}
+=09=09=09#contentOuter .contentmaintd{
+    =09=09=09vertical-align: top;
+    =09=09=09padding: 0px !important;
+=09=09=09}
+=09=09}=09=09
+=09=09@media only screen and (max-width: 480px){
+=09=09.zpImage{
+=09=09=09height:auto !important;
+=09=09=09width:100% !important;
+=09=09}}
+=09=09@media only screen and (max-width: 480px){
+=09=09.contentInner,.cols,.zpAlignPos{
+=09=09=09width:100% !important;
+=09=09=09max-width:100% !important;
+=09=09}}
+=09=09@media only screen and (max-width: 480px){
+=09=09.paddingcomp{
+=09=09=09padding-left:15px !important;
+=09=09=09padding-right:15px !important;
+=09=09}
+=09=09.bannerimgpad{
+=09=09=09padding:0px !important;
+=09=09}
+=09}
+=09=09@media screen and (max-width: 480px)
+        {
+                .tmplheader,.tmplfooter{width:100% !important;max-width:400=
+px !important;margin:0px auto;text-align:center;}
+        }
+=09=09a[x-apple-data-detectors] {
+=09=09    color: inherit !important;
+=09=09    text-decoration: none !important;
+=09=09    font-size: inherit !important;
+=09=09    font-family: inherit !important;
+=09=09    font-weight: inherit !important;
+=09=09    line-height: inherit !important;
+=09=09}
+</style>
+
+<table class=3D"contentOuter" id=3D"contentOuter" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%" style=3D"width:100%;border:0px;font-family:Arial,=
+ Helvetica, sans-serif;color:rgb(17, 17, 17);font-size:13px;border-collapse=
+:collapse;letter-spacing:normal;text-rendering: optimizeLegibility;backgrou=
+nd-color:rgb(240, 240, 240);">
+<tbody>
+<tr>
+<td align=3D"center" class=3D"contentmaintd" style=3D"border:0px;padding-to=
+p:10px;padding-bottom:20px;">
+<table class=3D"contentInner" id=3D"contentInner" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"600px" style=3D"width:600px;border:0px;border-collapse:=
+collapse;table-layout:fixed;background-color:rgb(255, 255, 255);">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"border:0px;word-wrap:break-word;word-break:brea=
+k-word;">
+<div class=3D"zpcontent-wrapper" id=3D"page-container">
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"min-width:100%;max-widt=
+h:100%;table-layout:fixed;border:0px;border-collapse:collapse;" width=3D"10=
+0%">
+<tbody>
+<tr>
+<td class=3D"txtsize" valign=3D"top" style=3D"border:0px;">
+<div class=3D"zpelement-wrapper text">
+<table title=3D"" cellspacing=3D"0" cellpadding=3D"0" style=3D"text-renderi=
+ng: optimizeLegibility;font-size:13px;letter-spacing:normal;font-family:Ari=
+al, Helvetica, sans-serif;min-width:100%;max-width:100%;table-layout:fixed;=
+border:0px;border-collapse:collapse;background-color:rgba(0, 0, 0, 0);" wid=
+th=3D"100%">
+<tbody>
+<tr>
+<td style=3D"word-wrap:break-word;word-break:break-word;border:0px;padding:=
+6px 16px;border-top:0px none rgb(17, 17, 17);border-bottom:0px none rgb(17,=
+ 17, 17) ;font-family:Arial, Helvetica, sans-serif">
+<p style=3D"padding: 0px; margin: 0px">Dear Valued Licensee,</p>
+<p style=3D"padding: 0px; margin: 0px"><br></p>
+<p style=3D"padding: 0px; margin: 0px">To proceed with your application, pl=
+ease complete all required fields using the link below:</p>
+
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"txtsize" valign=3D"top" style=3D"border:0px;">
+<div class=3D"zpelement-wrapper button">
+<table title=3D"" align=3D"center" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"min-width:100%;max-width:100%;table-layout:fixed;border:0px;border-col=
+lapse:collapse;background-color:rgba(0, 0, 0, 0);" width=3D"100%">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"border:0px;padding:6px 16px;border-top:0px no=
+ne rgb(17, 17, 17);border-bottom:0px none rgb(17, 17, 17)">
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"table-layout:fixed;bord=
+er:0px;border-collapse:collapse;" align=3D"center">
+<tbody>
+<tr>
+<td>
+<a class=3D"buttonOuterLink" href=3D"https://sender.zohoinsights-crm.com/ck=
+1/2d6f.327230a/9dbfd9b0-d8f1-11f1-8488-963d1902c9da/5f9d756c81141009e14fbde=
+cd533896c70193a75/2?e=3DKwi%2FuShtkPOuny3MjnpErh3vlBi9BvXG1w2ZmVsVp8vOjLAhI=
+p5FAX5GVnwpUp8qMQGdZmSUbigu1ipQwD%2Fomi8PgTj438j425z47JBffMDyxPvj8lw1NN%2Bf=
+BpQe4jdrR9dVv%2Faflu6mVlWDPJFGKE9UdI6YqmLUxcJb7mlK%2FnQHSIvIR1idj%2FaDtRiSy=
+463Mu%2Fm42Z0k3wP%2BjpAZrMitBXbZzy7FtFN7uprqYTLy82hZ8DIe9%2F%2BKqeKCOw7GAaL=
+qvrAk5pT8vLgAwXf3A7tPeojQGkSsIMJ680fy0kWDozVuWthH0dnge7igGdnQrMx" style=3D"=
+text-decoration:none;" target=3D"_blank">
+<table cellspacing=3D"3" cellpadding=3D"3" align=3D"center" style=3D"text-r=
+endering: optimizeLegibility;font-size:13px;letter-spacing:normal;font-fami=
+ly:Arial;background-color:rgb(205, 167, 44);color:rgb(0, 0, 0);border-radiu=
+s:5px;border-width:0px;border-style:none;border-color:black">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"word-wrap:break-word;word-break:break-word;bo=
+rder:0px;padding:7px 20px;font-size:13.3333px;font-weight:400;font-style:no=
+rmal;text-decoration:none">
+<p style=3D"padding:0px;margin:0px">
+<a class=3D"buttonInnerLink" href=3D"https://sender.zohoinsights-crm.com/ck=
+1/2d6f.327230a/9dbfd9b0-d8f1-11f1-8488-963d1902c9da/5f9d756c81141009e14fbde=
+cd533896c70193a75/2?e=3DKwi%2FuShtkPOuny3MjnpErh3vlBi9BvXG1w2ZmVsVp8vOjLAhI=
+p5FAX5GVnwpUp8qMQGdZmSUbigu1ipQwD%2Fomi8PgTj438j425z47JBffMDyxPvj8lw1NN%2Bf=
+BpQe4jdrR9dVv%2Faflu6mVlWDPJFGKE9UdI6YqmLUxcJb7mlK%2FnQHSIvIR1idj%2FaDtRiSy=
+463Mu%2Fm42Z0k3wP%2BjpAZrMitBXbZzy7FtFN7uprqYTLy82hZ8DIe9%2F%2BKqeKCOw7GAaL=
+qvrAk5pT8vLgAwXf3A7tPeojQGkSsIMJ680fy0kWDozVuWthH0dnge7igGdnQrMx" style=3D"=
+text-decoration:none;color:rgb(0, 0, 0);" target=3D"_blank">Renewal Verific=
+ation</a>
+</p>
+
+</td>
+</tr>
+</tbody>
+</table>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td class=3D"txtsize" valign=3D"top" style=3D"border:0px;">
+<div class=3D"zpelement-wrapper text">
+<table title=3D"" cellspacing=3D"0" cellpadding=3D"0" style=3D"text-renderi=
+ng: optimizeLegibility;font-size:13px;letter-spacing:normal;font-family:Ari=
+al, Helvetica, sans-serif;min-width:100%;max-width:100%;table-layout:fixed;=
+border:0px;border-collapse:collapse;background-color:rgba(0, 0, 0, 0);" wid=
+th=3D"100%">
+<tbody>
+<tr>
+<td style=3D"word-wrap:break-word;word-break:break-word;border:0px;padding:=
+6px 16px;border-top:0px none rgb(17, 17, 17);border-bottom:0px none rgb(17,=
+ 17, 17) ;font-family:Arial, Helvetica, sans-serif">
+<p style=3D"padding: 0px; margin: 0px"><font size=3D"2"><br></font></p>
+<p style=3D"padding: 0px; margin: 0px"><font size=3D"2">Please note that th=
+e renewal application can only be processed once all mandatory information =
+has been submitted. To avoid delays in the renewal process, we recommend co=
+mpleting the required information as soon as possible.</font></p>
+<p style=3D"padding: 0px; margin: 0px"><font size=3D"2"><br></font></p>
+<p style=3D"padding: 0px; margin: 0px"><font size=3D"2">Kind regards,</font=
+></p>
+<p style=3D"padding: 0px; margin: 0px"><font size=3D"2">IFZA Renewals Team<=
+/font></p>
+
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div><img src=3D"https://sender.zohoinsights-crm.com/ocimage/2d6f.327230a/=
+mk9dbfd9b0-d8f1-11f1-8488-963d1902c9da_hk0f54e7d4010a823f9f115806b65c0e313d=
+aec40ad28bc25f353d9fd02efefdb1.gif" height=3D"1" width=3D"1" alt=3D""></bod=
+y></html>
+------=_Part_8535418_1630645282.1793866768952--

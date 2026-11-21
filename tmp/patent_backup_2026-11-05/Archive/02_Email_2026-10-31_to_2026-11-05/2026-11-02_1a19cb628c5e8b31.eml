@@ -1,0 +1,1062 @@
+Delivered-To: kmd379@gmail.com
+Received: by 2002:a05:7508:9024:b0:108:bd20:e628 with SMTP id ky36csp5583482gbb;
+        Mon, 2 Nov 2026 06:42:26 -0800 (PST)
+X-Received: by 2002:a05:6214:3005:b0:917:a515:ba84 with SMTP id 6a1803df08f44-91ca4b27b8bmr167329536d6.32.1793630546171;
+        Mon, 02 Nov 2026 06:42:26 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1793630546; cv=none;
+        d=google.com; s=arc-20260327;
+        b=CmvF/fHaG0+v7a9c2qDulJmpchow+RPWKFDWgSRO2xX2wtah3aUSXHh21U2j25EDcV
+         dvl5d4lD7Df71f32Ss4InnOHFDlyS8w1PG0yDRq84z8CVW88BZgHvvEqTELqS6hKzY7l
+         XTNgLyS6+xzCBzvlBa08IOMLP4N2E8YKTBkDOdcDxB6GQvmz6cbLNg9cekjcz1pUKgm4
+         o4RUVS6nMP8O1CIqopmXgCJleLBKM7Wl4SO/jxXxJntPWhR4PuRxzbqf5AZLYo0uO5O2
+         /JvOj8wo+6OxLSVANHdSp03m7MuG2xyB04pKxZFt8Ndt4c4q0ZaZLnWsl1+8GxsQO+rS
+         590A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :in-reply-to:references:to:from:dkim-signature:dkim-signature;
+        bh=3d5j0mwpVyQSt40q3a4Cd95Cw+Rmo1OStAru9K6+Fuc=;
+        fh=CcEKMIeNX3e27vZYQDAOcjjKHOtsmbgv3NwUHo/54NU=;
+        b=semaLwE/nnSzYYkS9oogMwI7baxOpz1yU369pHMFpKykPBU2VnMK32DvXNurnEH9aS
+         ngd9I4sKSEHPI5id871DJzyRbXXmyzUsbNag4YP0lo08ymcWxZyjr58EMAhgFPziHXAA
+         XC6aGaJJcJlQBF3clR4VwQ2CNCWNYwmnYSYLmCR9DMD9KBPRhAlnxvA7DbO8WE7EEXy1
+         dY4sUaURlAKIFCrFkGo3tT2ai2R/eni39T1rupFf4k8zrz2K9/NFkFsDaqJqph0U2x5N
+         yax/blQ6IF2Cm3cPDT2KEMFzlr68Kc48Shx1b3q0Mdt/6rlQ3agpihWsjV29FNzWdXF3
+         55ww==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@g001.emailsrvr.com header.s=feedback header.b=MsLXnF3n;
+       dkim=pass header.i=@unitedtm.com header.s=20260204-ze2y3w7s header.b=s9AmvYic;
+       spf=pass (google.com: domain of patents@unitedtm.com designates 184.106.54.113 as permitted sender) smtp.mailfrom=patents@unitedtm.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=unitedtm.com
+Return-Path: <patents@unitedtm.com>
+Received: from smtp113.ord1d.emailsrvr.com (smtp113.ord1d.emailsrvr.com. [184.106.54.113])
+        by mx.google.com with ESMTPS id 6a1803df08f44-91cb29275a4si70619586d6.53.2026.11.02.06.42.25
+        for <kmd379@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 02 Nov 2026 06:42:26 -0800 (PST)
+Received-SPF: pass (google.com: domain of patents@unitedtm.com designates 184.106.54.113 as permitted sender) client-ip=184.106.54.113;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@g001.emailsrvr.com header.s=feedback header.b=MsLXnF3n;
+       dkim=pass header.i=@unitedtm.com header.s=20260204-ze2y3w7s header.b=s9AmvYic;
+       spf=pass (google.com: domain of patents@unitedtm.com designates 184.106.54.113 as permitted sender) smtp.mailfrom=patents@unitedtm.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=unitedtm.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=g001.emailsrvr.com;
+	s=feedback; t=1793630545;
+	bh=avGqwZ0luxLzzBf4vQn6ZBPh6vP29CmtRpj4U7ToE8A=;
+	h=From:To:Subject:Date:From;
+	b=MsLXnF3ne2xuaePAZM+2Bk0GgyKPND6Pn/vaTHqS93HlMywJcKk35MhzVTtTggEdr
+	 tAyP7uW2wCEnUFG/i9p22Fh31c9nUM7yILP9pwVBkIN/+PaM7mAsosaR+hdJGbfk/k
+	 ymKz2piU6TDo8NEatWuBsgdGaiI7s0/JPo3LQ7Ks=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=unitedtm.com;
+	s=20260204-ze2y3w7s; t=1793630545;
+	bh=avGqwZ0luxLzzBf4vQn6ZBPh6vP29CmtRpj4U7ToE8A=;
+	h=From:To:Subject:Date:From;
+	b=s9AmvYicP3WbGYJK2hym/X9czAN04HG1R9XZg4hjiUukSSPxA6xXas86FNaPghTwR
+	 P+yZ9Uzeo6KL+9oseQpYU/sE5AfXXVt8yyZnzxZrjvw35CbOHJLUHyLKhndDBT5R1H
+	 BymS5Sfm8dGg+rsTy7HPOqRuwXrnkdc2/+lM74pA=
+X-Auth-ID: patents@unitedtm.com
+Received: by smtp15.relay.ord1d.emailsrvr.com (Authenticated sender: patents-AT-unitedtm.com) with ESMTPSA id 57F9D60236;
+	Mon,  2 Nov 2026 09:42:24 -0500 (EST)
+From: "UTPS || PATENTS*" <patents@unitedtm.com>
+To: =?utf-8?B?J9Cc0LjRhdCw0LjQuyDQmtC+0LfQuNC9Jw==?= <kmd379@gmail.com>
+References: <CAFUR33PW=d1CCj_cwG=Y+kTgvgXyE4jugs+-pS9QvuQO6-gxfQ@mail.gmail.com> <015601dd66a3$68ad8e90$3a08abb0$@unitedtm.com> <038b01dd684f$9f99ba20$decd2e60$@unitedtm.com> <CAFUR33PGaHtObgOcF=OA+HBkTKoVUvsLA7KTCWtY+yV378pLEg@mail.gmail.com> <059d01dd687c$bf2a3270$3d7e9750$@unitedtm.com> <26d701dd6a9b$f7d21b80$e7765280$@unitedtm.com> <CAFUR33PLP02KaCNZkTUSz4XRuuYWjNEXHHVVMkHXkfsZdpMcPQ@mail.gmail.com>
+In-Reply-To: <CAFUR33PLP02KaCNZkTUSz4XRuuYWjNEXHHVVMkHXkfsZdpMcPQ@mail.gmail.com>
+Subject: =?utf-8?Q?RE:_PBK_=E2=80=93_company_documents=2C_two?=
+	=?utf-8?Q?_PCT_applications_and_NDA?=
+Date: Mon, 2 Nov 2026 18:42:22 +0400
+Message-ID: <070201dd6ad8$5fe92ce0$1fbb86a0$@unitedtm.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0703_01DD6AF9.E6FD3DE0"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: AQLyrKiNmntxC8gEghZbtHvhI7ue9AH3PT2IAr6IDXABdd4CvwHOpbD7Ak32y3EBywY5cLSPvTHg
+Content-Language: en-gb
+X-Classification-ID: 6bade017-eaa1-4b08-8642-c64f2f696362-1-1
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0703_01DD6AF9.E6FD3DE0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Acknowledged with thanks=20
+
+=20
+
+We confirm that the matter is receiving our diligent attention. We have =
+duly noted your comments/instructions. We will revert to you with our =
+further response in due course.=20
+
+=20
+
+In the meantime, should you require any further information or =
+clarification, kindly let us know.
+
+=20
+
+From: =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =
+=D0=9A=D0=BE=D0=B7=D0=B8=D0=BD <kmd379@gmail.com>=20
+Sent: 02 November 2026 01:39 PM
+To: patents@unitedtm.com
+Subject: Re: PBK =E2=80=93 company documents, two PCT applications and =
+NDA
+
+=20
+
+Dear Mr. Koshy,
+
+Thank you for your proposal. Please complete the NDA with your =
+organisation=E2=80=99s full legal name and identify PBK ENGINEERING =
+INTELLECTUAL PROPERTY RIGHTS MANAGEMENT =E2=80=93 FZCO and me, Mikhail =
+Kozin, as the disclosing parties, with coverage extending to materials =
+already provided.
+
+Please clarify whether the USD 950 and USD 2,545 fees apply to one =
+application or both applications, what exactly is included in the =
+preparation work, and which official fees and expenses are payable =
+separately.
+
+We require two PCT applications in PBK=E2=80=99s name: the application =
+based on PPAs Nos. 1, 2, 8 and 9 by November 28, 2026, and the =
+application based on PPAs Nos. 3=E2=80=937 by December 3, 2026. Once the =
+NDA is signed, we will provide the complete technical package and the =
+materials prepared by Ali.
+
+Please identify the authorised representative and confirm how soon after =
+receiving the materials you will provide the final total cost, the =
+engagement agreement and the work schedule for the complete turnkey =
+service.
+
+Kind regards,
+Mikhail Kozin
+
+=20
+
+On Mon, 02 Nov 2026 11:29:57 +0400, patents@unitedtm.com =
+<mailto:patents@unitedtm.com>  wrote:
+
+United Trademark & Patent Services Registrations and Enforcement of =
+Intellectual Property Rights In the Middle East, South Asia, and Africa =
+Established in 1949 Dear Mikhail =E2=80=93 Thank you for your email =
+communication and for sharing the information. At the onset, please note =
+that we will be able to execute the attached general NDA as the document =
+provided from your end has clauses which needs review and approval from =
+the management. In the interest of time, the attached general NDA can be =
+executed. As we have not yet received the complete invention details, we =
+can presently confirm only that we can handle the PCT filing, provided =
+we receive your instructions and the complete, filing-ready =
+specification at least four working days before the applicable deadline. =
+Our ability to undertake the drafting within the available time will =
+depend on our review of the scope of the disclosure and the technical =
+materials you provide. The associated costs are as follows: * Initial =
+discussion and providing the strategy to protect your invention: USD =
+950/- [Up to 3 hours] * Towards preparing and filing the patent =
+application before the WIPO: USD 2545 Applicable VAT will be added. =
+Should you need any further information or clarification, please let us =
+know. Best regards, NEVIN JACOB KOSHY PARTNER Head of Department =
+=E2=80=93 Patent | Design Member of Chartered Institute of Patent =
+Attorneys, U.K Office: +971 4 343 7544 | Email: =
+<mailto:patents@unitedtm.com <mailto:patents@unitedtm.com> > =
+patents@unitedtm.com <mailto:patents@unitedtm.com>  Address: Suite =
+401-402, Al Hawai Tower, Sheikh Zayed Road, P.O. Box 72430, Dubai, UAE =
+Stay Connected: <http://www.utmps.com/> Website | =
+<https://www.linkedin.com/company/utmps/> LinkedIn | =
+<https://bit.ly/signup-utmps> Newsletter United Trademark & Patent =
+Services (UTMPS) is a specialized law firm in Intellectual Property, =
+founded in 1949 to meet our clients' IP law needs. With over 70 years of =
+experience, our team includes expert attorneys and technical analysts =
+focused on IP rights and related matters. Our commitment to excellence =
+has positioned us as a leader in the field, proudly serving more than =
+100 Fortune 500 companies. UTMPS Branch and Representative Offices: =
+South Asia: Afghanistan | Bangladesh | Bhutan | India | Nepal | Pakistan =
+| Sri Lanka Middle East: Bahrain | Iraq | Jordan | Kuwait | Lebanon | =
+Oman | Qatar | Saudi Arabia | Turkey | United Arab Emirates | Yemen =
+Africa: Algeria | Djibouti | Egypt | Ethiopia | Kenya | Libya | Morocco =
+| Nigeria | Sudan | Tanzania (Tanganyika/Zanzibar) | Tunisia | Uganda We =
+aim to acknowledge all emails within one working day. If you =
+don=E2=80=99t receive a response, please resend your message, as some =
+may not be delivered. Thank you for your understanding. Confidentiality =
+and Legal Privilege Notice This email contains confidential information =
+that may be protected by legal privilege. If you are not the intended =
+recipient, please refrain from copying or disclosing its contents and =
+contact the sender immediately. Additionally, please notify us at =
+<mailto:patents@unitedtm.com <mailto:patents@unitedtm.com> > =
+patents@unitedtm.com <mailto:patents@unitedtm.com>  or +971-4-3437 544, =
+and delete this message. Unauthorized use of this email is strictly =
+prohibited./NK * Egypt: Egypt has integrated virtual hearings into the =
+appeal process for industrial designs. | Effective October 14, 2025, =
+EGIPA has issued a sweeping update to its existing official fees and has =
+introduced new payable services covering various administrative =
+procedures applicable to patents & plant varieties. | Dated 18 June =
+2025, the official examination fee for patent applications in Egypt has =
+been increased to EGP 50,000, in accordance with the provisions of the =
+Egyptian Patent Law No. 82 of 2002. Also, the deadline to pay =
+examination fees has been officially revised to 3 months from the =
+official notification date, instead of the previous 6-month period from =
+the filing date. An extension can be availed by paying an additional fee =
+of EGP 25,000. * UAE: Effective October 6, 2026, the UAE has officially =
+joined the Locarno Agreement for industrial designs, as announced by =
+WIPO. | USPTO and UAE have signed a joint agreement to expedite patent =
+granting process. The UAE will now accept positive patent examination =
+results from the USPTO, which will significantly speed up the =
+patent-granting process in the UAE. | A Cabinet Decision has been issued =
+in March 2025 detailing the establishment and operational framework for =
+the Industrial Property Grievances Committee. * Zanzibar: On 18 July =
+2025, the Zanzibar IP Office announced the implementation of increased =
+official fees, set to take effect from 11 August 2025. These revised =
+fees will apply retrospectively to both new and pending applications, =
+where official fees remain outstanding on or after this date. * Bahrain: =
+Bahrain and Japan Sign MoU to Launch PPH Program, set to launch on =
+January 1, 2026. | Bahrain PTO launched PPH Pilot Programs with South =
+Korea (effective January 15, 2025, for three years) and the European =
+Patent Office (commenced March 1, 2025, for an initial two years). | =
+Bahrain Patent Office recently signed a Memorandum of Understanding =
+(MOU) with the USPTO to implement the Patent Prosecution Highway (PPH) =
+system. Bahrain has signed a Patent Prosecution Highway (PPH) Agreement =
+with China. PPH pilot program officially started on May 1, 2024, and =
+will run for five years until April 30, 2029. * Myanmar: =
+Myanmar=E2=80=99s Patent Law 2019 came into effect on 31 May 2024. =
+However, it is important to note that patent applications cannot yet be =
+filed, as the issuance of patent forms and fees remains pending. * =
+Qatar: MOCI announced that it has started accepting applications for =
+industrial designs and models as of 26 October 2025. | Qatar PTO has =
+issued a significant clarification regarding the payment of annuity =
+fees. The Office has resumed accepting annuity payments on all patent =
+applications, irrespective of their acceptance or grant status. This =
+change overrules the previous policy that deferred fees beyond the third =
+year for pending applications. * ARIPO: China National Intellectual =
+Property Administration (CNIPA) has recently introduced the China-Africa =
+Patent Prosecution Highway (PPH) in collaboration with the African =
+Regional Intellectual Property Organization (ARIPO). * Algeria: Algeria =
+now accepts the Apostille Convention for foreign public documents, =
+replacing conventional legalization with a single originating apostille. =
+| Algeria has introduced 19% VAT on Official Fees associated with =
+Intellectual Property Services. * GCC: The GCC has introduced the Patent =
+Prosecution Highway (GCC-PPH), enabling inventors to request expedited =
+patent examination across all member states by leveraging a substantive =
+examination report issued either by the GCC Patent Office or =
+participating member states. * Saudi Arabia: Saudi Arabia recently =
+joined the Hague Agreement for International Design Registration | In =
+accordance with the amended Patent and Industrial Design Law, validity =
+of industrial designs has been extended from ten (10) to fifteen (15) =
+years for all designs submitted in 2013 and onwards. | Saudi Authority =
+for Intellectual Property (SAIP) has signed a Patent Prosecution Highway =
+(PPH) Agreement with Intellectual Property Office of Singapore (IPOS). =
+This PPH Pilot Program commenced on 12 September 2023 for a period of 2 =
+years and will end on 11 September 2025. From: UTPS || PATENTS* =
+<patents@unitedtm.com <mailto:patents@unitedtm.com> > Sent: Friday, 30 =
+October, 2026 6:41 PM To: '=D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =
+=D0=9A=D0=BE=D0=B7=D0=B8=D0=BD' <kmd379@gmail.com =
+<mailto:kmd379@gmail.com> > Subject: RE: PBK =E2=80=93 company =
+documents, two PCT applications and NDA Acknowledged with thanks We =
+confirm that the matter is receiving our diligent attention. We have =
+duly noted your comments/instructions. We will revert to you with our =
+further response in due course. In the meantime, should you require any =
+further information or clarification, kindly let us know. Note: Since it =
+is the weekend here, our offices are closed. Please excuse us if our =
+response is delayed. From: =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =
+=D0=9A=D0=BE=D0=B7=D0=B8=D0=BD <kmd379@gmail.com =
+<mailto:kmd379@gmail.com>  <mailto:kmd379@gmail.com =
+<mailto:kmd379@gmail.com> > > Sent: 30 October 2026 03:22 PM To: =
+patents@unitedtm.com <mailto:patents@unitedtm.com>  =
+<mailto:patents@unitedtm.com <mailto:patents@unitedtm.com> > Subject: =
+Re: PBK =E2=80=93 company documents, two PCT applications and NDA Dear =
+UTMPS Patent Team, Thank you for your reply. We will arrange =
+Russian-language assistance ourselves; you may correspond with us and =
+prepare the application documents in English. The intended applicant is =
+PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO, Dubai, =
+UAE, trade licence No. 38769. Its registered office is IFZA Business =
+Park, DDP, PO Box 342001, Dubai, UAE. I am Mikhail Dmitrievich Kozin =
+(Mikhail Kozin in the patent records), PBK's sole shareholder and =
+General Manager, and the sole inventor of the ten US provisional =
+applications listed below. I am a Russian citizen, have held permanent =
+residence in Spain for more than 25 years and have held an Emirates ID =
+for more than three years. My principal residence is in Sharjah, UAE. I =
+confirm that I have been a UAE tax resident for more than three years. =
+Attached are PBK's current 51-page Memorandum and Articles of =
+Association, trade licence and my Emirates ID copy. Our immediate =
+request is the preparation and filing of two international PCT =
+applications from PBK, claiming the relevant US provisional priorities: =
+1. Modular Cabinet Platform (PPAs 3=E2=80=937): modular retail cabinets, =
+reconfigurable chassis and bays, self-leveling, sensor-based retrieval, =
+tokenized/biometric access and thermal/fluid-processing modules. =
+Requested filing date: 3 December 2026. 2. AI Pricing & Retail =
+Intelligence Platform (PPAs 1, 2, 8 and 9): freshness- and quality-based =
+dynamic pricing, biometric access control, produce quality monitoring, =
+verified feedback and supplier governance. Requested filing date: 28 =
+November 2026, or an earlier working day if needed. PPA 10 is not =
+included in the initial two-PCT order. The application list below gives =
+the recorded US filing dates and their twelve-month anniversary control =
+dates. Please verify the applicable deadlines and priority entitlement =
+from the official records before filing. PPA 1 =E2=80=94 US 63/938,244 =
+=E2=80=94 Autonomous Retail Ecosystem with AI-Driven Dynamic Pricing and =
+Biometric Access Control for Restricted Goods Filed: 2025-12-11; =
+12-month control date: 2026-12-11. PPA 2 =E2=80=94 US 63/945,513 =
+=E2=80=94 System for Bio-Metric Inventory Management and Dynamic =
+Freshness Pricing Filed: 2025-12-19; 12-month control date: 2026-12-19. =
+PPA 3 =E2=80=94 US 63/947,909 =E2=80=94 Modular Smart Vending Cabinet =
+with Smart-Glass Inspection Mode, Sensor-Fusion Manual Retrieval, and =
+Quality-Based Dynamic Pricing Filed: 2025-12-23; 12-month control date: =
+2026-12-23. PPA 4 =E2=80=94 US 63/955,179 =E2=80=94 SMART RETAIL CABINET =
+WITH TOKENIZED ACCESS AND SPLIT PAYMENTS Filed: 2026-01-06; 12-month =
+control date: 2027-01-06. PPA 5 =E2=80=94 US 63/959,439 =E2=80=94 SMART =
+RETAIL CABINET WITH TOKENIZED ACCESS AND SPLIT PAYMENTS Filed: =
+2026-01-13; 12-month control date: 2027-01-13. PPA 6 =E2=80=94 US =
+63/961,839 =E2=80=94 MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, =
+AI- DRIVEN PRICING, AND INTEGRATED CONSUMABLES MANAGEMENT Filed: =
+2026-01-16; 12-month control date: 2027-01-16. PPA 7 =E2=80=94 US =
+63/975,643 =E2=80=94 MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, =
+AI- DRIVEN PRICING, AND INTEGRATED CONSUMABLES MANAGEMENT Filed: =
+2026-02-04; 12-month control date: 2027-02-04. PPA 8 =E2=80=94 US =
+64/090,283 =E2=80=94 INTELLIGENT BULK PRODUCE QUALITY CONTROL AND =
+DYNAMIC PRICING SYSTEM Filed: 2026-06-14; 12-month control date: =
+2027-06-14. PPA 9 =E2=80=94 US 64/106,825 =E2=80=94 AUTONOMOUS RETAIL =
+PLATFORM WITH VERIFIED FEEDBACK CONTROL Filed: 2026-07-07; 12-month =
+control date: 2027-07-07. PPA 10 =E2=80=94 US 64/125,577 =E2=80=94 =
+THROUGH-TRACKING TARE CONTROL SYSTEM Filed: 2026-08-04; 12-month control =
+date: 2027-08-04. The most urgent control date is 11 December 2026 for =
+Group 2; Group 1's earliest control date is 23 December 2026. For Group =
+1, Ali prepared an unfinished English nonprovisional draft and a =
+22-sheet drawing set. We also have the filed provisional materials, =
+filing records and supplemental explanations. We will provide the =
+detailed technical package after discussing and signing an NDA covering =
+both PBK and me. We sent our proposed NDA on 28 October; please return =
+your proposed version for signature. Following the PCT filings, we =
+intend to discuss further patent protection and registration in the UAE =
+with your firm, including the appropriate national-stage work. Those =
+later stages will be agreed separately. Please identify the authorized =
+representative, and provide your proposed NDA and an initial =
+fee/schedule proposal. Please identify professional fees, official fees =
+and other expenses separately. If a final fixed quotation requires the =
+detailed technical package, please state when you can provide it after =
+receipt under the NDA. Kind regards, Mikhail Kozin General Manager PBK =
+ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO On Fri, 30 =
+Oct 2026 13:18:27 +0400, patents@unitedtm.com =
+<mailto:patents@unitedtm.com>  <mailto:patents@unitedtm.com =
+<mailto:patents@unitedtm.com> > wrote: Dear Mikhail, thank you for your =
+email and for considering our professional services in the region. As we =
+understand from your requests, you need a professional firm to represent =
+you before the WIPO [PCT application] and before the UAE Patent Office. =
+We have noted the proposed filing dates of November 28, 2026, and =
+December 3, 2026, together with the respective priority deadlines. We =
+would be pleased to review the proposed scope and assess how best to =
+assist, including coordination with appropriate drafting specialists =
+where required. As a first step, we would appreciate company =
+registration details and the names of all relevant parties associated =
+with this project to enable us to complete our conflict checks. =
+Following clearance, we can arrange for the confidential exchange of =
+documents and confirm the appropriate filing route, scope of services, =
+professional fees and timelines. We have also noted your requirements =
+concerning Russian-language communication, filing formalities and =
+post-filing support. We regret that we are currently unable to provide =
+Russian-language communication support. Should you need any further =
+information or clarification, please let us know. Looking forward to =
+hearing from you. Best regards, <mailto:patents@unitedtm.com =
+<mailto:patents@unitedtm.com>  <mailto:patents@unitedtm.com =
+<mailto:patents@unitedtm.com> > > patents@unitedtm.com =
+<mailto:patents@unitedtm.com>  <mailto:patents@unitedtm.com =
+<mailto:patents@unitedtm.com> > <http://www.utmps.com/> www.utmps.com =
+<http://www.utmps.com>  <http://www.utmps.com> +971-4-3437 544 =
+<https://www.linkedin.com/company/united-trademark- =
+<https://www.linkedin.com/company/united-trademark- =
+<https://www.linkedin.com/company/united-trademark-&-patent-services/> =
+&-patent-services/> &-patent-services/> United Trademark & Patent =
+Services Suite 401-402, Al Hawai Tower, Sheikh Zayed Road, P.O. Box =
+72430, Dubai, UAE United Trademark & Patent Services (UTMPS) is a =
+specialized law firm in Intellectual Property, founded in 1949 to meet =
+our clients' IP law needs. With over 70 years of experience, our team =
+includes expert attorneys and technical analysts focused on IP rights =
+and related matters. Our commitment to excellence has positioned us as a =
+leader in the field, proudly serving more than 100 Fortune 500 =
+companies. UTMPS Branch and Representative Offices: South Asia: =
+Afghanistan | Bangladesh | Bhutan | India | Nepal | Pakistan | Sri Lanka =
+Middle East: Bahrain | Iraq | Jordan | Kuwait | Lebanon | Oman | Qatar | =
+Saudi Arabia | Turkey | United Arab Emirates | Yemen Africa: Algeria | =
+Djibouti | Egypt | Ethiopia | Kenya | Libya | Morocco | Nigeria | Sudan =
+| Tanzania (Tanganyika/Zanzibar) | Tunisia | Uganda We aim to =
+acknowledge all emails within one working day. If you don=E2=80=99t =
+receive a response, please resend your message, as some may not be =
+delivered. Thank you for your understanding. Confidentiality and Legal =
+Privilege Notice This email contains confidential information that may =
+be protected by legal privilege. If you are not the intended recipient, =
+please refrain from copying or disclosing its contents and contact the =
+sender immediately. Additionally, please notify us at =
+<mailto:patents@unitedtm.com <mailto:patents@unitedtm.com>  =
+<mailto:patents@unitedtm.com <mailto:patents@unitedtm.com> > > =
+patents@unitedtm.com <mailto:patents@unitedtm.com>  =
+<mailto:patents@unitedtm.com <mailto:patents@unitedtm.com> > or =
++971-4-3437 544, and delete this message. Unauthorized use of this email =
+is strictly prohibited./AM * Egypt: Effective October 14, 2025, EGIPA =
+has issued a sweeping update to its existing official fees and has =
+introduced new payable services covering various administrative =
+procedures applicable to patents & plant varieties. | Dated 18 June =
+2025, the official examination fee for patent applications in Egypt has =
+been increased to EGP 50,000, in accordance with the provisions of the =
+Egyptian Patent Law No. 82 of 2002. Also, the deadline to pay =
+examination fees has been officially revised to 3 months from the =
+official notification date, instead of the previous 6-month period from =
+the filing date. An extension can be availed by paying an additional fee =
+of EGP 25,000. * UAE: USPTO and UAE have signed a joint agreement to =
+expedite patent granting process. The UAE will now accept positive =
+patent examination results from the USPTO, which will significantly =
+speed up the patent-granting process in the UAE. | A Cabinet Decision =
+has been issued in March 2025 detailing the establishment and =
+operational framework for the Industrial Property Grievances Committee. =
+* Zanzibar: On 18 July 2025, the Zanzibar IP Office announced the =
+implementation of increased official fees, set to take effect from 11 =
+August 2025. These revised fees will apply retrospectively to both new =
+and pending applications, where official fees remain outstanding on or =
+after this date. * Bahrain: Bahrain and Japan Sign MoU to Launch PPH =
+Program, set to launch on January 1, 2026. | Bahrain PTO launched PPH =
+Pilot Programs with South Korea (effective January 15, 2025, for three =
+years) and the European Patent Office (commenced March 1, 2025, for an =
+initial two years). | Bahrain Patent Office recently signed a Memorandum =
+of Understanding (MOU) with the USPTO to implement the Patent =
+Prosecution Highway (PPH) system. Bahrain has signed a Patent =
+Prosecution Highway (PPH) Agreement with China. PPH pilot program =
+officially started on May 1, 2024, and will run for five years until =
+April 30, 2029. * Myanmar: Myanmar=E2=80=99s Patent Law 2019 came into =
+effect on 31 May 2024. However, it is important to note that patent =
+applications cannot yet be filed, as the issuance of patent forms and =
+fees remains pending. * Qatar: MOCI announced that it has started =
+accepting applications for industrial designs and models as of 26 =
+October 2025. | Qatar PTO has issued a significant clarification =
+regarding the payment of annuity fees. The Office has resumed accepting =
+annuity payments on all patent applications, irrespective of their =
+acceptance or grant status. This change overrules the previous policy =
+that deferred fees beyond the third year for pending applications. * =
+ARIPO: China National Intellectual Property Administration (CNIPA) has =
+recently introduced the China-Africa Patent Prosecution Highway (PPH) in =
+collaboration with the African Regional Intellectual Property =
+Organization (ARIPO). * Algeria: Algeria has introduced 19% VAT on =
+Official Fees associated with Intellectual Property Services. * Saudi =
+Arabia: Saudi Arabia recently joined the Hague Agreement for =
+International Design Registration | In accordance with the amended =
+Patent and Industrial Design Law, validity of industrial designs has =
+been extended from ten (10) to fifteen (15) years for all designs =
+submitted in 2013 and onwards. | Saudi Authority for Intellectual =
+Property (SAIP) has signed a Patent Prosecution Highway (PPH) Agreement =
+with Intellectual Property Office of Singapore (IPOS). This PPH Pilot =
+Program commenced on 12 September 2023 for a period of 2 years and will =
+end on 11 September 2025. From: =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =
+=D0=9A=D0=BE=D0=B7=D0=B8=D0=BD <kmd379@gmail.com =
+<mailto:kmd379@gmail.com>  <mailto:kmd379@gmail.com =
+<mailto:kmd379@gmail.com> > <mailto:kmd379@gmail.com =
+<mailto:kmd379@gmail.com>  <mailto:kmd379@gmail.com =
+<mailto:kmd379@gmail.com> > > > Sent: Wednesday, 28 October 2026 9:42 am =
+To: contact@unitedtm.com <mailto:contact@unitedtm.com>  =
+<mailto:contact@unitedtm.com <mailto:contact@unitedtm.com> > =
+<mailto:contact@unitedtm.com <mailto:contact@unitedtm.com>  =
+<mailto:contact@unitedtm.com <mailto:contact@unitedtm.com> > > Subject: =
+Urgent: UAE-authorized representative for two PBK PCT filings - proposal =
+by 29 October Dear Patent Team, I urgently seek a UAE-authorized patent =
+representative in Dubai to arrange and carry out two international PCT =
+filings for PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - =
+FZCO, a Dubai UAE company, trade licence No. 38769. Please route this =
+inquiry to the practitioner responsible for international patent =
+filings. I am Mikhail Dmitrievich Kozin (Mikhail Kozin in the patent =
+records), the sole inventor and PBK's sole shareholder and General =
+Manager. I am a Russian citizen principally resident in Sharjah, hold an =
+Emirates ID and have Spanish permanent residence. Please identify any =
+conflict-check or onboarding documents you require. Immediate scope: two =
+PCT international applications, not merely UAE national-phase entries: * =
+Group 2: AI Pricing and Retail Intelligence Platform, based on US =
+provisional applications #1, #2, #8 and #9. Earliest working priority =
+date: December 11, 2025; priority control deadline: December 11, 2026. =
+Requested filing date: November 28, 2026. If weekend scheduling affects =
+this date, please propose an earlier working-day filing. * Group 1: =
+Modular Cabinet Platform, based on US provisional applications #3-7, =
+involving mechanical, electronic and software-controlled retail =
+equipment. Earliest working priority date: December 23, 2025; priority =
+control deadline: December 23, 2026. Requested filing date: December 3, =
+2026. Please independently verify the dates and priority entitlement =
+from the official records. PBK is the intended sole applicant. PPA #10 =
+is outside these two applications. Subsequent project stages remain =
+planned, but will be discussed after these filings; separate =
+simultaneous US or Russian national applications are not part of the =
+immediate request. Available materials include the filed provisional =
+specifications and drawings, USPTO receipts and indexes, supplementary =
+explanations, and an editable English draft for Group 1 with claims and =
+a 22-sheet drawing PDF prepared by former US counsel. Group 2 needs full =
+drafting. These are working materials, not confirmation that =
+nonprovisional applications have already been filed. The documents can =
+be supplied through an agreed secure channel after conflict clearance =
+and confirmation of confidentiality covering both PBK and me. Please =
+quote separately for: 1. UAE representation and actual filing, =
+coordinating with US drafting counsel whom we are considering but have =
+not yet engaged: final filing/formality checks, powers of attorney, =
+priority documents, ePCT submission, fee payment, filing confirmations, =
+forwarding notices and filing corrections. Please state how much advance =
+time you need to receive the final package. 2. Full preparation and =
+filing, if your team can undertake both groups, reusing suitable =
+existing work and coordinating any necessary specialists. I require an =
+end-to-end filing service and will not personally complete ePCT forms or =
+submit applications. I will provide technical explanations, approve the =
+agreed approach and sign documents genuinely requiring my signature. =
+Please provide: * The name, firm, UAE registration number and evidence =
+of authorization of the specific agent who would act for PBK before =
+WIPO/RO/IB, or explain another competent route. Please confirm actual =
+international-filing eligibility for this UAE applicant, not only UAE =
+national-phase experience. * The responsible practitioner's technical =
+experience and approximate number of similar =
+mechanical/electronic/software and PCT projects. * A fixed professional =
+fee for each application and option, with official filing/search fees, =
+drawings, translations, VAT and other expenses itemized separately. =
+Identify the proposed competent search authority and any estimates or =
+exclusions. * A dated preparation, review and filing schedule, a payment =
+schedule linked to deliverables, and a draft engagement agreement before =
+any deposit. * Clear allocation of responsibility between drafting =
+counsel and your filing agent, including deadline monitoring, notices =
+and free correction of errors attributable to the service providers. * =
+The documents required from PBK and me, including any powers of =
+attorney, ownership confirmations and current manager/registration =
+evidence. My discussions and comments are in Russian. Please state =
+whether you can provide Russian-language support and include the =
+required written translations in the fixed fee for the full-service =
+option. The proposed filing language is English. Completion of the =
+filing stage must include the complete filed documents, official =
+international application numbers and filing dates, priority particulars =
+and fee-payment confirmations. Please also identify and price support =
+through the international search report and written opinion. Please =
+acknowledge availability urgently and, if possible, provide the =
+proposal, named authorized representative, draft agreement, full cost =
+breakdown and schedule by October 29, 2026. If further material is =
+needed to quote, please send one consolidated list immediately. Any =
+chargeable preliminary assessment must first be quoted and approved in =
+writing. This is an urgent request for a proposal, not acceptance of an =
+engagement, authorization for paid work or an instruction to file =
+without subsequent agreement. Payments will be made only against =
+official organizational invoices; additional charges require prior =
+written approval. Kind regards, Mikhail Kozin PBK ENGINEERING =
+INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO Sharjah / Dubai, UAE
+
+
+------=_NextPart_000_0703_01DD6AF9.E6FD3DE0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered =
+medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Gulim;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+@font-face
+	{font-family:"\@Gulim";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:11.0pt;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3Den-AE link=3Dblue vlink=3Dpurple =
+style=3D'word-wrap:break-word'><div class=3DWordSection1><p =
+class=3DMsoNormal style=3D'text-autospace:ideograph-other'><b><span =
+lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:ZH-CN'>A</span></b><b><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;mso-fareast-lang=
+uage:ZH-CN'>cknowledged<span style=3D'color:black'> </span>with<span =
+style=3D'color:black'> </span>thanks<span style=3D'color:black'> =
+<o:p></o:p></span></span></b></p><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:ZH-CN'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:ZH-CN'>We confirm that the matter is receiving our =
+diligent attention. We have duly noted your comments/instructions. We =
+will revert to you with our further response in due course. =
+<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:ZH-CN'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black;mso-=
+fareast-language:ZH-CN'>In the meantime, should you require any further =
+information or clarification, kindly let us =
+know.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif;mso-fareast-la=
+nguage:EN-US'><o:p>&nbsp;</o:p></span></p><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>From:</span><=
+/b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'> =
+=D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD =
+&lt;kmd379@gmail.com&gt; <br><b>Sent:</b> 02 November 2026 01:39 =
+PM<br><b>To:</b> patents@unitedtm.com<br><b>Subject:</b> Re: PBK =
+=E2=80=93 company documents, two PCT applications and =
+NDA<o:p></o:p></span></p></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p>Dear Mr. =
+Koshy,<o:p></o:p></p><p>Thank you for your proposal. Please complete the =
+NDA with your organisation=E2=80=99s full legal name and identify PBK =
+ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT =E2=80=93 FZCO and =
+me, Mikhail Kozin, as the disclosing parties, with coverage extending to =
+materials already provided.<o:p></o:p></p><p>Please clarify whether the =
+USD 950 and USD 2,545 fees apply to one application or both =
+applications, what exactly is included in the preparation work, and =
+which official fees and expenses are payable =
+separately.<o:p></o:p></p><p>We require two PCT applications in =
+PBK=E2=80=99s name: the application based on PPAs Nos. 1, 2, 8 and 9 by =
+November 28, 2026, and the application based on PPAs Nos. 3=E2=80=937 by =
+December 3, 2026. Once the NDA is signed, we will provide the complete =
+technical package and the materials prepared by =
+Ali.<o:p></o:p></p><p>Please identify the authorised representative and =
+confirm how soon after receiving the materials you will provide the =
+final total cost, the engagement agreement and the work schedule for the =
+complete turnkey service.<o:p></o:p></p><p>Kind regards,<br>Mikhail =
+Kozin<o:p></o:p></p><p class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt'><o:p>&nbsp;</o:p></p><div><p =
+class=3DMsoNormal>On Mon, 02 Nov 2026 11:29:57 +0400, <a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+wrote:<o:p></o:p></p><blockquote =
+style=3D'margin-top:5.0pt;margin-bottom:5.0pt'><div><p =
+class=3DMsoNormal>United Trademark &amp; Patent Services Registrations =
+and Enforcement of Intellectual Property Rights In the Middle East, =
+South Asia, and Africa Established in 1949 Dear Mikhail =E2=80=93 Thank =
+you for your email communication and for sharing the information. At the =
+onset, please note that we will be able to execute the attached general =
+NDA as the document provided from your end has clauses which needs =
+review and approval from the management. In the interest of time, the =
+attached general NDA can be executed. As we have not yet received the =
+complete invention details, we can presently confirm only that we can =
+handle the PCT filing, provided we receive your instructions and the =
+complete, filing-ready specification at least four working days before =
+the applicable deadline. Our ability to undertake the drafting within =
+the available time will depend on our review of the scope of the =
+disclosure and the technical materials you provide. The associated costs =
+are as follows: * Initial discussion and providing the strategy to =
+protect your invention: USD 950/- [Up to 3 hours] * Towards preparing =
+and filing the patent application before the WIPO: USD 2545 Applicable =
+VAT will be added. Should you need any further information or =
+clarification, please let us know. Best regards, NEVIN JACOB KOSHY =
+PARTNER Head of Department =E2=80=93 Patent | Design Member of Chartered =
+Institute of Patent Attorneys, U.K Office: +971 4 343 7544 | Email: =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; <a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> Address: =
+Suite 401-402, Al Hawai Tower, Sheikh Zayed Road, P.O. Box 72430, Dubai, =
+UAE Stay Connected: &lt;<a =
+href=3D"http://www.utmps.com/">http://www.utmps.com/</a>&gt; Website | =
+&lt;<a =
+href=3D"https://www.linkedin.com/company/utmps/">https://www.linkedin.com=
+/company/utmps/</a>&gt; LinkedIn | &lt;<a =
+href=3D"https://bit.ly/signup-utmps">https://bit.ly/signup-utmps</a>&gt; =
+Newsletter United Trademark &amp; Patent Services (UTMPS) is a =
+specialized law firm in Intellectual Property, founded in 1949 to meet =
+our clients' IP law needs. With over 70 years of experience, our team =
+includes expert attorneys and technical analysts focused on IP rights =
+and related matters. Our commitment to excellence has positioned us as a =
+leader in the field, proudly serving more than 100 Fortune 500 =
+companies. UTMPS Branch and Representative Offices: South Asia: =
+Afghanistan | Bangladesh | Bhutan | India | Nepal | Pakistan | Sri Lanka =
+Middle East: Bahrain | Iraq | Jordan | Kuwait | Lebanon | Oman | Qatar | =
+Saudi Arabia | Turkey | United Arab Emirates | Yemen Africa: Algeria | =
+Djibouti | Egypt | Ethiopia | Kenya | Libya | Morocco | Nigeria | Sudan =
+| Tanzania (Tanganyika/Zanzibar) | Tunisia | Uganda We aim to =
+acknowledge all emails within one working day. If you don=E2=80=99t =
+receive a response, please resend your message, as some may not be =
+delivered. Thank you for your understanding. Confidentiality and Legal =
+Privilege Notice This email contains confidential information that may =
+be protected by legal privilege. If you are not the intended recipient, =
+please refrain from copying or disclosing its contents and contact the =
+sender immediately. Additionally, please notify us at &lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; <a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> or =
++971-4-3437 544, and delete this message. Unauthorized use of this email =
+is strictly prohibited./NK * Egypt: Egypt has integrated virtual =
+hearings into the appeal process for industrial designs. | Effective =
+October 14, 2025, EGIPA has issued a sweeping update to its existing =
+official fees and has introduced new payable services covering various =
+administrative procedures applicable to patents &amp; plant varieties. | =
+Dated 18 June 2025, the official examination fee for patent applications =
+in Egypt has been increased to EGP 50,000, in accordance with the =
+provisions of the Egyptian Patent Law No. 82 of 2002. Also, the deadline =
+to pay examination fees has been officially revised to 3 months from the =
+official notification date, instead of the previous 6-month period from =
+the filing date. An extension can be availed by paying an additional fee =
+of EGP 25,000. * UAE: Effective October 6, 2026, the UAE has officially =
+joined the Locarno Agreement for industrial designs, as announced by =
+WIPO. | USPTO and UAE have signed a joint agreement to expedite patent =
+granting process. The UAE will now accept positive patent examination =
+results from the USPTO, which will significantly speed up the =
+patent-granting process in the UAE. | A Cabinet Decision has been issued =
+in March 2025 detailing the establishment and operational framework for =
+the Industrial Property Grievances Committee. * Zanzibar: On 18 July =
+2025, the Zanzibar IP Office announced the implementation of increased =
+official fees, set to take effect from 11 August 2025. These revised =
+fees will apply retrospectively to both new and pending applications, =
+where official fees remain outstanding on or after this date. * Bahrain: =
+Bahrain and Japan Sign MoU to Launch PPH Program, set to launch on =
+January 1, 2026. | Bahrain PTO launched PPH Pilot Programs with South =
+Korea (effective January 15, 2025, for three years) and the European =
+Patent Office (commenced March 1, 2025, for an initial two years). | =
+Bahrain Patent Office recently signed a Memorandum of Understanding =
+(MOU) with the USPTO to implement the Patent Prosecution Highway (PPH) =
+system. Bahrain has signed a Patent Prosecution Highway (PPH) Agreement =
+with China. PPH pilot program officially started on May 1, 2024, and =
+will run for five years until April 30, 2029. * Myanmar: =
+Myanmar=E2=80=99s Patent Law 2019 came into effect on 31 May 2024. =
+However, it is important to note that patent applications cannot yet be =
+filed, as the issuance of patent forms and fees remains pending. * =
+Qatar: MOCI announced that it has started accepting applications for =
+industrial designs and models as of 26 October 2025. | Qatar PTO has =
+issued a significant clarification regarding the payment of annuity =
+fees. The Office has resumed accepting annuity payments on all patent =
+applications, irrespective of their acceptance or grant status. This =
+change overrules the previous policy that deferred fees beyond the third =
+year for pending applications. * ARIPO: China National Intellectual =
+Property Administration (CNIPA) has recently introduced the China-Africa =
+Patent Prosecution Highway (PPH) in collaboration with the African =
+Regional Intellectual Property Organization (ARIPO). * Algeria: Algeria =
+now accepts the Apostille Convention for foreign public documents, =
+replacing conventional legalization with a single originating apostille. =
+| Algeria has introduced 19% VAT on Official Fees associated with =
+Intellectual Property Services. * GCC: The GCC has introduced the Patent =
+Prosecution Highway (GCC-PPH), enabling inventors to request expedited =
+patent examination across all member states by leveraging a substantive =
+examination report issued either by the GCC Patent Office or =
+participating member states. * Saudi Arabia: Saudi Arabia recently =
+joined the Hague Agreement for International Design Registration | In =
+accordance with the amended Patent and Industrial Design Law, validity =
+of industrial designs has been extended from ten (10) to fifteen (15) =
+years for all designs submitted in 2013 and onwards. | Saudi Authority =
+for Intellectual Property (SAIP) has signed a Patent Prosecution Highway =
+(PPH) Agreement with Intellectual Property Office of Singapore (IPOS). =
+This PPH Pilot Program commenced on 12 September 2023 for a period of 2 =
+years and will end on 11 September 2025. From: UTPS || PATENTS* &lt;<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; Sent: =
+Friday, 30 October, 2026 6:41 PM To: =
+'=D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD' =
+&lt;<a href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a>&gt; =
+Subject: RE: PBK =E2=80=93 company documents, two PCT applications and =
+NDA Acknowledged with thanks We confirm that the matter is receiving our =
+diligent attention. We have duly noted your comments/instructions. We =
+will revert to you with our further response in due course. In the =
+meantime, should you require any further information or clarification, =
+kindly let us know. Note: Since it is the weekend here, our offices are =
+closed. Please excuse us if our response is delayed. From: =
+=D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =D0=9A=D0=BE=D0=B7=D0=B8=D0=BD =
+&lt;<a href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a> =
+&lt;mailto:<a href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a>&gt; =
+&gt; Sent: 30 October 2026 03:22 PM To: <a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; =
+Subject: Re: PBK =E2=80=93 company documents, two PCT applications and =
+NDA Dear UTMPS Patent Team, Thank you for your reply. We will arrange =
+Russian-language assistance ourselves; you may correspond with us and =
+prepare the application documents in English. The intended applicant is =
+PBK ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO, Dubai, =
+UAE, trade licence No. 38769. Its registered office is IFZA Business =
+Park, DDP, PO Box 342001, Dubai, UAE. I am Mikhail Dmitrievich Kozin =
+(Mikhail Kozin in the patent records), PBK's sole shareholder and =
+General Manager, and the sole inventor of the ten US provisional =
+applications listed below. I am a Russian citizen, have held permanent =
+residence in Spain for more than 25 years and have held an Emirates ID =
+for more than three years. My principal residence is in Sharjah, UAE. I =
+confirm that I have been a UAE tax resident for more than three years. =
+Attached are PBK's current 51-page Memorandum and Articles of =
+Association, trade licence and my Emirates ID copy. Our immediate =
+request is the preparation and filing of two international PCT =
+applications from PBK, claiming the relevant US provisional priorities: =
+1. Modular Cabinet Platform (PPAs 3=E2=80=937): modular retail cabinets, =
+reconfigurable chassis and bays, self-leveling, sensor-based retrieval, =
+tokenized/biometric access and thermal/fluid-processing modules. =
+Requested filing date: 3 December 2026. 2. AI Pricing &amp; Retail =
+Intelligence Platform (PPAs 1, 2, 8 and 9): freshness- and quality-based =
+dynamic pricing, biometric access control, produce quality monitoring, =
+verified feedback and supplier governance. Requested filing date: 28 =
+November 2026, or an earlier working day if needed. PPA 10 is not =
+included in the initial two-PCT order. The application list below gives =
+the recorded US filing dates and their twelve-month anniversary control =
+dates. Please verify the applicable deadlines and priority entitlement =
+from the official records before filing. PPA 1 =E2=80=94 US 63/938,244 =
+=E2=80=94 Autonomous Retail Ecosystem with AI-Driven Dynamic Pricing and =
+Biometric Access Control for Restricted Goods Filed: 2025-12-11; =
+12-month control date: 2026-12-11. PPA 2 =E2=80=94 US 63/945,513 =
+=E2=80=94 System for Bio-Metric Inventory Management and Dynamic =
+Freshness Pricing Filed: 2025-12-19; 12-month control date: 2026-12-19. =
+PPA 3 =E2=80=94 US 63/947,909 =E2=80=94 Modular Smart Vending Cabinet =
+with Smart-Glass Inspection Mode, Sensor-Fusion Manual Retrieval, and =
+Quality-Based Dynamic Pricing Filed: 2025-12-23; 12-month control date: =
+2026-12-23. PPA 4 =E2=80=94 US 63/955,179 =E2=80=94 SMART RETAIL CABINET =
+WITH TOKENIZED ACCESS AND SPLIT PAYMENTS Filed: 2026-01-06; 12-month =
+control date: 2027-01-06. PPA 5 =E2=80=94 US 63/959,439 =E2=80=94 SMART =
+RETAIL CABINET WITH TOKENIZED ACCESS AND SPLIT PAYMENTS Filed: =
+2026-01-13; 12-month control date: 2027-01-13. PPA 6 =E2=80=94 US =
+63/961,839 =E2=80=94 MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, =
+AI- DRIVEN PRICING, AND INTEGRATED CONSUMABLES MANAGEMENT Filed: =
+2026-01-16; 12-month control date: 2027-01-16. PPA 7 =E2=80=94 US =
+63/975,643 =E2=80=94 MODULAR RETAIL SYSTEM WITH ADAPTIVE ARCHITECTURE, =
+AI- DRIVEN PRICING, AND INTEGRATED CONSUMABLES MANAGEMENT Filed: =
+2026-02-04; 12-month control date: 2027-02-04. PPA 8 =E2=80=94 US =
+64/090,283 =E2=80=94 INTELLIGENT BULK PRODUCE QUALITY CONTROL AND =
+DYNAMIC PRICING SYSTEM Filed: 2026-06-14; 12-month control date: =
+2027-06-14. PPA 9 =E2=80=94 US 64/106,825 =E2=80=94 AUTONOMOUS RETAIL =
+PLATFORM WITH VERIFIED FEEDBACK CONTROL Filed: 2026-07-07; 12-month =
+control date: 2027-07-07. PPA 10 =E2=80=94 US 64/125,577 =E2=80=94 =
+THROUGH-TRACKING TARE CONTROL SYSTEM Filed: 2026-08-04; 12-month control =
+date: 2027-08-04. The most urgent control date is 11 December 2026 for =
+Group 2; Group 1's earliest control date is 23 December 2026. For Group =
+1, Ali prepared an unfinished English nonprovisional draft and a =
+22-sheet drawing set. We also have the filed provisional materials, =
+filing records and supplemental explanations. We will provide the =
+detailed technical package after discussing and signing an NDA covering =
+both PBK and me. We sent our proposed NDA on 28 October; please return =
+your proposed version for signature. Following the PCT filings, we =
+intend to discuss further patent protection and registration in the UAE =
+with your firm, including the appropriate national-stage work. Those =
+later stages will be agreed separately. Please identify the authorized =
+representative, and provide your proposed NDA and an initial =
+fee/schedule proposal. Please identify professional fees, official fees =
+and other expenses separately. If a final fixed quotation requires the =
+detailed technical package, please state when you can provide it after =
+receipt under the NDA. Kind regards, Mikhail Kozin General Manager PBK =
+ENGINEERING INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO On Fri, 30 =
+Oct 2026 13:18:27 +0400, <a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; wrote: =
+Dear Mikhail, thank you for your email and for considering our =
+professional services in the region. As we understand from your =
+requests, you need a professional firm to represent you before the WIPO =
+[PCT application] and before the UAE Patent Office. We have noted the =
+proposed filing dates of November 28, 2026, and December 3, 2026, =
+together with the respective priority deadlines. We would be pleased to =
+review the proposed scope and assess how best to assist, including =
+coordination with appropriate drafting specialists where required. As a =
+first step, we would appreciate company registration details and the =
+names of all relevant parties associated with this project to enable us =
+to complete our conflict checks. Following clearance, we can arrange for =
+the confidential exchange of documents and confirm the appropriate =
+filing route, scope of services, professional fees and timelines. We =
+have also noted your requirements concerning Russian-language =
+communication, filing formalities and post-filing support. We regret =
+that we are currently unable to provide Russian-language communication =
+support. Should you need any further information or clarification, =
+please let us know. Looking forward to hearing from you. Best regards, =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; &gt; =
+<a href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; &lt;<a =
+href=3D"http://www.utmps.com/">http://www.utmps.com/</a>&gt; <a =
+href=3D"http://www.utmps.com">www.utmps.com</a> &lt;<a =
+href=3D"http://www.utmps.com">http://www.utmps.com</a>&gt; +971-4-3437 =
+544 &lt;<a =
+href=3D"https://www.linkedin.com/company/united-trademark-">https://www.l=
+inkedin.com/company/united-trademark-</a> &lt;<a =
+href=3D"https://www.linkedin.com/company/united-trademark-&amp;-patent-se=
+rvices/">https://www.linkedin.com/company/united-trademark-&amp;-patent-s=
+ervices/</a>&gt; &amp;-patent-services/&gt; United Trademark &amp; =
+Patent Services Suite 401-402, Al Hawai Tower, Sheikh Zayed Road, P.O. =
+Box 72430, Dubai, UAE United Trademark &amp; Patent Services (UTMPS) is =
+a specialized law firm in Intellectual Property, founded in 1949 to meet =
+our clients' IP law needs. With over 70 years of experience, our team =
+includes expert attorneys and technical analysts focused on IP rights =
+and related matters. Our commitment to excellence has positioned us as a =
+leader in the field, proudly serving more than 100 Fortune 500 =
+companies. UTMPS Branch and Representative Offices: South Asia: =
+Afghanistan | Bangladesh | Bhutan | India | Nepal | Pakistan | Sri Lanka =
+Middle East: Bahrain | Iraq | Jordan | Kuwait | Lebanon | Oman | Qatar | =
+Saudi Arabia | Turkey | United Arab Emirates | Yemen Africa: Algeria | =
+Djibouti | Egypt | Ethiopia | Kenya | Libya | Morocco | Nigeria | Sudan =
+| Tanzania (Tanganyika/Zanzibar) | Tunisia | Uganda We aim to =
+acknowledge all emails within one working day. If you don=E2=80=99t =
+receive a response, please resend your message, as some may not be =
+delivered. Thank you for your understanding. Confidentiality and Legal =
+Privilege Notice This email contains confidential information that may =
+be protected by legal privilege. If you are not the intended recipient, =
+please refrain from copying or disclosing its contents and contact the =
+sender immediately. Additionally, please notify us at &lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; &gt; =
+<a href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:patents@unitedtm.com">patents@unitedtm.com</a>&gt; or =
++971-4-3437 544, and delete this message. Unauthorized use of this email =
+is strictly prohibited./AM * Egypt: Effective October 14, 2025, EGIPA =
+has issued a sweeping update to its existing official fees and has =
+introduced new payable services covering various administrative =
+procedures applicable to patents &amp; plant varieties. | Dated 18 June =
+2025, the official examination fee for patent applications in Egypt has =
+been increased to EGP 50,000, in accordance with the provisions of the =
+Egyptian Patent Law No. 82 of 2002. Also, the deadline to pay =
+examination fees has been officially revised to 3 months from the =
+official notification date, instead of the previous 6-month period from =
+the filing date. An extension can be availed by paying an additional fee =
+of EGP 25,000. * UAE: USPTO and UAE have signed a joint agreement to =
+expedite patent granting process. The UAE will now accept positive =
+patent examination results from the USPTO, which will significantly =
+speed up the patent-granting process in the UAE. | A Cabinet Decision =
+has been issued in March 2025 detailing the establishment and =
+operational framework for the Industrial Property Grievances Committee. =
+* Zanzibar: On 18 July 2025, the Zanzibar IP Office announced the =
+implementation of increased official fees, set to take effect from 11 =
+August 2025. These revised fees will apply retrospectively to both new =
+and pending applications, where official fees remain outstanding on or =
+after this date. * Bahrain: Bahrain and Japan Sign MoU to Launch PPH =
+Program, set to launch on January 1, 2026. | Bahrain PTO launched PPH =
+Pilot Programs with South Korea (effective January 15, 2025, for three =
+years) and the European Patent Office (commenced March 1, 2025, for an =
+initial two years). | Bahrain Patent Office recently signed a Memorandum =
+of Understanding (MOU) with the USPTO to implement the Patent =
+Prosecution Highway (PPH) system. Bahrain has signed a Patent =
+Prosecution Highway (PPH) Agreement with China. PPH pilot program =
+officially started on May 1, 2024, and will run for five years until =
+April 30, 2029. * Myanmar: Myanmar=E2=80=99s Patent Law 2019 came into =
+effect on 31 May 2024. However, it is important to note that patent =
+applications cannot yet be filed, as the issuance of patent forms and =
+fees remains pending. * Qatar: MOCI announced that it has started =
+accepting applications for industrial designs and models as of 26 =
+October 2025. | Qatar PTO has issued a significant clarification =
+regarding the payment of annuity fees. The Office has resumed accepting =
+annuity payments on all patent applications, irrespective of their =
+acceptance or grant status. This change overrules the previous policy =
+that deferred fees beyond the third year for pending applications. * =
+ARIPO: China National Intellectual Property Administration (CNIPA) has =
+recently introduced the China-Africa Patent Prosecution Highway (PPH) in =
+collaboration with the African Regional Intellectual Property =
+Organization (ARIPO). * Algeria: Algeria has introduced 19% VAT on =
+Official Fees associated with Intellectual Property Services. * Saudi =
+Arabia: Saudi Arabia recently joined the Hague Agreement for =
+International Design Registration | In accordance with the amended =
+Patent and Industrial Design Law, validity of industrial designs has =
+been extended from ten (10) to fifteen (15) years for all designs =
+submitted in 2013 and onwards. | Saudi Authority for Intellectual =
+Property (SAIP) has signed a Patent Prosecution Highway (PPH) Agreement =
+with Intellectual Property Office of Singapore (IPOS). This PPH Pilot =
+Program commenced on 12 September 2023 for a period of 2 years and will =
+end on 11 September 2025. From: =D0=9C=D0=B8=D1=85=D0=B0=D0=B8=D0=BB =
+=D0=9A=D0=BE=D0=B7=D0=B8=D0=BD &lt;<a =
+href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a> &lt;mailto:<a =
+href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a>&gt; &lt;mailto:<a =
+href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a> &lt;mailto:<a =
+href=3D"mailto:kmd379@gmail.com">kmd379@gmail.com</a>&gt; &gt; &gt; =
+Sent: Wednesday, 28 October 2026 9:42 am To: <a =
+href=3D"mailto:contact@unitedtm.com">contact@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:contact@unitedtm.com">contact@unitedtm.com</a>&gt; =
+&lt;mailto:<a =
+href=3D"mailto:contact@unitedtm.com">contact@unitedtm.com</a> =
+&lt;mailto:<a =
+href=3D"mailto:contact@unitedtm.com">contact@unitedtm.com</a>&gt; &gt; =
+Subject: Urgent: UAE-authorized representative for two PBK PCT filings - =
+proposal by 29 October Dear Patent Team, I urgently seek a =
+UAE-authorized patent representative in Dubai to arrange and carry out =
+two international PCT filings for PBK ENGINEERING INTELLECTUAL PROPERTY =
+RIGHTS MANAGEMENT - FZCO, a Dubai UAE company, trade licence No. 38769. =
+Please route this inquiry to the practitioner responsible for =
+international patent filings. I am Mikhail Dmitrievich Kozin (Mikhail =
+Kozin in the patent records), the sole inventor and PBK's sole =
+shareholder and General Manager. I am a Russian citizen principally =
+resident in Sharjah, hold an Emirates ID and have Spanish permanent =
+residence. Please identify any conflict-check or onboarding documents =
+you require. Immediate scope: two PCT international applications, not =
+merely UAE national-phase entries: * Group 2: AI Pricing and Retail =
+Intelligence Platform, based on US provisional applications #1, #2, #8 =
+and #9. Earliest working priority date: December 11, 2025; priority =
+control deadline: December 11, 2026. Requested filing date: November 28, =
+2026. If weekend scheduling affects this date, please propose an earlier =
+working-day filing. * Group 1: Modular Cabinet Platform, based on US =
+provisional applications #3-7, involving mechanical, electronic and =
+software-controlled retail equipment. Earliest working priority date: =
+December 23, 2025; priority control deadline: December 23, 2026. =
+Requested filing date: December 3, 2026. Please independently verify the =
+dates and priority entitlement from the official records. PBK is the =
+intended sole applicant. PPA #10 is outside these two applications. =
+Subsequent project stages remain planned, but will be discussed after =
+these filings; separate simultaneous US or Russian national applications =
+are not part of the immediate request. Available materials include the =
+filed provisional specifications and drawings, USPTO receipts and =
+indexes, supplementary explanations, and an editable English draft for =
+Group 1 with claims and a 22-sheet drawing PDF prepared by former US =
+counsel. Group 2 needs full drafting. These are working materials, not =
+confirmation that nonprovisional applications have already been filed. =
+The documents can be supplied through an agreed secure channel after =
+conflict clearance and confirmation of confidentiality covering both PBK =
+and me. Please quote separately for: 1. UAE representation and actual =
+filing, coordinating with US drafting counsel whom we are considering =
+but have not yet engaged: final filing/formality checks, powers of =
+attorney, priority documents, ePCT submission, fee payment, filing =
+confirmations, forwarding notices and filing corrections. Please state =
+how much advance time you need to receive the final package. 2. Full =
+preparation and filing, if your team can undertake both groups, reusing =
+suitable existing work and coordinating any necessary specialists. I =
+require an end-to-end filing service and will not personally complete =
+ePCT forms or submit applications. I will provide technical =
+explanations, approve the agreed approach and sign documents genuinely =
+requiring my signature. Please provide: * The name, firm, UAE =
+registration number and evidence of authorization of the specific agent =
+who would act for PBK before WIPO/RO/IB, or explain another competent =
+route. Please confirm actual international-filing eligibility for this =
+UAE applicant, not only UAE national-phase experience. * The responsible =
+practitioner's technical experience and approximate number of similar =
+mechanical/electronic/software and PCT projects. * A fixed professional =
+fee for each application and option, with official filing/search fees, =
+drawings, translations, VAT and other expenses itemized separately. =
+Identify the proposed competent search authority and any estimates or =
+exclusions. * A dated preparation, review and filing schedule, a payment =
+schedule linked to deliverables, and a draft engagement agreement before =
+any deposit. * Clear allocation of responsibility between drafting =
+counsel and your filing agent, including deadline monitoring, notices =
+and free correction of errors attributable to the service providers. * =
+The documents required from PBK and me, including any powers of =
+attorney, ownership confirmations and current manager/registration =
+evidence. My discussions and comments are in Russian. Please state =
+whether you can provide Russian-language support and include the =
+required written translations in the fixed fee for the full-service =
+option. The proposed filing language is English. Completion of the =
+filing stage must include the complete filed documents, official =
+international application numbers and filing dates, priority particulars =
+and fee-payment confirmations. Please also identify and price support =
+through the international search report and written opinion. Please =
+acknowledge availability urgently and, if possible, provide the =
+proposal, named authorized representative, draft agreement, full cost =
+breakdown and schedule by October 29, 2026. If further material is =
+needed to quote, please send one consolidated list immediately. Any =
+chargeable preliminary assessment must first be quoted and approved in =
+writing. This is an urgent request for a proposal, not acceptance of an =
+engagement, authorization for paid work or an instruction to file =
+without subsequent agreement. Payments will be made only against =
+official organizational invoices; additional charges require prior =
+written approval. Kind regards, Mikhail Kozin PBK ENGINEERING =
+INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO Sharjah / Dubai, =
+UAE<o:p></o:p></p></div></blockquote></div></div></body></html>
+------=_NextPart_000_0703_01DD6AF9.E6FD3DE0--
+

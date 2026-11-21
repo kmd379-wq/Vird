@@ -1,0 +1,233 @@
+<PARSED TEXT FOR PAGE: 1 / 5>
+
+Comments and Proposed Edits
+PBK Corporate Resolution No. 1 and Patent Rights Assignment Agreement No. 1 (review
+drafts dated October 15, 2026)
+
+Prepared by Michael L. Bartholomew, Bartholomew Law PC, for Mikhail Kozin —
+October 23, 2026. Confidential; for the scope and fee assessment only. These are U.S.
+patent-law comments on recordability and chain of title. Compliance of the resolution
+with UAE free-zone requirements should be confirmed by your UAE corporate advisor.
+
+A. Overall assessment
+Both drafts are well constructed and, with the edits below, the assignment will be
+suitable for electronic recordation against all ten provisional applications through
+USPTO Assignment Center. The main substantive point is sequencing: the assignment
+must be fully signed (in both capacities) before any PCT application is filed, because the
+right to claim priority passes with it, and before PBK’s trade license expires on December
+10, 2026. I recommend signing no later than November 13, 2026.
+
+The 51-page Memorandum and Articles of Association (Zoho-signed; DIEZ Implementing
+Regulations 2023) is the operative version. It contains Articles 43, 60, 66 and 69 as cited in
+the resolution. The “alternate version” Memorandum cites 2006 regulations, lacks those
+Articles and carries no signatures; it should not be relied on.
+
+B. Corporate Resolution No. 1
+
+Ref.            Comment                                Proposed language or action
+
+Heading         The resolution should identify the     Add after the registered office:
+                operative Articles unambiguously,      “Operative Articles: Memorandum
+                since two versions were supplied.      and Articles of Association
+                                                       executed via Zoho Sign, Document
+                                                       ID 29855A77-
+                                                       FGCRXQHSXOWNO1RDIIHGWXMN
+                                                       B3HERGGDL_ZTEPEYADM (the
+                                                       ‘Articles’).”
+
+Heading         Trade license status is relevant to    Add: “Trade License No. 38769
+                capacity; the license expires          issued by the Dubai Integrated
+                December 10, 2026.                     Economic Zones Authority, valid to
+                                                       10 December 2026 [or: renewed on
+                                                       ___].”
+
+Part I ¶1       Fine. Suggest adding the USPTO         “… including its Schedule A listing
+                application numbers by reference       the ten U.S. provisional applications
+
+
+<PARSED TEXT FOR PAGE: 2 / 5>
+
+             so the resolution and Schedule A tie (Nos. 63/938,244; 63/945,513;
+             together.                            63/947,909; 63/955,179; 63/959,439;
+                                                  63/961,839; 63/975,643; 64/090,283;
+                                                  64/106,825; 64/125,577) …”
+
+Part I ¶4    The condition “after confirming       Replace the last sentence with:
+             that these Articles are in force”     “The sole shareholder confirms
+             should be satisfied in the document   that the Articles are in force,
+             rather than left open.                unamended, and that the
+                                                   shareholder and director
+                                                   particulars stated above are
+                                                   current as of the date of this
+                                                   resolution.”
+
+Part I ¶6    Mr. Shalchi’s delivery and            Replace with: “Authorise delivery
+             recordation role should be            of the signed Agreement to the
+             removed; recordation will be          Company’s U.S. patent counsel for
+             handled by my office, and the         electronic recordation against all
+             paragraph otherwise ties the          ten applications with the United
+             resolution to an engagement that      States Patent and Trademark
+             has not been agreed.                  Office, and the execution of any
+                                                   confirmatory or applicant-change
+                                                   documents counsel reasonably
+                                                   requires. No new PCT or
+                                                   nonprovisional filing, substantive
+                                                   prosecution or additional fees are
+                                                   authorised by this resolution.”
+
+Part II      Fine. Add a line confirming that the Add: “I confirm that the matters
+             Part I confirmations were made.      stated in Part I, paragraph 4, are
+                                                  true as of today.”
+
+Signatures   Two signatures by the same person     Replace the printed dates with
+             in two capacities is acceptable.      blanks; sign and date on the day of
+             Dating should reflect actual          execution. A witness line for each
+             execution, not October 15, 2026.      signature is recommended but not
+                                                   required for USPTO recordation.
+
+
+C. Patent Rights Assignment Agreement No. 1
+
+Ref.         Comment                               Proposed language or action
+
+Preamble     “Dated 15 October 2026” and           “This Agreement is effective on the
+             “Effective upon execution … on 15     date of the last signature below (the
+             October 2026” will be wrong when      ‘Effective Date’), after adoption of
+
+
+<PARSED TEXT FOR PAGE: 3 / 5>
+
+             signed later.                           Corporate Resolution No. 1.”
+
+§1 Parties   Assignee address: the                   State the Sharjah address as the
+             Memorandum lists a Spanish              residential address and add:
+             address for the shareholder; the        “(formerly of Lloret de Mar, Spain,
+             agreement gives Sharjah. Both           as stated in the Articles)”; or update
+             should be reconciled so the USPTO       the register before signing.
+             record, the ADS and the PCT
+             Request match.
+
+§1 Parties   The reference to “Act No. 1 and the     Move the financial recitals to a
+             clarified register of 16 payments” is   separate, unrecorded settlement
+             settlement detail that will become      letter, and keep in the recordable
+             public on recordation.                  agreement only: “for good and
+                                                     valuable consideration, the receipt
+                                                     and sufficiency of which are
+                                                     acknowledged, including the
+                                                     discharge of the Company
+                                                     obligation identified in the parties’
+                                                     settlement letter of even date.”
+
+§2 Present   The grant is well drafted and           Add: “The assigned rights include
+assignment   expressly includes the right of         the right to claim the benefit of and
+             priority. Add the U.S. statutory        priority to each Schedule A
+             references and a confirmatory           application under 35 U.S.C. §§
+             clause so the recorded chain is         119(e), 120 and 365 and Article 4 of
+             complete whichever way title            the Paris Convention. To the extent
+             actually ran.                           any right, title or interest in the
+                                                     Schedule A applications or the
+                                                     inventions disclosed in them was
+                                                     retained by Kozin as inventor and
+                                                     never vested in PBK, the parties
+                                                     confirm that such right, title and
+                                                     interest is and remains Kozin’s, and
+                                                     PBK disclaims any interest in it.”
+
+§2           Further-assurance covenant should Add to the further-instruments
+             cover applicant-change formalities sentence: “… including any
+             at the USPTO and WIPO.             statement, declaration or applicant-
+                                                change request required by the
+                                                United States Patent and
+                                                Trademark Office, the International
+                                                Bureau of WIPO or any receiving
+                                                Office.”
+
+
+<PARSED TEXT FOR PAGE: 4 / 5>
+
+§3          Keep in the unrecorded settlement As proposed under §1.
+Considerati letter (see §1 above). In the
+on          recorded agreement a one-sentence
+            consideration clause is sufficient
+            and avoids publishing the figure.
+
+§3 (claims   This paragraph belongs in the          Delete from the recordable
+against      settlement letter, not in a public     agreement; retain verbatim in the
+service      assignment record.                     settlement letter.
+providers)
+§4           Fine. Add a capacity representation Add: “PBK represents that on the
+Authority    keyed to the trade license.         Effective Date it is in good standing
+                                                 under Trade License No. 38769 and
+                                                 that the signatory is its Manager as
+                                                 named in that license.”
+
+§4 (Shalchi Useful as a record but not              Replace with: “PBK represents that,
+statements) appropriate for a public document.      to its knowledge, no assignment,
+            Keep the substance as a                 employment agreement or other
+            representation.                         instrument transferring the
+                                                    inventions from Kozin to PBK was
+                                                    executed, and that PBK is the
+                                                    applicant of record on each
+                                                    Schedule A application.” Move the
+                                                    dated statements of Mr. Shalchi to
+                                                    the settlement letter.
+
+§5           Replace the Shalchi engagement         “The parties authorise PBK’s and
+Recordatio   language with a recordation            Kozin’s U.S. patent counsel to
+n            covenant naming U.S. patent            record this Agreement against each
+             counsel generally.                     Schedule A application with the
+                                                    United States Patent and
+                                                    Trademark Office (Assignment
+                                                    Center) and to obtain the Notice of
+                                                    Recordation. Recordation is not a
+                                                    determination of substantive
+                                                    ownership.”
+
+§6 General   Add a governing-law clause; USPTO      “This Agreement is governed by the
+             recordation does not require one,      laws of the Emirate of Dubai and
+             but a foreign court will look for      the federal laws of the United Arab
+             one. UAE law is the natural choice     Emirates, without prejudice to the
+             for a UAE-company assignor; U.S.       application of the patent laws of
+             patent law governs the effect of the   each jurisdiction to the rights
+
+
+<PARSED TEXT FOR PAGE: 5 / 5>
+
+               assignment on the U.S. applications    assigned in that jurisdiction.”
+               in any event.
+
+§6             Fine. For the USPTO, only the          No change.
+Language       English version will be recorded;
+               the Russian version need not be
+               recorded.
+
+Schedule A     Accurate against the USPTO filing      No change. Add a column for the
+               receipts (numbers, dates, titles       USPTO confirmation numbers if
+               verified October 22, 2026).            convenient (8509; 2617; 6370; 5220;
+                                                      9684; 4001; 5430; 2312; 1748; 5561).
+
+Signatures     Two separate signatures by Mr.         Leave dates blank for completion
+               Kozin, one per capacity, are           at signing. Sign the English version;
+               correct. Notarization is not           initial each page.
+               required for USPTO recordation.
+
+
+D. Recordation mechanics
+One electronic cover sheet (Assignment Center) will list all ten applications as properties,
+conveyance type “Assignment of assignors interest,” assignor PBK ENGINEERING
+INTELLECTUAL PROPERTY RIGHTS MANAGEMENT - FZCO, assignee Mikhail Kozin, with
+the signed English agreement (without the settlement letter) as the supporting document.
+Official fee for electronic recording: USD 0. The Notice of Recordation with reel and
+frame numbers typically issues within a few business days. A power of attorney in the
+provisionals is not needed for recordation, but it is needed to download the as-filed
+documents from Patent Center and to obtain the DAS access codes for the PCT priority
+documents; I will prepare that form for PBK’s signature.
+
+E. Documents I need before finalizing
+1. The clarified payment register and Act No. 1 (for the settlement letter only; not to be
+recorded). 2. Written confirmation that no inventor-to-PBK instrument exists (or copies
+if any do). 3. Current trade-license renewal receipt or free-zone confirmation covering
+December 2026. 4. A current IFZA/DIEZ extract or certificate of incumbency naming Mr.
+Kozin as Manager. 5. Mr. Kozin’s passport data page for the name spelling used in the
+agreement, the ADS and the PCT Request.
+

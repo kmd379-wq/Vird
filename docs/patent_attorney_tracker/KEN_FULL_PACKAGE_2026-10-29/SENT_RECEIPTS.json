@@ -1,0 +1,82 @@
+[
+  {
+    "status": "fulfilled",
+    "value": {
+      "part": 1,
+      "id": "1a187590a5f3cef1",
+      "labels": [
+        "SENT"
+      ],
+      "attachments": [
+        {
+          "name": "Ken_PBK_Patent_Materials_Part_1_of_5.zip",
+          "size": 8682917
+        }
+      ]
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "part": 2,
+      "id": "1a1875b2bd4ab378",
+      "labels": [
+        "SENT"
+      ],
+      "attachments": [
+        {
+          "name": "Ken_PBK_Patent_Materials_Part_2_of_5.zip",
+          "size": 11410008
+        }
+      ]
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "part": 3,
+      "id": "1a1875bfaaa3c71f",
+      "labels": [
+        "SENT"
+      ],
+      "attachments": [
+        {
+          "name": "Ken_PBK_Patent_Materials_Part_3_of_5.zip",
+          "size": 12619269
+        }
+      ]
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "part": 4,
+      "id": "1a1875dac89b4a42",
+      "labels": [
+        "SENT"
+      ],
+      "attachments": [
+        {
+          "name": "Ken_PBK_Patent_Materials_Part_4_of_5.zip",
+          "size": 13186685
+        }
+      ]
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "part": 5,
+      "id": "1a1875e003fb4ccc",
+      "labels": [
+        "SENT"
+      ],
+      "attachments": [
+        {
+          "name": "Ken_PBK_Patent_Materials_Part_5_of_5.zip",
+          "size": 4495020
+        }
+      ]
+    }
+  }
+]

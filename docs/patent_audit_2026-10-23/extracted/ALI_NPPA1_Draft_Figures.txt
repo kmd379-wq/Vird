@@ -1,0 +1,523 @@
+[PAGE 1]
+100
+102
+106
+108
+302
+300
+122
+120
+124
+126
+112
+114
+116118
+132
+134 130
+FIG. 1
+1/22
+
+[PAGE 2]
+400 406 142
+FRONT
+REAR
+102
+106 110
+202210
+206
+308
+208
+300
+204
+302
+450
+452
+140
+138134 136 132
+200
+104
+FIG. 2
+2/22
+
+[PAGE 3]
+212
+214
+308
+300
+215
+FIG. 3A
+140
+216
+217
+308
+FIG. 3B
+140 218
+219
+308
+FIG. 3C
+3/22
+
+[PAGE 4]
+M M
+400 / 416
+200
+138
+136
+134
+137
+132
+FIG. 4
+4/22
+
+[PAGE 5]
+START
+(startup / periodic / movement detected)
+S101
+Read tilt signal from
+tilt sensor 138
+S102
+Tilt > threshold
+(e.g., about 0.5°)?
+S103
+Enable user sessions and
+processing operations
+NO 
+S104
+Inhibit initiation of user
+session / heating / ﬂuid dispensing
+YES 
+S108
+Monitor for movement
+or vibration
+S105
+Drive actuators 136 of
+motorized leveling feet 134
+S106
+Within threshold
+after re-read?
+YES 
+S107
+Keep sessions inhibited;
+send service alert
+NO (retries exhausted) 
+5/22
+FIG. 5
+
+[PAGE 6]
+310
+312 314
+316 318
+302 308
+FIG. 6A
+320322324
+FIG. 6B
+330
+332
+334
+FIG. 6C
+360
+362
+364
+FIG. 6D
+6/22
+
+[PAGE 7]
+M
+340
+342
+344
+346
+348
+349
+462
+FIG. 7
+7/22
+
+[PAGE 8]
+350
+352
+354
+356
+FIG. 8A
+M 370
+372
+374
+376
+380
+382
+384
+FIG. 8B
+8/22
+
+[PAGE 9]
+450
+452
+454
+306
+304
+305
+462464
+458
+334
+460
+456
+316
+FIG. 9
+9/22
+
+[PAGE 10]
+S201
+Detect interaction event in
+overlap region 454 (camera 450)
+S202
+Retrieve detection proﬁle
+for mounting position 206
+S203
+Collect camera output and outputs of
+item-detection sensors named in proﬁle
+(tag reads / load-cell delta / break-beam)
+within time window
+S204
+Camera and item-detection
+sensors agree on removal
+of identiﬁed item?
+S205
+Record removal against session;
+update inventory and virtual basket
+YES 
+S206
+Classify as anomalous event
+(e.g., hand removal without
+expected tag/weight signal)
+NO 
+S207
+Alarm 118 / restrict access /
+adjust deposit / ﬂag session
+10/22
+FIG. 10
+
+[PAGE 11]
+S301
+Open gate 344 to release ﬁrst
+item into weighing dish 348
+S302
+Lock gate while dish load cell 349
+reports weight > presence threshold
+S303
+Weight < removal
+threshold?
+NO 
+S304
+Camera 450 corroborates
+removal of item?
+YES 
+S305
+Record sale of item
+YES 
+Treat as anomalous
+(see FIG. 10, S206)
+NO 
+S306
+Actuate gate to release
+next item
+11/22
+FIG. 11
+
+[PAGE 12]
+FIG. 12A FIG. 12B
+500
+502
+504
+506
+122 502
+508508
+12/22
+
+[PAGE 13]
+S401
+Establish user session:
+optical code token (124),
+biometric (122), NFC / card /
+palm / ﬁngerprint
+S402
+Pre-authorize payment
+instrument; verify identity
+matches proﬁle
+S403
+Display transaction terms on 120
+(immediate charge / incremental
+hold / no returns / penalty)
+S404
+Aﬃrmative
+consent?
+S405
+Restricted goods requested?
+Apply restricted-goods mode
+(FIGS. 12A-12B)
+YES 
+Keep barrier locked
+NO 
+S406
+Cabinet level and
+sessions enabled?
+S407
+Unlock user access barrier
+106; illuminate authorized
+region
+YES 
+NO 
+S408
+Conﬁrm removal by
+sensor fusion (FIG. 10)
+S409
+Add to virtual basket;
+incremental authorization;
+instant or aggregated capture
+S410
+Session end?
+(door closed / checkout /
+timeout / departure)
+NO 
+S411
+Capture funds; split
+settlement; digital / ﬁscal
+receipt to app or email
+YES 
+13/22
+FIG. 13
+
+[PAGE 14]
+FIG. 14
+EDGE CONTROLLER 400
+CAMERAS 450, 122 | SCANNER 124
+READER 126 | DISPLAY 120 | LOCK 112
+DOOR SENSOR 116 | ALARM 118 | TIL T SENSOR 138
+ACTUATORS 136 | UPS 142
+MEMORY 404PROCESSOR 402
+LOCAL LEDGER 408 AUDIT LOG 424
+LOCAL DB /
+CACHE 405
+ACCESS
+CONTROL 410
+SENSOR
+FUSION 412
+MODULE
+MANAGER 414 LEVELING 416
+PRICING
+ENGINE 418 TRANSACTION 420 THERMAL PROCESS
+MANAGER 422
+BIOMETRIC
+ANAL YSIS 426
+NETWORK
+INTERFACE 406
+LOCAL BUS
+INTERFACE 428
+POSITION-ADJUSTABLE
+INTERFACE 210 REMOTE SERVER 900 SLAVE UNITS 852
+(FIG. 15)
+MODULES 300 / 600 / 700
+(308, 309)
+MOBILE
+DEVICE 902
+SUPPLIER
+INTERFACE 904
+PAYMENT
+GATEWAY 914
+BIOMETRIC
+REPOSITORY 916
+14/22
+
+[PAGE 15]
+900
+850 852
+852
+852
+854
+856
+120
+122
+112
+FIG. 15
+15/22
+
+[PAGE 16]
+636
+600 602
+604
+608
+610
+616
+606
+607
+612
+650
+614
+624
+618
+620
+622
+626
+628 630
+638
+634
+632
+308
+FIG. 16
+16/22
+
+[PAGE 17]
+642
+648
+650
+646
+FIG. 17A
+640
+644
+646612
+649
+FIG. 17B
+17/22
+
+[PAGE 18]
+656
+652
+654
+658
+659
+650
+FIG. 18A
+660 662
+664
+666
+666
+668
+669
+FIG. 18B
+18/22
+
+[PAGE 19]
+S501
+Read digital passport via
+identiﬁer reader 614
+S502
+Display product, nutrition, price,
+retrieval window and abandonment
+terms; receive consent
+S503
+Execute payment / record
+payment commitment
+BEFORE heating
+S504
+Impedance
+authentication
+passes?
+S505
+Tilt within
+threshold?
+YES 
+Inhibit heating;
+ﬂag packageNO 
+S506
+Seal chamber 606; close
+shutter 610; start exhaust
+fan 628 (negative pressure)
+YES 
+Re-level
+(FIG. 5)
+NO 
+S507
+Energize induction coil 612
+per heating proﬁle; monitor
+temperature 624
+S508
+Activate ready indicator 622;
+start retrieval timer
+S509
+Retrieved before
+timer expires?
+S511
+Lock retrieval slot
+(618 / 620)
+NO 
+S510
+Complete and log
+transaction
+YES 
+S512
+Transfer mechanism 616
+diverts item via 634 to
+waste compartment 632
+S513
+Flag waste; apply penalty
+per posted terms; log
+S514
+Reset heating position
+to ready state
+19/22
+FIG. 19
+
+[PAGE 20]
+710
+700
+702 704
+706
+708
+712
+710
+714
+720
+722
+724
+726
+FIG. 20
+20/22
+
+[PAGE 21]
+390
+392
+394
+396
+398
+FIG. 21A
+45°
+800
+806802
+804
+808
+810
+812
+FIG. 21B
+21/22
+
+[PAGE 22]
+LOCAL INDUCTION UPSTREAM INDUCTION
+S601
+Scan manufacturer barcode / SKU
+(induction station 906 or
+handheld scanner 908)
+S602
+Apply / program tracking tag 464
+(RFID, NFC, machine-readable label)
+S603
+Enter lot identiﬁer and
+expiration / production date
+S604
+Store tag-SKU-lot-expiry
+association in database
+S605
+Rear-load items into modules (FIFO);
+monitor with antenna matrix 304 and camera 450
+S611
+T ag and associate goods at
+supplier warehouse / DC
+S612
+Supplier system 910 uploads
+manifest 912 to server 900
+S613
+Edge controller 400
+downloads manifest
+S614
+Recognize pre-tagged goods on arrival;
+set ACTIVE state without local scan
+22/22
+FIG. 22

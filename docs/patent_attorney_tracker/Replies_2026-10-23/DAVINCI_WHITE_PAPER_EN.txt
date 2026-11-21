@@ -1,0 +1,1285 @@
+[PAGE 1]
+ 
+1 
+ 
+Have It All: Trade Secrets, Patent Rights, Lower Costs, More 
+Flexibility, and Longer Protection 
+by John Moetteli, J.D. (U of H Law Center), Attorney-at-Law (D.C.),  
+US and Swiss Patent Attorney, adjunct professor, Zurich University ZHAW (CAS 
+Master’s Program in IP) 
+Lead (EN) 
+This article addresses innovators who—because patenting is expensive and because 
+they are unwilling to forfeit trade secret protection—would ordinarily default to the fragile 
+but less costly path of trade secrecy. It explains that th ere are little-known, practical 
+strategies that avoid the binary choice between “file a patent” and “maintain a trade secret”: 
+strategies that preserve trade secret status while keeping significant patent options alive. 
+Nothing here is meant to displace standard filing approaches for innovations not suitable 
+for trade secret protection. And, as always, th ese materials and any related comments are 
+not legal advice; do not rely on them without a personal consultation with a qualified patent 
+attorney experienced in these techniques. 
+Lead (DE) 
+Dieser Beitrag richtet sich an Innovatorinnen und Innovatoren, die – weil 
+Patentanmeldungen kostspielig sind und de r Verlust von Geschäftsgeheimnissen 
+vermieden werden soll – typischerweise de n fragilen, aber koste ngünstigeren Weg des 
+Geheimnisschutzes wählen. Er zeigt praxista ugliche Strategien, die die binäre Wahl 
+zwischen ‘Patent anmelden’ und ‘Geheimnis wahren’ aufh eben: Strategien, die den 
+Geheimnisschutz erhalten und zugl eich wesentliche Patentopti onen offen halten. Nichts 
+hier soll die üblichen Anmeldungsansätze für Innovationen ersetzen, die sich nicht für den 
+Schutz als Geschäftsgeheimnis eignen.  Diese Ausführungen ersetzen keine 
+Rechtsberatung; holen Sie bei Bedarf individuellen Rat ein. 
+Lead (FR) 
+Cet article s'adresse aux innovateurs qui, en raison du coût élevé des brevets et se 
+refusant à renoncer à la protection des secrets commerciaux, opteraient généralement pour 
+la voie fragile, mais moins coûteuse du secret commercial.  Il existe des stratégies pratiques 
+peu connues qui permettent d'éviter le choix binaire entre « déposer  un brevet » et « 
+conserver un secret commercial », à savoir des stratégies qui préservent le statut de secret 
+commercial, tout en conservant des options de brevet importantes. L’objectif n’est pas de 
+remplacer les approches habituelles de dépôt po ur les innovations qui ne se prêtent pas à 
+la protection par le secret commercial. Comme toujours, ce document et tous les 
+commentaires connexes ne constituent pas des conseils juridiques et ne peuvent être 
+
+[PAGE 2]
+ 
+2 
+ 
+considérés comme source fiable sans avoir consulté personnellement un avocat spécialisé 
+en brevets ayant l’expérience de ces techniques. 
+Table of Contents 
+I. First Point: Depending on Residency, You Ma y be Able to File Your First Patent 
+Application Wherever You Wish (e.g., The Sw iss are free while Amer icans must file in 
+the USA first). 
+II. Unique Strategic Reasons to Consider Filing First in the United States 
+III. Framing the Landscape of IP Protection Strategies 
+IV. The Typical Patent Strategy Timeline: A System of Ever-Increasing, Deadline-Driven 
+Cost Explosions 
+V. The Typical Trade Secret Strategy Ti meline: Avoiding Deadline-Driven Cost 
+Explosions—But at the Price of Fragility 
+VI. The Successive Refiling (“Mini-Sub”) Strategy 
+VII. The U.S. Submarine Application: A Long-Term, Non-Published Patent Strategy 
+Unique to the United States 
+VIII. Managing a U.S. Submarine Applica tion: Requirements, Timing, and Strategic 
+Execution 
+IX. Divisional Design Patent: the “UFO” (“Unidentified Filed Object”) Design 
+X. Case Study 1 — Sports Product: the “Flipper” 
+XI. Case Study 2 — Printed Circuit Production 
+XII. Summary of Characteristics of the Co mbined Submarine Application with UFO 
+Designs 
+XIII. Practical Drafting Considerations and NDAs 
+XIV. U.S. Subs and UFOs Are Not Per Se “Gaming the System” 
+XV. Conclusions 
+XVI. Definitions 
+ 
+
+[PAGE 3]
+ 
+3 
+ 
+Summary (EN) 
+This article explains how to combine U.S. non ‑publication (‘Submarine’) filings, 
+provisional ‘mini ‑Sub’ cycles, and late ‑filed divisional design (‘ UFO’) applications to 
+preserve trade secrets, defer international costs, and extend enforceable design protection. 
+It contrasts these U.S.‑only levers with 18‑month publication regimes and outlines practical 
+contracting, management, and case‑study outcomes. 
+Zusammenfassung (DE) 
+Der Beitrag zeigt, wie sich die US ‑Nichtveröffentlichung ("Submarine") mit 
+wiederholten provisorischen Anmeldungen ("mini ‑Sub") und spät eingereichten 
+Teil‑Designanmeldungen ("UFO") kombinieren lässt, um Geschäftsgeheimnisse zu 
+bewahren, internationale Kosten aufzus chieben und durchsetzbaren Designschutz zu 
+verlängern. Demgegenüber stehen ausländische 18 ‑Monats‑Publikationsregime; zudem 
+werden vertragliche, organisatorische und praktische Aspekte (inkl. Fallstudien) 
+dargestellt. 
+Résumé (FR) 
+Cet article explique comment combiner  les dépôts américai ns non publiés (« 
+Submarine ») , les cycles provisoires « mini-Sub » et les demandes divisionnaires déposées 
+tardivement (« UFO ») afin de préserver les secrets comm erciaux, de différer les coûts 
+internationaux et de prolonger la protection exécutoire des dessins et modèles. Il compare 
+ces leviers propres aux États-Unis avec les ré gimes de publication de 18 mois et présente 
+les résultats pratiques en matière de contrats, de gestion et d'études de cas. 
+I. First Point: Depending on Residency, You May be Able to File Your First Patent 
+Application Wherever You Wish (e.g., The Swi ss are free while Americans must file 
+in the USA first) 
+A. First Principle: As a Swiss Resident, Y ou May File Your Firs t Patent Application 
+Wherever You Wish 
+Switzerland generally permits its residents to  file their first pa tent application in 
+any forum they choose (for example, the EPO, WIPO/PCT, or a non-Swiss national office), 
+without a domestic “first-filing” requirement—subject, as everywhere, to national-security 
+or export-control exceptions. 1 
+By contrast, Americans, French, and Chinese resident-inventors whose inventions 
+were made in their home country are typicall y constrained by national-security regimes 
+that require a foreign-filing license or confid entiality review before first filing abroad. 2 
+Still, a procedure exists in each of these jurisdictions to permit foreign first filing—so, for 
+essentially every innovator not working with defense-sensitive technology, practical 
+
+[PAGE 4]
+ 
+4 
+ 
+avenues remain to file first in the country or region of choice (WIPO, International 
+applications and national security considerations). 
+This implies that innovator s may choose to file where a jurisdiction offers the 
+greatest commercial signi ficance or a unique strategic ad vantage, which, in appropriate 
+circumstances, may not be their home country. 
+A comparative look at 2024 gross domestic product across the United States, the 
+European Union, and China underscores why fi rst-filing outside the home forum may be 
+rational: the United States, the European Uni on, and China are the world’s three largest 
+economic blocs, led by the United States in nominal GDP for 2024, followed by China; the 
+EU as a bloc also constitutes a massive market. 3 This macroeconomic backdrop frames 
+the strategic question: in wh ich market does a first filin g deliver the most leverage? 
+ 
+B. “The U.S. Is Important 
+i). Cost-effectiveness per capita  
+Apart from China, the United States is  often among the least expensive major 
+jurisdictions on a per-capita basis in which to  obtain coverage. The structural reason is 
+straightforward: one U.S. pa tent confers nationwide right s across a single, very large 
+consumer market, whereas protecting an equiva lent market footprint in Europe generally 
+involves EPO prosecution plus multiple natio nal validations and country-by-country 
+maintenance, or use of the Unitary Patent where available. 
+4. EPO fees and national 
+annuities add up over time (with periodic increases), whereas U.S. maintenance fees are 
+due only three times—at 3.5, 7.5, and 11.5 years after grant. 
+ 
+ii). Legal system predictability and litigation economics  
+The United States offers a comparatively homogeneous, developed federal system 
+for patent enforcement—including centralized  appellate review by the Federal Circuit—
+which can reduce forum variability. U.S. law fi rms also routinely offer contingent fee or 
+hybrid arrangements in appropr iate cases, which can lower ba rriers to enforcement for 
+patentees 5 
+By comparison, Europe features multip le languages, heterogeneous national 
+markets, and (during the UPC transitional pe riod) parallel jurisdiction between national 
+courts and the Unified Patent Court—with an opt-out still available for classic EPs. Firms 
+in Europe do not offer contingent fee arrangements. The United States has one federal court 
+system and no “opt-out” from federa l jurisdiction for U.S. patents. 6.  Consequently—
+relative to Europe—a bigger, more accessible “pot of gold” awaits the winner in the contest 
+for the U.S., and thereby the world, market. 7 
+
+[PAGE 5]
+ 
+5 
+ 
+Conclusion: The U.S. Is a Critical Ma rket for Most Products and Services 
+Therefore, if a client—because of budget constr aints or to exploit specific legal levers—
+must choose a single patent to anchor its portfolio, many choose a U.S. patent. This is partly 
+because a single U.S. patent is often the most valuable stand-alone right: 
+Given the size and unity of the U.S. market, the nationwide effect of a single patent 
+grant, and the practicalities of enforcement and licensing in the United States, U.S. patent 
+rights are frequently the most  flexible and powerful tools for monetizing an invention, 
+especially where a prospective licensee or likely infringer is U.S.-based. 8 
+In short, one must enter the U.S. market  eventually—or renounce any prospect of 
+global market leadership.  Because the U.S. is a critical market, it makes business sense to 
+file in the United States at some point—including, where appropriate, as a first filing to 
+capture strategic advantages discussed in subsequent parts of this presentation 9 
+II. Unique Strategic Reasons to Consider Filing First in the United States 
+The United States offers distinct strategic advantages as a first-filing jurisdiction.  
+A first filing in the United States can confer strategic benefits unavailable elsewhere—
+particularly for innovators who wish to protect both trade se crets and patent rights while 
+deferring large, deadline-driven costs. 
+A. The U.S. One-Year Grace Period 
+Because U.S. patent law affords a one-year grace period 10 for disclosures made by 
+the inventor, filing in the United States may be the only remaining option if self-disclosure 
+has already compromised the ability to patent in Europe, where grace periods are far more 
+restrictive. 11  Thus, even when an EPO filing is no longer viable, a U. S. filing may still 
+remain possible. 
+Moreover, U.S. law provides no grace peri od for secret commercial activity that 
+predates the earliest priority date—inclu ding offers for sale made under NDAs. As 
+confirmed in Helsinn Healthcare S.A. v. Teva Pharmaceutical USA, Inc., confidential sales 
+may trigger the on-sale bar. 
+B. Filing First in the United States to Pr eserve Trade Secret Rights Through Non-
+Publication 
+United States law uniquely allows an applicant to prevent publication of a U.S. 
+patent application when two conditions are satisfied: (1) a non-publication request is filed 
+at the time of the U.S. filing, and (2) the applicant certifies that the invention “has not been 
+and will not be the subject of an applicati on filed in another country” that requires 18-
+month publication. 12 
+
+[PAGE 6]
+ 
+6 
+ 
+If these conditions are met, the USPTO must hold the application in confidence and 
+will not publish it at 18 months. This enab les the applicant to maintain trade secret 
+protection indefinitely while also preserving the right to obtain a U.S. patent. This strategic, 
+non-published U.S. regular application—w hat you call a “new” U.S. Submarine 
+Application (as opposed to the old Lemelson-style Submarines – see Section XIV below)—
+creates a deferral mechanism unavailable in Europe, China or the rest of the world. 
+By contrast, if the innovator files first in any jurisdiction with mandatory 18-month 
+publication (e.g., the EPO, France, the U.K., Italy, China, or WIPO), the applicant 
+immediately and permanently loses the ab ility to pursue a valid U.S. Submarine 
+application, even if the fore ign application is withdrawn before publication. Because the 
+eventual publication destroys trade secrecy, this forecloses a powerful cost-management 
+and secrecy-preservation strategy. 
+ 
+C. Europe and China Do Not Provide an Equivalent Non-Publication Option 
+Neither the European Patent Conventi on nor the China National Intellectual 
+Property Administration offers any mechanism comparable to 37 C.F.R. § 1.213. In both 
+systems, applications are publ ished at 18 months as a matte r of course, meaning a first 
+filing in those jurisdictions necessarily tr iggers publication, thereby extinguishing the 
+ability to maintain trade secret rights past that point. 
+ 
+D. Strategic Implications for Startups, Knowhow-rich Corporations, and Resource-
+Constrained Innovators 
+For startups, who in today’s uncertain world are best advised to “hope for the best 
+and plan for the worst”, a first filing in the United States is almost always the prudent 
+choice when the technology is amenable to trade secret protection. Filing first in the U.S. 
+preserves trade secret status, reserves patent rights, allows deferral of foreign filings and 
+their associated costs, and positions the comp any to make better-informed decisions once 
+funding, market validation, and competitive intelligence mature. 
+ 
+E. Preserving All Filing Options While Controlling Costs 
+Because foreign filings and translati ons generate “deadline-driven cost 
+explosions,” filing first in the United States gives innovators a critical buffer against budget 
+volatility. For technologies su ch as manufacturing processes or SaaS systems—both of 
+which may be kept confidential indefinitely—avoiding a mandatory 18-month publication 
+prevents the creation of “monster” prior art (the publication of one’s own patent 
+application) that would otherwise obliterate trade secret rights. 
+
+[PAGE 7]
+ 
+7 
+ 
+Thus, U.S. first filing is not merely a legal tactic; it is a financial risk-management 
+strategy that maximizes long-term optionality. 
+ 
+F. Even in Secrecy, You Can Still Prove Your Rights to Stakeholders 
+A secret U.S. application does not l eave the innovator empty-handed in due 
+diligence or investment negotiations. Applicants retain an official U.S. filing receipt, and 
+the ability to order a sealed, certified copy of the application as filed and, eventually, a 
+notice of allowance.  These documents are fu lly adequate to demonstrate priority and 
+ownership to investors, acquirers, or partners—provided disclosures occur under NDA to 
+avoid destroying trade secret st atus. Notably, U.S. law does not  require that an applicant 
+keep the invention secret to maintain a non-publication request; secrecy is only necessary 
+to preserve trade secret rights, not to maintain the application’s unpublished status. 13 
+III. Framing the Landscape of IP Protection Strategies 
+In order to appreciate the strategic advantages available under U.S. law, it is useful 
+to lay out the traditional intellectual-property protection paths and contrast them with the 
+new hybrid strategies uniquely available in the United States.  Historically, innovators have 
+understood only three principal strategies for protecting their technology: 
+1. Filing for patent protecti on, thereby pursuing exclusiv e rights but necessarily 
+triggering publication at 18 months, which destroys trade secret status; 
+2. Maintaining trade secret protection, thereby avoiding publication and cost 
+escalations but forfeiting the ability to obtain patent rights, particularly where 
+commercial embodiments reveal the underlying technology; and 
+3. Employing a “mini-Sub” strategy, na mely, successive refiling of U.S. 
+provisional applications to preserve trade secret status, claim “patent pending” 
+for marketing purposes, and postpone cost-intensive deadlines—while retaining 
+the ability to convert to a regular U.S. or international application within the 
+allowable priority window. 
+These three strategies, however, represent only the starting point. Under U.S. law, 
+there exist three additional hybr id mechanisms, unavailable el sewhere, that dramatically 
+expand an innovator’s ability to sequence patent filings, defer costs, and preserve secrecy.  
+A. The U.S. Submarine Patent Strategy 
+A regular, non-published U.S. application—filed with a non-publication request—
+may remain secret and pending for years until  the applicant elects to permit issuance. 
+Because the application avoids the mandatory publication regimes of Europe, China, and 
+WIPO, it allows the innovator to maintain tr ade secret protection while preserving U.S. 
+
+[PAGE 8]
+ 
+8 
+ 
+patent rights of early priority. This strategy enables the applicant to delay cost explosions, 
+litigation risks, and irreversible disclosure events until commercially optimal. 
+ 
+B. The “UFO” Design Filing Strategy (Unidentifiable Filed Ornamental Design) 
+If the initial U.S. utility application contains drawings that show a complete set of 
+views of at least one orname ntal design of the invention (including physical products or 
+GUIs), the applicant may file U.S. divisional  design applications at any time while the 
+utility case remains pending. Because U.S. design patent term is measured from grant 
+rather than filing, this tactic can yield design protection extending well beyond the typical 
+20-year limit associated with ut ility patents. The result is a strategically timed, surprise 
+form of design protection that is virtually unknown outside the United States. 
+C. A Combined Submarine + UFO Design Strategy 
+By integrating design figures within a non-published utility application, the 
+innovator can simultaneously (1) preserve secrecy through the Submarine application and 
+(2) later file divisional designs that issue into long-lived, enforceable design patents. This 
+hybrid method leverages the secrecy advant ages of the Submar ine strategy and the 
+extended-term advantages of late-filed design divisionals. 
+Consequently, where traditional doctrine  taught that innova tors must choose 
+between trade secret protection and patent protection—each mutually exclusive of the 
+other—the availability of th e Submarine, UFO, and combin ed strategies fundamentally 
+alters that calculus. Only U.S. law permits these hybrid approaches, allowing innovators to 
+(1) preserve secrecy far longer than any fore ign system permits, (2) reserve patent rights 
+without triggering premature pub lication, (3) strategically t ime the entry into foreign 
+systems when resources and commercial circumstances justify, and (4) extend enforceable 
+design protection beyond the conventional 20-year framework.  
+In short, U.S. law offers a unique tool kit unavailable elsewhere, transforming the 
+landscape of IP decision-making and enabli ng innovators—particularly startups and 
+knowhow-rich organizations—to na vigate risk, cost, and disc losure with far greater 
+precision. 
+IV. The Typical Patent Strategy Time line: A System of Ever-Increasing, 
+Deadline-Driven Cost Explosions 
+The conventional global patent-filing pathwa y exposes innovators  to a series of 
+rigid, non-negotiable deadlines that trigger es calating costs—costs th at typically arrive 
+long before the applic ant has meaningful information a bout market traction, investment 
+prospects, competitive threats, or technical viability.   
+
+[PAGE 9]
+ 
+9 
+ 
+ 
+Fig. 1: traditional patent filing strategy 
+This traditional path unfolds through the following sequence: 
+ 
+A. Applicant’s Publications are the Worst Prior Art:  
+Once an inventor makes a public disclosure —whether deliberate or inadvertent—the 
+publication becomes prior art against the inventor’s later filings. Under U.S. law, applicant-
+originated disclosures may still receive limited grace-period treat ment, but elsewhere 
+(notably Europe) such disclo sures often terminate patentability entirely. This creates 
+immediate urgency to file promptly and globally before any publication. 
+ 
+B. The Paris Convention’s 12-Month Deadline 
+Within twelve months of th e first filing, the applicant must file al l corresponding 
+regular national applications (for example, in Taiwan, which is not a PCT member) or, if 
+publication has already taken pl ace, irrevocably lose his ri ght to claim priority. This 
+includes the substantial cost of  preparing formal patent sp ecifications, drawings, claims, 
+and translations as required. 
+ 
+C. If a PCT Application Is Filed: The 30- or 31-Month National/Regional Phase Deadline 
+
+
+[PAGE 10]
+ 
+10 
+ 
+The Patent Cooperation Treaty gives applicants a temporary reprieve, allowing deferral 
+until roughly month 30 or 31. At that point, the applicant must again incur substantial filing, 
+translation, and local-counsel expenses or permanently abandon rights in each non-entered 
+territory. 
+ 
+D. Mandatory 18-Month Publication 
+Every PCT or foreign application publishes at 18 months from the earliest priority date, 
+and failure to file in a country before public ation destroys rights in  that country because 
+the applicant’s own published application be comes prior art against itself.  Thus, 
+publication operates as a compul sory trigger: pay the high international costs now, or 
+irrevocably forfeit protection in each country in which you have not effectively filed. 
+E. Renewal Fees Begin Before Grant in Many Jurisdictions 
+In Europe and many other systems, annua l renewal fees begin early—even during 
+pendency. The United States is one of the few exceptions, requiring maintenance fees only 
+after grant, at only three points in time.  For applicants managing multiple national filings, 
+these annual annuities rapidly accumulate into substantial financial burdens. 
+F. Examination, Rejection, Appeal, and Acceptance Timelines 
+Applicants typically wait years for examin ation results. For ex ample, national-phase 
+prosecution in Europe or the United States ma y take three to five years or longer before 
+final allowance or rejection.  Throughout this period, the application continues to generate 
+expenditures for attorney responses, amendmen ts, translations, annuities, and strategic 
+decision-making. 
+G. The Result: A Pattern of Predictable “Cost Explosions” 
+Foreign filings multiply expenses: multiple  patent attorneys, multiple languages, 
+multiple official fees, multiple translati on costs, and multiple ma intenance obligations. 
+None of these costs can be avoided once a pub lication occurs. Each is driven by statutory 
+deadlines—not business readin ess, not market timing, not budget cycles.  Hence, after 
+publication, the applicant must either (1) pay the “ransom”—the cumulative global filing, 
+translation, and prosecution expe nses required to preserve pa tent rights, or (2) renounce 
+rights in every jurisdiction not entered before publication, knowing that the applicant’s own 
+publication will enable competitors to freely ma nufacture, use, or sell the invention in  
+countries in which they have not reserved their patent rights. 
+This dilemma is most acute because the en trepreneur rarely knows—at the 12- or 18-
+month point—whether the invention is commercially viable, or whether the cost of global 
+patenting is justified. Nevert heless, the system plays upon the entrepreneur’s natural 
+
+[PAGE 11]
+ 
+11 
+ 
+optimism and so forces them to gamble large sums on patent applications of uncertain 
+value. 
+V. The Typical Alternative: Pure Trade Secret Protection 
+A trade secret–based IP strategy offers the inverse risk profile of the traditional patent 
+strategy. It avoids global pate nt deadlines and the cascading costs associated with them, 
+and it can—at least in theory—last indefinitely.  
+Due to the cost burdens of the traditional patent filing strategy, many innovators 
+consider avoiding patent filings altogether. A trade secret strategy avoids the 12-month 
+Paris deadline, avoids the 18-month publication cliff, avoids or postpones translation and 
+annuity costs, and avoids the escalating, deadline-driven “ransom” of foreign filing fees.   
+ 
+Fig. 2: typical trade secret strategy 
+But trade secret protection is fragile. Once the secret is disclosed—intentionally or 
+accidentally—protection terminates permanently  unless a patent filing had been made 
+before such publication (or with in the U.S. grace period, wh ere applicable).  Innovators 
+therefore face a binary historical choice: file  patents and lose trade secrecy, or maintain 
+trade secrecy but lose patent rights. 
+Does this matter? Figure 2 above illustrates the structural flaw of the global patent 
+system as traditionally unders tood: innovators are forced into irreve rsible, high-cost 
+commitments long before they possess the business intelligence required to make rational 
+decisions.   
+
+
+[PAGE 12]
+ 
+12 
+ 
+A. The Trade Secret Path 
+Under a trade secret–only strategy, th e innovator creates technology capable of 
+being kept confidential—freque ntly a manufacturing process or a SaaS architecture 
+operating behind a secure firewall.  He must  encapsulate the trade secret, typically by 
+preparing a written description (o ften in the format of a pate nt application) and storing it 
+securely, limiting access strictly to those who sign NDAs and have a need to know. 
+He can relies on prior-user rights, but only in the jurisdiction where the invention is actually 
+practiced—rights that generally protect against infringement suits but do not prevent others 
+from independently patenting abroad.  He maintains trade secret protection only so long as 
+the information is not generally known, the information retains commercial value because 
+it is secret, it is identifiable as such, and the owner has taken reasonable steps to preserve 
+secrecy. 
+In this way, trade secret protection is theoretically perpetual. But once the 
+information becomes public—even inadvert ently—protection terminates and cannot be 
+revived. 
+ 
+B. The Critical Weakness: Publication of the Trade Secret 
+If the secret is ever disc losed—through product sales, disclosures to customers, 
+careless handling, or even inte rnal error—trade secret prot ection evaporates immediately 
+leaving the innovator with nothing unless a patent  application was filed before disclosure 
+(or, in the United States, within the one-year  grace period when applicable). Thus, the 
+entrepreneur risks losing all rights if  commercial activity exposes the underlying 
+technology before a protective filing is made. 
+ 
+C. The Core Tension: Patent vs. Trade Secret as Mutually Exclusive Choices 
+The conventional wisdom has long held th at (1) filing a stra tegically important 
+patent application inevitably results in public ation at 18 months, and publication destroys 
+trade secrecy; and (2) preserving trade s ecrets precludes obtaini ng patent protection—
+particularly when the act of selling a pr oduct discloses the i nventive technology.  
+Consequently, innovators historically have been forced to choose between patents or 
+secrecy, but not both. 
+ 
+D. Why Documentation Matters 
+Even within a trade secret–only strate gy, proper documentation is critical.  
+Preparing a patent-style disclosure serves as  a formal record identifying what the trade 
+
+[PAGE 13]
+ 
+13 
+ 
+secret consists of—an essential requirement for successful litigation in the event of trade 
+secret theft.  But once the product of a secret process is offered for sale, even under NDA, 
+the innovator may lose the ability to later seek U.S. patent protection unless a filing 
+predates that offer. After publication of the technology, the U.S. one-year grace period 
+begins to run—but publication simultaneously destroys trade secrecy. 
+ 
+E. Logical Outcomes Under the Traditional Framework 
+Under the traditional dichotomy: 
+Filing patents forfeits trade secret prot ection (because of 18-month publication). 
+Preserving trade secrets forfeits patent prot ection (because later sales or disclosures 
+extinguish novelty).  Thus, until the synthesis of the U.S.-only hybrid strategies discussed 
+herein, innovators faced only two choices:  File patents, or preserve trade secrets. 
+ 
+F. The Truth Available Under U.S. Law 
+Contrary to the historical assumption, trade secret rights and U.S. patent rights are 
+not mutually exclusive.  A properly manage d, non-published U.S. Submarine application 
+can preserve patent rights and enable the innovator to maintain trade secret protection well 
+beyond 18 months, defeating the forced-choice paradigm. 
+The remainder of this pres entation introduces the U. S.-only hybrid strategies—
+Submarine, Mini-Sub, and UFO design fi lings—that defeat this dilemma by: 
+postponing deadlines, maintaining secr ecy until strategical ly advantageous, 
+preventing cost explosions, and enabling innova tors to switch paths only when evidence, 
+markets, and funding justify it. 
+ 
+VI. The Successive Refiling (“Mini-Sub”) Strategy 
+The “mini-Sub” strategy—built around the successive refiling of U.S. provisional 
+patent applications—offers innovators a low- cost mechanism to preserve trade secrecy, 
+maintain “patent pending” status, and pos tpone major cost commitments, all while 
+retaining the flexibility to seek full pate nt protection when timing and resources are 
+optimal. 
+ 
+A. Core Mechanics of the Mini-Sub Strategy 
+
+[PAGE 14]
+ 
+14 
+ 
+A U.S. provisional applicati on, colloquially termed a “m ini-Sub,” is filed, then 
+optionally updated and successively refiled near the end of each Paris-year cycle. Because 
+provisional applications never publish, this strategy allows applicants to maintain secrecy 
+while preserving forward-looking patent opportunities. 
+Each mini-Sub has the following defining ch aracteristics: (1) the preservation of 
+Trade Secret protection and (2) the ability to  claim “patent pending”, (3) deferral of 
+deadline-drive cost explosions , and (4) optional conversion to  formal applications.    
+Because provisional applicati ons remain confidential and do  not trigger publication, the 
+innovator maintains trade secret  protection indefinitely—so l ong as secrecy is otherwise 
+maintained.  In addition, filing one or more mini-Subs enables the innovator to accurately 
+market the technology as “patent pending,” even while maintainin g trade secrecy.   
+The mini-Sub structure delays cost-intensive foreign filings , formal patent drafting, 
+translations, and national-phase commitments until the innovator chooses to convert to a 
+regular application.  Still furt her, if circumstances indica te that the technology may not 
+remain secret much longer, or  if market validation warrants  more robust protection, the 
+applicant can file a full U.S. or  international application and reach back in time up to just 
+under 12 months by claiming priority to the most recent mini-Sub. 
+ 
+B. Understanding the Paris-Deadline Cycle Under the Mini-Sub Framework 
+ 
+Fig. 3: U.S. mini-Sub Framework 
+The mini-Sub strategy operates as a rolling one-year cycle.  Near the end of Year 
+1, the innovator may either (a) file a regular application (U .S., non-U.S., or PCT), or (b) 
+
+
+[PAGE 15]
+ 
+15 
+ 
+refile an improved or  updated provisional—thus resetting the one-y ear decision window. 
+This process may continue through Year 2, Ye ar 3, and so on. Ultimately, a formal filing 
+(U.S., PCT, or non-U.S. filing) may claim priority to a mini-Sub filed within the last year. 
+Crucially, refiling restarts the up to 21-year patent term clock, preserving long-term value 
+when the innovator eventually pursues full patent protection. 
+ 
+C. The Limits and Risks of the Mini-Sub Strategy 
+Despite its flexibility, the mini-Sub approach  carries important li mitations.  First, 
+there is the Secret Offer-for-Sale Risk.  Unless a priority claim predates the first secret offer 
+for sale, U.S. rights may be jeopardized if later challenged.  Thus , mini-Subs are most 
+useful when U.S. rights matter and priority can be established before any offer for sale, or 
+U.S. rights are less important than the inexpensive ability to claim patent pending or to 
+claim priority in non-U.S. jurisdictions. 
+A mini-Sub is not a substitute for a S ubmarine application. Because a mini-Sub 
+cannot remain pending forever (it expires at 12 months), it does not provide the long-term 
+secrecy or pendency advantages of a full U.S. Submarine ap plication, which can remain 
+pending—and unpublished—for many years.  Howe ver, a mini-Sub can only reach back 
+to support a claim of priority for one year.  Beyond that, earlier filings cannot be captured 
+into the chain. 
+ 
+D. Strategic Assessment: Helpful, but Not Ideal 
+While the mini-Sub strategy provides meaningful benefits—including trade secret 
+preservation, optionality, and cost deferral—it is not ideal for innovators who require long-
+term secrecy, multi-year pendency, prot ection in the face of potential secret 
+commercialization, or early priority.  Nevert heless, the mini-Sub re mains better than 
+nothing, particularly for founders and early-stage companies navigating uncertain funding, 
+unclear market validation, or evolving product designs. 
+ 
+VII. The U.S. Submarine Application:  A Long-Term, Non-Published Patent 
+Strategy Unique to the United States 
+A U.S. Submarine application—a regular utility patent application filed with a non-
+publication request—constitutes one of the most powerful secrecy-preserving mechanisms 
+available under the law. Unlike provisional (mini-Sub) filings, a Submarine application 
+may remain pending and unpublished for many year s, enabling the innovator to maintain 
+
+[PAGE 16]
+ 
+16 
+ 
+trade secret protection while simultaneously preserving enforceable U.S. patent rights that 
+can be activated at a strategically chosen moment. 
+A. The Concept and Advantages of the U.S. Submarine Application 
+ 
+Fig. 4: U.S. Submarine Framework 
+A U.S. Submarine application stays fully  pending and secret until the applicant 
+elects to permit the patent to issue. An applicant may even reach a stage where the USPTO 
+has allowed claims, yet continue keeping the application pendi ng for further years—
+maintaining trade secrecy, refining claim sc ope, and preserving opt ionality regarding 
+timing of grant.  Because third parties ca nnot discover the existence of an unpublished 
+Submarine application, a Submarine patent ap plication, once granted, often “surfaces” as 
+a surprise, revealing patent rights that competitors had no way to anticipate. 
+In addition, an applicant may also c hoose to publish the technology separately—
+sacrificing trade secrecy intentionally—to prevent competitors from securing parallel 
+patent rights in othe r jurisdictions. Notably, however, secr ecy is not required to maintain 
+non-publication status for the Submarine; it is required only for preservation of trade secret 
+rights.  In other words, disc losure of the technology does not trigger a requirement to 
+inform the US patent office in the way that filing a non-U.S. patent application does. 
+B. Procedural Requirements for Maintaining Submarine Status 
+To obtain and preserve Submarine status , a non-publication request must be filed 
+together with the U.S. regular application.  The applicant must not file, or must timely 
+notify the USPTO if it has filed, any corresponding foreign or international application that 
+
+
+[PAGE 17]
+ 
+17 
+ 
+would require 18-month publicatio n; failure to notify within the statutory time window 
+results in automatic abandonment.  As long as the applicant complies with these conditions, 
+the U.S. application remains unpublished indefinitely. 
+The Submarine strategy ensures that the ap plicant need not relinquish trade secret 
+rights until the precise scope of allowable claims is known. 
+ 
+C. Strategic Benefits of Long Pendency 
+A Submarine application allows the applicant to (1) delay cost explosions—
+including translations, foreign filings, and large attorney expenditures—until business 
+conditions justify the investment; (2) preserve the option to file continuation-in-part (CIP) 
+applications, creating improved embodiments with their own later filing dates; (3) maintain 
+trade secret protection fo r as long as the technology remains confidential; and 
+(4) retain U.S. patent rights even if s ecrecy is later lost, whether through employee 
+misconduct, competitor discovery, or unexpected disclosure. 
+The Submarine is thus less fragile than a pure trade secret strategy because patent 
+rights are preserved even in the ev ent of involuntary loss of secrecy. 
+ 
+D. Interaction with International Patent Rights 
+International protection remains available so  long as the invention remains secret. 
+The applicant must simply notify the USPTO of  any foreign filing within the prescribed 
+period so that the U.S. application can be published.  Importantly, European patent 
+applications filed by competitors before th e Submarine’s earliest priority date, but 
+published after that date, do not impair U. S. patentability, nor  do competitor U.S. 
+applications filed after the Submarine’s priority date. Thus, a Submarine applicant may still 
+exclude earlier European filers from the U.S. market. 
+E. Strategic Options Based on Priority Structures 
+The Submarine strategy enables multiple sophisticated maneuvers.  One is known 
+as the Second Paris Tactic.  If the applicant learns that the technology has entered the public 
+domain only within the time window of 12 mont hs to 16 months of the filing the U.S. 
+provisional to which the U.S. Submarine ma y claim priority, the applicant may forgo 
+claiming priority in the Submarine application (essentially by waiting to the last minute to 
+claim it and then deciding not to claim it) and use the Submarine application as the priority 
+basis for an international application—assuming no on-sale bar applies. 
+Another maneuver: the applicant can elect a dual-track strategy.  If secrecy remains 
+intact, the applicant may file internationally without claiming  priority to the Submarine, 
+
+[PAGE 18]
+ 
+18 
+ 
+while retaining the Submarine (converted into a non-Sub due to the non-US filing) 
+exclusively for U.S. purposes. A recently file d provisional (a mini- Sub filing) may serve 
+as the priority anchor for the international case only if the Submarine is abandoned before 
+any publication. 
+The applicant may even redact portions of the Submarine application and keep them 
+secret while submitting only a non-redacted portion for publication by the USPTO and for 
+international filing—thus “hav ing one’s cake and eating it t oo.” The redacted material 
+remains entirely secret; the published material supports foreign rights. 14 
+VIII. Managing a U.S. Sub marine Application: Requirements, Timing, and 
+Strategic Execution 
+The effective use of a U.S. Submar ine application demands disciplined 
+management. Because the Submarine strategy hinges on secrecy, pendency, and informed 
+timing, the applicant mu st actively supervise filings—not only in the United States but 
+across all jurisdictions where disclosure, commer cialization, or patent activity may affect 
+trade secret rights or the viability of the Submarine itself. 
+A. Foundational Requirements for a Properly Maintained Submarine Application 
+A Submarine application must be (1) pr operly filed with a valid non-publication 
+request, ensuring that the application remains confidential unless and until the applicant 
+elects otherwise; (2) monitored in relation to the applicant’s own foreign filings, meaning 
+that the applicant must ensure no foreign or international applications are filed—or, if they 
+are, they must timely notify the USPTO so as to avoid automatic abandonment; (3) aligned 
+with commercial conduct, including vigilance concerning any activity that may constitute 
+an “offer for sale,” whether domestic or fore ign, public or confid ential; and (4) managed 
+alongside competitor behavior, as third-party filings, publications, or product releases may 
+influence the strategic timing of continuations, divisionals, or foreign filings. 
+ 
+B. Maintaining Trade Secret Protection During Pendency 
+To preserve trade secret protection wh ile the Submarine re mains pending, the 
+applicant must keep the tec hnology genuinely c onfidential. The Submarine application 
+itself remains secret by operation of U.S. law,  but trade secret stat us depends on actual 
+secrecy practices—NDA use, restricted access, compartmentalization, and careful internal 
+controls. 15 
+ 
+C. Preparing the Submarine for Dual Use: Domestic and International 
+
+[PAGE 19]
+ 
+19 
+ 
+A well-prepared Submarine application should be drafted so that it can serve dual 
+functions.  First, it should function as a long-term, unpublished U.S. filing, capable of 
+supporting continuation practice,  claim refinement, and secr ecy preservation.  Second, it 
+should function as a potential priority documen t for filings outside the United States—to 
+which priority may be cla imed within 12 months of filing under a “Second Paris” 
+strategy—to preserve rights abroad if and wh en the applicant determines that foreign 
+protection is warranted. 
+ 
+D. Long-Term Pendency: Keeping the Submarine Submerged 
+A U.S. patent application can remain pending for up to twenty years from its filing 
+date, provided the applicant files continuations , divisional applica tions, continuation-in-
+part applications, and requests for continued examination (RCEs). 
+This procedural arch itecture—unique in its  flexibility—permits an innovator to (1) 
+continuously adjust claim scope as the mark et evolves, (2) pres erve secrecy until 
+commercial conditions justify surfacing, and (3) shield the technology from publication in 
+ways impossible under European, Chinese, or other foreign regimes. 
+Importantly, U.S. law permits amendmen ts, intermediate generalizations, and 
+“cherry-picking” in ways that foreign jurisd ictions significantly restrict, making it easier 
+to build derivative applications that keep the Submarine pending. 
+E. The Strategic Significance of Avoiding Publication 
+If publication of the Submarine applicatio n is avoided, then trade secret rights 
+remain intact for as long as the underlying technology stays confid ential. The applicant 
+retains the ability to file va lid foreign applications year s later, provided no publication—
+by the applicant or others—has occurred in the interim.  The applicant avoids deadline-
+driven cost explosions, preserving forei gn rights only when and where justified by 
+commercial evidence.  Thus, the Submarine strategy creates a near-unique environment in 
+which the innovator can delay irreversible de cisions regarding disc losure, foreign filing, 
+and cost commitments until th e market, funding landscape, and competitive intelligence 
+warrant them. 
+F. Summary: When Submarines Are Most Useful 
+U.S. Submarine applications are particularly advantageous for technologies capable 
+of being kept secret (e.g., manufacturing pr ocesses, SaaS operations, black-box systems), 
+where the U.S. market is critical, when immedi ate foreign protection is not essential, and 
+where the innovator seeks to control timing, preserve secrecy, and avoid or postpone global 
+cost escalation. At the same time, the appli cant must recognize that  foreign competitors 
+could independently file patent applications and obtain patent rights on similar technology 
+
+[PAGE 20]
+ 
+20 
+ 
+outside the U.S. In countries where the i nnovator practices the invention, a prior-user 
+defense may prevent infringement liability, but it does not prevent othe rs from patenting.  
+Thus, when the innovator believes that trade secret value may dimini sh, the safer course 
+may be to file the contents  of the Submarine internati onally or publish the technology 
+intentionally, thereby creating prior art that  prevents competitor s from obtaining valid 
+patents elsewhere. 
+IX. Divisional Design Patent: the “UFO ” (“Unidentified Filed Ornamental”) 
+Design 
+A further U.S.-only tactic complements the Submarine approach: filing design 
+patent applications—what we call “UFO” de signs—as divisionals or  continuations off a 
+pending U.S. utility application that already integrates complete design drawings.  Properly 
+executed, this tactic ultimately yields surprise-effect design rights that can issue quickly 
+and, crucially, enjoy a fixed post-grant term measured from grant, not from the original 
+utility filing date while benefiting from the original utility application effective filing date 
+to define the prior art. The result is a strategically timed form of protection that can extend 
+beyond the practical 20-year arc of the utility family. 
+ 
+A. What the UFO Design Strategy Is 
+If a first filing (which need not be the filed in the U.S. first) contains drawings that 
+show a full set of views for at least one ornamental design of  the invention—covering 
+physical articles and graphical user interfaces (GUIs)—the applicant may, any time during 
+pendency of the related, later-filed U.S. utility patent application, file a design application 
+as a divisional/continuation to  seek protection for those de corative/ornamental aspects. 
+Because most non-U.S. practitioners do not look  for or recognize these integrated design 
+disclosures in a pending U.S. case as inchoate design rights, the ultimate grant of such a 
+design can come as a surprise even to seasone d non-U.S. counsel. In this sense, they are 
+“Unidentifiable Filed Ornamentals”: the design rights are “filed” but hard to identify until 
+they surface as issued design patents. No other country or  region offers this precise 
+combination of timing, pendency, and grant-based term. 
+ 
+B. Timing, Publication, and the “Surfacing” of UFO Designs 
+
+[PAGE 21]
+ 
+21 
+ 
+ 
+Fig. 5: UFO design filing strategy 
+ 
+A key procedural advantage follows fro m U.S. design-prosecution dynamics: 
+design applications publish on ly at grant. Thus, when UFO designs are pursued as 
+divisional designs off a still-p ending utility parent, one may time their filing late in the 
+utility’s prosecution, allowing the designs to  issue suddenly and without pre-grant 
+publication. This timing can be calibrated to  market events, competitive sightings, or 
+licensing discussions—maximizing surprise value and enforcement leverage.  Because the 
+utility parent can remain pending (especially when the broader strategy also employs a 
+Submarine), the applicant can f ile successive design divisionals 
+16 as needed. In practical 
+terms, that means the portfolio can be staged  so that new design rights surface years after 
+the original utility was filed, but still claim effective prior ity back to the integrated 
+drawings in the parent. 
+ 
+C. Term: Why UFO Designs Can Outlast the Utility Family 
+An especially surprising benefit of late-filed UFO designs is that U.S. design patent 
+term is measured from its date of grant. Consequently, a UFO design that issues years after 
+the utility parent was filed w ill still enjoy its full post-grant term (e.g., fifteen years), 
+thereby potentially extending enforceable pr otection beyond the utility family’s practical 
+20-year horizon. This timing lever is unavailable in jurisdictions that tie design duration or 
+enforcement milestones to earlie r filing dates or that lack comparable divisional timing 
+flexibility. 
+
+
+[PAGE 22]
+ 
+22 
+ 
+ 
+D. Procedural Frame and Practicalities 
+Starting point. The pathway begins with a patent application that integrates designs 
+(“UFOs”)—filed first anywhere and then in the United States under priority or via national 
+stage from a PCT.  A U.S. utility parent will publish at 18 months unless it is a Submarine. 
+UFO divisional designs are filed off of the pending parent application, however, publish 
+only upon grant.  Because the utility case stays pending, one may prosecute divisional 
+design 1, 2 (referred to in Figure 5 as DDIV1, DDIV2, … DDIVN, each potentially 
+maturing into design 1, 2 or D1, D2, … DN), w ith each design patent enjoying a 15 year 
+post-grant term. 17 
+Through routine prosecution management, grant timing can be influenced (for 
+example, by requesting accelerated examination), sharpening the element of surprise. 
+ 
+E. Characteristics of “UFO” Design Applications 
+No U.S.-first filing requirement: A UFO design need not be filed in the United 
+States first, because 18-month publication is acceptable for the initial filing; however, the 
+original first-filed utility applications (P CT, European, etc.) must  include integrated 
+designs, ideally all seven views. 
+F. Early priority; late enforcement  
+The divisional design benefits from the priority date of the earlier utility application 
+potentially filed years before, while the design patent’s enforceable term runs 15 years from 
+grant. 
+G. Timing the grant to extend protection 
+Because U.S. design term is grant-based, UFO designs allow applicants to time 
+grant and thereby extend effe ctive patent life beyond the 20-year utility horizon. 
+Cost management for U.S. designs. UFOs pos tpone deadline-driven cost explosions, but 
+only for designs in the United States. 
+H. Less fragile than secrecy alone 
+Unlike pure trade secret protection, a granted design does not depend on ongoing 
+secrecy.  International design pr otection can still be  pursued up to the point at which the 
+design is no longer secret. 
+ 
+I. Strategic Consequences and Use Cases 
+
+[PAGE 23]
+ 
+23 
+ 
+Surprise enforcement: Competitors who believed themselves insulated by the 
+absence of separate, visible design filings may be faced with a cease and desist notice based 
+on freshly issued U.S. designs, enabling takedowns (e.g., online marketplace enforcement), 
+injunctive leverage, and quick settlements. 
+Bridge to or beyond utility patent life: Because these designs can issue late relative 
+to the utility timeline, they serve as bridge  rights—extending meaningful protection or 
+inflection-point leverage while the utility patent approaches expiration. 
+Portfolio balance: UFO designs complement, rather than replace, utility protection. 
+Where ornamental appearance drives consumer recognition (including GUI look-and-feel), 
+UFO designs can be decisive even when utility claims face headwinds. 
+ 
+J. Summary: Why the UFO Strategy Is “U.S.-Only” in Effect 
+The combination of (1) integrating comple te design drawings in the initial U.S. 
+utility; (2) the ability to file design divisionals/continuations off that pending utility; (3) no 
+pre-grant publication for desi gns; and (4) a design term measured from grant, yields a 
+uniquely American mechanism for long-hor izon, surprise-effect design protection. 
+Properly planned, it allows design patents to surface well after competitors have committed 
+tooling, inventory, and shelf space—at precisel y the moment when en forcement leverage 
+is greatest. 
+ 
+X. Combined Submarine Application with UFO Designs 
+The hybrid strategy that merges a U. S. Submarine app lication with UFO 
+(Unidentified Filed Object) divi sional designs represents on e of the most sophisticated, 
+timing-controlled, secrecy-preserving IP m echanisms available under U.S. law. It 
+leverages the Submarine’s l ong-term pendency and non-public ation together with the 
+uniquely grant-based term and late-stage en forceability of U.S. design patents. The 
+combination yields a portfolio architecture that  is exceedingly difficult for competitors to 
+anticipate or counter. 
+A. Overview of the Hybrid Framework 
+A U.S. utility application, filed with a non-publication request, begins the process. 
+This application must be the first and onl y patent filing, ensuring that it remains 
+unpublished. Because utility applications can be  kept pending for up to twenty years, via 
+continuations (CONs), division als (DIVs), continuations-in-pa rt (CIPs), and requests for 
+continued examination (RCEs), the Submarine establishes a long-horizon environment in 
+
+[PAGE 24]
+ 
+24 
+ 
+which integrated design drawings can later support UFO divi sional design filings. 
+ 
+ 
+Fig. 6: Hybrid Submarine and UFO Design Framework 
+ 
+B. Filing Sequence and Term Structure 
+The basic timeline proceeds as follows.  At  0 months, a U.S. patent application is 
+filed with a valid non-publication request, ensuring confidentiality.  At  minus 12 months, 
+the Submarine may be preceded by a provisi onal (“mini-Sub”) filing, which preserves 
+priority flexibility in the U.S.  Throughout pendency at the appropriate times, UFO design 
+divisionals (DDIV1, DDIV2, … DDIVN) may be filed at will. Each such divisional yields 
+a design patent (D1, D2, … DN) that enjoys a statutory 15-year term from grant, untethered 
+to the original utility filing date.  Because de sign patents publish only at grant, these late-
+filed UFO designs can surface many years after the original utility filing, often at moments 
+when the competitive landscape renders them maximally disruptive. 
+ 
+C. Publication Dynamics and Secrecy Preservation 
+Publication of design divisi onals occurs only after gr ant, allowing (1) long-term 
+secrecy, so long as the Submarine remains pending and unpublished; (2) strategically timed 
+surfacing of design rights, s ynchronized with market entry, competitive threats, or 
+enforcement needs; (3) preservation of trade secret rights until the applicant affirmatively 
+elects to surface either the utility patent or the design portfolio.  If the design remains secret, 
+
+
+[PAGE 25]
+ 
+25 
+ 
+an applicant may file foreign design applic ations before grant publ ication. Even if no 
+longer secret, U.S. DIV designs may still be filed as long as  the utility parent remains 
+pending. 
+ 
+D. Strategic Advantages of the Hybrid Model 
+This combined strategy offers (1) long-term pendency (up to 20 years) of the utility 
+parent through CONs, DIVs, CIPs, and RCEs; (2) late-stage filing of divisional designs—
+often years after the original  utility filing—yet s upported by the origin al design figures 
+embedded in the parent; (3) a grant-based 15-year design term, enabling design patents to 
+outlast the effective 20-year utility term by many years; (4) timi ng control, allowing 
+applicants to accelerate or decelerate desi gn prosecution to synchronize grant with 
+commercial events; (5) less fragility than tr ade secrets, because once granted, design 
+patents do not depend on secrecy; and (6) interna tional design protection, still possible as 
+long as the design has not become publicly av ailable before forei gn filing deadlines.  
+Concerning the latter point, yes, the designs embodied in the products sold will have to be 
+filed internationally before the design is public, but all other alternate designs can remain 
+pending and secret, awaiting the most favorable strategic moment for divisional filing and 
+grant. 
+ 
+E. Conditions for the Hybrid Approach 
+This hybrid approach requires filing the U. S. application first, with a timely non-
+publication request.  The filed utility parent must include integrated designs—complete 
+view sets—within the original  Submarine utility filing.  Al l UFO designs must be filed 
+before the parent utility application grants or is abandoned.  Pendency can be maintained 
+through strategically deployed continuations and RCEs. 
+F. Why the Hybrid Strategy Is So Powerful 
+The hybrid strategy’s force lies in its time asymmetr y: competitors proceed 
+assuming that what they see is all that exists, unaware that a confidential Submarine 
+application may still be pending and that mu ltiple waves of design patents may surface 
+later—each with long grant-based term s and immediate enforcement capacity. 
+This architecture gives innovators extended leverage well beyond normal patent horizons, 
+layered enforcement options (utility, design, tr ade secret), cost de ferral, sometimes for 
+many years, and surprise enforcement at commercially advantageous moments. 
+ 
+XI. Case Study 1 — Sports Product: the “Flipper” 
+
+[PAGE 26]
+ 
+26 
+ 
+A. Facts and posture  
+Flipper Inc. of Texas (“Flipper Co.”) registers their brand “Flipper”™  for a simple, 
+inexpensive sporting-goods product and files a U.S. utility patent application that includes 
+several critical views of the product’s design.  No non-publication request is filed (i.e., this 
+is not a Submarine application). After ten years of examination before the USPTO, despite 
+the efforts of two IP firms, Flipper Co. is unable to obtain a utility patent. Meanwhile, the 
+Flipper goes viral.  Competitive intelligence indicates that Flipper Co’s product design and 
+trademarks have been infringed by a number of companies of nefarious origin.  Nearly 500 
+companies list competing products of the same design, many using the same trademark, on 
+Amazon, eBay, and Alibaba. 
+ 
+B. Strategic pivot  
+In order to make a claim for lost profits , Flipper’s attorneys take the design views 
+already present in the original utility filing and prepare and file a “UFO” divisional design 
+application, requesting accelerated examination.   
+C. Outcome  
+Within three months, the USPTO grants the design, conferring a statutory 15-year 
+term from grant. Because the utility patent application ha d already been pending for ten 
+years, this result extends patent protectio n that Flipper could obtain (if the utility 
+application were ever to grant) beyond the 20-year term measured from the original utility 
+effective filing date—albeit only for design rights. 
+D. Enforcement and monetization  
+Counsel deploys the issued design pa tent to pursue online takedowns and 
+settlements.  A federal design patent and trademark infringement suit is filed in the Eastern 
+District of Texas, naming all 500 competitors and blocking their internal accounts with 
+Amazon, eBay and Alibaba.  A federal cour t judgment in Flipper’s favor is entered 
+enjoining the further manufacturing, importing, advertisi ng, promoting, offering to sell, 
+selling, distributing infringing goods and aw arding lost profits exceeding 22 million 
+dollars.  Flipper Co.’s attorneys seize the funds in the internal accounts and collect against 
+the award.  At least for a few months, co mpetition essentially di sappears from Amazon, 
+eBay and Alibaba. 
+ 
+XII. Case Study 2 — Printed Circuit Production 
+ 
+A. Initial filings  
+
+[PAGE 27]
+ 
+27 
+ 
+Circuit Tech SA of Switzerland invents a clever printed-circuit manufacturing 
+process and designs several alternate housing designs and, on the same day, files both (i) a 
+U.S. “mini-Sub” provisional and (ii) a U. S. Submarine application—a hybrid Sub and 
+UFO. The filings include several critical views of the housings produced by the secret 
+process. 18 
+Before the first year lapses, Circuit Tech  conducts business intelligence research 
+and confirms no offer for sale or public disclosure has occurred and, because nothing was 
+found that might affect the nove lty or inventiveness of th e invention defined in the 
+application,  abandons the first mini-Sub, then files a second mini-Sub. The company 
+continues with successive mini-Sub filing (ro lling placeholders) near each Paris deadline 
+three times over, performing an  updated business intelligence search each time.  Their 
+successive provisional patent filings pr eserve placeholder priority for potential 
+international filings. 
+B. Anchoring a Submarine 
+Before one year from the last  mini-Sub (the one filed less than a year earlier, and 
+before an offer for sale), Circuit Tech f iles a U.S. Submarine application and keeps it 
+active—so that, if an offer for sale is later alleged to have taken place more than a year 
+before an even earlier priority date, U.S. rights remain firmly anchored. 
+C. Allowance held Underwater 
+After three years of prosecution, the USPTO allows the Submarine’s claims. Circuit 
+Tech, however, is unwilling to give up trade secret protection by allowing the publication 
+of the granted patent. Counsel therefore files successive RCEs, preserving the allowed 
+claims while continuing to pursue claim variants, thereby keeping the application pending 
+and unpublished. 
+D. Surfacing if needed 
+If business intelligence later indicates  a competitor is developing similar 
+technology, Circuit Tech can allow the Submarine to grant.   
+E. Parallel UFO leverage 
+At any time during utility pendency, Circuit Tech may file UFO divisional designs 
+based on the integrated drawings—which, when  granted, yield designs with nine- or ten-
+year-old priority and a fresh 15-year enfor ceable term from grant, thereby outlasting the 
+utility family’s 20-year window. 
+F. Trigger event and coordinated filings 
+
+[PAGE 28]
+ 
+28 
+ 
+Business intelligence reveals that a compet itor is using an infringing process in a 
+housing similar to one of Circ uit Tech’s integrated designs , and recognizing that trade 
+secrecy can no longer be maintained, Circuit T ech allows the U.S. Submarine to grant.  
+Before grant, Circuit Tech files embedded UFO divisional designs  mapped both to the 
+competitor’s product and to Circuit Tech’s ow n product; and, before grant, files a Hague 
+international design filing for the designs and a PCT application claiming priority to the 
+earliest still pending “placeholder” mini-Sub. 
+G. Business result 
+Armed with (i) design patents covering pr oducts produced by the process, (ii) a 
+utility patent, and (iii) pendi ng international rights, Circui t Tech successfully licenses 
+competitors and secures cr oss-licenses to complement ary technologies—calibrating 
+license duration to match the design patent term. 
+ 
+XIII. Practical Drafting and Contracting Considerations for NDAs and Joint-
+Development Agreements in Light of the Submarine Strategy 
+The effective implementation of a U.S. Submarine strategy depends not only on 
+filing mechanics but also on the careful structuring of non-disclosure agreements (NDAs) 
+and joint-development agreements (JDAs). B ecause Submarine applications derive much 
+of their strategic power from secrecy, timing, and the avoidance of triggering events such 
+as foreign filings or inadvert ent offers for sale, parties co llaborating on technology must 
+contract with an eye toward preserving these options. 
+ 
+A. The Critical Role of Monitoring 
+Successful deployment of a Submarine st rategy requires ongoing monitoring of 
+both the innovator’s own actions and those of potential collaborators or competitors. This 
+includes tracking disclosures, testing activities, offers for sale, and any filing behavior that 
+might compromise secrecy or priority. Without active mon itoring, the advantages of a 
+Submarine application may be unintentionally forfeited. 
+B. Recommended NDA and JDA Provisions 
+Where collaboration is contemplated, agreements should incorporate clauses 
+specifically designed to safeguard Submarine-related rights. Such provisions may include: 
+(1) Prohibition on Unauthorized Submar ine Filings: The party receiving the 
+confidential information shoul d be forbidden from filing any Submarine application 
+without explicit prior permission from the di sclosing party with a further safeguard being 
+
+[PAGE 29]
+ 
+29 
+ 
+that, if no permission is sought within a defined time window, ownership of any such 
+Submarine filing by the receiving party automatically reverts to the disclosing party;  
+(2) Non-Challenge Clauses: the receiving party should ag ree not to challenge the 
+disclosing party’s patent rights on the basis of  any alleged offer for sale, which seeks to 
+protect against opportunistic i nvocation of an on-sale bar in circumstances where the 
+parties intended confidentiality; 
+(3) Strict Confidentiality  Treatment for Any Argua ble Offer for Sale: Any 
+solicitation, quotation, or proposal that could conceivably be characterized as an “offer for 
+sale” should be deemed strictly confidential and treated as such by both parties; 
+(4) Non-Characterization Clauses: th e parties may stipulate that any 
+communication directed to the r eceiving party shall not be construed as an offer for sale, 
+ensuring that cooperative technical exchanges do not later become grounds for invalidity 
+arguments; 
+(5) Liquidated Damages for Breach: if conf idential information relating to any 
+arguable offer for sale is wrongfully disclosed or later used to invalidate the disclosing 
+party’s patent rights, the agreement may provide that liquidated damages become payable. 
+ 
+C. Practical Consequences 
+These contractual protections ensure that  the Submarine strategy remains viable 
+even in multi-party developm ent environments. They prevent inadvertent triggering of 
+statutory bars, guard against strategic game smanship between collaborating companies, 
+and ensure that neither party’s conduct compromises long-term secrecy or patentability. 
+Parallel to these contractual considerations , applicants should recall that utility 
+applications may be kept pending for up to twenty years through the filing of continuations 
+(CONs), divisionals (DIVs), continuations-i n-part (CIPs), and requests for continued 
+examination (RCEs). This long-term pendenc y reinforces the S ubmarine strategy by 
+allowing claims to evolve over time, while secrecy is preserved. 
+Similarly, in the hybrid Submarine-plus-UFO framework, UFO design filings may 
+be prosecuted as divisional design applicati ons, with the surprising advantage that these 
+design patents grant for a fift een years from the date of gr ant, making late-filed design 
+divisionals potent long-term enforcement tools. 
+ 
+XIV. U.S. Subs and UFOs Are Not Per Se “Gaming the System” 
+
+[PAGE 30]
+ 
+30 
+ 
+Because the modern U.S. Submarine is not susceptible to the same abuses that 
+characterized certain pre-1996, Le melson-style practices (applications that could remain 
+pending for decades and, once granted, enjoyed a 17-year post-grant term), there is no 
+specific risk that ordinary use of these st rategies will be conde mned as inequitable 
+conduct—such as laches or equitable estoppel— merely by virtue of delay. In any event, 
+Congress has enacted a six-year statute limiting the recovery of  patent damages, and that 
+limitation governs the remedial  horizon for damages claims  regardless of prosecution 
+history. 19 As a practical matter, this damages limitation constrains recovery windows 
+associated with infringement and does not turn on the mere allowance of claims; inchoate 
+rights at allowance do not trigger a separate limitations bar, and patentees frame damages 
+by reference to the statute rather than the moment of allowance. 
+ 
+A. A Supreme Court Clarification on “Laches” in Patent Damages 
+The U.S. Supreme Court has made clear th at laches cannot ba r a legal claim for 
+damages brought within the Patent Act’s si x-year look-back pe riod. In SCA Hygiene 
+Products Aktiebolag v. First Qu ality Baby Products, LLC, the Court held that applying 
+laches within a statutory limitations period would improperly override Congress’s 
+judgment and the traditional role of equitable defenses. 20. Thus, when a patentee sues for 
+damages within the § 286 window, laches cannot be interposed to cut off otherwise timely 
+damages. 21 
+B. Using Sub and UFO Tactics Is Lawful, Defensive, and Widely Available 
+Employing Submarine and UFO design tactics is simply taking advantage of U.S. 
+law—an option open to everyone, including comp etitors. These approaches are defensive 
+in orientation: they aim to preserve trade secrets as long as possible while reserving patent 
+rights, rather than to spring unfair surprises for their own sake. Becau se intentional delay 
+arguments in equity (e.g., unclean hands or equitable estoppel) require misleading conduct 
+and reliance by a specific adverse party, the mere use of Sub or UFO strategies—without 
+targeting a competitor or making false assurances—is not, by itself, inequitable. 
+Because the Submarine strategy is employe d primarily to protect the applicant’s 
+own trade secrets, and because equitable defenses turn on case-specific facts (e.g., 
+deception, reliance, prejudice), applicants who avoid targeted misleading acts and refrain 
+from promising not to assert rights against sp ecific competitors should be secure against 
+invalidation premised on “unclean hands.”  
+ 
+C. Are Submarine Patents and UFO Designs Ethical? 
+
+[PAGE 31]
+ 
+31 
+ 
+To dispose of the threshold concern: trade secret preservation is a legitimate policy 
+choice. In Kewanee Oil Co. v. Bicron Corp., the Supreme Court held that state trade secret 
+law is not preempted by the federal patent la ws and that trade secret protection coexists 
+with, and does not undermine, federal patent policy encouraging invention. 22 Large 
+institutions routinely preserve  trade secrets, and nothing in  American law suggests that 
+choosing secrecy—particularly while reserving the right to patent in the United States—is 
+unethical. The misgivings some  express about “submarine pate nts” generally reflect the 
+pre-1996 landscape, not the “new” Submarine practice described here. 
+To underscore: the “new” Submarine application is not subject to the old 17-year-
+from-grant dynamic and does not  replicate the conduct that  triggered the prosecution-
+laches line of cases against Lemelson-era patents. The modern framework—term measured 
+from filing, publication rules, and statutory limits—obviates the core policy concerns that 
+animated those decisions. 
+ 
+D. Laches, Unclean Hands, and Equitable Estoppel: Practical Boundaries 
+The statutory six-year look-back for dama ges cabins the remedial stakes and, as 
+noted, laches cannot bar damages claims brought within that period. 23 Unclean hands and 
+equitable estoppel remain available in appropriate circumstances, but they require specific 
+proof (e.g., a misleading act, the opponent’s relia nce, or misconduct closely tied to the 
+relief sought).  Consequently, where Sub and UFO strategies are used defensively—
+without targeted misrepresent ations or promises to spec ific competitors—there is no 
+inherent ethical or equitable defect. 
+E. Takeaways 
+Statutory Damages Window: Recovery of pa tent damages is limited by 35 U.S.C. 
+§ 286; suits filed within that period are not barred by laches. 24 
+Trade Secrets Are Legitimate. The Suprem e Court confirms that trade secret 
+protection complements—not conflicts with—patent policy. 25 
+Modern “Submarine” ≠ Old Abuses. The “new” U.S. Submarine strategy differs 
+markedly from pre-1996 practices that triggered prosecution-laches rulings. 
+Equity Is Fact-Specific. Absent mislead ing acts and reliance, equitable defenses 
+such as unclean hands or estoppel do not convert lawful strategy into “gaming the system.” 
+XV. Conclusions 
+If your innovation is susceptible to trade secret protection—or if you are unwilling 
+to accept 18-month publication—the prudent course  is to file in the United States first 
+
+[PAGE 32]
+ 
+32 
+ 
+(effectively before any secret offer for sale ) and then follow up with a regular U.S. 
+application accompanied by a non-publication request. Under U.S. law, when an applicant 
+certifies upon filing that the invention has not been and wi ll not be the subject of any 
+foreign or international filing that manda tes 18-month publication, the USPTO does not 
+publish the application, thereby preserving tr ade secrecy while reserving U.S. patent 
+rights.26 
+Filing before any offer for sale—even one  made confidentially—is critical. The 
+Supreme Court has made clear that a secret commercial sale to a third party may place the 
+invention “on sale” and thus bar patenting if it predates the effective filing date, 
+notwithstanding confidentiality. 27 Avoiding publication thr ough a valid non-publication 
+request maximizes flexibility on when to en ter foreign systems a nd thus helps postpone 
+deadline-driven cost explosions while reserving U.S. patent rights. 28 
+Filing at least a U.S. Submarine application may furnish significant fallback 
+protection should trade secrecy later be lost, because U.S. law recognizes trade secret 
+protection as a legitimate, complementary incentive alongside patents; the two systems are 
+not in conflict. 29 
+ 
+Closing Thoughts 
+“You have to learn the rules of the game and then you have to play better than 
+anyone else.” 
+—Albert Einstein 
+Know the rules and use them effectively. If someone chooses not to learn the rules, they 
+cannot later claim unfairness simply because their opponent understood and applied 
+them. Ignorance of the law has never been a valid excuse. 
+XVI. Definitions 
+CIP (Continuation-in-Part) . A continuation-in-part pate nt application—only in the 
+United States—that adds more technical improvement s to an earlier- filed application, 
+while preserving appropriate priority to the earlier disclosure. 
+CON (Continuation).  A continuation patent application—only in the United States—that 
+does not add technical improvements and does not pursue patent claims that we subject to 
+an election requirement. One could call UFO designs “UFO Cons” fo r this reason, but 
+continuations are not understood internationally because they are unique to the U.S. 
+CNIPA. The China National Intellectual Property Administration, China’s national patent 
+office. 
+
+[PAGE 33]
+ 
+33 
+ 
+DDIV1, DDIV2, … DDIVN.  Divisional Design 1, Divisional Design 2, etc.  
+D1, D2, … DN is a granted UFO design, Design 1, Design 2, etc. 
+DIV (Divisional) .  A divisional patent applica tion that does no t add technical 
+improvements and pursues patent claims that we not pursued in the parent, usually claims 
+subject to an election requirement, but not in the case of design divisionals. 
+EPO. The European Patent Office, the exa mining authority for European patent 
+applications under the European Patent Convention. 
+GUI. Graphical User Interface, i.e., the visual/ornamental aspects of user-facing screens or 
+display elements. 
+Mini-Sub.  A U.S. provisional application, useful for claiming priority without sacrificing 
+the strategic option of filing a Submarine patent application. 
+PCT. The Patent Cooperation Treaty, i.e., an in ternational patent application mechanism 
+that defers national/regional filings and facilitates coordinated international prosecution. 
+UFO Design. An “Unidentifiable Filed Ornamental” design, i.e., a “divisional” (actually a 
+continuation) design application filed off a re gular U.S. patent ap plication to protect 
+ornamental aspects (including physical articles and GUIs) reflected in integrated drawings. 
+USPTO. The U.S. Patent & Trademark Office, the federal agency that examines and grants 
+U.S. patents and designs and registers trademarks. 
+RCE. A Request for Continued Examination, i. e., a renewed request for examination—
+available only in the United States—to c ontinue prosecution of a pending utility 
+application. 
+SaaS. Software as a Service, i.e., online serv ices delivered from a server environment 
+(essentially always behind a secure firewall). 
+Submarine Application. A secret patent application, i.e ., a U.S. application filed with a 
+non-publication request, availa ble only in the United Stat es, that remains unpublished 
+unless and until it grants (or until the appl icant rescinds non-publication or triggers 
+publication by foreign filing). 
+WIPO. The World Intellectual Pr operty Organization, sometimes colloquially called the 
+World Patent Office, which administers international IP systems (including the PCT). 
+  
+ 
+ 
+
+[PAGE 34]
+ 
+34 
+ 
+Footnotes 
+1. Swiss Fed. Inst. of Intellectual Prop. (IPI), Filing European and International Patent 
+Applications, https://www.ige.ch/en/protecting-your-ip/patents/international-application 
+(last visited Mar. 2026). 
+2. 35 U.S.C. § 184; 37 C.F.R. § 5.11; Code de la propriété intellectuelle [C. Prop. Intell.] 
+arts. L.612-8, L.612-9 (Fr.); Patent Law of the People’s Republic of China (P.R.C.) 
+art. 19; Implementing Regulations of the Patent Law of the P.R.C. r. 8. 
+3. Int’l Monetary Fund, World Economic Outlook: Global Economy in Flux, Prospects 
+Remain Dim (Oct. 2025), 
+https://www.imf.org/en/publications/weo/issues/2025/10/14/world-economic-outlook-
+october-2025 (last visited Mar. 2026); World Bank, GDP (Current US$), 
+https://data.worldbank.org/indicator/NY.GDP.MKTP.CD (last visited Mar. 2026). 
+4. 35 U.S.C. § 154; Eur. Patent Off., Fees (EPC/PCT/UP), 
+https://www.epo.org/en/applying/fees (last visited Mar. 2026); J.A. Kemp, Translation 
+Requirements for Validation of European Patents, https://www.jakemp.com/knowledge-
+hub/translation-requirements-for-validation-of-european-patents (last visited Mar. 2026); 
+Eur. Patent Off., Cost of a Unitary Patent, 
+https://www.epo.org/en/applying/european/unitary/unitary-patent/cost (last visited 
+Mar. 2026). 
+5. Am. Bar Ass’n, Model Rules of Pro. Conduct r. 1.5(c), 
+https://www.americanbar.org/groups/professional_responsibility/publications/model_rule
+s_of_professional_conduct/rule_1_5_fees (last visited Mar. 2026); Am. Intell. Prop. Law 
+Ass’n, Report of the Economic Survey (2023). 
+6. Agreement on a Unified Patent Court art. 83, https://www.epo.org/en/legal/up-
+upc/2022/upca_83.html (last visited Mar. 2026); Unified Patent Court, FAQ: Opt-Out, 
+https://www.unifiedpatentcourt.org/en/faq/opt-out (last visited Mar. 2026). 
+7. See supra note 6 (citing UPCA art. 83 and UPC Opt-Out FAQ). 
+8. 35 U.S.C. § 154. 
+
+[PAGE 35]
+ 
+35 
+ 
+9. 35 U.S.C. § 122(b)(2)(B)(i); 37 C.F.R. § 1.213. 
+10. 35 U.S.C. § 102(b)(1). 
+11. Beck Greener, Could a Grace Period for Patent Filings Be Introduced into the EPC? 
+(Oct. 2022), https://www.beckgreener.com/could-a-grace-period-for-patent-filings-be-
+introduced-into-the-epc (last visited Mar. 2026). 
+12. See supra note 9 (citing 37 C.F.R. § 1.213(a)). 
+13. See supra note 9 (citing 37 C.F.R. § 1.213(a)). 
+14. 35 U.S.C. § 122(b)(2)(B)(v); 37 C.F.R. § 1.217. 
+15. 18 U.S.C. § 1839(3)(A). 
+17. 35 U.S.C. § 173. 
+18. Identifying details have been modified to preserve client confidentiality. 
+19. 35 U.S.C. § 286. 
+20. SCA Hygiene Prods. Aktiebolag v. First Quality Baby Prods., LLC, 580 U.S. ___ 
+(2017). 
+21. See supra note 19 (citing 35 U.S.C. § 286). 
+22. Kewanee Oil Co. v. Bicron Corp., 416 U.S. 470, 484 (1974). 
+23. See supra notes 19–20. 
+24. See supra notes 19–20. 
+
+[PAGE 36]
+ 
+36 
+ 
+25. See supra note 22, at 484. 
+26. See supra note 9 (citing 35 U.S.C. § 122(b)(2)(B)(i); 37 C.F.R. § 1.213(a)). 
+27. Helsinn Healthcare S.A. v. Teva Pharms. USA, Inc., 586 U.S. ___ (2019). 
+28. See supra note 9 (citing 35 U.S.C. § 122(b)(2)(B)(i); 37 C.F.R. § 1.213(a)). 
+29. See supra note 22. 

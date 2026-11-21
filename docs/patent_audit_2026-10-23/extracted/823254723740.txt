@@ -1,0 +1,78 @@
+[PAGE 1]
+P.O. Box 1450
+Alexandria, VA 22313 - 1450
+www.uspto.gov
+ELECTRONIC ACKNOWLEDGEMENT RECEIPT
+APPLICATION # RECEIPT DATE / TIME ATTORNEY DOCKET #
+64/090,283 06/14/2026 02:55:43 PM Z ET -
+Title of Invention
+INTELLIGENT BULK PRODUCE QUALITY CONTROL AND DYNAMIC PRICING SYSTEM
+Application Information
+APPLICATION TYPE Utility - Provisional Application under
+35 USC 111(b)
+PATENT # -
+CONFIRMATION # 2312 FILED BY ALI SHALCHI
+PATENT CENTER # 77413810 FILING DATE -
+CUSTOMER # 164916 FIRST NAMED
+INVENTOR
+Mikhail Kozin
+CORRESPONDENCE
+ADDRESS
+- AUTHORIZED BY -
+Documents TOTAL DOCUMENTS: 5
+DOCUMENT   PAGES DESCRIPTION SIZE
+(KB)
+generatedADS77413810.pdf   5 Application Data Sheet 109 KB
+FIGURES.pdf   7 Drawings-only black and white
+line drawings 2815 KB
+PPA Intelligent Bulk Produce
+Quality Control.pdf   14 Specification 122 KB
+sb0015a.pdf   2 Certification of Micro Entity
+(Gross Income Basis) 234 KB
+sb0016.pdf   3 Provisional Cover Sheet
+(SB16) 523 KB
+Warning: This is not a USPTO supplied Provisional Cover Sheet fillable form. Data in
+the form cannot be automatically loaded to other USPTO systems.
+Page 1 of 2
+
+[PAGE 2]
+Digest
+DOCUMENT MESSAGE DIGEST(SHA-512)
+generatedADS77413810.pdf
+4467E6772D8AC52D98E1B995708A42C99F5E7D2CFB24ED483
+1538DB1C48671FE16B819AF7FA2A7D718E42204B51CEFADE
+63555DF194D23B44DB68057F1F7914A
+FIGURES.pdf
+30A4064D9126481DDE19AFCB1370AEE5F85EC0507B09224B4
+C36129E85B69BDA1C864E64FABDE5A64AFCA5857F8BB06FE
+577C48AA1399582E28DABFBFCB60541
+PPA Intelligent Bulk Produce
+Quality Control.pdf
+64D2848B9744A3CDB90494EAF0F507E8A13950A0357B224A3
+4FA4B17DCA6770BA5FDF376E6A7E0F856AC3D21F7F7371D3
+7690CBB7E6DC3FA4EEC1B599B85FA2C
+sb0015a.pdf
+F47834E956FA8BEC6C4CD53714FEEE1E4D8A7F538409F58E
+E4D7B7EC2C70749703F95E5B9B0A0FA385EAEEF21A766E5A
+A26AD5DC8C9D6FFC4FDACD5870D46F49
+sb0016.pdf
+1F659E8AB36A29EFD56142432F58B7453113861D4A2A7693A5
+B7B083D89D67FC8AB3EA7B5DF91C232E27FCE7C8E89F843F
+CABEAD6B90B85553E5E727BCE1ACB4
+This Acknowledgement Receipt evidences receipt on the noted date by the USPTO of the indicated documents, characterized
+by the applicant, and including page counts, where applicable. It serves as evidence of receipt similar to a Post Card, as
+described in MPEP 503.
+New Applications Under 35 U.S.C. 111
+If a new application is being filed and the application includes the necessary components for filing date (see 37 CFR 1.53(b)-(d)
+and MPEP 506), a Filing Receipt (37 CFR 1.54) will be issued in due course and the date shown on this Acknowledgement
+Receipt will establish the filing date of the application
+National Stage of an International Application under 35 U.S.C. 371
+If a timely submission to enter the national stage of an international application is compliant with the conditions of 35 U.S.C.
+371 and other applicable requirements a Form PCT/DO/EO/903 indicating acceptance of the application as a national stage
+submission under 35 U.S.C. 371 will be issued in addition to the Filing Receipt, in due course.
+New International Application Filed with the USPTO as a Receiving Office
+If a new international application is being filed and the international application includes the necessary components for an
+international filing date (see PCT Article 11 and MPEP 1810), a Notification of the International Application Number and of the
+International Filing Date (Form PCT/RO/105) will be issued in due course, subject to prescriptions concerning national security,
+and the date shown on this Acknowledgement Receipt will establish the international filing date of the application.
+Page 2 of 2

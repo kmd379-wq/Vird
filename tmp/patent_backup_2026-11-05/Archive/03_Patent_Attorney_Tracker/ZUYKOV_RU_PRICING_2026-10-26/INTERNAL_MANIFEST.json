@@ -1,0 +1,193 @@
+{
+  "files": [
+    {
+      "file": "00_СОСТАВ_И_ГОТОВНОСТЬ_RU.txt",
+      "bytes": 1198,
+      "sha256": "639e6cc5ea9ec8962f4f1520af6c9aa2bb6f744232038751c9831f2072288550"
+    },
+    {
+      "file": "01_Досье_для_оценки_RU.pdf",
+      "bytes": 120343,
+      "sha256": "4e9956521859597017399dd5af1288f23fdac3502d21cb7afa875cb13b138e67"
+    },
+    {
+      "file": "02_Русские_тексты_PPA_3-7/PPA_03_Русский_текст.docx",
+      "bytes": 25275,
+      "sha256": "ae773906a58b16fe779e67ef5016a6962cbcdf4cd66a48e76050b7ea20232a30"
+    },
+    {
+      "file": "02_Русские_тексты_PPA_3-7/PPA_03_Русский_текст.txt",
+      "bytes": 25342,
+      "sha256": "05e750cf22393ce35f9d1c332d3275a5256f8be439b69356467821b13c09b9f9"
+    },
+    {
+      "file": "02_Русские_тексты_PPA_3-7/PPA_04_Русский_текст.docx",
+      "bytes": 29056,
+      "sha256": "466149dc569abf0ce46fea857435076e730c1cc2ec90a462c494238a991ca759"
+    },
+    {
+      "file": "02_Русские_тексты_PPA_3-7/PPA_04_Русский_текст.txt",
+      "bytes": 70133,
+      "sha256": "900083b54baff111dc1e83a448d25385aeecdae72e62b3b4e2aa73de66c44267"
+    },
+    {
+      "file": "02_Русские_тексты_PPA_3-7/PPA_05_Русский_текст.docx",
+      "bytes": 34625,
+      "sha256": "ab552acdf8167482d10c4c33919ec01d69c9dc97f686dc6d2f48d3bb6cb63bd6"
+    },
+    {
+      "file": "02_Русские_тексты_PPA_3-7/PPA_05_Русский_текст.txt",
+      "bytes": 64346,
+      "sha256": "5647a3c51b39db7ed3f16910f3d08cc6bd2ecb1f4152c27e22312567d072424f"
+    },
+    {
+      "file": "02_Русские_тексты_PPA_3-7/PPA_06_Русский_текст.docx",
+      "bytes": 25521,
+      "sha256": "51bae402a8085033a98c42751bc4eed64dcd41267530ef404c1a1583d53533f8"
+    },
+    {
+      "file": "02_Русские_тексты_PPA_3-7/PPA_06_Русский_текст.txt",
+      "bytes": 40806,
+      "sha256": "5d11bfa406bc52132c1de10958f3f8a21f0799c1f393fc87f7d8e724066302f1"
+    },
+    {
+      "file": "02_Русские_тексты_PPA_3-7/PPA_07_Русский_текст.docx",
+      "bytes": 25146,
+      "sha256": "f97ebc1a234a26dafea4646c60d4c65ea0473fe558c4c4b25dc6ffb6278502c5"
+    },
+    {
+      "file": "02_Русские_тексты_PPA_3-7/PPA_07_Русский_текст.txt",
+      "bytes": 42155,
+      "sha256": "becfd55f47900b6680a48d615b5c95c9a58d8b284344e7f3f48ca3d94f1682f7"
+    },
+    {
+      "file": "03_Схемы_архитектуры_PPA_3-7/PPA_03_Архитектура_RU.svg",
+      "bytes": 7080,
+      "sha256": "4adb15562d7141562260c2a3a90cdc34d1f199689d42c741c145aba827bd8845"
+    },
+    {
+      "file": "03_Схемы_архитектуры_PPA_3-7/PPA_04_Архитектура_RU.svg",
+      "bytes": 5207,
+      "sha256": "65d8ad0ad6ad740d9b85aa52df0229456b3c0b7bbec81d80b7c92e68bf48b7bc"
+    },
+    {
+      "file": "03_Схемы_архитектуры_PPA_3-7/PPA_05_Архитектура_RU.svg",
+      "bytes": 4616,
+      "sha256": "e0fa051fbf5304e55e17245dc04838bcda59ef31e50a4b12a901ed47be627118"
+    },
+    {
+      "file": "03_Схемы_архитектуры_PPA_3-7/PPA_06_Архитектура_RU.svg",
+      "bytes": 4216,
+      "sha256": "f74975a801ce1d93bd0929a3d2399b3f632fa49592f779794f5beec4ff40ceac"
+    },
+    {
+      "file": "03_Схемы_архитектуры_PPA_3-7/PPA_07_Архитектура_RU.svg",
+      "bytes": 6059,
+      "sha256": "109bf03f2d1a48d507f59d9e019abce9895cb3561bd19200bbbf6294430567f4"
+    }
+  ],
+  "source_statistics": [
+    {
+      "n": 1,
+      "number": "63/938,244",
+      "date": "11.12.2025",
+      "words": 3329,
+      "pages": 7,
+      "figure_pages": 4,
+      "source": "ZUYKOV_REVIEW/PPA_01/PPA_SPECv2.docx",
+      "sha256": "ec8b500c784da863113eade06400d7989826d05a9ffbb599f832eb07fcdfb47b"
+    },
+    {
+      "n": 2,
+      "number": "63/945,513",
+      "date": "19.12.2025",
+      "words": 2967,
+      "pages": 7,
+      "figure_pages": 3,
+      "source": "ZUYKOV_REVIEW/PPA_02/PPA_SPEC_Bio-MetricInventoryManagement .docx",
+      "sha256": "beb3a77f6a6154cb0b71994c773caa69b3dfaac1318ea739f727dc4d5c3e18ad"
+    },
+    {
+      "n": 3,
+      "number": "63/947,909",
+      "date": "23.12.2025",
+      "words": 5927,
+      "pages": 12,
+      "figure_pages": 4,
+      "source": "ZUYKOV_REVIEW/PPA_03/SPEC_PPA-ModularSmartVendingCabinet_Revised_PPAfinal.docx",
+      "sha256": "44d5e8a15b73f6942478dd8341ee9dd43cc744e34258996d02e80a9e10199b81"
+    },
+    {
+      "n": 4,
+      "number": "63/955,179",
+      "date": "06.01.2026",
+      "words": 4976,
+      "pages": 12,
+      "figure_pages": 4,
+      "source": "ZUYKOV_REVIEW/PPA_04/SPEC_PPA-SMART RETAIL CABINET WITH TOKENIZED ACCESS AND SPLIT PAYMENTS.docx",
+      "sha256": "982c3149a0499f65cd707cc564c55394ab8c90aef8f985f9e6dbdbe03b748985"
+    },
+    {
+      "n": 5,
+      "number": "63/959,439",
+      "date": "13.01.2026",
+      "words": 4973,
+      "pages": 12,
+      "figure_pages": 4,
+      "source": "ZUYKOV_REVIEW/PPA_05/SPEC_PPA_SmartRetailCabinet_TokenizedAccess_SplitPayments.docx",
+      "sha256": "516457c1d245b6244aaf54d4cc36e5b6b0babe21b33acc4773b4bdff0e740e46"
+    },
+    {
+      "n": 6,
+      "number": "63/961,839",
+      "date": "16.01.2026",
+      "words": 2758,
+      "pages": 8,
+      "figure_pages": 4,
+      "source": "ZUYKOV_REVIEW/PPA_06/SPEC_PPA_Modular_Retail_System_Full_Draft_v2.docx",
+      "sha256": "36dc01df94bda18caa5fe49328d298c0502989eab12fed54593fb2af1e9b9017"
+    },
+    {
+      "n": 7,
+      "number": "63/975,643",
+      "date": "04.02.2026",
+      "words": 3011,
+      "pages": 9,
+      "figure_pages": 4,
+      "source": "ZUYKOV_REVIEW/PPA_07/SPEC_PPA7_Modular_Retail_System.docx",
+      "sha256": "5c95a9d77c15b4d2ecbc31dc7d27903ee4e668603ecd66e98134370e34325555"
+    },
+    {
+      "n": 8,
+      "number": "64/090,283",
+      "date": "14.06.2026",
+      "words": 4325,
+      "pages": 14,
+      "figure_pages": 7,
+      "source": "ZUYKOV_REVIEW/PPA_08/SPEC_PPA Intelligent Bulk Produce Quality Control.docx",
+      "sha256": "c7b3da832091127c4a388eff011df7334c498399b262d3b9341785b23e98fd61"
+    },
+    {
+      "n": 9,
+      "number": "64/106,825",
+      "date": "07.07.2026",
+      "words": 6303,
+      "pages": 19,
+      "figure_pages": 0,
+      "source": "ZUYKOV_REVIEW/PPA_09/SPEC_PPA Modular Autonomous Retail Platform.docx",
+      "sha256": "86b92a650e8ab8eb9ec7256b4182fa1fd76b32f01cc3f71c987dbaa90f239a6f"
+    },
+    {
+      "n": 10,
+      "number": "64/125,577",
+      "date": "04.08.2026",
+      "words": 4754,
+      "pages": 17,
+      "figure_pages": 4,
+      "source": "ZUYKOV_REVIEW/PPA_10/SPEC_PPA#10_Tare Tracking.docx",
+      "sha256": "bf58d927551d8163459c231f14e198470c73fbc048afd62a38c4f4a31c03cfb0"
+    }
+  ],
+  "ali_words": 12697,
+  "status": "REVIEW_ONLY_INCOMPLETE_TRANSLATIONS"
+}

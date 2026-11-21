@@ -1,0 +1,136 @@
+{
+  "id": "1a16761e9a1e0385",
+  "thread_id": "1a16761e9a1e0385",
+  "label_ids": [
+    "YELLOW_STAR",
+    "IMPORTANT",
+    "STARRED",
+    "CATEGORY_UPDATES",
+    "INBOX"
+  ],
+  "snippet": "--Please reply above this line-- Attorney Darryl Scott sent you a message in Patent Attorney for Assignment and Filing Hi Mikhail, The easiest and cleanest way to handle the PCT is to have a patent",
+  "history_id": "17894059",
+  "internal_date": "1792735831000",
+  "payload": {
+    "part_id": "",
+    "mime_type": "text/html",
+    "filename": "",
+    "headers": [
+      {
+        "name": "Delivered-To",
+        "value": "kmd379@gmail.com"
+      },
+      {
+        "name": "Received",
+        "value": "by 2002:a05:7508:28a9:b0:108:bd20:e628 with SMTP id e41csp4908953gbc;        Thu, 22 Oct 2026 23:10:32 -0700 (PDT)"
+      },
+      {
+        "name": "X-Received",
+        "value": "by 2002:a05:6a00:bd81:b0:8a0:1931:e6f7 with SMTP id d2e1a72fcca58-8a2c5e36918mr1075581b3a.10.1792735832334;        Thu, 22 Oct 2026 23:10:32 -0700 (PDT)"
+      },
+      {
+        "name": "ARC-Seal",
+        "value": "i=1; a=rsa-sha256; t=1792735832; cv=none;        d=google.com; s=arc-20260327;        b=ALDseycDKaMT67rUtIN+pKprFbZl9e72+kuo/M/SypKlkbsxYIFe20w+iZRar4SW79         Ut5C4bFen2z9GPyMm9L29DUXX2HHi2Z5Baziehpeev7G5Po0bMeYMe9yPuAPI8ld/DJz         G9aI7BLw30x04z66c3tgVDTWaqI7eFdN7blEaKzMvlZKsOTATlvrVQo47qERys/pdBly         z0kKARn2C30efmZxl7ZtVuZ++gDqJaoneE38+qPuEKExyry/Mhru/63MSes2VxYF07di         WC8gikM8gPB0tW2fQKBZuiheFSRXF1FXx+R8PfkLO95MX0bFQob82BgUjeE0eayfXeNM         HNhA=="
+      },
+      {
+        "name": "ARC-Message-Signature",
+        "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;        h=to:reply-to:subject:message-id:mime-version:from:date         :content-transfer-encoding:dkim-signature:dkim-signature;        bh=dz+O/L/6StgYWcFkeqWB5VeEvdID0TcD/e6xPT4ai5w=;        fh=mB0721P2BVb2S/Rsb83ynXMQWhwfnjg5ExRCQSvqr0o=;        b=oMQSuhbDMO/zdNIH7WTbXubELuyFP66V8gcCu77LJr2hlSy3iulqk816xuaktxCigV         Sg01cNlExX+BZpcjiTFAWDsZ80bsy4OQ2UQa3DBvlGghHek+M0aMHqQl54ivCijNWr6K         kZxIcz0XEl6tWkAbDX/yVj7vUV0m8RSqLJ5jUgnFa3HF1XDOI+0v6mlxXMPIxwWA1uOZ         lsFpKxwCOaMKI6gueMAxfJ5PZDwKhxs/jt574On4HU1ALIaeN75mnkejlnqPJiXOYaK0         202CF1pmalsB1Ro4YrB5iQxNmu4Ka0mV1olLhr6XgQvYexX/RgOvOHN9HW5c+H/5mI43         1Qaw==;        dara=google.com"
+      },
+      {
+        "name": "ARC-Authentication-Results",
+        "value": "i=1; mx.google.com;       dkim=pass header.i=@email.upcounsel.com header.s=s1 header.b=QZnxNcgL;       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=uzrtnw9Z;       spf=pass (google.com: domain of bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com designates 192.254.115.191 as permitted sender) smtp.mailfrom=\"bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com\";       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=upcounsel.com"
+      },
+      {
+        "name": "Return-Path",
+        "value": "<bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com>"
+      },
+      {
+        "name": "Received",
+        "value": "from o1.email.upcounsel.com (o1.email.upcounsel.com. [192.254.115.191])        by mx.google.com with ESMTPS id d2e1a72fcca58-8a2f387e6d8si370770b3a.130.2026.10.22.23.10.32        for <kmd379@gmail.com>        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);        Thu, 22 Oct 2026 23:10:32 -0700 (PDT)"
+      },
+      {
+        "name": "Received-SPF",
+        "value": "pass (google.com: domain of bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com designates 192.254.115.191 as permitted sender) client-ip=192.254.115.191;"
+      },
+      {
+        "name": "Authentication-Results",
+        "value": "mx.google.com;       dkim=pass header.i=@email.upcounsel.com header.s=s1 header.b=QZnxNcgL;       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=uzrtnw9Z;       spf=pass (google.com: domain of bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com designates 192.254.115.191 as permitted sender) smtp.mailfrom=\"bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com\";       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=upcounsel.com"
+      },
+      {
+        "name": "DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=email.upcounsel.com; h=content-transfer-encoding:content-type:date:from:mime-version:subject: reply-to:to:cc:content-type:date:feedback-id:from:subject:to; s=s1; t=1792735831; bh=dz+O/L/6StgYWcFkeqWB5VeEvdID0TcD/e6xPT4ai5w=; b=QZnxNcgLuwz64c5Gm8Rb0xiLwke/DOqRT8nuw9s6Sw0lStCyPJF8tRjUsaWT20g0Gk9z juHxpO35JHMQ3wLyiIgN/2dqsv2Ogmiar5TfqSdX/nzqvrxlAgZxhf9QLLjoz9VYpshw8o IjgHtur15Jbc9f3OwotP08uhlbR+BIsGSPXESmekqKmPYVgy410Lx0IeGWr39uRPAvPfjo 15ITwmjffPvyFjWaOhyZvtI3tA+mZ3m+MEaBl8R4JyqogcZbukpUZ6bxbd6RpnSKjLEKUc c01GbPnkUtJ1XhDKgSv0L9dQfyEh31X3Eon+3cvi5vyAP/rtVJ3mOpjCd4h/c4hQ=="
+      },
+      {
+        "name": "DKIM-Signature",
+        "value": "v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info; h=content-transfer-encoding:content-type:date:from:mime-version:subject: reply-to:to:cc:content-type:date:feedback-id:from:subject:to; s=smtpapi; t=1792735831; bh=dz+O/L/6StgYWcFkeqWB5VeEvdID0TcD/e6xPT4ai5w=; b=uzrtnw9Z9AHCYOriireXwCGrcosP2k0LeAlfs9WYb0R0SyAB/EMgr4Cio7ndLWSqC/Oi HfD2+W9uX+G6bAiHYn7DUtsL95u8l3KBURoW4ZgI5usZQiB/BRPwDWMTnF1GF8K7s+FBe1 eEMZIMRsK79AfwayHp4wc1cRMJzJhcfTs="
+      },
+      {
+        "name": "Received",
+        "value": "by recvd-5bb5b9cb76-wm92v with SMTP id recvd-5bb5b9cb76-wm92v-1-6ADAFA57-15 2026-10-23 06:10:31.528042267 +0000 UTC m=+2034579.806533534"
+      },
+      {
+        "name": "Received",
+        "value": "from NTg2NTY3 (unknown) by geopod-ismtpd-3 (SG) with HTTP id lKMFPIAuRq-5h-JIEGdtHA Fri, 23 Oct 2026 06:10:31.495 +0000 (UTC)"
+      },
+      {
+        "name": "Content-Transfer-Encoding",
+        "value": "quoted-printable"
+      },
+      {
+        "name": "Content-Type",
+        "value": "text/html; charset=utf-8"
+      },
+      {
+        "name": "Date",
+        "value": "Fri, 23 Oct 2026 06:10:31 +0000 (UTC)"
+      },
+      {
+        "name": "From",
+        "value": "Darryl Scott via UpCounsel <6adafa577e44923f53980189-6adafa577344950001c8ee3c@msgs.upcounsel.com>"
+      },
+      {
+        "name": "Mime-Version",
+        "value": "1.0"
+      },
+      {
+        "name": "Message-ID",
+        "value": "<lKMFPIAuRq-5h-JIEGdtHA@geopod-ismtpd-3>"
+      },
+      {
+        "name": "Subject",
+        "value": "Mikhail, Darryl Scott sent you a new message via UpCounsel"
+      },
+      {
+        "name": "Reply-To",
+        "value": "Darryl Scott via UpCounsel <6adafa577e44923f53980189-6adafa577344950001c8ee3c@msgs.upcounsel.com>"
+      },
+      {
+        "name": "X-SG-EID",
+        "value": "u001.fI1iXUYXFqangYBrxA2YuTQG393zamk+aYCvqzAz39t8O0azfZQB8YzgEAXt6Z3z1fRMQN6Rg2KlE0XE1LlUtzSUOGJli726xwBDhptO/ecMIHLxvrHUOocht3wbzdnvTFTauSyZ7weG/99YW4HEHJ4k2lOEzf0NzfzrpbKmYRzvTgmYdsaroKw0fb3J9oEe3MvufDAMSIRegkWgfzt09bRv4L9oSoW1Rhvm/mDm+G2UDhD5hrmu0lJvPqnlXfmOKm3tKCbLpef/YRGSZqfik/axNCcH0PbmKpP5WdzDU6MmWsmc+IkHGUkseq2ltzk4"
+      },
+      {
+        "name": "X-SG-ID",
+        "value": "u001.SdBcvi+Evd/bQef8eZF3BsXtp9RdkGZGeuh0wIX6VRAxePEd3iaNt6AboAB1u0qTi/npyyMgZU1aUh7wIT/tpSKIezzZbJ+kAixeovwWGi1af0gFxScE9MDelaVssvrWN5cCFJyt+8ToBKd5LQLSNUgflFEcOw0Cy7Q0ZJyxMg4="
+      },
+      {
+        "name": "To",
+        "value": "kmd379@gmail.com"
+      },
+      {
+        "name": "X-Entity-ID",
+        "value": "u001.phIdTc9Q8v/RYzxB9/aWkg=="
+      }
+    ],
+    "body": {
+      "size": 10875,
+      "base64_url_content": null,
+      "content": "<div style=\"color: #ccc\">--Please reply above this line--</div><br /><!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html>\r\n  <head>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\r\n    <title>Upcounsel Email</title>\r\n    <style type=\"text/css\">\r\n          @media only screen and (min-device-width: 501px) {\r\n            .content {\r\n              width: 500px !important;\r\n            }\r\n          }\r\n          @media only screen and (max-width: 480px){\r\n            .emailImage{\r\n                height:auto !important;\r\n                max-width:500px !important;\r\n                width: 100% !important;\r\n            }\r\n          }\r\n    </style>\r\n  </head>\r\n  <body bgcolor=\"#F2F6FA\" style=\"margin:0;padding:0;min-width:100% !important;margin: 0;padding: 0;min-width: 100%!important;\">\r\n    <table width=\"100%\" bgcolor=\"#F2F6FA\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\r\n      <tr>\r\n        <td>\r\n          <!--[if (gte mso 9)|(IE)]>\r\n            <table width=\"500\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\">\r\n              <tr>\r\n                <td>\r\n          <![endif]-->\r\n          <table class=\"content\" align=\"center\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"width:100%;max-width:500px;width: 100%;max-width: 500px;\">\r\n            <tr>\r\n              <td align=\"center\" style=\"padding: 20px 0 20px 0;\">\r\n                <img src=\"https://sitecdn.upcounsel.com/images/emails_2016_01/uc_email_logo.png\" width=\"176\" height=\"41\" border=\"0\" alt=\"\"/>\r\n              </td>\r\n            </tr>\r\n            <tr>\r\n              <td class=\"innerpadding\" bgcolor=\"white\" style=\"padding:20px;border-radius: 3px;border: 1px solid #D8DFE6;padding: 20px;\">\r\n                <table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n                  <tr>\r\n                    <td id=\"body\"><h3> Attorney <a href='http://email.upcounsel.com/ls/click?upn=u001.ZFt1K56Ccck4g68DnjSOfFwc1z9NHd7Zo3YbXEpNtTOEB7BEchfBsFfhx4rJU-2B8ED4VSUY6-2F-2FSdK-2BLW9fO8J56KG8SFGnolJNTddG2XJsKE-3DaXoy_JRvBFAbJzcDEqZ0pu6P9I9hzm0i9pURBPuGLTGjxOJSvQkDClMRL3L9IzpQoULFJvXZvUvUt2NMstydbjasAdNRQLAMd4176-2BD6BV8RjVhjufINYjw-2F6mH7yerakR1RVN3PqJY7YBcDxV6-2F8sbht2NgudKZ6IstJZjWiObkmgsQJWw1PomoXSnd0Unr9krC6Kb6spsyMuDyDgHCNdEPdd3ZE7tz80Jh-2ByaNRIsfnoaVpgQGJ1Si-2BOLOLlugmXxBu3-2Boz-2F2AGQFr6Bi989Brz9Ylhs7zc5loVg5qd7kLMVtueyOIGcmWTJgxGXAvP-2FfASEM-2FvdAjBndMpg6mlJEW2Tg-3D-3D'>Darryl Scott</a> sent you a message in Patent Attorney for Assignment and Filing</h3>\r\n<blockquote style='white-space:pre-wrap;'><i>Hi Mikhail,\r\n\r\nThe easiest and cleanest way to handle the PCT is to have a patent agent/attorney in the UAE file it with the International Bureau at WIPO. It can be filed in any language.\r\n\r\nAt a first glance, the first nonprovisional (NPPA #1) looks complete or very close to complete.</i></blockquote>\r\n<div style='text-align:center;font-weight:bold;background-color:#CFE2F3;padding:8px 0;'>\r\n  Hit reply to respond to this message <br />or \r\n  <a href='http://email.upcounsel.com/ls/click?upn=u001.ZFt1K56Ccck4g68DnjSOfFwc1z9NHd7Zo3YbXEpNtTNnQSVem0gdwzavZtgPQT44UY42EPxdLPc-2Bmd2qawrrnET3pfEO550trGeQPVfAjG-2FKQpPaHcngoWP-2Ff-2BQr-2BTHM66fMvsh85xLWcsuvtdnYWQ-3D-3Di_sR_JRvBFAbJzcDEqZ0pu6P9I9hzm0i9pURBPuGLTGjxOJSvQkDClMRL3L9IzpQoULFJvXZvUvUt2NMstydbjasAdNRQLAMd4176-2BD6BV8RjVhjufINYjw-2F6mH7yerakR1RVN3PqJY7YBcDxV6-2F8sbht2MMaUkVU3Pf9bMlyTZc3oP6U4-2BrSai-2B5kWNwdnp5K60P9ti9ZT0M4r7GXOwFgtTooErfetWAe7hjey-2BlciH2DEIg4arZnAop-2B5h7A1soJKeKQX5yWU8kcWHXwPrhpd0GmiGiSo45mOrZowIwZO3EcTMY64S4p-2FY2BgWMYPBnM-2BFMzdtQ0XXj9AFI27jgz0uVjw-3D-3D'>click here to view the job details</a>\r\n</div>\r\n\r\n<p>\r\n  All communications and documents shared through UpCounsel will be kept safe at all times. \r\n  For your protection and per our policies, attorneys must be officially hired through UpCounsel \r\n  before any work begins, and all payments for initial and subsequent jobs must be made through the platform.\r\n</p>\r\n\r\n<p>If you need assistance, contact our success team at <a href='mailto:support@upcounsel.com'>support@upcounsel.com</a>.</p>\r\n<div\r\n  style=\"color: #777; font-size: 11px; padding-top: 25px; line-height: 13px;\"\r\n>\r\n  <p>\r\n    The information contained in this communication is confidential, is intended\r\n    only for the use of the recipient named above, and may be legally\r\n    privileged. If the reader of this message is not the intended recipient, you\r\n    are hereby notified that any dissemination, distribution or copying of this\r\n    communication is strictly prohibited.\r\n  </p>\r\n\r\n  <p>\r\n    If you have received this communication in error, please resend this\r\n    communication to the sender and delete the original message or any copy of\r\n    it from your computer system. Thank you.\r\n  </p>\r\n\r\n  <p>\r\n    IRS CIRCULAR 230 DISCLOSURE:Pursuant to Treasury Regulations, any tax advice\r\n    contained in this communication (including any attachments) is not intended\r\n    or written to be used, and cannot be used or relied upon by you or any other\r\n    person, for the purpose of (i) avoiding penalties under the Internal Revenue\r\n    Code, or (ii) promoting, marketing or recommending to another party any tax\r\n    advice addressed herein. Please contact a member of the firm if you require\r\n    a formal, written tax opinion that satisfies applicable IRS requirements.\r\n  </p>\r\n</div>\r\n</td>\r\n                  </tr>\r\n                  <tr>\r\n                  </tr>\r\n                </table>\r\n              </td>\r\n            </tr>\r\n            <tr class=\"footer\">\r\n              <table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n                <tbody>\r\n                  <tr>\r\n                    <td align=\"center\" style=\"padding: 30px 0 10px 0;\">     \r\n                      <table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n                        <tbody>\r\n                          <tr>\r\n                            <td width=\"40\" style=\"text-align: center; padding: 0 3px;\" align=\"center\">                            \r\n                              <a href=\"http://email.upcounsel.com/ls/click?upn=u001.ZFt1K56Ccck4g68DnjSOfEc94fDrPIyDGy4xy09HmguEym6j97pDI1bvJs9D6D40DBBa_JRvBFAbJzcDEqZ0pu6P9I9hzm0i9pURBPuGLTGjxOJSvQkDClMRL3L9IzpQoULFJvXZvUvUt2NMstydbjasAdNRQLAMd4176-2BD6BV8RjVhjufINYjw-2F6mH7yerakR1RVN3PqJY7YBcDxV6-2F8sbht2GyRM8AQwC2oNKo9R9KN7ytHmB8pnTEMPViUB5W7WjSIEp2PLkWclU8iKVWMamT4JwFBttVNR8sA0L-2FwBpAaquVSMn8h45PmmaO-2F8fBbyG2uRfU47K7pWP25liozCNbL656pC2NS2IVJKnrvhQtXHyhQQjdOLBUbNVrEkEelqtmhSyyPIa71fyZVI3EvMXVaQg-3D-3D\" style=\"font-weight: 500; color: #009DDC;\">                             \r\n                                <img src=\"https://sitecdn.upcounsel.com/images/emails_2016_01/facebook.png\" width=\"40\" height=\"40\" alt=\"Facebook\" border=\"0\">\r\n                              </a>                          \r\n                            </td>                          \r\n                            <td width=\"40\" style=\"text-align: center; padding: 0 3px;\" align=\"center\">                            \r\n                              <a href=\"http://email.upcounsel.com/ls/click?upn=u001.ZFt1K56Ccck4g68DnjSOfEqkgxSHvByQqjvYpd9qklroUuiAUEsBb3YDe1IukbA0UjgD_JRvBFAbJzcDEqZ0pu6P9I9hzm0i9pURBPuGLTGjxOJSvQkDClMRL3L9IzpQoULFJvXZvUvUt2NMstydbjasAdNRQLAMd4176-2BD6BV8RjVhjufINYjw-2F6mH7yerakR1RVN3PqJY7YBcDxV6-2F8sbht2LU2wflOWZPx-2F3iXjlWF-2BqqgzL6UX8w7qAXYQmhVP8-2BfoWHpUESG89APhN9VSmgxugQfUQloG6JooNhqKvAxKKKf05LS63OuzvRxnO-2B-2FJUddApkCDUTQO4PlX7-2BHhlurPfJDkxeTnu7grqBYsq1b2t-2FykcB3YZWh91T017PYyyoySrzyy5GL1O4FTwTdrMiiwQ-3D-3D\" style=\"font-weight: 500; color: #009DDC;\">                              \r\n                                <img src=\"https://sitecdn.upcounsel.com/images/emails_2016_01/x.png\" width=\"40\" height=\"40\" alt=\"Twitter\" border=\"0\">\r\n                              </a>                          \r\n                            </td>                          \r\n                            <td width=\"40\" style=\"text-align: center; padding: 0 3px;\" align=\"center\">                            \r\n                              <a href=\"http://email.upcounsel.com/ls/click?upn=u001.eahzK0CLIX1Lh8OpQW9foxauTntpSyLnywcFSFQx82vivP5qttI5EQVw8JWSFf17W18Mk3k7g4D2LSMSrew0oA-3D-3DQlhx_JRvBFAbJzcDEqZ0pu6P9I9hzm0i9pURBPuGLTGjxOJSvQkDClMRL3L9IzpQoULFJvXZvUvUt2NMstydbjasAdNRQLAMd4176-2BD6BV8RjVhjufINYjw-2F6mH7yerakR1RVN3PqJY7YBcDxV6-2F8sbht2G1ZEts0o9DcNiu5hOWhHxpo758kCcuoupizNlwcmpav5zHNZSNA7ExhHf6mlPupiFodZu5EibVapr3VQ9bVvFisr1U8xOpFoeOSdaIgxJ76PEePNU1ybGyYIAH-2FxQbSQQSh6TQYkXe6zv20FURV9mWH0X6-2B6rpPuP7X27p8Vi1uNCTKeK1evxVlU6SNAWH6sA-3D-3D\" style=\"font-weight: 500; color: #009DDC;\">                              \r\n                                <img src=\"https://sitecdn.upcounsel.com/images/emails_2016_01/linkedin.png\" width=\"40\" height=\"40\" alt=\"Linkedin\" border=\"0\">\r\n                              </a>                          \r\n                            </td>                        \r\n                          </tr>\r\n                        </tbody>\r\n                      </table>\r\n                    </td>  \r\n                  </tr>\r\n                  <tr>\r\n                    <td class=\"bodycopy\" align=\"center\" style='font-family:\"helvetica\";color:#545E6B;line-height:1.5;padding: 0 0 5px 0;font-size: 11px;color: #545E6B;line-height: 1.5;'>\r\n                      You are receiving this email as a registered user of UpCounsel due to recent activity on your account. If you have questions email <a href=\"mailto:support@upcounsel.com\">support@upcounsel.com</a><br/>\r\n                      Copyright © 2026 UpCounsel Technologies, Inc.<br/>\r\n                      3909 S Maryland Pkwy, Ste 314 #72, Las Vegas, NV 89119\r\n                      <br>\r\n                      <br>\r\n                      Legal You Can Love 💙\r\n                    </td>\r\n                  </tr>\r\n                </tbody>\r\n              </table>\r\n            </tr>\r\n          </table>\r\n          <!--[if (gte mso 9)|(IE)]>\r\n          </td>\r\n        </tr>\r\n      </table>\r\n          <![endif]-->\r\n        </td>\r\n      </tr>\r\n    </table>\r\n  <img src=\"http://email.upcounsel.com/wf/open?upn=u001.djUtzrd8KfhllGsnR2nWBGAROnvA8aLIZycJwQuiH-2B-2BSolfTUe65Xy-2Fy58Bv7n5Hi97hGos3cSmlClUw4lK7FdQdXsuKydGAdSGA26bc0YmgVoJfJjBQLWmbObaqljxEm6NCdnYcl9mkpZ5vCK-2BJzrypSkqEbXOd3PHlOeMuNRgfF0LVFiNfFKkgPfDf-2B2-2F0a0dFjMrqNCApTBS61GgrhB0BjlyNrwUyNVxXOs5CkZl-2BNO3I-2BLesLGIKHb7pXOU1oFi99Yxnxh3rYYHzRxcMr6FV6AK5rrXo3WRiQqglCJFolkEngsYaqHU7dMGVpZs50iIoEpXofaT4jJUSUjdBkg-3D-3D\" alt=\"\" width=\"1\" height=\"1\" border=\"0\" style=\"height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;\"/></body>\r\n</html>\r\n",
+      "attachment_id": null
+    },
+    "read_attachment_supported": null,
+    "parts": null
+  },
+  "size_estimate": 17371,
+  "classification_label_values": null,
+  "raw": null
+}

@@ -1,0 +1,194 @@
+Delivered-To: kmd379@gmail.com
+Received: by 2002:a05:7508:9024:b0:108:bd20:e628 with SMTP id ky36csp5514028gbb;
+        Mon, 2 Nov 2026 05:50:50 -0800 (PST)
+X-Received: by 2002:a05:620a:8906:b0:93e:6481:c8e0 with SMTP id af79cd13be357-94421611a6emr1559232285a.10.1793627450740;
+        Mon, 02 Nov 2026 05:50:50 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1793627450; cv=none;
+        d=google.com; s=arc-20260327;
+        b=U0p6dxzfbpneNwe9pBxVJqminajr05I3xFhDs9isCRKca1eZcINlYfR5G/6qGkjjDE
+         5THJc+EoinZBhr7X4B7gnt4SAZzcShuabPEXS82Gbo+tu6RV7ljXPtFT09fvmfvh2l07
+         XBRC80ut20hnW8jD45pFPhtqtnYBLJIo4dE8ig0wVjHERza6NJLZWvKS3Ly/UTzbwvkj
+         TmOyyhSRjHkCx3kilM6mkHZBS1uUBnM1sWzJxjOqgnGTMiF2s1P2HmNmJTL6HTB4gNqb
+         oyyz7hLfWRVoelA/W7pRR8pYVCrmQUz86+jan4RLBEXwtsg/CAyBwUMZ4PtlJFTDe2rZ
+         xeFQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=to:reply-to:subject:message-id:mime-version:from:date
+         :content-transfer-encoding:dkim-signature:dkim-signature;
+        bh=ZupeMrjnb9iErn9ARBSSaCraCQSZ0soCZg+O8Xo1dvA=;
+        fh=mB0721P2BVb2S/Rsb83ynXMQWhwfnjg5ExRCQSvqr0o=;
+        b=bC8Wq0VZCAhFM1CAoc6pGaB3ofSAbrwkDdaRhQGuwRO9HS7aNOIlQXJaczwtc05WAp
+         4jDDIcWpYpY8uJk8aKnXoCje+xvAN6YQd+oPJeO3Kn/zKcW4X8HSI+kcluAgsF12zLds
+         vimBfgEEoNmeubgcXewCRvG3VrZX9PY68I+uJuC58VoUk7aSrdjaNqCKI/jIxbvVCjha
+         B9eLBopAlaKMf8WRBAlefqP/jP+hMCypE5u3N3ufdJgKQ8rd4PScdkq6LNVF2hOdq8ed
+         7xBn+hxQyBcI8sW5k/mJJpOdgz+AXjU7dBCbQhpqFzks1FW3PovlOn3MUr5Mb7fhJRJl
+         pO4g==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@email.upcounsel.com header.s=s1 header.b="vsWUvi/4";
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b="tue/ZFw4";
+       spf=pass (google.com: domain of bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com designates 192.254.115.191 as permitted sender) smtp.mailfrom="bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=upcounsel.com
+Return-Path: <bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com>
+Received: from o1.email.upcounsel.com (o1.email.upcounsel.com. [192.254.115.191])
+        by mx.google.com with ESMTPS id af79cd13be357-9442584dd91si819907285a.93.2026.11.02.05.50.50
+        for <kmd379@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 02 Nov 2026 05:50:50 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com designates 192.254.115.191 as permitted sender) client-ip=192.254.115.191;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@email.upcounsel.com header.s=s1 header.b="vsWUvi/4";
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b="tue/ZFw4";
+       spf=pass (google.com: domain of bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com designates 192.254.115.191 as permitted sender) smtp.mailfrom="bounces+586567-0f6a-kmd379=gmail.com@em6069.email.upcounsel.com";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=upcounsel.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=email.upcounsel.com;
+	h=content-transfer-encoding:content-type:date:from:mime-version:subject:
+	reply-to:to:cc:content-type:date:feedback-id:from:subject:to;
+	s=s1; t=1793627449;
+	bh=ZupeMrjnb9iErn9ARBSSaCraCQSZ0soCZg+O8Xo1dvA=;
+	b=vsWUvi/4AE/Wyb2wOvfDR4VHm5FXoQgxhF4q/DM+kigCoupKIMtg9Sc/+NmfkBZ8ANY1
+	gfz5AnoRpodcxSWVJ4Y0MccM2oCABVWjEB7eupdkcXcQW3oiAVWG727Eetl/6JYp7+sLbf
+	gP2OMqXKA+pQxo+YDGWjYgvH9u6dpvTPEf59jgDN5UudFbb+2TQRjmphRR5npI5UQQbF6u
+	gyEIblDTCISCNpQ9We8afuEr55/y7rWquypLzSyoB7NFq8Hrs2o0S9zCXPdTx5Qvm3jtnr
+	B5dybhPFsJ4kcGUjGdum0qbUAlP+xavjG46Y+HQbl2Wj4pWPBqeURplu3O5WzoHw==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-transfer-encoding:content-type:date:from:mime-version:subject:
+	reply-to:to:cc:content-type:date:feedback-id:from:subject:to;
+	s=smtpapi; t=1793627449;
+	bh=ZupeMrjnb9iErn9ARBSSaCraCQSZ0soCZg+O8Xo1dvA=;
+	b=tue/ZFw4nJ9hwZuXT/MQskkE9ytksLhsESE0HuJo/1O3IvkduzVFyIyN4cMUSzdgSkpR
+	VioKxbfWDnFQ+bcboRmN5U4LnPsZDXTqjzcRedITVFqUWpSg4tRGWDri5ZGrqaGN8ZCTeo
+	/UP9tO2/BZy/nU2rwpqR2Go8lTbDNoGbA=
+Received: by recvd-966bc8c9c-lx4xn with SMTP id recvd-966bc8c9c-lx4xn-1-6AE89539-A
+	2026-11-02 13:50:49.090956395 +0000 UTC m=+2926221.759222618
+Received: from NTg2NTY3 (unknown)
+	by geopod-ismtpd-13 (SG) with HTTP
+	id vi8hPUOETjOYYvI9CCz4Gw
+	Mon, 02 Nov 2026 13:50:48.967 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Date: Mon, 02 Nov 2026 13:50:49 +0000 (UTC)
+From: UpCounsel
+	<6ae895360d1a415842e13a30-6ad759897344950001c8d952@msgs.upcounsel.com>
+Mime-Version: 1.0
+Message-ID: <vi8hPUOETjOYYvI9CCz4Gw@geopod-ismtpd-13>
+Subject: RE: Revised scope: two PCT applications only =?UTF-8?B?4oCU?= fixed
+ fees, filing dates and payment schedule
+Reply-To: UpCounsel
+	<6ae895360d1a415842e13a30-6ad759897344950001c8d952@msgs.upcounsel.com>
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EsQz5ualQE4Ciu3rpNB0eIvYKwfct8O1tRM9Lh+WSJV9fMxIlW0qBd1Zl5?=
+ =?us-ascii?Q?edGR=2FmF5SVUBlIaSlDZIWtmJHBORDMR4WgXBRBN?=
+ =?us-ascii?Q?zqhG1nJBWLflFESeWKP6kYeniNWDunBh7WdQYie?=
+ =?us-ascii?Q?x+OZJsazyn88uzYlH1xSxEZz1i93wxd4fgv6zVP?=
+ =?us-ascii?Q?UaB7wy+8z9AZazc4H2cOyMR=2FJnr2=2F=2FXJz5AqLz8?=
+ =?us-ascii?Q?KaYqCKG+UTNFiLdIScdbIj30Os0HxmzLAQ3XD2X?=
+ =?us-ascii?Q?38BKL82x2=2FTBVa6IT8h0PxWkeDnOwDyzfC2JLD0?=
+ =?us-ascii?Q?reie43Hg=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprBdHDHnAu2PbPLTh?=
+ =?us-ascii?Q?nXK5CtHn=2FhG7cd4weSZ6WA3ur4Y2gkVrh1M3UX6?=
+ =?us-ascii?Q?5fbPUXaw5p1A2I8IkAmqKhsLmYfVWjbO?=
+To: kmd379@gmail.com
+X-Entity-ID: u001.phIdTc9Q8v/RYzxB9/aWkg==
+
+<div style=3D"color: #ccc">--Please reply above this line--</div><br /><htm=
+l>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body>
+<p>Dear Mr. Kozin,</p>
+<p>As promised in my email of October 27, here are the details of the UAE f=
+iling agent I propose for the two PCT applications.</p>
+<p><b>Proposed agent.</b> Abu-Ghazaleh Intellectual Property (AGIP), one of=
+ the largest intellectual property firms in the Arab region, with an office=
+ in Dubai. AGIP has confirmed in writing that it has patent agents register=
+ed with the UAE Ministry of Economy
+ who are entitled to act before the International Bureau for a UAE applican=
+t under PCT Rule 83.1bis. AGIP will send me the name and registration numbe=
+r of the agent who will be named in the applications, and I will forward th=
+em to you as soon as I receive them.</p>
+<p><b>Role.</b> As described in my October 27 email: AGIP signs and submits=
+ each application in ePCT exactly as I instruct, on the agreed filing date;=
+ pays the WIPO fees; forwards all notices to me; gives me direct access to =
+both applications in ePCT; and files
+ any correction I prepare. I remain responsible for preparing and checking =
+the applications and for instructing and supervising AGIP.</p>
+<p><b>AGIP's fees.</b> USD 750 per application plus 5% UAE VAT, that is USD=
+ 787.50 per application, fixed. This includes the filing and forwarding all=
+ routine notices through the international search report and written opinio=
+n. Only if a correction or reply
+ must be filed would AGIP charge a further USD 750 plus VAT, and only with =
+your prior written approval. This replaces the estimate of USD 1,000=EF=BF=
+=BD2,000 per application in my earlier proposal.</p>
+<p><b>Official fees and invoicing.</b> AGIP will invoice PBK directly with =
+a proforma invoice covering its fee, VAT and the WIPO fees (about CHF 2,819=
+ per application with the Australian Office as searching authority). The in=
+voice is paid before each filing
+ date; AGIP pays WIPO from its own WIPO account and settles any exchange-ra=
+te difference in a final statement, with WIPO's payment confirmation. AGIP =
+issues the proforma once it receives the draft application, so that it can =
+count the pages for the WIPO fees.</p>
+<p><b>No power of attorney.</b> Because AGIP is named as agent in the reque=
+st form, no power of attorney is needed for the international filings. The =
+documents for your signature are therefore: acceptance of the engagement; t=
+he Inventor's Declaration described
+ in my October 27 email; PBK's USPTO power of attorney to me (form PTO/AIA/=
+82), to download the as-filed provisional texts and arrange the priority do=
+cuments; and AGIP's confidentiality agreement with PBK.</p>
+<p><b>Confidentiality.</b> AGIP has confirmed it will keep PBK's identity a=
+nd the application materials confidential, and it asks PBK to sign its stan=
+dard non-disclosure agreement before receiving any materials. Before PBK si=
+gns, I recommend three changes,
+ which I will prepare for your review: completing PBK's details as the disc=
+losing party; filling in the Annex, which is currently blank, because the a=
+greement protects only the information listed there; and narrowing one excl=
+usion that would release information
+ obtained by any third party. The agreement is governed by Jordanian law, w=
+hich I consider acceptable for this purpose.</p>
+<p><b>Your approval.</b> To proceed with AGIP, I need your written approval=
+ to (1) give AGIP the name of PBK for its conflict check, and (2) appoint A=
+GIP as the filing agent, subject to your review of its confidentiality agre=
+ement. I will not share any information
+ about PBK or the inventions with AGIP before you approve.</p>
+<p><b>Timing.</b> The schedule in my October 27 email assumed acceptance by=
+ October 30. Each further day moves the drafting and review dates by a day.=
+ The Group 2 statutory deadline of December 11 leaves limited room, so I wo=
+uld be grateful for your decision
+ this week.</p>
+<p>Kind regards,</p>
+<p>Michael L. Bartholomew<br>
+Bartholomew Law PC<br>
+Registered U.S. Patent Attorney, USPTO Reg. No. 60,225<br>
+Highland, UT 84003 =EF=BF=BD Office 385.230.5310</p>
+<img src=3D"http://email.upcounsel.com/wf/open?upn=3Du001.djUtzrd8KfhllGsnR=
+2nWBGAROnvA8aLIZycJwQuiH-2B-2BSolfTUe65Xy-2Fy58Bv7n5Hnh0n6Ch-2B00GfaV2CLZwW=
+bb00bbk1UJfGG4kiZzo8Vjp-2FyZ8qB-2BW2GhvBz-2F-2B53heFTWOkJXYAoX2DaQ-2FkS0DGV=
+xVBSonRB1C4h4J7SNO-2FykQarem5-2BRGYsaqt14p-2FOLv9RH-2BF91lNt-2FpdWQ3f5NBurY=
+ObNtr2ljpaBLNtiMJmerIaSlyZQnS1LiUCBRF3vNDNTh1MU8-2FjZFbySQEJUZ1Sij3cmbaOnX1=
+sRqGft9VbhVg-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"he=
+ight:1px !important;width:1px !important;border-width:0 !important;margin-t=
+op:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin=
+-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;pad=
+ding-right:0 !important;padding-left:0 !important;"/></body>
+</html>
+<div style=3D"color:#777;font-size: 11px;padding-top: 25px;line-height: 13p=
+x;">
+  <p>The information contained in this communication is confidential, is in=
+tended only for the use of the recipient named above, and may be legally pr=
+ivileged. If the reader of this message is not the intended recipient, you =
+are hereby notified that any dissemination, distribution or copying of this=
+ communication is strictly prohibited.</p>
+  <p>If you have received this communication in error, please resend this c=
+ommunication to the sender and delete the original message or any copy of i=
+t from your computer system. Thank you.</p>
+  <p>IRS CIRCULAR 230 DISCLOSURE:Pursuant to Treasury Regulations, any tax =
+advice contained in this communication (including any attachments) is not i=
+ntended or written to be used, and cannot be used or relied upon by you or =
+any other person, for the purpose of (i) avoiding penalties under the Inter=
+nal Revenue Code, or (ii) promoting, marketing or recommending to another p=
+arty any tax advice addressed herein. Please contact a member of the firm i=
+f you require a formal, written tax opinion that satisfies applicable IRS r=
+equirements.</p>
+</div>

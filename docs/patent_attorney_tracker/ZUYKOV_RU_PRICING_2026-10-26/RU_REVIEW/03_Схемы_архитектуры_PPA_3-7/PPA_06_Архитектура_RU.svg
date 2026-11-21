@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
+<rect width="900" height="720" fill="#ffffff"/>
+<text x="48" y="40" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#111111">PPA &#8470;6 — Dual-zone · нагрев · fluid · ИИ-цены</text>
+<text x="48" y="58" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#555555">Предоплата до нагрева · abandonment penalty · master–slave</text>
+<rect x="300" y="72" width="300" height="44" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="450" y="96" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#0f4d4d">MASTER (опционально)</text>
+<line x1="450" y1="116" x2="450" y2="136" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,142 446,134 454,134" fill="#222222"/>
+<rect x="120" y="148" width="660" height="72" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.4"/>
+<text x="450" y="168" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#0f4d4d">КОНТРОЛЛЕР ШКАФА</text>
+<text x="450" y="188" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#555555">Pre-pay → heat → timer → penalty 200%</text>
+<rect x="48" y="240" width="380" height="120" fill="none" stroke="#222222" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="58" y="258" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#111111">701 ХОЛОДИЛЬНИК (+2…+4°C)</text>
+<text x="238" y="340" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#888888">канал · гравитация · smart bin</text>
+<rect x="472" y="240" width="380" height="120" fill="none" stroke="#222222" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="482" y="258" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#111111">702 ЗОНА НАГРЕВА (индукция)</text>
+<text x="662" y="340" font-family="Arial, Helvetica, sans-serif" font-size="8" text-anchor="middle" fill="#888888">слоты · LCD ГОТОВО · таймер</text>
+<line x1="450" y1="360" x2="450" y2="380" stroke="#222222" stroke-width="1.2"/>
+<polygon points="450,386 446,378 454,378" fill="#222222"/>
+<rect x="200" y="392" width="500" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="418" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">703 ГИБРИДНАЯ ЖИДКОСТНАЯ СТАНЦИЯ</text>
+<rect x="80" y="452" width="180" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="170" y="478" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">704 Приборы</text>
+<rect x="360" y="452" width="180" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="450" y="478" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">705 Отходы</text>
+<rect x="640" y="452" width="180" height="44" fill="#fafafa" stroke="#222222" stroke-width="1.2"/>
+<text x="730" y="478" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#111111">QR / биометрия</text>
+<rect x="200" y="516" width="500" height="48" fill="#e8f2f2" stroke="#0f4d4d" stroke-width="1.2"/>
+<text x="450" y="544" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#0f4d4d">ОБЛАКО · бронирование (n&gt;1 — приоритет с полки)</text>
+<text x="48" y="620" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#555555">Поток: выбор → pre-pay → нагрев → выдача или штраф + отходы.</text>
+<text x="48" y="708" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#111111">PPA &#8470;6</text>
+</svg>

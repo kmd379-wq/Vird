@@ -1,0 +1,216 @@
+{
+  "sent": [
+    {
+      "part": 1,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "id": "1a187463945022d2",
+          "thread_id": "1a152ff6a852a123",
+          "label_ids": [
+            "SENT"
+          ],
+          "snippet": null,
+          "history_id": null,
+          "internal_date": null,
+          "payload": null,
+          "size_estimate": null,
+          "classification_label_values": null
+        },
+        "isError": false
+      }
+    },
+    {
+      "part": 2,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "id": "1a18746ea7a665bc",
+          "thread_id": "1a18746ea7a665bc",
+          "label_ids": [
+            "SENT"
+          ],
+          "snippet": null,
+          "history_id": null,
+          "internal_date": null,
+          "payload": null,
+          "size_estimate": null,
+          "classification_label_values": null
+        },
+        "isError": false
+      }
+    },
+    {
+      "part": 3,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "id": "1a187485d736b218",
+          "thread_id": "1a187485d736b218",
+          "label_ids": [
+            "SENT"
+          ],
+          "snippet": null,
+          "history_id": null,
+          "internal_date": null,
+          "payload": null,
+          "size_estimate": null,
+          "classification_label_values": null
+        },
+        "isError": false
+      }
+    },
+    {
+      "part": 4,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "id": "1a18748f762394f6",
+          "thread_id": "1a18748f762394f6",
+          "label_ids": [
+            "SENT"
+          ],
+          "snippet": null,
+          "history_id": null,
+          "internal_date": null,
+          "payload": null,
+          "size_estimate": null,
+          "classification_label_values": null
+        },
+        "isError": false
+      }
+    },
+    {
+      "part": 5,
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "id": "1a1874b9b842a20e",
+          "thread_id": "1a1874b9b842a20e",
+          "label_ids": [
+            "SENT"
+          ],
+          "snippet": null,
+          "history_id": null,
+          "internal_date": null,
+          "payload": null,
+          "size_estimate": null,
+          "classification_label_values": null
+        },
+        "isError": false
+      }
+    }
+  ],
+  "verified": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "part": 1,
+        "id": "1a187463945022d2",
+        "labels": [
+          "SENT"
+        ],
+        "attachments": [
+          {
+            "filename": "Keller_PBK_Patent_Materials_Part_1_of_5.zip",
+            "size": 8682916
+          }
+        ],
+        "error": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "part": 2,
+        "id": "1a18746ea7a665bc",
+        "labels": [
+          "SENT"
+        ],
+        "attachments": [
+          {
+            "filename": "Keller_PBK_Patent_Materials_Part_2_of_5.zip",
+            "size": 11410007
+          }
+        ],
+        "error": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "part": 3,
+        "id": "1a187485d736b218",
+        "labels": [
+          "SENT"
+        ],
+        "attachments": [
+          {
+            "filename": "Keller_PBK_Patent_Materials_Part_3_of_5.zip",
+            "size": 12619268
+          }
+        ],
+        "error": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "part": 4,
+        "id": "1a18748f762394f6",
+        "labels": [
+          "SENT"
+        ],
+        "attachments": [
+          {
+            "filename": "Keller_PBK_Patent_Materials_Part_4_of_5.zip",
+            "size": 13186684
+          }
+        ],
+        "error": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "part": 5,
+        "id": "1a1874b9b842a20e",
+        "labels": [
+          "SENT"
+        ],
+        "attachments": [
+          {
+            "filename": "Keller_PBK_Patent_Materials_Part_5_of_5.zip",
+            "size": 4495019
+          }
+        ],
+        "error": false
+      }
+    }
+  ]
+}

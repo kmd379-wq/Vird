@@ -1,0 +1,108 @@
+Patent Rights Transfer Package
+PBK Engineering Intellectual Property Rights Management FZCO to Mikhail Kozin
+This package contains working drafts for review and signature. It records the proposed transfer of all right, title, and interest in the ten provisional patent applications listed in Exhibit A. The transfer consideration is the filing and related expenditure paid personally by Mikhail Kozin and not reimbursed by PBK. Exact corporate registration details and signing authority must be confirmed before execution.
+Signature checklist
+Confirm PBK legal name, jurisdiction, registration number, and registered address.
+Confirm the authorized PBK signatory and authority to transfer the applications.
+Confirm Mikhail Kozin’s full legal name, citizenship, and current address.
+Review the application numbers and filing dates in Exhibit A.
+Sign the Assignment Agreement, PBK Written Consent, and Short Form Assignment.
+Keep the signed originals and provide a copy to patent counsel for USPTO recordation.
+
+Patent Assignment Agreement
+This Patent Assignment Agreement (the “Agreement”) is made effective as of __________________, 2026 (the “Effective Date”), by and between PBK Engineering Intellectual Property Rights Management FZCO, a company organized under the laws of __________________, with registration number __________________ and address __________________ (“Assignor”), and Mikhail Kozin, an individual residing at __________________ (“Assignee”).
+1. Assignment
+For good and valuable consideration, including the payments and expenditures identified in Exhibit B that were paid personally by Assignee for the filing and prosecution of the applications and were not reimbursed by Assignor, Assignor hereby irrevocably sells, assigns, transfers, and conveys to Assignee all right, title, and interest in and to the provisional patent applications listed in Exhibit A, together with: all inventions and subject matter disclosed in those applications; all domestic and foreign priority rights; all continuation, divisional, continuation-in-part, national-stage, PCT, nonprovisional, reissue, reexamination, and substitute applications claiming benefit of them; and all patents, patent applications, registrations, causes of action, and proceeds arising from or relating to them.
+2. Further assurances
+Assignor authorizes Assignee and Assignee’s patent counsel to execute and record documents reasonably necessary to confirm or record this assignment with the USPTO or another patent office. Assignor shall, upon reasonable request, sign confirmatory documents that accurately reflect this Agreement.
+3. Consideration and no reimbursement
+The parties acknowledge that the consideration includes Assignee’s personal payment of the amounts shown in Exhibit B, totaling USD 18,593.00 according to the UpCounsel Transactions Report. Assignor states that it did not reimburse those amounts. The parties may attach payment receipts or a separate accounting if requested.
+4. Representations
+Assignor represents that it is the applicant or recorded owner identified in the relevant application records, to the extent shown by the USPTO records, and that it has authority to execute this Agreement. Assignor makes no representation regarding patentability, validity, enforceability, or freedom to operate. Assignee accepts the rights subject to the application records and applicable law.
+5. Governing law and counterparts
+This Agreement is governed by the law selected by the parties’ counsel after confirming the parties’ jurisdictions. It may be signed in counterparts and by electronic signature to the extent permitted by applicable law.
+Signatures
+ASSIGNOR: PBK Engineering Intellectual Property Rights Management FZCO
+
+Signature: ____________________________________
+Printed name: ____________________________________
+Title / capacity: Authorized representative of Assignor
+Date: ________________________________________
+ASSIGNEE: Mikhail Kozin
+
+Signature: ____________________________________
+Printed name: Mikhail Kozin
+Title / capacity: Individual Assignee
+Date: ________________________________________
+
+Exhibit A Applications and Priority Rights
+The following schedule identifies the ten provisional applications included in the assignment. Titles are descriptive working titles and do not limit the scope of the assignment.
+The assignment includes all priority claims and all later applications or patents that claim priority to, incorporate, or are otherwise derived from the applications listed above, to the extent assignable by Assignor.
+Exhibit B Payment Schedule
+This schedule reproduces the paid transactions visible in UpCounsel. UpCounsel shows 14 paid transactions totaling USD 18,593.00. The schedule is evidence of consideration; it does not itself determine which PPA each invoice funded unless the invoice description expressly states it.
+
+PBK Written Consent and Authorization
+The undersigned, acting for PBK Engineering Intellectual Property Rights Management FZCO, confirms that PBK approves the transfer described in the Patent Assignment Agreement and authorizes its signatory to execute that Agreement and any confirmatory assignment or recordation document for the ten applications in Exhibit A.
+PBK further confirms, subject to review of its corporate records, that the filing and related expenditures listed in Exhibit B were paid personally by Mikhail Kozin and were not reimbursed by PBK. This statement is intended to document the parties’ consideration and internal approval; it is not a substitute for an invoice or bank record.
+Corporate registration details to be completed before signature: jurisdiction __________________; registration number __________________; registered address __________________; authorized signatory __________________; title __________________.
+
+Signature: ____________________________________
+Printed name: ____________________________________
+Title / capacity: Authorized representative of PBK
+Date: ________________________________________
+
+Short Form Confirmatory Assignment
+For recording purposes, PBK Engineering Intellectual Property Rights Management FZCO (“Assignor”) hereby assigns to Mikhail Kozin (“Assignee”) all right, title, and interest in the applications and related rights listed in Exhibit A, including all priority rights and all applications, patents, and rights claiming benefit of or derived from them. This Short Form Confirmatory Assignment is made pursuant to the Patent Assignment Agreement effective __________________, 2026.
+Assignor requests that the United States Patent and Trademark Office record this document. The parties understand that the USPTO recordation cover sheet and any required applicant or owner information must be completed consistently with the official application records.
+
+Signature: ____________________________________
+Printed name: ____________________________________
+Title / capacity: Authorized representative of Assignor
+Date: ________________________________________
+ASSIGNEE ACKNOWLEDGMENT
+
+Signature: ____________________________________
+Printed name: Mikhail Kozin
+Title / capacity: Individual Assignee
+Date: ________________________________________
+
+USPTO Recordation Data Sheet
+This page is a preparation worksheet for patent counsel or the USPTO Electronic Patent Assignment System. It is not itself a USPTO cover sheet unless completed in the required format and submitted through the appropriate system.
+Important completion note
+Before signing or recording, patent counsel should verify the official applicant/assignee name in each USPTO record, the exact chain of title, the authority of the PBK signatory, and whether separate assignment documents are required for any application. Any mismatch should be corrected before execution.
+PPA | USPTO application number | Filing date | Descriptive title
+PPA #1 | 63/938,244 | December 11, 2025 | Autonomous Retail Ecosystem / AI pricing and biometric access
+PPA #2 | 63/945,513 | December 19, 2025 | AI pricing and retail intelligence
+PPA #3 | 63/947,909 | December 23, 2025 | Modular Smart Vending Cabinet
+PPA #4 | 63/955,179 | January 6, 2026 | Modular cabinet platform
+PPA #5 | 63/959,439 | January 13, 2026 | Modular cabinet platform
+PPA #6 | 63/961,839 | January 16, 2026 | Food preparation / induction cabinet
+PPA #7 | 63/975,643 | February 4, 2026 | Modular cabinet platform
+PPA #8 | 64/090,283 | June 14, 2026 | Intelligent Bulk Produce Quality Control
+PPA #9 | 64/106,825 | July 7, 2026 | Bio-Metric Inventory Management
+PPA #10 | 64/125,577 | August 4, 2026 | Through-Tracking Tare Control System
+Invoice number | Invoice / paid date shown | Amount USD
+419 | December 9, 2025 | 891.00
+426 | December 10, 2025 | 777.00
+430 | December 13, 2025 | 1,100.00
+432 | December 15, 2025 | 1,600.00
+438 | December 19, 2025 | 800.00
+443 | January 4, 2026 | 900.00
+449 | January 12, 2026 | 800.00
+453 | January 15, 2026 | 865.00
+460 | February 3, 2026 | 965.00
+524 | April 17, 2026 | 1,000.00
+610 | June 29/30, 2026 | 965.00
+624 | July 30 / paid August 1, 2026 | 765.00
+620 | July 25 / paid August 6, 2026 | 765.00
+654 | September 9, 2026 | 6,400.00
+TOTAL |  | 18,593.00
+Assignor legal name | PBK Engineering Intellectual Property Rights Management FZCO
+Assignor jurisdiction / registration no. | ____________________________________
+Assignor address | ____________________________________
+Assignee | Mikhail Kozin
+Assignee address | ____________________________________
+Execution date | ____________________________________
+Document type | Assignment of patent applications and related rights
+Consideration | Personal filing and related payments by Assignee; no reimbursement by Assignor
+Application list | Exhibit A

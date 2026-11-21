@@ -1,0 +1,106 @@
+[
+  {
+    "firm": "CWB",
+    "to": "dubai@cwblegal.com",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1a180d99bf0944e5",
+        "thread_id": "1a180d0314d9c0d1",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      },
+      "isError": false
+    }
+  },
+  {
+    "firm": "Rouse",
+    "to": "dubai@rouse.com",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1a180d9a66c55975",
+        "thread_id": "1a180d04208fc702",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      },
+      "isError": false
+    }
+  },
+  {
+    "firm": "Saba IP",
+    "to": "uae@sabaip.com",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1a180d9b469a3429",
+        "thread_id": "1a180d04a78fa16f",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      },
+      "isError": false
+    }
+  },
+  {
+    "firm": "UTMPS",
+    "to": "contact@unitedtm.com",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "id": "1a180d9be60f589c",
+        "thread_id": "1a180d062648a229",
+        "label_ids": [
+          "SENT"
+        ],
+        "snippet": null,
+        "history_id": null,
+        "internal_date": null,
+        "payload": null,
+        "size_estimate": null,
+        "classification_label_values": null
+      },
+      "isError": false
+    }
+  }
+]
