@@ -1,0 +1,826 @@
+                    1/30
+
+        118
+                     116
+ 100
+                                    122
+
+
+
+
+  302
+                                    120
+
+ 102
+
+
+                                    124
+
+
+ 106
+                                    126
+
+
+
+300
+                                     112
+
+ 108
+                                    114
+
+
+
+
+ 132
+              134             130
+                     FIG. 1
+                          2/30
+
+
+102             450                          210         202
+
+
+
+
+302
+
+
+
+106
+                                                                     110
+
+                        452      300
+                                       104
+
+                                                                 206
+  FRONT
+
+
+
+
+                                                                REAR
+                  204
+                                                               308
+
+
+                                                                     208
+
+
+                                                                 200
+
+
+
+
+                                                                 140
+           400           406             142
+
+
+
+
+          134                    138               136         132
+                              FIG. 2
+                           3/30
+
+
+ 212
+
+
+
+
+              308
+                                                         217
+                    300
+                                  216
+                                                        308
+
+
+214
+
+
+
+
+                                  140
+
+
+             215
+
+        FIG. 3A                               FIG. 3B
+
+                                        308
+
+
+
+
+       219
+
+
+
+
+         140         218
+
+
+                      FIG. 3C
+                      4/30
+
+
+
+
+                      400 / 416
+
+
+
+                                  138
+200
+
+
+
+
+            M                           M
+
+                                            134
+
+
+
+                136
+                                  132
+
+
+
+
+      137
+
+
+                       FIG. 4
+                                  5/30
+
+                                      START
+                    (startup / periodic / movement detected)
+
+
+                                     S101
+                             Read tilt signal from
+                               tilt sensor 138
+
+
+
+
+         NO                           S102                            YES
+                                Tilt > threshold
+                              (e.g., about 0.5°)?
+
+
+
+
+         S103                                                         S104
+Enable user sessions and                                   Inhibit initiation of user
+ processing operations                               session / heating / fluid dispensing
+
+
+         S108                                                      S105
+ Monitor for movement                                    Drive actuators 136 of
+      or vibration                                      motorized leveling feet 134
+
+
+
+
+                                          YES                       S106
+                                                              Within threshold
+                                                               after re-read?
+
+
+                                           NO (retries exhausted)
+
+                                                                  S107
+                                                          Keep sessions inhibited;
+                                                            send service alert
+
+
+
+                                    FIG. 5
+                                   6/30
+
+
+                             310
+                                            312         314
+
+
+
+
+302                                                                 308
+
+
+
+
+                       316                              318
+                               FIG. 6A
+       324                                        322         320
+
+
+
+
+ 332                           FIG. 6B
+                               330                                  360
+
+
+                                      364
+
+
+
+                                                        362
+             334
+
+             FIG. 6C                          FIG. 6D
+                  7/30
+
+
+
+
+      462
+
+                                      346
+
+                            M
+340
+
+
+                                344
+            342
+
+
+
+                                            348
+
+
+
+                                            349
+
+
+
+
+                   FIG. 7
+                              8/30
+
+
+
+
+                                                       350
+
+
+
+
+                                                 356
+
+
+            352
+                                354
+
+                            FIG. 8A
+
+                                           376
+      372
+
+
+
+
+                  M                              370
+                      374
+380
+
+                                     384
+
+
+
+
+                              382
+                            FIG. 8B
+                        9/30
+
+
+      450
+
+
+
+
+              454
+                                  462
+            464
+
+
+304
+                                                    458
+
+
+
+
+306
+                  452
+                                        334
+
+                                                    456
+
+
+
+
+305
+                                                    460
+
+
+
+
+                                              316
+
+
+
+
+                         FIG. 9
+                                        10/30
+
+                                            S201
+                                 Detect interaction event in
+                              overlap region 454 (camera 450)
+
+
+                                            S202
+                                  Retrieve detection profile
+                                  for mounting position 206
+
+
+                                              S203
+                             Collect camera output and outputs of
+                           item-detection sensors named in profile
+                          (tag reads / load-cell delta / break-beam)
+                                      within time window
+
+
+
+
+                                           S204
+                 YES             Camera and item-detection               NO
+                                 sensors agree on removal
+                                    of identified item?
+
+
+
+
+              S205                                                         S206
+ Record removal against session;                               Classify as anomalous event
+update inventory and virtual basket                            (e.g., hand removal without
+                                                               expected tag/weight signal)
+
+
+                                                                          S207
+                                                               Alarm 118 / restrict access /
+                                                               adjust deposit / flag session
+
+
+
+                                          FIG. 10
+                                  11/30
+
+                                      S301
+                          Open gate 344 to release first
+                           item into weighing dish 348
+
+
+                                   S302
+                     Lock gate while dish load cell 349
+                    reports weight > presence threshold
+
+
+
+
+                                     S303
+            NO                  Weight < removal
+                                  threshold?
+
+                                          YES
+
+
+        YES                         S304                        NO
+                            Camera 450 corroborates
+                               removal of item?
+
+
+
+
+       S305                                                Treat as anomalous
+ Record sale of item                                       (see FIG. 10, S206)
+
+
+         S306
+Actuate gate to release
+      next item
+
+
+
+                                    FIG. 11
+                             12/30
+
+
+
+      502              122            502
+
+500
+
+
+
+
+                                506
+
+
+
+
+                                                       508
+
+
+
+
+504
+
+
+
+
+            FIG. 12A                        FIG. 12B
+                                    13/30
+
+
+                S401                                         S408
+Establish user session: optical code                 Confirm removal by
+token (124), biometric (122), NFC /                 sensor fusion (FIG. 10)
+      card / palm / fingerprint
+
+                                                              S409
+                S402                                  Add to virtual basket;
+Pre-authorize payment instrument;                  incremental authorization;
+  verify identity matches profile                instant or aggregated capture
+
+
+               S403
+ Display transaction terms on 120
+ (immediate charge / incremental
+                                                             S410
+    hold / no returns / penalty)                                                  NO
+                                                        Session end?
+                                                   (door closed / checkout /
+                                                     timeout / departure)
+               S404              NO
+            Affirmative
+            consent?
+                                                          YES
+            YES                                               S411
+               S405                                   Capture funds; split
+   Restricted goods requested?                     settlement; digital / fiscal
+   Apply restricted-goods mode                      receipt to app or email
+         (FIGS. 12A-12B)
+
+                                                     Keep barrier locked
+
+              S406                       NO
+         Cabinet level and
+        sessions enabled?
+
+
+            YES
+               S407
+  Unlock user access barrier 106;
+   illuminate authorized region
+
+
+                                       FIG. 13
+                                       CAMERAS 450, 122 | SCANNER 124
+                                      READER 126 | DISPLAY 120 | LOCK 112
+
+                                 DOOR SENSOR 116 | ALARM 118 | TILT SENSOR 138
+                                          ACTUATORS 136 | UPS 142
+
+
+      EDGE CONTROLLER 400
+
+            PROCESSOR 402                    MEMORY 404                      LOCAL DB / CACHE 405
+
+           LOCAL LEDGER 408                 AUDIT LOG 424                     ACCESS CONTROL 410
+
+          SENSOR FUSION 412             MODULE MANAGER 414                       LEVELING 416
+                                                                                                                   14/30
+
+
+
+
+          PRICING ENGINE 418               TRANSACTION 420            THERMAL PROCESS MANAGER 422
+
+        BIOMETRIC ANALYSIS 426         NETWORK INTERFACE 406                LOCAL BUS INTERFACE 428
+
+
+
+         POSITION-ADJUSTABLE                                                    SLAVE UNITS 852
+                                         REMOTE SERVER 900
+            INTERFACE 210                                                          (FIG. 15)
+
+
+
+
+MODULES 300 / 600 / 700    MOBILE              SUPPLIER          PAYMENT                            BIOMETRIC
+     (308, 309)           DEVICE 902        INTERFACE 904       GATEWAY 914                       REPOSITORY 916
+
+
+                                                   FIG. 14
+                    15/30
+
+
+
+
+                          900
+
+
+              852
+                    852               856
+850
+            122
+
+      120
+                                            852
+
+
+
+
+                                            112
+
+
+
+
+                                854
+
+
+
+                     FIG. 15
+                                 16/30
+
+
+
+
+                   602
+600
+
+                                   608                628         630
+                                                                        638
+                                         626
+
+                                                                  607
+                                          624
+                                                                        622
+            604
+                           606
+                                                650
+                                                                        620
+
+                                                            614
+                     610
+
+308
+
+                                                                        618
+
+      616                           612
+                                                                        634
+
+
+
+             636                                                        632
+
+
+
+
+                                  FIG. 16
+                    17/30
+
+
+
+
+      650
+
+                                         642
+
+
+
+
+      646
+                                   648
+
+                        FIG. 17A
+
+
+
+
+649
+                                               644
+
+
+
+
+                                                     640
+
+
+
+
+            612   646
+
+
+
+                        FIG. 17B
+                  18/30
+
+
+
+                                   658
+
+      652
+                                          650
+
+
+      656
+
+
+
+                                         659
+
+
+
+            654
+
+                  FIG. 18A
+            662
+660                                             666
+
+
+
+
+                                                  669
+
+664
+
+
+
+                                                666
+
+
+
+                             668
+
+
+                  FIG. 18B
+                                          19/30
+
+
+                  S501                                                 S508
+       Read digital passport via                          Activate ready indicator 622;
+         identifier reader 614                                 start retrieval timer
+
+
+                 S502
+   Display product, nutrition, price,                                  S509
+ retrieval window and abandonment                                Retrieved before
+        terms; receive consent                                    timer expires?
+
+
+              S503                                 YES                                    NO
+ Execute payment / record payment
+   commitment BEFORE heating                            S510                       S511
+                                                   Complete and              Lock retrieval slot
+                                                  log transaction               (618 / 620)
+              S504                      NO    Inhibit heating;
+      Impedance authentication                                                       S512
+                                               flag package
+             passes?                                                      Transfer mechanism 616
+                                                                           diverts item via 634 to
+             YES                                                          waste compartment 632
+
+
+                 S505              NO                                              S513
+                                                   Re-level              Flag waste; apply penalty
+               Tilt within
+                                                   (FIG. 5)                per posted terms; log
+              threshold?
+
+             YES                                                                   S514
+                                                                           Reset heating position
+                S506                                                          to ready state
+       Seal chamber 606; close
+      shutter 610; start exhaust
+     fan 628 (negative pressure)
+
+
+                 S507
+Energize induction coil 612 per heating
+  profile; monitor temperature 624
+
+
+                                           FIG. 19
+                        20/30
+
+
+
+700
+
+                                        706
+
+
+
+
+                                              708
+                  704
+            702                                     714
+
+                                      710
+                   710
+
+      720
+
+
+                                              712
+
+
+      722
+
+
+
+
+                                724
+
+
+
+
+                                  726
+
+                         FIG. 20
+                             21/30
+
+
+                        396
+                                     398
+
+
+                       392
+
+
+
+
+390
+
+                               394
+
+
+
+
+            FIG. 21A
+800
+                       802                       806
+
+                                                       812
+               45°
+
+
+
+
+      804
+
+                        810
+                                           808
+
+
+                              FIG. 21B
+                                         22/30
+
+
+LOCAL INDUCTION                                  UPSTREAM INDUCTION
+
+                 S601                                               S611
+   Scan manufacturer barcode / SKU                       Tag and associate goods at
+       (induction station 906 or                          supplier warehouse / DC
+        handheld scanner 908)
+
+                                                                     S612
+                  S602                                   Supplier system 910 uploads
+    Apply / program tracking tag 464                      manifest 912 to server 900
+  (RFID, NFC, machine-readable label)
+
+                                                                   S613
+                  S603                                       Edge controller 400
+        Enter lot identifier and                             downloads manifest
+      expiration / production date
+
+                                                                    S614
+                  S604                              Recognize pre-tagged goods on arrival;
+        Store tag-SKU-lot-expiry                     set ACTIVE state without local scan
+        association in database
+
+
+
+
+                                             S605
+                             Rear-load items into modules (FIFO);
+                        monitor with antenna matrix 304 and camera 450
+
+
+
+                                          FIG. 22
+
