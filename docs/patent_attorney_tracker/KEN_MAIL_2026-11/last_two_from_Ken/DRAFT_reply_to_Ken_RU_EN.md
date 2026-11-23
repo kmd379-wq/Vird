@@ -2,7 +2,7 @@
 
 **Кому:** ken@emanuelson.us  
 **Тема (вариант):** Re: 1756-1001PCT: Initial Draft International Patent Application (PPAs 1-3)  
-**Статус:** НЕ ОТПРАВЛЕНО — ждёт вашего OK
+**Статус:** ОТПРАВЛЕНО 24.11.2026 ~00:58 (Gmail → ken@emanuelson.us)
 
 ---
 
@@ -46,3 +46,9 @@ Mikhail
 3. *Figs 27–30:* «I may send detailed comments on Figures 27–30 shortly.»
 
 Напишите, что оставить как есть или что добавить — после вашего OK можно отправить.
+
+---
+
+## STATUS 2026-11-24 00:57
+Gmail compose opened in Chrome for manual Send confirmation (to=ken@emanuelson.us).
+Body prepared as approved.
