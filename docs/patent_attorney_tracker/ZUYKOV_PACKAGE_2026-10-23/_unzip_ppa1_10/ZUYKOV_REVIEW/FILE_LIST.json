@@ -1,0 +1,652 @@
+[
+  {
+    "path": "00_READ_FIRST_RU.txt",
+    "bytes": 4712,
+    "sha256": "1e796ba7703c37196439061499afe04673e82988bd22779a3b1309ca5148fb7b"
+  },
+  {
+    "path": "Ali_NPPA1_Originals/ALI_2026-10-15_ORIGINAL_EN.txt",
+    "bytes": 4788,
+    "sha256": "943da9945ec95477c8640833224fef559dbc45bf47ead6093dc25d8e3e3bdc00"
+  },
+  {
+    "path": "Ali_NPPA1_Originals/ALI_2026-10-20_ORIGINAL_EN.txt",
+    "bytes": 3898,
+    "sha256": "6f25035205e42fe50f696fe3dcddfeede1292d0e6f09f3a321410b4ff1154a7a"
+  },
+  {
+    "path": "Ali_NPPA1_Originals/ALI_NPPA1_Draft_Figures.pdf",
+    "bytes": 544272,
+    "sha256": "3e3cef6aabc8a166573b63d92097f4608d3f8d048482fdb6a620bd2f6b79eb88"
+  },
+  {
+    "path": "Ali_NPPA1_Originals/ALI_NPPA1_Draft_Spec.docx",
+    "bytes": 48361,
+    "sha256": "739773c4b3b054473d6c584f6ec170aa3e6925dee0f9308065da2b72100fcf8b"
+  },
+  {
+    "path": "Ownership/PBK_MOA_51_pages.pdf",
+    "bytes": 253245,
+    "sha256": "78ba10178f9fc60dff164f904198b20e44268a9357a458afe8ee2493af4c783b"
+  },
+  {
+    "path": "Ownership/PBK_Memorandum_alternate_version.pdf",
+    "bytes": 334637,
+    "sha256": "632c87ec733e55022341871a03343fa71d255e8f6bb0b4870ebfe75c276b6fb1"
+  },
+  {
+    "path": "Ownership/PBK_Trade_Licence.pdf",
+    "bytes": 1903236,
+    "sha256": "2a851db3efc243ed2f27db853abfe4a258e5fc2451e12b144b25f81142625849"
+  },
+  {
+    "path": "Ownership/UNSIGNED_REVIEW_DRAFTS/01_Corporate_Resolution_RU.pdf",
+    "bytes": 96100,
+    "sha256": "8f832c640421f9b5ee584673bd30c480206da1b601e180f6e47ed3a52b847939"
+  },
+  {
+    "path": "Ownership/UNSIGNED_REVIEW_DRAFTS/02_Assignment_RU.pdf",
+    "bytes": 107674,
+    "sha256": "32314423f2287bce18f7316446e0beb8ef5c99ac92098a8db4d96b25c50b950d"
+  },
+  {
+    "path": "Ownership/UNSIGNED_REVIEW_DRAFTS/03_Funding_Reconciliation_Act_RU.pdf",
+    "bytes": 106133,
+    "sha256": "6c12dcbc8d258827086d0a8c0c96a98aee6f05a5e0966e9d6ced3f190da5f983"
+  },
+  {
+    "path": "Ownership/UNVERIFIED_EXECUTION_02_Corporate_Resolution_EN.pdf",
+    "bytes": 76725,
+    "sha256": "d4493740a739a83d8e41911b3e960bf61df8c3bb87a1f680ac5b9a40691a82db"
+  },
+  {
+    "path": "Ownership/UNVERIFIED_EXECUTION_04_Patent_Assignment_EN.pdf",
+    "bytes": 80795,
+    "sha256": "393df4d700bef8aaa4d7d46ffc206850588a1d17ead06dd68c3d6e64ef3902be"
+  },
+  {
+    "path": "PPA_01/164916_63938244_12-11-2025_ADS.PDF",
+    "bytes": 571835,
+    "sha256": "ef5dcbdfc1c0e0f1df9543929a267cafcb3096e49aacf357785a541799eca55a"
+  },
+  {
+    "path": "PPA_01/N417 Electronic Filing System Acknowledgment Receipt.PDF",
+    "bytes": 88132,
+    "sha256": "3d7b5a3b3132c1a20d0afcfeb0b233b5d150601075bb968001b31d225c6460cd"
+  },
+  {
+    "path": "PPA_01/N417.PYMT.pdf",
+    "bytes": 45122,
+    "sha256": "a69155375442ff391cf08bf3934fdf71caa2db3606aae8f677980faa55d91aaf"
+  },
+  {
+    "path": "PPA_01/PPA#1 FIGURES.pdf",
+    "bytes": 2722594,
+    "sha256": "de2062bf36b9db1ef057f3de0cb7561eb9f06d2e363f6cae2f0c61762572dd3b"
+  },
+  {
+    "path": "PPA_01/PPA_SPECv2.docx",
+    "bytes": 30840,
+    "sha256": "ec8b500c784da863113eade06400d7989826d05a9ffbb599f832eb07fcdfb47b"
+  },
+  {
+    "path": "PPA_01/Receipt History - Workbench - Patent Center - USPTO.pdf",
+    "bytes": 475291,
+    "sha256": "c5cf7bca0da660651ec3888004e2cded3f9130431c1f96bbdcb40a3e71a897a0"
+  },
+  {
+    "path": "PPA_01/SPEC_PPA#1.pdf",
+    "bytes": 128729,
+    "sha256": "b2455d74bf97c160f22086061f6283cfbd485bdf820fef48dec6675a0d086e00"
+  },
+  {
+    "path": "PPA_01/sb0015a.pdf",
+    "bytes": 183340,
+    "sha256": "e0e73012f8fb60177926d82c0463b3758ffcb493a9ca02c8b0e4c6519862aa06"
+  },
+  {
+    "path": "PPA_01/sb0016.pdf",
+    "bytes": 419964,
+    "sha256": "fdee30e8b0a8673740c4db4aebeeb90d27da869b332540facb124001e590a546"
+  },
+  {
+    "path": "PPA_02/164916_63945513_12-19-2025_ADS.PDF",
+    "bytes": 546702,
+    "sha256": "9a676edd9a6022e3e23cf87cf1d659c28a41afcfe65474860a7227ff203faf39"
+  },
+  {
+    "path": "PPA_02/APP.FILE.REC.PDF",
+    "bytes": 171385,
+    "sha256": "054be053e67c3d05cbb0c52578728a06c7c7dfe020d6141dc6ab61237fbff148"
+  },
+  {
+    "path": "PPA_02/N417.PYMT.pdf",
+    "bytes": 45024,
+    "sha256": "515417f0282a924b9002f6c24a2c8ceb98a6c6fe8e94ce7450e07eed7a9a5b49"
+  },
+  {
+    "path": "PPA_02/N417.pdf",
+    "bytes": 58504,
+    "sha256": "69f490ef974c26a6f24a8e2c5023a86cd2c068a24082fa7093be05fdaad57181"
+  },
+  {
+    "path": "PPA_02/PPA#2 FIGURES.pdf",
+    "bytes": 3508332,
+    "sha256": "3300b3a5c306765f241a0c7262a8b340bd7918a7f7b3688f8fcff1e1d84f8eaf"
+  },
+  {
+    "path": "PPA_02/PPA_SPEC_Bio-MetricInventoryManagement .docx",
+    "bytes": 32316,
+    "sha256": "beb3a77f6a6154cb0b71994c773caa69b3dfaac1318ea739f727dc4d5c3e18ad"
+  },
+  {
+    "path": "PPA_02/SPEC_PPA#2_Bio-MetricInventoryManagement .pdf",
+    "bytes": 117896,
+    "sha256": "9a622b7e5a9cac433cad0deed064d6520b195fcb8d41006c67825f14c593bfdf"
+  },
+  {
+    "path": "PPA_02/sb0015a.pdf",
+    "bytes": 193902,
+    "sha256": "1c18cb5f09ef822917d9446e32d530bc2d1c595e06bf257937f7c8af50aab2a9"
+  },
+  {
+    "path": "PPA_02/sb0016.pdf",
+    "bytes": 452827,
+    "sha256": "1fe03abbb94f84c19b63b779aa1c2f4f3c40814f83f94afd38ebe5f2b419a8fc"
+  },
+  {
+    "path": "PPA_03/164916_63947909_12-23-2025_ADS.PDF",
+    "bytes": 572324,
+    "sha256": "1b2567aa14b00588b0f0d10c64cd2d3865c832c24c44a0081e0aacc30e5ccf62"
+  },
+  {
+    "path": "PPA_03/N417.PYMT.pdf",
+    "bytes": 45141,
+    "sha256": "f8a56348d2acfe4d1f786d47748e3193a79ba4b1efcf82953383454dce8b7c92"
+  },
+  {
+    "path": "PPA_03/N417.pdf",
+    "bytes": 59793,
+    "sha256": "b4fb48229e461ad121c2c798bed0cfbc5ad1cd0d86b0659a74d800acd64afbf3"
+  },
+  {
+    "path": "PPA_03/PPA#3 164916_63947909_07-29-2026_APP.FILE.REC.PDF",
+    "bytes": 172565,
+    "sha256": "5b5114cbc13d681022af82df70da703bdb350e6b9d4da4f75df97b2cc58d7b70"
+  },
+  {
+    "path": "PPA_03/PPA#3 FIGURES.pdf",
+    "bytes": 2722594,
+    "sha256": "de2062bf36b9db1ef057f3de0cb7561eb9f06d2e363f6cae2f0c61762572dd3b"
+  },
+  {
+    "path": "PPA_03/SPEC_PPA#3-ModularSmartVendingCabinet_Revised.pdf",
+    "bytes": 143809,
+    "sha256": "102a776b0a3cd8c969edcc9ad25eb3f7c61d99f9f0a876de68171ac57db83f04"
+  },
+  {
+    "path": "PPA_03/SPEC_PPA-ModularSmartVendingCabinet_Revised_PPAfinal.docx",
+    "bytes": 37521,
+    "sha256": "44d5e8a15b73f6942478dd8341ee9dd43cc744e34258996d02e80a9e10199b81"
+  },
+  {
+    "path": "PPA_03/sb0015a.pdf",
+    "bytes": 198273,
+    "sha256": "0600e18655baea24be6b1fbc79f7513d913c87d498365cb0d20e6a312588defd"
+  },
+  {
+    "path": "PPA_03/sb0016.pdf",
+    "bytes": 452884,
+    "sha256": "aa55741ad1609bc788103d9cd39617c57814500b6c4f03a264b09e8335fdb9cf"
+  },
+  {
+    "path": "PPA_04/164916_63955179_01-06-2026_ADS.PDF",
+    "bytes": 546922,
+    "sha256": "dbf2074cfdea01dff4125557c10516b97883761f84e1a9ebe3bcf6bce3f53433"
+  },
+  {
+    "path": "PPA_04/N417.PYMT.pdf",
+    "bytes": 45022,
+    "sha256": "22dc25f1c3d13bd2135303c05f2e2ca0e10de6070ccfffb13473e6cc640db83b"
+  },
+  {
+    "path": "PPA_04/N417.pdf",
+    "bytes": 58719,
+    "sha256": "52372bdb75d258b96ea410261511c2cd72020950c6c9b04cd24c9c76ee6baceb"
+  },
+  {
+    "path": "PPA_04/PPA#4 63955179_02-05-2026_APP.FILE.REC .PDF",
+    "bytes": 171201,
+    "sha256": "4a4600a549c37f10dc7520fe99bc0efd1ecfb1c2d303d4e3ac349cc95206f669"
+  },
+  {
+    "path": "PPA_04/PPA#4 FIGURES.pdf",
+    "bytes": 2722594,
+    "sha256": "de2062bf36b9db1ef057f3de0cb7561eb9f06d2e363f6cae2f0c61762572dd3b"
+  },
+  {
+    "path": "PPA_04/SPEC_PPA#4_SMART_RETAIL CABINET_WITH_TOKENIZED_ACCESS_AND_SPLIT_PAYMENTS.pdf",
+    "bytes": 144302,
+    "sha256": "af74a290fa9650ffdf34cb6e3059f9e003a053366fb393c7a57cbf0cab794263"
+  },
+  {
+    "path": "PPA_04/SPEC_PPA-SMART RETAIL CABINET WITH TOKENIZED ACCESS AND SPLIT PAYMENTS.docx",
+    "bytes": 35870,
+    "sha256": "982c3149a0499f65cd707cc564c55394ab8c90aef8f985f9e6dbdbe03b748985"
+  },
+  {
+    "path": "PPA_04/sb0015a.pdf",
+    "bytes": 213210,
+    "sha256": "4949aff83ea1b91868b9a3800ce28517827eb91090d119f6914ce22f43ff0ff1"
+  },
+  {
+    "path": "PPA_04/sb0016.pdf",
+    "bytes": 492855,
+    "sha256": "03e22125a3c7987b0df0e1b041ca64a494162821caefb9fb5edb14fa27502144"
+  },
+  {
+    "path": "PPA_05/164916_63959439_01-13-2026_ADS.PDF",
+    "bytes": 546908,
+    "sha256": "fb6f0cfda48edf7eb02905ba29585209fd6820271a96f1f35572c46defdbb401"
+  },
+  {
+    "path": "PPA_05/N417.PYMT.pdf",
+    "bytes": 45022,
+    "sha256": "8aa22f0322d78dbcc6a2c1f64c992213be9f5ab3cb4889f5e15d285127353acd"
+  },
+  {
+    "path": "PPA_05/N417.pdf",
+    "bytes": 58509,
+    "sha256": "ca823fd5736fd6a3009fcf21599610a226d87fff4b5dd41f9f46f243290416dd"
+  },
+  {
+    "path": "PPA_05/PPA#5 FIGURES.pdf",
+    "bytes": 2722594,
+    "sha256": "de2062bf36b9db1ef057f3de0cb7561eb9f06d2e363f6cae2f0c61762572dd3b"
+  },
+  {
+    "path": "PPA_05/PPA#5_63959439_02-13-2026_APP.FILE.REC.PDF",
+    "bytes": 171255,
+    "sha256": "cd5f9fda0cd4bb9f3e33c6b137e31dab9e32e546c1768b5e95fe25aa6573979a"
+  },
+  {
+    "path": "PPA_05/SPEC_PPA#5_SmartRetailCabinet_TokenizedAccess_SplitPayments.pdf",
+    "bytes": 116080,
+    "sha256": "3682a41293e48a271a03ec9eeed6cdb2812d0851701fa4b2e8811c0d8974046f"
+  },
+  {
+    "path": "PPA_05/SPEC_PPA_SmartRetailCabinet_TokenizedAccess_SplitPayments.docx",
+    "bytes": 39656,
+    "sha256": "516457c1d245b6244aaf54d4cc36e5b6b0babe21b33acc4773b4bdff0e740e46"
+  },
+  {
+    "path": "PPA_05/sb0015a.pdf",
+    "bytes": 218140,
+    "sha256": "33b51ac8d7242f72b77a9975dfc05d6ac6593699c91f1352dc70f90d85642c7a"
+  },
+  {
+    "path": "PPA_05/sb0016.pdf",
+    "bytes": 500759,
+    "sha256": "e8cb53d7d9f3953a120109e5db128e7e7a2e9a5b0e51521de18242fed2e50180"
+  },
+  {
+    "path": "PPA_06/164916_63961839_01-16-2026_ADS.PDF",
+    "bytes": 571977,
+    "sha256": "628cbc208093a2fa9ea4d85573eaf2abec039a20feabf5863d5432fddd993094"
+  },
+  {
+    "path": "PPA_06/N417.PYMT.pdf",
+    "bytes": 45137,
+    "sha256": "d45d941e4dce25370b34d9987872699cd66848d9408216a8a14c537e91ad9eab"
+  },
+  {
+    "path": "PPA_06/N417.pdf",
+    "bytes": 58534,
+    "sha256": "1f656636d940b7bac6788f9e13c24dcc3dd83eeb7151358a9b5d9120f5cda7c3"
+  },
+  {
+    "path": "PPA_06/PPA#6 FIGURES.pdf",
+    "bytes": 2722594,
+    "sha256": "de2062bf36b9db1ef057f3de0cb7561eb9f06d2e363f6cae2f0c61762572dd3b"
+  },
+  {
+    "path": "PPA_06/SPEC_PPA#6_63961839_02-24-2026_APP.FILE.REC.PDF",
+    "bytes": 172213,
+    "sha256": "1d471693ce9fba61dd2514006fe4789887a0d9cd8caa6441376171d574b7fc78"
+  },
+  {
+    "path": "PPA_06/SPEC_PPA#6_Modular_Retail_System.pdf",
+    "bytes": 100609,
+    "sha256": "95a66989ecdccbf070c3e99cc28ff8345b8d963463425ec763043577995d556b"
+  },
+  {
+    "path": "PPA_06/SPEC_PPA_Modular_Retail_System_Full_Draft_v2.docx",
+    "bytes": 35483,
+    "sha256": "36dc01df94bda18caa5fe49328d298c0502989eab12fed54593fb2af1e9b9017"
+  },
+  {
+    "path": "PPA_06/sb0015a.pdf",
+    "bytes": 223825,
+    "sha256": "4fe4236270c4bd0056e46dfe24d029a74fc8ba4b7ca7e9b2d6e974ab359cd1ea"
+  },
+  {
+    "path": "PPA_06/sb0016.pdf",
+    "bytes": 509464,
+    "sha256": "eb922c4d170d5dc5d6d7d818ed0f4a6e41cd0105e2bdc7e78b06610a44d0cd6e"
+  },
+  {
+    "path": "PPA_07/164916_63975643_02-04-2026_ADS.PDF",
+    "bytes": 571865,
+    "sha256": "0c49fcfb6ad22984119baa75022875dcc0af790081ff2def301ec750b5b98232"
+  },
+  {
+    "path": "PPA_07/N417.PYMT.pdf",
+    "bytes": 45138,
+    "sha256": "73f8f8c695550b12ca2f478fcac02ff20bb737e35d147e82facbb441b5bf712b"
+  },
+  {
+    "path": "PPA_07/N417.pdf",
+    "bytes": 58514,
+    "sha256": "9c4346bcc6c0a2c7f9a5ba2fd89597bba264d09ede9b6b6cd9d39765951d8c92"
+  },
+  {
+    "path": "PPA_07/PPA#7 164916_63975643_03-13-2026_APP.FILE.REC.PDF",
+    "bytes": 171795,
+    "sha256": "e02716ec6380335daa0b49977ad033b9e8aa23c7507dab16909ff015eb978244"
+  },
+  {
+    "path": "PPA_07/PPA#7 FIGURES.pdf",
+    "bytes": 2722594,
+    "sha256": "de2062bf36b9db1ef057f3de0cb7561eb9f06d2e363f6cae2f0c61762572dd3b"
+  },
+  {
+    "path": "PPA_07/SPEC_PPA#7_Modular_Retail_System.pdf",
+    "bytes": 103907,
+    "sha256": "147cd508e627a8176abb1d07e7a1e3c0519ef91c7c7f3cf2363653fdf12cf157"
+  },
+  {
+    "path": "PPA_07/SPEC_PPA7_Modular_Retail_System.docx",
+    "bytes": 37222,
+    "sha256": "5c95a9d77c15b4d2ecbc31dc7d27903ee4e668603ecd66e98134370e34325555"
+  },
+  {
+    "path": "PPA_07/sb0015a.pdf",
+    "bytes": 229515,
+    "sha256": "7767f242bb5b7e8ad95a4d935d39398e8d24eef4e350cfde7f488fe09b288253"
+  },
+  {
+    "path": "PPA_07/sb0016.pdf",
+    "bytes": 526124,
+    "sha256": "5d129f26ac1d6a07efdb84c7c8bbf46878c3299a8cfc66ab0cd17d15396bde96"
+  },
+  {
+    "path": "PPA_08/164916_64090283_06-14-2026_ADS.PDF",
+    "bytes": 547690,
+    "sha256": "0247bcf2545bd66cb16350de53e844fd9e6f65e9b7a8e3d204d6164bbd8a8e78"
+  },
+  {
+    "path": "PPA_08/N417.PYMT.pdf",
+    "bytes": 45035,
+    "sha256": "f8c55b3fdad1a8b4074f3761ae1206cd6a3c65c15c9272115b11dba1fd25b3df"
+  },
+  {
+    "path": "PPA_08/N417.pdf",
+    "bytes": 58613,
+    "sha256": "8232547237402ae148478e90aeababd0e7c39eeddb4a1a2fb8a19d5f5f860827"
+  },
+  {
+    "path": "PPA_08/PPA#8 164916_64090283_08-06-2026_APP.FILE.REC.PDF",
+    "bytes": 171403,
+    "sha256": "d9c8ded00feb84d92f9e343e4b8403099a63f10934115b25bb1f750157a87d5c"
+  },
+  {
+    "path": "PPA_08/PPA#8_FIGURES.pdf",
+    "bytes": 2882930,
+    "sha256": "6dcd2812a3dbbb8881b0fc1dfacbe70d944954d0cddb5d976b4f0f4811372a37"
+  },
+  {
+    "path": "PPA_08/SPEC_PPA Intelligent Bulk Produce Quality Control.docx",
+    "bytes": 38590,
+    "sha256": "c7b3da832091127c4a388eff011df7334c498399b262d3b9341785b23e98fd61"
+  },
+  {
+    "path": "PPA_08/SPEC_PPA#8 Intelligent Bulk Produce Quality Control.pdf",
+    "bytes": 125358,
+    "sha256": "be480526ecd8f4ff527837d1728fa12fe7881e5c07dcdf0bf85885c2430691ba"
+  },
+  {
+    "path": "PPA_08/sb0015a.pdf",
+    "bytes": 239531,
+    "sha256": "6be88993c8d306d57f254d90b955dd1aa877b54134240c11d69f6f488b8330a2"
+  },
+  {
+    "path": "PPA_08/sb0016.pdf",
+    "bytes": 535916,
+    "sha256": "cd7bd4e35fda53c823dfa2c82326fb521ed4110ba904fa983fa0246756ddd4e8"
+  },
+  {
+    "path": "PPA_09/164916_64106825_07-07-2026_ADS.PDF",
+    "bytes": 546656,
+    "sha256": "45f916b131d5593987a4d9a27fecdc5b7005de66ba76e8b16949ec4e2b2b7792"
+  },
+  {
+    "path": "PPA_09/N417.PYMT.pdf",
+    "bytes": 45027,
+    "sha256": "dca74716b6d343efe3f7b0d20be7f5f001fe5c47e85be3250d441243a5e76d3b"
+  },
+  {
+    "path": "PPA_09/N417.pdf",
+    "bytes": 55336,
+    "sha256": "22c3ca948b1088916a1e6b757618406902fb0109e466893b4c02db07fbea216f"
+  },
+  {
+    "path": "PPA_09/PPA#9 164916_64106825_08-20-2026_APP.FILE.REC.PDF",
+    "bytes": 170701,
+    "sha256": "41c2f5d370cde3222486ee298b7ce7504698e1e0ff58da2aa73704e7ef832724"
+  },
+  {
+    "path": "PPA_09/SPEC_PPA Modular Autonomous Retail Platform.docx",
+    "bytes": 42409,
+    "sha256": "86b92a650e8ab8eb9ec7256b4182fa1fd76b32f01cc3f71c987dbaa90f239a6f"
+  },
+  {
+    "path": "PPA_09/SPEC_PPA#9 Modular Autonomous Retail Platform.pdf",
+    "bytes": 137285,
+    "sha256": "0ef279990b88edde2cf89da19b157e7568e98d728f6d2248dcfe56edbd49fdfe"
+  },
+  {
+    "path": "PPA_09/sb0015a.pdf",
+    "bytes": 250057,
+    "sha256": "8d1e091f42e437e2c499961e00b96d7ec45b3926c7dcc126ac88e35c7fd081f5"
+  },
+  {
+    "path": "PPA_09/sb0016.pdf",
+    "bytes": 553892,
+    "sha256": "3b2496c43187d221c58b02bd21314869b801be6566cab3104fd039144f0a64e1"
+  },
+  {
+    "path": "PPA_10/164916_64125577_08-04-2026_ADS.PDF",
+    "bytes": 544880,
+    "sha256": "dd97604bd8a5df1a7f74a717895cdf97be81789921d768aae3d08cd91170cab8"
+  },
+  {
+    "path": "PPA_10/164916_64125577_09-18-2026_APP.FILE.REC.PDF",
+    "bytes": 170704,
+    "sha256": "5b26bea18470f6bcba12fd91c329fbd7c3b5c426a25c08d580e8388d37838cd5"
+  },
+  {
+    "path": "PPA_10/N417.PYMT.pdf",
+    "bytes": 45011,
+    "sha256": "c1455403a34946fc785035223913b249bda1dc33d3ac42d2efd81b7d2755f3db"
+  },
+  {
+    "path": "PPA_10/N417.pdf",
+    "bytes": 55141,
+    "sha256": "457b23fc8851f2cd46fe6881db86208898506be270b72659fd613f3f7e9add6a"
+  },
+  {
+    "path": "PPA_10/PPA#10 FIGURES1-4.pdf",
+    "bytes": 603221,
+    "sha256": "6c288189d4948af1d20c11fd3d6bcddd24f058cf0d4e767bdf81a319180f20de"
+  },
+  {
+    "path": "PPA_10/SPEC_PPA#10_Tare Tracking.docx",
+    "bytes": 3927035,
+    "sha256": "bf58d927551d8163459c231f14e198470c73fbc048afd62a38c4f4a31c03cfb0"
+  },
+  {
+    "path": "PPA_10/SPEC_PPA#10_Tare Tracking.pdf",
+    "bytes": 7982831,
+    "sha256": "a258c9e9ad342381f03642ddb566ec40b7a59f0d9f6d8ede1e012ad94d782275"
+  },
+  {
+    "path": "PPA_10/sb0015a.pdf",
+    "bytes": 255608,
+    "sha256": "ab1518372d9fa2bab98af530646083007eb187ab24db7ec45a68f1ae89574091"
+  },
+  {
+    "path": "PPA_10/sb0016.pdf",
+    "bytes": 571307,
+    "sha256": "395af85f09015aa4608b61718d1e160c86ceedabf22801d1bdc13352eedbfdeb"
+  },
+  {
+    "path": "Registry/PPA#1 Patent Center Index.pdf",
+    "bytes": 202583,
+    "sha256": "2da6e3699b0772610175fedc6743119e1e9c92f5991c6d3ac2f3a1408aac3e26"
+  },
+  {
+    "path": "Registry/PPA#10 Patent Center Index.pdf",
+    "bytes": 147842,
+    "sha256": "9d57dda12aba6890b7d9a9403963d3d7e1e5bbf1ce2476a0ec63464936bfd288"
+  },
+  {
+    "path": "Registry/PPA#2 Patent Center Index.pdf",
+    "bytes": 176132,
+    "sha256": "2d52de641be829c0c2a5000be73b5c58438482ab8b32dac6257b7f8a700b7dbc"
+  },
+  {
+    "path": "Registry/PPA#3 Patent Center Index.pdf",
+    "bytes": 208454,
+    "sha256": "c91d3c063b8d3415e9fe320af4271a02ddc19e1d2b3d5012726faccc60de7c46"
+  },
+  {
+    "path": "Registry/PPA#4 Patent Center Index.pdf",
+    "bytes": 163289,
+    "sha256": "b1d3a843b1c7d785061b452776ae6d57603ba98e021604adc6428a222742f5c2"
+  },
+  {
+    "path": "Registry/PPA#5 Patent Center Index.pdf",
+    "bytes": 163333,
+    "sha256": "87c42ddeb8fd5e0cb83014d8a3658e1f5b2b5e665b8e9061646cc7a47aa4b9de"
+  },
+  {
+    "path": "Registry/PPA#6 Patent Center Index.pdf",
+    "bytes": 175217,
+    "sha256": "8159d36c71f5b2abc89a223feb91a48a47cb58115d5cf10aa7b766ed31a27555"
+  },
+  {
+    "path": "Registry/PPA#7 Patent Center Index.pdf",
+    "bytes": 162576,
+    "sha256": "804f652127fe33c3cf00b313bd41ad290eba43e9eea5a4a300e706b99f6bb14f"
+  },
+  {
+    "path": "Registry/PPA#8 Patent Center Index.pdf",
+    "bytes": 152927,
+    "sha256": "9000825311b09e0b1259f9f6363a7ca93f13779934aab25e66c65a4adec32a7d"
+  },
+  {
+    "path": "Registry/PPA#9 Patent Center Index.pdf",
+    "bytes": 147052,
+    "sha256": "ee4d9596f6b1fea87029e75d43eed510363f330527733a87519294bd80c231cd"
+  },
+  {
+    "path": "Registry/PPA01_Official_Filing_Receipt.pdf",
+    "bytes": 172086,
+    "sha256": "26fb06f64c1fcc921b0427195c558d4de0fbee8b48479f3fac3f7cf06e016d1d"
+  },
+  {
+    "path": "Registry/Patent_Center/PPA#1 Patent Center Index.pdf",
+    "bytes": 202583,
+    "sha256": "2da6e3699b0772610175fedc6743119e1e9c92f5991c6d3ac2f3a1408aac3e26"
+  },
+  {
+    "path": "Registry/Patent_Center/PPA#10 Patent Center Index.pdf",
+    "bytes": 147842,
+    "sha256": "9d57dda12aba6890b7d9a9403963d3d7e1e5bbf1ce2476a0ec63464936bfd288"
+  },
+  {
+    "path": "Registry/Patent_Center/PPA#2 Patent Center Index.pdf",
+    "bytes": 176132,
+    "sha256": "2d52de641be829c0c2a5000be73b5c58438482ab8b32dac6257b7f8a700b7dbc"
+  },
+  {
+    "path": "Registry/Patent_Center/PPA#3 Patent Center Index.pdf",
+    "bytes": 208454,
+    "sha256": "c91d3c063b8d3415e9fe320af4271a02ddc19e1d2b3d5012726faccc60de7c46"
+  },
+  {
+    "path": "Registry/Patent_Center/PPA#4 Patent Center Index.pdf",
+    "bytes": 163289,
+    "sha256": "b1d3a843b1c7d785061b452776ae6d57603ba98e021604adc6428a222742f5c2"
+  },
+  {
+    "path": "Registry/Patent_Center/PPA#5 Patent Center Index.pdf",
+    "bytes": 163333,
+    "sha256": "87c42ddeb8fd5e0cb83014d8a3658e1f5b2b5e665b8e9061646cc7a47aa4b9de"
+  },
+  {
+    "path": "Registry/Patent_Center/PPA#6 Patent Center Index.pdf",
+    "bytes": 175217,
+    "sha256": "8159d36c71f5b2abc89a223feb91a48a47cb58115d5cf10aa7b766ed31a27555"
+  },
+  {
+    "path": "Registry/Patent_Center/PPA#7 Patent Center Index.pdf",
+    "bytes": 162576,
+    "sha256": "804f652127fe33c3cf00b313bd41ad290eba43e9eea5a4a300e706b99f6bb14f"
+  },
+  {
+    "path": "Registry/Patent_Center/PPA#8 Patent Center Index.pdf",
+    "bytes": 152927,
+    "sha256": "9000825311b09e0b1259f9f6363a7ca93f13779934aab25e66c65a4adec32a7d"
+  },
+  {
+    "path": "Registry/Patent_Center/PPA#9 Patent Center Index.pdf",
+    "bytes": 147052,
+    "sha256": "ee4d9596f6b1fea87029e75d43eed510363f330527733a87519294bd80c231cd"
+  },
+  {
+    "path": "Registry/REGISTRY_RU.md",
+    "bytes": 5593,
+    "sha256": "edd0918051edb02e9bb6932acb0df29e538df95b641661cc9098816752c603aa"
+  },
+  {
+    "path": "Registry/VERIFIED_PPA_REGISTRY.csv",
+    "bytes": 2614,
+    "sha256": "7d29d783250f26a9d525cfdd8a8fa1258f12ba62d141e14e50a1efb91d0689fa"
+  },
+  {
+    "path": "Registry/VERIFIED_PPA_REGISTRY.json",
+    "bytes": 6372,
+    "sha256": "ed33f3bff19ab0b4c472c1d737bca4b313fc87e79a02fc3cb03e6c08a0ad7bc8"
+  },
+  {
+    "path": "Supplemental/NPPA1_Client_Memo_EN.md",
+    "bytes": 18052,
+    "sha256": "7c33570230e84eef38dc1ae7e19e3ee9f4e66c2d3b3c7e47869f82e9c2017b5b"
+  },
+  {
+    "path": "Supplemental/NPPA1_Client_Memo_RU.md",
+    "bytes": 890,
+    "sha256": "edb4050785e86cb44baa5e57d1e5d6426850082461980a5163c1d641d10b1e96"
+  },
+  {
+    "path": "Supplemental/NPPA1_Client_Skeleton_NOT_FILED_EN.md",
+    "bytes": 40014,
+    "sha256": "fe4f89ab0fda33d9624f159d68719eb71609168054ebb220cde94922956764cf"
+  },
+  {
+    "path": "Supplemental/NPPA1_Supplemental_Figures_EN.pdf",
+    "bytes": 87494,
+    "sha256": "8de4465d2b89975807979dcbdf1868c9b9875931bf9d5e560cf66967f8ea3723"
+  }
+]
